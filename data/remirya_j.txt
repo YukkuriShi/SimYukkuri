@@ -1,0 +1,2381 @@
+# 餌発見
+[WantFood]
+	<normal>
+		<baby>
+			うー！うー！
+			Uu~! Uu~!
+			Gohan~tan ish here～！
+			Gonna Myunch~myunch~!☆
+			う～！Yummy~Yummy～☆
+			Remirya ish coming gohan-tan!
+			Uu~ Uu~! The schmell of mishder food!
+		</baby>
+		<child>
+			うー！うー！
+			Uu~! Uu~!
+			Gohan~chan ish here～！
+			Gonna Myunch~myunch~!☆
+			う～！Yummy~Yummy～☆
+			Uu~ Zakuya brought out mishter food!
+			Uu~! The smell of mishter food!
+		</child>
+		<adult>
+			うー！
+			Uu~!
+			うー！Gohan~chan is here～！
+			Munch~Munch time～☆
+			う～！Gonna do munch~munch～☆
+			Uu~! Uu~! The smell of mister food!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー！うー！
+			Uu~! Uu~!
+			Gohan~tan ish here～！
+			Gonna Myunch~myunch~!☆
+			う～！Yummy~Yummy～☆
+			Remirya ish coming gohan-tan!
+			Uu~! Uu~! The schmell of mishder food!
+			Uu~! Zakuya brought gohan-tan out!
+		</baby>
+		<child>
+			うー！うー！
+			Uu~! Uu~!
+			Gohan~chan ish here～！
+			Gonna Myunch~myunch~!☆
+			う～！Yummy~Yummy～☆
+			Uu~ Zakuya brought out mishter food!
+			Uu~! The smell of mishter food!
+		</child>
+		<adult>
+			うー！
+			Uu~!
+			うー！Gohan~chan is here～！
+			Munch~Munch time～☆
+			う～！Gonna do munch~munch～☆
+			Uu~! Uu~! The smell of mister food!
+			Uu~! Sakuya brought out mister food!
+		</adult>
+	</rude>
+[/WantFood]
+
+# 餌なし
+[NoFood]
+	<normal>
+		<baby>
+			うー、、、
+			Uu~...
+			Zakuya、、Zakuya、、
+			Gohan-tan where are you！?
+			Gohan-tan ish mishing！
+			Zakuya！
+			Gohan-tan wa doko~?
+			Wemi's tum~tum~chan ish hungwy!
+			う～、、、Aba~Aba~
+			Zakuya、、Gohan-tan、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Zaguya~、、Zaguya~、、
+				う～、Pweaze gohan-tan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</baby>
+		<child>
+			うー、、、
+			Uu~...
+			Zakuya、、Zakuya、、
+			Gohan-tan where are you！?
+			Gohan-tan ish mishing！
+			Zakuya！
+			Gohan-tan wa doko~?
+			Remi's mishter tum~tum ish hungry!
+			う～、、、Aba~Aba~...
+			Zakuya、、Gohan-tan、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Gohan~chan pweaze...
+				Zaguya~! Pweaze, gohan-chan!
+				Zaguya~、、Zaguya~、、
+				Pweaze mishder food...
+				う～、Pweaze gohan-chan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</child>
+		<adult>
+			Mishder food where are you？
+			Remi's mishder tum-tum ish hungry、、、
+			Zakuya~ Where ish mishder food!?
+			Zakuyaa、、Mishder food、、、
+			Remiria ish hungry～！
+			Zakuya！
+			Gohan-san wa doko~?
+			Remi's mishter tum~tum ish hungry!
+			う～、、、Aba~Aba~...
+			Zakuya、、Gohan-san、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Pleaze, mishder food....
+				Zaguya~! Pweaze, gohan-chan!
+				Zaguya~、、Zaguya~、、
+				う～、Pweaze gohan-chan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Zaguya！ Bwing gohan~tan now!
+			Mishder tum~tum ish hungwy wight now！
+			Zakuya、、gohan~tan、、、
+			うー、、、
+			Uu~...
+			Zakuya、、Zakuya、、
+			Gohan-tan where are you！?
+			Gohan-tan ish mishing！
+			Zakuya！
+			Gohan-tan wa doko~?
+			Remi's mishter tum~tum ish hungry!
+			う～、、、Aba~Aba~...
+			Zakuya、、Gohan-tan、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Pleaze, mishder food....
+				Zaguya~! Pweaze, gohan-chan!
+				Zaguya~、、Zaguya~、、
+				う～、Pweaze gohan-chan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</baby>
+		<child>
+			うー、、、
+			Uu~...
+			Zakuya、、Zakuya、、
+			Gohan-tan where are you！?
+			Gohan-tan ish mishing！
+			Zakuya！
+			Gohan-tan wa doko~?
+			Remi's mishter tum~tum ish hungry!
+			う～、、、Aba~Aba~...
+			Zakuya、、Gohan-tan、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Gohan~chan pweaze...
+				Zaguya~! Pweaze, gohan-chan!
+				Zaguya~、、Zaguya~、、
+				Pweaze mishder food...
+				う～、Pweaze gohan-chan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</child>
+		<adult>
+			Mishder food where are you？
+			Remi's mishder tum-tum ish hungry、、、
+			Zakuya~ Where ish mishder food!?
+			Zakuyaa、、Mishder food、、、
+			Remiria ish hungry～！
+			Zakuya！
+			Gohan-san wa doko~?
+			Remi's mishter tum~tum ish hungry!
+			う～、、、Aba~Aba~...
+			Zakuya、、Gohan-san、、、
+			<damage>
+				うー、、、
+				Uu~...
+				Pleaze, mishder food....
+				Zaguya~! Pweaze, gohan-chan!
+				Zaguya~、、Zaguya~、、
+				う～、Pweaze gohan-chan、、、
+				Zaguyaaaa、、、Help me Zaguyaa、、、
+				Zaguyaa、、Zaguyaa、、
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# 発情
+[Excite]
+	<normal>
+		<baby>
+			うー！うー！
+			Uu~! Uu~!
+			Uu~!
+			Remi'z peni~peni came out! Uu~!
+		</baby>
+		<child>
+			うー！うー！
+			Uu~! Uu~!
+			Uu~!
+			Remirya'z peni~peni~ came out！ Uu~!
+		</child>
+		<adult>
+			うー！うー！
+			Uu~! Uu~!
+			Uu~!
+			Remirya's peni~peni~ came out! Uu~!
+		</adult>
+	</normal>
+[/Excite]
+
+# リラックス
+[Relax]
+	<normal>
+		<baby>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			う～♪Chaking id very eajy~!
+			Uu~? Wemi ish Wemi you know!
+			Myan~mya～ Myan~Mya～♪
+			みゃん~みゃ～♪
+			う～？ うーーっ♪
+			Uu~? Uuu~!
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</baby>
+		<child>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			う～♪Chaking id very eajy~!
+			Uu~? Wemi ish Wemi you know!
+			Myan~mya～ Myan~Mya～♪
+			みゃん~みゃ～♪
+			う～？ うーーっ♪
+			Uu~? Uuu~!
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</child>
+		<adult>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			う～♪Chaking id very eajy~!
+			Uu~? Remi is Remi you know!
+			Myan~mya～ Myan~Mya～♪
+			みゃん~みゃ～♪
+			う～？ うーーっ♪
+			Uu~? Uuu~!
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			Zaguya~☆ Zaguya~☆
+			Bupipi♪ Bupipi♪
+			Wemi ish Wemiiiii！
+			Wemi owns the Shcarlet Devil Manshion you know!☆
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</baby>
+		<child>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			Zakuya~☆ Zakuya☆
+			Wemi ish Wemirya you know！
+			Old Geezer ish Wemi's servant you know!
+			Wemirya owns the Scarlet Devil Mansion you know!☆
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</child>
+		<adult>
+			う～♪う～♪
+			Uu~♪Uu~♪
+			Uu~♪Uu~♪
+			Remi is Remilia you know！
+			Sakuya~☆ Sakuya~☆
+			Remilia owns the Scarlet Devil Mansion you know!☆
+			UuU~~☆ Ua~Ua~☆ Remilia is very charismatic you know♪
+			Old Geezer！You're Remilia's servant you know♪
+			UuU~☆Ua~☆Ua~☆Remi☆Rya~☆Uu~!
+		</adult>
+	</rude>
+[/Relax]
+
+# 尻振り
+[FuriFuri]
+	<normal>
+		<baby>
+			うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			Dis ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</baby>
+		<child>
+		うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			Dis ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</child>
+		<adult>
+		うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			This ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			Dis ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</baby>
+		<child>
+		うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			Dis ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</child>
+		<adult>
+		うっう～☆うあ☆うあ☆ 
+			UuU~☆ Ua~☆U Ua~☆
+			UuU~☆Ua~☆Ua~☆ UuU~☆Ua~☆Ua~☆
+			UuU~ Ua~Ua~♪
+			Ua~？ Ua~! Ua~! Ua~!☆
+			Miteee☆ Ua~ Ua~♪
+			This ish fun you know~☆
+			Fu～Rifu～Ri♪Remi☆Rya☆Uu~！
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# 起床
+[Wakeup]
+	<normal>
+		<baby>
+			う～ う～！
+			Uu~! Uu~!
+			Chake id eajy~！
+		</baby>
+		<child>
+			う～ う～！
+			Uu~! Uu~!
+			Chake id eajy~！
+		</child>
+		<adult>
+			う～ う～！
+			Uu~! Uu~!
+			Chake id eajy, ok?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う～ う～！!!
+			Uu~!!!! Uu~!!!!
+			Chake id eajy~, shiddy servant!
+		</baby>
+		<child>
+			う～ う～！！！
+			Uu~! Uu~!
+			Chake id eajy old geezer~！
+		</child>
+		<adult>
+			う～ う～！
+			Uu~! Uu~!
+			Take it easy old geezer~！
+		</adult>
+	</rude>
+[/Wakeup]
+
+# 睡眠
+[Sleep]
+	<normal>
+		<baby>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			Zaguya・・・
+		</baby>
+		<child>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			Saguya・・
+		</child>
+		<adult>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			SaKuya・・
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			Zaguya・・
+		</baby>
+		<child>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			Saguya・・
+		</child>
+		<adult>
+			うー・・・うー・・・
+			Uu~・・・Uu~・・・
+			Sakuya・・
+		</adult>
+	</rude>
+[/Sleep]
+
+# 悲鳴
+[Scream]
+	<normal>
+		<baby>
+			ううー！
+			Uu~!
+			やべるんだどー！
+			れみぃになんてことするんだどー！
+			さくやー！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</baby>
+		<child>
+			ううー！
+			やべるんだどー！
+			れみぃになんてことするんだどー！
+			さくやー！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</child>
+		<adult>
+			ううー！
+			やべるんだどー！
+			おぜうさまになんてことするんだどー！
+			ざぐやあ゛あ゛あ゛！！！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ううー！
+			やべるんだどー！
+			れみぃになんてことするんだどー！
+			さくやー！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</baby>
+		<child>
+			ううー！
+			やべるんだどー！
+			れみぃになんてことするんだどー！
+			さくやー！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</child>
+		<adult>
+			ううー！
+			やべるんだどー！
+			おぜうさまになんてことするんだどー！
+			ざぐやあ゛あ゛あ゛！！！
+			うぅうー！おまえぎらいー！！！
+			<damage>
+				ううう、、、
+				やべで、、もうやべで、、、
+				さくやあぁ、、だじゅげで、、、
+				おまえぎらい、、あっぢいげえぇ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# 怯え
+[Scare]
+	<normal>
+		<baby>
+			うー、、、
+			こわいんだどー！
+			さくやー！たすけるんだどー！！
+			<damage>
+				うー、、、
+				ごわいんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</baby>
+		<child>
+			うー、、、
+			こわいんだどー！
+			さくやー！たすけるんだどー！！
+			<damage>
+				うー、、、
+				ごわいんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</child>
+		<adult>
+			うー、、、
+			こわいんだどー！
+			さくやー！たすけるんだどー！！
+			<damage>
+				うー、、、
+				ごわいんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</adult>
+	</normal>
+[/Scare]
+
+# 警戒
+[Alarm]
+	<normal>
+		<baby>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</baby>
+		<child>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</child>
+		<adult>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</baby>
+		<child>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</child>
+		<adult>
+			やめるんだどー！
+			さくやー！たすけるんだどー！！
+			おまえ ぎらい～！！！
+			<damage>
+				やべるんだど、、、
+				ざくやぁ、、、だずげで、、、
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# 瀕死
+[Dying]
+	<normal>
+		<baby>
+			うぐぅ！
+			うぅ、、、
+		</baby>
+		<child>
+			ぷきゅっ！
+			うぅ、、、
+		</child>
+		<adult>
+			げぼっ！
+			うぅ、、、
+		</adult>
+	</normal>
+[/Dying]
+
+# 死亡
+[Dead]
+	<normal>
+		<baby>
+			うー、、、
+		</baby>
+		<child>
+			うー、、、
+		</child>
+		<adult>
+			うー、、、
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー、、、
+		</baby>
+		<child>
+			うー、、、
+		</child>
+		<adult>
+			うー、、、
+		</adult>
+	</rude>
+[/Dead]
+
+# 食事
+[Eating]
+	<normal>
+		<baby>
+			う～！う～！
+			でりーしゃす！なおあじだど～！
+			うぅ～☆ おにいしゃん ありがとーなんだどー！
+		</baby>
+		<child>
+			う～！う～！
+			でりーしゃす！なおあじだど～！
+			うぅ～☆ おにいしゃん ありがとーなんだどー！
+		</child>
+		<adult>
+			う～！う～！
+			う～！でりしゃすだどぉ～♪
+			えれがんと☆な おあじだど～！
+			うぅ～☆ おにいさん ありがとーなんだどー！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うっう～☆
+			うっう～！まんぞくできないんだどぉ～！
+			いまいちなんだど～ つぎはぷっでぃ～んもってくるんだど～！
+		</baby>
+		<child>
+			うっう～☆
+			うっう～！まんぞくできないんだどぉ～！
+			いまいちなんだど～ つぎはぷっでぃ～んもってくるんだど～！
+		</child>
+		<adult>
+			うっう～☆
+			うっう～！まんぞくできないんだどぉ～！
+			いまいちなんだど～ つぎはぷっでぃ～んもってくるんだど～！
+		</adult>
+	</rude>
+[/Eating]
+
+# 食事(うんうん)
+[EatingShit]
+	<normal>
+		<baby>
+			うー！くちゃいんだどー！まじゅいんだどー！！！
+			もぎゅもぎゅ、、、まじゅいんだど、、、
+			ゆわあああん、くちゃいんだど、、、
+			にゃんで れみぃがうんうんたべにゃきゃいけにゃいんだど？
+		</baby>
+		<child>
+			うー！くちゃいんだどー！まじゅいんだどー！！！
+			もぎゅもぎゅ、、、まじゅいんだど、、、
+			うんうんたべるなんてくつじょくなんだど、、、
+			にゃんで れみぃがうんうんたべにゃきゃいけにゃいんだど？
+		</child>
+		<adult>
+			うー！くさいどー、まずいんだどー！！！
+			うんうんはたべものじゃないんだど、、、
+			うんうんたべるなんてくつじょくなんだど、、、
+			なんで おぜうさまがうんうんたべなきゃいけなんだど？
+		</adult>
+	</normal>
+[/EatingShit]
+
+# 食事(毒)
+[EatingBitter]
+	<normal>
+		<baby>
+			う～う～、、こりぇ どきゅはいってるんだどー！
+			ゆべえぇぇぇ！まずいんだど、、、
+			う～、、げろまじゅー！
+		</baby>
+		<child>
+			う～う～、、こりぇ どきゅはいってるんだどー！
+			ゆべえぇぇぇ！まずいんだど、、、
+			う～、、げろまじゅー！
+		</child>
+		<adult>
+			うー、、こりぇ どくはいってるんだどー！
+			ゆべえぇぇぇ！まずいんだど、、、
+			う～、、げろまずー！
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# 満腹
+[Full]
+	<normal>
+		<baby>
+			う～、、、
+		</baby>
+		<child>
+			う～、、、もうちゃべりゃれないどぉ、、、
+		</child>
+		<adult>
+			うー、、、もうたべられないどぉ、、、
+		</adult>
+	</normal>
+[/Full]
+
+# 回復
+[Healing]
+	<normal>
+		<baby>
+			あみゃあみゃ！
+			あみゃあみゃだどー！
+			<damage>
+				かりすま☆れみぃがふっかつしたんだどー！
+				れみぃは、かれいにふっかつ☆したんだどー！
+			</damage>
+		</baby>
+		<child>
+			あまあま おいしいんだどー！
+			おにいしゃん、あまあまありがとうなんだどー☆
+			<damage>
+				かりすま☆れみぃがふっかつしたんだどー！
+				れみぃは、かれいにふっかつ☆したんだどー！
+			</damage>
+		</child>
+		<adult>
+			あまあま おいしいんだどー！
+			おにいさん、あまあまありがとうなんだどー☆
+			<damage>
+				かりすま☆おぜうさまがふっかつしたんだどー！
+				れみぃは、かれいにふっかつしたどー☆
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			あみゃあみゃ！
+			あみゃあみゃだどー！
+			<damage>
+				かりすま☆れみぃがふっかつしたんだどー！
+				れみぃは、かれいにふっかつ☆したんだどー！
+			</damage>
+		</baby>
+		<child>
+			あまあまおいしいんだどー！
+			あまあまだどー！
+			<damage>
+				かりすま☆れみぃがふっかつしたんだどー！
+				れみぃは、かれいにふっかつ☆したんだどー！
+			</damage>
+		</child>
+		<adult>
+			あまあまおいしいんだどー！
+			あまあまだどー！
+			<damage>
+				かりすま☆おぜうさまがふっかつしたんだどー！
+				れみぃは、かれいにふっかつしたどー☆
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# すっきり
+[Sukkiri]
+	<normal>
+		<baby>
+			うーっ！！
+			すっきりー！
+		</baby>
+		<child>
+			うーっ！！
+			すっきりー！
+		</child>
+		<adult>
+			うーーっ！！！
+			すっきりー！
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# レイパーとすっきり
+[RaperSukkiri]
+	<normal>
+		<baby>
+			すっきりー！しだぐないんだどー！
+			おちびちゃん、はえてくるなだどおぉぉ！！！
+			れみいのまむまむ ごわれちゃうんだどー！
+			うぅうー！おまえぎらいー！！！
+		</baby>
+		<child>
+			すっきりー！ししだぐないんだどー！
+			もっとやさしくするんだどおぉ！！！
+			おちびちゃん、はえてくるなだどおぉぉ！！！
+			れみいのまむまむ ごわれちゃうんだどー！
+			うぅうー！おまえぎらいー！！！
+		</child>
+		<adult>
+			も゛う゛ずっぎりじだぐないぃぃぃ！
+			も゛っどやざじぐずるんだどおぉ！！！
+			おぢびぢゃん、はえでぐるなだどおぉぉ！！！
+			れみいのまむまむ ごわれるんだどおおお！！！
+			うぅうー！おまえぎらいー！！！
+		</adult>
+	</normal>
+[/RaperSukkiri]
+
+# 誕生
+[Birth]
+	<normal>
+		う～！う～！
+	</normal>
+[/Birth]
+
+# 排泄
+[Shit]
+	<normal>
+		<baby>
+			うんうんだどー！
+			うんうんしゃん ゆっきゅりでてくるんだどー♪
+			うんうんしゃん ばいばいなんだどー☆
+			うぅ～☆ れみぃは ひとりでうんうんできるんだどー
+			<pants>
+				うー？うんうん もりぇりゅんだど！
+				うー！おくるみしゃん ぬげないんだどー？	
+				おにいしゃん！おくるみしゃん とるんだどー？
+			</pants>
+		</baby>
+		<child>
+			うんうんだどー！
+			うんうんしゃん ゆっきゅりでてくるんだどー♪
+			うんうんしゃん ばいばいなんだどー☆
+			うぅ～☆ れみぃは ひとりでうんうんできるんだどー
+			<pants>
+				うー？うんうん もりぇりゅんだど！
+				うー！おくるみしゃん ぬげないんだどー？	
+				おにいしゃん！おくるみしゃん とるんだどー？
+			</pants>
+		</child>
+		<adult>
+			うんうんだどー！
+			おぜうさまが うんうんするんだどー！
+			うんうんさん ばいばいなんだどー☆
+			うんうんさん ゆっくりでてくるんだどー
+			<pants>
+				うんうんさん もれちゃうんだど？
+				うー！おようふくぬげないんだどー？	
+				おにいさん！おようふくぬがせるんだどー？
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うんうんだどー！
+			うんうんしゃん ゆっきゅりでてくるんだどー♪
+			うんうんしゃん ばいばいだどー☆
+			おぜうさまが えれがんと☆にうんうんしゅりゅどー！
+			うぅ～☆ れみぃは ひとりでうんうんできるんだどー
+			<pants>
+				うー？うんうん もりぇりゅんだど！
+				うー！おくるみしゃん ぬげないんだどー？	
+				どりぇい！おくるみしゃん ぬがせるんだどー？
+			</pants>
+		</baby>
+		<child>
+			うんうんだどー！
+			うんうんしゃん ゆっきゅりでてくるんだどー♪
+			うんうんしゃん ばいばいだどー☆
+			おぜうさまが えれがんと☆に うんうんしゅりゅどー！
+			うぅ～☆ れみぃは ひとりでうんうんできるんだどー
+			<pants>
+				うー？うんうん もりぇりゅんだど！
+				うー！おくるみしゃん ぬげないんだどー？	
+				どりぇい！おくるみしゃん ぬがせるんだどー？
+			</pants>
+		</child>
+		<adult>
+			うんうんだどー！
+			おぜうさまが うんうんするんだどー！
+			うんうんさん ばいばいだどー☆
+			おぜうさまの うんうんたいむだどー！
+			おぜうさまが えれがんと☆にうんうんするどー！
+			<pants>
+				うんうん もれちゃうんだどぉ？
+				うー！ぱんつさんぬげないんだどー？	
+				どれいぃ！おようふくぬがせるんだどー？
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# 排泄2
+[Shit2]
+	<normal>
+		<baby>
+			うー！すっきち！
+			うー！ひとりで うんうんできたどー♪
+			うんうん かたずけるんだどー！
+			<pants>
+				きもちわるいんだどー！
+				うんうんくちゃいどー！
+				うー、、、きもちわるいんだど、、、
+				きちゃにゃいのは えれがんとじゃないんだど、、、
+				うんうんだらけは おぜうさまとはいえないんだど、、、
+			</pants>
+		</baby>
+		<child>
+			うー！すっきちー！
+			うー！ひとりで うんうんできたどー♪
+			うんうん かたずけるんだどー！
+			<pants>
+				きもちわるいんだどー！
+				うんうんくちゃいどー！
+				うー、、、きもちわるいんだど、、、
+				きちゃにゃいのは えれがんとじゃないんだど、、、
+				うんうんだらけは おぜうさまとはいえないんだど、、、
+			</pants>
+		</child>
+		<adult>
+			うー！すっきりー！
+			うんうん かたずけるんだどー！
+			じゅーしゃ！ さっさとかたづけるんだどー！
+			<pants>
+				ううう、、、
+				こんなのくつじょくなんだど、、、
+				うー、、、おぜうさまは おちびちゃんじゃないんだど、、、
+				うー、、、くさいど、きもちわるいんだど、、、
+				きちゃないのは えれがんとじゃないんだど、、、
+				うんうんだらけは おぜうさまとはいえないんだど、、、
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# すりすり
+[SuriSuri]
+	<normal>
+		<baby>
+			う～♪う～♪
+			ちゃーわちぇーだど～！
+			ぅぁー♪ まんまと かりいくんだどー！
+			ちゅ～り♪ちゅ～り♪
+		</baby>
+		<child>
+			う～♪しゅーりしゅーりだどぉ～♪
+			まんまのだんすは せかいいちぃいぃいーーーー♪
+			しゃーわしぇーだど～！
+			ぅぁー♪ まんまと かりいくんだどー！
+			しゅ～り♪しゅ～り♪
+		</child>
+		<adult>
+			う～♪しあわせだどぉ～♪
+			しゃーわしぇー♪なんだど～！
+			す～り♪す～り♪
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# ぺろぺろ
+[PeroPero]
+	<normal>
+		<baby>
+			ぺりょぺりょ
+			まんまー！
+			ぶとうかいが はじまりゅんだど～♪
+		</baby>
+		<child>
+			ぺーりょぺーりょ
+			まんまー！
+			ぶとうかいが はじまりゅんだど～♪
+		</child>
+		<adult>
+			ぺーろぺーろ
+			うー♪おちびはあまえんぼうなんだど～
+			うー♪れみぃしあわせなんだどー！
+			うぅ～！ぶとうかいのじゅんびだど～♪
+			うー！おちび、ゆっくりでいいんだど～！
+		</adult>
+	</normal>
+[/PeroPero]
+
+# 出産
+[Breed]
+	<normal>
+		<baby>
+			うー、、、うばれりゅどぉ、、、
+		</baby>
+		<child>
+			うー、、、うばれりゅどぉ、、、
+		</child>
+		<adult>
+			うー、、、おちびちゃんがうごいてるんだどぉ、、、
+			うー、、、うばれるどぉ、、、
+		</adult>
+	</normal>
+[/Breed]
+
+# 産後
+[Breed2]
+	<normal>
+		おちびちゃん、ゆっくりしていくんだどぉ～♪
+		れみぃと%partnerにそっくりのおちびなんだど～☆
+		<pants>
+			れみぃのおぢびがぁぁっ！
+			うぅ～ おぢびが～！
+		</pants>
+	</normal>
+[/Breed2]
+
+# うんうん発見
+[HateShit]
+	<normal>
+		<baby>
+			う～、くちゃいんだど～！
+			うんうんくちゃいんだど～！
+			<damage>
+				くちゃいんだど～、、、
+				うんうんくちゃいんだど、、、
+			</damage>
+		</baby>
+		<child>
+			う～、うんうんかたぢゅけてほしいど！
+			う～、、にゃんだかくちゃいんだど？
+			<damage>
+				くちゃいんだど、、、
+				うんうんくちゃいんだど、、、
+			</damage>
+		</child>
+		<adult>
+			う～！うんうんかたづけてほしいど！
+			うんうん おかたづけしてほしいんだど！
+			<damage>
+				くさいんだど、、、ゆっくりできないんだど、、、
+				なんでれみぃが こんなめにあうんだど、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う～、くちゃいんだど～！
+			うんうんくちゃいんだど～！
+			れみぃをゆっきゅりさせないくじゅおやは くたばるんだど！
+			<damage>
+				くちゃいんだど、、、
+				うんうんくちゃいんだど、、、
+			</damage>
+		</baby>
+		<child>
+			う～、うんうんかたぢゅけてほしいど！
+			う～、、にゃんだかくちゃいんだど？
+			れみぃをゆっきゅりさせないくじゅおやは しぬんだど！
+			<damage>
+				くちゃいんだど、、、
+				うんうんくちゃいんだど、、、
+			</damage>
+		</child>
+		<adult>
+			う～！うんうんかたづけるんだど～！
+			ゆっくりできないんだどー！
+			<damage>
+				くさいんだど、、、ゆっくりできないんだど、、、
+				なんでれみぃが こんなめにあうんだど、、、
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# 空腹
+[Hungry]
+	<normal>
+		<baby>
+			うー、、、
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</baby>
+		<child>
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</child>
+		<adult>
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</baby>
+		<child>
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</child>
+		<adult>
+			おにゃかぺこぺこだど～！
+			う～、、、あまあま、、、
+			さくやぁ、、さくやぁ、、
+			<damage>
+				うー、、、
+				おにゃかぺこぺこだど～！
+				う～、、、あばあば、、、
+				ざぐやぁ、、ざぐやぁ、、
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# おかざり没収
+[NoAccessory]
+	<normal>
+		<baby>
+			うぅ～？ うぅ～！！！
+			れみぃのかりすまっ☆おぼうしさん かえすんだどー！
+			うぅー！かえすんだどー！
+			うぅ～！いぢわりゅしゅりゅなだど～！
+		</baby>
+		<child>
+			うぅ～？ うぅ～！！！
+			れみぃのかりすまっ☆おぼうしさん かえすんだどー！
+			うぅー！かえすんだどー！
+			うぅ～！いぢわりゅしゅりゅなだど～！
+		</child>
+		<adult>
+			うぅ～？ うぅ～！！！
+			れみぃのかりすまっ☆おぼうしさん かえすんだどー！
+			うぅー！かえすんだどー！
+			うぅ～！いぢわるするなだど～！
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# 持ち上げ
+[Flying]
+	<normal>
+		<baby>
+			うぅ～？
+			ふわ～り ふわ～り♪なんだど～！
+			うっうー☆ふわふわ♪ うっうー☆ふわふわ♪
+		</baby>
+		<child>
+			うぅ～？
+			ふわ～り ふわ～り♪なんだど～！
+			うっうー☆ふわふわ♪ うっうー☆ふわふわ♪
+		</child>
+		<adult>
+			うぅ～？
+			ふわ～り ふわ～り♪なんだど～！
+			うっうー☆ふわふわ♪ うっうー☆ふわふわ♪
+		</adult>
+	</normal>
+[/Flying]
+
+# 子供死亡
+[SadnessForChild]
+	<normal>
+		<baby>
+			ううぅ、、、
+			れみぃのあかちゃん すきとおったきれいなおめめをあけるんだどー！
+			れみぃのあかちゃんがー！
+			れみぃのあかちゃん どうしたんだどぉぉぉ！？
+		</baby>
+		<child>
+			ううぅ、、、
+			れみぃのあかちゃん すきとおったきれいなおめめをあけるんだどー！
+			れみぃのあかちゃんがー！
+			れみぃのあかちゃん どうしたんだどぉぉぉ！？
+		</child>
+		<adult>
+			ううぅ、、、
+			れみぃのおちびちゃん すきとおったきれいなおめめをあけるんだどー！
+			れみぃのおちびちゃんがー！
+			れみぃのおちびちゃん どうしたんだどぉぉぉ！？
+		</adult>
+	</normal>
+[/SadnessForChild]
+
+# つがい死亡
+[SadnessForPartner]
+	<normal>
+		%partner、めをあけるんだどー！
+	</normal>
+[/SadnessForPartner]
+
+# 姉死亡
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			おねぇしゃん、めをあけるんだどー！
+		</baby>
+		<child>
+			おねぇしゃん、めをあけるんだどー！
+		</child>
+		<adult>
+			%partner、めをあけるんだどー！
+		</adult>
+	</normal>
+[/SadnessForEldersister]
+
+# 妹死亡
+[SadnessForSister]
+	<normal>
+		<baby>
+			いもうちょ、めをあけるんだどー！
+		</baby>
+		<child>
+			いもうちょ、めをあけるんだどー！
+		</child>
+		<adult>
+			%partner、めをあけるんだどー！
+		</adult>
+	</normal>
+[/SadnessForSister]
+
+# 壁発見
+[BlockedByWall]
+	<normal>
+		<baby>
+			れみぃ しゅしゅめにゃいんだどぉぉぉ！？
+			れみぃのじゃまするなだどぉぉぉ！！！
+			うぅー！あっぢ いげえ！！！
+		</baby>
+		<child>
+			れみぃ しゅしゅめにゃいんだどぉぉぉ！？
+			れみぃのじゃまするなだどぉぉぉ！！！
+			うぅー！あっぢ いげえ！！！
+		</child>
+		<adult>
+			れみぃ しゅしゅめにゃいんだどぉぉぉ！？
+			おぜうさまのじゃまするなだどぉぉぉ！！！
+			うぅー！あっぢ いげえ！！！
+		</adult>
+	</normal>
+[/BlockedByWall]
+
+# おもちゃ発見
+[GetTreasure]
+	<normal>
+		<baby>
+			れみぃのたからものにしゅるど～！
+			こーまかんに もってかえるんだどー☆
+		</baby>
+		<child>
+			れみぃのたからものにしゅるど～！
+			こーまかんに もってかえるんだどー☆
+		</child>
+		<adult>
+			れみぃのたからものにしゅるど～！
+			こーまかんに もってかえるんだどー☆
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# おもちゃ紛失
+[LostTreasure]
+	<normal>
+		<baby>
+			う゛～！う゛～！
+			れみぃのたからもの かえすんだどー！
+		</baby>
+		<child>
+			う゛～！う゛～！
+			れみぃのたからもの かえすんだどー！
+		</child>
+		<adult>
+			う゛～！う゛～！
+			れみぃのたからもの かえすんだどー！
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# 膨張
+[Inflation]
+	<normal>
+		<baby>
+			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
+			ぽんぽんいだいいいい！
+			くるちいいいい！！！！
+			さくやあああ！たすけてえええ！！！
+			いちゃああいいい！！！おにいしゃんだじゅげでえ！！！！
+			たしゅけちぇ！れみぃ、ちにたくないんだど！！！！！！
+		</baby>
+		<child>
+			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
+			ぽんぽんいだいいいい！
+			くるちいいいい！！！！
+			さくやあああ！たすけてえええ！！！
+			いちゃああいいい！！！おにいしゃんだじゅげでえ！！！！
+			たしゅけちぇ！れみぃ、ちにたくないんだど！！！！！！
+		</child>
+		<adult>
+			ぽんぽんがばくはつするうううううぅぅぅぅ！
+			ぽんぽんいだいいいい！
+			ぐるぢいいいい！！！！
+			ざぐやあ゛あ゛あ゛あ゛だずげでええええ！！！！
+			いだああいいい！！！おにいさんだずげでえ！！！！
+			たすけてぇ！れみぃ、じにだぐないいい！！！！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
+			ぽんぽんいだいいいい！
+			くるちいいいい！！！！
+			いぢゃあああい！くしょじじい だじゅげろおおお！！！！
+			じじい、たしゅけりょ！れみぃ、ちにたくないんだどおおお！！！！！！
+		</baby>
+		<child>
+			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
+			ぽんぽんいだいいいい！
+			くるちいいいい！！！！
+			いぢゃあああい！くしょじじだじゅげろおおお！！！！
+			じじい、たしゅけりょ！れみぃ、ちにたくないんだどおおお！！！！！！
+		</child>
+		<adult>
+			ぽんぽんがばくはつするうううううぅぅぅぅ！
+			ぽんぽんいだいいいい！
+			ぐるぢいいいい！！！！
+			いだああいいい！！！ぐぞじじいだずげろおおお！！！！
+			じじい、だずげろお！れみぃ、じにだぐないんだどおおお！！！！！！
+		</adult>
+	<rude>
+[/Inflation]
+
+# 子虐待
+[AbuseBaby]
+	<normal>
+		<baby>
+			うー！うー！
+			いちゃいいいい！！！やめるんだど？
+			うー！あかちゃんかえすんだどー！！！
+			どぼじでごんなごどずるんだどー！！！
+		</baby>
+		<child>
+			うー！うー！
+			いちゃいいいい！！！やめるんだど？
+			うー！あかちゃんかえすんだどー！！！
+			どぼじでごんなごどずるんだどー！！！
+		</child>
+		<adult>
+			うー！うー！
+			いぢゃいいいい！！！やめるんだど？
+			うー！おちびちゃんかえすんだどー！！！
+			どぼじでごんなごどずるんだどー！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー！うー！
+			いちゃいいいい！！！やめるんだど？
+			うー！あかちゃんいじめりゅなだどー！
+			どぼじでごんなごどずるんだどおおお！！！
+			げす！あくま！おまえりゃ、ころちてやるんだどおおお！！！
+			やめりょおおお！れみぃのあかちゃんかえすんだどおおお！！！
+		</baby>
+		<child>
+			うー！うー！
+			いちゃいいいい！！！やめるんだど？
+			うー！あかちゃんいじめりゅなだどー！
+			どぼじでごんなごどずるんだどおおお！！！
+			げす！あくま！おまえりゃ、ころちてやるんだどおおお！！！
+			やめりょおおお！れみぃのあかちゃんかえすんだどおおお！！！
+		</child>
+		<adult>
+			うー！うー！
+			いぢゃいいいい！やめるんだどー！！！
+			うー！おちびにてをだすなだどー！
+			どぼじでごんなごどずるんだどおおお！！！
+			げす！あぐま！おばえら、ごろぢでやるんだどおおお！！！
+			やべろおおお！れみぃのおちびをかえすんだどおおお！！！
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# のびのび
+[Nobinobi]
+	<normal>
+		<baby>
+			う～♪う～♪
+			う～♪にょ～びにょ～び♪
+		</baby>
+		<child>
+			う～♪う～♪
+			う～♪にょ～びにょ～び♪
+		</child>
+		<adult>
+			う～♪う～♪
+			う～♪の～びの～び だどぉ～♪
+			れみぃ、の～びの～びするんだどぉ～♪
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うっう～♪うっう～♪
+		</baby>
+		<child>
+			うっう～♪うっう～♪
+			うっう～♪にょ～び にょ～び♪
+			
+		</child>
+		<adult>
+			うっう～♪うっう～♪
+			うっう～♪にょ～び にょ～びだどぉ～♪
+			れみぃ、の～びの～びするんだどぉ～♪
+		</adult>
+	<rude>
+[/Nobinobi]
+
+# 出産前
+[NearToBirth]
+		<normal>
+		<baby>
+			うみゃりぇりゅんだどー！
+			あかちゃんうごいたんだど！ぷくぷくーって！
+			あかちゃんゆっきゅりちてるんだどー！
+			べっどしゃん どこなんだど～？
+		</baby>
+		<child>
+			あかちゃん うみゃれるんだどー！
+			あかちゃん べっどしゃんでうまれりゅんだどー
+			あかちゃんうごいたんだど！ぷくぷくーって！
+			あかちゃんは ゆっきゅりできるんだどー！
+		</child>
+		<adult>
+			れみぃのおちびちゃん うまれそうなんだど！
+			おちびちゃんは べっどさんでうまれるんだどー
+			おちびちゃんが げんきにうごいてるんだどー！
+			かわいいかわいい おちびがうまれるんだど！
+			れみぃは ままになるんだどー！
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# 毒
+[PoisonDamage]
+	<normal>
+		<baby>
+			うー！くるちい!
+			うぅ、、ゆぴぃぃぃ！！
+			ゆげほ、ゅげほ、、、
+			ざぐやぁあ゛あ゛あ゛！！！
+			<damage>
+				ねぎ
+				だじゅぎぎぎ
+			</damage>
+		</baby>
+		<child>
+			うー！たすけてー!
+			うぅ、、だれかー！！
+			うー？くるちいー！？
+			ざぐやぁあ゛あ゛あ゛！！！
+			<damage>
+				ころちて
+				ゆぎひひぴぴぴ
+			</damage>
+		</child>
+		<adult>
+			うー！うー！どくだー！
+			うぅ、、れみぃここからでたい！！
+			うー？い、いきがぁぁ、、、
+			ざぐやぁあ゛あ゛あ゛！！！
+			<damage>
+				ほわああ
+				だしてだしてだしてだして
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# 排泄不可
+[CantShit]
+		<normal>
+		<baby>
+			うんうんしゃんでにゃいど!ぺりょぺりょすりゅんだどー！
+			うんうんしゃんでにゃいどー!
+		</baby>
+		<child>
+			うんうんしゃんでにゃいど!ぺりょぺりょすりゅんだどー！
+			うんうんしゃんでにゃいどー!
+		</child>
+		<adult>
+			うんうんでないんだどー！
+			うんうんさん ゆっくりしないで、でてくるんだどー！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うんうんしゃんでにゃいど!ぺりょぺりょすりゅんだどー！
+			うんうんしゃんでにゃいどー!
+		</baby>
+		<child>
+			うんうんしゃんでにゃいど!ぺりょぺりょすりゅんだどー！
+			うんうんしゃんでにゃいどー!
+		</child>
+		<adult>
+			うんうんでないんだどー！
+			うんうんは ゆっくりしないで、でてくるんだどー！
+		</adult>
+	<rude>
+[/CantShit]
+
+# 妊娠失敗
+[NoPregnancy]
+	<normal>
+		<baby>
+		れみぃ あかちゃんできないど～？！
+		れみぃのあかちゃんは どこなんだど？
+		</baby>
+		<child>
+		れみぃ あかちゃんできないど～？！
+		れみぃのあかちゃんは どこなんだど？
+		</child>
+		<adult>
+		おぜうさまもおちびがほしいんだど、、、
+		どぼぢでれみぃに おちびでぎないんだど、、、
+		う～！どぼぢで にんっしんでぎないんだどおぉぉぉぉ！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+		れみぃ あかちゃんできないど～？！
+		れみぃのあかちゃんは どこなんだど？
+		</baby>
+		<child>
+		れみぃ あかちゃんできないど～？！
+		れみぃのあかちゃんは どこなんだど？
+		</child>
+		<adult>
+		おぜうさまも おちびがほしいんだど、、、
+		どぼぢでれみぃに おちびでぎないんだど、、、
+		う～！どぼぢで にんっしんでぎないんだどおぉぉぉぉ！！！
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# 恐怖でパニック状態
+[Fear]
+	<normal>
+		<baby>
+			うー！うー！
+			さくやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				さくやぁぁぁ、、、
+				まんまぁ、、、
+			</damage>
+		</baby>
+		<child>
+			うー！うー！
+			さくやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				さくやぁぁぁ、、、
+				まんまぁ、、、
+			</damage>
+		</child>
+		<adult>
+			うー！うー！
+			ざぐやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				ざぐやぁぁぁ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー！うー！
+			さくやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				さくやぁぁぁ、、、
+				まんまぁ、、、
+			</damage>
+		</baby>
+		<child>
+			うー！うー！
+			さくやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				さくやぁぁぁ、、、
+				まんまぁ、、、
+			</damage>
+		</child>
+		<adult>
+			うー！うー！
+			ざぐやぁぁぁ！！！
+			<damage>
+				うー、、、うー、、、
+				ざぐやぁぁぁ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# 火がついてる状態
+[Burning]
+	<normal>
+		<baby>
+			う゛～！
+			あちゅいんだどー！
+			さくやー！たちゅけちぇー！
+			まんまー！あぢゅいんだどー！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃぢにたぐないどぉ、、、
+			</damage>
+		</baby>
+		<child>
+			う゛～！
+			あちゅいんだどー！
+			さくやー！たちゅけちぇー！
+			まんまー！あぢゅいんだどー！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃ ぢにたぐないどぉ、、、
+			</damage>
+		</child>
+		<adult>
+			あづいいいぃぃぃぃ！
+			だずげでぇぇぇぇぇぇ！
+			あついあついはゆっくりできないんだど！！！
+			ざぐやあ゛あ゛あ゛！！！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃ ぢにたぐないどぉ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う゛～！
+			あちゅいんだどー！
+			さくやー！たちゅけちぇー！
+			まんまー！あぢゅいんだどー！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃ ぢにたぐないどぉ、、、
+			</damage>
+		</baby>
+		<child>
+			う゛～！
+			あちゅいんだどー！
+			さくやー！たちゅけちぇー！
+			まんまー！あぢゅいんだどー！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃ ぢにたぐないどぉ、、、
+			</damage>
+		</child>
+		<adult>
+			あづいいいぃぃぃぃ！
+			だずげでぇぇぇぇぇぇ！
+			ざぐやあ゛あ゛あ゛！！！
+			<damage>
+				う゛～う゛～う゛～、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、れみぃ ぢにたぐないどぉ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# 水をかけられた
+[Wet]
+	<normal>
+		<baby>
+			ちゅべだぃんだどー！
+			おみずしゃんゆっきゅりできにゃいんだどー！
+			<damage>
+				ちゅべだぃんだどー、、、
+				れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</baby>
+		<child>
+			ちゅべだぃんだどー！
+			おみずしゃんゆっきゅりできにゃいんだどー！
+			<damage>
+				ちゅべだぃんだどー、、、
+				れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</child>
+		<adult>
+			づべだぃんだどー！
+			おみずさんはゆっくりできないんだど！やめるんだど？
+			<damage>
+				づべだぃんだどー、、、
+				うう、、、れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ちゅべだぃんだどー！
+			おみずしゃんゆっきゅりできにゃいんだどー！
+			<damage>
+				ちゅべだぃんだどー、、、
+				れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</baby>
+		<child>
+			ちゅべだぃんだどー！
+			おみずしゃんゆっきゅりできにゃいんだどー！
+			<damage>
+				ちゅべだぃんだどー、、、
+				れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</child>
+		<adult>
+			づべだぃんだどー！
+			おみずさんはゆっくりできないんだど！やめるんだど？
+			<damage>
+				づべだぃんだどー、、、
+				うう、、、れみぃのぽんぽんとけてるんだど、、、
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# あにゃる閉鎖
+[AnalSealed]
+	<normal>
+		<baby>
+			う～♪
+			いや～ん えっちぃ☆
+		</baby>
+		<child>
+			う～♪くしゅぐっちゃいどぉ～♪
+			いや～ん えっちぃ☆
+		</child>
+		<adult>
+			う～♪くすぐったいどぉ～♪
+			いや～ん えっちぃ☆
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うっう～♪
+			いや～ん えっちぃ☆
+		</baby>
+		<child>
+			うっう～♪くちゅぐっちゃいどぉ～！
+			いや～ん えっちぃ☆
+		</child>
+		<adult>
+			くすぐったいんだど～
+			いや～ん えっちぃ☆
+			うー、そんなところにきょうみがあるなんてやっぱりHENTAIなんだど～
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# 針が刺さった時
+[NeedleStick]
+	<normal>
+		<baby>
+			いだいんだどー！
+		</baby>
+		<child>
+			いだいんだどー！
+		</child>
+		<adult>
+			いだいんだどー！
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# 針が刺さっている時
+[NeedleScream]
+	<normal>
+		<baby>
+			ごれ、どっでぇえええ！！！
+		</baby>
+		<child>
+			ごれ、どっでぇえええ！！！
+		</child>
+		<adult>
+			ごれ、どっでぇえええ！！！
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# つがいの針をぐーりぐりする
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			なにするんだど？やめであげるんだど！
+		</baby>
+		<child>
+			なにするんだど？やめであげるんだど！
+		</child>
+		<adult>
+			なにするんだど？やめであげるんだど！
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# 子の針をぐーりぐりする
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			なにするんだど？やめであげるんだど！
+		</baby>
+		<child>
+			なにするんだど？やめであげるんだど！
+		</child>
+		<adult>
+			なにするんだど？やめであげるんだど！
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# 被ぐーりぐり時
+[NeedlePain]
+	<normal>
+		<baby>
+			やべるんだど！
+		</baby>
+		<child>
+			やべるんだど！
+		</child>
+		<adult>
+			やべるんだど！
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# 針を抜いた時
+[NeedleRemove]
+	<normal>
+		<baby>
+			うぅ、、いだがっだんだど、、、
+		</baby>
+		<child>
+			うぅ、、いだがっだんだど、、、
+		</child>
+		<adult>
+			うぅ、、いだがっだんだど、、、
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# あまあま要求
+[WantAmaama]
+	<rude>
+		<baby>
+			あまあま～♪
+			れみぃに あまあま☆をけんじょうするんだど～！
+			ぷっでぃ～ん♪
+		</baby>
+		<child>
+			あまあま～♪
+			れみぃに あまあま☆をけんじょうするんだど～！
+			ぷっでぃ～ん♪
+		</child>
+		<adult>
+			あまあま～♪
+			れみぃに あまあま☆をけんじょうするんだど～！
+			ぷっでぃ～ん♪
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# 移動不能
+[CantMove]
+	<normal>
+		<baby>
+			う～？すすめにゃいんだど～？
+			うぅ～？ なにごれ～？
+		</baby>
+		<child>
+			う～？すすめにゃいんだど～？
+			うぅ～？ なにごれ～？
+		</child>
+		<adult>
+			う～？すすめないんだど～？
+			うぅ～？ なにごれ～？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う～？すすめにゃいんだど～？
+			うぅ～？ なにごれ～？
+		</baby>
+		<child>
+			う～？すすめにゃいんだど～？
+			うぅ～？ なにごれ～？
+		</child>
+		<adult>
+			う～？すすめないんだど～？
+			うぅ～？ なにごれ～？
+		</adult>
+	</rude>
+[/CantMove]
+
+# 移動不能2
+[CantMove2]
+	<normal>
+		<baby>
+			おがじぃどぉ？ すすめにゃいんだど～？
+			う～！ しづごいのぎらいー！
+		</baby>
+		<child>
+			おがじぃどぉ？ すすめにゃいんだど～？
+			う～！ しづごいのぎらいー！
+		</child>
+		<adult>
+			おがじぃどぉ？ すすめないんだど～？
+			う～！ しづごいのぎらいー！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			おがじぃどぉ？ すすめにゃいんだど～？
+			う～！ しづごいのぎらいー！
+		</baby>
+		<child>
+			おがじぃどぉ？ すすめにゃいんだど～？
+			う～！ しづごいのぎらいー！
+		</child>
+		<adult>
+			おがじぃどぉ？ すすめないんだど～？
+			う～！ しづごいのぎらいー！
+		</adult>
+	</rude>
+[/CantMove2]
+
+# 引っ張る
+[Pull]
+	<normal>
+		<baby>
+			うぅ～？ にゃにしゅりゅんだど～？
+			う～？にょーびにょーび？
+		</baby>
+		<child>
+			うぅ～？ にゃにしゅりゅんだど～？
+			う～？にょーびにょーび？
+		</child>
+		<adult>
+			うぅ～？ なにするんだど～？
+			う～？のーびのーび？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うぅ～？ にゃにしゅりゅんだど～？
+			う～？にょーびにょーび？
+		</baby>
+		<child>
+			うぅ～？ にゃにしゅりゅんだど～？
+			う～？にょーびにょーび？
+		</child>
+		<adult>
+			うぅ～？ なにするんだど～？
+			う～？のーびのーび？
+		</adult>
+	</rude>
+[/Pull]
+
+# 引っ張る2
+[Pull2]
+	<normal>
+		<baby>
+			うぅー？ いぢゃいぃぃ！！！
+			いぢゃいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</baby>
+		<child>
+			うぅー？ いぢゃいぃぃ！！！
+			いぢゃいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</child>
+		<adult>
+			うぅー？ いだいぃぃ！！！
+			いだいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うぅー？ いぢゃいぃぃ！！！
+			いぢゃいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</baby>
+		<child>
+			うぅー？ いぢゃいぃぃ！！！
+			いぢゃいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</child>
+		<adult>
+			うぅー？ いだいぃぃ！！！
+			いだいぃ！やべるんだどぉ！！！
+			ざぐやー！だずげでー！！！
+		</adult>
+	</rude>
+[/Pull2]
+
+# つぶす
+[Press]
+	<normal>
+		<baby>
+			う～？
+			なにすりゅんだど？
+		</baby>
+		<child>
+			う～？
+			なにすりゅんだど？
+		</child>
+		<adult>
+			う～？
+			なにするんだど？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			う～？
+			なにすりゅんだど？
+			きやすく れみぃのあたまにさわるなだどー！
+		</baby>
+		<child>
+			う～？
+			なにすりゅんだど？
+			きやすく れみぃのあたまにさわるなだどー！
+		</child>
+		<adult>
+			う～？
+			なにするんだど？
+			きやすく おぜうさまのあたまにさわるなだどー！
+		</adult>
+	</rude>
+[/Press]
+
+# つぶす2
+[Press2]
+	<normal>
+		<baby>
+			うー！うー！
+			つぶれりゅううう！
+			さくやぁぁ！
+		</baby>
+		<child>
+			うー！うー！
+			つぶれりゅううう！
+			さくやぁぁ！
+		</child>
+		<adult>
+			うー！うー！
+			つぶれるううう！やめるんだど！
+			ざぐやあ゛あ゛あ゛！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うー！うー！
+			つぶれりゅううう！
+			さくやぁぁ！
+		</baby>
+		<child>
+			うー！うー！
+			つぶれりゅううう！
+			さくやぁぁ！
+		</child>
+		<adult>
+			うー！うー！
+			つぶれるううう！やめるんだど！
+			ざぐやあ゛あ゛あ゛！！！
+		</adult>
+	</rude>
+[/Press2]
+
+# あまあま発見
+[FindAmaama]
+	<normal>
+		<baby>
+			あまあまだど～！
+			ぷっでぃーーん♪
+		</baby>
+		<child>
+			あまあまだど～！
+			ぷっでぃーーん♪
+		</child>
+		<adult>
+			あまあまだど～！
+			ぷっでぃーーん♪
+		</adult>
+	</normal>
+[/FindAmaama]
+
+# あまあま食事
+[EatingAmaama]
+	<normal>
+		<baby>
+			うっうー☆ あまあま♪
+			れみぃにもっとあまあまもってくるんだどー！
+			えれがんど☆な おあじだなんだどー！
+		</baby>
+		<child>
+			うっうー☆ あまあま♪
+			れみぃにもっとあまあまもってくるんだどー！
+			えれがんど☆な おあじだなんだどー！
+		</child>
+		<adult>
+			うっうー☆ あまあま♪
+			おぜうさまにもっとあまあまもってくるんだどー！
+			えれがんど☆な おあじだなんだどー！
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# 吐餡
+[Vomit]
+	<normal>
+		<baby>
+			ゆぶぅ・・・
+			ゆぶぶ・・・
+			お え゛え゛え゛え゛！！！
+		</baby>
+		<child>
+			ゆぶぅ・・・
+			ゆぶぶ・・・
+			お え゛え゛え゛え゛！！！
+		</child>
+		<adult>
+			ゆぶぅ・・・
+			ゆぶぶ・・・
+			お え゛え゛え゛え゛！！！
+		</adult>
+	</normal>
+[/Vomit]
+
+# 汎用、瀕死継続
+[Dying2]
+	<normal>
+		<baby>
+			うー・・・ううー・・・
+			うぐぐぐ・・・
+		</baby>
+		<child>
+			うー・・・ううー・・・
+			うぐぐぐ・・・
+		</child>
+		<adult>
+			うー・・・ううー・・・
+			うぐぐぐ・・・
+		</adult>
+	</normal>
+[/Dying2]
+
+# 汎用、驚き
+[Surprise]
+	<normal>
+		<baby>
+			どぼぢでなんだどぉぉぉ！？
+			うぅうー？ うぅー？
+		</baby>
+		<child>
+			どぼぢでなんだどぉぉぉ！？
+			うぅうー？ うぅー？
+		</child>
+		<adult>
+			どぼぢでなんだどぉぉぉ！？
+			うぅうー？ うぅー？
+		</adult>
+	</normal>
+[/Surprise]
+
+# 汎用、他のゆっくりに何かされたときに対する攻撃、反撃
+[RevengeAttack]
+	<rude>
+		<baby>
+			うー！
+			やめるんだどー！
+			れみぃに なにするんだどー？
+			かりすま☆に さからうなだどー！
+		</baby>
+		<child>
+			うー！
+			やめるんだどー！
+			れみぃに なにするんだどー？
+			かりすま☆に さからうなだどー！
+		</child>
+		<adult>
+			うー！
+			やめるんだどー！
+			おぜうさまに なにするんだどー？
+			かりすま☆に さからうなだどー！
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# おさげ、尻尾、羽をちぎる
+[BraidCut]
+	<normal>
+		<baby>
+			れみぃのおはねがぁぁ！！！
+			いぢゃいぃぃ！！！
+			なんでごんなごどずるどぉ？！
+		</baby>
+		<child>
+			れみぃのおはねがぁぁ！！！
+			いぢゃいぃぃ！！！
+			なんでごんなごどずるどぉ？！
+		</child>
+		<adult>
+			れみぃのおはねがぁぁ！！！
+			いだいぃぃ！！！
+			なんでごんなごどずるどぉ？！
+		</adult>
+	</normal>
+[/BraidCut]
+
+# 汎用、他のゆっくりに生きたまま食べられる
+[EatenByBody]
+	<normal>
+		<baby>
+			いぢゃいぃぃ！！！
+			だずげでぇ！！！
+			うーっ！ うぅーっ！！！
+			れみぃは おかしじゃないんだどー！
+		</baby>
+		<child>
+			いぢゃいぃぃ！！！
+			だずげでぇ！！！
+			うーっ！ うぅーっ！！！
+			れみぃは おかしじゃないんだどー！
+		</child>
+		<adult>
+			いだいぃぃ！！！
+			だずげでぇ！！！
+			うーっ！ うぅーっ！！！
+			れみぃは おかしじゃないんだどー！
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# 汎用、他のゆっくりに生きたまま吸われる
+[EatenByBody2]
+	<normal>
+		<baby>
+			ちゅーちゅー するなぁ、、、
+			う゛ーっ！ う゛ぅーっ、、、
+		</baby>
+		<child>
+			ちゅーちゅー するなぁ、、、
+			う゛ーっ！ う゛ぅーっ、、、
+		</child>
+		<adult>
+			ちゅーちゅー するなぁ、、、
+			う゛ーっ！ う゛ぅーっ、、、
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# れみりゃから逃げる
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			あっぢ いげえぇぇ！！！
+			にげるんだどぉ！！！
+			うぅうー！　うぅー！！！
+		</baby>
+		<child>
+			あっぢ いげえぇぇ！！！
+			にげるんだどぉ！！！
+			うぅうー！　うぅー！！！
+		</child>
+		<adult>
+			あっぢ いげえぇぇ！！！
+			にげるんだどぉ！！！
+			うぅうー！　うぅー！！！
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

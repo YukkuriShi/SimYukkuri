@@ -1,0 +1,400 @@
+# レイパー怯え
+[ScareRapist]
+	<normal>
+		<baby>
+			ゲラぁ！れいぱーゲラぁ！
+			たしゅけちぇぇぇゲラぁ！！！
+			ろりっこん！のへんたいゲラぁぁ！
+			%nameには、はやすぎりゅゲラぁ！
+			おきゃーしゃっ！たちゅけちぇゲラぁ！！！
+			こわいゲラぁ！！！
+			<damage>
+				やめちぇゲラぁ？やめちぇゲラぁ？
+				おきゃーしゃん たしゅけちぇゲラぁ、、、
+				れいぽぅはゆっきゅりできにゃいゲラぁ、、、
+			</damage>
+		</baby>
+		<child>
+			ゲラぁ！れいぱーゲラぁ！
+			たしゅけちぇぇぇゲラぁ！！！
+			ろりっこん！のへんたいゲラぁぁ！
+			%nameには、はやすぎりゅゲラぁ！
+			おきゃーしゃっ！たちゅけちぇゲラぁ！！！
+			<damage>
+				ごめんなちゃい やめちぇゲラぁ、、、
+				やべるゲラ？やべるゲラ？
+				おかーしゃん たじゅげでゲラぁ、、、
+				れいぽぅはゆっきゅりできにゃいゲラぁ、、、
+			</damage>
+		</child>
+		<adult>
+			れいぱーゲラぁ！
+			たすけてゲラぁ！！
+			%name、すっきりしたくなゲラぁ！
+			%nameはにげるゲラ！ゆっくりしないでにげるゲラ！
+			%nameだっていぎでるゲラ？ひとりすっきりー！のためのおにんぎょうさんじゃないゲラ！
+			<damage>
+				おねがいずるゲラ、やめでぐだざいぃ、、、
+				%nameはにげるゲラ、、ゆっくりしないでにげるゲラぁ、、
+			</damage>
+		</adult>
+	</normal>
+[/ScareRapist]
+
+# レイパーに攻撃
+[AttackRapist]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			れいぱーはせいっさいゲラ！
+			れいぱーなんてやっつけるゲラ！
+			ゲララララララアァッ！
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# レイパーに反撃命令
+[CounterRapist]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			みんなでれいぱーをやっつけるゲラ！
+			いまのすきにみんなでこうげきするゲラ！
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# おかざりのないゆっくり発見
+[HateYukkuri]
+	<normal>
+		<baby>
+			ゆっきゅりできにゃい ゆっくりがいりゅゲラ！
+		</baby>
+		<child>
+			ゆっきゅりできにゃい ゆっくりがいりゅゲラ！
+		</child>
+		<adult>
+			ゆっくりできない ゆっくりがいるゲラ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゲラゲラ！ゆっきゅりできにゃいゆっくりは せいっさいゲラぁ！
+		</baby>
+		<child>
+			ゲラゲラ！ゆっきゅりできにゃいゆっくりは せいっさいゲラぁ！
+		</child>
+		<adult>
+			ゲラゲラ！ゆっくりできないゆっくりは せいっさいゲラぁ！
+		</adult>
+	</rude>
+[/HateYukkuri]
+
+# つがいを気遣う
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっきゅりちてゲラ？
+			ゆっきゅり！ゆっきゅりぃ！
+			ぺーりょぺーりょ、ゆっきゅりよくなってゲラぁ、、、
+		</baby>
+		<child>
+			しゅりしゅり、ゆっきゅりちてにぇ？
+			ゆっきゅりしようにぇ、、、
+			ぺーりょぺーりょ、ゆっきゅりよくなってゲラぁ、、、
+		</child>
+		<adult>
+			%partner、だいじょうぶゲラ？
+			%partner、しっかりするゲラ！
+			%partner、あんこさんはいちゃだめゲラ！
+		</adult>
+	</normal>
+
+[/ConcernAboutPartner]
+
+# 子を気遣う
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっきゅりちてゲラぁ？
+			ゆっきゅり！ゆっきゅりぃゲラぁ！
+			ぺーりょぺーりょ、ゆっきゅりよくなりゅゲラぁ、、、
+		</baby>
+		<child>
+			しゅりしゅり、ゆっきゅりちてゲラぁ？
+			ゆっきゅりしようゲラぁ、、、
+			ぺーりょぺーりょ、ゆっきゅりよくなりゅゲラぁ、、、
+		</child>
+		<adult>
+			おちびちゃん、だいじょうぶゲラ？
+			おちびちゃん、しっかりするゲラ！
+			おちびちゃん、あんこさんはいちゃだめゲラぁ！
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# 姉を気遣う
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっきゅりちてゲラぁ？
+			おねぇしゃん、ゆっきゅり！ゆっきゅりぃゲラぁ！
+			ぺーりょぺーりょ、ゆっきゅりよくなるゲラぁ、、、
+		</baby>
+		<child>
+			しゅりしゅり、ゆっきゅりちてゲラぁ？
+			おねぇちゃん、ゆっきゅりしようゲラぁ、、、
+			ぺーりょぺーりょ、ゆっきゅりよくなりゅゲラぁ、、、
+		</child>
+		<adult>
+			%partner、だいじょうぶゲラ？
+			%partner、しっかりしするゲラ！
+			%partner、あんこさんはいちゃだめゲラぁ！
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# 妹を気遣う
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっきゅりちてゲラぁ？
+			いもうちょ、ゆっきゅり！ゆっきゅりぃゲラぁ！
+			ぺーりょぺーりょ、ゆっきゅりよくなるゲラぁ、、、
+		</baby>
+		<child>
+			しゅりしゅり、ゆっきゅりちてゲラぁ？
+			いもうと、ゆっきゅりしようゲラぁ、、、
+			ぺーりょぺーりょ、ゆっきゅりよくなりゅゲラぁ、、、
+		</child>
+		<adult>
+			%partner、だいじょうぶゲラ？
+			%partner、しっかりしするゲラ！
+			%partner、あんこさんはいちゃだめぇえ！
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# つがい出産時
+[RootForPartner]
+	<normal>
+		<baby>
+			がんばりゅゲラぁ！
+		</baby>
+		<child>
+			がんばりゅゲラぁ！
+		</child>
+		<adult>
+			%partner、がんばるゲラ！
+			%nameと%partnerのあいのけっしょうがいま！あふれんばかりのいのちのみゃくどうをげんどうりょくにして、おおぞらへはばたこうとしているゲラ！
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# 子への最初の挨拶
+[FirstGreeting]
+	<normal>
+		<baby>
+			ゆっきゅりしていくゲラぁ！
+		</baby>
+		<child>
+			ゆっきゅりしていくゲラぁ！
+		</child>
+		<adult>
+			%nameのおちびちゃん！ゆっくりしていくゲラ！
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# すぃーを欲しがる
+[WantingSui]
+	<normal>
+		%nameはすぃーがほしいゲラ！
+		すぃーがほしいゲラ！
+	</normal>
+[/WantingSui]
+
+# すぃーを欲しがっているゆっくりのパートナー
+[WantingSuiPartner]
+	<normal>
+		%partnerのためにすぃーをゆっくりしないでもってくるゲラ！
+		%partnerがすぃーをほしがっているゲラ！
+	</normal>
+[/WantingSuiPartner]
+
+# すぃーを欲しがっているゆっくりの親
+[WantingSuiParent]
+	<normal>
+		おちびちゃんのためにすぃーをゆっくりしないでもってくるゲラ！
+		おちびちゃんにすぃーがないとゆっくりできないゲラ！
+	</normal>
+[/WantingSuiParent]
+
+# すぃーを見つける
+[FindSui]
+	<normal>
+		すぃーがあるゲラ！
+	</normal>
+[/FindSui]
+
+# すぃーを自分のものにする
+[GetSui]
+	<normal>
+		このすぃーは%nameのものゲラ！
+	</normal>
+[/GetSui]
+
+# 自分のすぃーにのりにいく
+[FindGetSui]
+	<normal>
+		どらいぶするゲラ！
+	</normal>
+[/FindGetSui]
+
+# 自分以外のすぃーにのりにいく
+[FindGetSuiOtner]
+	<normal>
+		いっしょにどらいぶするゲラ！
+	</normal>
+[/FindGetSuiOtner]
+
+# 自分以外のすぃーにのりにいくときに呼ぶ
+[WantRideSuiOtner]
+	<normal>
+		すぃーにのせるゲラ！
+	</normal>
+[/WantRideSuiOtner]
+
+# すぃーにのる
+[RideSui]
+	<normal>
+		しゅっぱつじゅんびかんりょうゲラ！
+	</normal>
+[/RideSui]
+
+# すぃーにのっている
+[RidingSui]
+	<normal>
+		きもちいいゲラ！
+		たのしいゲラ！
+	</normal>
+[/RidingSui]
+
+# すぃーを運転する
+[DrivingSui]
+	<normal>
+		%nameのうんてんてくにっくをみるゲラ！
+	</normal>
+[/DrivingSui]
+
+# すぃーを運転するパートナーをみて（自分はのっていない）
+[DrivingSuiPartner]
+	<normal>
+		さすが%nameの%partnerゲラ！
+		かっこいいゲラ！
+	</normal>
+[/DrivingSuiPartner]
+
+# すぃーを運転するこどもをみて（自分はのっていない）
+[DrivingSuiChild]
+	<normal>
+		さすが%nameのおちびちゃんゲラ！
+	</normal>
+[/DrivingSuiChild]
+
+# すぃーを運転する父親をみて（自分はのっていない）
+[DrivingSuiPAPA]
+	<normal>
+		おとうしゃんすごいゲラ！
+	</normal>
+[/DrivingSuiPAPA]
+
+# すぃーを運転する母親をみて（自分はのっていない）
+[DrivingSuiMAMA]
+	<normal>
+		おかあしゃんすごいゲラ！
+	</normal>
+[/DrivingSuiMAMA]
+
+# すぃーを運転する姉をみて（自分はのっていない）
+[DrivingSuiOldSister]
+	<normal>
+		おねえちゃんすごいゲラ！
+	</normal>
+[/DrivingSuiOldSister]
+
+# すぃーを運転する妹をみて（自分はのっていない）
+[DrivingSuiYoungSister]
+	<normal>
+		%nameのいもうとすごいゲラ！
+	</normal>
+[/DrivingSuiYoungSister]
+
+# すぃーから降りる
+[RideOffSui]
+	<normal>
+		たのしかったゲラ！
+	</normal>
+[/RideOffSui]
+
+# 持っているすぃーを自慢する
+[hasSui]
+	<normal>
+		%nameはすぃーをもってるゲラ！
+	</normal>
+	<rude>
+		おねえさんにたのんで すぃーをかってもらったゲラ！
+	</rude>
+[/hasSui]
+
+# 持っているすぃーを自慢されるパートナー
+[hasSuiPartner]
+	<normal>
+		さすが%partnerゲラ！
+	</normal>
+[/hasSuiPartner]
+
+# 子どもの持っているすぃーを自慢される親
+[hasSuiChild]
+	<normal>
+		さすが%nameのおちびちゃんゲラ！
+	</normal>
+[/hasSuiChild]
+
+# 父親の持っているすぃーを自慢されるこども
+[hasSuiPAPAChild]
+	<normal>
+		さすがおとうしゃんゲラ！
+	</normal>
+[/hasSuiPAPAChild]
+
+# 母親の持っているすぃーを自慢されるこども
+[hasSuiMAMAChild]
+	<normal>
+		さすがおかあしゃんゲラ！
+	</normal>
+[/hasSuiMAMAChild]
+
+# 姉の持っているすぃーを自慢される
+[hasSuiOldSister]
+	<normal>
+		さすがおねえちゃんゲラ！
+	</normal>
+[/hasSuiOldSister]
+
+# 妹の持っているすぃーを自慢される
+[hasSuiYoungSister]
+	<normal>
+		さすが%nameのいもうとゲラ！
+	</normal>
+[/hasSuiYoungSister]

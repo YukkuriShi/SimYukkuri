@@ -1,0 +1,399 @@
+# レイパー怯え
+[ScareRapist]
+	<normal>
+		<baby>
+			Hewp!!�
+			Yunya!!!�
+			I don'ch ged id!�
+			<damage>
+				Hewp...
+				Shdob id...�
+				I don'ch ged id...�
+			</damage>
+		</baby>
+		<child>
+			Hewp!�
+			Ich a waper! Shtop id!�
+			I don't get it!�
+			<damage>
+				Hewp...�
+				I don'd ged id...
+				Shtop id...�
+			</damage>
+		</child>
+		<adult>
+			Don't come over here!�
+			I don't get it!�
+			Go away!�
+			<damage>
+				Don'd gome ober here...
+				I don'd ged id...
+				Zdob id...
+			</damage>
+		</adult>
+	</normal>
+[/ScareRapist]
+
+# レイパーに攻撃
+[AttackRapist]
+	<normal>
+		<baby>
+			Go away!
+		</baby>
+		<child>
+			Uneajy yukkuwis should go away!
+		</child>
+		<adult>
+			Uneasy yukkuris should go away!�
+			Rapist should die asy!�
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# レイパーに反撃命令
+[CounterRapist]
+	<normal>
+		<baby>
+			unused dummy
+		</baby>
+		<child>
+			unused dummy
+		</child>
+		<adult>
+			Help Chen punish this raper easy!�
+			Let's kill the scum together!�
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# おかざりのないゆっくり発見
+[HateYukkuri]
+	<normal>
+		<baby>
+			Don'd lige dish Yukkuwi!
+		</baby>
+		<child>
+			Don't like thish shtwange Yukkuwi!
+		</child>
+		<adult>
+			A yukkuri that can't take it easy!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuyu, pwepawe for pwunichment!
+		</baby>
+		<child>
+			Ich an uneajy yukkuwi!�
+		</child>
+		<adult>
+			Uneasy yukkuris should go die!�
+		</adult>
+	</rude>
+[/HateYukkuri]
+
+# つがいを気遣う
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			Wry can'd it chage id eajy?
+			Wick wick, wub wub�
+			Hewping eajy!
+		</baby>
+		<child>
+			Wry can't it tage it eajy?
+			Wick wick, wub wub�
+			Hewping eajy!
+		</child>
+		<adult>
+			%partner can you take it easy?�
+			It will be okay now that Chen is here, %partner!�
+			Helping %partner easy!
+		</adult>
+	</normal>
+
+[/ConcernAboutPartner]
+
+# 子を気遣う
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			Wry can'd it chage id eajy?
+			Wick wick, wub wub�
+			Hewping eajy!
+		</baby>
+		<child>
+			Wry can't it tage it eajy?
+			Wick wick, wub wub�
+			Hewping eajy!
+		</child>
+		<adult>
+			Little one, can you take it easy?�
+			It will be okay now that mommy is here, little one!�
+			Helping little one easy!�
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# 姉を気遣う
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			
+			Wry can'd it chage id eajy?
+			Wick wick, wub wub�
+			Hewping bwig shish eajy!
+		</baby>
+		<child>
+			Wry can't it tage it eajy?
+			Wick wick, wub wub�
+			Hewping big shish eajy!
+		</child>
+		<adult>
+			%partner can you take it easy?�
+			It will be okay now that Chen is here, %partner!�
+			Helping %partner easy!�
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# 妹を気遣う
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			Wry can'd it chage id eajy?
+			Wick wick, wub wub�
+			Hewping widduw shish eajy!
+		</baby>
+		<child>
+			Wry can't it tage it eajy?
+			Wick wick, wub wub�
+			Hewping widdle shish eajy!
+		</child>
+		<adult>
+			%partner can you take it easy?�
+			It will be okay now that Chen is here, %partner!�
+			Helping %partner easy!�
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# つがい出産時
+[RootForPartner]
+	<normal>
+		<baby>
+			Hang in dere!�
+		</baby>
+		<child>
+			Keep going!�
+		</child>
+		<adult>
+			Keep going, %partner!
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# 子への最初の挨拶
+[FirstGreeting]
+	<normal>
+		<baby>
+			Chage id eajy!�
+		</baby>
+		<child>
+			Chake it eajy!
+		</child>
+		<adult>
+			Take it easy!�
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# ゆっくりしているすぃーを見て
+[YukkuringSui]
+	<normal>
+		Gotta go fast~�
+	</normal>
+[/YukkuringSui]
+
+# すぃーを欲しがる
+[WantingSui]
+	<normal>
+		Chen wants to go faster too!�
+		Want to ride mister suii!�
+	</normal>
+[/WantingSui]
+
+# すぃーを欲しがっているゆっくりのパートナー
+[WantingSuiPartner]
+	<normal>
+		%partner�wants to go faster too!
+		Let %partner�ride on the mister suii!
+	</normal>
+[/WantingSuiPartner]
+
+# すぃーを欲しがっているゆっくりの親
+[WantingSuiParent]
+	<normal>
+		Chen's little one wants to go faster too!
+		Let little one ride on the mister suii!�
+	</normal>
+[/WantingSuiParent]
+
+# すぃーを見つける
+[FindSui]
+	<normal>
+		It's a mister suii!�
+	</normal>
+[/FindSui]
+
+# すぃーを自分のも��にする
+[GetSui]
+	<normal>
+		This is Chen's mister suii!�
+	</normal>
+[/GetSui]
+
+# 自分のすぃーにのりにいく
+[FindGetSui]
+	<normal>
+		Moving very fast!�
+	</normal>
+[/FindGetSui]
+
+# 自分以外のすぃーにのりにいく
+[FindGetSuiOtner]
+	<normal>
+		Yuu~ Let's move fast together!
+	</normal>
+[/FindGetSuiOtner]
+
+# 自分以外のすぃーにのりにいくときに呼ぶ
+[WantRideSuiOtner]
+	<normal>
+		Let Chen ride the mister suii too!�
+	</normal>
+[/WantRideSuiOtner]
+
+# すぃーにのる
+[RideSui]
+	<normal>
+		Getting ready!�
+	</normal>
+[/RideSui]
+
+# すぃーにのっている
+[RidingSui]
+	<normal>
+		Mister Suii is very easy!�
+		Suii can go very fast!�
+	</normal>
+[/RidingSui]
+
+# すぃーを運転する
+[DrivingSui]
+	<normal>
+		Chen can drive very well!�
+	</normal>
+[/DrivingSui]
+
+# すぃーを運転するパートナーをみて（自分はのっていない）
+[DrivingSuiPartner]
+	<normal>
+		%partner is so cool!�
+		Amazing!�
+	</normal>
+[/DrivingSuiPartner]
+
+# すぃーを運転するこどもをみて（自分はのっていない）
+[DrivingSuiChild]
+	<normal>
+		Chen's little one is so cool!
+	</normal>
+[/DrivingSuiChild]
+
+# すぃーを運転する父親をみて（自分はのっていない）
+[DrivingSuiPAPA]
+	<normal>
+		Otousan is so cool!�
+	</normal>
+[/DrivingSuiPAPA]
+
+# すぃーを運転する母親���みて（自分はのっていない）
+[DrivingSuiMAMA]
+	<normal>
+		Mama is so cool!�
+	</normal>
+[/DrivingSuiMAMA]
+
+# すぃーを運転する姉をみて（自分はのっていない）
+[DrivingSuiOldSister]
+	<normal>
+		Chen's big sis is so cool!�
+	</normal>
+[/DrivingSuiOldSister]
+
+# すぃーを運転する妹をみて（自分はのっていない）
+[DrivingSuiYoungSister]
+	<normal>
+		Chen's little sis is so cool!�
+	</normal>
+[/DrivingSuiYoungSister]
+
+# すぃーから降りる
+[RideOffSui]
+	<normal>
+		Can take it very easy now!�
+	</normal>
+[/RideOffSui]
+
+# 持っているすぃーを自慢する
+[hasSui]
+	<normal>
+		Chen has a suii!�
+	</normal>
+	<rude>
+		Chen has a suii, you know?
+	</rude>
+[/hasSui]
+
+# 持っているすぃーを自慢されるパートナー
+[hasSuiPartner]
+	<normal>
+		%partner can take it very easy!�
+	</normal>
+[/hasSuiPartner]
+
+# ��どもの持っているすぃーを自慢される親
+[hasSuiChild]
+	<normal>
+		Little one can take it very easy!�
+	</normal>
+[/hasSuiChild]
+
+# 父親の持っているすぃーを自慢されるこども
+[hasSuiPAPAChild]
+	<normal>
+		Otousan can take it very easy!�
+	</normal>
+[/hasSuiPAPAChild]
+
+# 母親の持っているすぃーを自慢されるこども
+[hasSuiMAMAChild]
+	<normal>
+		Mama can take it very easy!�
+	</normal>
+[/hasSuiMAMAChild]
+
+# 姉の持っているす���ーを自慢される
+[hasSuiOldSister]
+	<normal>
+		Big sis can take it very easy!�
+	</normal>
+[/hasSuiOldSister]
+
+# 妹の持っているすぃーを自慢される
+[hasSuiYoungSister]
+	<normal>
+		Little sis can take it very easy!�
+	</normal>
+[/hasSuiYoungSister]

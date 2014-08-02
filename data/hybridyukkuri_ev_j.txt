@@ -1,0 +1,744 @@
+# レイパー怯え
+[ScareRapist]
+	<normal>
+		<baby>
+			ゆんやあああ！！！れいぱーだー！
+			たしゅけちぇぇぇ！！！
+			ろりっこん！のへんたいだぁぁ！
+			%nameには、はやすぎりゅよぉ！
+			おきゃーしゃっ！たちゅけちぇ！！！
+			こわいよぉおお！！！
+			<damage>
+				やめちぇにぇ？やめちぇにぇ？
+				おきゃーしゃん たしゅけちぇぇ、、、
+				れいぽぅはゆっきゅりできにゃいよ、、、
+			</damage>
+		</baby>
+		<child>
+			ゆんやあああ！！！れいぱーだー！
+			たしゅけちぇぇー！
+			ろりっこん！のへんたいだぁぁ！
+			%nameには、はやすぎりゅよぉ！
+			おきゃーしゃっ！たちゅけちぇ！！！
+			<damage>
+				ごめんなちゃい やめちぇにぇ、、、
+				やべでね？やべでね？
+				おかーしゃん たじゅげで、、、
+				れいぽぅはゆっきゅりできにゃいよ、、、
+			</damage>
+		</child>
+		<adult>
+			れいぱーだー！
+			たすけてぇぇ！！
+			%name、すっきりしたくないぃぃ！
+			%nameはにげるよ！ゆっくりしないでにげるよ！
+			%nameだっていぎでるんだよ？ひとりすっきりー！のためのおにんぎょうさんじゃないんだよ？
+			<damage>
+				おねがいじばず、やめでぐだざいぃ、、、
+				%nameはにげるよ、、ゆっくりしないでにげるよ、、
+			</damage>
+		</adult>
+	</normal>
+[/ScareRapist]
+
+# レイパーに攻撃
+[AttackRapist]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			れいぱーはせいっさいだよ！
+			れいぱーなんてやっつけてやるよ！
+			%nameはれいぱーなんてこわくないよ！
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# レイパーに反撃命令
+[CounterRapist]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			みんなでれいぱーをやっつけるよ！
+			いまのすきにみんなでこうげきだよ！
+			%nameにつづいてね！ れいぱーをやっつけるよ！
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# おかざりのないゆっくり発見
+[HateYukkuri]
+	<normal>
+		<baby>
+			ゆっくちできにゃいゆっくちがいりゅよ
+			おかじゃりのにゃいゆっくちがいりゅよ
+		</baby>
+		<child>
+			ゆっくちできにゃいゆっくちがいりゅよ
+			あのゆっくちおかざりもっちぇないよ
+		</child>
+		<adult>
+			ゆっくりできないゆっくりがいるよ！
+			おかざりがないゆっくりがいるよ
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆぷぷ、ゆっくちできにゃいゆっくちがいりゅよ
+			ゆぷぷ、いじめちぇあげりゅよ
+			ゆっくちしてにゃい！
+		</baby>
+		<child>
+			ゆぷぷ、ゆっくちできにゃいゆっくちがいりゅよ
+			ゆぷぷ、きゃわいくにゃいゆっくち！
+			ゆぷぷ、おかざりがないゆっくちはせいっさいしゅるよ
+		</child>
+		<adult>
+			ゆふふ、ゆっくりできないゆっくりがいるよ！せいっさいするよ！
+			おかざりのないゆっくりはせいっさいだよ！
+			ゆふふ、へんなゆっくりがいるよ
+		</adult>
+	</rude>
+[/HateYukkuri]
+
+# つがいを気遣う
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっくちちてにぇ？
+			ゆっくち！ゆっくちぃ！
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</baby>
+		<child>
+			しゅりしゅり、ゆっくちちてにぇ？
+			ゆっくちしようにぇ、、、
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</child>
+		<adult>
+			%partner、だいじょうぶ？
+			%partner、しっかりしてね！
+			%partner、あんこさんはいちゃだめぇえ！
+		</adult>
+	</normal>
+[/ConcernAboutPartner]
+
+# 子を気遣う
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっくちちてにぇ？
+			ゆっくち！ゆっくちぃ！
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</baby>
+		<child>
+			しゅりしゅり、ゆっくちちてにぇ？
+			ゆっくちしようにぇ、、、
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</child>
+		<adult>
+			おちびちゃん、だいじょうぶ？
+			おちびちゃん、しっかりしてね！
+			おちびちゃん、あんこさんはいちゃだめぇえ！
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# 姉を気遣う
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっくちちてにぇ？
+			おねぇしゃん、ゆっくち！ゆっくちぃ！
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</baby>
+		<child>
+			しゅりしゅり、ゆっくちちてにぇ？
+			おねぇちゃん、ゆっくちしようにぇ、、、
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</child>
+		<adult>
+			%partner、だいじょうぶ？
+			%partner、しっかりしてね！
+			%partner、あんこさんはいちゃだめぇえ！
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# 妹を気遣う
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			ちゅりちゅり、ゆっくちちてにぇ？
+			いもうちょ、ゆっくち！ゆっくちぃ！
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</baby>
+		<child>
+			しゅりしゅり、ゆっくちちてにぇ？
+			いもうと、ゆっくちしようにぇ、、、
+			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+		</child>
+		<adult>
+			%partner、だいじょうぶ？
+			%partner、しっかりしてね！
+			%partner、あんこさんはいちゃだめぇえ！
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# つがい出産時
+[RootForPartner]
+	<normal>
+		<baby>
+			がんばっちぇにぇ！
+			ゆっきゅりうまれてきちぇにぇ！
+		</baby>
+		<child>
+			がんばってにぇ！
+			ゆっきゅりうまれてきちぇにぇ！
+		</child>
+		<adult>
+			%partner、がんばってね！
+			%nameがついてるよ！がんばってね！
+			%nameと%partnerのおちびちゃん、ゆっくり、すぐにうまれてきてね！
+			ゆっくり、、ゆっくりうまれてきてね！
+			とうといいのちが、、、いまゆんせいというなのそうだいなこうかいへとこぎだすよ！
+			%nameと%partnerのあいのけっしょうがいま！あふれんばかりのいのちのみゃくどうをげんどうりょくにして、おおぞらへはばたこうとしているよ！
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# 子への最初の挨拶
+[FirstGreeting]
+	<normal>
+		<baby>
+			%nameのおちびちゃん！ゆっきゅりちちぇいっちぇにぇ！
+		</baby>
+		<child>
+			%nameのおちびちゃん！ゆっきゅりしちぇいっちぇにぇ！
+		</child>
+		<adult>
+			%nameのおちびちゃん！ゆっくりしていってね！
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# ゆっくりしているすぃーを見て
+[YukkuringSui]
+	<normal>
+		<baby>
+			すぃーしゃんは ゆっきゅりしちぇるにぇ！
+			ゆっきゅりした すぃーしゃんだにぇ！
+		</baby>
+		<child>
+			すぃーしゃんは ゆっきゅりしちぇるにぇ！
+			ゆっきゅりした すぃーしゃんだにぇ！
+		</child>
+		<adult>
+			すぃーはとってもゆっくりできるよ！
+			ゆっくりした すぃーだね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			すぃーしゃんは ゆっきゅりしちぇるにぇ！
+			ゆっきゅりした すぃーしゃんだにぇ！
+		</baby>
+		<child>
+			すぃーしゃんは ゆっきゅりしちぇるにぇ！
+			ゆっきゅりした すぃーしゃんだにぇ！
+		</child>
+		<adult>
+			すぃーはとってもゆっくりできるよ！
+			ゆっくりした すぃーだね！
+		</adult>
+	</rude>
+[/YukkuringSui]
+
+# すぃーを欲しがる
+[WantingSui]
+	<normal>
+		<baby>
+			%nameもすぃーしゃんほしいよ！
+			いいなあ、、すぃーしゃんゆっきゅりしちぇるにぇ、、
+		</baby>
+		<child>
+			%nameもすぃーしゃんほしいよ！
+			いいなあ、、すぃーしゃんゆっきゅりしちぇるにぇ、、
+		</child>
+		<adult>
+			%nameもすぃーがほしいよ！
+			いいなあ、、%nameもすぃーがほしいよ、、
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%nameもすぃーしゃんほしいよ！
+			どぼぢて%nameのすぃーがにゃいの？
+		</baby>
+		<child>
+			%nameもすぃーしゃんほしいよ！
+			どぼぢて%nameのすぃーがにゃいの？
+		</child>
+		<adult>
+			%nameはすぃーがほしいんだよ！
+			すぃーは すていたすっ！なんだよ！%nameもすぃーがほしいよ！
+		</adult>
+	</rude>
+[/WantingSui]
+
+# すぃーを欲しがっているゆっくりのパートナー
+[WantingSuiPartner]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			にんげんさん！%partnerのためにすぃーをよういしてください！
+			%partnerにすぃーをよういしてください！ゆっくりおねがいします！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			くそどれいはぐずぐずしないで%partnerせんっようのすぃーをよういしてね！
+			%partnerにすぃーをよういしてあげてね！すぐでいいよ！
+			すぃーがないと%partnerがゆっくりできないんだよ？いますぐよういしてね！
+		</adult>
+	</rude>
+[/WantingSuiPartner]
+
+# すぃーを欲しがっているゆっくりの親
+[WantingSuiParent]
+	<normal>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			にんげんさん！%nameのおちびちゃんのためにすぃーをよういしてください！
+			%nameのおちびちゃんにすぃーをよういしてください！ゆっくりおねがいだよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%dummy
+		</baby>
+		<child>
+			%dummy
+		</child>
+		<adult>
+			%nameのおちびちゃんのために、すぃーをよういしてね！
+			すぃーがないと、%nameのおちびちゃんがゆっくりできないんだよ？
+			くそどれいは、%nameのおちびちゃんにすぃーをよういしてあげてね！すぐでいいよ！
+		</adult>
+	</rude>
+[/WantingSuiParent]
+
+# すぃーを見つける
+[FindSui]
+	<normal>
+		<baby>
+			すぃーしゃんがありゅよ！
+			すぃーしゃんじゃ！
+		</baby>
+		<child>
+			すぃーしゃんがありゅよ！
+			すぃーしゃんじゃ！
+		</child>
+		<adult>
+			すぃーがあるよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			すぃーしゃんがありゅよ！
+			すぃーしゃんじゃ！
+		</baby>
+		<child>
+			すぃーしゃんがありゅよ！
+			すぃーしゃんじゃ！
+		</child>
+		<adult>
+			すぃーがあるよ！
+		</adult>
+	</rude>
+[/FindSui]
+
+# すぃーを自分のものにする
+[GetSui]
+	<normal>
+		<baby>
+			このすぃーしゃんは %nameのだよ！
+		</baby>
+		<child>
+			このすぃーしゃんは %nameのだよ！
+		</child>
+		<adult>
+			このすぃーは %nameのだよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			このすぃーしゃんは %nameのものだよ！
+		</baby>
+		<child>
+			このすぃーしゃんは %nameのものだよ！
+		</child>
+		<adult>
+			このすぃーは %nameのものだよ！
+		</adult>
+	</rude>
+[/GetSui]
+
+# 自分のすぃーにのりにいく
+[FindGetSui]
+	<normal>
+		<baby>
+			どらいぶしゅりゅよ！
+			れっつ！らいどぉ～ん！
+		</baby>
+		<child>
+			どらいぶしゅりゅよ！
+			れっつ！らいどぉ～ん！
+		</child>
+		<adult>
+			どらいぶするよっ！
+			れっつ！らいどおーん！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			どらいぶしゅりゅよ！
+			れっつ！らいどぉ～ん！
+		</baby>
+		<child>
+			どらいぶしゅりゅよ！
+			れっつ！らいどぉ～ん！
+		</child>
+		<adult>
+			どらいぶするよっ！
+			れっつ！らいどおーん！
+		</adult>
+	</rude>
+[/FindGetSui]
+
+# 自分以外のすぃーにのりにいく
+[FindGetSuiOtner]
+	<normal>
+		<baby>
+			%nameも すぃーしゃんにのせちぇにぇ！
+		</baby>
+		<child>
+			%nameも すぃーしゃんにのせちぇにぇ！
+		</child>
+		<adult>
+			%nameもすぃーにのせてね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%nameも すぃーしゃんにのせちぇにぇ！
+		</baby>
+		<child>
+			%nameも すぃーしゃんにのせちぇにぇ！
+		</child>
+		<adult>
+			%nameもすぃーにのせてね！
+		</adult>
+	</rude>
+[/FindGetSuiOtner]
+
+# 自分以外のすぃーにのりにいくときに呼ぶ
+[WantRideSuiOtner]
+	<normal>
+		<baby>
+			まっちぇにぇっ！%nameもすぃーしゃんにのせちぇにぇ！
+		</baby>
+		<child>
+			まっちぇにぇっ！%nameもすぃーしゃんにのせちぇにぇ！
+		</child>
+		<adult>
+			まってねっ！%nameもすぃーにのせてね！
+		</adult>
+	</normal>
+[/WantRideSuiOtner]
+
+# すぃーにのる
+[RideSui]
+	<normal>
+		<baby>
+			しゅっぱ～ちゅ！
+			れっちゅ すた～ちょ！
+		</baby>
+		<child>
+			しゅっぱ～ちゅ！
+			れっちゅ すた～ちょ！
+		</child>
+		<adult>
+			しゅっぱーつ！
+			れっつ すたーと！
+		</adult>
+	</normal>
+[/RideSui]
+
+# すぃーにのっている
+[RidingSui]
+	<normal>
+		<baby>
+			%nameはかぜしゃんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			ゆわぁ！これ、めっちゃたのしい！！！
+		</baby>
+		<child>
+			%nameはかぜしゃんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			ゆわぁ！これ、めっちゃたのしい！！！
+		</child>
+		<adult>
+			%nameはかぜさんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			ゆわぁ！これ、めっちゃたのしい！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%nameはかぜしゃんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			やっべ！これ、めっちゃたのしい！！！
+		</baby>
+		<child>
+			%nameはかぜしゃんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			やっべ！これ、めっちゃたのしい！！！
+		</child>
+		<adult>
+			%nameはかぜさんになったよ！！！
+			ひゅー！さいっこうだよおぉ！！！
+			やっべ！これ、めっちゃたのしい！！！
+		</adult>
+	</rude>
+[/RidingSui]
+
+# すぃーを運転する
+[DrivingSui]
+	<normal>
+		<baby>
+			%nameのうんてんてくにっくをみちぇにぇ！
+			%nameはこうそくどうろの おほしさまっ！
+			♪%nameは すぃーしゃんと たびにでる～
+		</baby>
+		<child>
+			%nameのうんてんてくにっくをみちぇにぇ！
+			%nameはこうそくどうろの おほしさまっ！
+			♪%nameは すぃーしゃんと たびにでる～
+		</child>
+		<adult>
+			%nameのうんてんてくにっくをみてね！
+			ひゅー！さいっこうだよおぉ！！！
+			%nameはこうそくどうろの おほしさまっ！
+			♪ゆっくり ふり～うぇ～え～ぃ
+			♪ゆっくりろ～ど このみ～ち～ ずーうっと～
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%nameのうんてんてくにっくをみちぇにぇ！
+			%nameはこうそくどうろの おほしさまっ！
+			♪%nameは すぃーしゃんと たびにでる～
+		</baby>
+		<child>
+			%nameのうんてんてくにっくをみちぇにぇ！
+			%nameはこうそくどうろの おほしさまっ！
+			♪%nameは すぃーしゃんと たびにでる～
+		</child>
+		<adult>
+			%nameのうんてんてくにっくをみてね！
+			%nameはこうそくどうろの おほしさまっ！
+			♪ゆっくり ふり～うぇ～え～ぃ
+			♪ゆっくりろ～ど このみ～ち～ ずーうっと～
+		</adult>
+	</rude>
+[/DrivingSui]
+
+# すぃーを運転するパートナーをみて（自分はのっていない）
+[DrivingSuiPartner]
+	<normal>
+		さすが%nameの%partnerだよ！
+		%partner！とってもゆっくりしてるよ！
+	</normal>
+[/DrivingSuiPartner]
+
+# すぃーを運転するこどもをみて（自分はのっていない）
+[DrivingSuiChild]
+	<normal>
+		さすが%nameのおちびちゃん！
+	</normal>
+[/DrivingSuiChild]
+
+# すぃーを運転する父親をみて（自分はのっていない）
+[DrivingSuiPAPA]
+	<normal>
+		%nameのおとうしゃんすごいよ！
+	</normal>
+[/DrivingSuiPAPA]
+
+# すぃーを運転する母親をみて（自分はのっていない）
+[DrivingSuiMAMA]
+	<normal>
+		%nameのおきゃーしゃんしゅごいよ！
+	</normal>
+[/DrivingSuiMAMA]
+
+# すぃーを運転する姉をみて（自分はのっていない）
+[DrivingSuiOldSister]
+	<normal>
+		おねえちゃん、しゅごいよ！
+	</normal>
+[/DrivingSuiOldSister]
+
+# すぃーを運転する妹をみて（自分はのっていない）
+[DrivingSuiYoungSister]
+	<normal>
+		%nameのいもうちょ、しゅごいよ！
+	</normal>
+[/DrivingSuiYoungSister]
+
+# すぃーから降りる
+[RideOffSui]
+	<normal>
+		<baby>
+			たのしかっちゃよ！
+			ふふっ！ちょっととばしすぎたかにゃ？
+		</baby>
+		<child>
+			たのしかっちゃよ！
+			ふふっ！ちょっととばしすぎたかにゃ？
+		</child>
+		<adult>
+			たのしかったよ！
+			ふふっ！ちょっととばしすぎたかな？
+		</adult>
+	</normal>
+[/RideOffSui]
+
+# 持っているすぃーを自慢する
+[hasSui]
+	<normal>
+		<baby>
+			%nameはすぃーをもってりゅんだよ！
+			おねえしゃんにたのんで すぃーしゃんをかってもらったんだよ！
+		</baby>
+		<child>
+			%nameはすぃーをもってりゅんだよ！
+			おねえしゃんにたのんで すぃーしゃんをかってもらったんだよ！
+		</child>
+		<adult>
+			%nameはすぃーをもってるんだよ！
+			おねえさんにたのんで すぃーをかってもらったんだよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%nameはすぃーをもってりゅんだよ！
+			おねえしゃんにたのんで すぃーしゃんをかってもらったんだよ！ちょろいもんだよ！
+		</baby>
+		<child>
+			%nameはすぃーをもってりゅんだよ！
+			おねえしゃんにたのんで すぃーしゃんをかってもらったんだよ！ちょろいもんだよ！
+		</child>
+		<adult>
+			おねえさんにたのんで すぃーをかってもらったんだよ！ちょろいもんだよ！
+		</adult>
+	</rude>
+[/hasSui]
+
+# 持っているすぃーを自慢されるパートナー
+[hasSuiPartner]
+	<normal>
+		さすが%partnerだよ！
+		%partner！さいっこうにゆっくりしてるよ～！
+	</normal>
+	<rude>
+		さすが%partnerだよ！
+		%partner！さいっこうにゆっくりしてるよ～！
+	</rude>
+[/hasSuiPartner]
+
+# 子どもの持っているすぃーを自慢される親
+[hasSuiChild]
+	<normal>
+		さすが%nameのおちびちゃんだよ！
+		%nameのおちびちゃんはゆっくりしてるよ！
+	</normal>
+	<rude>
+		さすが%nameのおちびちゃんだよ！
+		%nameのおちびちゃんはゆっくりしてるよ！
+	</rude>
+[/hasSuiChild]
+
+# 父親の持っているすぃーを自慢されるこども
+[hasSuiPAPAChild]
+	<normal>
+		さすがおとうしゃん！
+		%nameのおとうしゃん かっこいいよ！
+	</normal>
+	<rude>
+		さすがおとうしゃん！
+		%nameのおとうしゃん かっこいいよ！
+	</rude>
+[/hasSuiPAPAChild]
+
+# 母親の持っているすぃーを自慢されるこども
+[hasSuiMAMAChild]
+	<normal>
+		さすがおかあしゃん！
+		%nameのおきゃーしゃん かっこいいよ！
+	</normal>
+	<rude>
+		さすがおかあしゃん！
+		%nameのおきゃーしゃん かっこいいよ！
+	</rude>
+[/hasSuiMAMAChild]
+
+# 姉の持っているすぃーを自慢される
+[hasSuiOldSister]
+	<normal>
+		さすがおねえちゃん！
+		%nameのおねえちゃん ゆっきゅりちてるにぇ！
+	</normal>
+	<rude>
+		さすがおねえちゃん！
+		%nameのおねえちゃん ゆっきゅりちてるにぇ！
+	</rude>
+[/hasSuiOldSister]
+
+# 妹の持っているすぃーを自慢される
+[hasSuiYoungSister]
+	<normal>
+		さすが%nameのいもうちょ！
+		%nameのいもうちょ ゆっきゅりちてるにぇ！
+	</normal>
+	<rude>
+		さすが%nameのいもうちょ！
+		%nameのいもうちょ ゆっきゅりちてるにぇ！
+	</rude>
+[/hasSuiYoungSister]

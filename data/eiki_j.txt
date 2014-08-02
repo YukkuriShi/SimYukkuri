@@ -1,0 +1,1627 @@
+# 餌発見
+[WantFood]
+	<normal>
+		<baby>
+			しりょっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</baby>
+		<child>
+			しりょっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</child>
+		<adult>
+			しろっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しりょっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</baby>
+		<child>
+			しりょっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</child>
+		<adult>
+			しろっ！
+			しーろしーろ！！！
+			し～ろし～ろ！
+		</adult>
+	</rude>
+[/WantFood]
+
+# 餌なし
+[NoFood]
+	<normal>
+		<baby>
+			くろ！
+			くりょっ？
+			くりょ～くりょ～
+			<damage>
+				くろ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			くりょっ？
+			くりょ～くりょ～
+			<damage>
+				くろ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			くろっ？
+			くろ～くろ～
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろ！
+			くりょっ？
+			くりょ～くりょ～
+			<damage>
+				くろ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			くりょっ？
+			くりょ～くりょ～
+			<damage>
+				くろ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			くろっ？
+			くろ～くろ～
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# 発情
+[Excite]
+	<normal>
+		しろくろ～！
+		しろくろしろくろ～！
+	</normal>
+[/Excite]
+
+# リラックス
+[Relax]
+	<normal>
+		<baby>
+			しろ！
+			し～～りょ～～♪
+			し～りょ～く～りょ～♪
+			よいじょっ～～
+			しーりょしーりょ、ゆっくちー！
+			おにーしゃん！しーりょしーりょ♪
+		</baby>
+		<child>
+			しろ！
+			し～～りょ～～♪
+			し～りょ～く～りょ～♪
+			よいじょっ～～
+			しーりょしーりょ、ゆっくちー！
+			おにーしゃん！しーりょしーりょ♪
+		</child>
+		<adult>
+			しろ！
+			し～～ろ～～♪
+			し～ろ～く～ろ～♪
+			よいぞぉっ～～
+			しーろしーろ、ゆっくりー！
+			おにーさん！しーろしーろ♪
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろ！
+			し～～りょ～～♪
+			し～りょ～く～りょ～♪
+			よいじょっ～～
+			しーりょしーりょ、ゆっくちー！
+			おにーしゃん！しーりょしーりょ♪
+		</baby>
+		<child>
+			くろ！
+			し～～りょ～～♪
+			し～りょ～く～りょ～♪
+			よいじょっ～～
+			しーりょしーりょ、ゆっくちー！
+			おにーしゃん！しーりょしーりょ♪
+		</child>
+		<adult>
+			くろ！
+			し～～ろ～～♪
+			し～ろ～く～ろ～♪
+			よいぞぉっ～～
+			しーろしーろ、ゆっくりー！
+			おにーさん！しーろしーろ♪
+		</adult>
+	</rude>
+[/Relax]
+
+# 尻振り
+[FuriFuri]
+	<normal>
+		<baby>
+			しーりょしーりょ
+			しーりょしーりょ♪
+			しーりょくーりょ♪
+			しりょんくりょん！
+			しーりょしーりょ ゆっくちー！
+		</baby>
+		<child>
+			しーりょしーりょ
+			しーりょしーりょ♪
+			しーりょくーりょ♪
+			しりょんくりょん！
+			しーりょしーりょ ゆっくちー！
+		</child>
+		<adult>
+			しーろしーろ
+			しーろしーろ♪
+			しーろくーろ♪
+			しろんくろん♪
+			しーろしーろ ゆっくりー！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しーりょしーりょ
+			しーりょしーりょ♪
+			しーりょくーりょ♪
+			しりょんくりょん♪
+			しーりょしーりょ ゆっくちー！
+		</baby>
+		<child>
+			しーりょしーりょ
+			しーりょしーりょ♪
+			しーりょくーりょ♪
+			しりょんくりょん♪
+			しーりょしーりょ ゆっくちー！
+		</child>
+		<adult>
+			しーろしーろ
+			しーろしーろ♪
+			しーろくーろ♪
+			しろんくろん♪
+			しーろしーろ ゆっくりー！
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# 起床
+[Wakeup]
+	<normal>
+		<baby>
+			しろっ！
+		</baby>
+		<child>
+			しろっ！
+		</child>
+		<adult>
+			しろっ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しろっ！！！
+		</baby>
+		<child>
+			しろっ！！！
+		</child>
+		<adult>
+			しろっ！！！
+		</adult>
+	</rude>
+[/Wakeup]
+
+# 睡眠
+[Sleep]
+	<normal>
+		しーろしーろ・・・
+		よいぞぉ・・・
+	</normal>
+[/Sleep]
+
+# 悲鳴
+[Scream]
+	<normal>
+		<baby>
+			くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</baby>
+		<child>
+			くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</child>
+		<adult>
+			くろー！くろー！くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</baby>
+		<child>
+			くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</child>
+		<adult>
+			くろー！くろー！くろー！
+			くろっ！くろっ！
+			<damage>
+				くろー、、、
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# 怯え
+[Scare]
+	<normal>
+		<baby>
+			くろー！
+			くろー！くろー！
+			くろー！くろー！くろー！
+			<damage>
+				くろー、、、
+			</damage>
+		</baby>
+		<child>
+			くろー！
+			くろー！くろー！
+			くろー！くろー！くろー！
+			<damage>
+				くろー、、、
+			</damage>
+		</child>
+		<adult>
+			くろー！
+			くろー！くろー！
+			くろー！くろー！くろー！
+			<damage>
+				くろー、、、
+			</damage>
+		</adult>
+	</normal>
+[/Scare]
+
+# 警戒
+[Alarm]
+	<normal>
+		<baby>
+			くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</baby>
+		<child>
+			くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</child>
+		<adult>
+			くろー！くろー！くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</baby>
+		<child>
+			くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</child>
+		<adult>
+			くろー！くろー！くろー！
+			くーろ！くーろ！
+			<damage>
+				くろー、、、
+				くろぉ、、くろぉ、、
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# 瀕死
+[Dying]
+	<normal>
+		<baby>
+			ゆべっ！
+			ぐりょっ！
+		</baby>
+		<child>
+			ぷきゅっ！
+			ぐりょっ！
+		</child>
+		<adult>
+			げぼっ！
+			ぐりょっ！
+			ぐぼっ！
+		</adult>
+	</normal>
+[/Dying]
+
+# 死亡
+[Dead]
+	<normal>
+		<baby>
+			くろぉ、、、
+		</baby>
+		<child>
+			くろぉ、、、
+		</child>
+		<adult>
+			くろぉ、、、
+		</adult>
+	</normal>
+[/Dead]
+
+# 食事
+[Eating]
+	<normal>
+		<baby>
+			しりょ～しりょ～しりょ～
+			しりょ！しりょ！しりょ！
+			よいじょぉっ～～
+			しりょしりょ！おいち～♪
+		</baby>
+		<child>
+			むーちゃむーちゃ、しりょー
+			むちゃむちゃ、しりょー！！！
+			よいじょぉっ～～
+			しりょしりょ！おいち～♪
+		</child>
+		<adult>
+			むーしゃむーしゃ、しろー
+			むっしゃむっしゃ、しろー！！！
+			よいぞぉっ～～
+			しろしろ！おいし～♪
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しりょ～しりょ～しりょ～
+			しりょ！しりょ！しりょ！
+			よいじょぉっ～～
+			しりょしりょ！しょれにゃり～♪
+		</baby>
+		<child>
+			むーちゃむーちゃ、しりょー
+			むちゃむちゃ、しりょー！！！
+			よいじょぉっ～～
+			しりょしりょ！しょれにゃり～♪
+		</child>
+		<adult>
+			むーしゃむーしゃ、しろー
+			むっしゃむっしゃ、しろー
+			よいぞぉっ～～
+			しろしろ！それなり～♪
+		</adult>
+	</rude>
+[/Eating]
+
+# 食事(うんうん)
+[EatingShit]
+	<normal>
+		<baby>
+			む～ちゃむ～ちゃ、くろ、、、
+			ぐろぉ、、、ぐろぉ、、、
+			ぐべぇ、、、
+		</baby>
+		<child>
+			むーちゃむーちゃ、くろ、、、
+			ぐろぉ、、、ぐろぉ、、、
+			ぐべぇ、、、
+		</child>
+		<adult>
+			むーしゃむーしゃ、くろ、、、
+			ぐろぉ、、、ぐろぉ、、、
+			ぐべぇ、、、
+		</adult>
+	</normal>
+[/EatingShit]
+
+# 食事(毒)
+[EatingBitter]
+	<normal>
+		<baby>
+			む～ちゃむ～ちゃ、くろくろくろ！
+			くりょー！くりょー！
+		</baby>
+		<child>
+			むーちゃむーちゃ、くろくろくろ！
+			くりょー！くりょー！
+		</child>
+		<adult>
+			むーしゃむーしゃ、くろくろくろ！
+			くろー！くろー！
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# 満腹
+[Full]
+	<normal>
+		<baby>
+			くろ、、、
+		</baby>
+		<child>
+			くろ、、、
+		</child>
+		<adult>
+			くろ、、、
+		</adult>
+	</normal>
+[/Full]
+
+# 回復
+[Healing]
+	<normal>
+		<baby>
+			しろ！
+			よいじょぉっ～～
+			<damage>
+				しろぉ！
+				よいじょぉっ！
+			</damage>
+		</baby>
+		<child>
+			しろ！
+			よいじょぉっ～～
+			<damage>
+				しろぉ！
+				よいじょぉっ！
+			</damage>
+		</child>
+		<adult>
+			しろ！
+			よいぞぉっ～～
+			<damage>
+				しろぉ！
+				よいぞぉっ～～！
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しろ！
+			よいじょぉっ～～
+			<damage>
+				しろぉ！
+				よいじょぉっ！
+			</damage>
+		</baby>
+		<child>
+			しろ！
+			よいじょぉっ～～
+			<damage>
+				しろぉ！
+				よいじょぉっ！
+			</damage>
+		</child>
+		<adult>
+			しろ！
+			よいぞぉっ～～
+			<damage>
+				しろぉ！
+				よいぞぉっ～～！
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# すっきり
+[Sukkiri]
+	<normal>
+		<baby>
+			まっしろ！
+			よいじょおおおおっ～～～っ
+		</baby>
+		<child>
+			まっしろ！
+			よいじょおおおおっ～～～っ
+		</child>
+		<adult>
+			まっしろ！
+			よいぞぉおおおおっ～～～っ
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# レイパーとすっきり
+[RaperSukkiri]
+	<normal>
+		<baby>
+			くりょっ！くりょっ！
+			くりょ～～っ！
+		</baby>
+		<child>
+			くりょっ！くりょっ！
+			くりょ～～っ！
+		</child>
+		<adult>
+			くろっ！くろっ！
+			ぐりょ～～っ！
+		</adult>
+	</normal>
+[/RaperSukkiri]
+
+# 誕生
+[Birth]
+	<normal>
+		しぃーーりょぉーー！！！
+		よいじょおおおおっ～～～！！！
+	</normal>
+[/Birth]
+
+# 排泄
+[Shit]
+	<normal>
+		<baby>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</baby>
+		<child>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</child>
+		<adult>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</baby>
+		<child>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</child>
+		<adult>
+			くろぉ、、、
+			<pants>
+				くろぉ、、、
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# 排泄2
+[Shit2]
+	<normal>
+		<baby>
+			まっしろ！
+			よいじょっ～～
+			<pants>
+				まっくろ、、、
+			</pants>
+		</baby>
+		<child>
+			まっしろー！
+			よいじょっ～～
+			<pants>
+				まっくろ、、、
+			</pants>
+		</child>
+		<adult>
+			まっしろー！
+			よいぞぉっ～～
+			<pants>
+				えぐっえぐっ、、、まっくろぉ、、、
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# すりすり
+[SuriSuri]
+	<normal>
+		<baby>
+			しろしろ
+			よいじょっ～～
+			しりょしりょ、ちあわちぇー！
+		</baby>
+		<child>
+			しーろしーろ
+			よいじょっ～～
+			しりょしりょ、ちあわちぇー！
+		</child>
+		<adult>
+			しーろしーろ
+			よいぞぉっ～～
+			しろっしろっ、しあわせー！
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# ぺろぺろ
+[PeroPero]
+	<normal>
+		<baby>
+			しりょしりょ
+			よいじょっ～～
+		</baby>
+		<child>
+			しーりょしーりょ
+			よいじょっ～～
+		</child>
+		<adult>
+			しーろしーろ
+			よいぞぉっ～～
+		</adult>
+	</normal>
+[/PeroPero]
+
+# 出産
+[Breed]
+	<normal>
+		し、しろ～、、、
+	</normal>
+[/Breed]
+
+# 産後
+[Breed2]
+	<normal>
+		おちびっ！しろっ！しろっ！しろっ！！！
+		<pants>
+			おちびっ？くろおおおおぉ！
+		</pants>
+	</normal>
+[/Breed2]
+
+# うんうん発見
+[HateShit]
+	<normal>
+		<baby>
+			くろ～！
+			<damage>
+				くろ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろ～！
+			<damage>
+				くろ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# 空腹
+[Hungry]
+	<normal>
+		<baby>
+			くろ～！
+			くりょ～、、、
+			<damage>
+				くりょ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			くりょ～、、、
+			<damage>
+				くりょ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろ～！
+			くりょ～、、、
+			<damage>
+				くりょ、、、
+			</damage>
+		</baby>
+		<child>
+			くろ！
+			くりょ～、、、
+			<damage>
+				くりょ、、、
+			</damage>
+		</child>
+		<adult>
+			くろ！
+			<damage>
+				くろ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# おかざり没収
+[NoAccessory]
+	<normal>
+		<baby>
+			くろー！
+		</baby>
+		<child>
+			くろー！
+		</child>
+		<adult>
+			くろー！
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# 持ち上げ
+[Flying]
+	<normal>
+		<baby>
+			しろしろ！
+			よいじょっ～～
+		</baby>
+		<child>
+			しろしろ！
+			よいじょっ～～
+		</child>
+		<adult>
+			しろしろ！
+			よいぞぉっ～～
+		</adult>
+	</normal>
+[/Flying]
+
+# 子供死亡
+[SadnessForChild]
+	<normal>
+		くろー！
+	</normal>
+[/SadnessForChild]
+
+# つがい死亡
+[SadnessForPartner]
+	<normal>
+		くろー！
+	</normal>
+[/SadnessForPartner]
+
+# 姉死亡
+[SadnessForEldersister]
+	<normal>
+		くろー！
+	</normal>
+[/SadnessForEldersister]
+
+# 妹死亡
+[SadnessForSister]
+	<normal>
+		くろー！
+	</normal>
+[/SadnessForSister]
+
+# 壁発見
+[BlockedByWall]
+	<normal>
+		<baby>
+			くろぉ～！
+		</baby>
+		<child>
+			くろぉ～！
+		</child>
+		<adult>
+			くろぉ～！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろぉ～！
+		</baby>
+		<child>
+			くろぉ～！
+		</child>
+		<adult>
+			くろぉ～！
+		</adult>
+	</rude>
+[/BlockedByWall]
+
+# おもちゃ発見
+[GetTreasure]
+	<normal>
+		<baby>
+			しろ！
+			よいじょっ～～
+		</baby>
+		<child>
+			しろ！
+			よいじょっ～～
+		</child>
+		<adult>
+			しろ！
+			よいぞぉっ～～
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# おもちゃ紛失
+[LostTreasure]
+	<normal>
+		<baby>
+			くろー！
+		</baby>
+		<child>
+			くろー！
+		</child>
+		<adult>
+			くろー！
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# 膨張
+[Inflation]
+	<normal>
+		<baby>
+			くろおおおおおお！
+		</baby>
+		<child>
+			くろおおおおおお！
+		</child>
+		<adult>
+			くろおおおおおお！
+		</adult>
+	</normal>
+[/Inflation]
+
+# 子虐待
+[AbuseBaby]
+	<normal>
+		<baby>
+			くろー！
+		</baby>
+		<child>
+			くろー！
+		</child>
+		<adult>
+			くろー！
+		</adult>
+	</normal>
+[/AbuseBaby]
+
+# のびのび
+[Nobinobi]
+	<normal>
+		<baby>
+			しーろしーろ
+			よいじょっ～～
+		</baby>
+		<child>
+			しーろしーろ
+			よいじょっ～～
+		</child>
+		<adult>
+			しーろしーろ
+			よいぞぉっ～～
+		</adult>
+	</normal>
+[/Nobinobi]
+
+# 出産前
+[NearToBirth]
+	<normal>
+		<baby>
+			しろしろ！
+		</baby>
+		<child>
+			しろしろ！
+		</child>
+		<adult>
+			しろしろ！
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# 毒
+[PoisonDamage]
+	<normal>
+		<baby>
+			くろー!
+			<damage>
+				ぐろ
+			</damage>
+		</baby>
+		<child>
+			くろー!
+			<damage>
+				ぐろ
+			</damage>
+		</child>
+		<adult>
+			くろー！
+			<damage>
+				ぐろ
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# 排泄不可
+[CantShit]
+	<normal>
+		<baby>
+			くろぉ！
+		</baby>
+		<child>
+			くろぉ!
+		</child>
+		<adult>
+			くろぉ！
+		</adult>
+	</normal>
+[/CantShit]
+
+# 妊娠失敗
+[NoPregnancy]
+	<normal>
+		<baby>
+			くろぉ、、、
+		</baby>
+		<child>
+			くろぉ、、、
+		</child>
+		<adult>
+			くろぉ、、、
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろぉ、、、
+		</baby>
+		<child>
+			くろぉ、、、
+		</child>
+		<adult>
+			くろぉ、、、
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# 恐怖でパニック状態
+[Fear]
+	<normal>
+		<baby>
+			くろー！
+		</baby>
+			くろー！
+		</child>
+		<adult>
+			くろー！
+		</adult>
+	</normal>
+[/Fear]
+
+# 火がついてる状態
+[Burning]
+	<normal>
+		<baby>
+			くろー！くろー！
+		</baby>
+			くろー！くろー！
+		</child>
+		<adult>
+			くろー！くろー！
+		</adult>
+	</normal>
+[/Burning]
+
+# 水をかけられた
+[Wet]
+	<normal>
+		<baby>
+			くろぉ！
+		</baby>
+			くろぉ！
+		</child>
+		<adult>
+			くろぉ！
+		</adult>
+	</normal>
+[/Wet]
+
+# あにゃる閉鎖
+[AnalSealed]
+	<normal>
+		<baby>
+			しろっ！くろっ！
+		</baby>
+		<child>
+			しろっ！くろっ！
+		</child>
+		<adult>
+			しろっ！くろっ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			しろっ！くろっ！
+		</baby>
+		<child>
+			しろっ！くろっ！
+		</child>
+		<adult>
+			しろっ！くろっ！
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# 針が刺さった時
+[NeedleStick]
+	<normal>
+		<baby>
+			くろっ？
+		</baby>
+		<child>
+			くろっ？
+		</child>
+		<adult>
+			くろっ？
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# 針が刺さっている時
+[NeedleScream]
+	<normal>
+		<baby>
+			くろー！くろー！
+		</baby>
+		<child>
+			くろー！くろー！
+		</child>
+		<adult>
+			くろー！くろー！
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# つがいの針をぐーりぐりする
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			しろー！くろー！しろー！
+		</baby>
+		<child>
+			しろー！くろー！しろー！
+		</child>
+		<adult>
+			しろー！くろー！しろー！
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# 子の針をぐーりぐりする
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			しろー！くろー！しろー！
+		</baby>
+		<child>
+			しろー！くろー！しろー！
+		</child>
+		<adult>
+		しろー！くろー！しろー！
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# 被ぐーりぐり時
+[NeedlePain]
+	<normal>
+		<baby>
+			くろー！くろー！まっくろーー！！！
+		</baby>
+		<child>
+			くろー！くろー！まっくろーー！！！
+		</child>
+		<adult>
+			くろー！くろー！まっくろーー！！！
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# 針を抜いた時
+[NeedleRemove]
+	<normal>
+		<baby>
+			しーろくーろ、しろくろ、、、
+		</baby>
+		<child>
+			しーろくーろ、しろくろ、、、
+		</child>
+		<adult>
+			しーろくーろ、しろくろ、、、
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# あまあま要求
+[WantAmaama]
+	<rude>
+		<baby>
+			くろっ！くろっ！しろー！
+			じぇんこーよっ！
+		</baby>
+		<child>
+			くろっ！くろっ！しろー！
+			じぇんこーよっ！
+		</child>
+		<adult>
+			くろっ！くろっ！しろー！
+			ぜんこーよ！
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# 移動不能
+[CantMove]
+	<normal>
+		<baby>
+			くーろくーろ？
+			くろぉ！
+		</baby>
+		<child>
+			くーろくーろ？
+			くろぉ！
+		</child>
+		<adult>
+			くーろくーろ？
+			くろぉ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くーろくーろ？
+			くろぉ！
+		</baby>
+		<child>
+			くーろくーろ？
+			くろぉ！
+		</child>
+		<adult>
+			くーろくーろ？
+			くろぉ！
+		</adult>
+	</rude>
+[/CantMove]
+
+# 移動不能2
+[CantMove2]
+	<normal>
+		<baby>
+			くーろくーろ？
+			くろぉ！
+		</baby>
+		<child>
+			くーろくーろ？
+			くろぉ！
+		</child>
+		<adult>
+			くーろくーろ？
+			くろぉ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くーろくーろ？
+			くろぉ！
+		</baby>
+		<child>
+			くーろくーろ？
+			くろぉ！
+		</child>
+		<adult>
+			くーろくーろ？
+			くろぉ！
+		</adult>
+	</rude>
+[/CantMove2]
+
+# 引っ張る
+[Pull]
+	<normal>
+		<baby>
+			くろぉ？
+			くろっ！くろっ！
+		</baby>
+		<child>
+			くろぉ？
+			くろっ！くろっ！
+		</child>
+		<adult>
+			くろぉ？
+			くろっ！くろっ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろぉ？
+			くろっ！くろっ！
+		</baby>
+		<child>
+			くろぉ？
+			くろっ！くろっ！
+		</child>
+		<adult>
+			くろぉ？
+			くろっ！くろっ！
+		</adult>
+	</rude>
+[/Pull]
+
+# 引っ張る2
+[Pull2]
+	<normal>
+		<baby>
+			くろおおお！！！
+			くろろろろ！！！
+		</baby>
+		<child>
+			くろおおお！！！
+			くろろろろ！！！
+		</child>
+		<adult>
+			くろおおお！！！
+			くろろろろ！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろおおお！！！
+			くろろろろ！！！
+		</baby>
+		<child>
+			くろおおお！！！
+			くろろろろ！！！
+		</child>
+		<adult>
+			くろおおお！！！
+			くろろろろ！！！
+		</adult>
+	</rude>
+[/Pull2]
+
+# つぶす
+[Press]
+	<normal>
+		<baby>
+			くろっ？
+			くーろ？くーろ？
+		</baby>
+		<child>
+			くろっ？
+			くーろ？くーろ？
+		</child>
+		<adult>
+			くろっ？
+			くーろ？くーろ？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くろっ？
+			くーろ？くーろ？
+		</baby>
+		<child>
+			くろっ？
+			くーろ？くーろ？
+		</child>
+		<adult>
+			くろっ？
+			くーろ？くーろ？
+		</adult>
+	</rude>
+[/Press]
+
+# つぶす2
+[Press2]
+	<normal>
+		<baby>
+			ぐりょぉぉぉ！！！
+			ぐりょりょりょりょ！！！
+		</baby>
+		<child>
+			ぐりょぉぉぉ！！！
+			ぐりょりょりょりょ！！！
+		</child>
+		<adult>
+			ぐろろろおおお！！！
+			ぐりょりょりょりょ！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ぐりょぉぉぉ！！！
+			ぐりょりょりょりょ！！！
+		</baby>
+		<child>
+			ぐりょぉぉぉ！！！
+			ぐりょりょりょりょ！！！
+		</child>
+		<adult>
+			ぐろろろおおお！！！
+			ぐりょりょりょりょ！！！
+		</adult>
+	</rude>
+[/Press2]
+
+# あまあま発見
+[FindAmaama]
+	<normal>
+		<baby>
+			しろっ！
+			よいじょっ～～
+		</baby>
+		<child>
+			しろっ！
+			よいじょっ～～
+		</child>
+		<adult>
+			しろっ！
+			よいぞぉっ～～
+		</adult>
+	</normal>
+[/FindAmaama]
+
+# あまあま食事
+[EatingAmaama]
+	<normal>
+		<baby>
+			よいじょっ～～
+			しろ～～しろ～～
+			しーりょしーりょ！あみゃあみゃ～♪
+		</baby>
+		<child>
+			よいじょっ～～
+			しろ～～しろ～～
+			しーりょしーりょ！あみゃあみゃ～♪
+		</child>
+		<adult>
+			よいぞぉっ～～
+			しろ～～しろ～～
+			しーろしーろ！あまあま～♪
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# 吐餡
+[Vomit]
+	<normal>
+		<baby>
+			ぐろぉ、、、
+			ぐべぇ、、、
+			ぐぶはぁっ！
+		</baby>
+		<child>
+			ぐろぉ、、、
+			ぐべぇ、、、
+			ぐぶはぁっ！
+		</child>
+		<adult>
+			ぐろぉ、、、
+			ぐべぇ、、、
+			ぐぶはぁっ！
+		</adult>
+	</normal>
+[/Vomit]
+
+# 汎用、瀕死継続
+[Dying2]
+	<normal>
+		<baby>
+			くっ、、、くろっ、、、
+			くろぉ、、、
+		</baby>
+		<child>
+			くっ、、、くろっ、、、
+			くろぉ、、、
+		</child>
+		<adult>
+			くっ、、、くろっ、、、
+			くろぉ、、、
+		</adult>
+	</normal>
+[/Dying2]
+
+# 汎用、驚き
+[Surprise]
+	<normal>
+		<baby>
+			しりょっ？くりょっ？
+			しりょー！くりょー！
+			ゆわあぁぁ、、、
+		</baby>
+		<child>
+			しりょっ？くりょっ？
+			しりょー！くりょー！
+			ゆわあぁぁ、、、
+		</child>
+		<adult>
+			しろっ？くろっ？
+			しろー！くろー！
+			ゆわあぁぁ、、、
+		</adult>
+	</normal>
+[/Surprise]
+
+# 汎用、他のゆっくりに何かされたときに対する攻撃、反撃
+[RevengeAttack]
+	<rude>
+		<baby>
+			しけいっ！！！
+		</baby>
+		<child>
+			しけいっ！！！
+		</child>
+		<adult>
+			しけいっ！！！
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# おさげ、尻尾、羽をちぎる
+[BraidCut]
+	<normal>
+		<baby>
+			くろー！
+			くりょぉぉ！！！
+		</baby>
+		<child>
+			くろー！
+			くりょぉぉ！！！
+		</child>
+		<adult>
+			くろー！
+			くりょぉぉ！！！
+		</adult>
+	</normal>
+[/BraidCut]
+
+# 汎用、他のゆっくりに生きたまま食べられる
+[EatenByBody]
+	<normal>
+		<baby>
+			くりょっ？くりょっ！
+		</baby>
+		<child>
+			くりょっ？くりょっ！
+		</child>
+		<adult>
+			くりょっ？くりょっ！
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# 汎用、他のゆっくりに生きたまま吸われる
+[EatenByBody2]
+	<normal>
+		<baby>
+			ぐりょぉぉ、、、
+		</baby>
+		<child>
+			ぐりょぉぉ、、、
+		</child>
+		<adult>
+			ぐりょぉぉ、、、
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# れみりゃから逃げる
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			くろー！くろー！
+			くりょっ！くりょっ！
+			くろっ！まっくろっ！！！
+		</baby>
+		<child>
+			くろー！くろー！
+			くりょっ！くりょっ！
+			くろっ！まっくろっ！！！
+		</child>
+		<adult>
+			くろー！くろー！
+			くりょっ！くりょっ！
+			くろっ！まっくろっ！！！
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

@@ -1,0 +1,1935 @@
+# Finding feed
+[WantFood]
+	<normal>
+		<baby>
+			Mishter fwood!
+			Shmewwsh wike mishter fwood.
+		</baby>
+		<child>
+			Mishter fwood!
+			Shmellsh wike mishter fwood.
+		</child>
+		<adult>
+			It's delicious-smelling mister food.
+			Smells like mister food.
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter fwood!
+			Mishter fwood gome ober hea!
+		</baby>
+		<child>
+			Shupa mwunch mwunch chime ish shtarting.
+		</child>
+		<adult>
+			Smells like mister food.
+		</adult>
+	</rude>
+[/WantFood]
+
+# Without feed
+[NoFood]
+	<normal>
+		<baby>
+			Nyo mishter fwood!
+			Chummy hurch!
+			<damage>
+				Mishter fwood pweashe...
+				Chummy ish emptchy...
+			</damage>
+		</baby>
+		<child>
+			Chummy ish empchy.
+			Wanch cho ead mishter fwood!
+			<damage>
+				Mishter fwood pweashe...
+				Chummy hurch...
+			</damage>
+		</child>
+		<adult>
+			There's no mister food?
+			Want to eat delicious mister food.
+			<damage>
+				Mizder vood bleaze...
+				Tummy hurdz...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Bwing mishter fwood!
+			Fwood! Huwwy!
+			<damage>
+				Mishter fwood pweashe...
+				Hand ober fwood...
+			</damage>
+		</baby>
+		<child>
+			Mishter fwood huwwy and gwow!
+			Shwabe! Chummy is empchy!
+			<damage>
+				Mishter fwood pweashe...
+				Quickwy bwing oud mishter fwood...
+			</damage>
+		</child>
+		<adult>
+			There's no mister food? You stupid? Wanna die?
+			<damage>
+				Mizder vood bleaze...
+				Gwigly bring oud mizder vood...
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# Sexual excitement
+[Excite]
+	<normal>
+		<baby>
+			Nhooo!
+			Wefweeesh!!
+		</baby>
+		<child>
+			Nhooooo! Wand do wefweeeeeesh!
+			Wefwesh wefwesh wefweeeeeeesh!!
+			Ooo~! Shoo tsundewe~!!
+		</child>
+		<adult>
+			Nhooo!!! Instantly feels goooood!!!!!!?
+			Oooo!! So tsundereee~!
+		</adult>
+	</normal>
+[/Excite]
+
+# Relax
+[Relax]
+	<normal>
+		<baby>
+			Chake id eajy!
+			Eajy～♪
+		</baby>
+		<child>
+			Chake it eajy!
+			Led's tage id eajy togejer.
+		</child>
+		<adult>
+			Take it easy!
+			Taking it easy with mister.
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Die eajy!
+		</baby>
+		<child>
+			Shuch a pwovincial pwashe.
+			How pwovincial!
+			Mishder human ish shuch a countwy bumpkin!
+		</child>
+		<adult>
+			Such an uneasy human. Ooh miserable miserable.
+			Mister human ish shuch a country bumpkin!
+			Alice is so city~sect!
+			No mister suite?
+		</adult>
+	</rude>
+[/Relax]
+
+# Bottom wiggling
+[FuriFuri]
+	<normal>
+		<baby>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</baby>
+		<child>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</child>
+		<adult>
+			Wiggle wiggle!
+			Ro～ll ro～ll
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</baby>
+		<child>
+			Shorry for being sho cute!
+			Do anyaru wick wick!
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</child>
+		<adult>
+			Getting excited from mister anyaru?
+			Teaching the shitty geezer the poo poo exercise is okay you know?
+			Doing fanservice for the shitty geezer!
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# Getting out of bed
+[Wakeup]
+	<normal>
+		<baby>
+			Gwood mworning eajy!
+			Chage id eajy!
+		</baby>
+		<child>
+			Good morning eajy!
+			Chage id eajy!
+		</child>
+		<adult>
+			Good morning easy!
+			Take it easy!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chage id eajy!
+		</baby>
+		<child>
+			Chage id eajy!
+		</child>
+		<adult>
+			Take it easy!
+		</adult>
+	</rude>
+[/Wakeup]
+
+# Sleep
+[Sleep]
+	<normal>
+		<baby>
+			Yupii... yupii...
+			Zzz... shiddy shect...
+		</baby>
+		<child>
+			Yupii... yupii...
+			Zzz... shiddy shect...
+		</child>
+		<adult>
+			Sleep sleep
+			City-sect...
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupii... yupii...
+			Zzz... shiddy shect...
+		</baby>
+		<child>
+			Yupii... yupii...
+			Zzz... shiddy shect...
+		</child>
+		<adult>
+			Sleep sleep
+			Nhoo...
+		</adult>
+	</rude>
+[/Sleep]
+
+# Scream
+[Scream]
+	<normal>
+		<baby>
+			Id huurch!
+			Yunyaaaa!!!
+			Wryyy!?
+			Myaamyaa!
+			Yukyaaa!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Yu, yu, yu...
+				Hewp...
+				Yuuu...
+				Shtob...
+			</damage>
+		</baby>
+		<child>
+			Id Hurch! Shdob id? Shdob id?
+			Yunyaaaa!!!
+			Myamyaaaa!
+			Shtoob!!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Shtob id...
+				Don'd wanna dwie, wanch choo eajy...
+				Pweashe shtop...
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaaa!!!! It hurts! Stop it? Stop it?
+			Why? Take it easy? Easy, easy!
+			<damage>
+				Please stop...
+				Dage id eazy...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id huurch!
+			Yunyaaaa!!!
+			Jdob!
+			Myaamyaa!
+			Yugyaaaa!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Yu, yu, yu...
+				Bleaze vorgibe...
+				Myamya heeewp...
+				Gowing hyome...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaaa!!!
+			Myamyaaaa!
+			Gedding angwy! Pyufffff!!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Bleaze vorgibe...
+				Myamya heeelb...
+				Going home...
+			</damage>
+		</child>
+		<adult>
+			Want to take it easyyyyy!
+			<damage>
+				Don'd lige diz... eazy, eazy eazy...
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# Surprised
+[Scare]
+	<normal>
+		<baby>
+			Yunyaaaa!!!
+			Gan chake id eajy! Going hwome!
+			Yugyaaaaaa!!
+			<damage>
+				Yu, yu, yu...
+				Gan'd dage id eajy... going hwome...
+				Yu, yu, yugeeee...
+				Shtoop...
+			</damage>
+		</baby>
+		<child>
+			Can'ch chake id eajy!
+			<damage>
+				Wryy, wryyy...
+			</damage>
+		</child>
+		<adult>
+			Can't take it easy!
+			This can't take it easy! Going home!
+			<damage>
+				Wry are you doing diz...
+			</damage>
+		</adult>
+	</normal>
+[/Scare]
+
+# Vigilance
+[Alarm]
+	<normal>
+		<baby>
+			Yuu!
+			Yunyaaa!
+			Shtoop!
+			<damage>
+				Yu, yu, yu...
+				Shtoop...
+				Wryy...
+			</damage>
+		</baby>
+		<child>
+			Can'ch chage id bewwy eajy!
+			Wryyy!
+			Wry are you doing diiish!?
+			<damage>
+				Pweashe shtop...
+			</damage>
+		</child>
+		<adult>
+			This can't take it easy!
+			<damage>
+				Stop it please...
+				Bleaze...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuu!
+			Yuwaaaa!!!
+			Yunyaaa!
+			<damage>
+				Yu, yu, yu...
+				Zdob...
+				Heeewb...
+			</damage>
+		</baby>
+		<child>
+			Gand chake id eajy!
+			<damage>
+				Zorry...
+				Zdob id...
+			</damage>
+		</child>
+		<adult>
+			This can't take it easy! Stop it immediately!
+			<damage>
+				Won'd be uneazy... zdob id bleaze...
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# Dying
+[Dying]
+	<normal>
+		<baby>
+			Yube-!
+		</baby>
+		<child>
+			Pukyu-!
+		</child>
+		<adult>
+			Gebo-!
+		</adult>
+	</normal>
+[/Dying]
+
+# Death
+[Dead]
+	<normal>
+		<baby>
+			Wanded eajy...
+		</baby>
+		<child>
+			Wanded eajy more...
+		</child>
+		<adult>
+			Wanted easy more...
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wanded eajy...
+		</baby>
+		<child>
+			Wanded eajy more...
+		</child>
+		<adult>
+			Wanted easy more...
+			Wanted refresh more...
+		</adult>
+	</rude>
+[/Dead]
+
+# Eating
+[Eating]
+	<normal>
+		<baby>
+			Yu～ yu～ yu～, happineech
+			Mwunch mwunch... eajy!
+		</baby>
+		<child>
+			Mwunch mwunch, happinech!
+		</child>
+		<adult>
+			Munch munch, happiness!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mwunch mwunch, sho-sho
+			Yu! Yu! Yu!
+			Yu, yu, yuu!
+		</baby>
+		<child>
+			Mwunch mwunch, sho-sho
+			Mwunch mwunch, gyobble gyobble
+		</child>
+		<adult>
+			Munch munch, so-so
+			Munch munch, tasty!
+		</adult>
+	</rude>
+[/Eating]
+
+# Eating (poo poo)
+[EatingShit]
+	<normal>
+		<baby>
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Yuwaaaan, shtiiinksh...
+		</baby>
+		<child>
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Yu, yuge.... gulp... gulp...
+		</child>
+		<adult>
+			Yuwaaaan! Smelly, yucky!!!
+			Poo poo is not food... munch... munch...
+		</adult>
+	</normal>
+[/EatingShit]
+
+# Eating (poison)
+[EatingBitter]
+	<normal>
+		<baby>
+			Mwunch mwunch... dish ij poijon!
+		</baby>
+		<child>
+			Mwunch mwunch... dish ij poijon!
+		</child>
+		<adult>
+			Munch munch... this is poisoned!
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# Full stomach
+[Full]
+	<normal>
+		<baby>
+			Chummy fuww...
+		</baby>
+		<child>
+			Chummy fuww...
+		</child>
+		<adult>
+			Can't eat any more...
+		</adult>
+	</normal>
+[/Full]
+
+# Recovery
+[Healing]
+	<normal>
+		<baby>
+			Shweech scheech!
+			Yuyu～♪
+			Eajy-♪
+			<damage>
+				Yuyu～♪
+				Eajy-♪
+			</damage>
+		</baby>
+		<child>
+			Tashty shweech shweech!
+			Can chage id eajy!
+			<damage>
+				Fweeling bedder!
+			</damage>
+		</child>
+		<adult>
+			Delicious sweet sweets!
+			Thanks easy mister!
+			<damage>
+				Feeling better!
+				Taking it easier!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweech swheetsh!
+			Mwore!
+			Nod enuff!
+			<damage>
+				Shweech shweech!
+				Tashty!
+			</damage>
+		</baby>
+		<child>
+			Bwing more shweech shweech!
+			Ish dish aww da shweech shweech?
+			<damage>
+				Huwwy and bwing more shweech shweech!
+			</damage>
+		</child>
+		<adult>
+			Bring more sweet sweets!
+			Not enough sweet sweets? Shitty slave!
+			<damage>
+				Mister sweet sweets are late!
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# Refreshed
+[Sukkiri]
+	<normal>
+		<baby>
+			Wefweched!
+		</baby>
+		<child>
+			Wefweshed!
+		</child>
+		<adult>
+			Refreshed!
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# Refreshed with raper
+[RaperSukkiri]
+	<normal>
+		<baby>
+			Id hurch!
+			Babiesh don'd gwow!
+			Nyo mwore...
+		</baby>
+		<child>
+			Don'd wand do wevwesh!
+			Babiesh don'd gwow!
+			Nyo... mwore...
+		</child>
+		<adult>
+			Don'd wand do revresh!!
+			Liddle onez don'd grow!
+			Mamu-mamu is brogen!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id hurch!
+			Shiddy pawench! Hewwp!
+			Mamu-mamu hurch!
+		</baby>
+		<child>
+			Don'd wand do wevwesh!
+			Babiesh go away!
+			Shiddy pawench! Hewwp!
+		</child>
+		<adult>
+			Don'd wand do revresh!!
+			Liddle onez don'd grow!
+			Mamu-mamu is brogen!!
+		</adult>
+[/RaperSukkiri]
+
+# Birth
+[Birth]
+	<normal>
+		Chage id eajy!
+	</normal>
+[/Birth]
+
+# Excretion
+[Shit]
+	<normal>
+		<baby>
+			Pwoo pwoo coming oud!
+			Gonna shay bye-bye choo mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+			</pants>
+		</baby>
+		<child>
+			Pwoo pwoo coming oud!
+			Gonna shay bye-bye choo mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+			</pants>
+		</child>
+		<adult>
+			Doing poo poo!
+			<pants>
+				Poo poo is leaking out!
+				Yuwawa! Mister pants won't come off?
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Pwoo pwoo coming oud!
+			Shiddy shlabe ead mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+			</pants>
+		</baby>
+		<child>
+			Pwoo pwoo coming oud!
+			Shiddy shlabe ead mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+			</pants>
+		</child>
+		<adult>
+			Shitty slave eating mister poo poo is fine!
+			Super poo poo time!
+			<pants>
+				Mister pants hurry and come off!!!
+				Shitty slave! Quicklyyyyy!
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# Excretion 2
+[Shit2]
+	<normal>
+		<baby>
+			Wefweched!
+			<pants>
+				Yunyaaaa!!!
+				Pwoo pwoo shtiiinksh!
+			</pants>
+		</baby>
+		<child>
+			Wefweched!
+			<pants>
+				Yunyaaaa!!!
+				Yuwaaan! Shmelly, feelsh bwad...
+			</pants>
+		</child>
+		<adult>
+			Refreshed!
+			<pants>
+				Yuwaa... stinky, feels bad...
+				Yuwaaan! Stinks!
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# Rub rub
+[SuriSuri]
+	<normal>
+		<baby>
+			Wu-b wu-b
+		</baby>
+		<child>
+			
+			Wu-b wu-b
+			Wu-b wu-b... happinech!
+		</child>
+		<adult>
+			Ru-b ru-b
+			Rub rub... happiness!
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# Lick lick
+[PeroPero]
+	<normal>
+		<baby>
+			Wick wick
+			Myamya
+		</baby>
+		<child>
+			Wick wick
+			Myamya
+		</child>
+		<adult>
+			Lick lick
+			Yufufu, little ones are spoiled
+		</adult>
+	</normal>
+[/PeroPero]
+
+# Giving birth
+[Breed]
+	<normal>
+		<baby>
+			Yugu, chummy hurch...!?
+			Yugigigigi...
+		</baby>
+		<child>
+			Liddle onesh goming oud!?
+			Yugii...
+		</child>
+		<adult>
+			Gi, giving birth...
+			Li, little ones coming out...
+		</adult>
+	</normal>
+[/Breed]
+
+# After birth
+[Breed2]
+	<normal>
+		Take it easy!
+		<pants>
+			Little oooooone!?
+		</pants>
+	</normal>
+[/Breed2]
+
+# Finding poo poo
+[HateShit]
+	<normal>
+		<baby>
+			Shtiiinksh!
+			<damage>
+				Shtinksh...
+			</damage>
+		</baby>
+		<child>
+			Pwoo pwoo go away!
+			<damage>
+				Shmelly, can'ch chake id eajy...
+			</damage>
+		</child>
+		<adult>
+			Mister poo poo be disposed of!
+			<damage>
+				Mister poo please go away...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtiiinksh!
+			<damage>
+				Shtinksh...
+			</damage>
+		</baby>
+		<child>
+			Shmelly! Huwwy and cwean id up!
+			<damage>
+				Shmelly, can'ch chake id eajy...
+			</damage>
+		</child>
+		<adult>
+			Mister poo poo go away! Right now is fine!
+			<damage>
+				Mister poo poo hurry and go away...
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# Hunger
+[Hungry]
+	<normal>
+		<baby>
+			Wand mishter fwood!
+			<damage>
+				Hungwy...
+			</damage>
+		</baby>
+		<child>
+			Where ish mishter fwood?
+			<damage>
+				Chummy ish empchy...
+			</damage>
+		</child>
+		<adult>
+			Where could mister food be?
+			<damage>
+				Wry iz dere no mizder vood....
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweech shweech huwwy up!
+			<damage>
+				Shweech... shweech...
+			</damage>
+		</baby>
+		<child>
+			Fork ober da shweet shweech!
+			<damage>
+				Where are mishter shweech shweech...
+			</damage>
+		</child>
+		<adult>
+			Hurry and bring sweet sweets! Mister cake is fine!
+			<damage>
+				Sweed sweedz bleaze... mizder cage is ogay...
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# Accessory removal
+[NoAccessory]
+	<normal>
+		<baby>
+			Yunyaaaa!!! Gibe id baaag!!
+		</baby>
+		<child>
+			Yunyaaaa!!! Gibe id baaag!!
+		</child>
+		<adult>
+			Please! Give it back!
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# Picked up
+[Flying]
+	<normal>
+		<baby>
+			Ich wike fwing in da shky!
+		</baby>
+		<child>
+			Ich wike fwing in da shky!
+		</child>
+		<adult>
+			It's like flying in the sky!
+		</adult>
+	</normal>
+[/Flying]
+
+# Child death
+[SadnessForChild]
+	<normal>
+		<baby>
+			Bwabyy wryyyyyyy!?
+		</baby>
+		<child>
+			Bwabyy wryyyyyyy!?
+		</child>
+		<adult>
+			Little one whyyyyy!?
+		</adult>
+	</normal>
+[/SadnessForChild]
+
+# Partner death
+[SadnessForPartner]
+	<normal>
+		%partner open mister eyes!
+	</normal>
+[/SadnessForPartner]
+
+# Older sister death
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			Big shish open mishter eyesh!
+		</baby>
+		<child>
+			Big shish open mishter eyesh!
+		</child>
+		<adult>
+			%partner open mister eyes!
+		</adult>
+	</normal>
+[/SadnessForEldersister]
+
+# Younger sister death
+[SadnessForSister]
+	<normal>
+		<baby>
+			Widdwe shish open mishter eyesh!
+		</baby>
+		<child>
+			Widdwe shish open mishter eyesh!
+		</child>
+		<adult>
+			%partner open mister eyes!
+		</adult>
+	</normal>
+[/SadnessForSister]
+
+# Finding wall
+[BlockedByWall]
+	<normal>
+		<baby>
+			Can'd go fowaaaardsh!?
+		</baby>
+		<child>
+			Wry ish mishter waww pushing!?
+		</child>
+		<adult>
+			Why is mister wall pushing!?
+		</adult>
+	</normal>
+[/BlockedByWall]
+
+# Finding toy
+[GetTreasure]
+	<normal>
+		<baby>
+			Mishter marbwe can chake id bewwy eajy!
+		</baby>
+		<child>
+			Mishter marbwe can chake id bewwy eajy!
+		</child>
+		<adult>
+			Easy mister marble～♪
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# Losing toy
+[LostTreasure]
+	<normal>
+		<baby>
+			Yunyaaaa!!!
+			Gibe bag mishter tweashure!
+		</baby>
+		<child>
+			Yunyaaaa!!!
+			Gibe bag mishter tweashure!
+		</child>
+		<adult>
+			Please give back mister treasure!
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# Expansion
+[Inflation]
+	<normal>
+		<baby>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Mishter heeeewp!!!!
+		</baby>
+		<child>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Mishter heeeewp!!!!
+		</child>
+		<adult>
+			Tummy is explodiiiiiiiiiing!
+			Id huuuurdz!!! Mizder heeeelb!!!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Shiddy geejer heeeewp!!!!
+		</baby>
+		<child>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Shiddy geejer heeeewp!!!!
+		</child>
+		<adult>
+			Tummy is explodiiiiiiiiiing!
+			Id huuuurdz!!! Shiddy geezer heeeelb!!!!
+		</adult>
+	<rude>
+[/Inflation]
+
+# Child abused
+[AbuseBaby]
+	<normal>
+		<baby>
+			Yuwaaaaa! Gibe bag babyy!!!
+			Wry would you do daaat!?!?!?
+		</baby>
+		<child>
+			Yuwaaaaa! Gibe bag babyy!!!
+			Wry would you do daaat!?!?!?
+		</child>
+		<adult>
+			Yuwaaaaa! Gibe bag babyy!!!
+			Wry would you do daaat!?!?!?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuwaaaaa! Don'd buwwy babyyy!
+			Shcum! Deviw! Gonna kiww yoooou!!!
+		</baby>
+		<child>
+			Yuwaaaaa! Don'd buwwy babyyy!
+			Shcum! Deviw! Gonna kiww yoooou!!!
+		</child>
+		<adult>
+			Yuwaaaaa! Don'd addag liddle oooone!
+			Zgum! Devil! Gonna gill yoooou!!!
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# Stretch stretch
+[Nobinobi]
+	<normal>
+		<baby>
+			Shtweetch shtweetch
+			♪Stretch♪ stretch to mister sun♪
+		</baby>
+		<child>
+			Shtweetch shtweetch
+			♪Stretch♪ stretch to mister sun♪
+		</child>
+		<adult>
+			Stretch stretch
+			Taking it easy～♪
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtweetch shtweetch
+			♪Stretch♪ stretch to mister sun♪
+		</baby>
+		<child>
+			Shtweetch shtweetch
+			♪Stretch♪ stretch to mister sun♪
+		</child>
+		<adult>
+			Stretch stretch
+			Taking it easy～♪
+		</adult>
+	<rude>
+[/Nobinobi]
+
+# Before birth
+[NearToBirth]
+		<normal>
+		<baby>
+			Babiesh mobed! Did pyuff pyuff!
+			Babiesh can chage id eajy!
+			Be bworn!
+		</baby>
+		<child>
+			Babiesh mobed! Did pyuff pyuff!
+			Babiesh can chage id eajy!
+			Babiesh be bworn!
+		</child>
+		<adult>
+			Little ones are moving energetically!
+			Cute cute little ones be born easy!
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# Poison
+[PoisonDamage]
+	<normal>
+		<baby>
+			Yupiii!!
+			Yugeho, yugeho...
+			<damage>
+				Ged ouuud
+			</damage>
+		</baby>
+		<child>
+			Hewwp!
+			Hurrrts!?
+			<damage>
+				Kill
+				Yugihihihipipipi
+			</damage>
+		</child>
+		<adult>
+			It's poison!
+			Ha, howwww...
+			<damage>
+				Howaaa
+				Out out out
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# Excretion impossible
+[CantShit]
+	<normal>
+		<baby>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+		</baby>
+		<child>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+		</child>
+		<adult>
+			Poo poo don't take it easy and come out!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+		</baby>
+		<child>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+		</child>
+		<adult>
+			Poo poo don't take it easy and come out!
+		</adult>
+	<rude>
+[/CantShit]
+
+# Failed pregnancy
+[NoPregnancy]
+	<normal>
+		<baby>
+			Can'ch habe babiesh!?
+		</baby>
+		<child>
+			Can'ch habe babiesh!?
+		</child>
+		<adult>
+			Yuwaaan! Wry iz dere no babiiiiez!?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Can'ch habe babiesh!?
+		</baby>
+		<child>
+			Can'ch habe babiesh!?
+		</child>
+		<adult>
+			Yuwaaan! Wry iz dere no babiiiiez!?
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# Panic state
+[Fear]
+	<normal>
+		<baby>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaa!!!
+			Can't take it easyyyyyyy!
+			<damage>
+				Aaaaaa....
+				Zomeone.... helb...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaa!!!
+			Can't take it easyyyyyyy!
+			<damage>
+				Aaaaaa....
+				Zomeone.... helb...
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# Burning state
+[Burning]
+	<normal>
+		<baby>
+			Yuppiiii!!!
+			Hwoooch!
+			Myaamyaa! Hwoootch!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</baby>
+		<child>
+			Yuppiiii!!!
+			Hwoooch!
+			Myaamyaa! Hwoootch!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</child>
+		<adult>
+			Hooooood!
+			Heeeeeelb!
+			<damage>
+				Yu... yu... yu...
+				Hood... helb...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuppiiii!!!
+			Hwoooch!
+			Myaamyaa! Hwoootch!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</baby>
+		<child>
+			Yuppiiii!!!
+			Hwoooch!
+			Myaamyaa! Hwoootch!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</child>
+		<adult>
+			Hooooood!
+			Heeeeeelb!
+			<damage>
+				Yu... yu... yu...
+				Hood... helb...
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# In water
+[Wet]
+	<normal>
+		<baby>
+			Cwold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Cwold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</baby>
+		<child>
+			Cwoooold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Cwoooold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</child>
+		<adult>
+			Coooold!
+			Mister water can't take it easy! Stop it? Stop it?
+			<damage>
+				Coooold...
+				Yuwaa... mister footsies is melting...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Cwold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Cwold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</baby>
+		<child>
+			Cwoooold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Cwoooold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</child>
+		<adult>
+			Coooold!
+			Mister water can't take it easy! Stop it? Stop it?
+			<damage>
+				Coooold...
+				Yuwaa... mister footsies is melting...
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# Anyaru closure
+[AnalSealed]
+	<normal>
+		<baby>
+			Yukyakya! Ticklesh!
+		</baby>
+		<child>
+			Yukyakya! Ticklesh!
+		</child>
+		<adult>
+			Ticklish!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Kinda ticklesh
+		</baby>
+		<child>
+			Kinda ticklesh
+		</child>
+		<adult>
+			Tickles
+			Yufufu, being interested in that place is absolutely perverted
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# Stabbed by needle
+[NeedleStick]
+	<normal>
+		<baby>
+			Pigii!?
+			Yupii!?
+			Gipiii!
+			Id huuuuurch!
+		</baby>
+		<child>
+			Pigii!?
+			Yupii!?
+			Gipiii!
+			Id huuuuurch!
+		</child>
+		<adult>
+			Id huuuuudz!
+			Yugyaaaaaaa!
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# Stuck by needle
+[NeedleScream]
+	<normal>
+		<baby>
+			Chage id ouuj! Quigwy chage id ouuj!
+			Mishder shtab shtab gan'd chage id eajyyyyy!
+		</baby>
+		<child>
+			Pweashe chage id ouuj! Quigwy chage id ouuj!
+			Mishder shtab shtab gan'd chage id eajyyyyy!
+		</child>
+		<adult>
+			Dage id oud! Bleaze dage id oud!
+			Mizder zdab zdab gan'd dage id eazyyyyyy!
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# Doing grind grind to partner's needle
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			Hewping eajy!
+			Mishter shtab-shtab dat can'ch chage id eajy huwwy and gome oud!
+		</baby>
+		<child>
+			Hewping eajy!
+			Mishter shtab-shtab dat can'ch chage id eajy huwwy and gome oud!
+		</child>
+		<adult>
+			Helping %partner easy!
+			Mister stab stab don't take it easy and come out!
+			Will punish mister stab stab for bulling %partner!
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# Doing grind grind to child's needle
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			Hewping eajy!
+			Mishter shtab shtab dat can'ch chage id eajy huwwy and gome oud!
+		</baby>
+		<child>
+			Hewping eajy!
+			Mishter shtab shtab dat can'ch chage id eajy huwwy and gome oud!
+		</child>
+		<adult>
+			Helping little one easy!
+			Mister stab stab don't take it easy and come out!
+			Will punish mister stab stab for bulling little one!
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# Target of grind grind
+[NeedlePain]
+	<normal>
+		<baby>
+			Shtooooop!
+			Don'ch do gwind gwind!
+		</baby>
+		<child>
+			Shtooooop!
+			Don'ch do gwind gwind!
+		</child>
+		<adult>
+			Zdoooooob!
+			Don'd do grind grind!
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# Needle removed
+[NeedleRemove]
+	<normal>
+		<baby>
+			Mishter shtab shtab... hurch...
+		</baby>
+		<child>
+			Mishter shtab shtab... hurch...
+		</child>
+		<adult>
+			Mizter zdab zdab.... hurd...
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# Demanding sweet sweets
+[WantAmaama]
+	<rude>
+		<baby>
+			Bwing mwore shweet shweech! Shiddy geejer!
+		</baby>
+		<child>
+			Bwing mwore shweet shweech! Shiddy geejer!
+		</child>
+		<adult>
+			Bring more sweet sweets! Shitty geezer!
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# Movement impossible
+[CantMove]
+	<normal>
+		<baby>
+			Mishter footshiesh won'd mobe?
+			Gan'd mobe? Mishter don'd be mean!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe?
+			Gan'd mobe? Mishter don'd be mean!
+		</child>
+		<adult>
+			Mister footsies won't move?
+			Mister footsies won't move, mister! Don't be mean!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter footshiesh won'd mobe?
+			Gan'd mobe? Shiddy shlabe don'd be mean!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe?
+			Gan'd mobe? Shiddy shlabe don'd be mean!
+		</child>
+		<adult>
+			Mister footsies won't move?
+			Mister footsies won't move, geezer! Do something right now! Immediately is okay!
+		</adult>
+	</rude>
+[/CantMove]
+
+# Movement impossible 2
+[CantMove2]
+	<normal>
+		<baby>
+			Mishter footshiesh won'd mobe!
+			Mishter footshiesh don'd dage id eajy and mobe!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe!
+			Mishter footshiesh don'd dage id eajy and mobe!
+		</child>
+		<adult>
+			Mister footsies won't move!
+			Mister footsies won't move! Mister hurry and do something!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter footshiesh won'd mobe!
+			Mishter footshiesh don'd dage id eajy and mobe!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe!
+			Mishter footshiesh don'd dage id eajy and mobe!
+		</child>
+		<adult>
+			Mister footsies won't move!
+			Mister footsies won't move! Geezer! Do something! Right now is fine!
+		</adult>
+	</rude>
+[/CantMove2]
+
+# Pulled
+[Pull]
+	<normal>
+		<baby>
+			Yuyu?!
+			Yuggu! Mishter shtop ich! Can'ch chage id eajy?
+			Shtop id! Maging cuch in mishter shkin!
+		</baby>
+		<child>
+			Yuyu?!
+			Yuggu! Mishter shtop ich! Can'ch chage id eajy?
+			Shtop id! Maging cuch in mishter shkin!
+		</child>
+		<adult>
+			Yuyu?!
+			Yuggu! Mister stop it! Can't take it easy?
+			Stop it? Mister skin is being wounded!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuyu?!
+			Yuggu! Shtop ich! Shiddy geejer! Can'ch chage id eajy?
+			Shtop id! Maging cuch in mishter shkin!
+		</baby>
+		<child>
+			Yuyu?!
+			Yuggu! Shtop ich! Shiddy geejer! Can'ch chage id eajy?
+			Shtop id! Maging cuch in mishter shkin!
+		</child>
+		<adult>
+			Yuyu?!
+			Yuggu! Zdob! Shiddy geezer! Can't take it easy!
+			Can't take it easy! Stop it right now!!!
+		</adult>
+	</rude>
+[/Pull]
+
+# Pulled 2
+[Pull2]
+	<normal>
+		<baby>
+			Id huuuuurch! Can'ch shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+		</baby>
+		<child>
+			Id huuuuurch! Can'ch shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+		</child>
+		<adult>
+			Id huuuurdz! Can'd stretch stretch anymooooore! Stob iiiiiiiid!!!
+			Yuwaaaa! Zdooooob!
+			Wryyyyyyy! Id huuuuuuuuuudz!!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id huuuuurch! Can'ch shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+		</baby>
+		<child>
+			Id huuuuurch! Can'ch shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+		</child>
+		<adult>
+			Id huuuurdz! Can'd stretch stretch anymooooore! Stob iiiiiiiid!!!
+			Yuwaaaa! Zdooooob!
+			Wryyyyyyy! Id huuuuuuuuuudz!!!
+		</adult>
+	</rude>
+[/Pull2]
+
+# Smashed
+[Press]
+	<normal>
+		<baby>
+			Yubee!
+			Shtop! Can'ch chage id eajy!
+		</baby>
+		<child>
+			Yubee!
+			Shtop! Can'ch chage id eajy!
+		</child>
+		<adult>
+			Yuyu?
+			Stop! Can't take it easy!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yugya?
+			Don'ch sit on eajy mishter head!
+		</baby>
+		<child>
+			Yugya?
+			Don'ch sit on eajy mishter head!
+		</child>
+		<adult>
+			Yugaa?
+			Don't sit on easy mister head!
+		</adult>
+	</rude>
+[/Press]
+
+# Smashed 2
+[Press2]
+	<normal>
+		<baby>
+			Yugyaaa!
+			Being cwuuushed!
+		</baby>
+		<child>
+			Yugyaaa!
+			Being cwuuushed!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Being cruuuuushed!
+			Id hurdz id hurdz id huuuuuurdz!!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yugyaaa!
+			Being cwuuushed!
+			Shtob id! Shiddy geejer!!!
+		</baby>
+		<child>
+			Yugyaaa!
+			Being cwuuushed!
+			Shtob id! Shiddy geejer!!!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Being cruuuuushed!
+			Id hurdz id hurdz id huuuuuurdz!!!
+			Zdob id! Shiddy geezer!!!
+		</adult>
+	</rude>
+[/Press2]
+
+# Finding sweet sweets
+[FindAmaama]
+	<normal>
+		<baby>
+			Shweet shweech!
+			Chank yu foa mishter shweech shweech mishter!
+		</baby>
+		<child>
+			Shweet shweech!
+			Chank yu foa mishter shweech shweech mishter!
+		</child>
+		<adult>
+			Sweet sweets!
+			Thank you for mister sweet sweets mister!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweet shweech! Be eachen eajy!
+			Shweech shweech chould be chankfuww for being eachen!
+		</baby>
+		<child>
+			Shweet shweech! Be eachen eajy!
+			Shweech shweech chould be chankfuww for being eachen!
+		</child>
+		<adult>
+			Sweet sweets be eaten eajy!
+			Sweet sweets should be thankful for being eaten!
+		</adult>
+	</rude>
+[/FindAmaama]
+
+# Eating sweet sweets
+[EatingAmaama]
+	<normal>
+		<baby>
+			Mwunch mwunch, hahahahappineeeeech!
+		</baby>
+		<child>
+			Munch munch, Happineeeesh!
+		</child>
+		<adult>
+			Munch munch, Happineeeess!
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# Vomiting paste
+[Vomit]
+	<normal>
+		<baby>
+			Yube...
+			Yubu...
+		</baby>
+		<child>
+			Yubue...
+			Boee...
+		</child>
+		<adult>
+			Yububu...
+			Geboo...
+		</adult>
+	</normal>
+[/Vomit]
+
+# General, dying continued
+[Dying2]
+	<normal>
+		<baby>
+			Yu... yupi...
+			Yu, yu, yu, yu...
+		</baby>
+		<child>
+			Yupi... yugu...
+			Yu, yu, yu, yu...
+		</child>
+		<adult>
+			Yugu... yubaa...
+			Yu, yu, yu, yu...
+		</adult>
+	</normal>
+[/Dying2]
+
+# General, surprise
+[Surprise]
+	<normal>
+		<baby>
+			Wryyyy!?
+			Don' do daat!
+			Yunyaaaa!!!
+			Yueeeen!!!
+		</baby>
+		<child>
+			Wryyyy!?
+			Don' do daat!
+			Yunyaaaa!!!
+			Yueeeen!!!
+		</child>
+		<adult>
+			Wryyyy!?
+			Don'd do zaaaaad!
+			Yunyaaaa!!!
+		</adult>
+	</normal>
+[/Surprise]
+
+# General, attacked by other yukkuri at some time, counterattack
+[RevengeAttack]
+	<normal>
+		<baby>
+			Shtoop!
+			Gedding angwy!
+		</baby>
+		<child>
+			Shtoop!
+			Gedding angwy!
+		</child>
+		<adult>
+			Don't take it easy and stop!
+			Getting angry!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtoop!
+			Gedding angwy!
+		</baby>
+		<child>
+			Shtoop!
+			Gedding angwy!
+		</child>
+		<adult>
+			Don't take it easy and stop!
+			Getting angry!
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# Cutting braids/tail/wings
+[BraidCut]
+	<normal>
+		<baby>
+			Mishter fwap fwaaapsh!
+		</baby>
+		<child>
+			Mister flap flaaaps!
+		</child>
+		<adult>
+			Wonderful mister flap flaaaps!!
+		</adult>
+	</normal>
+[/BraidCut]
+
+# General, being eaten alive by other yukkuri
+[EatenByBody]
+	<normal>
+		<baby>
+			Don'ch munch muuuunch!
+		</baby>
+		<child>
+			Don'ch munch muuuunch!
+		</child>
+		<adult>
+			Don'd munj muuuunj!!
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# General, being sucked dry by other yukkuri
+[EatenByBody2]
+	<normal>
+		<baby>
+			Don'ch shuck mishter fiwwiiing!
+		</baby>
+		<child>
+			Don'ch shuck mishter fiwwiiing!
+		</child>
+		<adult>
+			Don'd zug mizder villiiing!
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# Fleeing from Remirya
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			Yunyaaaaa!!
+		</baby>
+		<child>
+			Ij a Wemiwyaaaaa!!
+		</child>
+		<adult>
+			Id'z a Remiliaaaaaa!!
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

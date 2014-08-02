@@ -1,0 +1,2319 @@
+# Finding feed
+[WantFood]
+	<normal>
+		<baby>
+			Mishder fwood!
+			Shmewwsh wike mishder food!
+			Tasty munch munch!~
+			Fwound mishder food!
+		</baby>
+		<child>
+			Mishter food!
+			Shmewwsh like mishter food!
+			Tasty mishta food!
+			Shmell of mishder food!
+		</child>
+		<adult>
+			It's delicious-smelling mister food!
+			Smells like mister food!
+			It's the smell of mister food!
+            Reimu's mister food!
+			Reimu can't wait to munch munch!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishder food!
+			Mishder food for cude Weimu!
+			Mishder food gome ober hea!
+			Tasdy munch munch!~
+			
+		</baby>
+		<child>
+			Weimu's shupa munch munch chime ish shtarting!
+			Shiddy slave brought Reimu food!
+			Shmell of mishder food!
+			Weimu's tasty mishta food!
+		</child>
+		<adult>
+			Smells like mister food.
+			It's delicious-smelling mister food!
+            It's the smell of Reimu's mister food!
+			Reimu's mister food!
+			Time for Reimu to munch munch shitty geezer!
+		</adult>
+	</rude>
+[/WantFood]
+
+# Without feed
+[NoFood]
+	<normal>
+		<baby>
+			Mishder food ish nod here!
+			Chummy hurch!
+			No mishta food?
+			<damage>
+				Mishder fwood pweashe...
+				Chummy ish empchy...
+				Pwease give me misder food...
+			</damage>
+		</baby>
+		<child>
+			Chummy ish empchy.
+			Want to eat mishter food!
+			Mishder food ish nod here?
+			<damage>
+				Mishter food pweashe...
+				Chummy hurch...
+				Pwease give me misder food...
+			</damage>
+		</child>
+		<adult>
+			There's no mister food?
+			Want to eat delicious mister food.
+			Where is Reimu's mister food?
+			<damage>
+				Mizder vood bleaze...
+				Tummy hurts...
+				Pwease give me mister food...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Bwing mishder food!
+			Shwabe! Fwood! Huwwy!
+			<damage>
+				Mishder food pweashe...
+				Hand ober food...
+			</damage>
+		</baby>
+		<child>
+			Mishter food huwwy and gwow!
+			Shwave! Chummy is empchy!
+			Weimu's mishder food ish nod here! Are you shtoopid?  Wand choo die?
+			<damage>
+				Mishter food pweashe...
+				Quickwy, bring mishter food...
+			</damage>
+		</child>
+		<adult>
+   			Mister food is not here?  Are you stupid? Want to die?
+			There's no mister food? You stupid? Wanna die?
+			Where is beautfiul Reimu's mister food!?
+			<damage>
+				Mizder vood bleaze...
+				Gwigly bring mizder vood...
+				Mister food please...
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# Sexual excitement
+[Excite]
+	<normal>
+		<baby>
+			Nhooo!
+			Wefweeesch!!
+		</baby>
+		<child>
+			Nhooooo! Wand do wefweeeeeesh!
+			Wefresh wefwesch wefweeeeeeesh!!
+		</child>
+		<adult> 
+			Want to refresh~!
+			Nhooo!!! Instantly feels goooood!!!!!!?
+		</adult>
+	</normal>
+[/Excite]
+
+# Relax
+[Relax]
+	<normal>
+		<baby>
+			Chake it eajy!
+			Eajy～♪
+			Weimu wanch rub-rub wid mishter!
+			Yu~ Yu~
+			Weimu likes mishta!
+		</baby>
+		<child>
+			Chake it eajy!
+			Let's chage id eajy together.
+			Yu~ Yu~
+			Eajy~jay~ Relaxing~jay~
+			Weimu can be very cude wid Mishter!
+			Chake id eajy, Weimu ish Weimu!
+			Mister is very eajy!
+		</child>
+		<adult>
+			Take it easy!
+			Taking it easy with mister.
+			Yu~ Yu~
+			What a very easy day!
+			Take it easy, Reimu is Reimu!
+			Mister is very cute!
+			Come play with cute, cute Reimu, easy Mister!
+			Easy~Day~ Relaxing~Days~ Refresh~Days~
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Die eajy!
+			Eajy～♪
+			Weimu ish da cudest!
+			Yu~ Yu~
+			Shorry for being sho cute!
+			Ugly mishter ish cute Weimu's slave eajy!	
+		</baby>
+		<child>
+			Dwop dead eajy!
+			Shiddy slave go die eajy!
+			Eajy~jay~ Relaxing~jay~
+			Yu~ Yu~
+			Shiddy slave bwing Weimu shweet-shweets!
+			Ugly mishter ish cute Weimu's slave easy!
+		</child>
+		<adult>	
+			This will be Reimu's easy place!
+			Shitty slave go die easy!
+			Yu~ Yu~
+			Such an uneasy human. Ooh miserable miserable.
+			No mister suite?
+			Go away ugly geezer!
+			Easy~Day~ Relaxing~Days~ Refresh~Days~
+			Shitty slave bring Reimu's shweet-shweets!
+			Disgusting mister will serve beautiful Reimu's easy.
+		</adult>
+	</rude>
+[/Relax]
+
+# Bottom wiggling
+[FuriFuri]
+	<normal>
+		<baby>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To da wight, to da weft, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+			Doing a cude dance!
+		</baby>
+		<child>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪`
+			Weimu can do a cude dance!
+		</child>
+		<adult>
+			Wiggle wiggle!
+			Ro～ll ro～ll
+			Doing a cute dance for mishta!
+			Time for an easy dance!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</baby>
+		<child>
+			Shorry for being sho cute!
+			Do mishter anyaru wick wick!
+			Wigguw wigguw!
+			Wo～ll wo～ll
+			♪To the right, to the left, yu～ra♪ yu～ra♪
+			Ponpon pokapoka Yuwawa～i♪
+		</child>
+		<adult>
+			Getting excited from mister anyaru?
+			Shitty slave can bask in Reimu's cuteness!
+			Teaching the shitty geezer the poo poo exercise is okay you know?
+			Doing fanservice for the shitty geezer!
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# Getting out of bed
+[Wakeup]
+	<normal>
+		<baby>
+			Gwud mohning eajy!
+			Chage id eajy!
+		</baby>
+		<child>
+			Good mowning eajy!
+			Chage id eajy!
+			Morning mishta!
+		</child>
+		<adult>
+			Good morning easy!
+			Take it easy!
+			Good morning mister sun!
+			Another easy day!
+			Morning mister!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chage id eajy!
+			I jusht woke up cyute you know!!		
+		</baby>
+		<child>
+			Chage id eajy!
+			Weimu needs her beauty sleep!
+			I just woke up cyute you know!
+		</child>
+		<adult>
+			Take it easy!
+			Another easy day!
+			Shiddy slave wake up Reimu?!
+			I just woke up cute you know!
+			Sowwy for waking up so cute!!
+		</adult>
+	</rude>
+[/Wakeup]
+
+# Sleep
+[Sleep]
+	<normal>
+		<baby>
+			Yupii... yupii...
+			Yu... Yu...
+			Zzz... shweeping...
+			~Schweepy time~
+		</baby>
+		<child>
+			Yupii... yupii...
+			Yu... Yu...
+			Zzz... shweeping...
+			Schleeping~
+		</child>
+		<adult>
+			Sleep sleep...
+			Yu... Yu...
+			Zzz... sleeping...
+			Sleep-sleep...
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupii... yupii...
+			Zzz... shweeping...
+			~Schweepy time~
+		</baby>
+		<child>
+			Yupii... yupii...
+			Zzz... schleeping...
+			Schleeping~
+		</child>
+		<adult>
+			Sleep sleep...
+			Shitty... slave...
+			Zzz... sleeping...
+			Nhoo...
+		</adult>
+	</rude>
+[/Sleep]
+
+# Scream
+[Scream]
+	<normal>
+		<baby>
+			ID HURD!
+			Yunyaaaa!!!
+			Wryyy!?
+			Myaamyaa!
+			Yukyaaa!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Yu, yu, yu...
+				Hewp...
+				Yuuu...
+				Shdob id...
+			</damage>
+		</baby>
+		<child>
+			Id hurch! Shdob id! Shdob id!
+			Yunyaaaa!!!
+			Mamaaaa!
+			Shtob!!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Shtob id...
+				Don'd wanna die, wanch choo tage id eajy...
+				Pweashe shtob...
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaaa!!!! It hurts! Stop it? Stop it?
+			Why? Take it easy? Easy, easy!
+			It hurts! Please stop it! Stop it!
+			Why is mister doing this!?
+			<damage>
+				Bleaze zdob...
+				Please mister Reimu is sorry...
+				Please stop it...
+				Can'd dage id eazy...
+				Please forgive Reimu mister...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id huurch!
+			Yunyaaaa!!!
+			Jdob!
+			Myaamyaa!
+			Yugyaaaa!
+			Yupyaaaaaaaaa!!!
+			Id hurrrrrdz!!!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Yu, yu, yu...
+				Pweaze fowgibe...
+				Weimu ish showwy sho pwease shdop id...
+				Myamya heeewp...
+				Gowing hyome...
+				Shdop id...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaaa!!!
+			Myamyaaaa!
+			Gedding angwy! Pufffff!!
+			Yupyaaaaaaaaa!!!
+			It hurdz! Stob it shiddy slave! Puff!!
+			Id hurrrrrdz!!!
+			YUNYA-!! What are you doing? Going choo pyuff-pyuff!
+			Wand do dage id eajyyyyyyy!!!
+			<damage>
+				Bweaze fowgive...
+				Mama heeewb...
+				Shdop id...
+				Weimu ish showwy sho pwease shdop id...
+				Going home...
+			</damage>
+		</child>
+		<adult>
+			YUNYA-!!
+			Yunyaaaa!!!
+			Want to take it easyyyyy!
+			Reimu didn't do anything shitty slave!
+			Stop it shitty mister human!
+			It hurts! Stop it shitty slave! Puff!!
+			YUNYA-!! What are you doing? Going to puff-puff!
+			<damage>
+				No...more....hurt-hurt..
+				Reimu is sorry, so please stop it...
+				Don'd lige diz... eazy, eazy eazy...
+				Please forgive Reimu...
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# Surprised
+[Scare]
+	<normal>
+		<baby>
+			Yunyaaaa!!!
+			Gan chake id eajy! Going hwome!
+			Yugyaaaaaa!!
+			<damage>
+				Yu, yu, yu...
+				Gan'd dage id eajy... going hwome...
+				Yu, yu, yugeeee...
+				Shdoop...
+			</damage>
+		</baby>
+		<child>
+			Can'ch chake id eajy!
+			Yunyaaaa!!!
+			<damage>
+				Shdoop...
+				Gan'd dage id eajy... going hwome...
+				Wryy, wryyy...
+			</damage>
+		</child>
+		<adult>
+			Can't take it easy!	
+			Please stop Reimu is sorry...
+			Can't take it easy! Going home!
+			<damage>
+				Wry are you doing diz...
+				Why is mister doing this...
+			</damage>
+		</adult>
+	</normal>
+[/Scare]
+
+# Vigilance
+[Alarm]
+	<normal>
+		<baby>
+			Yuu!
+			Yunyaaa!
+			Shdop!
+			<damage>
+				Yu, yu, yu...
+				Shdop...
+				Wryy...
+			</damage>
+		</baby>
+		<child>
+			Can'ch chage id bewwy eajy!
+			Wryyy!
+			Wry are you doing diiish!?
+			<damage>
+			Pweashe shtop...
+			</damage>
+		</child>
+		<adult>
+			Why would you do thisss....
+			This can't take it easy!
+			Want to take it easy...
+			<damage>
+				Zdob it bleaze...
+				Bleaze...
+				Please...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuu!
+			Yuwaaaa!!!
+			Yunyaaa!
+			<damage>
+				Yu, yu, yu...
+				Shdob id...
+				Heeewb...
+			</damage>
+		</baby>
+		<child>
+			Gand chake id eajy!
+			<damage>
+				Zorry...
+				Shtob id...
+			</damage>
+		</child>
+		<adult>
+			This can't take it easy! Stop it immediately!
+			Shitty slave! Stop it!
+			<damage>
+				Won'd be uneazy... zdop id bleaze...
+				Reimu wont be uneasy...
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# Dying
+[Dying]
+	<normal>
+		<baby>
+			Yubee-!
+		</baby>
+		<child>
+			Pukyu-!
+		</child>
+		<adult>
+			Gebo-!
+			Blarg-!
+		</adult>
+	</normal>
+[/Dying]
+
+# Death
+[Dead]
+	<normal>
+		<baby>
+			Wanded... eajy...
+		</baby>
+		<child>
+			Wry...
+			Wanded choo chage id eajy more...
+		</child>
+		<adult>
+			Why...
+			Wanted to take it easy more...
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wanded... eajy...
+		</baby>
+		<child>
+			Wanded choo chage id eajy more...
+		</child>
+		<adult>
+			Wanted to take it easy more...
+			Wanted to refresh more...
+		</adult>
+	</rude>
+[/Dead]
+
+# Eating
+[Eating]
+	<normal>
+		<baby>	
+			Yu! Yu!
+			Yu~Yu~Yu~, happinesh~
+			Mwunch mwunch... eajy!
+		</baby>
+		<child>
+			Yu! Yu! Yu!
+			Myunch Myunch, nom nom
+			Myunch~ Myunch~ Happinesh~
+		</child>
+		<adult>
+			Munch munch, so good!
+			Munch munch, Happiness~
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mwunch mwunch, sho-sho
+			Yu! Yu! Yu!
+			Yu, yu, yuu!
+		</baby>
+		<child>
+			Munch munch, sho-sho
+			Munch munch, gobble gobble
+		</child>
+		<adult>
+			Munch much, this shit is so good!
+			Munch munch, so-so
+			Munch munch, tasty!
+		</adult>
+	</rude>
+[/Eating]
+
+# Eating (poo poo)
+[EatingShit]
+	<normal>
+		<baby>  
+			Yuwaaaan! Shdinkyyyy, yuckyyyyy!!!
+			Yuwaaaan, shdiiinksh...
+		</baby>
+		<child>
+			Myunch~Myunch~, disgusting...
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Yu, yuge.... gulp... gulp...
+		</child>
+		<adult>
+			Munch~ munch~, disgusting...
+			Yuwaaaan! Smelly, yucky!!!
+			Poo poo is not food... munch... munch...
+		</adult>
+	</normal>
+[/EatingShit]
+
+# Eating (poison)
+[EatingBitter]
+	<normal>
+		<baby>
+			Mwunch mwunch... dish ij poijon!
+		</baby>
+		<child>
+			Munch munch... dish ij poijon!
+		</child>
+		<adult>
+			Munch munch... this is poison!
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# Full stomach
+[Full]
+	<normal>
+		<baby>
+			Chummy fuww...
+		</baby>
+		<child>
+			Chummy fuww...
+			Tummy ish full...
+		</child>
+		<adult>
+			Can't eat any more...
+			Tummy is full...
+		</adult>
+	</normal>
+[/Full]
+
+# Recovery
+[Healing]
+	<normal>
+		<baby>
+			Shweet sweech!
+			Shweet-shweet!
+			Yuyu～♪
+			Eajy-♪
+			<damage>
+				Yuyu～♪
+				Eajy-♪
+			</damage>
+		</baby>
+		<child>
+			Tashty shweet shweech!
+			Shweet-shweet! tasht good!
+			Can chage id eajy!
+			<damage>
+				Yuyu～♪
+				Feeling bedder!
+				Weimu ish all bedder!
+			</damage>
+		</child>
+		<adult>
+			Sweet-sweet! Tastes good!
+			Delicious sweet sweets!
+			Thanks easy mister!
+			<damage>
+				Feeling better!
+				Taking it easier!
+				Reimu is all better!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweech swheetsh!
+			Mwore!
+			Nod enuff!
+			<damage>
+				Shweech shweech!
+				Tashty!
+			</damage>
+		</baby>
+		<child>
+			Gib Weimu shweet-shweet more!
+			Bwing more shweet shweech!
+			Ish dish aww da shweet shweech?
+			<damage>
+				Weimu ish coming back marvelously!
+				Huwwy and bwing more shweech shweech!
+			</damage>
+		</child>
+		<adult>
+			Give Reimu sweet-sweet more!
+			Bring more sweet sweets!
+			Not enough sweet sweets!? Shitty slave!
+			More sweet-sweets!
+			<damage>
+				Cute Reimu is all better!
+				Reimu is coming back marvelously!
+				Mister sweet sweets are late!
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# すっきり
+# Refreshed
+[Sukkiri]
+	<normal>
+		<baby>
+			Wefweshed!
+		</baby>
+		<child>
+			Wefweshed!
+		</child>
+		<adult>
+			Refreshed!
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# Refreshed with raper
+[RaperSukkiri]
+	<normal>
+		<baby>
+			Id hurch!
+			Yu, Yu, Yu...
+			Babiesh don'd gwow!
+			Nyo mwore...
+		</baby>
+		<child>
+			Don'd wand do wefwesh!
+			Babiesh don'd gwow!
+			No... more...
+			Weimu ish showwy sho pwease shdop id...
+		</child>
+		<adult>
+			Don't want to refresh!!
+			Little ones don't grow!
+			Mamu-mamu is broken!!
+			Why would you do thisss....
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id hurch!
+			Yu, Yu, Yu...
+			Shiddy pawench! Hewwp!
+			Mamu-mamu hurch!
+		</baby>
+		<child>
+			Don'd wand do wevwesh!
+			Babiesh go away!
+			Shiddy pawench! Hewwp!
+			Weimu ish showwy sho pwease shdop id...
+		</child>
+		<adult>
+			Don't want to refresh!!
+			Little ones don't grow!
+			Mamu-mamu is broken!!
+			Why would you do thisss....
+		</adult>
+[/RaperSukkiri]
+
+# Birth
+[Birth]
+	<normal>
+		Chage id eajy!
+	</normal>
+[/Birth]
+
+# Excretion
+[Shit]
+	<normal>
+		<baby>
+			Pwoo-pwooing!
+			Doing pwoo pwoo eajy!
+			Pwoo pwoo coming oud!
+			Gonna shay bye-bye choo mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+				Poo-poo Weimu's pants!
+			</pants>
+		</baby>
+		<child>
+			Poo-pooing!
+			Doing poo poo eajy!
+			Poo poo coming oud!
+			Weimu's shuupa poo-poo time ish shtarting!
+			Gonna shay bye-bye choo mishter poo poo!
+			<pants>
+				Poo poo is eshcapiiiiing!
+				Poo poo don'd gome oud!
+				Poo-poo Weimu's pants!
+			</pants>
+		</child>
+		<adult>
+			Doing poo poo easy!
+			Doing poo poo!
+			Reimu's super poo-poo time is starting!
+			Doing poo poo! Don`t look mister!
+			<pants>
+				Poo poo is leaking out!
+				Leaking mister poo-poo!
+				Yuwawa! Mister pants won't come off?
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Pwoo pwoo coming oud!
+			Shiddy shwabe ead mishter pwoo pwoo!
+			<pants>
+				Pwoo pwoo is eshcapiiiiing!
+				Pwoo pwoo don'd gome oud!
+			</pants>
+		</baby>
+		<child>
+			Poo poo coming oud!
+			Shiddy shlave can eat Weimu's poo-poo!
+			Shiddy shlabe ead mishter poo poo!
+			<pants>
+				Poo poo is eshcapiiiiing!
+				Poo poo don'd gome oud!
+			</pants>
+		</child>
+		<adult>
+			Shitty slave can eat Reimu's poo-poo!
+			Shitty slave eating mister poo poo is fine!
+			Super poo poo time!
+			Shitty mister human dont watch Reimu poo poo!
+			<pants>
+				Mister pants hurry and come off!!!
+				Shitty slave! Quicklyyyyy!
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# Excretion 2
+[Shit2]
+	<normal>
+		<baby>
+			Wefweched!
+			<pants>
+				Yunyaaaa!!!
+				Yun ya-!
+				Pwoo pwoo shtiiinksh!
+			</pants>
+		</baby>
+		<child>
+			Wefweched!
+			<pants>
+				Yun ya-!
+				Yunyaaaa!!!
+				Yuwaaan! Shmelly, feelsh bad...
+			</pants>
+		</child>
+		<adult>
+			Refreshed!
+			<pants>
+				Yuuu....
+				Yuwaa... stinky, feels bad...
+				Yuwaaan! Stinks!
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# Rub rub
+[SuriSuri]
+	<normal>
+		<baby>
+			Wub~wub
+		</baby>
+		<child>
+			Wub-wub
+			Wu-b wu-b... happinech!
+		</child>
+		<adult>
+			Rub-rub
+			Rub rub... happiness!
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# Lick lick
+[PeroPero]
+	<normal>
+		<baby>
+			Wick-wick~
+			Myamya
+		</baby>
+		<child>
+			Wick-wick~
+			Mama
+		</child>
+		<adult>
+			Lick-lick~
+			Yufufu, little ones are spoiled
+		</adult>
+	</normal>
+[/PeroPero]
+
+# Giving birth
+[Breed]
+	<normal>
+		<baby>
+			Yugu, chummy hurch...!?
+			Yugigigigi...
+		</baby>
+		<child>
+			Weimu's, chummy hurd...!?
+			Liddle onesh goming oud!?
+			Yugii...
+		</child>
+		<adult>
+			Gi- giving birth...
+			B...Being born easy...
+			Little ones coming out...
+		</adult>
+	</normal>
+[/Breed]
+
+# After birth
+[Breed2]
+	<normal>
+		Take it easy!
+		Take it easy little one!
+		<pants>
+			Little oooooone!?
+			Reimu's little one, No!
+		</pants>
+	</normal>
+[/Breed2]
+
+# Finding poo poo
+[HateShit]
+	<normal>
+		<baby>
+			Shmelly~!
+			Shtiiinksh~!
+			<damage>
+				Shmelly...
+				Shtinksh...
+			</damage>
+		</baby>
+		<child>
+			Poo poo go away!
+			Clean up poo-poo pweese!
+			<damage>
+				Shmelly, can'ch chake id eajy...
+			</damage>
+		</child>
+		<adult>
+			Clean up mister poo-poo please!
+			Mister poo poo go away easy!
+			<damage>
+				Smelly... can't take it easy...
+				Mister poo poo please go away...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>	
+			Shtiiinksh!
+			Shmelly~!
+			<damage>
+				Shmelly...
+				Shtinksh...
+			</damage>
+		</baby>
+		<child>
+			Shmelly! Huwwy and cwean id up!
+			Shmelly~! Clean up poo-poo quickly slave!
+			<damage>
+				Shmelly, can'ch chake id eajy...
+			</damage>
+		</child>
+		<adult>
+			Clean up Poo-poo quickly or Reimu will get angry!
+			Mister poo poo go away! Right now is fine!
+			<damage>
+				Smelly... can't take it easy...
+				Mister poo poo hurry and go away...
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# Hunger
+[Hungry]
+	<normal>
+		<baby>
+			Wand mishter fwood!
+			Gib me shweet-shweet!
+			<damage>
+				Hungwy...
+				Yu... mishder food...
+			</damage>
+		</baby>
+		<child>
+			Where ish mishter food?
+			Bwing mishder munch-munch choo Weimu pwease!
+			<damage>
+				Chummy ish empchy...
+				Misder tummy ish hungwy...
+			</damage>
+		</child>
+		<adult>
+			Where could mister food be?
+			Bring mister munch-munch to Reimu please!
+			Where is easy mister food?
+			<damage>
+				Wry iz dere no mizder vood....
+				Please give Reimu some food mister...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweech shweechs huwwy up!
+			Bwing shweet-shweet!
+			<damage>
+				Shweech... shweech...
+				Where ish mishder food?
+			</damage>
+		</baby>
+		<child>
+			Bwing Weimu's shweet-shweets quickly!
+			Fork ober da shweet shweech!
+			Where ish all da munch munch?
+			<damage>
+				Where are mishter shweech shweech...
+				Misder tummy ish hungwy...
+			</damage>
+		</child>
+		<adult>
+			Bring Reimu's sweet-sweets! A lot is fine!
+			Hurry and bring sweet sweets! Mister cake is fine!
+			Shitty geezer! Bring Reimu munch munch!
+			<damage>
+				Sweed sweedz bleaze... mizder cake is ogay...
+				Pwease give Reimu some food...
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# Accessory removal
+[NoAccessory]
+	<normal>
+		<baby>
+			Yunyaaaa!!! Gibe id baaag!!
+			Yunn~!  Where ish misder wibbon?
+		</baby>
+		<child>
+			Yunyaaaa!!! Gibe id baaag!!
+			Yunn~!  Where ish Weimu's cude-cude misder wibbon?
+		</child>
+		<adult>
+			Please! Give it back!
+			Where's Reimu's mister ribbon?
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# Picked up
+[Flying]
+	<normal>
+		<baby>
+			Feewsh wike fwying in da shky!
+			Ich feewsh wike fwying!
+		</baby>
+		<child>
+			Ich feewsh wike fwying in da shky!
+			Weimu ish mishter flying bird!
+		</child>
+		<adult>
+			It's like flying in the sky!
+			I feel like I'm flying!
+		</adult>
+	</normal>
+[/Flying]
+
+# Child death
+[SadnessForChild]
+	<normal>
+		<baby>
+			Bwabyy wryyyyyyy!?
+		</baby>
+		<child>
+			Babyy wryyyyyyy!?
+			Widdle one! Nooo!
+		</child>
+		<adult>
+			Little one whyyyyy!?
+			My beautfiul little one!!
+			Open your beautiful clear eyes, my little one!
+		</adult>
+	</normal>
+[/SadnessForChild]
+
+# Partner death
+[SadnessForPartner]
+	<normal>
+		Open your eyes %partner
+		%partner open mister eyes!
+	</normal>
+[/SadnessForPartner]
+
+# Older sister death
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			Open youw eyesh, bwig shish!
+		</baby>
+		<child>
+			Big shish, open mishter eyesh!
+		</child>
+		<adult>
+			%partner open mister eyes!
+		</adult>
+	</normal>
+[/SadnessForEldersister]
+
+# Younger sister death
+[SadnessForSister]
+	<normal>
+		<baby>
+			Open youw eyesh, widduw shish!
+		</baby>
+		<child>
+			Widdle shish, open mishter eyesh!
+			Open your eyes, widdle shish!
+		</child>
+		<adult>
+			%partner open mister eyes!
+		</adult>
+	</normal>
+[/SadnessForSister]
+
+# Finding wall
+[BlockedByWall]
+	<normal>
+		<baby>
+			Can'd go fowaaaard!?
+		</baby>
+		<child>
+			Wry ish mishter waww pushing!?
+			Weimu can'ch go forward!?
+			Why would mishter wall block me!?
+		</child>
+		<adult>
+			Why is mister wall pushing!?
+			Why would mister wall block me!?
+			Uneasy mister wall! Puff!
+		</adult>
+	</normal>
+[/BlockedByWall]
+
+# Finding toy
+[GetTreasure]
+	<normal>
+		<baby>
+			Mishter marbwe can chake id bewwy eajy!
+			Make id Weimu's tweashure!
+			Shiny mishta tweashure!
+		</baby>
+		<child>
+			Mishter marble can chake id bewwy eajy!
+			Make id Weimu's treasure!
+			Eajy mishter Treasure!
+		</child>
+		<adult>
+			Easy mister marble～♪
+			Make it Reimu's treasure!
+			Very easy mister treasure!
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# Losing toy
+[LostTreasure]
+	<normal>
+		<baby>
+			Yunyaaaa!!!
+			Gibe bwag tweashure!
+			Mishta tweashure...
+		</baby>
+		<child>
+			Yunyaaaa!!!
+			Gibe bag mishter tweasure!
+			Yunya-! Please get back Weimu's mishter treasure!
+		</child>
+		<adult>
+			Yunya-! Yunya-!
+			Please give back Reimu's mister treasure!
+			Reimu's beautiful treasure!!
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# Expansion
+[Inflation]
+	<normal>
+		<baby>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Mishter heeeewp!!!!
+		</baby>
+		<child>
+			Chummy ish ekshpwodiiiiing!
+			Mishter Poo ish hurting me!
+			Weimu feels too full!
+			Id huuuurch!!! Mishter heeeewp!!!!
+		</child>
+		<adult>
+			Tummy is explodiiiiiiiiiing!
+			Mishter poo-poo ish killing me
+			Id huuuurdz!!! Mizder heeeelb!!!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chummy ish ekshpwodiiiiing!
+			Id huuuurch!!! Shiddy geejer heeeewp!!!!
+		</baby>
+		<child>
+			Chummy ish ekshpwodiiiiing!
+			Mishter Poo ish hurting me!
+			Weimu feels too full!
+			Id huuuurd!!! Shiddy geejer heeeewp!!!!
+		</child>
+		<adult>
+			Tummy is explodiiiiiiiiiing!
+			Reimu ish going to pop if Mishter poo-poo doesn't leave eajy!!
+			Id huuuurdz!!! Shiddy geezer heeeelb!!!!
+		</adult>
+	<rude>
+[/Inflation]
+
+# Child abused
+[AbuseBaby]
+	<normal>
+		<baby>
+			Yuwaaaaa! Gibe bag bwabyy!!!
+			Wry would you do daaat!?!?!?
+		</baby>
+		<child>
+			Yuwaaaaa! Gibe bag babyy!!!
+			Wry would you do daaat!?!?!?
+		</child>
+		<adult>
+			Yuwaaaaa! Don't hurt little one!!!
+			Why would you do daaat!?!?!?
+			Mister don't hurt Reimu's little one!!
+			Don't hurt precious little one!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuwaaaaa! Don'd buwwy babyyy!
+			Shcum! Deviw! Gonna kiww yoooou!!!
+		</baby>
+		<child>
+			Yuwaaaaa! Don'd buwwy babyyy!
+			Shcum! Deviw! Gonna kiww yoooou!!!
+			Die eajy!
+		</child>
+		<adult>
+			Yuwaaaaa! Don'd attack little oooone!
+			Scum! Devil! Gonna kill yoooou!!!
+			Don't hurt precious little one!
+			Mister who hurt Reimu's little ones should die easy!
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# Stretch stretch
+[Nobinobi]
+	<normal>
+		<baby>
+			Shtwetch shtwetch
+			♪Stwetch♪ stwetch to mister sun♪
+		</baby>
+		<child>
+			Shtweetch shtweetch
+			♪Stwetch♪ stwetch to mister sun♪
+		</child>
+		<adult>
+			Stretch stretch
+			Taking it easy～♪
+			Yu~ yu~♪
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtwetch shtwetch
+			♪Shtwetch♪ shtwetch to mister sun♪
+		</baby>
+		<child>
+			Stwetch stwetch
+			♪Stwetch♪ stwetch to mister sun♪
+		</child>
+		<adult>
+			Stretch stretch
+			Taking it easy～♪
+			Yu~ yu~♪
+		</adult>
+	</rude>
+[/Nobinobi]
+
+# Before birth
+[NearToBirth]
+		<normal>
+		<baby>
+			Babiesh mobed! Did pyuff pyuff!
+			Babiesh can chage id eajy!
+			Be bworn!
+		</baby>
+		<child>
+			Babiesh mobed! Did puff puff!
+			Babiesh can chage id eajy!
+			Babiesh be born!
+			Weimu's cude babies be born!
+		</child>
+		<adult>
+			Little ones are moving energetically!
+			Cute little ones be born easy!
+			Reimu's babies are very easy~
+			I can feel the cute little ones moving!
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# Poison
+[PoisonDamage]
+	<normal>
+		<baby>
+			Yupiii!!
+			Yugeho, yugeho...
+			<damage>
+				Ged ouuud...
+			</damage>
+		</baby>
+		<child>
+			Hewwp!
+			Hurrrts!?
+			Feelwing sick..
+			<damage>
+				Id's... kiww...
+				Yugihihihipipipi...
+			</damage>
+		</child>
+		<adult>
+			It's poison!
+			Ha, howwww...
+			Reimu feels sick...
+			<damage>
+				Howaaa!!
+				Oud, oud, oud...
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# Excretion impossible
+[CantShit]
+	<normal>
+		<baby>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+			Mishter Poo ish hurting me!
+			I fweel sho full!?
+		</baby>
+		<child>
+			Poo poo won'd gome oud! Do wick wick!
+			Weimu can't poo-poo! Pwease help!
+			Why does Weimu fweel sho full!?
+			Why won't mishta poo-poo come ouwt!
+		</child>
+		<adult>
+			Poo poo don't take it easy and come out!
+			Why wont Mister Poo-Poo come out!?
+			Mister poo poo please come out!
+			Reimu can't poo-poo mister! Please help!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Pwoo pwoo won'd gome oud! Do wick wick!
+			I fweel sho full!?
+			Mishter Poo ish hurting me!
+		</baby>
+		<child>
+			Poo poo won'd gome oud! Do wick wick!
+			Mishter Poo-Poo go eajy!
+			Why does Weimu fweel sho full!?
+			Shiddy slave help cude Reimu!
+		</child>
+		<adult>
+			Poo poo don't take it easy and come out!
+			Uneasy mister poo-poo wont come out!! Help Reimu geezer!
+			Why wont Mister Poo-Poo come out!?
+			Shitty slave help beauitful Reimu!
+			Can't...poo...poo...
+		</adult>
+	<rude>
+[/CantShit]
+
+# Failed pregnancy
+[NoPregnancy]
+	<normal>
+		<baby>
+			Can'ch habe bwabiesh!?
+		</baby>
+		<child>
+			Can'ch habe babiesh!?
+			Why ish there no cude babies?
+			Mishta why doesn't Weimu have liddle ones?
+		</child>
+		<adult>
+			Yuwaaan! Why is there no little ones!?
+			Where are Reimu's cute little ones!?
+			Mister why are there no little ones?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Can'ch habe bwabiesh!?
+		</baby>
+		<child>
+			Can'ch habe babiesh!?
+			Why ish there no cude babies?
+			Where are Weimu's liddle ones shiddy slave!?
+		</child>
+		<adult>
+			Yuwaaan! Wry iz dere no liddle onez!?
+			Where are Reimu's cute little ones!?
+			Why are there no cute little ones?! What did shitty geezer do!
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# Panic state
+[Fear]
+	<normal>
+		<baby>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaa!
+			Shcawyy!
+			Mamaaaa!
+			<damage>
+				Helb...
+				Mama...
+				Pwease hewp Weimu!
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaa!!!
+			Can't take it easyyyyyyy!
+			<damage>
+				Aaaaaa....
+				Someone.... helb...
+				Please help Reimu mister!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yunyaaa!
+			Shcawyy!
+			Myamyaaaa!
+			<damage>
+				Helb...
+				Myamya...
+			</damage>
+		</baby>
+		<child>
+			Yunyaaa!
+			Shcawyy!
+			Mamaaaa!
+			<damage>
+				Helb...
+				Mama...
+				Shiddy slave hewp cude Weimu!
+			</damage>
+		</child>
+		<adult>
+			Yunyaaaaaa!!!
+			Can't take it easyyyyyyy!
+			<damage>
+				Aaaaaa....
+				Someone.... helb...
+				Shitty slave help Reimu! Right now is fine!
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# Burning state
+[Burning]
+	<normal>
+		<baby>
+			Yuppiiii!!!
+			Hwoootch!
+			Myaamyaa! Hwoootch!
+			SHO HOT!?
+			HURDZ! Mishter fire ish not eajy!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</baby>
+		<child>
+			Yuppiiii!!!
+			Id'z choo hotch!
+			Maamaa! Hoootch!
+			Hurdz! Ish choo hot!
+			Hurdz! Mishter fire ish not eajy at all!
+			<damage>
+				Yu... yu... yu...
+				Hotch... hewwp...
+				Save...Weimu..
+			</damage>
+		</child>
+		<adult>
+			Too hot!
+			Heeeeeelp!
+			Reimu is on fire!!
+			Help mister!!
+			Hurts! It's so hot!
+			Hurts! Mister fire can't take it easy!
+			<damage>
+				Yu... yu... yu...
+				Hod... helb...
+				Pwease....mister..
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuppiiii!!!
+			Hwoootch!
+			Myaamyaa! Hwoootch!
+			SHO HOT!?
+			HURDZ! Mishter fire ish not eajy!
+			<damage>
+				Yu... yu... yu...
+				Hwotch... hewwp...
+			</damage>
+		</baby>
+		<child>
+			Yuppiiii!!!
+			Id'z choo hotch!
+			Maamaa! Hwoootch!
+			Hurdz! Ish choo hot!
+			Hurdz! Mishter fire ish not eajy at all!
+			<damage>
+				Yu... yu... yu...
+				Hotch... hewwp...
+				Save...cude...Weimu...
+			</damage>
+		</child>
+		<adult>
+			Too hot!
+			Heeeeeelp!
+			Save beautfiul Reimu!!!
+			Stupid mister fire stop it!!
+			Hurts! It's so hot!
+			Hurts! Shitty Mister fire can't take it easy!
+			<damage>
+				Yu... yu... yu...
+				Hod... helb...
+				Pwease....mister..
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# In water
+[Wet]
+	<normal>
+		<baby>
+			Cwold!
+			Mishter wacher can'ch chage id eajy!
+			Scwary mishta water...
+			<damage>
+				Cwold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</baby>
+		<child>
+			Coooold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Coooold...
+				Mishter footshiesh ish melching...
+				Weimu ish drowning!!
+			</damage>
+		</child>
+		<adult>
+			Coooold!
+			Mister water can't take it easy! Stop it? Stop it!
+			Mister water is too cold!
+			<damage>
+				So...cold...
+				Coooold...
+				Yuwaa... mizder foodzies iz melding...
+				Reimu is drowning!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Cwold!
+			Mishter wacher can'ch chage id eajy!
+			Scwary mishta water...
+			<damage>
+				Cwold...
+				Mishter footshiesh ish melching...
+			</damage>
+		</baby>
+		<child>
+			Coooold!
+			Mishter wacher can'ch chage id eajy!
+			<damage>
+				Coooold...
+				Mishter footshiesh ish melching...
+				Shiddy mishta water!
+			</damage>
+		</child>
+		<adult>
+			Coooold!
+			Mister water can't take it easy! Stop it? Stop it!
+			<damage>
+				So...cold...
+				Coooold...
+				Yuwaa... mizder foodzies iz melding...
+				Uneasy mister water go die!
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# Anyaru closure
+[AnalSealed]
+	<normal>
+		<baby>
+			Yukyakya! Ticklesh!
+			Mishter anyaru ish gone!?
+		</baby>
+		<child>
+			Yukyakya! Ticklesh!
+			Yu!? But Weimu poo-poos from there!
+			Reimu needs that mishta!
+		</child>
+		<adult>
+			Yugyagya! It tickles!
+			But Reimu poo-poos from there!
+			Mister anyaru! Noo!
+			Why would you do this mister!?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Kinda ticklesh.
+			Very easy Mishter anyaru ish gone!?
+		</baby>
+		<child>
+			Kinda ticklesh.
+			Yu!? But cude Weimu poo-poos from there!
+			Shiddy old man! Weimu needs that!
+		</child>
+		<adult>
+			Tickles!
+			Yufufu, being interested in that place is absolutely perverted.
+			What are you doing to mister anyaru shitty slave!!
+			But Reimu poo-poos from there!
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# Stabbed by needle
+[NeedleStick]
+	<normal>
+		<baby>
+			Pigii!?
+			Yupii!?
+			Gipiii!
+			Id huuuuurch!
+			Hurdzz!
+		</baby>
+		<child>
+			Pigii!?
+			Yupii!?
+			Gipiii!
+			Id huuuuurd!
+			Don't hurd Weimu!!
+		</child>
+		<adult>
+			Id huuuuurdz!
+			Yugyaaaaaaa!
+			Don't hurt Reimu!!
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# Stuck by needle
+[NeedleScream]
+	<normal>
+		<baby>
+			Chage id ouj! Quigwy chage id ouwj!
+			HURDZ! Weimu ish shtuck!?
+			Mishder shtab shtab gan'd chage id eajyyyyy!
+		</baby>
+		<child>
+			Pweashe chage id ouj! Quigwy chage id ouj!
+			Mishder shtab shtab gan'd chage id eajyyyyy!
+			Weimu ish sowwy!! Stob it!
+		</child>
+		<adult>
+			Take it out! Please take it out!
+			Mister stab stab can't take it easyyyyyy!
+			Reimu is sorry! Take out mister stab stab!
+			Why put these uneasy things in Reimu mister...
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# Doing grind grind to partner's needle
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			Hewping eajy!
+			Mishter shtab-shtab dat can'ch chage id eajy huwwy and gwome oud!
+		</baby>
+		<child>
+			Hewping eajy!
+			Reimu will save you eajy!!
+			Mishter shtab-shtab dat can'ch chage id eajy huwwy and gome oud!
+		</child>
+		<adult>
+			Helping %partner easy!
+			Reimu will save you!!
+			Go away mister stab stab!
+			Mister stab stab don't take it easy and come out!
+			Will punish mister stab stab for bullying %partner!
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# Doing grind grind to child's needle
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			Hewping eajy!
+			Mishter shtab shtab dat can'ch chage id eajy huwwy and gome oud!
+		</baby>
+		<child>
+			Hewping eajy!
+			Weimu will save liddle one!!
+			Mishter shtab shtab dat can'ch chage id eajy huwwy and gome oud!
+		</child>
+		<adult>
+			Helping little one easy!
+			Reimu will save little one!!
+			Mister stab stab don't take it easy and come out!
+			Will punish mister stab stab for bullying little one!
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# Target of grind grind
+[NeedlePain]
+	<normal>
+		<baby>
+			Shtooooop!
+			Don'ch do gwind gwind!
+		</baby>
+		<child>
+			Shtooooop!
+			Don'ch do gwind gwind!
+			Grind grind hurdz Weimu!!
+		</child>
+		<adult>
+			Zdoooooob!
+			Don'd do grind grind!
+			Grind grind hurddzz!!
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# Needle removed
+[NeedleRemove]
+	<normal>
+		<baby>
+			Mishter shtab shtab... hurch...
+		</baby>
+		<child>
+			Mishter shtab shtab... hurd...
+		</child>
+		<adult>
+			Mizder zdab zdab.... hurdz...
+			Mister stab stab is very uneasy...
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# Demanding sweet sweets
+[WantAmaama]
+	<rude>
+		<baby>
+			Bwing mwore shweet shweech! Shiddy geejer!
+			More shweet sheech!
+		</baby>
+		<child>
+			Bwing more shweet shweech! Shiddy geejer!
+			Bring cude Weimu more shweet shwech!!
+			Want more sweet shweet shweech!
+		</child>
+		<adult>
+			Bring more sweet sweets! Shitty geezer!
+			Bring the beautfiul star Reimu more sweet sweets!!
+			Shitty slave! Sweet sweets now!!
+			Reimu wants more sweet sweets shitty slave!! Are you stupid?
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# Movement impossible
+[CantMove]
+	<normal>
+		<baby>
+			Mishter footshiesh won'd mobe?
+			Mishta feets wont work!
+			Gan'd mobe? Mishder don'd be mean!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe?
+			Mishta feets don't be uneasy!!
+			Weimu can'ch feel her mishder feet!?
+			Why can'ch Weimu can'ch do jump-jump anymore!?
+			Gan'd mobe? Mishter don'd be mean!
+		</child>
+		<adult>
+			Mister footsies won't move?
+			Reimu can'ch feel her mister feet!?
+			Why can't Reimu do jump-jump anymore!?
+			Mister footsies won't move, mister! Don't be mean!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter fwootshiesh won'd mwobe?
+			Mishat feets wont work!
+			Gan'd mobe? Shiddy shwabe don'd be mean!
+		</baby>
+		<child>
+			Mishter footshiesh won'd move?
+			Mishta feets don't be uneasy!!
+			Why won'ch mishter let Weimu go, ish it because Weimu ish sho cude? Weimu ish showwy for being sho cude!!
+			Weimu can'ch feel her mishder feet!?
+			Gan'd mobe? Shiddy shwave don'd be mean!
+		</child>
+		<adult>
+			Mister footsies won't move?
+			Fix Reimu's beautfiul mister feets!!
+			Shitty slave! What did you do to Reimu's mister footsies!?
+			Why won'ch mister let Reimu go, is it because Reimu is so cute? Reimu is showwy for being so cute!!
+			Mister footsies won't move, geezer! Do something right now! Immediately is okay!
+		</adult>
+	</rude>
+[/CantMove]
+
+# Movement impossible 2
+[CantMove2]
+	<normal>
+		<baby>
+			Mishter fwootshiesh won'd mwobe!
+			Mishter fwootshiesh don'd dage id eajy and mobe!
+		</baby>
+		<child>
+			Mishter footshiesh won'd move!
+			Weimu's mishter feets! Help mishta!
+			Weimu's Mishter footshiesh don'd dage id eajy and move!
+		</child>
+		<adult>
+			Mister footsies won't move!
+			Please help Reimu's mister feets!! Can't take it easy!!
+			Mister footsies won't move! Mister, hurry and do something!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter footshiesh won'd mobe!
+			Mishter footshiesh don'd dage id eajy and mobe!
+		</baby>
+		<child>
+			Mishter footshiesh won'd mobe!
+			Shiddy slave! Stob taking it easy and help cude Weimu!
+			Shiddy geezer! Help Weimu! Now is fine!
+			Weimu's Mishter footshiesh don'd dage id eajy and mobe!
+		</child>
+		<adult>
+			Mister footsies won't move!
+			Reimu's beautfiul mister feets!!
+			Fix Reimu's mister footsies now shitty slave!!
+			Mister footsies won't move! Geezer! Do something! Right now is fine!
+		</adult>
+	</rude>
+[/CantMove2]
+
+# Pulled
+[Pull]
+	<normal>
+		<baby>
+			Yuyu?!
+			Yuggu! Mishter shtop ich! Can'ch chage id eajy?
+			Shdop id! Mwaging cuch in mishder shkin!
+		</baby>
+		<child>
+			Yuyu?!
+			Yuggu! Mishter shtop ich! Can'ch chage id eajy?
+			Shtop id! Making cuch in mishter shkin!
+			Stob it! Mishta skin hurdz!
+		</child>
+		<adult>
+			Yuyu?!
+			Yuggu! Mister stop it! Can't take it easy?
+			Stop it! Mister skin is being wounded!
+			Mister stop it! Reimu can't take it easy like this!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuyu?!
+			Yuggu! Shdop ich! Shiddy geejer! Can'ch chage id eajy?
+			Shdop id! Maging cuch in mishder shkin!
+		</baby>
+		<child>
+			Yuyu?!
+			Yuggu! Shtop ich! Shiddy geejer! Can'ch chage id eajy?
+			Shtop id! Making cuch in mishter shkin!
+			Shiddy slave! Your hurding Weimu!
+		</child>
+		<adult>
+			Yuyu?!
+			Yuggu! Stop! Shitty geezer! Can't take it easy!
+			Can't take it easy! Stop it right now!!!
+			Are you you stupid? Want to die? Stop it shitty slave!
+		</adult>
+	</rude>
+[/Pull]
+
+# Pulled 2
+[Pull2]
+	<normal>
+		<baby>
+			Id huuuuurch! Can'ch do shdwech shdwech any moaaaa! Shdooooooob!!!
+			Yuwaaaa! Shtoooob!
+		</baby>
+		<child>
+			Id huuuuurch! Can'ch do shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+			Reimu can'ch shtwech...shtwech...more...
+		</child>
+		<adult>
+			Id huuuurdz! Can'd zdretch zdretch anymooooore! Zdob iiiiiiiid!!!
+			Yuwaaaa! Zdooooob!
+			Wryyyyyyy! Id huuuuuuuuuurdz!!!
+			Whyyyy mister!! It hurdzzz!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id huuuuurch! Can'ch do shdwech shdwech any moaaaa! Shdooooooob!!!
+			Yuwaaaa! Shtoooob!
+		</baby>
+		<child>
+			Id huuuuurch! Can'ch do shtwech shtwech any moaaaa! Shtooooooop!!!
+			Yuwaaaa! Shtoooob!
+			Shiddy slave....Weimu can'ch shtwech...shtwech...more...
+		</child>
+		<adult>
+			Id huuuurdz! Can'd zdretch zdretch anymooooore! Geezer stob iiiiiiiid!!!
+			Yuwaaaa! Zdooooob!
+			Wryyyyyyy! Id huuuuuuuuuurdz!!!
+		</adult>
+	</rude>
+[/Pull2]
+
+# Smashed
+[Press]
+	<normal>
+		<baby>
+			Yubee!
+			Shdob! Can'ch chage id eajy!
+			Mishta head!
+		</baby>
+		<child>
+			Yubee!
+			Shtop! Can'ch chage id eajy!
+			Mishta your hurding Weimu!
+		</child>
+		<adult>
+			Yuyu?
+			Stop! Can't take it easy!
+			Mister stop it! Your hurting Reimu!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yugya?
+			Don'ch sid on eajy mishder head!
+		</baby>
+		<child>
+			Yugya?
+			Don'ch sit on eajy mishter head!
+			Are you stupid? Don't sit on Weimu!
+		</child>
+		<adult>
+			Yugaa!
+			Don't sit on easy mister head!
+			Shitty slave! Don't sit on beautiful Reimu!!
+		</adult>
+	</rude>
+[/Press]
+
+# Smashed 2
+[Press2]
+	<normal>
+		<baby>
+			Yugyaaa!
+			Being cwuuushed!
+		</baby>
+		<child>
+			Yugyaaa!
+			Being cwuuushed!
+			Pwease stob!! Crushing Weimu!!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Being cruuuuushed!
+			Id hurdz id hurdz id huuuuuurdz!!!
+			Mister your crushing Reimu!!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yugyaaa!
+			Being cwuuushed!
+			Shdob id! Shiddy geejer!!!
+		</baby>
+		<child>
+			Yugyaaa!
+			Being cwuuushed!
+			Shtop id! Shiddy geejer!!!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Being cruuuuushed!
+			Id hurdz id hurdz id huuuuuurdz!!!
+			Zdob id! Reimu commands you! Shiddy geezer!!!
+		</adult>
+	</rude>
+[/Press2]
+
+# Finding sweet sweets
+[FindAmaama]
+	<normal>
+		<baby>
+			Shweet shweech!
+			Chank foa shweet shweech, mishder!
+			Eajy! Chanks mishta!
+		</baby>
+		<child>
+			Shweet shweech!
+			Chanks foa shweech shweech, mishter!
+			Very eajy scheech scheech! Chanks mishta!
+			Mishta ish so nice to Weimu! Chank you!
+		</child>
+		<adult>
+			Sweet sweets!
+			Thanks for mister sweet sweets, mister!
+			Mister sweet sweets is very easy! Thank you!
+			Tasty sweet sweets for Reimu!? Thank you mister!
+			Mister spoils Reimu! Thank you!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shweed shweech! Be eachen eajy!
+			Shweet shweech chould be chankfuww foa being eachen!
+			Schweet shweech all for cude Weimu!
+		</baby>
+		<child>
+			Shweet shweech! Be eachen eajy!
+			Shweet shweech should be thankfuww foa being eachen!
+			Ugly mishta can't have Weimu's shweet shweech!
+			Go away geezer! Shweet schweech are for Weimu!
+		</child>
+		<adult>
+			Sweet sweets be eaten easy!
+			Very easy sweet sweets appeared just for Reimu!
+			Shitty slave! These are Reimu sweet sweets! Go away easy!
+			Tasty sweet sweets are for Reimu only!!
+			Sweet sweets should be thankful for being eaten!
+		</adult>
+	</rude>
+[/FindAmaama]
+
+# Eating sweet sweets
+[EatingAmaama]
+	<normal>
+		<baby>
+			Myunch myunch, hahahahappineeeeech!
+		</baby>
+		<child>
+			Munch munch, Happineeeesh!
+		</child>
+		<adult>
+			Munch munch, Happineeeess!
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# Vomiting paste
+[Vomit]
+	<normal>
+		<baby>
+			Yube...
+			Yubu...
+		</baby>
+		<child>
+			Yubue...
+			Boee...
+		</child>
+		<adult>
+			Yububu...
+			Gheboo...
+			Blarg...
+		</adult>
+	</normal>
+[/Vomit]
+
+# General, dying continued
+[Dying2]
+	<normal>
+		<baby>
+			Yu... yupi...
+			Yu, yu, yu...
+		</baby>
+		<child>
+			Yupi... yugu...
+			Yu, yu, yu...
+		</child>
+		<adult>
+			Yugu... yubaa...
+			Yu, yu, yu...
+		</adult>
+	</normal>
+[/Dying2]
+
+# General, surprise
+[Surprise]
+	<normal>
+		<baby>
+			Wryyyy!?
+			Don do daat!
+			Yunyaaaa!!!
+			Yueeeen!!!
+		</baby>
+		<child>
+			Wryyyy!?
+			Don'd do daat!
+			Yunyaaaa!!!
+			Yueeeen!!!
+			Don't scare Weimu!!
+		</child>
+		<adult>
+			Wryyyy!?
+			Don'd do daaaaat!
+			Yunyaaaa!!!
+			Don't scare Reimu!!
+		</adult>
+	</normal>
+[/Surprise]
+
+# General, attacked by other yukkuri at some time, counterattack
+[RevengeAttack]
+	<normal>
+		<baby>
+			Shdop!
+			Gedding angwy!
+			Puff!
+		</baby>
+		<child>
+			Shtop!
+			Getting angwy!
+			Go away easy!! Puff!!
+		</child>
+		<adult>
+			Don't take it easy and stop!
+			Getting angry!
+			Don't hurt Reimu!! Mister help!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shdoop!
+			Gedding angwy!
+			Puff!!
+		</baby>
+		<child>
+			Shtop!
+			Getting angwy!
+			Don't hurd cude Weimu uneajy yukkuri!
+		</child>
+		<adult>
+			Don't take it easy and stop!
+			Getting angry!
+			Uneasy yukkuri who hurt Reimu should die easy!!
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# Cutting braids/tail/wings
+[BraidCut]
+	<normal>
+		<baby>
+			Yuaaa! Mishder fwap fwaaapsh!
+		</baby>
+		<child>
+			Yuaaa! Mishter fwap fwaaaps!
+			Noo! Weimu's mishta fwap fwaaps!!
+		</child>
+		<adult>
+			Yuaaa! Wonderful mister flap flaaaps!!
+			Reimu's beautfiul mister flap flaaaps!
+		</adult>
+	</normal>
+[/BraidCut]
+
+# General, being eaten alive by other yukkuri
+[EatenByBody]
+	<normal>
+		<baby>
+			Yuaaa!
+			Don'ch mwunch mwuuuunch!
+		</baby>
+		<child>
+			Yuaaa!
+			Don'ch munch muuuunch!
+			Weimu ish not munch munch!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Don'd munj muuuunj!!
+			Reimu is not food! Don't munch munch!
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# General, being sucked dry by other yukkuri
+[EatenByBody2]
+	<normal>
+		<baby>
+			Yuaaa!
+			Don'ch shuck mishder fiwwiiing!
+		</baby>
+		<child>
+			Yuaaa!
+			Don'ch shuck Weimu's mishter fiwwiiing!
+			Reimu's mister filling! Stob it!!
+		</child>
+		<adult>
+			Yugaaaa!!!
+			Don'd zug mizder villiiing!
+			Nooo! Reimu's mister filling!
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# Fleeing from Remirya
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			Yunyaaaaa!!
+		</baby>
+		<child>
+			Ij a Wemiwyaaaaa!!
+		</child>
+		<adult>
+			Id'z a Remiliaaaaaa!!
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

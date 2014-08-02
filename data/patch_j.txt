@@ -1,0 +1,2296 @@
+# È§åÁô∫Ë¶ã
+[WantFood]
+	<normal>
+		<baby>
+			Mukyu~ Mishder food is here!è
+			It smells like mishder food!Å
+			It smells delicious!
+		</baby>
+		<child>
+			Mister food smells delicious, mukyu~è
+			Going to eat mister food!è
+			Mister food smells lovely!Å
+			Mister food!Å
+		</child>
+		<adult>
+			Mister food smells delicious!è
+			Mukyu~ It's mister food!Å
+			Mister food is here!Å≠
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Smells like mishder food, mukyukyu~è
+			It smells alright!
+			Mishder food will be all mine!Å
+			Patchy will consume all the mister foods!Å
+		</baby>
+		<child>
+			Smells like mister food, mukyukyu~Å
+			It smells fine!Å
+			Prepare to be eaten by the Great Sage Patchy!
+		</child>
+		<adult>
+			Smells like mister food, mukyukyu~Å
+			Patchy will consume all the mister foods in her path!Å
+			I'm gonna eat youuuu~Å
+		</adult>
+	</rude>
+[/WantFood]
+
+# È§å„Å™„Åó
+[NoFood]
+	<normal>
+		<baby>
+			Mugyu, wry is mishder food nod here?Å
+			Patchy can't chake id eajy without mister food!
+			<damage>
+				Need food... kyu~...Å
+				Shtarving!
+			</damage>
+		</baby>
+		<child>
+			Mukyu, wry is mister food not here?
+			Patchy needs mister food!
+			<damage>
+				Starving...Å
+				Please feed me mister food...
+			</damage>
+		</child>
+		<adult>
+			Muktu, wry is mister food not here?
+			Patchy can't take it easy without mister food!
+			<damage>
+				Patchy is gonna starve...
+				I require mister food...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shlave, where is the mishder food?
+			Serve the great patchy with sweet-sweets now!Å
+			Mukyu, wry is mishder food nod here?Å
+			<damage>
+				Starving...Å
+				Feed me sweet-sweech...Å
+			</damage>
+		</baby>
+		<child>
+			Slave, where is the mister food?
+			Serve the great Patchy with sweet-sweets now!Å
+			Å
+			<damage>
+				Starving...Å
+				Feed me sweet-sweets...Å
+			</damage>
+		</child>
+		<adult>
+			Slave! Why is mister food not here?
+			Does patchy have to hurt-hurt a mister?Å
+			Serve the great Patchy with sweet-sweets now!
+			<damage>
+				Why is there no sweet sweets...
+				Patchy is gonna starve...
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# Áô∫ÊÉÖ
+[Excite]
+	<normal>
+		<baby>
+			Want to wefwesh~
+			I'm gonna wefwesh with your mamumamuuuu~Å
+		</baby>
+		<child>
+			Who is Patchy going to refresh with today?
+			Suddenly feels good, mukyu~ !Å
+		</child>
+		<adult>
+			What a luscious mamumamu, mukyukyu~Å
+			Want to refresh!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Want to wefwesh~
+			I'm gonna wefwesh with your mamumamuuuu~Å
+		</baby>
+		<child>
+			Who is Patchy going to refresh with today?
+			Suddenly feels good, mukyu~ !Å
+		</child>
+		<adult>
+			What a luscious mamumamu, mukyukyu~Å
+			Want to refresh!Å
+		</adult>
+	<rude>
+[/Excite]
+
+# „É™„É©„ÉÉ„ÇØ„Çπ
+[Relax]
+	<normal>
+		<baby>
+			Mukyuu~n!Å
+			Chake id eajy!
+			Ea~jy
+			Come chake it eajy wid Patchy!
+			Ea-jy days~
+			Relax, relax~Å
+			Chaking id eajy!Å
+		</baby>
+		<child>
+			Mukyuu~n!Å
+			Ea~syÅ
+			Come take it easy with Patchy!
+			Let's take it easy together, mister!
+			Ea-sy days~Å
+			Relax, relax~
+			Take it easy!Å
+			Taking it easy!Å
+		</child>
+		<adult>
+			Mukyuu~n!Å
+			Ea~syÅ
+			Come take it easy with Patchy, mister!
+			Let's take it easy together!Å
+			Ea-sy days~
+			Relax, relax~è
+			Take it easy!Å≠
+			Taking it easy!Å
+			Taking it easy with mister~
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Go away so Patchy can chake id eajy~
+			Shitty geezer, can't you see Patchy is chaking it eajy?Å
+			Mukyukyukyu~
+			Chaking id eajy!
+			Chake id eajy!Å
+			Relax, relax~
+			Ea~jy
+		</baby>
+		<child>
+			Don't bother patchy while she's taking it easy, slave~Å
+			Shitty geezer can't even take it this easy~Å
+			Mukyukyukyu~
+			Taking it easy!
+			Take it easy!è
+			Ea~sy
+			Relax, relax~
+		</child>
+		<adult>
+			Don't bother patchy while she's taking it easy, slave~Å
+			Shitty geezer can't even take it this easy~Å
+			Mukyukyukyu~è
+			Taking it easy!Å
+			Take it easy!Å
+			Ea~syè
+			Relax, relax~
+		</adult>
+	</rude>
+[/Relax]
+
+# Â∞ªÊåØ„Çä
+[FuriFuri]
+	<normal>
+		<baby>
+			Wigguw wigguw!
+			Mugyu~n!
+			Mugyukkuri shiteitte ne!!
+			Eajy, eajy
+			Doing a happy wigguw-wigguw!Å
+		</baby>
+		<child>
+			Wiggle wiggle!
+			Mukyu~n!
+			Mukyukkuri shiteitte ne!!
+			Easy, easy
+			Doing a happy wiggle-wiggle!
+		</child>
+		<adult>
+			Wiggle wiggle!
+			Mukyu~n!ç
+			Mukyukkuri shiteitte ne!!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Sorry for being sho smart!
+			Wigguw wigguw!
+			Mugyu~n!
+			Relax, relax~ chage id eajy!Å
+			Sorry for being sho cute!
+			Yuuuuu~Å
+		</baby>
+		<child>
+			Sorry for being so smart!
+			Wiggle wiggle!
+			Mukyu~n!
+			Relax, relax~ take it easy!Å
+			Sorry for being so cute!
+			Å
+		</child>
+		<adult>
+			Sorry for being so smart!
+			Wiggle wiggle!Å
+			Relax, relax~ take it easy!ç
+			Sorry for being so cute!Å
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# Ëµ∑Â∫ä
+[Wakeup]
+		<normal>
+		<baby>
+			Mugyuu~ Patchy has wogen ub!Å
+			Another day of chaking id eajy!Å
+			Chake id eajy!Å
+		</baby>
+		<child>
+			Mukyuu~ Patchy has woken up!Å
+			Another day of taking it easy!Å
+			Take it easy!Å
+		</child>
+		<adult>
+			Mukyuu~ Patchy has woken up!Å
+			Another day of taking it easy!Å
+			Take it easy!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			The great Patchy has awogen!Å
+			Chake id eajy!
+		</baby>
+		<child>
+			The great Patchy has awoken!
+			Take it easy!
+		</child>
+		<adult>
+			The beautiful genius Patchy has awoken!Å
+			Take it easy!Å
+		</adult>
+	</rude>
+[/Wakeup]
+
+# Áù°Áú†
+[Sleep]
+	<normal>
+		<baby>
+			Zzz... zzz...
+			Patchy is shweeping!
+			Shweeping eajy~
+		</baby>
+		<child>
+			Zzz... zzz...
+			Patchy is sleeping!
+			Sleeping easy~
+		</child>
+		<adult>
+			Zzz... zzz...
+			Patchy is sleeping!
+			Sleeping easy~
+		</adult>
+	</normal>
+[/Sleep]
+
+# ÊÇ≤È≥¥
+[Scream]
+	<normal>
+		<baby>
+			MUKYA!Å
+			ID HURD!Å
+			Don'ch hurd-hurd Patchy!Å
+			Shdob id eajy!Å
+			Pweashe shdob id!Å
+			Wrrryyyy!?Å
+			<damage>
+				Can'ch chake id eajy...Å
+				Yu... yu... yu...Å
+				Wry are you doing dish... ?
+			</damage>
+		</baby>
+		<child>
+			MUKYA!
+			HURTS!
+			Don't hurt-hurt Patchy!Å
+			Please stop it!Å
+			Stop it easy!Å
+			Wrrryyyy!?Å
+			<damage>
+				Can't take it easy...Å
+				Yu... yu... yu...Å
+				Why are you doing this... ?
+			</damage>
+		</child>
+		<adult>
+			MUKYA!
+			HURTS!Å
+			Please stop hurt-hurting Patchy!Å
+			Please stop it!Å
+			Wrrryyyy!?Å
+			<damage>
+				Can't take it easy...Å
+				Yu... yu... yu...Å
+				Why are you doing this... ?
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shdob hurt-hurting the gweat sage Patchy!Å
+			Shdob id, geejer!Å
+			ID HURD!Å
+			MUKYA!Å
+			Ichaaaiiii!Å
+			Don'd do hurt-hurt!Å
+			<damage>
+				Can'ch chage id eajy...Å
+				Yu... yu... yu...
+				Patchy is showwy for being sho shmart sho shdob id...Å
+			</damage>
+		</baby>
+		<child>
+			Stop hurt-hurting the great sage Patchy!Å
+			Stop it, geezer!Å
+			MUKYA!Å
+			Itaaaiiii!Å
+			Don't do hurt-hurt!Å
+			<damage>
+				Can't take it easy...Å
+				Yu... yu... yu...Å
+				Patchy is sorry for being so smart so stop it please...Å
+			</damage>
+		</child>
+		<adult>
+			Stop hurt hurting the great sage Patchy!
+			Cease this, geezer!
+			MUKYA!Å
+			Itaaaiiii!Å
+			Paaaaainfuuuul!!Å
+			<damage>
+				Can't take it easy...
+				Yu... yu... yu...
+				Patchy is sorry for being so smart so stop it please...
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# ÊÄØ„Åà
+[Scare]
+	<normal>
+		<baby>
+			MUGYU!!!
+			Shcawy!!Å
+			Can'ch chage id eajy!
+			Patchy ish shcawed!Å
+			<damage>
+				Shtop it... shtop it pweashe...Å
+				Wry ish dish happening...Å
+			</damage>
+		</baby>
+		<child>
+			MUKYU!!!
+			Scary!!Å
+			Patchy is scared!Å
+			<damage>
+				Stop it... stop it please...Å
+				Why is this happening...Å
+			</damage>
+		</child>
+		<adult>
+			MUKYU!!!
+			Horrifyiiiiing!
+			Patchy is feeling frightened!è
+			<damage>
+				Stop it... stop it please...Å
+				Why is this happening...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			MUGYU!!!Å
+			Can'ch chage id eajy!!Å
+			<damage>
+				Shiddy geejer... hewp...Å
+				Shtop it...Å
+			</damage>
+		</baby>
+		<child>
+			MUKYU!!!Å
+			Can't take it easy!Å
+			<damage>
+				Shitty geezer... help...Å
+				Stop it...Å
+			</damage>
+		</child>
+		<adult>
+			MUKYU!
+			Can't take it easy!Å
+			Can't you see patchy is frightened, geezer?Å
+			<damage>
+				Shitty geezer... help me...Å
+				Stop it...Å
+			</damage>
+		</adult>
+	</rude>
+[/Scare]
+
+# Ë≠¶Êàí
+[Alarm]
+	<normal>
+		<baby>
+			Yuu!Å
+			Mugyaaa!
+			Shtop!
+			<damage>
+				Yu, yu, yu...
+				Shtop...Å
+				Wryy...
+				Stop it pweashe...Å
+			</damage>
+		</baby>
+		<child>
+			Yuu!Å
+			Mukyaaa!Å
+			Stop!Å
+			<damage>
+				Yu, yu, yu...Å
+				Stop...Å
+				Wryy...
+				Stop it please...Å
+			</damage>
+		</child>
+		<adult>
+			Yuu!
+			Mukyaaa!Å
+			Stop!Å
+			<damage>
+				Yu, yu, yu...Å
+				Cease... this...Å
+				Wryy...
+				Stop it please...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuu!Å
+			Mugyaaa!Å
+			Shtop!Å
+			Shiddy geejer shtop it!Å
+			<damage>
+				Yu, yu, yu...Å
+				Wryy...
+				Shtop...Å
+			</damage>
+		</baby>
+		<child>
+			Yuu!Å
+			Mukyaaa!
+			Stop!
+			Shitty geezer stop it!
+			<damage>
+				Yu, yu, yu...Å
+				Wryy...
+				Stop...Å
+			</damage>
+		</child>
+		<adult>
+			Yuu!Å
+			Mukyaaa!
+			Stop!
+			Shitty geezer stop it!Å
+			<damage>
+				Yu, yu, yu...Å
+				Wryy...
+				Cease... this...
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# ÁÄïÊ≠ª
+[Dying]
+	<normal>
+		<baby>
+			Mugyeh-!Å
+		</baby>
+		<child>
+			Mukyeh-!Å
+		</child>
+		<adult>
+			Mukyah-!Å
+		</adult>
+	</normal>
+[/Dying]
+
+# Ê≠ª‰∫°
+[Dead]
+	<normal>
+		<baby>
+			Wanded choo... chage id eajy more...Å
+			Mu... gyu...Å
+			Showwy foa... being uneajy...
+		</baby>
+		<child>
+			Wanted to... take it easy more...Å
+			Mu... kyu...Å
+			Sorry for... being uneasy...Å
+		</child>
+		<adult>
+			Wanted to... take it easy more...Å
+			Mu... kyu...
+			Sorry for... being uneasy...Å
+		</adult>
+	</normal>
+[/Dead]
+
+# È£ü‰∫ã
+[Eating]
+	<normal>
+		<baby>
+			Munch munch~ dewicious!
+			Munch munch~ thanks, mister!Å
+			Dewicious, can chake it eajy~ 
+			Mishter food can shake it eajy~Å
+			Yu! Yu! Yu!Å
+			Sho good!Å
+		</baby>
+		<child>
+			Munch munch~ delicious!
+			Munch munch~ thanks, mister!Å
+			Delicious, can take it easy~Å
+			Mister food can take it easy~Å
+			Yu! Yu! Yu!Å
+			So good!Å
+		</child>
+		<adult>
+			Munch munch~ delicious!Å
+			Delicious, can take it easy!Å
+			Mister food can take it easy!Å
+			Yu! Yu! Yu!è
+			Thank you, mister!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Munch munch~ sho-shoÅ
+			Yu! Yu! Yu!
+			Can chake id eajy!Å
+		</baby>
+		<child>
+			Munch munch~ so-soÅ
+			Yu! Yu! Yu!
+			Can take it easy!Å
+		</child>
+		<adult>
+			Munch munch~ so-soÅ
+			Yu! Yu! Yu!
+			Can take it easy!Å
+		</adult>
+	</rude>
+[/Eating]
+
+# È£ü‰∫ã(„ÅÜ„Çì„ÅÜ„Çì)
+[EatingShit]
+	<normal>
+		<baby>
+			Munch munch~ poo poo is not food!Å
+			Dishgushtiiiiing!!!
+			Yuckyyyyy!!!
+			I don'ch wanch choo eat mishter poo poo!
+		</baby>
+		<child>
+			Munch munch~ poo poo is not food!Å
+			Disgustiiiiing!!!
+			Yuckyyyyy!!!
+			I don't want to eat mister poo poo!
+		</child>
+		<adult>
+			Munch munch~ absolutely disgusting!Å
+			How nauseating!
+			Poo poo is not food!
+			I don't want to eat mister poo poo!
+		</adult>
+	</normal>
+[/EatingShit]
+
+# È£ü‰∫ã(ÊØí)
+[EatingBitter]
+	<normal>
+		<baby>
+			Munch munch~ tashtes bad!Å
+			I'ch bitter!Å
+			M-mugyu!
+		</baby>
+		<child>
+			Munch munch~ tastes bad!Å
+			It's bitter!Å
+			M-mukyu!
+		</child>
+		<adult>
+			Munch munch~ this is poisoned!
+			It's so bitterrr!!!
+			M-mukyu!Å
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# Ê∫ÄËÖπ
+[Full]
+	<normal>
+		<baby>
+			Chummy fuww...Å
+		</baby>
+		<child>
+			All gone...Å
+		</child>
+		<adult>
+			Patchy is stuffed...Å
+		</adult>
+	</normal>
+[/Full]
+
+# ÂõûÂæ©
+[Healing]
+	<normal>
+		<baby>
+			Chaking id eajier!Å
+			Sweet sweech!
+			Patchy is coming back!
+			<damage>
+				Mugyuu...?
+				Feewing a bit eajier...Å
+			</damage>
+		</baby>
+		<child>
+			Taking it easier!Å
+			Sweet sweets!Å
+			Patchy is coming back!Å
+			<damage>
+				Mukyuu...?è
+				Feeling a bit easier...Å
+			</damage>
+		</child>
+		<adult>
+			Taking it easier!Å
+			Patchy is all better!Å
+			Patchy has been healed!Å
+			<damage>
+				Feeling a bit easier...Å
+				Getting better...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Need more!Å
+			Sweet sweech!
+			<damage>
+				Tashtes good...
+			</damage>
+		</baby>
+		<child>
+			Need more!Å
+			Sweet sweets!
+			<damage>
+				Tastes good...
+			</damage>
+		</child>
+		<adult>
+			The great sage of the forest Patchy demands more sweet sweets!
+			Sweet sweets!
+			<damage>
+				Tastes good...
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# „Åô„Å£„Åç„Çä
+[Sukkiri]
+	<normal>
+		<baby>
+			Mukyaa~n!Å
+		</baby>
+		<child>
+			Refreshed~
+		</child>
+		<adult>
+			Refreeeeeeshed!Å
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# „É¨„Ç§„Éë„Éº„Å®„Åô„Å£„Åç„Çä
+[RaperSukkiri]
+	<normal>
+		<baby>
+			No more!Å
+			Noooo! Mishter babiesh, pweashe don'ch gwow!Å
+			Don't want babies!Å
+			Patchy isn't weady choo be a mother!Å
+			Shtoooop!Å
+		</baby>
+		<child>
+			No more!Å
+			Noooo! Mister babies, please don't grow!
+			Patchy doesn't want babies!Å
+			Patchy isn't ready to be a mother!
+			Stoooop!Å
+			Being raaaaped!?Å
+		</child>
+		<adult>
+			No more!Å
+			Don't want mister babies!
+			Don't want to have babies with an uneasy rapist!Å
+			Stoooop!Å
+			Noooo! Mister babies, please don't grow!Å
+			Being raaaaped!Å
+		</adult>
+	</normal>
+[/RaperSukkiri]
+
+# Ë™ïÁîü
+[Birth]
+	<normal>
+		Chage id eajy!Å
+	</normal>
+[/Birth]
+
+# ÊéíÊ≥Ñ
+[Shit]
+	<normal>
+		<baby>
+			Mishter poo poo goming oud!Å
+			Bye bye poo pooooooo!Å≠
+			Doing poo poo eajy!
+			Patchy's eajy poo-poo chime ish shtarting!è
+			<pants>
+				Nooo! Shtay inshide Patchy's anyawu!Å
+				Mishter pants, wryyyy!?Å
+			</pants>
+		</baby>
+		<child>
+			Mister poo poo coming out!≠
+			Bye bye poo pooooooo!
+			Doing poo poo easy!è
+			<pants>
+				Nooo! Stay inside Patchy's anyaru!
+				Mister pants, wryyyy!?Å
+			</pants>
+		</child>
+		<adult>
+			Mister poo poo coming out!Å≠
+			Bye bye poo poo!
+			Doing poo poo easy!
+			<pants>
+				Nooo! Take it easy and don't leave Patchy's anyaru!Å
+				Mister pants, wryyyy!?
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter poo poo goming oud!Å
+			Bye bye poo pooooooo!Å
+			Doing poo poo eajy!
+			Shlave can eat Patchy's poo poo if he wants to, mukyukyukyu~è
+			<pants>
+				Nooo! Shtay inshide Patchy's anyawu!Å
+				Gonna soil mishter paaaaantsh!Å
+			</pants>
+		</baby>
+		<child>
+			Mister poo poo coming out!
+			Bye bye poo pooooooo!Å
+			Doing poo poo easy!
+			Slave can eat Patchy's poo poo if he wants to, mukyukyukyu~è
+			<pants>
+				Nooo! Stay inside Patchy's anyaru!Å
+				Gonna soil mister paaaaants!Å
+			</pants>
+		</child>
+		<adult>
+			Mister poo poo coming out!
+			Bye bye poo pooooooo!Å
+			Doing poo poo easy!
+			Slave can eat Patchy's poo poo if he wants to, mukyukyukyu~è
+			<pants>
+				Nooo! Take it easy and don't leave Patchy's anyaru!Å
+				Gonna defecate in mister paaaaants!Å
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# ÊéíÊ≥Ñ2
+[Shit2]
+	<normal>
+		<baby>
+			Wefweched!Å
+			Mukyu, done poo pooing!Å
+			Finished!
+			<pants>
+				Shmells baaaad!Å
+				Feels baaaad... shmelly!Å
+			</pants>
+		</baby>
+		<child>
+			Refreshed!Å
+			Mukyu, done poo pooing!Å
+			Finished!
+			<pants>
+				Smells baaaad!Å
+				Feels bad... so stinkyyy!Å
+			</pants>
+		</child>
+		<adult>
+			Refreshed!Å
+			Mukyu, finished doing poo poo!Å≠
+			<pants>
+				Waaaah! I'm covered in feces!Å
+				Feels so filthyyyy!!!Å
+				Please clean it up!Å
+				Smells baaaad!Å
+				This is so uncomfortable!Å
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# „Åô„Çä„Åô„Çä
+[SuriSuri]
+	<normal>
+		<baby>
+			Wu~b wu~b
+			Doing happy wub wub!
+			Mugyuu~n
+			Wed's chage id eajy!Å
+		</baby>
+		<child>
+			Ru-b ru-b
+			Doing happy rub rub!
+			Mukyuu~n
+			Let's take it easy!Å
+		</child>
+		<adult>
+			Ru~b ru~b
+			Let's take it easy!
+			Doing happy rub rub!Å
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# „Å∫„Çç„Å∫„Çç
+[PeroPero]
+	<normal>
+		<baby>
+			Wick wick~
+			Mama~
+		</baby>
+		<child>
+			Lick lick~
+			Mother~Å≠
+		</child>
+		<adult>
+			Lick lick~ç
+			Patchy's little ones are so lovely~
+		</adult>
+	</normal>
+[/PeroPero]
+
+# Âá∫Áî£
+[Breed]
+	<normal>
+		<baby>
+			MUKYAAAAA!Å
+			Chummy huuuurch!
+		</baby>
+		<child>
+			MUKYAAAAA!Å
+			Wrrryy does id huuuurd!?
+		</child>
+		<adult>
+			Little ones... being... born!Å
+			Giving... birth!Å
+		</adult>
+	</normal>
+[/Breed]
+
+# Áî£Âæå
+[Breed2]
+	<normal>
+		Take it easy!Å
+		<pants>
+			Little ones... wh-why!?Å
+		</pants>
+	</normal>
+[/Breed2]
+
+# „ÅÜ„Çì„ÅÜ„ÇìÁô∫Ë¶ã
+[HateShit]
+	<normal>
+		<baby>
+			Shtinky!Å
+			Dat'j uneajy!Å
+			<damage>
+				Shmelly...Å
+				Shtinksh... Å
+			</damage>
+		</baby>
+		<child>
+			Stinky!Å
+			Poo poo is uneasy!Å
+			<damage>
+				Smelly...Å
+				Poo poo stinks...Å
+			</damage>
+		</child>
+		<adult>
+			How repulsive!Å
+			Poo poo is uneasy!
+			<damage>
+				Smells bad...
+				That's unhygenic...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Clean up poo poo, shlave!Å
+			Shtinky!
+			Dat'j uneajy!Å
+			<damage>
+				Shmelly...Å
+				Get wid of it...Å
+			</damage>
+		</baby>
+		<child>
+			Clean up poo poo, slave!Å
+			Stinky!Å
+			Poo poo is uneasy!Å
+			<damage>
+				Smelly...
+				Get rid of it...Å
+			</damage>
+		</child>
+		<adult>
+			How repulsive!Å
+			Clean the Great Sage of the Forest's poo poo at once!Å
+			<damage>
+				That's unhygenic...
+				Get rid of it immediately...
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# Á©∫ËÖπ
+[Hungry]
+	<normal>
+		<baby>
+			Patchy ij hungwy!Å
+			Mishter food?
+			Mukyu~ Want to eat mishter food!
+			<damage>
+				Hungwy...Å
+			</damage>
+		</baby>
+		<child>
+			Patchy is hungry!Å
+			Mister food?
+			Mukyu~ Want to eat mister food!
+			<damage>
+				Hungry...Å
+			</damage>
+		</child>
+		<adult>
+			Patchy is hungry!è
+			Mister food?≠
+			Mukyu~ Want to eat mister food!
+			<damage>
+				Patchy is famished...
+				Hungry...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mugyu~ Shlave, where are the sweet sweetsh?Å
+			Patchy ij hungwy!
+			Mukyu~ Need sweet sweets!Å
+			<damage>
+				Hungwy...Å
+				Need food right now... Å
+			</damage>
+		</baby>
+		<child>
+			Mukyu~ Slave, where are the sweet sweets!?Å
+			Patchy is hungry!Å
+			Mukyu~ Need sweet sweets!Å
+			<damage>
+				Hungry...
+				Need food right now...
+			</damage>
+		</child>
+		<adult>
+			Mukyu~ Slave, bring sweet sweets for the great sage! Now is fine!Å
+			There's no food, stupid! Å
+			Patchy is hungry!
+			<damage>
+				Hungry...Å
+				Patchy is famished...Å
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# „Åä„Åã„Åñ„ÇäÊ≤°Âèé
+[NoAccessory]
+	<normal>
+		<baby>
+			Mugyaaa!! Gibe id bag!Å
+			Mugyaaa!! Where did mishder had go!?Å
+			Gibe id bag! Pwease gibe id bag!Å
+			Patchy needs her had, or she can't chage id eajy!Å
+			MUGYAAA!!Å 
+		</baby>
+		<child>
+			Mukyaaa!! Give it back!Å
+			Mukyaaa! Where did mister hat go!?Å
+			Give it back! Please give it back! Å
+			Patchy needs her hat, or she can't take it easy!Å
+			MUKYAA!!Å 
+		</child>
+		<adult>
+			Mukyaaa!! Give it back!Å
+			Wrrryy is mister hat gone!?Å
+			Give it back! Please give it back!Å
+			MUKYAA!!Å 
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# ÊåÅ„Å°‰∏ä„Åí
+[Flying]
+	<normal>
+		<baby>
+			Mukyu~ Patchy ish fwying!Å
+			It'sh wike fwying in the sky!Å
+			Weeeeee~Å!
+		</baby>
+		<child>
+			Mukyu~ Patchy is flying!Å
+			It's like flying in the sky!Å
+			Patchy is a mister flying bird!Å
+		</child>
+		<adult>
+			Mukyu~ Patchy is flying!Å
+			It's like flying in the sky!Å
+			Patchy is feeling like a mister airplane!Å
+		</adult>
+	</normal>
+[/Flying]
+
+# Â≠ê‰æõÊ≠ª‰∫°
+[SadnessForChild]
+	<normal>
+		<baby>
+			Babyyy wrryyyy!?
+			Mugyuuuu!! Nooo!!Å
+			Gome bag! Oben your mishter eyes!
+		</baby>
+		<child>
+			Babyyy wrryyyy!?
+			Mukyuuuu!! Nooo!!Å
+			Come back! Open your mister eyes!Å
+		</child>
+		<adult>
+			Precious little one wrryyyy!?
+			Don't leave your mother all by herself!!Å
+			Come back! Open your mister eyes!Å
+		</adult>
+	</normal>
+[/SadnessForChild]
+
+# „Å§„Åå„ÅÑÊ≠ª‰∫°
+[SadnessForPartner]
+	<normal>
+		%partner don't take it easy and come back!Å
+	</normal>
+[/SadnessForPartner]
+
+# ÂßâÊ≠ª‰∫°
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			Open your eyesh, big shish!Å
+			Noooo!Å
+		</baby>
+		<child>
+			Open your eyes, my precious elder sister!
+			How could something so awful happen to you!?Å
+		</child>
+		<adult>
+			%partner open your mister eyes!Å
+			How could something so awful happen to you, %partner !?Å
+		</adult>
+	</normal>
+[/SadnessForEldersister]
+
+# Â¶πÊ≠ª‰∫°
+[SadnessForSister]
+	<normal>
+		<baby>
+			Open your eyes, widdle shish!Å
+			Noooo!Å
+		</baby>
+		<child>
+			Open your eyes, my precious younger sister!Å
+			How could something so awful happen to you!?Å
+		</child>
+		<adult>
+			%partner open your mister eyes!Å
+			How could something so awful happen to you, %partner !?Å
+		</adult>
+	</normal>
+[/SadnessForSister]
+
+# Â£ÅÁô∫Ë¶ã
+[BlockedByWall]
+	<normal>
+		<baby>
+			Mishter wall ish in the way!
+			Mugyu~ will my booksh tell me how to get pasht this?
+			Why is mishter wall blocking me?
+		</baby>
+		<child>
+			Mister wall is in the way!
+			Mukyu~ will my books tell me how to get past this?
+			Why is mister wall blocking me?
+		</child>
+		<adult>
+			Patchy's tracks have stopped at a dead end!
+			Mukyu~ will my books tell me how to get past this?Å
+			Wrrry can't I get over you, mister wall?Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter wall ish in the way!Å
+			Go to hell, shiddy wall!
+		</baby>
+		<child>
+			Mister wall is in the way!
+			Go to hell, shitty wall!
+		</child>
+		<adult>
+			Mister wall is in the way!
+			Go to hell, shitty wall!Å
+			Get out of the Great Sage of the Forest's path! Immediately is fine!Å
+		</adult>
+	</rude>
+[/BlockedByWall]
+
+# „Åä„ÇÇ„Å°„ÇÉÁô∫Ë¶ã
+[GetTreasure]
+	<normal>
+		<baby>
+			Mugyu~ Patchy has fouwnd a mishter tweashure!Å
+			Mishter marbwe can chake it eajy!Å
+		</baby>
+		<child>
+			Mukyu~ Patchy has found a mister treasure!Å
+			This mister marble can take it easy!Å
+		</child>
+		<adult>
+			Patchy is found treasure, like a mister pirate mukyu!Å
+			This mister marble can take it easy!Å
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# „Åä„ÇÇ„Å°„ÇÉÁ¥õÂ§±
+[LostTreasure]
+	<normal>
+		<baby>
+			Come bag to Patchyyy!Å
+		</baby>
+		<child>
+			Please come back to Patchy!Å
+		</child>
+		<adult>
+			Easy mister marble! Please come back to Patchy!Å
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# ËÜ®Âºµ
+[Inflation]
+	<normal>
+		<baby>
+			Chummy HUUUUURCH!Å
+			Ichaiiii!Å
+			Mishter chummy ish gedding choo big!Å
+			Shtoooop!Å
+			It hurch sho much!Å
+		</baby>
+		<child>
+			Mister tummy huuuuurts!Å
+			Itaiiii!Å
+			Mister tummy is getting too big!Å
+			Stoooop!Å
+			Hurts so muuuuuch!Å
+			Paaaainfuuul!Å
+		</child>
+		<adult>
+			Mister tummy huuuuurts!Å
+			Itaiiii!Å
+			Patchy's mister tummy is becoming far too large!Å
+			Hurts so muuuuuch!Å
+			Paaaainfuuul!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chummy HUUUUURCH!
+			Ichaiiii!Å
+			Shtop it, shwave!Å
+			You mushn't do shuch horrible thingsh to the great sage of the fowest, mugya!Å
+			It hurch sho much!Å
+		</baby>
+		<child>
+			Mister tummy huuuurts!Å
+			Itaiiii!Å
+			Stop it, slave!Å
+			You musn't do such horrible things to the great sage of the forest, mukya!Å
+			Hurts so muuuuuch!Å
+			Paaaainfuuul!Å
+		</child>
+		<adult>
+			Mister tummy huuuurts!Å
+			Itaiiii!Å
+			Stop it, slave!Å
+			You musn't do such horrible things to the great sage of the forest, mukya!Å
+			Hurts so muuuuuch!Å
+			Paaaainfuuul!Å
+		</adult>
+	<rude>
+[/Inflation]
+[/Inflation]
+
+# Â≠êËôêÂæÖ
+[AbuseBaby]
+	<normal>
+		<baby>
+			Gibe bag babyy!!!Å
+			Don't hurt-hurch my baby!
+			Wrrry do you do these cruel thingsh!?
+			Wet go of babyy!!!Å
+			Babbyyy!? Wrrryyyyy!?Å
+		</baby>
+		<child>
+			Please give back Patchy's precious baby, mukyu!Å
+			Don't do hurt-hurt to my baby!
+			Wrrry do you do these cruel things!?
+			Let go of Patchy's baby!Å
+			Babbyyy!? Wrrryyyyy!?
+		</child>
+		<adult>
+			Please give back Patchy's precious little one, mukyu!Å
+			Don't do hurt-hurt to my precious little one!
+			Wrrry do you do these cruel things!?
+			Let go of Patchy's precious little one!Å
+			Little oneeeee!? Wrrryyyyy!?Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Patchy will punish cruel geejer for doing thish!Å
+			Don't do hurt-hurch to Patchy's baby!Å
+			Wrrry do you do these cruel thingsh!?Å
+			Piece of shit shlave! How dare youuuu!Å
+			Babbyyy!? Wrrryyyyy!?Å
+		</baby>
+		<child>
+			Patchy will punish cruel geezer for doing this!Å
+			Don't do hurt-hurt to Patchy's baby!Å
+			Wrrry do you do these cruel things!?
+			Piece of shit slave! How dare youuuu!Å
+			Babbyyy!? Wrrryyyyy!?Å
+		</child>
+		<adult>
+			SADISTIC... PIECE of SHIT GEEZER... can DROP DEAD EASY... FOR HURTING PATCHY'S LITTLE ONE!!!!Å
+			Don't do hurt-hurt to Patchy's little one! Å
+			Wrrry do you do these cruel things!?Å
+			Patchy will punish you for this!Å
+			Babbyyy!? Wrrryyyyy!?Å
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# „ÅÆ„Å≥„ÅÆ„Å≥
+[Nobinobi]
+	<normal>
+		<baby>
+			Doing shtwetch-shtwetch, mukyu~
+			Ea~jy
+			No-bi no-bi~
+		</baby>
+		<child>
+			Doing stretch-stretch, mukyu~
+			Ea~sy
+			No-bi no-bi~
+		</child>
+		<adult>
+			Doing stretch-stretch, mukyu~
+			Ea~sy
+			No-bi no-bi~
+		</adult>
+	</normal>
+[/Nobinobi]
+
+# Âá∫Áî£Ââç
+[NearToBirth]
+	<normal>
+		<baby>
+			Patchy's babiesh moved!Å
+			Patchy felt movement in mishter chummy!Å
+			Patchy's babiesh will be here shoon!Å
+			Babiesh are gonna be born eajy!Å
+			Patchy is excited to meet her babiesh!Å
+			Mugyu~ Babiesh are doing wub-wub inshide mishter chummy!Å
+		</baby>
+		<child>
+			Patchy's babies moved!Å
+			Patchy felt movement in her mister tummy!Å
+			Patchy's babies will be here soon!Å
+			Babies are gonna be born easy!
+			Patchy is excited to meet her babies!è
+			Mukyu~ Babies are doing rub-rubÅinside mister tummy!
+		</child>
+		<adult>
+			Patchy's little ones just moved inside of her!Å
+			Patchy felt movement in her mister tummy!Å
+			Patchy's little ones will be here soon!Å
+			Little are gonna be born easy!
+			Patchy is excited to meet her little ones!è
+			Mukyu~ Little ones are doing rub-rubÅinside mister tummy!Å
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# ÊØí
+[PoisonDamage]
+	<normal>
+		<baby>
+			Yubei!!Å
+			Mugyaaaaa~n!Å
+			Id hurd all of a shudden!?Å
+			<damage>
+				Wry... does hurt-hurt...
+				Mugyu... it'sh killing me...
+				Patchy ish dying uneajy...
+			</damage>
+		</baby>
+		<child>
+			Yubei!!Å
+			Mukyaaaaa~n!Å
+			Mister poison is doing hurt hurt!Å
+			<damage>
+				Wry... did this happen...
+				Mukyu... it's killing me...
+				Patchy is dying uneasy...
+			</damage>
+		</child>
+		<adult>
+			Yubei!!Å
+			Mukyaaaaa~n!Å
+			Mister poison is doing hurt hurt!Å
+			<damage>
+				Wry... did this happen...
+				Mukyu... it's killing me...
+				Patchy is dying uneasy...
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# ÊéíÊ≥Ñ‰∏çÂèØ
+[CantShit]
+	<normal>
+		<baby>
+			Mishter poo poo nod goming oud!?Å
+			Huuuuurch!
+		</baby>
+		<child>
+			Mister poo poo not coming out!?Å
+			Hurts hurts hurts so muuuuuuch!
+		</child>
+		<adult>
+			Mister poo poo not coming out!? Å
+			Don't take it easy and get out of Patchy's anyaru!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishter poo poo nod goming oud!?Å
+			Hewp me, geejer!
+		</baby>
+		<child>
+			Mister poo poo not coming out!?Å
+			Help me, geezer!
+		</child>
+		<adult>
+			Mister poo poo not coming out!?Å
+			Do something, geezer! Immediately is fine!Å
+		</adult>
+	<rude>
+[/CantShit]
+
+# Â¶äÂ®†Â§±Êïó
+[NoPregnancy]
+	<normal>
+		<baby>
+		Babiesh, nooooooo!Å
+		N-no babies!?!? Wrryy!?
+		</baby>
+		<child>
+		Babiees, nooooooo!Å
+		N-no babies!?!? Wrryy!?
+		</child>
+		<adult>
+		Little ones!?
+		Noooooooo!!!!
+		Little ones, what happened to you!?Å
+		Why are there no little ooooonees!?
+		What happened to my precious little ooooonees!?Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+		Babiesh, nooooooo!Å
+		N-no babies!?!? Wrryy!?
+		</baby>
+		<child>
+		Babiees, nooooooo!Å
+		N-no babies!?!? Wrryy!?
+		</child>
+		<adult>
+		Little ones!?
+		Noooooooo!!!!
+		Little ones, what happened to you!?Å
+		Why are there no little ooooonees!?
+		What happened to my little ooooonees!?
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# ÊÅêÊÄñ„Åß„Éë„Éã„ÉÉ„ÇØÁä∂ÊÖã
+[Fear]
+	<normal>
+		<baby>
+			Shcaaryyyy!Å
+			Patchy ish shcaaaaared!Å
+			Mukyyaaaaa!Å
+			Mama!!!Å
+			<damage>
+				Hewp...Å
+				Mama...
+				Don'd do ich...Å
+			</damage>
+		</baby>
+		<child>
+			Scaaryyyy!
+			Patchy is scaaaaared!Å
+			Mukyyaaaaa!Å
+			Mama!!!Å
+			<damage>
+				Help...Å
+				Mama...Å
+				Don't do this...Å
+			</damage>
+		</child>
+		<adult>
+			Scaaryyyy!
+			Patchy is scaaaaared!Å
+			Mukyyaaaaa!
+			How horrifying!
+			Stop it please!Å
+			<damage>
+				Help...Å
+				Stop it please...Å
+				Don't do this...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shcaaryyyy!Å
+			Patchy ish shcaaaaared!Å
+			Mukyyaaaaa!Å
+			Mama!!!Å
+			<damage>
+				Hewp...Å
+				Mama...
+				Don'd do ich...
+			</damage>
+		</baby>
+		<child>
+			Scaaryyyy!
+			Patchy is scared, so stop it immediately!Å
+			Mukyyaaaaa!Å
+			Mama!!!Å
+			<damage>
+				Help...Å
+				Mama...Å
+				Don't do this...
+			</damage>
+		</child>
+		<adult>
+			Scaaryyyy!
+			Patchy is scared so stop it immediately!Å
+			Mukyyaaaaa!
+			How horrifying!
+			Stop this right now!Å
+			<damage>
+				Help...Å
+				Stop it please...Å
+				Don't do this...
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# ÁÅ´„Åå„Å§„ÅÑ„Å¶„ÇãÁä∂ÊÖã
+[Burning]
+	<normal>
+		<baby>
+			Mugyaaaa!!!Å
+			Ich hoooootch!Å
+			Save meeee!!!Å
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				It burnnnnns!?...
+				Shtop it... yu, yu...
+			</damage>
+		</baby>
+		<child>
+			Mukyaaaa!!!Å
+			It's too hooooot!Å
+			Save meeee!!!Å
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				It burnnnnns!?...Å
+				Stop it... yu, yu...
+			</damage>
+		</child>
+		<adult>
+			Scorching hoooot!Å
+			It's too hooooot!
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				Wrrrry did Patchy have to buuurn...Å
+				Stop it... yu, yu...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mugyaaaa!!!Å
+			Ich hoooootch!Å
+			Shitty shlave save me! Now ij fine!Å
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				It burnnnnns!?...
+				Shtop it... yu, yu...
+			</damage>
+		</baby>
+		<child>
+			Mukyaaaa!!!Å
+			It's too hooooot!Å
+			Shitty slave save me!Å Now is fine!
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				It burnnnnns!?...Å
+				Stop it... yu, yu...
+			</damage>
+		</child>
+		<adult>
+			Scorching hoooot!Å
+			Shitty slave save me! Now is fine!
+			Patchy's being coooooked!Å
+			<damage>
+				Yu... yu... yu...Å
+				Wrrrry did Patchy have to buuurn...Å
+				Stop it... yu, yu...
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# Ê∞¥„Çí„Åã„Åë„Çâ„Çå„Åü
+[Wet]
+	<normal>
+		<baby>
+			Colj!Å
+			Mischer wacher ij fweezing!Å
+			<damage>
+				Colj...Å
+				Patchy is melching...
+			</damage>
+		</baby>
+		<child>
+			Cold!
+			Mister water is freezing!Å
+			<damage>
+				Cold...Å
+				Patchy is melting...
+			</damage>
+		</child>
+		<adult>
+			Cold!
+			Mister water is freezing! Stop it!Å
+			<damage>
+				Cold...Å
+				Patchy is melting...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Colj!Å
+			Mischer wacher ij fweezing!Å
+			<damage>
+				Colj...Å
+				Patchy is melching...
+			</damage>
+		</baby>
+		<child>
+			Cold!
+			Mister water is freezing!Å
+			<damage>
+				Cold...Å
+				Patchy is melting...
+			</damage>
+		</child>
+		<adult>
+			Cold!
+			Mister water is freezing! Stop it!Å
+			<damage>
+				Cold...Å
+				Patchy is melting...
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# „ÅÇ„Å´„ÇÉ„ÇãÈñâÈéñ
+[AnalSealed]
+	<normal>
+		<baby>
+			Mugyu!è
+		</baby>
+		<child>
+			Mukyu, that feels funny!è
+		</child>
+		<adult>
+			Mukyu, that feels funny!è
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mugyu!
+		</baby>
+		<child>
+			Geezer loves to touch Patchy's anyaru, doesn't he?
+		</child>
+		<adult>
+			Mukyukyukyu, geezer loves to touch Patchy's anyaru, doesn't he?è
+			Touching the greaty sage Patchy's anyaru like that is incredibly perverted~è
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# Èáù„ÅåÂà∫„Åï„Å£„ÅüÊôÇ
+[NeedleStick]
+	<normal>
+		<baby>
+			Yupii!!
+			Mugya!!
+			Hurch!!
+			P-pii!?Å
+		</baby>
+		<child>
+			Yupii!!
+			Mukya!!
+			Hurch!!
+			P-pii!?Å
+		</child>
+		<adult>
+			Mukyaaaa!
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# Èáù„ÅåÂà∫„Åï„Å£„Å¶„ÅÑ„ÇãÊôÇ
+[NeedleScream]
+	<normal>
+		<baby>
+			Mugyaaaa! Chage it oooouch!Å
+			I can'ch chage id eajy wike dish!Å
+			Heeewp! Hewp me!Å
+		</baby>
+		<child>
+			Mukyaaaa! Take it oooout!Å
+			I can't take it easy like this!Å
+			Heeelp! Help me!Å
+		</child>
+		<adult>
+			Mukyaaaa! Please take it out!Å
+			I can't take it easy like this!Å
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# „Å§„Åå„ÅÑ„ÅÆÈáù„Çí„Åê„Éº„Çä„Åê„Çä„Åô„Çã
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			Hewping eajy!Å
+			Patchy ish hewping wemove bad mishter shtab-shtab!Å
+			Mishter shtab shtab come out eajy!
+		</baby>
+		<child>
+			Helping easy!Å
+			Patchy is helping remove bad mister stab-stab!Å
+			Mister stab stab come out easy!
+		</child>
+		<adult>
+			Helping %partner easy!Å
+			Patchy is helping remove bad mister stab-stab!Å
+			Mister stab stab come out easy!
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# Â≠ê„ÅÆÈáù„Çí„Åê„Éº„Çä„Åê„Çä„Åô„Çã
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			Hewping eajy!Å
+			Patchy ish hewping wemove bad mishter shtab-shtab!Å
+			Mishter shtab shtab come out eajy!
+		</baby>
+		<child>
+			Helping baby easy!Å
+			Patchy is helping remove bad mister stab-stab!Å
+			Mister stab stab come out easy!
+Å
+		</child>
+		<adult>
+			Helping little one easy!Å
+			Patchy is helping remove bad mister stab-stab!Å
+			Mister stab stab come out easy!
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# Ë¢´„Åê„Éº„Çä„Åê„ÇäÊôÇ
+[NeedlePain]
+	<normal>
+		<baby>
+			Shtoooop!Å
+			Id hurch!Å
+		</baby>
+		<child>
+			Stop it mukyu!Å
+			It hurts!Å
+		</child>
+		<adult>
+			Stop it mukyu!Å
+			It hurts!Å
+			Don't do iiiit!Å
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# Èáù„ÇíÊäú„ÅÑ„ÅüÊôÇ
+[NeedleRemove]
+	<normal>
+		<baby>
+			Dat wash painfuw, mugyu...Å
+		</baby>
+		<child>
+			That was painful, mukyu...Å
+		</child>
+		<adult>
+			That was painful, mukyu...Å
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæË¶ÅÊ±Ç
+[WantAmaama]
+	<rude>
+		<baby>
+			Geejer! Bwing sweet sweech!Å
+			Mugyuu~ Sherve the gweat shage Patchy!Å
+			Want sweet sweech! Now ish fine!
+		</baby>
+		<child>
+			Geezer! Bring sweet sweets!Å
+			Mukyuu~ Serve the great sage Patchy!Å
+			Want sweet sweets! Now is fine!
+		</child>
+		<adult>
+			Geezer! Bring sweet sweets!Å
+			Mukyuu~ Serve the great sage Patchy!Å
+			Want sweet sweets! Now is fine!
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# ÁßªÂãï‰∏çËÉΩ
+[CantMove]
+	<normal>
+		<baby>
+			Shtuck!è
+			Mugyu~ Patchy can'd move!?
+			Hewp!Å
+		</baby>
+		<child>
+			Stuck!è
+			Mukyu~ Patchy can't move!?
+			Help me! Å
+		</child>
+		<adult>
+			Patchy is stuck!
+			Mukyu~ Patchy can't move!
+			Help me!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtuck!è
+			Mugyu~ Patchy can'd move!?
+			Hewp, shiddy geejer!Å
+		</baby>
+		<child>
+			Stuck!è
+			Mukyu~ Patchy can't move!?
+			Help me, shitty geezer! Å
+		</child>
+		<adult>
+			Patchy is stuck!
+			Mukyu~ Patchy can't move!
+			Help me, shitty geezer!Å
+		</adult>
+	</rude>
+[/CantMove]
+
+# ÁßªÂãï‰∏çËÉΩ2
+[CantMove2]
+	<normal>
+		<baby>
+			Shtuck!è
+			Patchy can'd move!!!
+			Pwease hewp, Mister!Å
+		</baby>
+		<child>
+			Stuck!è
+			Patchy can't move!!
+			Please help, Mister! Å
+		</child>
+		<adult>
+			Patchy is stuck!
+			Mukyu~ Patchy can't move!
+			Please help, Mister!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtuck!è
+			Patchy can'd move!!!
+			Hewp me, geejer!Å
+		</baby>
+		<child>
+			Stuck!è
+			Patchy can't move!!
+			Help me, geezer! Å
+		</child>
+		<adult>
+			Patchy is stuck!
+			Mukyu~ Patchy can't move!
+			Help me, geezer!Å
+		</adult>
+	</rude>
+[/CantMove2]
+
+# Âºï„Å£Âºµ„Çã
+[Pull]
+	<normal>
+		<baby>
+			MUKYA!Å
+			Mishter, pweashe shtop it!
+			Can'ch chake it eajy mukyaa!!Å
+			ID HURD!
+			Patchy's being shtwetched choo faaar!!!Å
+		</baby>
+		<child>
+			MUKYA!Å
+			Mister, please stop it!
+			Can't take it easy mukyaa!Å
+			IT HURTS!
+			Patchy's being stretched too faaar!!!
+		</child>
+		<adult>
+			MUKYA!Å
+			Mister, please stop it!
+			Can't take it easy mukyaa!Å
+			IT HURTS!
+			Patchy's being stretched too faaar!!!Å
+			Sooo painfuuuul!!!!!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			MUKYA!Å
+			Stop it, shitty geezer!
+			Can'ch chake it eajy mukyaa!!Å
+			ID HURD!
+			Patchy's being shtwetched choo faaar!!!Å
+		</baby>
+		<child>
+			MUKYA!Å
+			Stop it, shitty geezer!
+			Can't take it easy mukyaa!Å
+			IT HURTS!
+			Patchy's being stretched too faaar!!!
+		</child>
+		<adult>
+			MUKYA!Å
+			Stop it, shitty geezer!
+			Can't take it easy mukyaa!Å
+			IT HURTS!
+			Patchy's being stretched too faaar!!!Å
+			Sooo painfuuuul!!!!!Å
+		</adult>
+	</rude>
+[/Pull]
+
+# Âºï„Å£Âºµ„Çã2
+[Pull2]
+	<normal>
+		<baby>
+			Shtop iddd!Å
+			Ich choo painfuww!!!Å
+			Mukyaaaaaaa!!!Å
+			Wrrrrrryyy!?!?
+		</baby>
+		<child>
+			Stop iiit! 
+			Hurts too much!!!
+			Mukyaaaaaaa!!!
+			Wrrrrrryyy!?!?
+			Mister, why are you doing this!?
+			Can't take it easy like this!
+		</child>
+		<adult>
+			Stop iiit! 
+			Hurts too much!!!
+			Mukyaaaaaaa!!!
+			Wrrrrrryyy!?!?
+			Mister, why are you doing this!?
+			Can't take it easy like this!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shtop iddd!Å
+			Ich choo painfuww!!!Å
+			Mukyaaaaaaa!!!Å
+			Wrrrrrryyy!?!?
+		</baby>
+		<child>
+			Stop iiit! 
+			Hurts too much!!!
+			Mukyaaaaaaa!!!
+			Wrrrrrryyy!?!?
+			Geezer, why are you doing this!?
+			Can't take it easy like this!
+		</child>
+		<adult>
+			Stop iiit! 
+			Hurts too much!!!
+			Mukyaaaaaaa!!!
+			Wrrrrrryyy!?!?
+			Geezer, y are you doing this!?
+			Can't take it easy like thisÅ
+		</adult>
+	</rude>
+[/Pull2]
+
+# „Å§„Å∂„Åô
+[Press]
+	<normal>
+		<baby>
+			Stop iiit!
+			Shtop!! Don'd do dat to Patchy's mishter head!
+			Being cwushed!!!Å
+		</baby>
+		<child>
+			Stop iiit!
+			Stop it! Don't squish Patchy's mister head like that!
+			Being crushed!!!Å
+		</child>
+		<adult>
+			Stop iiit!
+			Stop it! Don't squish Patchy's mister head like that!
+			Being crushed!!!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Stop iiit!
+			Shtop!! Don'd do dat to Patchy's cude widdwe mishter head!
+			Being cwushed!!!Å
+		</baby>
+		<child>
+			Stop iiit!
+			Stop it! Don't squish Patchy's cute mister head like that!
+			Being crushed!!!Å
+		</child>
+		<adult>
+			Stop iiit!
+			Stop it! Don't squish Patchy's gorgeous mister head like that!
+			Being crushed!!!Å
+		</adult>
+	</rude>
+[/Press]
+
+# „Å§„Å∂„Åô2
+[Press2]
+	<normal>
+		<baby>
+			Mukyaaaa!!!Å
+			Nooo! Pwease shtop!Å
+			HUUUURCH!Å
+			Can'ch chage id eajy wike dish!Å
+		</baby>
+		<child>
+			Mukyaaaa!!!Å
+			Nooo! Please stop!Å
+			HUUUURTS!Å
+			Can't take it easy like this!Å
+		</child>
+		<adult>
+			Mukyaaaa!!!Å
+			Nooo! Please stop!Å
+			HUUUURTS!Å
+			Can't take it easy like this!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mukyaaaa!!!Å
+			Nooo! Shtop!Å
+			HUUUURCH!Å
+			Can'ch chage id eajy wike dish!Å
+		</baby>
+		<child>
+			Mukyaaaa!!!Å
+			Nooo! Stop!Å
+			HUUUURTS!Å
+			Can't take it easy like this!Å
+		</child>
+		<adult>
+			Mukyaaaa!!!Å
+			Nooo! Stop!Å
+			HUUUURTS!Å
+			Can't take it easy like this!
+		</adult>
+	</rude>
+[/Press2]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæÁô∫Ë¶ã
+[FindAmaama]
+	<normal>
+		<baby>
+			Shweet shweets! Thanksh, mishter!Å
+		</baby>
+		<child>
+			Sweet sweets! Thank you, mister!Å
+		</child>
+		<adult>
+			Sweet sweets! Thank you, mister!Å
+		</adult>
+	</normal>
+[/FindAmaama]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæÈ£ü‰∫ã
+[EatingAmaama]
+	<normal>
+		<baby>
+			Munch munch~ dewicious!Å
+		</baby>
+		<child>
+			Munch munch~ delicious!Å
+		</child>
+		<adult>
+			Munch munch~ it tastes great!
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# ÂêêÈ§°
+[Vomit]
+	<normal>
+		<baby>
+			Mugau...
+		</baby>
+		<child>
+			Myugoue...
+		</child>
+		<adult>
+			Mukyoe...
+		</adult>
+	</normal>
+[/Vomit]
+
+# Ê±éÁî®„ÄÅÁÄïÊ≠ªÁ∂ôÁ∂ö
+[Dying2]
+	<normal>
+		<baby>
+			Mu... mugyii...
+			Yu, yu, yu...
+		</baby>
+		<child>
+			Mu... myukyu...
+			Yu, yu, yu...
+		</child>
+		<adult>
+			Mu... mukyeou...
+			Yu, yu, yu...
+		</adult>
+	</normal>
+[/Dying2]
+
+# Ê±éÁî®„ÄÅÈ©ö„Åç
+[Surprise]
+	<normal>
+		<baby>
+			Mukyaaa!
+			Wryyyy!?Å
+			Don do dat!Å
+			Dat'j uneajy!
+		</baby>
+		<child>
+			Mukyaaa!
+			Wryyyy!?Å
+			Don't do that!Å
+			That was uneasy!
+		</child>
+		<adult>
+			Mukyaaa!
+			Wryyyy!?Å
+			Don't do that!Å
+			That was uneasy!
+		</adult>
+	</normal>
+[/Surprise]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´‰Ωï„Åã„Åï„Çå„Åü„Å®„Åç„Å´ÂØæ„Åô„ÇãÊîªÊíÉ„ÄÅÂèçÊíÉ
+[RevengeAttack]
+	<rude>
+		<baby>
+			Gedding angwy!Å
+			Shtop!Å
+			You don'd wanch choo make Patchy do shcawy puff-puff, do you!?Å
+		</baby>
+		<child>
+			Getting angry!Å
+			Stop!Å
+			You don't want to make Patch do scary puff-puff, do you!?Å
+		</child>
+		<adult>
+			Getting angry!Å
+			Stop!Å
+			You don't want to make Patch do scary puff-puff, do you!?Å
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# „Åä„Åï„Åí„ÄÅÂ∞ªÂ∞æ„ÄÅÁæΩ„Çí„Å°„Åé„Çã
+[BraidCut]
+	<normal>
+		<baby>
+			Mukyuu~ Patchy's fwap fwaps are gone!Å
+		</baby>
+		<child>
+			Mukyuu~ Where did mister flap flaps go!?Å
+		</child>
+		<adult>
+			Mukyuu~ Where did Patchy's precious mister flap flaps go!?Å
+		</adult>
+	</normal>
+[/BraidCut]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´Áîü„Åç„Åü„Åæ„ÅæÈ£ü„Åπ„Çâ„Çå„Çã
+[EatenByBody]
+	<normal>
+		<baby>
+			Don'd munj munj on meee!!Å
+		</baby>
+		<child>
+			Don't eat meee!!Å
+		</child>
+		<adult>
+			Please don't eat patchy!!Å
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´Áîü„Åç„Åü„Åæ„ÅæÂê∏„Çè„Çå„Çã
+[EatenByBody2]
+	<normal>
+		<baby>
+			Patchy is being shucked dwyyy!!!Å
+		</baby>
+		<child>
+			Patchy's being sucked dryyy!!!Å
+		</child>
+		<adult>
+			Mister filling is leaking ooout!Å
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# „Çå„Åø„Çä„ÇÉ„Åã„ÇâÈÄÉ„Åí„Çã
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			Wunning away! Wunning away shwowly!Å
+		</baby>
+		<child>
+			It's Remilia!!! Run, mukyuuu!Å
+		</child>
+		<adult>
+			It's a Remilia!!!ÅRun, mukyuuu!
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

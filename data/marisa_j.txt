@@ -1,0 +1,3180 @@
+# 餌発見
+[WantFood]
+	<normal>
+		<baby>
+			Gohan-tan ish here!"
+			Mawisha ish coming gohan-tan!
+			The schmell of mishder food!
+			Mawisha hunt-hunt mishder food, je!
+			Gohan-tan looks very eajy, je!
+		</baby>
+		<child>
+			Gohan-chan shmells good, je!
+			Maricha ish coming for you gohan-chan！
+			Shmelled mishder food, je!
+			Found mishder food, je!
+			Dinner！Dinner！
+			Yuyuoo!
+			Eajy mishder food ish here, je!
+		</child>
+		<adult>
+			It's the smell of mister food, ze!
+			Marisa has found mister food, ze!
+			Mister food is here, ze!
+			Marisa will eat mister food easy, ze!
+			Yu, yu！ Thank you mister food!
+			Mister food is very easy, ze!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Gohan-tan ish all mine, da je!
+			All dis mishder food ish Mawisha's, da je!
+			Mawisha's mishta gourmet ish here, da je！
+			Gohan-tan！Mawisha will eat you eajy, da je!
+		    Dinner！Dinner！
+			Yuyyou！
+		</baby>
+		<child>
+			Mishder food ish all mine, da je!
+			Mawisha claims all of misher gourmet!
+			Mawisha will eat mishter food!
+			Dinner ish here！
+			Dis mishder food ish only for da strongest, da ze!
+			Gourmet-chan ish all mine da je!
+			Mawisha will take it eajy wid mishder food, da ze！
+		</child>
+		<adult>
+			Mister food is all mine, da ze!
+			Marisa is the best hunter, da ze！
+			Mister food will feed Marisa easy no ze！
+			All this mister food is Marisa's, da ze!
+			Marisa will not share this mister food with uneasy yukkuris, da ze！
+		</adult>
+	</rude>
+[/WantFood]
+
+# 餌なし
+[NoFood]
+	<normal>
+		<baby>
+			Where ish gohan-tan?
+			Gohan-tan, Mawisha needs you, je!
+			Gohan-tan, wa doko?
+			Mishder food ish nod here....
+			Mawisha ish sho hungry...
+			Mawisha will keep hunt-hunting...
+			<damage>
+			Gohan-chan kudasai...
+			Gib me mishder food, je、、、
+			Mawisha needs mishder food!
+			Gohan-tan, Mawisha needs you!
+			Please gib Mawisha mishder food...
+			Please gib me mishder food...
+			Mawisha ish sho shtarving...
+			Sho hungwy...
+			</damage>
+		</baby>
+		<child>
+			Where ish mishder food?
+			Mishder food ish nod here, je...
+			Mishder food ish gone, da je...
+			Maricha will keep hunt-hunting...
+			<damage>
+			Maricha ish shtarving...
+			Maricha needs mishder food!
+			Gohan-chan, Maricha needs you now!
+			Please feed Maricha....
+			Gib mishder food please....
+			Sho hungry.....
+			</damage>
+		</child>
+		<adult>
+			Mister food is missing...
+			Yu... Need mister food...
+			Mister food is not here!
+			Mister food, where are you!?
+			Marisa can't find mister food!
+			Marisa will keep hunting for mister food!
+			<damage>
+			Marisa is starving!
+			Please give Marisa mister food!
+			Mister food, Marisa needs you now!
+			So hungry...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy shlave, bwing shweet-shweets!
+			Shiddy shlave, feed Mawisha eajy!
+			Mishder food ish nod here!
+			Mawisha demands shweet-shweets, da je!
+			Where are Mawisha's shweet-shweets!?
+			Why ish Mawisha hungwy, feed idol Mawisha now please!
+			Shiddy shlave should bwing Mawisha food, then die eajy, da je!
+			Mishder food ish nod here, je! Are you shtoopid, je?  Wand choo die, je?
+			Bwing shweet-shweets, alot is enough!
+			Shiddy shlave should feed Mawisha eajy, right now is enough!
+			<damage>
+				Mawisha's tummy hurtchs, bwing food shiddy shlave!
+				Gib mishder food now, shiddy shlave!
+				Mawisha ish shtarving, gib mishder food now, da je!
+				Gib me mishder food, right now ish enough...
+			</damage>
+		</baby>
+		<child>
+			Shiddy shlave, bwing shweet-shweets!
+			Shiddy shlave, feed Maricha eajy!
+			Maricha demands shweet-shweets, da je!
+			Where are Maricha's shweet-shweets!?
+			Feed Maricha then die eajy, da je!
+			Bring Maricha lots of sweet-sweets, right now is enough!
+			Shiddy old geezer, bwing Maricha food eajy, da je!
+			Mishder food ish nod here, je! Are you shtoopid, je?  Wand choo die, je?
+			Maricha will nod forgive you for forgetting mishder food!
+			Maricha ish da strongest, sho feed her or die eajy!
+			Bring Mawisha mishder shweet-shweets or get hurt-hurt!
+			<damage>
+				Gib mishder food now...
+				Gib Maricha mishder food and maybe she will forgive you...
+				Gib mishder food now, shiddy shlave!
+				Mawisha ish shtarving, gib mishder food now, da je!、
+				Bwing mishder food, right now ish enough!
+			</damage>
+		</child>
+		<adult>
+			Mister food is not here, ze?  Are you stupid, ze? Want to die, ze?
+			Bring mister food or Marisa will do hurt-hurt da ze!
+			Shitty slave shouldn't forget to feed Idol Marisa da ze!
+			An Idol shouldn't have to ask for food, shitty slave!
+			Give Marisa mister food and she might forgive you.
+			Marisa will not forgive you for forgetting mister food, da ze!
+			<damage>
+				Give me mister food now!
+				Marisa is starving, give her mister food now!
+				Shitty slave is so slow, bring mister food. Right now is enough.
+				Give Marisa mister food or she will never forgive you, da ze!
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# 発情
+[Excite]
+	<normal>
+		<baby>
+			ぺにぺにがむじゅむじゅしゅりゅのじぇ！
+			まりちゃ ちゅっきちー！ちてみたいんだよー！
+		</baby>
+		<child>
+			Peni-peni ish feeling eajy, je!
+			Mawisha's penipeni will make you refresh, je!
+		</child>
+		<adult>
+			Marisa's penipeni will make you refresh, ze!
+			Marisa has the best penipeni! Marisa will show you da ze！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ぺにぺにがむじゅむじゅしゅりゅのじぇ！
+			まりちゃ ちゅっきちー！ちてみたいのじぇー！
+			えいゆん いろをこのむ！ なのじぇ！！！
+		</baby>
+		<child>
+			Rewesh wid Maricha or die eajy!
+			Maricha's big magnum will make you cry, je!
+			Refwesh wid Maricha, right now is enough!
+		</child>
+		<adult>
+			Refresh with Marisa or the Great Marisa will do hurt-hurt!
+			Careful, Marisa's great big magnum might split you in half, da ze!
+			Marisa's great big magnum will make you cry like a baby, ze!
+			Shitty slave can admire the great Marisa's big magnum!
+			The Great Marisa will honor you by allowing you to refresh with her!
+			Marisa' penipeni is the greatest in the world!
+		</adult>
+	</rude>
+[/Excite]
+
+# リラックス
+[Relax]
+	<normal>
+		<baby>
+			Chake id eajy!
+			Chake id eajy wid Mawisha!
+			Chaking id eajy!
+			Mawisha ish feeling vewy eajy!
+			Yukkuri shitteite ne!
+			Yuuu~
+			Yuu~ Yuu~
+		</baby>
+		<child>
+			Yukkuri Shitteite ne!
+			Chake id eajy!
+			Chake id eajy with Maricha!
+			Yuu~ Yuu~
+			Yuuuuuu~
+			Maricha ish feeling very eajy right now！
+			ゆ～ゆゆ～ゆ～♪
+			Chaking id eajy！
+		</child>
+		<adult>
+			Yukkuri Shitteite ne!
+			Take it easy！
+			Marisa is taking it very easy!
+			Marisa is feeling very easy right now！
+			ゆ～ゆゆ～ゆ～♪
+			Marisa is a very easy yukkuri！
+			
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy shlave, shtop chaking id eajy da je!
+			The gweat Mawisha ish chaking id eajy, go away!
+			Mawisha ish bujy chaking id eajy, go away shiddy shlave!
+			Shtop bother Mawisha, right now is enough, da je!
+			Mawisha ish the eajiest yukkuri!
+			Mawisha ish everyone's favorite idol！ゆ～ゆゆ～ゆ～♪
+			Mawisha desherves choo always chake id eajy！
+		</baby>
+		<child>
+			Shiddy shlave stop chaking id so eajy da je!
+			The great Maricha ish chaking id eajy, go away!
+			Stop bother Maricha da je! Right now is enough!
+			Maricha ish the eajiest yukkuri!
+			Shiddy shlave should go die eajy!
+			Maricha ish everyone's favorite idol！ゆ～ゆゆ～ゆ～♪
+			Maricha ish sho strong, da je!
+			Maricha ish the strongest!
+			Uneasy shlave ish jealous of eajy Maricha!
+		</child>
+		<adult>
+			Shitty slave go die easy!
+			Marisa is the easiest yukkuri!
+			Marisa is the strongest yukkuri, da ze!
+			Shitty slave should be honored to serve Marisa da ze!
+			Marisa is the greatest da ze!
+		</adult>
+	</rude>
+[/Relax]
+
+# 尻振り
+[FuriFuri]
+	<normal>
+		<baby>
+			Relax-relax~, chake id eajy!
+			Mawisha ish da shdrongest, da ze!
+			Chaking id eajy!
+			Shake~ shake~
+			Fu~ri, Fu~ri, eajy!
+			Wiggle~ Wiggle~
+			Pon pon... Poka poka...Yuuuwai♪
+		</baby>
+		<child>
+			Relax-relax~, chake id eajy!
+			Maricha ish da shdrongest, da ze!
+			Chaking id eajy!
+			Wiggle~ Wiggle~
+			Shake~ shake~
+			Fu~ri, Fu~ri, eajy!
+			Pon pon... Poka poka...Yuuuwai♪
+		
+		</child>
+		<adult>
+			Morun, morun♪
+			Fu~ri, Fu~ri, easy!
+			Ko～ro, Ko～ro
+			Wiggle~ Wiggle
+			Taking it easy!
+			Shake~ shake~
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Relax-relax~, chake id eajy!
+			Fu~ri, Fu~ri！Eajy！
+			Wiggle~ Wiggle~
+			Mawisha ish da shdrongest, da je!
+			Ko～ryo, ko～ryo~
+		</baby>
+		<child>
+			Relax-relax~, chake id eajy!
+			Maricha ish da shdrongest, da je!
+			Chaking id eajy!
+			Wiggle~ Wiggle~
+			Shiddy shlave can admire Maricha's mishter anyaru!
+			Fu~ri, Fu~ri, Maricha ish sho eajy!
+		</child>
+		<adult>
+			Shitty slave can admire Marisa's mister anyaru!
+			Morun, morun♪
+			Fu~ri, Fu~ri, Marisa is so easy!
+			Ko～ro, Ko～ro. Marisa is the easiest!
+			Shake~ shake~
+			Wiggle~ Wiggle~
+			Marisa is the easiest yukkuri, da ze!
+			Marisa is the greatest da ze!
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# 起床
+[Wakeup]
+	<normal>
+		<baby>
+			Chake id eajy!
+			Anoder eajy day!
+			Misder sun ish sho eajy!
+			Mawisha will chake id eajy today too!
+		</baby>
+		<child>
+			Chake id eajy!
+			Another eajy day!
+			Mishter sun ish sho eajy!
+			Maricha will take it eajy today too!
+		</child>
+		<adult>
+			Take it easy!
+			Another easy day!
+			Mister sun is so easy!
+			Another day to take it easy!
+			Marisa will take it easy today too
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chake id eajy！！！
+			Anoder eajy day!
+			Mawicha will be everyones idol today!
+			Mawicha will take id eajy today too!
+		</baby>
+		<child>
+			Chake id eajy!
+			Another eajy day!
+			The Gweat Maricha has awakened da je!
+		</child>
+		<adult>
+			Take it easy！！！
+			The Great Marisa has awakened da ze!
+			Marisa will take it easy today too da ze!
+		</adult>
+	</rude>
+[/Wakeup]
+
+# 睡眠
+[Sleep]
+	<normal>
+		<baby>
+			Yupi~Yupi~・・・
+			Schleeping eajy~~~
+			Naptime da je!
+		</baby>
+		<child>
+			YupiーYupiー・・・
+			Schleeping~~~
+			Naptime da je!
+			Schleeping eajy~~
+		</child>
+		<adult>
+			Suーya Suーya~~~
+			Yuu~n~~ Yuu~n~~
+			Sleeping easy....
+		</adult>
+	</normal>
+[/Sleep]
+
+# 悲鳴
+[Scream]
+	<normal>
+		<baby>
+			Yupiiii！
+			Yunyaaaaa！！！
+			おちょーしゃーん！！！
+			Ichaiiiii！
+			Donch hurd Mawisha！！！
+			Yuwaaa！Pwease shdop！！！
+			Ichai！Shdop id eajy！
+			Yupiyaaaaa！！！
+			Ichaiyooo！！！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ、ゆ、ゆ、、、
+				Yu! Yu! Yu!
+				Shdop please？Shdop pwease？
+				Mawisha ish hurt-hurt, pwease shdop id eajy、、、
+				Gomenachaiyo~~~
+				Uneajy、、、
+				Mawisha donch wanch to pway anymore!
+				Mawisha ish showwy, pwease shdop!
+			</damage>
+		</baby>
+		<child>
+			Yupiiii！
+			Yunyaaaa！！！Shtop it da je！
+			Shtop id eajy!
+			Yunyaaa!!!
+			Itai no je！
+			Shtop hurting Maricha！！！
+			Yuwaiiiii！Shtop please！！！
+			Maricha ish sscared, please shtop!！
+			Please dont hurt Maricha！
+			Yupiyaaaaaaaaa！！！
+			Ichaiyooo゛！！！
+			Canch chake id eajy！！！
+			<damage>
+				ゆ、ゆ、ゆ、、、
+				Yu! yu! Yu!
+				Shtop please...？Shtop please...？
+				Gomenasaiyoooo、、、
+				Maricha ish very sorry, please shtop、、、
+				Maricha hurts、、、
+				Maricha doesn't wanch to play anymore、、、
+				Maricha will sing for you so please stop、、、 ♪ゆ゛ゆ゛ゆ゛～
+			</damage>
+		</child>
+		<adult>
+			Yupi！
+			Yunyaaa！！！Yamete ne？Yamete ne？
+			Yamete kudasai！！！
+			Stop please!
+			Yunya! Stop it easy!
+			Yunyaaaaa!
+			Yunya! Stop it please! Right now is enough!
+			Yupiyaaa!
+			Dont do hurt-hurt please!
+			Maricha is scared, please stop it easy!
+			Itai no ze!!!
+			Itaiyooo no ze!
+			Marisa can't take it easy like this!
+			<damage>
+				Yu.... Yu.....
+				ゆっ、ゆっ、ゆっ、、、
+				Marisa feels so weak、、、
+				Itaiyo、、、
+				Gomenasaiyo、、、
+				Marisa is very sorry！！
+				Marisa is sorry, so please stop!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupiiii！
+			Yunyaaaa！！！Shtop it da je！
+			Shtop id eajy!
+			Yunyaaa!!!
+			Old Geezer shdop id now je!
+			Itai no je！
+			Chake id eajy, right now is enough je!
+			Shtop hurting Maricha！！！
+			Yuwaiiiii！Shtop please！！！
+			Maricha ish sscared, please shtop!！
+			Please dont hurt Maricha！
+			Yupiyaaaaaaaaa！！！
+			Ichaiyooo゛！！！
+			Canch chake id eajy！！！
+			<damage>
+				ゆ、ゆ、ゆ、、、
+				Shdop id eajy!
+				Shdop being sho uneajy shiddy shlave!
+				Gomenachai...gomenachai...
+				Shdop id now shiddy shlave!
+				Mawisha ish evewyonez idol, sho shdop id eajy! ♪ゆ゛ゆ゛ゆ゛～
+			</damage>
+		</baby>
+		<child>
+			Ichai no je!
+			It hurds!
+			Shdop!
+			HURDZ!
+			Yunyaa!!
+			Shtop id da je!
+			Maricha ish da best, shdop it eajy!
+			Shdop or Maricha will do hurt-hurt!
+			Maricha just wants to take id eajy!
+			Maricha will never forgive you if you don't shtop now!
+			<damage>
+				ゆ、ゆ、ゆ、、、
+				Yu....
+				Maricha will forgive shiddy shlave, sho shdop id eajy!
+				Maricha will forgive old geezer, sho shdop id eajy!
+				Shdop, Maricha can'h chake id eajy at all!
+				Maricha ish sorry, so shtop, ok?
+			</damage>
+		</child>
+		<adult>
+			Yupi！
+			Stop now shitty slave!
+			Shitty slave is forgetting his place da ze!
+			Marisa will do hurt-hurt if you don't stop da ze!
+			Marisa will never forgive you, so stop now, ok?
+			Marisa is the strongest, so give up, ok? 
+			Itai！！！Shitty slave should stop now no ze! Apologize now, ok?
+			Yuunya! What are you doing!?
+			Shitty slave, stop it right now!
+			Stop! Right now is enough!
+			Stop and bring Marisa sweet sweets to apologize! Alot is enough!
+			Shitty slave should go die easy for this!
+			Marisa can't take it easy like this!
+			Yu!
+			Yunyaa!
+			Stop it easy!
+			How uneasy!
+			Marisa is just warming up da ze!
+			<damage>
+				ゆ、ゆ、ゆ、、、
+				Marisa is sorry, so stop now, ok?
+				Even weakened, Marisa is still the greatest nano ze、、、
+				HURDZ、、、
+				What have you done to the Great Marisa!?
+				Marisa is done, stop now, ok?
+				Shitty mister slave should stop now ok?
+				Marisa might forgive mister slave if he brings orange juice, right now is enough.
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# 怯え
+[Scare]
+	<normal>
+		<baby>
+			Yupiii！Scary no je！
+			Yunyaa！！！
+			Yuwaan！！
+			Yunyaaaaa!
+			Shdop id eajy, ok?
+			Kowai no je!
+			Mawisha ish shcared no je!
+			<damage>
+			Yunyaaaa!
+			Shdop pweaze!
+			Yameche onegyai!
+			Mawisha ish shorry!
+			</damage>
+		</baby>
+		<child>
+			Yupii！Scary no je!！
+			Maricha ish scared no je!
+			Yuwaan！
+			Yuwaaa!
+			Yunyaaa!
+			Shtop Pleaze!
+			Kowai no je!
+			Scary no je!
+			Shdop it eajy, ok?
+			<damage>
+			Gomenichaiyo、、、
+			Iyaja、、、
+			Shtop...
+			Id hurdz~
+			Maricha ish shorry、、、
+			</damage>
+		</child>
+		<adult>
+			Yupii！Scary no ze!！
+			Marisa is scared no ze!
+			Yuwaan！
+			Yuwaaa!
+			Yunyaaa!
+			Stop it easy!
+			Stop it easy, ok no ze?
+			Kowai no ze!
+			Scary no ze!
+			<damage>
+			Onegaishimasu、Yamete kudasaiyoo、、、
+			Iyada、、、
+			Yunyaaa!
+			Please stop...
+			Marisa is sorry...
+			Marisa is sorry, so please stop it!
+			Please don't do hurt-hurt!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupiii！Scary no je！
+			Yunyaa！！！
+			Yuwaa~n！！
+			Yuwa~n, shiddy shlave can'ch chake id eajy!
+			Yunyaaaaa!
+			Shdop id old geezer!
+			Shdop id eajy shiddy shlave, ok?
+			Kowai no je!
+			Mawisha ish shcared no je!
+			<damage>
+			Gomenichaiyo、、、
+			Iyaja、、、
+			Shtop...
+			Id hurdz~
+			Je Great Mawisha ish shorry, sho shdop, ok?
+			</damage>
+		</baby>
+		<child>
+			Yupii！Scary no je!！
+			Maricha ish scared no je!
+			Yuwaan！
+			Yuwaaa!
+			Yunyaaa!
+			Shtop Pleaze!
+			Kowai no je!
+			Scary no je!
+			Shdop it eajy, ok?
+			<damage>
+			Gomenichaiyo、、、
+			Iyaja、、、
+			Shtop...
+			Id hurdz~
+			WHAT ARE YOU DOING SHIDDY SLAVE!?
+			Shdop now or Maricha will never forgive you!
+			Maricha ish shorry、、、
+			</damage>
+		</child>
+		<adult>
+		Yupii！Scary no ze!！
+			The Great Marisa is never scared no ze!
+			Yuwaan！
+			Yuwaaa!
+			Yunyaaa! Shitty slave is so uneasy!
+			The great Marisa can't take it easy like this!
+			Yunyaa!
+			Stop it easy shitty slave!
+			Stop it easy, ok no ze?
+			Kowai no ze!
+			Scary no ze!
+			<damage>
+			Stop it shitty slave!
+			Shitty slave can't kill The Great Marisa da ze!
+			HURDZ! Bring sweet-sweets, alot is enough!
+			How dare this old geezer touch The Great Marisa no ze!
+			WHAT ARE YOU DOING SHITTY SLAVE!?
+			Stop now or Marisa will never forgive you!
+			Marisa is sorry, so bring sweet-sweets, ok?
+			</damage>
+		</adult>
+	</rude>
+[/Scare]
+
+# Vigilance
+[Alarm]
+	<normal>
+		<baby>
+			Yuu!
+			Yunyaaa!
+			Shtoop!
+			<damage>
+				Yu, yu, yu...
+				Shtoop...
+				Wryy...
+			</damage>
+		</baby>
+		<child>
+			Can'ch chage id bewwy eajy!
+			Wryyy!
+			Wry are you doing diiish!?
+			<damage>
+				Pweashe shtop...
+			</damage>
+		</child>
+		<adult>
+			This can't take it easy!
+			<damage>
+				Stop it please...
+				Bleaze...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuu!
+			Yuwaaaa!!!
+			Yunyaaa!
+			<damage>
+				Yu, yu, yu...
+				Zdob...
+				Heeewb...
+			</damage>
+		</baby>
+		<child>
+			Gand chake id eajy!
+			<damage>
+				Zorry...
+				Zdob id...
+			</damage>
+		</child>
+		<adult>
+			This can't take it easy! Stop it immediately!
+			<damage>
+				Won'd be uneazy... zdob id bleaze...
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# 瀕死
+[Dying]
+	<normal>
+		<baby>
+			Yubee！
+		</baby>
+		<child>
+			Yu、Yu、Yu、、、
+		</child>
+		<adult>
+			Yube！
+		</adult>
+	</normal>
+[/Dying]
+
+# 死亡
+[Dead]
+	<normal>
+		<baby>
+			Wanded eajy...
+			Wanded more eajy...
+			Just wanch eajy...
+		</baby>
+		<child>
+			Wanded eajy more...
+			Just wanch more eajy...
+			Wanch'd choo chake id more eajy...
+			Wanch'd choo be evweyonez idol...
+		</child>
+		<adult>
+			Wanted easy more...
+			Wanted to take it easy more...
+			Just wanted to be easy...
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wanded eajy...
+			Wanded more eajy...
+			Just wanch eajy...
+		</baby>
+		<child>
+			Wanded eajy more...
+			Just wanch more eajy...
+			Wanch'd choo chake id more eajy...
+			Wanch'd choo be evweyonez idol...
+		</child>
+		<adult>
+			Wanted easy more...
+			Wanted to take it easy more...
+			Just wanted to be easy...
+			Just wanted to be the strongest...
+		</adult>
+	</rude>
+[/Dead]
+
+# 食事
+[Eating]
+	<normal>
+		<baby>
+			ゆ～ゆ～ゆ～、Happinesch~
+			Myunch~ Myunch~, Happinesch~!
+			Myunch~ Myunch~, eajy！
+			Happinesch~!♪
+			Eajy~!
+			Gohan~tan ish vewy eajy, da je!
+			Gohan~tan ish tashty, da je!
+			Mishder, thank you no je！
+			Mishder brought vewy eajy gohan-tan!
+		</baby>
+		<child>
+			ゆ～ゆ～ゆ～、Happinesch~
+			Myunch~ Myunch~, Happinesch~!
+			Myunch~ Myunch~, eajy！
+			Happinesch~!♪
+			Eajy~!
+			Gohan~tan ish very eajy, da je!
+			Gohan~tan ish tasty, da je!
+			Mishder, thank you no je！
+			Mishder brought very eajy gohan-tan!
+		</child>
+		<adult>
+			ゆ～ゆ～ゆ～、Happiness~
+			Munch~ Munch~, Happiness~!
+			Munch~ Munch~, eajy！
+			Happiness~!♪
+			Easy~!
+			Mister food is very easy, da ze!
+			Mister food is delicious, da ze!
+			Mister, thank you no ze！
+			Mister brought very easy mister food da ze!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Dis ish fucking tasty, da je！
+			Gyulp~ Gyulp~, Happinesch~!
+			Gyulp~ Gyulp~, more of dis shiddy shlave!
+			Dis shit ish tasty!
+			Gyulp~ Gyulp~
+			Gyulp~ Gyulp~
+			Fucking tasty no je!
+			All dis ish Mawisha's, ok?
+			Dis shit's good, da je!
+		</baby>
+		<child>
+			Gyulp~ Gyulp~
+			Gyulp~ Gyulp~
+			Dis ish fucking tasty, da je！
+			Gyulp~ Gyulp~, Happinesch~!
+			Gyulp~ Gyulp~, more of dis shiddy shlave!
+			Dis shit ish tasty!
+			Fucking tasty no je!
+			All dis ish Mawisha's, ok?
+			Dis shit's good, da je!
+		</child>
+		<adult>
+			Dis ish fucking tasty, da je！
+			Gulp~ Gulp~, Happinesch~!
+			Gulp~ Gulp~, more of dis shiddy shlave!
+			Gulp~ Gulp~
+			Dis shit ish tasty!
+			Fucking tasty no je!
+			All dis ish Mawisha's, ok?
+			Dis shit's good, da je!
+		</adult>
+	</rude>
+[/Eating]
+
+# 食事(Poo-poo)
+[EatingShit]
+	<normal>
+		<baby>
+			Yube! Mishder poo~poo ish disgusting no je!
+			Mishder poo~poo ish nod mishder food da je!
+			Why musht Mawisha ead mishder poo~poo no je!?
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Uneajy!!
+			Yuwaaaan, shtiiinksh...
+		</baby>
+		<child>
+			Yube! Mishder poo~poo ish disgusting no je!
+			Mishder poo~poo ish not mishder food da je!
+			Why must Maricha eat mishder poo~poo no je!?
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Mishder poo~poo ish very uneajy!
+			Uneajiness~
+			Yuwaaaan, shtiiinksh...
+		</child>
+		<adult>
+			Why must Marisa eat mister poo~poo no ze!?
+			Mister poo~poo is not food!
+			Eating mister poo~poo is very uneasy!
+			Yube! Mister poo~poo is disgusting no ze!
+			Yuwaaaan! 
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yube! Mishder poo~poo ish disgusting no je!
+			Mishder poo~poo ish nod mishder food da je!
+			Why musht Mawisha ead mishder poo~poo no je!?
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Uneajy!!
+			Yuwaaaan, shtiiinksh...
+		</baby>
+		<child>
+			Yube! Mishder poo~poo ish disgusting no je!
+			Mishder poo~poo ish not mishder food da je!
+			Why must Maricha eat mishder poo~poo no je!?
+			Yuwaaaan! Shtinkyyyy, yuckyyyyy!!!
+			Mishder poo~poo ish very uneajy!
+			Uneajiness~
+			Yuwaaaan, shtiiinksh...
+		</child>
+		<adult>
+			Why must The Great Marisa eat mister poo~poo no ze!?
+			Mister poo~poo is not food!
+			Shitty slave should bring better mister food than poo~poo!
+			Eating mister poo~poo is very uneasy!
+			Yube! Mister poo~poo is disgusting no ze! Bring sweet~sweets shitty slave!
+			Yuwaaaan! 
+		</adult>
+[/EatingShit]
+
+# 食事(毒)
+[EatingBitter]
+	<normal>
+		<baby>
+			Myunch~myunch~... Unhappinech!
+			Yupii！！
+			Myunch-Myunch, dis ish poison, je!
+		</baby>
+		<child>
+			Yubaii! 
+			Yunyaa! Poison no je!
+			Myunch-Myunch, dis ish poison, je!
+		</child>
+		<adult>
+			Yube！This is poison, da ze！
+			Munch-Munch, this is poison, da ze！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupii! Shiddy mishder food ish uneajy!
+			Yunyaa! Mishder food should dwop dead eajy!
+			Myunch~Myunch, unhappinesch!
+		</baby>
+		<child>
+			Yubaii! 
+			Dis shit ish poison da je!
+			Yunyaa! Poison no je!
+			Myunch-Myunch, dis ish poison, je!
+			Yupii! Shiddy mishder food ish uneajy!
+			Yunyaa! Mishder food should dwop dead eajy!
+			Myunch~Myunch, unhappinesch!
+		</child>
+		<adult>
+			Yube! 
+			This shit is poison da ze!
+			Yunyaa! Poison no ze!
+			Munch-Munch, this is poison, da ze!
+			Yupii! Shitty mister food is very uneasy!
+			Yunyaa! Mister food should drop dead easy!
+			Munch~Munch, unhappiness!
+		</adult>
+[/EatingBitter]
+
+# 満腹
+[Full]
+	<normal>
+		<baby>
+			Mawisha can'ch ead anymore, no je...
+		</baby>
+		<child>
+			Maricha can'ch eat anymore, no je、、、
+		</child>
+		<adult>
+			Marisa can't eat anymore, no ze、、、
+		</adult>
+	</normal>
+[/Full]
+
+# 回復
+[Healing]
+	<normal>
+		<baby>
+			Yuwaa！Eajy！
+			Fweelin' eajy!
+			Onii~tan, thank you eajy！
+			Shweech~scheech~ no je!
+			Yuyu～♪
+			Eajy-♪
+			<damage>
+				Yuyu～♪
+				Eajy-♪
+				Healed up eajy!
+				Chaking id eajier!
+				Fweeling eajier!
+			</damage>
+		</baby>
+		<child>
+			Yuwaa！Eajy！！！
+			Fweelin' eajy!
+			Healed up eajy!
+			Fweeling more eajy da je！
+			Onii~tan, thank you eajy！
+			Shweech~scheech~!
+			Yuyu～♪
+			Eajy-♪
+			<damage>
+				Yu~n!
+				Fweeling bedder da je!
+				Fweeling eajy da je!
+				Chaking id eajier!
+				Healed up eajy!
+			</damage>
+		</child>
+		<adult>
+			Delicious sweet sweets!
+			Thanks easy mister!
+			<damage>
+				Feeling better！
+				Taking it easier!
+				Healed up easy!
+				Fixed up easy!
+				Easy~!
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mwore Shweech swheetsh!
+			Mwore! Alod ish enough!
+			Nod enuff!
+			Gyulp~! Dis shid ish good!
+			<damage>
+				Shweech shweech, right now ish enough!
+				Tashty!
+				Mawisha ish da strongezt again da je!
+			</damage>
+		</baby>
+		<child>
+			Mwore Shweet swheets!
+			Mwore! Alod ish enough!
+			Nod enuff!
+			More shweet~shweets shiddy shlave!
+			Gyulp~! Dis shid ish good!
+			<damage>
+				Shweet~shweets, right now ish enough!
+				Tashty!
+				Maricha is da strongezt again da je!
+			</damage>
+		</child>
+		<adult>
+			More sweet~sweets!
+			More! Alot is enough!
+			Not enough!
+			Bring more shitty slave!
+			Gyulp~! Dis shit is good!
+			<damage>
+				Shweech shweech, right now ish enough!
+				Tashty!
+				Marisa ish da strongezt again, da ze!
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# Re~freshed
+[Sukkiri]
+	<normal>
+		<baby>
+			Wefweshed!
+			Wefweshed!!
+			We~fweshed!
+		</baby>
+		<child>
+			Re~fweshed!
+			Refweshed!
+			Refweshed!!
+		</child>
+		<adult>
+			Refreshed!
+			Refreshed!!
+			Re~freshed！
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# レイパーとRe~freshed
+[RaperSukkiri]
+	<normal>
+		<baby>
+			Iyachyaaa！
+			あかぢゃん、はえてこにゃいでぇぇ！！！
+			もうゆるちて、、、
+			おちょーしゃん、たすけちぇよぉおっ！
+			こんなあしょび いやなのじぇえぇ！
+			まむまむ いぢゃいぃぃ！！！
+			おにいしゃああん！！！
+			そこはまむまむじゃにゃいのじぇ？あにゃるしゃんなのじぇ？！
+			ひどいのじぇ！まりちゃはおとうさんになりたかったのじぇ！！！
+		</baby>
+		<child>
+			ちゅっきりしだぐないぃぃぃ！
+			あかぢゃん、はえてこにゃいでぇぇ！！！
+			もう、ゆるしちぇ、、、
+			おちょーしゃん、たすけてよぉおっ！
+			こんなあしょび いやなのじぇえぇ！
+			まむまむ いぢゃいぃぃ！！！
+			おにいしゃああん！！！
+			そこはまむまむじゃにゃいのじぇ？あにゃるしゃんなのじぇ？！
+			ひどいのじぇ！まりちゃはおとうさんになりたかったのじぇ！！！
+		</child>
+		<adult>
+			も゛う゛ずっぎりじだぐないぃぃぃ！
+			おぢびぢゃん、はえでごないでぇぇ！！！
+			おちびちゃんはゆっくりでぎるけど、こんなのいやだよぉ！！！
+			いだいよぉお！もっとやさしくしてぇ！
+			もう、ぱんっぱんっしたくなぃいっ！
+			まむまむ いだいぃぃ！！！
+			おにいさん、たすけてぇええっ！
+			ゆひっ！そこはまむまむじゃないよ？ あにゃるさんだよ？もうやめてぇ！！！
+			ひどいよぉ！！！まりさはおとうさんになりたかったのに、、、
+		</adult>
+	</normal>
+[/RaperSukkiri]
+
+# 誕生
+[Birth]
+	<normal>
+		きゃわいいまりちゃがゆっくちうまりぇりゅよ！
+		まりちゃはまりちゃなのじぇ！ゆっくちちていっちぇね！
+	</normal>
+	<rude>
+	　　まりちゃはまりちゃなのじぇ！ゆっくちちていっちぇね！
+	　　ゆっへん！せかいのおうたる まりちゃがこうりんするのじぇ！
+	</rude>
+[/Birth]
+
+# 排泄
+[Shit]
+	<normal>
+		<baby>
+			Poo-pooぢぇりゅ！
+			Poo-pooしゃんゆっくちでてきてにぇ
+			Poo-pooさんもおでかけするよっ♪
+			Poo-pooゆっくちこんにちわ～♪
+			Poo-pooしゃんばいばいなんだじぇ！
+			ゆっへん！まりちゃ、ひとゆでPoo-pooできりゅよ！
+			<pants>
+				Poo-pooもりぇりゅぅぅぅ！
+				Poo-pooしゃんゆっくちでてこないでにぇ！
+				おくるみしゃんとっちぇ！
+			</pants>
+		</baby>
+		<child>
+			Poo-pooさんゆっくちでてきてにぇ
+			Poo-pooさんもおでかけするよっ♪
+			Poo-pooゆっくちこんにちわ～♪
+			Poo-pooしゃんばいばいなんだじぇ！
+			<pants>
+				Poo-pooもりぇりゅぅぅぅ！
+				Poo-pooしゃんゆっくちでてこないでにぇ！
+				おくるみしゃんとっちぇ！
+			</pants>
+		</child>
+		<adult>
+			Poo-pooさんゆっくりでてきてね
+			Poo-pooゆっくりこんにちわ～♪
+			ぷりぷりぷりんっ♪
+			ゆぅ、、おにいさんにごめんどうをおかけするよ、、、
+			<pants>
+				ゆわああ！Poo-pooもれちゃうよ！
+				ゆわあ！ぱんつさんぬげないぃぃ？		
+				おにいさん！ぱんつさんとってね？
+				ゆわああん！Poo-pooが！Poo-pooがぁぁ！！！
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Poo-pooぢぇりゅ！
+			まりちゃのすーぴゃーPoo-pooちゃいみゅにょじぇ！
+			くしょどりぇいはまりちゃのPoo-pooくらうにょじぇ！
+			Poo-pooさんもおでかけするよっ♪
+			Poo-pooゆっくちこんにちわ～♪
+			Poo-pooしゃんばいばいなのじぇ！
+			といれしゃんってなんなのじぇ？あみゃあみゃ？
+			Poo-poo なう！
+			きゃわいいまりちゃが ゆっくちPoo-pooしゅりゅよ！
+			<pants>
+				Poo-pooもりぇりゅのじぇぇ！
+				Poo-pooしゃんゆっくちでてこないでにぇ！
+				おくるみしゃんとっちぇ！
+			</pants>
+		</baby>
+		<child>
+			まりちゃのすーぱーPoo-pooたいむなのじぇ！
+			くしょどりぇいはまりちゃのPoo-pooくらうにょじぇ！
+			Poo-pooさんもおでかけするよっ♪
+			Poo-pooゆっくちこんにちわ～♪
+			Poo-pooしゃんばいばいなのじぇ！
+			といれしゃんってなんなのじぇ？あみゃあみゃ？
+			Poo-poo なう！
+			きゃわいいまりちゃが ゆっくちPoo-pooしゅりゅよ！
+			<pants>
+				Poo-pooしゃんもれりゅのじぇぇ！
+				Poo-pooしゃんゆっくちでてこないでにぇ！
+				おくるみしゃんとっちぇ！
+			</pants>
+		</child>
+		<adult>
+			まりさのすーぱーPoo-pooたいむなのぜ！
+			くそどれいはまりささまのPoo-pooくらうのぜ！
+			ぶふ～ん！
+			Poo-poo なう！
+			あらくれまりさの わいるどPoo-pooすたいるっ！をそのめにやきつけるのぜ！
+			くそどれいにまりささまのPoo-pooをかたずけるえいよをあたえるのぜ！
+			<pants>
+				ゆわああ！Poo-pooもれるのぜぇ！
+				ゆゆっ！ぱんつさんぬげないのぜ？
+				くっ、くそどれい！これとってええぇぇぇ！！！
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# 排泄2
+[Shit2]
+	<normal>
+		<baby>
+			すっきち！
+			ゆっへん！ひとゆでPoo-pooできちゃよ！
+			Poo-pooかたじゅけちぇにぇ
+			<pants>
+				ゆんやあああ！！！
+				ゆえーん！きもちわるいよ、、、
+				おくるみしゃん べちょべちょちてる、、、
+			</pants>
+		</baby>
+		<child>
+			すっきちー！
+			ゆっへん！ひとゆでPoo-pooできちゃよ！
+			Poo-pooかたじゅけちぇにぇ
+			<pants>
+				ゆんやあああ！！！
+				ゆわあああん！くさいよ、きもちわるいよ、、、
+				おくるみしゃん べちょべちょちてる、、、
+			</pants>
+		</child>
+		<adult>
+			Re~freshedー！
+			Poo-pooさん ばいばいだよ！
+			<pants>
+				ゆんやあああ！！！
+				ゆわあああん！まりさあかちゃんじゃないのにー！
+				ゆわあああん！くさいよ、きもちわるいよ、、、
+				ゆわあああん！Poo-pooくさいよ、、、
+				ぱんつさん ぐちょぐちょだよ、、、
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			すっきち！
+			ゆっへん！ひとゆでPoo-pooできちゃのじぇ！
+			くしょどりぇいはPoo-pooかたじゅけるのじぇ！
+			<pants>
+				ゆんやあああ！！！
+				ゆえーん！きもちわるいのじぇ、、、
+				おくるみしゃん べちょべちょちてるのじぇ、、、
+			</pants>
+		</baby>
+		<child>
+			すっきちー！
+			ゆっへん！ひとゆでPoo-pooできちゃのじぇ！
+			くしょどりぇいはPoo-pooかたじゅけるのじぇ！
+			<pants>
+				ゆんやあああ！！！
+				ゆわあああん！くさいよ、きもちわるいよ、、、
+				おくるみしゃん べちょべちょちてるのじぇ、、、
+			</pants>
+		</child>
+		<adult>
+			Re~freshedー！
+			ゆ～ん、Re~freshedー！
+			くそどれいはPoo-pooかたずけるのぜ！
+			<pants>
+				ゆんやあああ！！！
+				ゆわあああん！まりさおちびちゃんじゃないのにー！
+				ゆわあああん！くさいよ、きもちわるいよ、、、
+				ゆわあああん！Poo-pooくさいのぜー！
+				ぱんつさん ぐちょぐちょなのぜ、、、
+			</pants>
+		</adult>
+	</rude>
+[/Shit2]
+
+# すりすり
+[SuriSuri]
+	<normal>
+		<baby>
+			ちゅりちゅり
+			ちゅりちゅり、ちあわちぇー
+			ちゅりちゅりしゅると、あんこさんがぽーかぽーか！なのじぇ
+		</baby>
+		<child>
+			ちゅーりちゅーり
+			ちゅりちゅり、ちあわちぇー
+			ちゅりちゅりしゅると、あんこさんがぽーかぽーか！なのじぇ
+		</child>
+		<adult>
+			すーりすーり
+			ゆ～ん！まりさはしあわせっ！のぜっちょうだよ！
+			す～りす～りすると、あんこさんがぽーかぽーかするよ！
+			ゆ～ん、かぞくのきずなをかんじるよっ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ちゅりちゅり
+			ちゅりちゅり、ちあわちぇー
+			ゅりちゅりしゅると、あんこさんがぽーかぽーか！なのじぇ
+		</baby>
+		<child>
+			ちゅーりちゅーり
+			ちゅりちゅり、ちあわちぇー
+			ちゅりちゅりしゅると、あんこさんがぽーかぽーか！なのじぇ
+		</child>
+		<adult>
+			すーりすーり
+			ゆ～ん！まりさはしあわせっ！のぜっちょうなのぜ！
+			す～りす～りすると、あんこさんがぽーかぽーかするのぜ！
+			すりすり、、こうやって まりさふぁみりーのきずなをふかめるのぜ！
+		</adult>
+[/SuriSuri]
+
+# ぺろぺろ
+[PeroPero]
+	<normal>
+		<baby>
+			ぺりょぺりょ
+			おとーしゃーん
+			おかーしゃーん
+		</baby>
+		<child>
+			ぺーりょぺーりょ
+			おとーしゃーん
+			おかーしゃーん
+		</child>
+		<adult>
+			ぺーろぺーろ
+			ゆふふ、おちびちゃんはあまえんぼうだね
+			せいっけつ！なあにゃるさんでTake it easy
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ぺりょぺりょ
+			おとーしゃーん
+			おかーしゃーん
+		</baby>
+		<child>
+			ぺーりょぺーりょ
+			おとーしゃーん
+			おかーしゃーん
+		</child>
+		<adult>
+			ぺーろぺーろ
+			ゆふふ、おちびはあまえんぼうなのぜ
+			あにゃるはせいっけつ！にしないとゆっくりできないのぜ
+		</adult>
+[/PeroPero]
+
+# 出産
+[Breed]
+	<normal>
+		<baby>
+			あかちゃんうまれりゅよ！
+		</baby>
+		<child>
+			あかちゃんうまれりゅよ！
+		</child>
+		<adult>
+			ゆぅ、、、あかちゃんうばれるよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			あかちゃんうまれりゅよ！
+		</baby>
+		<child>
+			あかちゃんうまれりゅよ！
+		</child>
+		<adult>
+			ゆぅ、、、おちびがうばれるのぜ！
+		</adult>
+[/Breed]
+
+# 産後
+[Breed2]
+	<normal>
+		<baby>
+			ゆっくちしていっちぇにぇ！
+			<pants>
+				ゆわああん！まりちゃのあかちゃんがあぁぁ！！！
+				おくるみしゃんのせいで、まりちゃのあかちゃんがあぁぁ！！！
+				おにいしゃんひどいのじぇ！まりちゃのあかちゃんがぁ！！！
+			</pants>
+		</baby>
+		<child>
+			ゆっくちしていっちぇね！
+			<pants>
+				ゆわああん！まりちゃのあかちゃんがあぁぁ！！！
+				おくるみしゃんのせいで、まりちゃのあかちゃんがあぁぁ！！！
+				おにいしゃんひどいのじぇ！まりちゃのあかちゃんがぁ！！！
+			</pants>
+		</child>
+		<adult>
+			Take it easy！
+			おちびちゃん！まりさおかあさんとTake it easy！ 
+			ゆっ？ゆゆ～ん♪まりさの、、まりさのおちびちゃん！とってもゆっくりしてるよぉ！
+			<pants>
+				ゆわああん！まりさのあかちゃんがあぁぁ！！！
+				まりさのあかちゃんが、ぱんつさんのしみになっちゃったよぉぉ！！！
+				おにいさんひどいや！！！まりさのあかちゃんが、あかちゃんがぁ！！！
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆっくちしていっちぇにぇ！
+			<pants>
+				ゆわああん！まりちゃのあかちゃんがあぁぁ！！！
+				おくるみしゃんのせいで、まりちゃのあかちゃんがあぁぁ！！！
+			</pants>
+		</baby>
+		<child>
+			ゆっくちしていっちぇね！
+			<pants>
+				ゆわああん！まりちゃのあかちゃんがあぁぁ！！！
+				おくるみしゃんのせいで、まりちゃのあかちゃんがあぁぁ！！！
+			</pants>
+		</child>
+		<adult>
+			Take it easy！
+			おちびちゃん！まりさおかあさんとTake it easy！ 
+			ゆっ？ゆゆ～ん♪まりさの、、まりさのおちびちゃん！とってもゆっくりしてるよぉ！
+			<pants>
+				ゆがあぁ！まりさのおちびがあぁぁ！
+				まりさのおちびが、ぱんつさんのしみになっちゃったのぜ！！！
+			</pants>
+		</adult>
+	</rude>
+[/Breed2]
+
+# Poo-poo発見
+[HateShit]
+	<normal>
+		<baby>
+			Poo-pooくちゃい！
+			くちゃい～！
+			Poo-pooしゃんおかたずけしちぇにぇ
+			<damage>
+				くちゃい、、、
+			</damage>
+		</baby>
+		<child>
+			Poo-pooくちゃい！
+			くちゃい～！
+			Poo-pooしゃんおかたずけしちぇにぇ
+			<damage>
+				くちゃいよ、ゆっきゅりできにゃい、、、
+			</damage>
+		</child>
+		<adult>
+			Poo-pooかたづけてね！
+			ゆっ！Poo-pooさんおかたずけしてね！
+			<damage>
+				くさいよ、ゆっくりできないよ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くちゃい！
+			くしょどりぇいはPoo-pooかたじゅけるのじぇ！
+			まりちゃをゆっくちさせないくじゅおやはちね！
+			<damage>
+				くちゃい、、、
+			</damage>
+		</baby>
+		<child>
+			しゅぎゅにPoo-pooかたじゅきぇるのじぇ！
+			くしょどりぇいはPoo-pooかたじゅけるのじぇ！
+			まりちゃをゆっくちさせないくじゅおやはちね！
+			<damage>
+				くちゃいよ、ゆっきゅりできにゃい、、、
+			</damage>
+		</child>
+		<adult>
+			くそどれいはすぐにPoo-pooかたづけるのぜ！
+			<damage>
+				くさいよ、ゆっくりできないのぜ、、、
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# 空腹
+[Hungry]
+	<normal>
+		<baby>
+			おなかへっちゃよ、、、
+			<damage>
+				ごはんしゃんどこなにょ、、、
+				おにゃきゃへっちゃのじぇ、、、
+				まりちゃにごはんさんくだちゃい、、、
+			</damage>
+		</baby>
+		<child>
+			おなかへっちゃよ、、、
+			<damage>
+				ごはんしゃんどこなにょ、、、
+				おにゃきゃへっちゃのじぇ、、、
+				まりちゃにごはんさんくだちゃい、、、
+			</damage>
+		</child>
+		<adult>
+			おなかへったよ、、、
+			<damage>
+				ごはんさんどこなの、、、
+				おなかへったよ、、、
+				ばりざにごはんぐだざいぃ
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			あみゃあみゃもっちぇこい！
+			<damage>
+				ごはんしゃんどきょ？
+				ごはんしゃんどこなにょ、、、
+				おにゃきゃへっちゃのじぇ、、、
+				まりちゃにごはんさんくだちゃい、、、
+			</damage>
+		</baby>
+		<child>
+			すぎゅにごはんしゃんもってきゅるのじぇ！
+			<damage>
+				ごはんしゃんどきょ？
+				ごはんしゃんどこなにょ、、、
+				おにゃきゃへっちゃのじぇ、、、
+				まりちゃにごはんさんくだちゃい、、、
+			</damage>
+		</child>
+		<adult>
+			くそどれいはごはんさんまりさによこすのぜ！たくさんでいいよ！
+			<damage>
+				ごはんさんどこなのぜ、、、
+				おなかへったのぜ、、、
+				ばりざにごはんぐだざいぃ
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# おかざり没収
+[NoAccessory]
+	<normal>
+		<baby>
+			ゆんやああああ！！！！
+			ゆぇーん！かえちてね？かえちてね？
+			ゆぇーん！まりちゃのしゅてきなおぼうししゃんかえちてね？
+			ゆぇーん！まりちゃのかわいいおぼうししゃんかえちてね？
+			ゆわあああ！！！まりちゃのわいるどおぼうしさんかえちてね？
+			ゆわあ！なにをするにょ？おにいしゃん、まりちゃにいじわるしにゃいでにぇ？
+		</baby>
+		<child>
+			ゆんやああああ！！！！
+			ゆぇーん！かえちてね？かえちてね？
+			ゆぇーん！まりちゃのしゅてきなおぼうししゃんかえちてね？
+			ゆぇーん！まりちゃのかわいいおぼうししゃんかえちてね？
+			ゆわあああ！！！まりちゃのわいるどっ！なおぼうしさんかえちてね？
+			ゆわあ！なにをするにょ？おにいしゃん、まりちゃにいじわるしにゃいでにぇ？
+		</child>
+		<adult>
+			ゆんやああああ！！！！
+			ゆぇーん！かえしてね？かえしてね？
+			ゆぇーん！まりさのすてきなおぼうしさんかえしてね？
+			ゆわあああ！！！まりさのわいるどっ！なおぼうしさんかえしてね？
+			ゆわあ！なにをするの？おにいさん、まりさにいじわるしないでね？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆんやああああ！！！！
+			ゆぇーん！かえすのじぇ？かえすのじぇー！
+			ゆぇーん！まりちゃのしゅてきなおぼうししゃんかえすのじぇ？
+			ゆぇーん！まりちゃのかわいいおぼうししゃんかえすのじぇ？
+			ゆわあああ！！！まりちゃのわいるどおぼうしさんかえすのじぇ！
+			ゆわあ！なにをするのじぇ？くそじじいは、いじわるしゅりゅにゃ！
+			ゆひぃっ！くそにんげんがひきょうなてでまりちゃをくるしめるのじぇ！
+		</baby>
+		<child>
+			ゆんやああああ！！！！
+			ゆぇーん！かえすのじぇ？かえすのじぇー！
+			ゆぇーん！まりちゃのしゅてきなおぼうししゃんかえすのじぇ？
+			ゆぇーん！まりちゃのかわいいおぼうししゃんかえすのじぇ？
+			ゆわあああ！！！まりちゃのわいるどっ！なおぼうしさんかえすのじぇ！
+			ゆわあ！なにをするのじぇ？くそじじいは、いじわるしゅりゅにゃ！
+			ゆひぃっ！くそにんげんがひきょうなてでまりちゃをくるしめるのじぇ！
+		</child>
+		<adult>
+			ゆんやああああ！！！！
+			まりさのくろくそびえたつおぼうしさんはどこなのぜ？
+			ゆわあああ！！！まりさのわいるどっ！なおぼうしさんかえすのじぇ！
+			ゆわあ！なにをするのぜ？くそじじいは、いじわるするんじゃないのぜ！
+			ゆひぃっ！くそにんげんがひきょうなてでまりさをくるしめるのぜ！
+		</adult>
+	</rude>
+[/NoAccessory]
+
+# 持ち上げ
+[Flying]
+	<normal>
+		<baby>
+			おちょらをとんでるみちゃい！
+			ゆわわ～い！
+			まりちゃははねさんをてにいれたよ！
+		</baby>
+		<child>
+			おしょらをとんでるみちゃい！
+			ゆわわ～い！
+			まりちゃははねさんをてにいれたよ！
+		</child>
+		<adult>
+			おそらをとんでるみたい！
+			ゆわわ～い！
+			まりさははねさんをてにいれたよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			おちょらをとんでるみちゃい！
+			ゆわわ～い！
+			まりちゃはつばさをてにいれたのじぇ！
+		</baby>
+		<child>
+			おしょらをとんでるみちゃい！
+			ゆわわ～い！
+			まりちゃはつばさをてにいれたのじぇ！
+		</child>
+		<adult>
+			おそらをとんでるみたい！
+			ゆわわ～い！
+			まりさはつばさをてにいれたのぜ！
+		</adult>
+	</rude>
+[/Flying]
+
+# 子供死亡
+[SadnessForChild]
+	<normal>
+		<baby>
+			おちびちゃんしにゃにゃいでえ！
+		</baby>
+		<child>
+			おちびちゃんしにゃにゃいでえ！
+		</child>
+		<adult>
+			おちびちゃんしなないでえ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			おちびちゃんしにゃにゃいでえ！
+		</baby>
+		<child>
+			おちびちゃんしにゃにゃいでえ！
+		</child>
+		<adult>
+			おちびしぬんじゃないのぜ！
+		</adult>
+[/SadnessForChild]
+
+# つがい死亡
+[SadnessForPartner]
+	<normal>
+		<baby>
+			%partnerめをあけちぇにぇ！
+		</baby>
+		<child>
+			%partnerめをあけちぇにぇ！
+		</child>
+		<adult>
+			%partnerめをあけてね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			%partnerめをあけるのじぇ！
+		</baby>
+		<child>
+			%partnerめをあけるのじぇ！
+		</child>
+		<adult>
+			%partnerめをあけるのぜ！
+		</adult>
+[/SadnessForPartner]
+
+# 姉死亡
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			おねぇしゃんめをあけちぇー！
+		</baby>
+		<child>
+			おねぇしゃんめをあけちぇー！
+		</child>
+		<adult>
+			%partnerめをあけてね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			おねぇしゃんめをあけるのじぇー！
+		</baby>
+		<child>
+			おねぇしゃんめをあけるのじぇー！
+		</child>
+		<adult>
+			%partnerめをあけるのぜ！
+		</adult>
+	<rude>
+[/SadnessForEldersister]
+
+# 妹死亡
+[SadnessForSister]
+	<normal>
+		<baby>
+			いもうちょめをあけちぇー！
+		</baby>
+		<child>
+			いもうちょめをあけちぇー！
+		</child>
+		<adult>
+			%partnerめをあけてね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			いもうちょめをあけるのじぇー！
+		</baby>
+		<child>
+			いもうちょめをあけるのじぇー！
+		</child>
+		<adult>
+			%partnerめをあけるのぜ！
+		</adult>
+	<rude>
+[/SadnessForSister]
+
+# 壁発見
+[BlockedByWall]
+	<normal>
+		<baby>
+			まりちゃしゅしゅめにゃいにょじぇぇぇ？！
+			にゃんでかべしゃんじゃましゅるにょじぇぇぇ？！
+			かべしゃんいじわるしにゃいでにぇ！
+			まりちゃおこったのじぇ！ぷきゅーしゅりゅよ！
+		</baby>
+		<child>
+			まりちゃしゅしゅめにゃいにょじぇぇぇ？！
+			かべしゃんいじわるしにゃいでにぇ！
+			まりちゃおこったのじぇ！ぷきゅーしゅりゅよ！
+		</child>
+		<adult>
+			なんでかべさんまりさのじゃまするの？！
+			じゃまなかべさんはすぐにどいてね！
+			かべさんいじわるしないでね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			まりちゃしゅしゅめにゃいにょじぇぇぇ？！
+			にゃんでかべしゃんじゃましゅるにょじぇぇぇ？！
+			くちょかびぇはちね！！
+			くちょかべはちね！！ぷきゅーじゃよ！！
+		</baby>
+		<child>
+			まりちゃしゅしゅめにゃいにょじぇぇぇ？！
+			にゃんでかべしゃんじゃましゅるにょじぇぇぇ？！
+			くちょかびぇはちね！！
+			くちょかべはちね！！ぷきゅーじゃよ！！
+		</child>
+		<adult>
+			なんでくそかべはまりささまのじゃまするのぜ！？
+			じゃまなくそかべはすぐにどくのぜ！
+			くそかべはいますぐどくのぜ！せいっさいしてやるのぜ？
+		</adult>
+	<rude>
+[/BlockedByWall]
+
+# おもちゃ発見
+[GetTreasure]
+	<normal>
+		<baby>
+			こりぇをまりちゃにょたからもにょにしゅるにょじぇ！
+			びーだましゃんはゆっくちできるにぇ！
+			ゆわわ～い！
+		</baby>
+		<child>
+			こりぇをまりちゃのたからものにしゅるのじぇ！
+			びーだましゃんはゆっくちできるにぇ！
+			ゆわわ～い！
+		</child>
+		<adult>
+			これをまりさのたからものにするよ！
+			びーだまさんはゆっくりできるよ！
+			ゆわわ～い！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			こりぇをまりちゃにょたからもにょにしゅるにょじぇ！
+			びーだましゃんはゆっくちできるのじぇ！
+			ゆわわ～い！
+		</baby>
+		<child>
+			こりぇをまりちゃのたからものにしゅるのじぇ！
+			びーだましゃんはゆっくちできるのじぇ！
+			ゆわわ～い！
+		</child>
+		<adult>
+			これをまりさのたからものにするのぜ！
+			びーだまさんはゆっくりできるのぜ！
+		</adult>
+	<rude>
+[/GetTreasure]
+
+# おもちゃ紛失
+[LostTreasure]
+	<normal>
+		<baby>
+			ゆんやあああ！！！
+			Yunyaaa!!
+			Mishder treasure, come back eajy!
+			Mishder Treasure, come back eajy, right now is enough!
+			Mishder treasure is gone, no je
+			Mishder treasure is missing, no je!
+		</baby>
+		<child>
+			ゆんやあああ！！！
+			Yunyaaa!!
+			Mishter treasure, come back eajy!
+			Mishter Treasure, come back eajy, right now is enough!
+			Mishter treasure is gone, no je
+			Mishter treasure is missing, no je!
+		</child>
+		<adult>
+			ゆんやあああ！！！
+			Yunyaaa!
+			Mister treasure, come back easy da ze!
+			Mister treasure is gone, no ze!
+			Mister treasure, come back easy！ Right now is enough!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆんやあああ！！！
+			Yunyaaaa!
+			Yunyaa！！！Mawisha's mishder tweasure, come back eajy！
+		</baby>
+		<child>
+			ゆんやあああ！！！
+			Yunyaaa!
+			Yunyaaa！！！Maricha's mishter treasure, come back eajy！
+		</child>
+		<adult>
+			ゆんやあああ！！！
+			Yunyaaa!!!
+			Yunya! Come back mister treasure!
+			The Great Marisa's mister treasure come back, da ze!
+		</adult>
+	<rude>
+[/LostTreasure]
+
+# 膨張
+[Inflation]
+	<normal>
+		<baby>
+			Mishder Tum-tum hurts！
+			Ichaiii！！！Pweaze help Mawisha！！！！
+			Hurdz!! Pweaze help Mawisha!!
+			Mishder Tummy hurdz, no je!
+			Yupyaaa!
+			Ichaiyoooo!
+			Hurdz, da je!!
+			Yupyaaa!
+			Id hurdz zo much!
+		</baby>
+		<child>
+			Mishter tummy ish too full, no je!
+			Hurdz, da je!
+			Hurdz!! Pleaze help Maricha, no je!
+			Mishter Tum-tum idaiiii！
+			Mishter Tum-tum hurdz!
+			Ichaiyooo!
+			It Hurdz!!!
+			Ichaiii！！！Pleaze help Maricha！！！！
+			Hurdz!! Pleaze help Maricha!!
+		</child>
+		<adult>
+			Mister Tum-tum is going to pop, da ze！
+			Mister Tum-tum hurts no ze！
+			Mister Tum-tum hurts so much no ze！
+			Hurts!!
+			Marisa is going to pop!
+			Mister Tum-tum stop hurting Marisa please!
+			Mister Tum-tum stop hurting, right now is enough!
+			Itaiii！！！Pleaze help Maricha！！！！
+			Itaiiii!
+			Itaiyooooo!
+			Tasukete! Mister Tum-tum itaiyoo!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Mishder Tum-tum hurts no je！
+			Ichaiii no je！！！Help Mawisha shiddy shlave！！！！
+			Hurdz!! Help Mawisha or go die eajy, da je!!
+			Mishder Tummy hurdz!
+			Yupyaaa!
+			Shiddy shlave, come help Mawisha!
+			Hurdz! Mishder Tum-tum should go die eajy!
+			Ichaiyoooo!
+			Hurdz!!
+			Yupyaaa!
+			Id hurdz zo much!
+		</baby>
+		<child>
+			Mishter Tum-tum hurts！
+			Ichaiii！！！Help Maricha shiddy shlave！！！！
+			Hurdz!! Help Maricha or go die eajy!!
+			Mishter Tummy hurdz!
+			Yupyaaa!
+			Shiddy shlave, come help Maricha!
+			Hurdz! Mishter Tum-tum should go die eajy, da je!
+			Ichaiyoooo no je!
+			Hurdz!!
+			Mishter Tum-tum is going to pop je!
+			Yupyaaa!
+			Id hurdz zo much!
+		</child>
+		<adult>
+			Mister Tum-tum is going to burst ze!
+			Shitty slave come help Marisa's mister Tum-tum da ze!
+			The Great Marisa's mister Tum-tum hurts ze!
+			Shitty Mister Tum-tum should go die easy, da ze!
+			Help Marisa or go die easy shitty slave!
+			Itaiyo no ze!!!
+			HURDZ!!
+			Mister Tum-tum WHAT ARE YOU DOING ze!?
+			Help The Great Marisa or she'll never forgive you!
+		</adult>
+	<rude>
+[/Inflation]
+
+# 子虐待
+[AbuseBaby]
+	<normal>
+		<baby>
+			ゆんやあああ！！！
+			いちゃいいいい！！！やめちぇね？やめちぇね？
+			ゆわあああ！あかちゃんかえしちぇ！！！
+			どぼじでごんなごどずるにょおおお！！！
+			ゆわあ！おにいしゃん、あかちゃんをいじめるのはゆっくちできにゃいよ！！！
+		</baby>
+		<child>
+			ゆんやあああ！！！
+			いちゃいいいい！！！やめちぇね？やめちぇね？
+			ゆわあああ！あかちゃんかえしちぇ！！！
+			どぼじでごんなごどずるにょおおお！！！
+			ゆわあ！おにいしゃん、あかちゃんをいじめるのはゆっくちできにゃいよ！！！
+		</child>
+		<adult>
+			ゆんやあああ！！！
+			いぢゃいいいい！！！やべでね？やべでね？
+			ゆわあああ！あかちゃんかえしてえ！！！
+			どぼじでごんなごどずるのおおお！！！
+			ゆわあ！おにいさん、あかちゃんをいじめるのはゆっくりできないよ！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆんやあああ！！！
+			いちゃいいいい！やめちぇー！！！
+			ゆわあああ！あかちゃんいじめにゃいでー！
+			どぼじでごんなごどずるにょおおお！！！
+			げす！あくま！おまえらころちてやるううう！！！
+			やめりょおおお！まりちゃのあかちゃんかえちぇえええ！！！
+		</baby>
+		<child>
+			ゆんやあああ！！！
+			いちゃいいいい！やめちぇー！！！
+			ゆわあああ！あかちゃんいじめにゃいでー！
+			どぼじでごんなごどずるにょおおお！！！
+			げす！あくま！おまえらころちてやるううう！！！
+			やめりょおおお！まりちゃのあかちゃんかえせえええ！！！
+		</child>
+		<adult>
+			ゆんやあああ！！！
+			いぢゃいいいい！やべろー！！！
+			ゆわあああ！おちびにてをだすなー！
+			どぼじでごんなごどずるのおおお！！！
+			げす！あぐま！おばえらごろじでやるううう！！！
+			やべろおおお！まりさのおちびをがえぜえええ！！！
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# のびのび
+[Nobinobi]
+	<normal>
+		<baby>
+			にょーびにょーび
+			♪おてんとさままで の～び♪の～び♪
+		</baby>
+		<child>
+			にょーびにょーび
+			♪おてんとさままで の～び♪の～び♪
+		</child>
+		<adult>
+			のーびのーび
+			ゆ～ん、のびのびするよ～！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			にょーびにょーび
+			♪おてんとさままで の～び♪の～び♪
+		</baby>
+		<child>
+			にょーびにょーび
+			♪おてんとさままで の～び♪の～び♪
+		</child>
+		<adult>
+			のーびのーび
+			ゆ～ん、のびのびするのぜ～！
+		</adult>
+	<rude>
+[/Nobinobi]
+
+# 出産前
+[NearToBirth]
+	<normal>
+		<baby>
+			うみゃりぇりゅのじぇ！
+			あかちゃんうごいちぇるのがわかるのじぇ！
+			あかちゃんゆっくちちてねぇ！
+			まりちゃ、あかちゃんのためにおうたをうたうのじぇ！ ♪ゆ～ゆゆ～
+		</baby>
+		<child>
+			あかちゃんうみゃれるのじぇ！
+			あかちゃんうごいちぇるのがわかるのじぇ！
+			あかちゃんゆっくちちてるねぇ！
+			まりちゃ、あかちゃんのためにおうたをうたうのじぇ！ ♪ゆ～ゆゆ～
+		</child>
+		<adult>
+			まりさのあかちゃんがうまれそうだよ！
+			あかちゃんがうごいてるのがわかるよ！
+			ゆ～ん！あかちゃんはゆっくりできるよ～
+			ゆっ！あかちゃんのためにおうたをうたうよ！ ♪ゆ～ゆゆ～
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			うみゃりぇりゅのじぇ！
+			あかちゃんうごいちぇるのがわかるのじぇ！
+			あかちゃんゆっくちちてねぇ！
+			まりちゃ、あかちゃんのためにおうたをうたうのじぇ！ ♪ゆ～ゆゆ～
+		</baby>
+		<child>
+			あかちゃんうみゃれるのじぇ！
+			あかちゃんうごいちぇるのがわかるのじぇ！
+			あかちゃんゆっくちちてるねぇ！
+			まりちゃ、あかちゃんのためにおうたをうたうのじぇ！ ♪ゆ～ゆゆ～
+		</child>
+		<adult>
+			まりさのおちびがうまれそうなのぜ！
+			おちびがうごいてるのがわかるのぜ！
+			ゆ～ん！おちびはゆっくりできるのぜ！
+			ゆゆっ！おちびのためにおうたをうたうのぜ！ ♪ゆ～ゆゆ～
+		</adult>
+	<rude>
+[/NearToBirth]
+
+# 毒
+[PoisonDamage]
+	<normal>
+		<baby>
+			くるちい!
+			<damage>
+				ねぎ
+			</damage>
+		</baby>
+		<child>
+			たすけてー!
+			<damage>
+				ころちて
+			</damage>
+		</child>
+		<adult>
+			どくだー！
+			<damage>
+				ほわああ
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# 排泄不可
+[CantShit]
+	<normal>
+		<baby>
+			Poo-pooしゃんでにゃい!ぺりょぺりょしちぇね！
+			Poo-pooしゃんでにゃいよ!
+			どぼちてPoo-pooしゃんでにゃいのじぇ、、、？
+			Poo-pooしゃんでていっちぇにぇ？！
+		</baby>
+		<child>
+			Poo-pooさんでにゃい!ぺーろぺーろしてね！
+			Poo-pooさんでにゃいよ!
+			どぼちてPoo-pooさんでないのじぇ、、、？
+			Poo-pooさんゆっくちしないででていってね？！
+		</child>
+		<adult>
+			Poo-pooさんでないよ！
+			Poo-pooさんゆっくりしないででてきてね！
+			どうしてPoo-pooさんでないの、、、？
+			Poo-pooさん！ゆっくりしないででていってね？！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Poo-pooしゃんでにゃい!ぺりょぺりょするのじぇ！
+			ゆうぅっ？！Poo-pooでにゃいのじぇ！
+			しゃっしゃとPoo-pooはでちぇいくのじぇ！
+		</baby>
+		<child>
+			Poo-pooさんでにゃい!ぺーろぺーろするのじぇ！
+			ゆううっ？！Poo-pooでないのじぇ！
+			どうしてPoo-pooでないのじぇ？
+		</child>
+		<adult>
+			ゆうぅううう？！なんでPoo-pooでないのぜ？！
+			Poo-pooはゆっくりしないででてくるのぜ！
+			さっさとPoo-pooは でていくのぜ！ 
+		</adult>
+	<rude>
+[/CantShit]
+
+# 妊娠失敗
+[NoPregnancy]
+	<normal>
+		<baby>
+			ゆっ？
+			Yu~?
+		まりちゃあかちゃんできないのじぇー？！
+		まりちゃのあかちゃんはどこ？
+		</baby>
+		<child>
+			ゆん？
+			Yu~n?
+		まりちゃあかちゃんできないのじぇー？！
+		まりちゃのあかちゃんはどこ？
+		</child>
+		<adult>
+			まりさもあかちゃんほしいよ、、、
+		どぼぢでまりさにあかぢゃんでぎないの、、、
+		ゆがーん！どぼぢでにんっしんでぎないのおぉぉぉぉ！！！
+		ゆわああん！まりさたねなしゆっくりさんになっちゃったよぉ、、、
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆっ？
+			Yu~?
+		まりちゃあかちゃんできないのじぇー？！
+		まりちゃのあかちゃんはどこ？
+		</baby>
+		<child>
+			ゆん？
+			Yu~n?
+		まりちゃあかちゃんできないのじぇー？！
+		まりちゃのあかちゃんはどこ？
+		</child>
+		<adult>
+			まりさもおちびちゃんほしいよ、、、
+		どぼぢでまりさにおぢびぢゃんでぎないのぜ、、、
+		ゆがーん！どぼぢでにんっしんでぎないのおぉぉぉぉ！！！
+		ゆわああ！まりさたねなしゆっくりになっちゃったのぜ！！！
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# 恐怖でパニック状態
+[Fear]
+	<normal>
+		<baby>
+			ゆんやぁぁ！
+			ゆわぁーん！たちゅけちぇー！
+			こわいのじぇー！
+			ここはゆっくちできないのじぇー！
+			にげるのじぇー！
+			おとーしゃーん！
+			おかーしゃーん！
+			<damage>
+				ゆわぁ、、、ゆわぁ、、、
+				だぢゅげで、、、
+				おどーじゃん、、、
+				おがーじゃん、、、
+			</damage>
+		</baby>
+		<child>
+			ゆんやぁぁ！
+			ゆわぁーん！たしゅけてほしいのじぇー！
+			こわいのじぇー！
+			ここはゆっくちできないのじぇー！
+			にげるのじぇー！
+			おとーしゃーん！
+			おかーしゃーん！
+			<damage>
+				ゆわぁ、、、ゆわぁ、、、
+				だぢゅげで、、、
+				おどーじゃん、、、
+				おがーじゃん、、、
+			</damage>
+		</child>
+		<adult>
+			ゆんやあぁぁぁ！！！
+			ゆっくりできないぃぃぃぃぃ！
+			まりさゆっくりできないよ！やめてね？やめてね？
+			ゆわーん！まりさごめんなさいするよ？いますぐやめてほしいよ！
+			ゆゆっ！ゆっくりしないでいますぐにげるよ！
+			<damage>
+				ゆ゛う゛ぅぅぅ、、、
+				だれが、、、だずげで、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆんやぁぁ！
+			ゆわぁーん！たちゅけちぇー！
+			こわいのじぇー！
+			ここはゆっくちできないのじぇー！
+			にげるのじぇー！
+			おとーしゃーん！
+			おかーしゃーん！
+			<damage>
+				ゆわぁ、、、ゆわぁ、、、
+				だぢゅげで、、、
+				おどーじゃん、、、
+				おがーじゃん、、、
+			</damage>
+		</baby>
+		<child>
+			ゆんやぁぁ！
+			ゆわぁーん！たしゅけてほしいのじぇー！
+			こわいのじぇー！
+			ここはゆっくちできないのじぇー！
+			にげるのじぇー！
+			おとーしゃーん！
+			おかーしゃーん！
+			<damage>
+				ゆわぁ、、、ゆわぁ、、、
+				だぢゅげで、、、
+				おどーじゃん、、、
+				おがーじゃん、、、
+			</damage>
+		</child>
+		<adult>
+			ゆんやあぁぁぁ！！！
+			ゆっくりできないぃぃぃぃぃ！
+			まりささまがゆっくりできないのぜ？いますぐやめるのぜ！
+			ゆがああ！せいっさいしてやるのぜ？やめるんならいまのうちなんだぜ？
+			ゆゆっ！ゆっくりしないでいますぐにげるのぜ！
+			<damage>
+				ゆ゛う゛ぅぅぅ、、、
+				だれが、、、だずげろ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# 火がついてる状態
+[Burning]
+	<normal>
+		<baby>
+			ゆっぴいぃぃぃ！！！
+			あちゅいのじぇー！
+			たちゅけちぇー！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ゛っゆ゛っゆ゛っ、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、ぢにたぐないぃ、、、
+			</damage>
+		</baby>
+		<child>
+			ゆっぴいぃぃぃ！！！
+			あちゅいのじぇー！
+			たしゅけちぇー！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ゛っゆ゛っゆ゛っ、、、
+				あぢゅい、、、だぢゅげで、、、
+				やだぁ、、、やだよぉ、、、じにだぐないぃ、、、
+			</damage>
+		</child>
+		<adult>
+			あづいいいぃぃぃぃ！
+			だずげでぇぇぇぇぇぇ！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくりさせてぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ゛う゛ぅぅぅ、、、
+				あづい、、、だずげで、、、
+				いやだよ、、、ばりざじにだぐないよ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆっぴいぃぃぃ！！！
+			あちゅいのじぇー！
+			たちゅけちぇー！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ゛っゆ゛っゆ゛っ、、、
+				あぢゅい、、、だぢゅげで、、、
+				いやじゃ、、、ぢにだぐないのじぇ、、、
+			</damage>
+		</baby>
+		<child>
+			ゆっぴいぃぃぃ！！！
+			あちゅいのじぇー！
+			たしゅけちぇー！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			<damage>
+				ゆ゛っゆ゛っゆ゛っ、、、
+				あぢゅい、、、だぢゅげで、、、
+				いやじゃ、、、じにだぐないのじぇ、、、
+			</damage>
+		</child>
+		<adult>
+			あづいいいぃぃぃぃ！
+			だずげでぇぇぇぇぇぇ！
+			ゆびゃああああああああ！！！
+			あ゛ち゛ゅい゛よ゛お゛お゛お゛お゛！！！
+			ゆっくりさせろぉぉぉぉぉぉ！！！
+			<damage>
+				ゆ゛う゛ぅぅぅ、、、
+				だれが、、、だずげろ、、、
+				いやだ、、、ばりざじにたぐない、、、
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# 水をかけられた
+[Wet]
+	<normal>
+		<baby>
+			ちゅべだぃ！
+			おみずしゃんゆっくちできにゃいー！
+			<damage>
+				ちゅべだぃ、、、
+				まりちゃのfootsieしゃんとけちぇりゅうぅぅ、、、
+			</damage>
+		</baby>
+		<child>
+			ぢゅべだいぃぃぃ！
+			おみずしゃんゆっくちできにゃいー！
+			<damage>
+				ぢゅべだいぃぃぃ、、、
+				まりちゃのfootsieしゃんとけちぇりゅうぅぅ、、、
+			</damage>
+		</child>
+		<adult>
+			づべだいいぃぃぃ！
+			おみずさんはゆっくりできないよ！やめてほしいよ！
+			<damage>
+				づべだいいぃぃぃ、、、
+				ゆわあ、、、まりさのfootsieさんとけてるぅ、、、
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ちゅべだぃ！
+			おみずしゃんゆっくちできにゃいのじぇー！
+			<damage>
+				ちゅべだぃ、、、
+				まりちゃのfootsieしゃんとけちぇりゅのじぇ、、、
+			</damage>
+		</baby>
+		<child>
+			ぢゅべだいぃぃぃ！
+			おみずしゃんゆっくちできにゃいのじぇー！
+			<damage>
+				ぢゅべだいぃぃぃ、、、
+				まりちゃのfootsieしゃんとけちぇりゅのじぇ、、、
+			</damage>
+		</child>
+		<adult>
+			づべだいいぃぃぃ！
+			おみずさんはゆっくりできないのぜ！いますぐやめるのぜ！
+			<damage>
+				づべだいいぃぃぃ、、、
+				ゆわあ、、、まりさのしゅんっ！そくのfootsieさんとけてるのぜ、、、
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# あにゃる閉鎖
+[AnalSealed]
+	<normal>
+		<baby>
+			ゆふふ、くすぐっちゃいのじぇ
+			あにゃるしゃんくすぐっちゃいのじぇ
+			おにいしゃんくすぐっちゃいのじぇー
+		</baby>
+		<child>
+			ゆふふ、くすぐっちゃいのじぇ
+			あにゃるしゃんくすぐっちゃいのじぇ
+			おにいしゃんくすぐっちゃいのじぇー
+		</child>
+		<adult>
+			ゆふふ、くすぐったいよ
+			あなるさんくすぐったいよ
+			ゆふふ、おにいさんくすぐったいよー
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			くすぐっちゃいのじぇ
+			なんだかあにゃるしゃんがむじゅむじゅしゅりゅのじぇ？
+		</baby>
+		<child>
+			くすぐっちゃいのじぇ
+			なんだかあにゃるしゃんがむじゅむじゅしゅりゅのじぇ？
+		</child>
+		<adult>
+			ゆ～ん？くすぐったいのぜ
+			ゆゆっ？あなるさんがくすぐったいのぜ
+			ゆゆ～ん？どれいがまりささまのこうきなるあなるさんをきれいきれいしてるのぜ！
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# 針が刺さった時
+[NeedleStick]
+	<normal>
+		<baby>
+			ぴぎぃ！？
+			ゆぴぃ！？
+			ギピィイ！
+			いちゃいぃぃぃぃい！
+			ゆびゃああああああああ！！！
+		</baby>
+		<child>
+			ぴぎぃ！？
+			ゆぴぃ！？
+			ギピィイ！
+			いちゃいぃぃぃぃい！
+			ゆびゃああああああああ！！！
+		</child>
+		<adult>
+			いだいぃぃぃぃぃい！
+			ゆぎゃぁぁぁぁぁあ！
+			ゆびゃああああああああ！！！
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# 針が刺さっている時
+[NeedleScream]
+	<normal>
+		<baby>
+			いぢゃぃよぉぉぉぉぉぉぉお！
+			いぢゃいいぢゃいいぢゃい！
+			ぬいちぇね！はやくぬいちぇね！
+			ゆびぃぃぃぃぃぃい！
+			これとっちぇ！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			ぷーしゅぷしゅしゃんはゆっくちできにゃいぃぃぃい！
+			まりちゃのもうたくちょうもひれふちゅゆちゃかにおいしぎぇりしおできょぎゃぁぁぁあ！
+		</baby>
+		<child>
+			いぢゃぃよぉぉぉぉぉぉぉお！
+			いぢゃいいぢゃいいぢゃい！
+			ぬいちぇね！はやくぬいちぇね！
+			ゆびぃぃぃぃぃぃい！
+			これとっちぇ！
+			ゆっくちさしぇちぇぇぇぇぇぇ！！！
+			ぷーすぷすしゃんはゆっくちできにゃいぃぃぃい！
+			まりちゃのかーるじゅうにしぇいもひれふしゅゆたかにおいしぎぇりしおでこぎゃぁぁぁあ！
+		</child>
+		<adult>
+			いだいよぉぉぉぉぉぉぉぉぉぉお！
+			ゆぎゃぁぁぁぁぁあ！
+			ぬいてね！はやくぬいてね！
+			ゆっくりさせてぇぇぇぇぇぇ！！！
+			ぷーすぷすさんはゆっくりできないぃぃぃい！
+			ばりざのまっづぃーにもひれふすゆたかにおいしげりしおでこがぁぁぁあ！
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# つがいの針をぐーりぐりする
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			いみゃたしゅけりゅのじぇ！
+			ぷーしゅぷしゅしゃんはゆっくちしにゃいぢぇはやきゅぬけちぇね！
+			どぼぢぢぇぷーしゅぷしゅしゃんにゅきぇにゃいにょぉぉぉお！？
+		</baby>
+		<child>
+			いまたすけりゅのじぇ！
+			ぷーすぷすしゃんはゆっくちしにゃいではやくぬけちぇね！
+			どぼぢでぷーすぷすしゃんぬきぇないにょぉぉぉお！？
+		</child>
+		<adult>
+			%partner、いまたすけるのぜ！
+			ぷーすぷすさんはゆっくりしないではやくぬけてね！
+			%partnerがいやがってるのぜ！ぷーすぷすさんはどこかへいくのぜ！
+			%partnerをいじめるぷーすぷすさんはせいっさいっするのぜ！
+			どぼじでぷーすぷすさんぬけないんだぜぇぇぇえ！？
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# 子の針をぐーりぐりする
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			いみゃたしゅけりゅのじぇ！
+			ぷーしゅぷしゅしゃんはゆっくちしにゃいぢぇはやきゅぬけちぇね！
+			どぼぢぢぇぷーしゅぷしゅしゃんにゅきぇにゃいにょぉぉぉお！？
+		</baby>
+		<child>
+			いまたすけりゅのじぇ！
+			ぷーすぷすしゃんはゆっくちしにゃいではやくぬけちぇね！
+			どぼぢでぷーすぷすしゃんぬきぇないにょぉぉぉお！？
+		</child>
+		<adult>
+			おちび、いまたすけるのぜ！
+			ぷーすぷすさんはゆっくりしないではやくぬけてね！
+			おちびがいやがってるのぜ！ぷーすぷすさんはどこかへいくのぜ！
+			おちびをいじめるぷーすぷすさんはせいっさいっするのぜ！
+			どぼじでぷーすぷすさんぬけないんだぜぇぇぇえ！？
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# 被ぐーりぐり時
+[NeedlePain]
+	<normal>
+		<baby>
+			やめぢぇぇぇぇえ！
+			ぎゅーりぎゅりちにゃいでぇぇぇえ！
+			だぢゅぎぇ、、、ピギィィィィィィイ！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</baby>
+		<child>
+			やめぢぇぇぇぇえ！
+			ぎゅーりぎゅりちにゃいでぇぇぇえ！
+			だぢゅけ、、、ピギィィィィィィイ！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</child>
+		<adult>
+			やべでぇぇぇぇえ！
+			ぐーりぐりじないでぇぇぇぇえ！
+			たすけ、、、ゆぎゃぁぁああ！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# 針を抜いた時
+[NeedleRemove]
+	<normal>
+		<baby>
+			ぷーすぷすしゃん、いちゃかっちゃのじぇ、、、
+		</baby>
+		<child>
+			ぷーすぷすしゃん、いたかっちゃのじぇ、、、
+		</child>
+		<adult>
+			ぷーすぷすさん、いたかったのぜ、、、
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# あまあま要求
+[WantAmaama]
+	<rude>
+		<baby>
+			こんにゃのたべられないのじぇ！あみゃあみゃもってくるんだじぇ！
+			まりちゃはぐるめしゃんなのじぇ？さいっこうきゅうのあみゃあみゃで、お・も・て・な・し！するのじぇ！
+			こんなまじゅいごはんしゃんは、どりぇいにくれてやるのじぇ！
+		</baby>
+		<child>
+			こんにゃのたべられないのじぇ！あみゃあみゃもってくるんだじぇ！
+			まりちゃはぐるめしゃんなのじぇ？さいっこうきゅうのあみゃあみゃで、お・も・て・な・し！するのじぇ！
+			こんなまじゅいごはんしゃんは、どりぇいにくれてやるのじぇ！
+		</child>
+		<adult>
+			こんなのたべられないのぜ！いますぐあまあまをもってくるんだぜ！
+			まりさはぐるめさんなのぜ？さいっこうきゅうのあまあまで、お・も・て・な・し！するのぜ！
+			こんなまずいごはんさんは、どれいにくれてやるのぜ！
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# 移動不能
+[CantMove]
+	<normal>
+		<baby>
+			ゆゆっ？すすめにゃいよ！
+			footsieしゃんゆっくちしないでうごいちぇにぇ！
+		</baby>
+		<child>
+			ゆゆっ？すすめにゃいよ！
+			footsieしゃんゆっくちしないでうごいちぇね！
+		</child>
+		<adult>
+			ゆゆっ？すすめないよ！
+			footsieさんゆっくりしないでうごいてね！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆゆっ？すすめにゃいのじぇ！
+			まりちゃのfootsieしゃんうごかないのじぇ！
+			footsieしゃんゆっくちしてないでうごくのじぇ！
+		</baby>
+		<child>
+			ゆゆっ？すすめにゃいのじぇ！
+			まりちゃのfootsieしゃんうごかないのじぇ！
+			footsieしゃんゆっくちしてないでうごくのじぇ！
+		</child>
+		<adult>
+			ゆゆっ？すすめないのぜ！
+			まりさのfootsieさんうごかないのぜ！
+			footsieさんゆっくりしてないでうごくのぜ！
+		</adult>
+	</rude>
+[/CantMove]
+
+# 移動不能2
+[CantMove2]
+	<normal>
+		<baby>
+			ゆわああん！しゅしゅめにゃいよおおお！？
+			footsieしゃんうごいちぇにぇ、、、
+			うごいちぇにぇ？うごいちぇにぇ？まりちゃのfootsieさんうごいちぇにぇ？
+		</baby>
+		<child>
+			ゆわああん！しゅしゅめにゃいよおおお！？
+			footsieしゃんうごいちぇにぇ、、、
+			うごいちぇにぇ？うごいちぇにぇ？まりちゃのfootsieさんうごいちぇにぇ？
+		</child>
+		<adult>
+			ゆわああん！すすめないよおおお！？
+			footsieさんどぼじでうごかないのおおお！？
+			うごいてね？うごいてね？まりさのfootsieさんうごいてね？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆわああん！しゅしゅめにゃいのじぇ！？
+			footsieしゃんうごくのじぇ、、、
+			うごくのじぇ？うごくのじぇ？まりちゃのfootsieさんうごくのじぇ！
+		</baby>
+		<child>
+			ゆわああん！しゅしゅめにゃいのじぇ！？
+			footsieしゃんうごくのじぇ、、、
+			うごくのじぇ？うごくのじぇ？まりちゃのfootsieさんうごくのじぇ！
+		</child>
+		<adult>
+			ゆがああぁ！すすめないのぜえええ！？
+			ゆわああ！どうしてfootsieさんうごかないの！？
+			うごくのぜ？うごくのぜ？まりさのfootsieさんうごくのぜ！
+		</adult>
+	</rude>
+[/CantMove2]
+
+# 引っ張る
+[Pull]
+	<normal>
+		<baby>
+			ゆゆっ？！
+			ゆぐっ！なにするにょ？
+			いますぐやめてにぇ？ゆっくちできにゃいよ！
+			ゆぐっ！おにいしゃんやめてにぇ！ゆっくちできにゃいよ？
+			やめてね！まりちゃのもちもちfootsieしゃんいたいいたいだよ！
+			にゃんだかゆっくちできないよ！すぐにやめてにぇ！
+		</baby>
+		<child>
+			ゆゆっ？！
+			ゆぐっ！なにするにょ？
+			いますぐやめてにぇ？ゆっくちできにゃいよ！
+			ゆぐっ！おにいしゃんやめてにぇ！ゆっくちできにゃいよ？
+			やめてね！まりちゃのもちもちfootsieしゃんいたいいたいだよ！
+			にゃんだかゆっくちできないよ！すぐにやめてにぇ！
+		</child>
+		<adult>
+			ゆゆっ？！
+			ゆぐっ！なにするの？
+			いますぐやめてね？ゆっくりできないよ！
+			ゆぐっ！おにいさんやめてね！ゆっくりできないよ？
+			やめてね！まりさのもちもちfootsieさんいたいいたいだよ！
+			なんだかゆっくりできないよ！すぐにやめてほしいよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆゆっ？！
+			ゆぐっ！なにするのじぇ？
+			いますぐやめるのじぇ？ゆっくちできないのじぇ！
+			ゆぐっ！やめりょ！くしょどりぇい！ゆっくちできないのじぇ？
+			やめるのじぇ！まりちゃのしゅんっそくのfootsieしゃんいたいいたいのじぇ！
+			にゃんだかゆっくちできないのじぇ！すぐにやめるのじぇ！
+		</baby>
+		<child>
+			ゆゆっ？！
+			ゆぐっ！なにするのじぇ？
+			いますぐやめるのじぇ？ゆっくちできないのじぇ！
+			ゆぐっ！やめりょ！くしょどりぇい！ゆっくちできないのじぇ？
+			やめるのじぇ！まりちゃのしゅんっそくのfootsieしゃんいたいいたいのじぇ！
+			にゃんだかゆっくちできないのじぇ！すぐにやめるのじぇ！
+		</child>
+		<adult>
+			ゆゆっ？！
+			ゆぐっ！なにをするのぜ？
+			いますぐやめるのぜ？ゆっくりできないのぜ！
+			ゆぐっ！やめろ！くそどれい！ゆっくりできないのぜ？
+			やめるのぜ！まりさのしゅんっそくのfootsieさんがいたいいたいなのぜ！
+			なんだかゆっくりできないのぜ！すぐにやめるのぜ！
+		</adult>
+	</rude>
+[/Pull]
+
+# 引っ張る2
+[Pull2]
+	<normal>
+		<baby>
+			いぢゃいいい！もうにょーびにょーびでぎないよおおお！はやくやめちぇぇぇぇ！！！
+			いだいいい！ちぎれりゅううう！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのもちもちfootsieしゃんがちぎれりゅううう！！！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</baby>
+		<child>
+			いぢゃいいい！もうにょーびにょーびでぎないよおおお！はやくやめちぇぇぇぇ！！！
+			いだいいい！ちぎれりゅううう！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのもちもちfootsieしゃんがちぎれりゅううう！！！
+			ゆっびゃああいいい！！！
+			どぼぢでええええいっだぁああいいいいい！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</child>
+		<adult>
+			いだいいい！もうのーびのーびでぎないよおおお！はやくやめてえぇぇぇ！！！
+			いだいいい！ぢぎれるうぅぅぅ！！！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりさのもちもちfootsieさんがちぎれるううう！
+			ゆっびゃああいいい！！！
+			どぼぢでええええいっだぁああいいいいい！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			いぢゃいいい！もうにょーびにょーびでぎないよおおお！はやくやめちぇぇぇぇ！！！
+			いだいいい！ちぎれりゅううう！
+			ゆわあああ！やべろお゛お゛お゛！！！
+			まりちゃのしゅんっそくのfootsieしゃんがちぎれりゅううう！！！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</baby>
+		<child>
+			いぢゃいいい！もうにょーびにょーびでぎないぃぃぃ！はやくやめりょぉぉぉ！！！
+			いだいいい！ちぎれりゅううう！
+			ゆわあああ！やべろお゛お゛お゛！！！
+			まりちゃのしゅんっそくのfootsieしゃんがちぎれりゅううう！！！
+			ゆっびゃああいいい！！！
+			どぼぢでええええいっだぁああいいいいい！！！
+		</child>
+		<adult>
+			いだいいい！もうのーびのーびでぎないぃぃぃ！はやくやめりょぉぉぉ！！！
+			いだいいい！ぢぎれるうぅぅぅ！！！
+			ゆわあああ！やべろお゛お゛お゛！！！
+			まりさのしゅんっそくのfootsieさんがちぎれるのぜ！
+			ゆっびゃああいいい！！！
+			どぼぢでええええいっだぁああいいいいい！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+		</adult>
+	</rude>
+[/Pull2]
+
+# つぶす
+[Press]
+	<normal>
+		<baby>
+			ゆゆっ？
+			ゆゆーん！なにすりゅにょ？
+			やめちぇにぇ！なんだかゆっくちできにゃいよ！
+			やめてね！まりちゃのtum-tumしゃんいたいいたいだよ！
+			にゃんだかゆっくちできないよ！すぐにやめてにぇ！
+			ゆぐっ！おにいしゃんやめてにぇ！ゆっくちできにゃいよ？
+		</baby>
+		<child>
+			ゆゆっ？
+			ゆゆーん！なにすりゅにょ？
+			やめちぇにぇ！なんだかゆっくちできにゃいよ！
+			やめてね！まりちゃのtum-tumしゃんいたいいたいだよ！
+			にゃんだかゆっくちできないよ！すぐにやめてにぇ！
+			ゆぐっ！おにいしゃんやめてにぇ！ゆっくちできにゃいよ？
+		</child>
+		<adult>
+			ゆゆっ？
+			ゆゆーん！なにするの？
+			いますぐやめてね？ゆっくりできないよ！
+			ゆぐっ！おにいさんやめてね！ゆっくりできないよ？
+			やめてね！まりさのtum-tumさんいたいいたいだよ！
+			なんだかゆっくりできないよ！すぐにやめてほしいよ！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆぎゃ？
+			ゆがぁ！なにすりゅにょ？
+			きやすくまりちゃのあたまにさわらにゃいでほしいのじぇ！
+			ゆぐっ！やめりょ！くしょどりぇい！ゆっくちできないのじぇ？
+			やめるのじぇ！まりちゃのtum-tumいたいいたいのじぇ！
+			にゃんだかゆっくちできないのじぇ！すぐにやめるのじぇ！
+		</baby>
+		<child>
+			ゆぎゃ？
+			ゆがぁ！なにすりゅにょ？
+			きやすくまりちゃのあたまにさわらにゃいでほしいのじぇ！
+			ゆぐっ！やめりょ！くしょどりぇい！ゆっくちできないのじぇ？
+			やめるのじぇ！まりちゃのtum-tumいたいいたいのじぇ！
+			にゃんだかゆっくちできないのじぇ！すぐにやめるのじぇ！
+		</child>
+		<adult>
+			ゆがぁ？
+			ゆがぁ！なにすりゅにょ？
+			きやすくまりささまのあたまにさわらないでほしいのぜ！
+			ゆぐっ！やめろ！くそどれい！ゆっくりできないのぜ？
+			やめるのぜ！まりさのゆっくりしたtum-tumがいたいいたいなのぜ！
+			なんだかゆっくりできないのぜ！すぐにやめるのぜ！
+		</adult>
+	</rude>
+[/Press]
+
+# つぶす2
+[Press2]
+	<normal>
+		<baby>
+			ゆわああ！！！
+			ちゅぶれりゅううう！！！
+			たすけちぇえええ！！！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのゆっくちちたtum-tumしゃんがちゅぶれりゅううう！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+			おにいしゃん やめぢぇえええ！！！
+		</baby>
+		<child>
+			ゆわああ！！！
+			ちゅぶれりゅううう！！！
+			たすけちぇえええ！！！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのゆっくちちたtum-tumしゃんがちゅぶれりゅううう！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+			おにいしゃん やめぢぇえええ！！！
+		</child>
+		<adult>
+			つぶれるううう！
+			つぶれるううう！はなしてえええ！
+			たすけてぇえええ！！！
+			まりさのゆっくりしたtum-tumさんがつぶれりゅううう！
+			ゆっびゃああいいい！！！
+			どぼぢでええええ！！！いっだぁああいいいいい！！！
+			おにいさあん やめでえええ！！！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ゆわああ！！！
+			ちゅぶれりゅううう！！！
+			たすけちぇえええ！！！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのゆっくちちたtum-tumしゃんがちゅぶれりゅううう！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+			くしょじじぃ やめりょおおお！！！
+		</baby>
+		<child>
+			ゆわああ！！！
+			ちゅぶれりゅううう！！！
+			たすけちぇえええ！！！
+			ゆわあああ！やめでねえ゛え゛え゛！！！
+			まりちゃのゆっくちちたtum-tumしゃんがちゅぶれりゅううう！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+			くしょじじぃ やめりょおおお！！！
+		</child>
+		<adult>
+			つぶれるううう！はなせええええ！
+			どれいいい！つぶれるだろおおお！
+			どれいいい！たすけろおおお！
+			まりさのゆっくりしたtum-tumがつぶれりゅううう！
+			ゆびゃああああああああ！！！
+			い゛ち゛ゃい゛よ゛お゛お゛お゛お゛！！！
+			くそじじい やめろおおお！！！
+		</adult>
+	</rude>
+[/Press2]
+
+# あまあま発見
+[FindAmaama]
+	<normal>
+		<baby>
+			あまあま！
+			ゆわ～い！あまあましゃんだ～！
+			ゆわ～い！あまあま！まりちゃあまあま だーいしゅきー！
+		</baby>
+		<child>
+			あまあましゃん、ゆっくちたべられちぇにぇ！
+			ゆわ～い！あまあましゃんだ～！
+			ゆわ～い！あまあま！まりちゃあまあま だーいしゅきー！
+		</child>
+		<adult>
+			あまあまさん、ゆっくりたべられてね！
+			ゆわ～い！あまあまさんだ～！
+			ゆわ～い！あまあま！まりさあまあま だーいすきー！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			あまあま！
+			まりちゃのあまあま！ゆっくちたべられるのじぇ！
+			ゆわ～い！あまあまなのじぇ～！
+		</baby>
+		<child>
+			まりちゃのあまあま！ゆっくちたべられるのじぇ！
+			ゆわ～い！あまあまなのじぇ～！
+		</child>
+		<adult>
+			あまあまなのぜ！まりささまのあまあまなのぜ！！！
+			まりさのあまあま！ゆっくりたべられるのぜ！
+			ゆゆ～ん！あまあまなのぜ～！
+		</adult>
+	</rude>
+[/FindAmaama]
+
+# あまあま食事
+[EatingAmaama]
+	<normal>
+		<baby>
+			むーちゃ、むーちゃ、ちちちちあわちぇぇぇぇぇ！
+		</baby>
+		<child>
+			むーしゃ、むーしゃ、しあわしぇぇぇぇ！
+		</child>
+		<adult>
+			むーしゃ、むーしゃ、しあわせぇぇぇぇ！
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# 吐餡
+[Vomit]
+	<normal>
+		<baby>
+			ゆびぇ、、、
+			Yube!
+			Yufu!
+			ゆぶっ、、、
+		</baby>
+		<child>
+			ゆぶぇ、
+			Yufu!
+			ぼえ゛ぇ、、、
+			Yube!
+		</child>
+		<adult>
+			ゆぶぶ、、、
+			Yububu!
+			Yufu!
+			Yube!
+			Gebo!
+		</adult>
+	</normal>
+[/Vomit]
+
+# 汎用、瀕死継続
+[Dying2]
+	<normal>
+		<baby>
+			ゆっ、、、ゆぴっ、、、
+			ゆ゛っゆ゛っゆ゛っゆ゛っ、、、
+		</baby>
+		<child>
+			ゆびっ、、、ゆぎゅ、、、
+			ゆ゛っゆ゛っゆ゛っゆ゛っ、、、
+		</child>
+		<adult>
+			ゆぐっ、、、ゆばぁっ、、、
+			ゆ゛っゆ゛っゆ゛っゆ゛っ、、、
+		</adult>
+	</normal>
+[/Dying2]
+
+# 汎用、驚き
+[Surprise]
+	<normal>
+		<baby>
+			どぼぢでぇぇぇ！？
+			こんなのいやぢゃー！
+			ゆんやあああ！！！
+			ゆえぇぇぇん！！！
+		</baby>
+		<child>
+			どぼぢでぇぇぇ！？
+			こんなのいやぢゃー！
+			ゆんやあああ！！！
+			ゆえぇぇぇん！！
+			！
+		</child>
+		<adult>
+			どぼぢでぇぇぇ！？
+			ごんなのいやだあ゛あ゛あ゛あ゛！
+			ゆんやあああ！！！
+		</adult>
+	</normal>
+[/Surprise]
+
+# 汎用、他のゆっくりに何かされたときに対する攻撃、反撃
+[RevengeAttack]
+	<normal>
+		<baby>
+			Shdop id eajy da je!
+			Yameru no je!
+			Whatch are you doing!?
+		</baby>
+		<child>
+			Shtop it da je！
+			Yamete no je!
+			Shtop it eajy!
+			Maricha will get angry no je！
+		</child>
+		<adult>
+			Yamete no ze!
+			Yu！Stop it！ Right now is enough!
+			Stop it easy！
+			Yunya! What are you doing!?
+			Marisa will get angry！
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shdop id eajy da je!
+			Yameru no je!
+			Whatch are you doing!?
+			Shiddy yukkuri what are you doing!?
+		</baby>
+		<child>
+			Shtop it da je！
+			Yamete no je!
+			Shtop it eajy!
+			Maricha will get angry no je！
+			Shdop id or Maricha will do hurt-hurt, da je!
+		</child>
+		<adult>
+			Yamete no ze!
+			Shdrop it eajy and bring Sweet-sweets, ok?
+			Yu！Stop it！ Right now is enough!
+			Stop it easy！
+			Yunya! What are you doing!?
+			Marisa will get angry no ze！
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# おさげ、尻尾、羽をちぎる
+[BraidCut]
+	<normal>
+		<baby>
+			Piko~Piko~-chan is...！
+			Mawisha's mishder piko~piko~ no je!
+			Pweaze gib back mishder piko~piko~!
+		</baby>
+		<child>
+			Maricha's mishter braid！
+			Maricha's cute mishter braid is gone, da je!
+		</child>
+		<adult>
+			Marisa's cute mister braid no ze!
+			Marisa's mister braid is gone, da ze!
+			Please give back Marisa's mister braid, right now is enough no ze!
+			Yunya! Marisa will lnever forgive you for this no ze!
+		</adult>
+	</normal>
+[/BraidCut]
+
+# 汎用、他のゆっくりに生きたまま食べられる
+[EatenByBody]
+	<normal>
+		<baby>
+			Tabenyaidee！
+			Don'd ead Mawisha!
+			Mawisha ish nod mishder food!
+			Mawisha ish nod gohan-tan!
+			Shdop, Mawisha ish nod mishder food!
+		</baby>
+		<child>
+			Tabenaidee！
+			Don't eat Maricha!
+			Maricha ish not mishter food da je!
+			Shtop! Maricha ish not dinner, da je!
+		</child>
+		<adult>
+			Don't eat Marisa!
+			Marisa is not mister food, no ze!
+			Stop! Marisa is not dinner, da ze!
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# 汎用、他のゆっくりに生きたまま吸われる
+[EatenByBody2]
+	<normal>
+		<baby>
+			あんこさんすわないぢぇぇ！
+			Mishder bean-paste pweaze don't go!
+		</baby>
+		<child>
+			Mishter bean-paste pleaze don't go
+		</child>
+		<adult>
+			Mister bean-paste please don't go!
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# れみりゃから逃げる
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			ゆんやぁぁぁぁ！！
+			Yunyaaaa!!
+			Remirya!!!
+		</baby>
+		<child>
+			れみりゃ！
+			Remiriya jyaaaaa!
+			Yunyaaaa!!
+			Id's Remiriya!!!
+		</child>
+		<adult>
+			れみりゃだぁぁぁぁぁぁ！！
+			It's Remiliaaa! 
+			Yunyaaa!
+			Yunyaaa! Remilia is here!!
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

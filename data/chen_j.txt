@@ -1,0 +1,2096 @@
+# È§åÁô∫Ë¶ã
+[WantFood]
+	<normal>
+		<baby>
+			Mishder fwood!!
+		</baby>
+		<child>
+			Chen wuvs choo get mishter food!
+		</child>
+		<adult>
+			Chen loves to get delicious mister food!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Idsh aww Chen'sh mishder fwood! Chen getsh it!
+		</baby>
+		<child>
+			Itsh aww Chen's mishter food! Chen getsh it!
+		</child>
+		<adult>
+			It's all Chen's mister food! Chen gets it!
+		</adult>
+	</rude>
+[/WantFood]
+
+# È§å„Å™„Åó
+[NoFood]
+	<normal>
+		<baby>
+			Don'd ged whewe mishder fwood ij!
+			Can'd chake id eajy wifoud mishder fwood!
+			Chen ij hungwy!
+			<damage>
+				Mishder fwood pweashe...
+				Chen needsh mishder fwood...
+				Shtawving...
+			</damage>
+		</baby>
+		<child>
+			Don't get whewe mishter food ish!
+			Whewe ish mishter fwood?
+			<damage>
+				Mishder food ish not hea...
+				Pwease feed mister food...Å
+				Can'ch chake it eajy wif no mishter food...
+			</damage>
+		</child>
+		<adult>
+			Don't get where mister food is! 
+			Where is mister food?
+			Chen can't find mister food!
+			<damage>
+				Mizder vood iz nod here...
+				Pleaze bring mizder vood...
+				Can'd dage id eazy wiv no mizder vood...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy geejer bwing mishder fwood!
+			Whewe ij Chen's mishder fwood?
+			<damage>
+				Gibe mishder fwood...
+				Geejer doejn't ged id...
+			</damage>
+		</baby>
+		<child>
+			Shitty geejer, bwing mishter food!
+			Chen wantsh mishter food! Now ish fine!
+			<damage>
+				Whewe ish Chen's mishter food...
+				Geejer doeshn't get it... 
+			</damage>
+		</child>
+		<adult>
+			Shitty geezer bring mister food! Now is fine!
+			Does the shitty slave not get it?
+			<damage>
+				Where iz Chen'z mizder vood...
+				Chen needz mizder vood...
+			</damage>
+		</adult>
+	</rude>
+[/NoFood]
+
+# Áô∫ÊÉÖ
+[Excite]
+	<normal>
+		That mister mamumamu gets it!
+	</normal>
+[/Excite]
+
+# „É™„É©„ÉÉ„ÇØ„Çπ
+[Relax]
+	<normal>
+		<baby>
+			I ged idÔºÅ
+			Chake id eajy!
+			Chen ij chaking id eajy!Å
+			Yuuu~Å
+			Chake id eajy wid Chen! Å
+			Ea~jy
+		</baby>
+		<child>
+			Chake it eajy!Å
+			I get itÔº
+			Chen ish chaking it eajy!
+			Yuu~ Yuu~
+			Ea~jy
+			Chen getsh it~Å
+		</child>
+		<adult>
+			Take it easy!Å
+			I get it!Å
+			Chen is taking it easy!
+			Chen's feeling very easy!
+			Yuyu~
+			Getting it~Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chen ij eajier den shiddy geejer!
+			Yesh, I get it, I get it!
+		</baby>
+		<child>
+			Chen ish eajier den shitty geezer!
+			Yesh, I get it, I get it!Å
+		</child>
+		<adult>
+			Chen is easier than shitty geezer!
+			Chen takes it the easiest!
+		</adult>
+	</rude>
+[/Relax]
+
+# Â∞ªÊåØ„Çä
+[FuriFuri]
+	<normal>
+		<baby>
+			Relax-relax~, chage id eajy!
+			Wigguw wigguw~
+			Gedding id!
+		</baby>
+		<child>
+			Relax-relax~, chake it eajy!Å
+			Wigguw wigguw~
+			Getting it!Å
+		</child>
+		<adult>
+			Relax-relax~Å
+			Wiggle wiggle~
+			Getting it!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Relax-relax~, chage id eajy!
+			Wigguw wigguw~
+			Gedding id!Å
+		</baby>
+		<child>
+			Do wick-wicking of Chen's mishter anyawu!
+			Wigguw wigguw~
+			Getting it!Å
+		</child>
+		<adult>
+			Do lick-licking of Chen's mister anyaru!
+			Wiggle wiggle~
+			Getting it!
+		</adult>
+	</rude>
+[/FuriFuri]
+
+# Ëµ∑Â∫ä
+[Wakeup]
+	<normal>
+		<baby>
+			Gwood mohning eajy!Å
+		</baby>
+		<child>
+			Good mowning eajy!Å
+		</child>
+		<adult>
+			Good morning easy!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Cude widdle Chen ish waging ub!
+		</baby>
+		<child>
+			Cute Chen ish waking up!
+		</child>
+		<adult>
+			The beautiful Chen is waking up!Å
+		</adult>
+	</rude>
+[/Wakeup]
+
+# Áù°Áú†
+[Sleep]
+	<normal>
+		<baby>
+			Yubii... yubii...
+			Chen ish shweeping!
+			Ged id... zzz...
+		</baby>
+		<child>
+			Yupi... yupi...
+			Chen ish sweeping!
+			Get it... zzz...
+		</child>
+		<adult>
+			Yupi... yupi...
+			Chen is sleeping!
+			Get it... zzz...
+		</adult>
+	</normal>
+[/Sleep]
+
+# ÊÇ≤È≥¥
+[Scream]
+	<normal>
+		<baby>
+			ID HURD!!Å
+			Hewb me, Wan-shyamaa!!Å
+			Don'd do ich!!!
+			<damage>
+				Shdob id...
+				Yu... Yu... Yu...Å
+				Don'd ged id...Å
+				Wry ij dish habbening...
+				Don'd do hurd-hurd anymore...Å
+			</damage>
+		</baby>
+		<child>
+			ID HURDZ!!Å
+			Hewp me, Wan-shama!!Å
+			Yunyaa!!
+			Chen doesn't get it!
+			<damage>
+				Shtop it...Å
+				Chen ish showwy...Å
+				Wry ish dish happening...Å
+				Don'd ged id...
+				Yu... Yu... Yu...Å
+			</damage>
+		</child>
+		<adult>
+			YUNYAA!!!Å
+			I don't get it!
+			Stop it easy!Å
+			Help me, Ran-sama!
+			<damage>
+				Wry? I don'd ged id...Å
+				Jen iz zorry...Å
+				Zdob... zdob id bleaze...Å
+				Yuu... yuu...Å
+				Don'd do hurd-hurd anymore...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy geejer shdob id! Immwediatewy ij fine!Å
+			Yunyaa!!Å
+			ID HURD!!Å
+			<damage>
+				Shdob id...Å
+				Shwave doejn'd ged id...Å
+				Yu... yu... yu...Å
+			</damage>
+		</baby>
+		<child>
+			Shitty geezer shtop it! Immediatewy ish fine!Å
+			Yunyaa!!Å
+			ID HURDZ!!Å
+			<damage>
+				Geezer can dwop dead...
+				Shtop it... shtop it awweady...Å
+				Yu... yu... yu...Å
+			</damage>
+		</child>
+		<adult>
+			Yuwaaa!!Å
+			Shitty geezer stop doing hurt-hurt!Å
+			Fuck off, slave!Å
+			<damage>
+				Geezer gan drob dead vor hurd-hurding da beaudivul Chen...Å
+				Zdob id... zdob id immediadely...Å
+				Zdob id... yu, yu...Å
+			</damage>
+		</adult>
+	</rude>
+[/Scream]
+
+# ÊÄØ„Åà
+[Scare]
+	<normal>
+		<baby>
+			Shdob id pweaze!Å
+			Chen ij shcared!Å
+			<damage>
+				I don'd ged id...Å
+				Can'ch chake id eajy...Å
+			</damage>
+		</baby>
+		<child>
+			Pwease shtop!Å
+			I can't chake it eashy!Å
+			<damage>
+				I don't get it...Å
+				Shcared... hewp...Å
+			</damage>
+		</child>
+		<adult>
+			Please stop it!Å
+			I can't Åtake it easy!
+			<damage>
+				I don't get it...Å
+				Scared... help...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shdob id! Wight now ij fine!Å
+			Chen ij shcared!Å
+			<damage>
+				Shdob id...Å
+				Cude widdwe Chen ij showwy...Å
+			</damage>
+		</baby>
+		<child>
+			Shtop it! Wight now ish fine!Å
+			Chen ish shcared, got it?Å
+			<damage>
+				Shtop it...Å
+				Cute Chen is showwy...Å
+			</damage>
+		</child>
+		<adult>
+			Stop it! Right now is fine!Å
+			Chen is scared, got it?Å
+			<damage>
+				Zdob id...Å
+				The beaudivul Chen iz zorry... Å
+			</damage>
+		</adult>
+	</rude>
+[/Scare]
+
+# Ë≠¶Êàí
+[Alarm]
+	<normal>
+		<baby>
+			I don'd ged id!
+			<damage>
+				Shdob id...
+			</damage>
+		</baby>
+		<child>
+			I don't get it!Å
+			<damage>
+				Pweashe stop...Å
+			</damage>
+		</child>
+		<adult>
+			I don't get it!Å
+			<damage>
+				Bleaze zdob id...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			I don'd ged id!Å
+			<damage>
+				Shdob id...Å
+			</damage>
+		</baby>
+		<child>
+			I don't get it!Å
+			<damage>
+				ÅShtop it...
+			</damage>
+		</child>
+		<adult>
+			I don't get it!Å
+			<damage>
+				Zdob id bleaze...Å
+			</damage>
+		</adult>
+	</rude>
+[/Alarm]
+
+# ÁÄïÊ≠ª
+[Dying]
+	<normal>
+		<baby>
+			Yugya-!Å
+		</baby>
+		<child>
+			Yugeh-!
+		</child>
+		<adult>
+			Gyah-!Å
+		</adult>
+	</normal>
+[/Dying]
+
+# Ê≠ª‰∫°
+[Dead]
+	<normal>
+		<baby>
+			Wry... did dish habben...Å
+			I sdill don'd ged id...Å
+			Wanded choo chake id eajy more...Å
+		</baby>
+		<child>
+			Wry.... did dish happen...Å
+			I still don't get it...Å
+			Wanted choo chake it eashy more...Å
+		</child>
+		<adult>
+			Wry... did diz habben...Å
+			I zdill don'd ged id...Å
+			Wanted to take it easy more...Å
+		</adult>
+	</normal>
+[/Dead]
+
+# È£ü‰∫ã
+[Eating]
+	<normal>
+		<baby>
+			Yu~ Yu~Å
+			Dewicious~Åfanksh, mishder
+			Mwunj mwunj~Å
+		</baby>
+		<child>
+			Yu~ Yu~Å
+			Dewicious~ Åthanksh, mishter
+			Munj munj~Å
+		</child>
+		<adult>
+			Yu~ Yu~Å
+			Delicious~ thanks, misterÅ
+			Munch munch~Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yu~ Yu~
+			Mishder shwabe bwingsh gwud fwood~Å
+			Myunj myunj~
+			Dewicious~Å
+		</baby>
+		<child>
+			Yu~ Yu~
+			Mishter shwave bwingsh good food~
+			Munj munj~
+			Dewicious~
+		</child>
+		<adult>
+			Yu~ Yu~
+			Mister slave brings good food~
+			Munch munch~
+			Delicious~
+		</adult>
+	</rude>
+[/Eating]
+
+# È£ü‰∫ã(„ÅÜ„Çì„ÅÜ„Çì)
+[EatingShit]
+	<normal>
+		<baby>
+			Dish ij wrong... Chen doejn'd ged mishder pwoo-pwoo...
+		</baby>
+		<child>
+			Dish ish wrong... Chen doeshn't get mishter poo-poo...Å
+		</child>
+		<adult>
+			This is wrong... Chen doesn't get mister poo-poo...
+		</adult>
+	</normal>
+[/EatingShit]
+
+# È£ü‰∫ã(ÊØí)
+[EatingBitter]
+	<normal>
+		<baby>
+			MyunjÅmyunj, dish ij poijon!
+			Tashtesh bwad!
+		</baby>
+		<child>
+			Munsh munsh, dish ish poishon!Å
+			Tashtesh bad!
+		</child>
+		<adult>
+			This is poisoned!Å
+			I don't get it!
+		</adult>
+	</normal>
+[/EatingBitter]
+
+# Ê∫ÄËÖπ
+[Full]
+	<normal>
+		<baby>
+			Chen can'd ead eny moa.Å
+		</baby>
+		<child>
+			Chen got enough.Å
+		</child>
+		<adult>
+			Chen got enough mister food.Å
+		</adult>
+	</normal>
+[/Full]
+
+# ÂõûÂæ©
+[Healing]
+	<normal>
+		<baby>
+			Chaking id eajier!Å
+			I ged id!
+			<damage>
+				Feewing bedder...Å
+				Can chake id a bid eajier...Å
+				I'm gedding ich...Å
+			</damage>
+		</baby>
+		<child>
+			Chaking it eashier!Å
+			I get it!Å
+			<damage>
+				Feewing better...Å
+				Can chake it a bit eashier...Å
+				I'm getting it...Å
+			</damage>
+		</child>
+		<adult>
+			Taking it easier!Å
+			I get it!Å
+			Easy~Å
+			<damage>
+				Veeling bedder...Å
+				Gan dage id a bid eazier...Å
+				I'b gedding id...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chaking id eajier!Å
+			Cude widdwe Chen getsh id!Å
+			<damage>
+				Feewing bedder...Å
+				Can chake id eajier...Å
+			</damage>
+		</baby>
+		<child>
+			Cude Chen getsh it!Å
+			Chaking it eashier!Å
+			Easy~Å
+			<damage>
+				Feewing better...Å
+				Can chake it a bit eashier..Å
+			</damage>
+		</child>
+		<adult>
+			The beautiful Chen gets it!Å
+			Taking it easier!Å
+			Easy~Å
+			<damage>
+				Veeling bedder...Å
+				Gan dage id a bid eazier...Å
+			</damage>
+		</adult>
+	</rude>
+[/Healing]
+
+# „Åô„Å£„Åç„Çä
+[Sukkiri]
+	<normal>
+		<baby>
+			We~fweshed!Å
+		</baby>
+		<child>
+			We~fweshed!Å
+		</child>
+		<adult>
+			Re~freshed!Å
+		</adult>
+	</normal>
+[/Sukkiri]
+
+# „É¨„Ç§„Éë„Éº„Å®„Åô„Å£„Åç„Çä
+[RaperSukkiri]
+	<normal>
+		<baby>
+			Wry ar babiesh gwowing?!Å
+		</baby>
+		<child>
+			Wry are mishter babiesh gwowing?! Å
+		</child>
+		<adult>
+			Zdob! Chen doesn't get mister babies!Å
+		</adult>
+	</normal>
+[/RaperSukkiri]
+
+# Ë™ïÁîü
+[Birth]
+	<normal>
+		Chage id eajy!Å
+	</normal>
+[/Birth]
+
+# ÊéíÊ≥Ñ
+[Shit]
+	<normal>
+		<baby>
+			Pwoo pwoo goming oud!Å
+			Mishder pwoo pwoo ish gedding oud!Å
+			<pants>
+				Pwoo pwoo don'd go in pantsh! Å
+				Mishder pants pweashe gome ooofff!Å
+			</pants>
+		</baby>
+		<child>
+			Poo poo coming oud!
+			Mishter poo poo ish gedding oud!Å
+			<pants>
+				Wry ish poo poo going in pantsh!?Å
+				Mishter pantsh pwease come ooofff!Å
+			</pants>
+		</child>
+		<adult>
+			Poo poo coming out!Å
+			Mister poo poo is getting out!Å
+			<pants>
+				Wryyy is poo poo going in pants!?Å
+				Mister pants please come ooofff!Å
+			</pants>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Pwoo pwoo goming oud!Å
+			Shiddy shwabe can ead Chen'sh pwoo pwoo~Å
+			<pants>
+				Geejer!! Chake off Chen's mishder pantsh!Å
+				Pwoo pwoo don'd go in pantsh!Å
+			</pants>
+		</baby>
+		<child>
+			Poo poo coming oud!Å
+			Shitty shwave can eat Chen'sh poo poo~Å
+			<pants>
+				Geezer! Wemove Chen's mishter pantsh!Å
+				Wry ish poo poo going in pantsh!?Å
+			</pants>
+		</child>
+		<adult>
+			Poo poo coming out!Å
+			Shitty slave can eat Chen's poo poo~
+			<pants>
+				Geezer! Remove Chen's mister pants!Å
+				Wryyy is poo poo going in pants!?
+			</pants>
+		</adult>
+	</rude>
+[/Shit]
+
+# ÊéíÊ≥Ñ2
+[Shit2]
+	<normal>
+		<baby>
+			W-wefweched...Å
+			<pants>
+				Yuaaa! Shdinksh!Å
+			</pants>
+		</baby>
+		<child>
+			W-wefweshed...Å
+			<pants>
+				I don't get it...Å
+			</pants>
+		</child>
+		<adult>
+			R-refreshed...Å
+			<pants>
+				I don't get it...Å
+			</pants>
+		</adult>
+	</normal>
+[/Shit2]
+
+# „Åô„Çä„Åô„Çä
+[SuriSuri]
+	<normal>
+		<baby>
+			Wub wub~
+			Doing wub wub~Å
+		</baby>
+		<child>
+			Wub wub feelsh good~
+			Wub wub~Å
+		</child>
+		<adult>
+			Rub rub~
+			Rub rub feels good~Å
+		</adult>
+	</normal>
+[/SuriSuri]
+
+# „Å∫„Çç„Å∫„Çç
+[PeroPero]
+	<normal>
+		<baby>
+			Wick wick~
+			Myamya~Å
+		</baby>
+		<child>
+			Wick wick~
+			Mama~Å
+		</child>
+		<adult>
+			Lick lick~ç
+			Chen gets the little ones~Å
+		</adult>
+	</normal>
+[/PeroPero]
+
+# Âá∫Áî£
+[Breed]
+	<normal>
+		<baby>
+			Yugu, mishder chummy ijn't gedding id...!?Å
+			Gigigigi...!!
+		</baby>
+		<child>
+			Da liddle onesh are coming oud!?Å
+			Ch-chummy huuuurch!
+		</child>
+		<adult>
+			Gigigigiving biiiiirth!!Å
+			Little ones are being born!Å
+		</adult>
+	</normal>
+[/Breed]
+
+# Áî£Âæå
+[Breed2]
+	<normal>
+		Take it easy!Å
+		<pants>
+			Nooo! Wry iz dere no liddle ooooones!?Å
+		</pants>
+	</normal>
+[/Breed2]
+
+# „ÅÜ„Çì„ÅÜ„ÇìÁô∫Ë¶ã
+[HateShit]
+	<normal>
+		<baby>
+			Shdinky!Å
+			I don'd ged mishder pwoo pwoo!Å
+			<damage>
+				Shmelly...Å
+				Pweashe ged wid of mishder pwoo pwoo...
+			</damage>
+		</baby>
+		<child>
+			Poo poo shmellsh bad!
+			I don't get mishter poo poo!
+			<damage>
+				Shmelly, can'ch chake id eajy...
+				Pweashe get wid of mishter poo poo...
+			</damage>
+		</child>
+		<adult>
+			Please clean up poo poo!
+			Poo poo doesn't get it!Å
+			<damage>
+				Please clean mister poo poo...
+				Miste poo poo go away...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shdinky!Å
+			Shwabe! Cwean pwoo pwoo!Å
+			<damage>
+				Shtinksh...Å
+				Huwwy and cwean id ub...Å
+			</damage>
+		</baby>
+		<child>
+			Poo poo shmellsh bad!Å
+			Do a wick-wick of mishter poo poo!Å
+			<damage>
+				Shmelly, can'ch chake id eashy...Å
+				Get wid of poo poo awweady...
+			</damage>
+		</child>
+		<adult>
+			Poo poo doesn't get it!Å
+			Do a lick-lick of mister poo poo!
+			<damage>
+				Ged rid of boo boo already...Å
+				Hurry and glean id ub...Å
+			</damage>
+		</adult>
+	</rude>
+[/HateShit]
+
+# Á©∫ËÖπ
+[Hungry]
+	<normal>
+		<baby>
+			Hungwy!Å
+			Can I ged id?Å
+			Mishder fwood!
+			Chen ij hungwy!
+			<damage>
+				Wand mishder fwood...Å
+				Hungwy...
+				Chen wandsh to myunj-myunj...Å
+			</damage>
+		</baby>
+		<child>
+			Chen ish hungwy!Å
+			Feewing hungwy~Å
+			Can I get it?
+			Want to each mishter food!Å
+			<damage>
+				Want mishter food...Å
+				Sho hungwy...Å
+				Chen wandsh to do munj-munj...Å
+			</damage>
+		</child>
+		<adult>
+			Feeling hungry!Å
+			Can I get it?Å
+			Want to eat mister food!
+			Chen is hungry!Å
+			<damage>
+				Wand mizder vood...
+				Zho hungry...Å
+				Chen wandzh to do munj-munj...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chen wantsh shweed sweech! Gib dem!Å
+			Shwabe! Feed cude widdwe Chen!Å
+			Whewe'sh the mishder fwood?Å
+			<damage>
+				I wand fwood now...Å
+				Bwing sweed sweech...Å
+				Fwood... Now...Å
+			</damage>
+		</baby>
+		<child>
+			Chen wantsh shweet shweets! Now ish fine!Å
+			Shwave! Feed cude Chen!Å
+			Whewe'sh the mishter food?Å
+			<damage>
+				I want food now...Å
+				Need shweet shweetsh...
+				Food... bwing food now...Å
+			</damage>
+		</child>
+		<adult>
+			Shitty slave bring sweet sweets!Å
+			Geezer! Can't you see that the beautiful Chen is hungry?Å
+			Are you stupid? Do you not get where mister food is?
+			<damage>
+				I wand vood already...Å
+				Chen needz zweed zweets...Å
+				I don'd ged id...Å
+			</damage>
+		</adult>
+	</rude>
+[/Hungry]
+
+# „Åä„Åã„Åñ„ÇäÊ≤°Âèé
+[NoAccessory]
+	<normal>
+		<baby>
+			Yunyyyaa! Whewe ij mishder had?!Å
+			Gibe id bag! Gibe id baaag!Å
+		</baby>
+		<child>
+			Yunyyyaa! Whewe ish mishter hat?!
+			Give it back! Give it baaack!Å
+		</child>
+		<adult>
+			Where did Chen's mister hat go?!Å
+			Chen needs her hat to get it so please give it back!Å
+		</adult>
+	</normal>
+[/NoAccessory]
+
+# ÊåÅ„Å°‰∏ä„Åí
+[Flying]
+	<normal>
+		<baby>
+			Ich wike fwying in da shky!Å
+			Mishter gwavidy getsh id!Å
+			Chen ij fwoading!Å
+		</baby>
+		<child>
+			It's wike fwying in the sky!Å
+			Mishter gwavity getsh it!Å
+			Chen ish fwoating!Å
+		</child>
+		<adult>
+			It's like flying in the sky!Å
+			Mister gravity gets it!Å
+			Chen is floating!Å
+		</adult>
+	</normal>
+[/Flying]
+
+# Â≠ê‰æõÊ≠ª‰∫°
+[SadnessForChild]
+	<normal>
+		<baby>
+			Bwaybyy!!!Å
+			Gech id togejer, bwaby!Å
+			Wrryyyyy!?Å
+		</baby>
+		<child>
+			Babyy!!Å
+			Get it togejer, baby!
+			Wrryyyyy!?Å
+		</child>
+		<adult>
+			Little ooooone!!
+			Get it together, little one!Å
+			Wrryyyyy!?Å
+		</adult>
+	</normal>
+[/SadnessForChild]
+
+# „Å§„Åå„ÅÑÊ≠ª‰∫°
+[SadnessForPartner]
+	<normal>
+		%partner open your mister eyes!
+	</normal>
+[/SadnessForPartner]
+
+# ÂßâÊ≠ª‰∫°
+[SadnessForEldersister]
+	<normal>
+		<baby>
+			Open youw eyesh, bwig shish!Å
+		</baby>
+		<child>
+			Big shish, open youw mishter eyesh!Å
+		</child>
+		<adult>
+			%partner open your mister eyes!
+		</adult>
+	</normal>
+[/SadnessForEldersister]
+
+# Â¶πÊ≠ª‰∫°
+[SadnessForSister]
+	<normal>
+		<baby>
+			Open youw eyesh, widdwe shish!Å
+		</baby>
+		<child>
+			ÅWiddwe shish, open youw mishter eyesh!
+		</child>
+		<adult>
+			%partner open your mister eyes!
+		</adult>
+	</normal>
+[/SadnessForSister]
+
+# Â£ÅÁô∫Ë¶ã
+[BlockedByWall]
+	<normal>
+		<baby>
+			Mishder waww doejn't ged id!?
+		</baby>
+		<child>
+			Mishter waww doeshn't get it!?
+		</child>
+		<adult>
+			Mister wall doesn't get it!?
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy waww doejn't ged id!Å
+		</baby>
+		<child>
+			Shitty waww doeshn't get it!Å
+		</child>
+		<adult>
+			Shitty wall doesn't get it!Å
+		</adult>
+	</rude>
+[/BlockedByWall]
+
+# „Åä„ÇÇ„Å°„ÇÉÁô∫Ë¶ã
+[GetTreasure]
+	<normal>
+		<baby>
+			Mishder mwarbwe getsh id~Å
+			Chen wubs her eajy tweashure!Å
+		</baby>
+		<child>
+			Mishter marbwe getsh it~Å
+			Chen wuvs her eashy tweasure! Å
+		</child>
+		<adult>
+			Mister marble gets it~Å
+			Chen loves her easy treasure!Å
+		</adult>
+	</normal>
+[/GetTreasure]
+
+# „Åä„ÇÇ„Å°„ÇÉÁ¥õÂ§±
+[LostTreasure]
+	<normal>
+		<baby>
+			Yunyaaaa!!!
+			Gibe id bwag!
+		</baby>
+		<child>
+			Yunyaaaa!!!
+			Give bag Chen'sh tweasure!
+		</child>
+		<adult>
+			Please give back Chen's mister treasure!
+		</adult>
+	</normal>
+[/LostTreasure]
+
+# ËÜ®Âºµ
+[Inflation]
+	<normal>
+		<baby>
+			Chummy HUUUUURCH!Å
+			Wrryyy ij dish habbening!?!?!?Å
+			Mishder! Wan-shyama! Anyone! Hewb meeee!!!Å
+			Chen's chummy hurch sho muuuuch!!!Å
+		</baby>
+		<child>
+			Chummy HUUUUURCH!Å
+			Wrryyy ish dish happening!?!?!?Å
+			Mishter! Wan-shama! Anyone! Hewp meeee!!!Å
+			Chen's chummy hurch sho muuuuch!!!Å
+		</child>
+		<adult>
+			Dummy HUUUUURDZ!Å
+			Wrryyy iz diz habbening!?!?!?Å
+			Mizder! Ran-zama! Anyone! Helb meeee!!!Å
+			Chen'z dummy hurdz zo muuuuudj!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Chummy HUUUUURCH!Å
+			Wrryyy ij dish habbening!?!?!?Å
+			Geejer! Wan-shyama! Anyone! Hewb me nooooowww!!!Å
+			Chen's chummy hurch sho muuuuch!Å
+		</baby>
+		<child>
+			Chummy HUUUUURCH!Å
+			Wrryyy ish dish happening!?!?!?Å
+			Geezer! Wan-shama! Anyone! Hewb me nooooowww!!!
+			Chen's chummy hurch sho muuuuch!!!Å
+		</child>
+		<adult>
+			Dummy HUUUUURDZ!Å
+			Wrryyy iz diz habbening!?!?!?Å
+			Geezer! Ran-zama! Anyone! Helb me nooooowww!!!Å
+			Chen's dummy hurdz zo muuuuudj!Å
+		</adult>
+	<rude>
+[/Inflation]
+
+# Â≠êËôêÂæÖ
+[AbuseBaby]
+	<normal>
+		<baby>
+			Gib bwag bwabyy!!!Å
+			Don'd hurd-hurd Chen's bwaby!
+			Wry would you do daaat!?!?!?
+			Shdob hurding bwaby! Pweaze shdob!Å
+			Wed go of bwabyy!!Å
+			WRRYYYY!?!?Å
+			Bwabyyyyy!!!!!!!!Å
+		</baby>
+		<child>
+			Give bag babyy!!! Å
+			Don'ch hurt-hurt Chen's baby!
+			Wry would you do daaat!?!?!?
+			Shtop hurding baby! Pweaze shtop!
+			WRRYYYY!?!?
+			Babyyyyy!!!!!!!!Å
+			Chen's baby is a living being choo! Å
+		</child>
+		<adult>
+			Give back babyy!!!Å
+			Don't hurt-hurt Chen's baby!
+			Wry would you do daaat!?!?!?
+			Zdob hurding baby! Bleaze zdob!Å
+			WRRYYYY!?!?Å
+			Babyyyyy!!!!!!!!Å
+			Chen's baby is a living being too!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy shwabe! Gib bag bwaby!Å
+			Gib bag baby or Chen wiww do pyuff-pyuff!Å
+			Geejer doejn'd ged id!Å
+			Wan-shyama wiww do hurd-hurd to geejer sho shdob id now!ÅÅ
+		</baby>
+		<child>
+			Shitty shwave! Give bwag baby!Å
+			Give bag bwaby or Chen wiww do puff-puff!Å
+			Geezer doeshn't get it!
+			Wan-shama wiww do hurt-hurt to geezer sho shtop it now!
+			Getting ANGWY!
+			Shtop it! NOW ISH FINE!Å
+			Chen can'ch chake id eajy wifoud her bwaby sho shdob id, okay geezer?Å
+		</child>
+		<adult>
+			Shitty slave! Give back little one!Å
+			Give back little one or Chen will do puff-puff!Å
+			Geezer doesn't get it!
+			Ran-sama will do hurt-hurt to geezer so stop it now!Å
+			Getting ANGRY!Å
+			Stop it! NOW IS FINE!Å
+			Chen can't take it easy without her little one so stop it, okay geezer?Å
+		</adult>
+	</rude>
+[/AbuseBaby]
+
+# „ÅÆ„Å≥„ÅÆ„Å≥
+[Nobinobi]
+	<normal>
+		<baby>
+			Nyo-bi nyo-bi~
+			Shdwetch shdwetch~
+		</baby>
+		<child>
+			No-bi no-bi~
+			Shtwetch shtwetch~Å
+		</child>
+		<adult>
+			No-bi no-bi~
+			Stretch-stretch~
+		</adult>
+	</normal>
+[/Nobinobi]
+
+# Âá∫Áî£Ââç
+[NearToBirth]
+	<normal>
+		<baby>
+			Chen's bwabiesh are gedding it!Å
+			Bwabiesh mobed!Å
+			Chen'sh eajy babiesh wiww be bworn shoon!Å
+			Chen can'd waich choo meed her babiesh!Å
+		</baby>
+		<child>
+			Chen's babiesh are getting it!Å
+			Babiesh jusht moved!Å
+			Chen'sh eashy babieshÅwiww be born shoon!
+			Chen can'd waich choo meet her babiesh!
+		</child>
+		<adult>
+			Chen's little ones are getting it!
+			Little ones just moved!Å
+			Chen's easy little ones will be born soon!Å
+			Chen can't wait to meet her little ones!
+		</adult>
+	</normal>
+[/NearToBirth]
+
+# ÊØí
+[PoisonDamage]
+	<normal>
+		<baby>
+			Yuba!Å
+			<damage>
+				Wry ish... hurd hurd...
+			</damage>
+		</baby>
+		<child>
+			Id hurdz!?
+			<damage>
+				Wry does it hurt-hurt...?Å
+			</damage>
+		</child>
+		<adult>
+			Chen has been poi~soned!Å
+			<damage>
+				Uneazy boizon bleaze zdob hurding Chen...Å
+			</damage>
+		</adult>
+	</normal>
+[/PoisonDamage]
+
+# ÊéíÊ≥Ñ‰∏çÂèØ
+[CantShit]
+	<normal>
+		<baby>
+			ID HURD! HEWB ME WAN-SHYAMA!
+		</baby>
+		<child>
+			Wryyy is mishter poo poo doing hurt-hurt!?Å
+		</child>
+		<adult>
+			Mister poo poo is hurt-hurting me!Å
+			Why can't poo come out!?Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			ID HURD! DO SWOMESHING, GEEJER!
+		</baby>
+		<child>
+			Wryyy is mister poo poo doing hurt-hurt!? 
+		</child>
+		<adult>
+			Mister poo poo's hurting chen! Do something, slave!Å
+			Slave! Help chen open her mister anyaru, quickly is fine!Å
+		</adult>
+	<rude>
+[/CantShit]
+
+# Â¶äÂ®†Â§±Êïó
+[NoPregnancy]
+	<normal>
+		<baby>
+		I don'd ged why I can'ch hab bwabiesh!?Å
+		Whewe are Chen'sh bwabiesh!?
+		</baby>
+		<child>
+		I don't getch why I can'ch have babiesh!?Å
+		Whewe are Chen'sh babiesh!?
+		</child>
+		<adult>
+		I don't get why there's no little ones!
+		Little ones are not here!
+		Yugyaaaa! Wrrrry iz dere no liddle onezzz!?!?Å
+		Little ones, where did you go!?!?
+		Little ones just wanted to take it easy! Wryyy!?Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+		Thewe'sh no bwabiesh! Geejer shtowe dem!Å
+		I don'd ged why I can'ch hab bwabiesh!?
+		</baby>
+		<child>
+		Thewe'sh no babiesh! I bet geezer shtole them!Å
+		I don't get why I can'ch have babiesh!?
+		</child>
+		<adult>
+		There's no little ones!! What have you done, Geezer!?Å
+		I don't get why there's no little ones!Å
+		Yugyaaaa! Wrrrry are Chen's adorable little ones missing!?Å
+		Little ones, where did you go!?!?
+		I can't take it easy without little ones!!!
+		</adult>
+	</rude>
+[/NoPregnancy]
+
+# ÊÅêÊÄñ„Åß„Éë„Éã„ÉÉ„ÇØÁä∂ÊÖã
+[Fear]
+	<normal>
+		<baby>
+			YUNYA!!!Å
+			Shcaaawed! Chen ij shcawed!Å
+			Myamyaaaa!Å
+			<damage>
+				Hewb...Å
+				Myamya...Å
+				I don'd ged id...Å
+			</damage>
+		</baby>
+		<child>
+			YUNYA!!!Å
+			Can'ch chake it eashy!Å
+			Shcaaawed! Chen ish shcawed!Å
+			<damage>
+				Hewp...Å
+				I don'ch get it...Å
+				Pweashe hewp me...Å
+			</damage>
+		</child>
+		<adult>
+			YUNYA!!!Å
+			Can't take it easy!Å
+			Scaaared! Chen is scared!Å
+			Please let Chen take it easy!Å
+			Don't do this!
+			<damage>
+				I don'd ged id...Å
+				Bleaze helb me...Å
+				Helb...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			YUNYA!!!Å
+			Can'ch chake id eajy!Å
+			Myamyaaaa!Å
+			<damage>
+				Hewb...Å
+				Myamya...Å
+				I don'd ged id...Å
+			</damage>
+		</baby>
+		<child>
+			YUNYA!Å
+			Chen can'ch chake it eashy, sho shtop wight now, okay?Å
+			Wet cute Chen chake it eashy and shtop it!Å
+			<damage>
+				I don'ch get it..Å
+				Hewp me...Å
+				Geejer, hewp me...Å
+			</damage>
+		</child>
+		<adult>
+			YUNYA!!!Å
+			Chen can't take it easy, stop right now, okay?Å
+			Don't do this!Å
+			Let the beautiful Chen take it easy and stop it!Å
+			Don't do this!Å
+			<damage>
+				I don'd ged id...Å
+				Helb me...Å
+				Geejer, helb me...Å
+			</damage>
+		</adult>
+	</rude>
+[/Fear]
+
+# ÁÅ´„Åå„Å§„ÅÑ„Å¶„ÇãÁä∂ÊÖã
+[Burning]
+	<normal>
+		<baby>
+			Gyaaaa!!!Å
+			Ich hwoooootch!Å
+			Ich choo hotch! Myamyaaaa!!Å
+			Wan-shyama! Pweashe hewb me!!!Å
+			<damage>
+				Yu... yu... yu...Å
+				Choo... hwotch...Å
+				Sho... hotch... !?
+				Chen... ij... dying...Å
+			</damage>
+		</baby>
+		<child>
+			Yuppyaaaa!!! Hotch!Å
+			Mishter fire shtop hurt-hurting me!Å
+			Ich choo hooootch!!!Å
+			Wan-shama!ÅPweashe hewp me!!!
+			<damage>
+				Yu... yu... yu...
+				Choo... hotch...
+				Wry... ?
+				Chen... ish... dying...Å
+			</damage>
+		</child>
+		<adult>
+			GIGIGIGYAAAAAAAAA!!!Å
+			Id's doo hod!!!
+			Burniiiiing! Meldiiiiiing!Å
+			Mizder vire zdob hurd-hurding me!Å
+			<damage>
+				Yu... yu... yu..Å
+				Id'z... doo... hod...Å
+				Wry... ?Å
+				Chen... iz... dying...Å
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Gyaaaa!!!Å
+			Ich hwoooootch!Å
+			Ich choo hotch! Myamyaaaa!!Å
+			Wan-shyama! Hewb me!!!Å
+			<damage>
+				Yu... yu... yu..Å
+				Choo... hwotch...Å
+				Sho... hotch... !?Å
+				Chen... ij... dying...Å
+			</damage>
+		</baby>
+		<child>
+			Yuppyaaaa!!! Hotch!Å
+			Geezer! Put it out! Quickwy ish fine!Å
+			Ich choo hooootch!!!Å
+			Mishter fire shtop hurt-hurting me!Å
+			<damage>
+				Yu... yu... yu...Å
+				Choo... hotch...Å
+				Wry... ?Å
+				Chen... ish... dying...Å
+			</damage>
+		</child>
+		<adult>
+			GIGIGIGYAAAAAAAAA!!!Å
+			Id's doo hod!!!Å
+			Geezer! Bud id oud! Gwigly iz vine!Å
+			<damage>
+				Yu... yu... yu...Å
+				Id'z... doo... hod...
+				Wry... ?Å
+				Chen... iz... dying...Å
+			</damage>
+		</adult>
+	</rude>
+[/Burning]
+
+# Ê∞¥„Çí„Åã„Åë„Çâ„Çå„Åü
+[Wet]
+	<normal>
+		<baby>
+			Cwowd!Å
+			Mishder wacher doejn't ged id!Å
+			<damage>
+				Sho... cwowd...Å
+				Wry are footshies melching...
+				Can'ch feew anyfing...
+			</damage>
+		</baby>
+		<child>
+			Cowd!Å
+			Mishter wacher doeshn't get it!Å
+			<damage>
+				Sho... cowd...Å
+				Wry are footshiesh melching...
+				Can'ch feew anyshing...
+			</damage>
+		</child>
+		<adult>
+			Cold!Å
+			Mister water doesn't get it!
+			<damage>
+				Zo... cold...Å
+				Wry are vootziez melding...Å
+				Can'd veel anyding...
+			</damage>
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Cwowd!Å
+			Mishder wacher doejn't ged id! Shdop id!Å
+			<damage>
+				Sho... cwowd...
+				Wry are footshiesh melching...
+				Can'ch feew anyfing...
+			</damage>
+		</baby>
+		<child>
+			Cowd!Å
+			Mishter water doesn't get it! Shtop it!Å
+			<damage>
+				Sho... cowd...Å
+				Wry are footshies melching...
+				Can'ch feew anyshing...
+			</damage>
+		</child>
+		<adult>
+			Cold!Å
+			Mister water doesn't get it! Stop it!Å
+			<damage>
+				Zo... cold...
+				Wry are vootziez melding...Å
+				Can'd veel anyding...
+			</damage>
+		</adult>
+	</rude>
+[/Wet]
+
+# „ÅÇ„Å´„ÇÉ„ÇãÈñâÈéñ
+[AnalSealed]
+	<normal>
+		<baby>
+			Feelsh funny!Å
+			Dat ticklej!Å
+		</baby>
+		<child>
+			Feelsh funny!Å
+			Dat tickled!Å
+		</child>
+		<adult>
+			Feels funny!Å
+			That tickled!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Cweepy weiwdo!
+			Geejer ij a pedophile! Don'd tuch baby Chen'sh anyawu, shicko!Å
+		</baby>
+		<child>
+			Cweepy weiwdo!
+			Geezer ish a pervert! Don't touch Chen'sh anyawu, shicko!
+		</child>
+		<adult>
+			Creepy weirdo!
+			Geezer is a pervert! Å
+			Ask the beautiful Chen before you admire her anyaru!Å
+		</adult>
+	</rude>
+[/AnalSealed]
+
+# Èáù„ÅåÂà∫„Åï„Å£„ÅüÊôÇ
+[NeedleStick]
+	<normal>
+		<baby>
+			Gyigyigyaaaa!!?
+			Id huuuurch!
+			Yupii!?Å
+			Byigyaaaa!!Å
+		</baby>
+		<child>
+			KyaaAA!!!
+			Id hurd!!!
+			Yupii!?Å
+			Byigyaaaa!!Å
+		</child>
+		<adult>
+			Dat hurdz!!!
+			Gyaaa! Id huuuurdz!!!Å
+		</adult>
+	</normal>
+[/NeedleStick]
+
+# Èáù„ÅåÂà∫„Åï„Å£„Å¶„ÅÑ„ÇãÊôÇ
+[NeedleScream]
+	<normal>
+		<baby>
+			Pweaje chage id ouwj!Å
+			Wry!? I don'd ged id!!!Å
+			I don'd ged why mishder shdab-shdab hurch me!Å
+			Chage id ouwj quiqwy! Id hurch!Å
+			Shdab-shdab ij uneajy!Å
+			Id hurch sho myuch!Å
+		</baby>
+		<child>
+			Pweashe chage id oud!Å
+			Wry!? I don't get it!Å
+			I don'd ged why mishder shtab-shtab hurd me!Å
+			Chage it out quickwy! It hurd!
+			Shtab-shtab ish uneashy!Å
+			Id hurd sho much!Å
+		</child>
+		<adult>
+			Please take it out!Å
+			Wry!? I don't get it!Å
+			I don't get why mister stab-stab hurt me!Å
+			It hurts so much!Å
+		</adult>
+	</normal>
+[/NeedleScream]
+
+# „Å§„Åå„ÅÑ„ÅÆÈáù„Çí„Åê„Éº„Çä„Åê„Çä„Åô„Çã
+[ExtractingNeedlePartner]
+	<normal>
+		<baby>
+			Hewbing eajy!Å
+			Uneajy shdab-shdab gome oud!Å
+			Gonna chake oud mishder shdab shdab!
+		</baby>
+		<child>
+			Hewping eashy!Å
+			Uneashy shtab-shtab come ouch!Å
+			Gonna chake ouch mishter shtab-shtab!
+		</child>
+		<adult>
+			Helping %partner easy!Å
+			Uneasy stab-stab come out!Å
+			Will do hurt-hurt to mister stab-stab for bullying %partner!Å
+			%partner will be able to take it easy again!Å
+			Gonna take out mister stab stab!
+		</adult>
+	</normal>
+[/ExtractingNeedlePartner]
+
+# Â≠ê„ÅÆÈáù„Çí„Åê„Éº„Çä„Åê„Çä„Åô„Çã
+[ExtractingNeedleChild]
+	<normal>
+		<baby>
+			Hewping eajy!Å
+			Uneajy shdab-shdab gome oud!Å
+			Gonna chake oud mishder shdab shdab!
+		</baby>
+		<child>
+			Hewping eashy!Å
+			Uneashy shtab-shtab come ouch!Å
+			Gonna chake ouch mishter shtab-shtab!
+		</child>
+		<adult>
+			Helping little one easy!Å
+			Uneasy mister stab-stab come out!Å
+			Gonna take out mister stab-stab!Å
+			It will be okay, little one!Å
+			I got it!
+		</adult>
+	</normal>
+[/ExtractingNeedleChild]
+
+# Ë¢´„Åê„Éº„Çä„Åê„ÇäÊôÇ
+[NeedlePain]
+	<normal>
+		<baby>
+			Shdooooob!Å
+			Don'ch gwind gwind!Å
+			Fweews bwaaaaad!
+		</baby>
+		<child>
+			Don'd gwind gwind!Å
+			YugyaaaAA...
+			Feews baaaaad!
+		</child>
+		<adult>
+			Don'd do grind grind!Å
+			YugyaaaAA...Å
+			Veelz baaaaad!Å
+		</adult>
+	</normal>
+[/NeedlePain]
+
+# Èáù„ÇíÊäú„ÅÑ„ÅüÊôÇ
+[NeedleRemove]
+	<normal>
+		<baby>
+			Mishder shdab-shdab ij bewwy bwad!
+		</baby>
+		<child>
+			Mishter shtab-shtab ish vewwy bad!
+		</child>
+		<adult>
+			Mister stab-stab is very bad!
+		</adult>
+	</normal>
+[/NeedleRemove]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæË¶ÅÊ±Ç
+[WantAmaama]
+	<rude>
+		<baby>
+			Wanch shweet shweech!Å
+			Geejer! Gome and bwing shweet shweech!
+		</baby>
+		<child>
+			Chen wants shweet shweets!Å
+			Geezer! Come and bwing shweet shweets!
+		</child>
+		<adult>
+			Chen wants sweet sweets!Å
+			Geezer! Come and bring sweet sweets!
+		</adult>
+	</rude>
+[/WantAmaama]
+
+# ÁßªÂãï‰∏çËÉΩ
+[CantMove]
+	<normal>
+		<baby>
+			Don'd ged why I'm shduck!Å
+		</baby>
+		<child>
+			Don't get why I'm shtuck!Å
+		</child>
+		<adult>
+			Don't get why I'm stuck!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Don'd ged why I'm shduck!
+			Shiddy shwabe! Hewb!
+		</baby>
+		<child>
+			Don't get why I'm shtuck!Å
+			Shitty shwave! Hewp!Å
+			Chen ish vewwy angwy!Å
+		</child>
+		<adult>
+			Don't get why I'm stuck!Å
+			Shitty slave! Help!
+		</adult>
+	</rude>
+[/CantMove]
+
+# ÁßªÂãï‰∏çËÉΩ2
+[CantMove2]
+	<normal>
+		<baby>
+			I don'd ged why my footshiesh don'd mobe!
+		</baby>
+		<child>
+			I don't gech why my fooshiesh don't move!
+		</child>
+		<adult>
+			I don't get why my footsies don't move!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			I don'd ged why my footshiesh don'd mobe!
+		</baby>
+		<child>
+			I don't gech why my fooshiesh don't move!Å
+			Shitty geezer don'ch chake it eashy and hewp!Å
+		</child>
+		<adult>
+			I don't get why my footsies don't move!Å
+			Shitty geezer don't take it easy and help!
+		</adult>
+	</rude>
+[/CantMove2]
+
+# Âºï„Å£Âºµ„Çã
+[Pull]
+	<normal>
+		<baby>
+			Yugii!?!?Å
+			Gyaaa!!! Shdob, you'we shtwetching Chen'sh mishder shkin!Å
+			Shdob iiiddd!!!
+			I can'ch chake id eajyyyyy!!!Å
+		</baby>
+		<child>
+			Yugii!?!?Å
+			Gyaaa!!! Shtop, you'we shtwetching Chen'sh mishter shkin! 
+			Shtop iiiddd!!!Å
+			I can'ch chake it eajy!Å
+			Yu!!! Yu!!! YUU!!!Å
+		</child>
+		<adult>
+			Yugii!?!?Å
+			Gyaaa!!! Zdob, you're ztretching Chen'z mizder zkin! 
+			Zdop iiiddd!!!Å
+			I can'd dage id eazy!Å
+			Yu!!! Yu!!! YUU!!!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Shiddy geejer shdob id!Å
+			You'we wuining Chen'sh cute shoft mishder shkin!Å
+			Sdob iiiddd!!!Å
+			I can'ch chake id eajy!
+			WrryyyYYY!?Å
+		</baby>
+		<child>
+			Shitty geezer shtop it!Å
+			You'we wuining Chen'sh cute shoft mishter shkin!Å
+			Sdob iiiddd!!!Å
+			I can'ch chake id eajy!
+			WrryyyYYY!?Å
+		</child>
+		<adult>
+			Shitty geezer stop it!Å
+			You're ruining Chen's cute soft mister skin!Å
+			Zdop iiiddd!!!Å
+			I can'd dage id eazy!Å
+			Yu!!! Yu!!! YUU!!!Å
+		</adult>
+	</rude>
+[/Pull]
+
+# Âºï„Å£Âºµ„Çã2
+[Pull2]
+	<normal>
+		<baby>
+			Id hurch! Wrryy!!Å
+			Yuwaaaa! Shdoooob!Å
+			Can'ch sdwetchÅsdwetch any moaaaaa! 
+		</baby>
+		<child>
+			Id hurd! Wrryy!!Å
+			Yuwaaaa! Shtoooop!Å
+			Can'd stwetch stwetch any moaaaaa!Å
+			Hurdsh sho muuuuuch!Å
+		</child>
+		<adult>
+			Id hurdz! Wrryy!!Å
+			Yuwaaaa! Zdoooob!Å
+			Can'd zdredch-zdredch any moooore!Å
+			Hurdz zo muuuuuj!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Id hurch! Wrryy!!Å
+			Yuwaaaa! Shdob id geejer!Å
+			Can'ch sdwetchÅsdwetch any moaaaaa! Å
+		</baby>
+		<child>
+			Id hurd! Wrryy!!Å
+			Yuwaaaa! Shtop it geezer!Å
+			Can'd stwetch stwetch any moaaaaa!Å
+			Hurdsh sho muuuuuch!Å
+		</child>
+		<adult>
+			Id hurdz! Wrryy!!Å
+			Yuwaaaa! Zdob id geezer!Å
+			Can'd zdredch-zdredch any moooore!Å
+			Hurdz zo muuuuuj!Å
+		</adult>
+	</rude>
+[/Pull2]
+
+# „Å§„Å∂„Åô
+[Press]
+	<normal>
+		<baby>
+			Yube!Å
+			Can'ch chage id eajy lige diz!
+			Shdob id, ogay?Å
+			Huuurch!
+		</baby>
+		<child>
+			Yubyeagh!Å
+			Can'ch chake it eashy like dish!
+			Shtop it, okay?Å
+			Huuurd!
+		</child>
+		<adult>
+			Yugya!Å
+			Gan'd dage id eazy lige diz!
+			Zdob id, ogay?Å
+			Huuurdz!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yube!Å
+			Don'ch do dat to mishder head, geejer!Å
+			You don'ch ged id! Id hurch!Å
+			Shdooop!Å
+		</baby>
+		<child>
+			Yubyeagh!Å
+			Don'd do that to mishter head, geezer!
+			You don'tÅget it! Id hurch! 
+			Shtooop!Å
+		</child>
+		<adult>
+			Yugya!Å
+			Don't do that to mister head, geezer!
+			You don'd ged id! Id hurdz!Å
+			Zdooob!Å
+		</adult>
+	</rude>
+[/Press]
+
+# „Å§„Å∂„Åô2
+[Press2]
+	<normal>
+		<baby>
+			Yuwaaa!Å
+			I don'd ged why I'm being cwushed!Å
+			Shdob id! Shdooob!Å
+			Chen ij being cwu~u~ushed!Å
+			Ran-Shyama, hewb me!Å
+			Sdob! Can'ch chake id eajy lige dish!Å
+			Huuuurdz!Å
+		</baby>
+		<child>
+			Yuwaaa!Å
+			I don't get why I'm being cwushed!Å
+			Shtop it! Shtooop!Å
+			Chen ish being cwu~u~ushed!Å
+			Ran-Shyama, hewb me!Å
+			Sdob! Can'ch chake id eajy lige dish!Å
+			Huuuurdz!Å
+		</child>
+		<adult>
+			Yuwaaa!Å
+			I don'd ged why I'm being grushed!Å
+			Zdob id! Zdooob!Å
+			Chen iz being gru~u~ushed!Å
+			Ran-Zama, helb me!
+			Zdob! Gan'd dage id eazy lige diz!Å
+			Huuuurdz!Å
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yuwaaa!Å
+			I don'd ged why I'm being cwushed!Å
+			Shdob id! Shdooob!Å
+			Chen ij being cwu~u~ushed!Å
+			Shiddy geejer, shdob id!Å
+			Sdob! Can'ch chake id eajy lige dish!Å
+			Huuuurdz!Å
+		</baby>
+		<child>
+			Yuwaaa!Å
+			I don't get why I'm being cwushed!Å
+			Shtop it! Shtooop!Å
+			Chen ish being cwu~u~ushed!Å
+			Shitty geezer, shtop it!Å
+			Sdob! Can'ch chake id eajy lige dish!Å
+			Huuuurdz!Å
+		</child>
+		<adult>
+			Yuwaaa!Å
+			I don'd ged why I'm being grushed!Å
+			Zdob id! Zdooob!Å
+			Chen iz being gru~u~ushed!Å
+			Siddy geezer, zdob id!
+			Zdob! Gan'd dage id eazy lige diz!Å
+			Huuuurdz!Å
+		</adult>
+	</rude>
+[/Press2]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæÁô∫Ë¶ã
+[FindAmaama]
+	<normal>
+		<baby>
+			Shweed shweech! I get it!Å
+		</baby>
+		<child>
+			Shweet sweech! I get it!Å
+		</child>
+		<adult>
+			Sweet sweets! I get it!
+		</adult>
+	</normal>
+[/FindAmaama]
+
+# „ÅÇ„Åæ„ÅÇ„ÅæÈ£ü‰∫ã
+[EatingAmaama]
+	<normal>
+		<baby>
+			Mwunj mwunj~ dewicious!Å
+		</baby>
+		<child>
+			Munsh munsh~ dewicious!Å
+		</child>
+		<adult>
+			Munch munch~ delicious!Å
+		</adult>
+	</normal>
+[/EatingAmaama]
+
+# ÂêêÈ§°
+[Vomit]
+	<normal>
+		<baby>
+			Gigi...
+			Yubu...
+		</baby>
+		<child>
+			Bugeh...
+			Bwoue...
+		</child>
+		<adult>
+			Bugyu...
+			Gegyuh...
+		</adult>
+	</normal>
+[/Vomit]
+
+# Ê±éÁî®„ÄÅÁÄïÊ≠ªÁ∂ôÁ∂ö
+[Dying2]
+	<normal>
+		<baby>
+			Yu... yugi...
+			Yu... yu... yu...Å
+		</baby>
+		<child>
+			Yu... yubeh...
+			Yu... yu, yu...
+		</child>
+		<adult>
+			Yu... yubeh...
+			Yu, yu... yu...Å
+		</adult>
+	</normal>
+[/Dying2]
+
+# Ê±éÁî®„ÄÅÈ©ö„Åç
+[Surprise]
+	<normal>
+		<baby>
+			Yuaaaaa~n!
+			I don'ch gech why you did daaaat!Å
+		</baby>
+		<child>
+			Yuaaaaa~n!
+			I don't get why you did daaaat!Å
+		</child>
+		<adult>
+			Yuaaaaa~n!
+			I don'd ged why you did daaaat!Å
+		</adult>
+	</normal>
+[/Surprise]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´‰Ωï„Åã„Åï„Çå„Åü„Å®„Åç„Å´ÂØæ„Åô„ÇãÊîªÊíÉ„ÄÅÂèçÊíÉ
+[RevengeAttack]
+	<rude>
+		<baby>
+			I do NOCH get ich!Å
+		</baby>
+		<child>
+			I do NODÅged id!
+		</child>
+		<adult>
+			I do NOT get it!Å
+		</adult>
+	</rude>
+[/RevengeAttack]
+
+# „Åä„Åï„Åí„ÄÅÂ∞ªÂ∞æ„ÄÅÁæΩ„Çí„Å°„Åé„Çã
+[BraidCut]
+	<normal>
+		<baby>
+			Mishder fwap fwaps wrryyy!?Å
+		</baby>
+		<child>
+			Chen's mishter fwap fwaps! Noooo!!Å
+		</child>
+		<adult>
+			Wrrr would you do dat to Chen's vlap vlaaaabs!?Å
+		</adult>
+	</normal>
+[/BraidCut]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´Áîü„Åç„Åü„Åæ„ÅæÈ£ü„Åπ„Çâ„Çå„Çã
+[EatenByBody]
+	<normal>
+		<baby>
+			I don'ch gech why I'm being mwunch mwuuuunched!Å
+		</baby>
+		<child>
+			I don't get why I'm being munsh muuuunshed!Å
+		</child>
+		<adult>
+			I don'd ged why I'm being munj muuuunjed!Å
+		</adult>
+	</normal>
+[/EatenByBody]
+
+# Ê±éÁî®„ÄÅ‰ªñ„ÅÆ„ÇÜ„Å£„Åè„Çä„Å´Áîü„Åç„Åü„Åæ„ÅæÂê∏„Çè„Çå„Çã
+[EatenByBody2]
+	<normal>
+		<baby>
+			Huuuurch!?Å
+		</baby>
+		<child>
+			Mishter fiwwing noooo!!Å
+		</child>
+		<adult>
+			I don't get iiiit!!!Å
+		</adult>
+	</normal>
+[/EatenByBody2]
+
+# „Çå„Åø„Çä„ÇÉ„Åã„ÇâÈÄÉ„Åí„Çã
+[EscapeFromRemirya]
+	<normal>
+		<baby>
+			Ij Wemiwyaaaaa!Å
+		</baby>
+		<child>
+			I don'ch gech why Wemiwya's heaaaa!Å
+		</child>
+		<adult>
+			I don'd ged why Remirya's heeeeere!Å
+		</adult>
+	</normal>
+[/EscapeFromRemirya]

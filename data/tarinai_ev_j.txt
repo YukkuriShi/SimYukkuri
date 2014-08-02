@@ -1,0 +1,322 @@
+# レイパー怯え
+[ScareRapist]
+	<normal>
+		ゆっぴー！
+	</normal>
+[/ScareRapist]
+
+# レイパーに攻撃
+[AttackRapist]
+	<normal>
+		<baby>
+			使われないんでダミー
+		</baby>
+		<child>
+			使われないんでダミー
+		</child>
+		<adult>
+			ゆんがあああ！！！
+			ゆぎいぃ！！！
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# レイパーに反撃命令
+[CounterRapist]
+	<normal>
+		<baby>
+			使われないんでダミー
+		</baby>
+		<child>
+			使われないんでダミー
+		</child>
+		<adult>
+			ゆぴぴー！
+			ゆっぴ！ゆっぴ！ゆぴぴー！！！
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# おかざりのないゆっくり発見
+[HateYukkuri]
+	<normal>
+		ゆっゆっゆっ？
+	</normal>
+[/HateYukkuri]
+
+# つがいを気遣う
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			ゆぴぃ、、、
+		</baby>
+		<child>
+			ゆぴぃ、、、
+		</child>
+		<adult>
+			ゆぴぃ、、、
+		</adult>
+	</normal>
+
+[/ConcernAboutPartner]
+
+# 子を気遣う
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			ゆぴぃ、、、
+		</baby>
+		<child>
+			ゆぴぃ、、、
+		</child>
+		<adult>
+			ゆぴぃ、、、
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# 姉を気遣う
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			ゆぴぃ、、、
+		</baby>
+		<child>
+			ゆぴぃ、、、
+		</child>
+		<adult>
+			ゆぴぃ、、、
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# 妹を気遣う
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			ゆぴぃ、、、
+		</baby>
+		<child>
+			ゆぴぃ、、、
+		</child>
+		<adult>
+			ゆぴぃ、、、
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# つがい出産時
+[RootForPartner]
+	<normal>
+		<baby>
+			ゆっぴー！
+		</baby>
+		<child>
+			ゆっぴー！
+		</child>
+		<adult>
+			ゆっぴー！
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# 子への最初の挨拶
+[FirstGreeting]
+	<normal>
+		<baby>
+			ゆっぴー！
+		</baby>
+		<child>
+			ゆっぴー！
+		</child>
+		<adult>
+			ゆっぴー！
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# ゆっくりしているすぃーを見て
+[YukkuringSui]
+	<normal>
+		ゆー！
+	</normal>
+[/YukkuringSui]
+
+# すぃーを欲しがる
+[WantingSui]
+	<normal>
+		ゆー！ゆー！
+	</normal>
+[/WantingSui]
+
+# すぃーを欲しがっているゆっくりのパートナー
+[WantingSuiPartner]
+	<normal>
+		ゆー！ゆー！
+	</normal>
+[/WantingSuiPartner]
+
+# すぃーを欲しがっているゆっくりの親
+[WantingSuiParent]
+	<normal>
+		ゆー！ゆー！
+	</normal>
+[/WantingSuiParent]
+
+# すぃーを見つける
+[FindSui]
+	<normal>
+		ゆー！
+	</normal>
+[/FindSui]
+
+# すぃーを自分のものにする
+[GetSui]
+	<normal>
+		ゆー！ゆー！
+	</normal>
+[/GetSui]
+
+# 自分のすぃーにのりにいく
+[FindGetSui]
+	<normal>
+		ゆー！
+	</normal>
+[/FindGetSui]
+
+# 自分以外のすぃーにのりにいく
+[FindGetSuiOtner]
+	<normal>
+		ゆー！
+	</normal>
+[/FindGetSuiOtner]
+
+# 自分以外のすぃーにのりにいくときに呼ぶ
+[WantRideSuiOtner]
+	<normal>
+		ゆー！ゆー！
+	</normal>
+[/WantRideSuiOtner]
+
+# すぃーにのる
+[RideSui]
+	<normal>
+		ゆー！
+	</normal>
+[/RideSui]
+
+# すぃーにのっている
+[RidingSui]
+	<normal>
+		ゆっ！ゆっ！ゆっ！
+		ゆぅ～！
+	</normal>
+[/RidingSui]
+
+# すぃーを運転する
+[DrivingSui]
+	<normal>
+		ゆー！
+	</normal>
+[/DrivingSui]
+
+# すぃーを運転するパートナーをみて（自分はのっていない）
+[DrivingSuiPartner]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiPartner]
+
+# すぃーを運転するこどもをみて（自分はのっていない）
+[DrivingSuiChild]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiChild]
+
+# すぃーを運転する父親をみて（自分はのっていない）
+[DrivingSuiPAPA]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiPAPA]
+
+# すぃーを運転する母親をみて（自分はのっていない）
+[DrivingSuiMAMA]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiMAMA]
+
+# すぃーを運転する姉をみて（自分はのっていない）
+[DrivingSuiOldSister]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiOldSister]
+
+# すぃーを運転する妹をみて（自分はのっていない）
+[DrivingSuiYoungSister]
+	<normal>
+		ゆっぴ！ゆっぴ！ゆっぴ～！
+	</normal>
+[/DrivingSuiYoungSister]
+
+# すぃーから降りる
+[RideOffSui]
+	<normal>
+		ゆゆー！
+	</normal>
+[/RideOffSui]
+
+# 持っているすぃーを自慢する
+[hasSui]
+	<normal>
+		ゆっぴ～！
+	</normal>
+	<rude>
+		ゆっぴ～！
+	</rude>
+[/hasSui]
+
+# 持っているすぃーを自慢されるパートナー
+[hasSuiPartner]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiPartner]
+
+# こどもの持っているすぃーを自慢される親
+[hasSuiChild]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiChild]
+
+# 父親の持っているすぃーを自慢されるこども
+[hasSuiPAPAChild]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiPAPAChild]
+
+# 母親の持っているすぃーを自慢されるこども
+[hasSuiMAMAChild]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiMAMAChild]
+
+# 姉の持っているすぃーを自慢される
+[hasSuiOldSister]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiOldSister]
+
+# 妹の持っているすぃーを自慢される
+[hasSuiYoungSister]
+	<normal>
+		ゆ～♪ゆ～♪
+	</normal>
+[/hasSuiYoungSister]

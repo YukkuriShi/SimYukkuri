@@ -1,0 +1,375 @@
+# レイパー怯え
+[ScareRapist]
+	<normal>
+		<baby>
+			じゃ、じゃおー！
+			<damage>
+				じゃおー、、、
+			</damage>
+		</baby>
+		<child>
+			じゃおー！
+			<damage>
+				じゃおー、、、
+			</damage>
+		</child>
+		<adult>
+			じゃおー！
+			<damage>
+				じゃお、、、じゃおー、、、
+			</damage>
+		</adult>
+	</normal>
+[/ScareRapist]
+
+# レイパーに攻撃
+[AttackRapist]
+	<normal>
+		<baby>
+			じゃおっ！
+		</baby>
+		<child>
+			じゃおっ！
+		</child>
+		<adult>
+			じゃおっ！！！
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# レイパーに反撃命令
+[CounterRapist]
+	<normal>
+		<baby>
+			じゃお～ん！じゃお～ん！
+		</baby>
+		<child>
+			じゃお～ん！じゃお～ん！
+		</child>
+		<adult>
+			じゃお～ん！じゃお～ん！じゃお～ん！！！
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# おかざりのないゆっくり発見
+[HateYukkuri]
+	<normal>
+		<baby>
+			じゃお？じゃおじゃお、じゃおーん！？
+		</baby>
+		<child>
+			じゃお？じゃおじゃお、じゃおーん！？
+		</child>
+		<adult>
+			じゃお？じゃおじゃお、じゃおーん！？
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			じゃお？じゃおじゃお、じゃおーん！
+		</baby>
+		<child>
+			じゃお？じゃおじゃお、じゃおーん！
+		</child>
+		<adult>
+			じゃお？じゃおじゃお、じゃおーん！
+		</adult>
+	</rude>
+[/HateYukkuri]
+
+# つがいを気遣う
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			じゃーおー？
+			じゃおっじゃおっ？
+		</baby>
+		<child>
+			じゃーおー？
+			じゃおっじゃおっ？
+		</child>
+		<adult>
+			じゃーおー？
+			じゃおっじゃおっ？
+			じゃおっ！じゃおっ！
+		</adult>
+	</normal>
+[/ConcernAboutPartner]
+
+# 子を気遣う
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			じゃーおー？
+			じゃおっじゃおっ？
+		</baby>
+		<child>
+			じゃーおー？
+			じゃおっじゃおっ？
+		</child>
+		<adult>
+			じゃーおー？
+			じゃおっじゃおっ？
+			じゃおっ！じゃおっ！
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# 姉を気遣う
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			じゃーおじゃーお？
+			じゃおーん、、、
+		</baby>
+		<child>
+			じゃーおじゃーお？
+			じゃおーん、、、
+		</child>
+		<adult>
+			じゃーおじゃーお？
+			じゃおーん、、、
+			じゃおっ！じゃおっ！
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# 妹を気遣う
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			じゃーおじゃーお？
+			じゃおーん、、、
+		</baby>
+		<child>
+			じゃーおじゃーお？
+			じゃおーん、、、
+		</child>
+		<adult>
+			じゃーおじゃーお？
+			じゃおーん、、、
+			じゃおっ！じゃおっ！
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# つがい出産時
+[RootForPartner]
+	<normal>
+		<baby>
+			じゃーお！じゃーお！
+			じゃおーんじゃおーんじゃおーーん！！！
+		</baby>
+		<child>
+			じゃーお！じゃーお！
+			じゃおーんじゃおーんじゃおーーん！！！
+		</child>
+		<adult>
+			じゃーお！じゃーお！
+			じゃおーんじゃおーんじゃおーーん！！！
+			じゃおじゃお、じゃおーんじゃおーん！じゃーおーーん！！！
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# 子への最初の挨拶
+[FirstGreeting]
+	<normal>
+		<baby>
+			おちびちゃん！ じゃおじゃおっ！
+		</baby>
+		<child>
+			おちびちゃん！ じゃおじゃおっ！
+		</child>
+		<adult>
+			おちびちゃん！ じゃおじゃおっ！
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# ゆっくりしているすぃーを見て
+[YukkuringSui]
+	<normal>
+		すぃー！ じゃお～ん！
+	</normal>
+[/YukkuringSui]
+
+# すぃーを欲しがる
+[WantingSui]
+	<normal>
+		すぃー！ じゃおじゃお♪
+	</normal>
+[/WantingSui]
+
+# すぃーを欲しがっているゆっくりのパートナー
+[WantingSuiPartner]
+	<normal>
+		すぃー！ じゃおじゃおっ！
+	</normal>
+[/WantingSuiPartner]
+
+# すぃーを欲しがっているゆっくりの親
+[WantingSuiParent]
+	<normal>
+		すぃー！じゃおっ！じゃおっ！
+	</normal>
+[/WantingSuiParent]
+
+# すぃーを見つける
+[FindSui]
+	<normal>
+		すぃー！ じゃおーん！
+	</normal>
+[/FindSui]
+
+# すぃーを自分のものにする
+[GetSui]
+	<normal>
+		すぃー！ じゃおじゃおっ！
+	</normal>
+[/GetSui]
+
+# 自分のすぃーにのりにいく
+[FindGetSui]
+	<normal>
+		じゃおっ！
+	</normal>
+[/FindGetSui]
+
+# 自分以外のすぃーにのりにいく
+[FindGetSuiOtner]
+	<normal>
+		じゃおじゃおっ！
+	</normal>
+[/FindGetSuiOtner]
+
+# 自分以外のすぃーにのりにいくときに呼ぶ
+[WantRideSuiOtner]
+	<normal>
+		じゃおっ！じゃおっ！
+	</normal>
+[/WantRideSuiOtner]
+
+# すぃーにのる
+[RideSui]
+	<normal>
+		じゃおじゃお～！
+	</normal>
+[/RideSui]
+
+# すぃーにのっている
+[RidingSui]
+	<normal>
+		じゃおじゃお♪
+		じゃおじゃおーん♪
+	</normal>
+[/RidingSui]
+
+# すぃーを運転する
+[DrivingSui]
+	<normal>
+		じゃおっ！じゃおっ！
+	</normal>
+[/DrivingSui]
+
+# すぃーを運転するパートナーをみて（自分はのっていない）
+[DrivingSuiPartner]
+	<normal>
+		%partner！じゃおっ！
+	</normal>
+[/DrivingSuiPartner]
+
+# すぃーを運転するこどもをみて（自分はのっていない）
+[DrivingSuiChild]
+	<normal>
+		おちびちゃん！じゃおっ！
+	</normal>
+[/DrivingSuiChild]
+
+# すぃーを運転する父親をみて（自分はのっていない）
+[DrivingSuiPAPA]
+	<normal>
+		おとうしゃん！じゃおっ！
+	</normal>
+[/DrivingSuiPAPA]
+
+# すぃーを運転する母親をみて（自分はのっていない）
+[DrivingSuiMAMA]
+	<normal>
+		おかあしゃん！じゃおっ！
+	</normal>
+[/DrivingSuiMAMA]
+
+# すぃーを運転する姉をみて（自分はのっていない）
+[DrivingSuiOldSister]
+	<normal>
+		おねえちゃん！じゃおっ！
+	</normal>
+[/DrivingSuiOldSister]
+
+# すぃーを運転する妹をみて（自分はのっていない）
+[DrivingSuiYoungSister]
+	<normal>
+		いもうと！じゃおっ！
+	</normal>
+[/DrivingSuiYoungSister]
+
+# すぃーから降りる
+[RideOffSui]
+	<normal>
+		じゃお～ん！じゃお～ん！
+	</normal>
+[/RideOffSui]
+
+# 持っているすぃーを自慢する
+[hasSui]
+	<normal>
+		じゃおじゃお じゃおーん！
+	</normal>
+	<rude>
+		じゃおじゃお じゃおーん！
+	</rude>
+[/hasSui]
+
+# 持っているすぃーを自慢されるパートナー
+[hasSuiPartner]
+	<normal>
+		%partner！じゃおじゃお！
+	</normal>
+[/hasSuiPartner]
+
+# 子どもの持っているすぃーを自慢される親
+[hasSuiChild]
+	<normal>
+		おちびちゃん！じゃおじゃお！
+	</normal>
+[/hasSuiChild]
+
+# 父親の持っているすぃーを自慢されるこども
+[hasSuiPAPAChild]
+	<normal>
+		おとうしゃん！じゃおじゃお！
+	</normal>
+[/hasSuiPAPAChild]
+
+# 母親の持っているすぃーを自慢されるこども
+[hasSuiMAMAChild]
+	<normal>
+		おかあしゃん！じゃおじゃお！
+	</normal>
+[/hasSuiMAMAChild]
+
+# 姉の持っているすぃーを自慢される
+[hasSuiOldSister]
+	<normal>
+		おねえちゃん！じゃおじゃお！
+	</normal>
+[/hasSuiOldSister]
+
+# 妹の持っているすぃーを自慢される
+[hasSuiYoungSister]
+	<normal>
+		いもうと！じゃおじゃお！
+	</normal>
+[/hasSuiYoungSister]

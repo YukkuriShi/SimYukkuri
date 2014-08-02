@@ -1,0 +1,425 @@
+# Raper scare
+[ScareRapist]
+	<normal>
+		<baby>
+			Yupyaaa!
+			Wowicon! Countwy bumpkyiiin!
+			Nyooo!
+			Myamya, heeeewp!
+			Wryyy? Eben dough Awiche ish a good widdwe one!?
+			<damage>
+				Yu, yu, yu...
+				Wowicon! Countwy bumpkyiiin...
+				Hewp...
+				Don'd gome nea...
+				Eben dough Awiche ish a good widdwe one...
+			</damage>
+		</baby>
+		<child>
+			Yupyaaa! It'sh a waper!
+			Too fasht for Awishe!
+			It'sh a waper! Hewp!
+			Myamya, heeewp!
+			Wryyy? Eben dough Awishe ish a good widdwe one!?
+			<damage>
+				Pweashe shtop...
+				Too fasht for Awishe...
+				Mishter footshie huwwy up...
+				Don'd come chowardsh Awishe...
+				Eben dough Awishe ish a good widdwe one...
+			</damage>
+		</child>
+		<adult>
+			It's a raper!
+			But letting others get refreshed is Alice's joooob!?!?!?
+			Rapers are not cit-sect!!
+			What a shameless person! This isn't city-sect!!!
+			<damage>
+				Wry would you do diz do Aliiiice...
+				Bud ledding others get revreshed iz Alice's joooob!?!?!?
+				Mister footsies move faster...
+				Bleaze led Alice go...
+				Yugigi... so shameless!
+				Such a... country bumpkiiin...
+			</damage>
+		</adult>
+	</normal>
+[/ScareRapist]
+
+# Attacking raper
+[AttackRapist]
+	<normal>
+		<baby>
+			unused dummy
+		</baby>
+		<child>
+			unused dummy
+		</child>
+		<adult>
+			Stop that! Such a country bumpkin!
+			Alice is not a raperr!!!
+		</adult>
+	</normal>
+[/AttackRapist]
+
+# Ordering counterattack on raper
+[CounterRapist]
+	<normal>
+		<baby>
+			unused dummy
+		</baby>
+		<child>
+			unused dummy
+		</child>
+		<adult>
+			Everyone punish that raper!
+			Everyone beat that shameless person!
+		</adult>
+	</normal>
+[/CounterRapist]
+
+# Discovering accessoryless yukkuri
+[HateYukkuri]
+	<normal>
+		<baby>
+			Ich a countwy bumpkyin yukkuchi.
+			Shtwange yukkuchi!
+			Countwy bumpkyin!
+		</baby>
+		<child>
+			Ich a countwy bumpkin yukkuchi.
+			Ich a shtwange yukkuchi.
+			Countwy bumpkin go away!
+		</child>
+		<adult>
+			It's a country bumpkin yukkuri!
+			It's a strange yukkuri.
+			Get out of here, country bumpkin!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Yupupu, ich a countwy bumpkyin yukkuchi.
+			Yupupu, wach dat?
+			Countwy bumpkyiiin!
+			Yupupu, puwnichment!
+		</baby>
+		<child>
+			Yupupu, ich a countwy bumpkin yukkuchi.
+			Yupupu, ich a countwy bumpkin.
+			Awishe wiww punish da countwy bumpkin.
+			Ich a not-shiddy-shect yukkuchi.
+		</child>
+		<adult>
+			Yufufu, it's a country bumpkin yukkuri! Punish it!
+			Yufufu, it's a country bumpkin.
+			Alice will administer city-sect punishment.
+			It's the country bumpkin's punishment!
+		</adult>
+	</rude>
+[/HateYukkuri]
+
+# Worrying about partner
+[ConcernAboutPartner]
+	<normal>
+		<baby>
+			Wub wub, chage id eajy?
+			Eajy! Eajyy!
+			Wick wick, ged eajier.
+		</baby>
+		<child>
+			Wub wub, tage id eajy?
+			Letsh eajy...
+			Wick wick, tage id eajier.
+		</child>
+		<adult>
+			Is %partner okay?
+			%partner, hang in there!
+			%partner, throwing up mister paste is bad!
+		</adult>
+	</normal>
+
+[/ConcernAboutPartner]
+
+# Worrying about child
+[ConcernAboutChild]
+	<normal>
+		<baby>
+			Wub wub, chage id eajy?
+			Eajy! Eajyy!
+			Wick wick, ged eajier.
+		</baby>
+		<child>
+			Wub wub, tage id eajy?
+			Letsh eajy...
+			Wick wick, tage id eajier.
+		</child>
+		<adult>
+			Is little one okay?
+			Little one, hang in there!
+			Little one, throwing up mister paste is bad!
+		</adult>
+	</normal>
+[/ConcernAboutChild]
+
+# Worrying about older sister
+[ConcernAboutEldersister]
+	<normal>
+		<baby>
+			Wub wub, chage id eajy?
+			Big Shish! Eajy! Eajyy!
+			Wick wick, ged eajier.
+		</baby>
+		<child>
+			Wub wub, tage id eajy?
+			Big Shish, letsh eajy...
+			Wick wick, tage id eajier.
+		</child>
+		<adult>
+			Is %partner okay?
+			%partner, hang in there!
+			%partner, throwing up mister paste is bad!
+		</adult>
+	</normal>
+[/ConcernAboutEldersister]
+
+# Worrying about younger sister
+[ConcernAboutSister]
+	<normal>
+		<baby>
+			Wub wub, chage id eajy?
+			Widdwe Shish! Eajy! Eajyy!
+			Wick wick, ged eajier.
+		</baby>
+		<child>
+			Wub wub, tage id eajy?
+			Widdwe Shish, letsh eajy...
+			Wick wick, tage id eajier.
+		</child>
+		<adult>
+			Is %partner okay?
+			%partner, hang in there!
+			%partner, throwing up mister paste is bad!
+		</adult>
+	</normal>
+[/ConcernAboutSisterr]
+
+# Partner giving birth
+[RootForPartner]
+	<normal>
+		<baby>
+			Howwd on!
+		</baby>
+		<child>
+			Keep ad id!
+		</child>
+		<adult>
+			Just a little more, %partner! Hang in there!
+		</adult>
+	</normal>
+[/RootForPartner]
+
+# First greeting to child
+[FirstGreeting]
+	<normal>
+		<baby>
+			Chage id eajy!
+		</baby>
+		<child>
+			Tage id eajy!
+		</child>
+		<adult>
+			Take it easy!
+		</adult>
+	</normal>
+[/FirstGreeting]
+
+# Look at a Suii that's taking it easy
+[YukkuringSui]
+	<normal>
+		Suii can take it very easy!
+	</normal>
+[/YukkuringSui]
+
+# Wanting a Suii
+[WantingSui]
+	<normal>
+		%name wants a Suii!
+		Want a Suii!
+	</normal>
+[/WantingSui]
+
+# Partner of a yukkuri that wants a Suii
+[WantingSuiPartner]
+	<normal>
+		Don't take it easy and bring a Suii for %partner!
+		%partner wants a Suii!
+	</normal>
+[/WantingSuiPartner]
+
+# Parent of a yukkuri that wants a Suii
+[WantingSuiParent]
+	<normal>
+		Don't take it easy and bring a Suii for little one!
+		Little one can't take it easy without a Suii!
+	</normal>
+[/WantingSuiParent]
+
+# Discovering a Suii
+[FindSui]
+	<normal>
+		It's a Suii!
+	</normal>
+[/FindSui]
+
+# Claiming a Suii
+[GetSui]
+	<normal>
+		This Suii is %name's!
+	</normal>
+[/GetSui]
+
+# Taking a ride on own Suii
+[FindGetSui]
+	<normal>
+		Going driving!
+	</normal>
+[/FindGetSui]
+
+# Taking a ride on someone else's Suii
+[FindGetSuiOtner]
+	<normal>
+		Going driving together!
+	</normal>
+[/FindGetSuiOtner]
+
+# Wanting a ride on someone else's Suii
+[WantRideSuiOtner]
+	<normal>
+		Give Alice a ride on the Suii!
+	</normal>
+[/WantRideSuiOtner]
+
+# Getting on a Suii
+[RideSui]
+	<normal>
+		Ready to depart!
+	</normal>
+[/RideSui]
+
+# Riding a Suii
+[RidingSui]
+	<normal>
+		Feels good!
+		Fun!
+	</normal>
+[/RidingSui]
+
+# Driving a Suii
+[DrivingSui]
+	<normal>
+		Watch %name's driving technique!
+	</normal>
+[/DrivingSui]
+
+# Look at partner driving a Suii (not riding with them)
+[DrivingSuiPartner]
+	<normal>
+		As expected of %name's %partner!
+		So cool!
+	</normal>
+[/DrivingSuiPartner]
+
+# Look at child driving a Suii (not riding with them)
+[DrivingSuiChild]
+	<normal>
+		As expected of %name's little one!
+	</normal>
+[/DrivingSuiChild]
+
+# Look at father driving a Suii (not riding with them)
+[DrivingSuiPAPA]
+	<normal>
+		Papa is so cool!
+	</normal>
+[/DrivingSuiPAPA]
+
+# Look at mother driving a Suii (not riding with them)
+[DrivingSuiMAMA]
+	<normal>
+		Mama is so cool!
+	</normal>
+[/DrivingSuiMAMA]
+
+# Look at older sister driving a Suii (not riding with them)
+[DrivingSuiOldSister]
+	<normal>
+		Big sis is so cool!
+	</normal>
+[/DrivingSuiOldSister]
+
+# Look at younger sister driving a Suii (not riding with them)
+[DrivingSuiYoungSister]
+	<normal>
+		%name's little sis is so cool!
+	</normal>
+[/DrivingSuiYoungSister]
+
+# Getting off Suii
+[RideOffSui]
+	<normal>
+		That was fun!
+	</normal>
+[/RideOffSui]
+
+# Boasting about owning a Suii
+[hasSui]
+	<normal>
+		%name has a Suii!
+	</normal>
+	<rude>
+		%name got to drive the Suii that big sis begged for no ze. It's simple no ze.
+	</rude>
+[/hasSui]
+
+# Partner boasting about having a Suii
+[hasSuiPartner]
+	<normal>
+		As expected of %partner!
+	</normal>
+[/hasSuiPartner]
+
+# Parent boasting about child having a Suii
+[hasSuiChild]
+	<normal>
+		As expected of %name's little one!
+	</normal>
+[/hasSuiChild]
+
+# Child boasting about father having a Suii
+[hasSuiPAPAChild]
+	<normal>
+		As expected of Papa!
+	</normal>
+[/hasSuiPAPAChild]
+
+# Child boasting about mother having a Suii
+[hasSuiMAMAChild]
+	<normal>
+		As expected of Mama!
+	</normal>
+[/hasSuiMAMAChild]
+
+# Boasting about big sister having a Suii
+[hasSuiOldSister]
+	<normal>
+		As expected of big sis!
+	</normal>
+[/hasSuiOldSister]
+
+# Boasting about big sister having a Suii
+[hasSuiYoungSister]
+	<normal>
+		As expected of %name's little sis!
+	</normal>
+[/hasSuiYoungSister]
