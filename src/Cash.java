@@ -1,8 +1,5 @@
 package src;
 
-
-
-
 public class Cash {
 	
 	private static long cash = 10000;
@@ -22,52 +19,6 @@ public class Cash {
 	public static void buyItem(Obj item) {
 		cash -= item.getValue();
 	}
-
-/////    SHITARABA METHOD OF DETERMINING PURCHASE VALUE
-/*	public static void buyYukkuri(Body body) {
-		int val = 0;
-		
-		// 蝓ｺ譛ｬ萓｡蛟､
-		if(body.isPredatorType()) {
-			// 謐暮｣溽ｨｮ
-			val = 3000;
-		} else if(body.isHybrid()) {
-			// 繝上う繝悶Μ繝�ラ
-			val = 5000;
-		} else if(body.isIdiot()) {
-			// 雜ｳ繧翫↑縺�
-			val = 100;
-		} else if(body.getType() == DosMarisa.type) {
-			// 繝峨せ
-			val = 50000;
-		} else if(body.getType() < 100 || body.getType() == Deibu.type
-				 || body.getType() == MarisaTsumuri.type || body.getType() == MarisaKotatsumuri.type
-				 || body.getType() == WasaReimu.type) {
-			// 騾壼ｸｸ遞ｮ
-			val = 1500;
-			if(body.getType() > 100 && body.getType() != Deibu.type) {
-				val += 1000;
-			}
-		} else if((body.getType() >= 1000 && body.getType() < 2000) || body.getType() == Kimeemaru.type) {
-			// 蟶悟ｰ醍ｨｮ
-			val = 15000;
-		}
-		
-		switch(body.getAgeState()) {
-			case BABY:
-				val /= 3;
-				break;
-			case CHILD:
-				val /= 2;
-				break;
-			case ADULT:
-				val /= 1;
-				break;
-		}
-		
-		cash -= val;
-	}
-	*/
 	
 	public static void buyYukkuri(Body body) {
 	int val = 0;
@@ -77,10 +28,6 @@ public class Cash {
 	
 	cash -= val;
 }
-
-
-	
-	
 
 	public static void sellYukkuri(Body body) {
 		int val = 0;
@@ -115,8 +62,10 @@ public class Cash {
 				val *= 0.95;
 				break;
 		}
-
-		
+		if (body.getDamage() > 0)
+		{
+		val = val *(1 - (body.getDamage() /body.getDamageLimit()));
+		}
 		cash += val;
 	}
 	
@@ -153,9 +102,10 @@ public class Cash {
 				val *= 0.95;
 				break;
 		}
-
-		
+		if (body.getDamage() > 0)   // not working?
+		{
+		val = val *(1 - (body.getDamage() /body.getDamageLimit()));
+		}
 		return val;
-	}
-	
+	}	
 }

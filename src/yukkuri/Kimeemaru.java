@@ -15,7 +15,7 @@ public class Kimeemaru extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 2003;
 	public static final String nameJ = "Kimemaru";
-	public static final String nameE = "Kimeemaru";
+	public static final String nameE = "Kimemaru";
 
 	private static Image[][][] images = new Image[NUM_OF_CONDITIONS][2][3];
 	private static Rectangle[] boundary = new Rectangle[3];

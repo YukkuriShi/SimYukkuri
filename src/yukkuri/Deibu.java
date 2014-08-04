@@ -15,7 +15,7 @@ import src.YukkuriUtil.YukkuriType;
 public class Deibu extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 2005;
-	public static final String nameJ = "縺ｧ縺��";
+	public static final String nameJ = "Deibu";
 	public static final String nameE = "Deibu";
 	
 	public static final int valueSale = 50;

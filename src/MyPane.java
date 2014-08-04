@@ -45,8 +45,12 @@ import javax.swing.JPanel;
 
 import src.TrashUtil.OkazariType;
 import src.attachment.AccelAmpoule;
+import src.attachment.BronzeBadge;
+import src.attachment.FakeBadge;
 import src.attachment.Fire;
+import src.attachment.GoldBadge;
 import src.attachment.OrangeAmpoule;
+import src.attachment.SilverBadge;
 import src.attachment.StopAmpoule;
 import src.effect.*;
 import src.item.*;
@@ -205,6 +209,11 @@ public class MyPane extends JPanel implements Runnable {
 			AccelAmpoule.loadImages(loader, this);
 			StopAmpoule.loadImages(loader, this);
 			TrashUtil.loadImages(loader, this);
+			//badges
+		    FakeBadge.loadImages(loader, this);
+		    BronzeBadge.loadImages(loader, this);
+		    SilverBadge.loadImages(loader, this);
+		    GoldBadge.loadImages(loader, this);
 
 			// 繧ｫ繝ｼ繧ｽ繝ｫ
 			cursor[0] = ImageIO.read(loader.getResourceAsStream("images/icon/cur_lt.png"));
@@ -291,7 +300,6 @@ public class MyPane extends JPanel implements Runnable {
 		// run animation
 		while (isRunning) {
 			int stress, speed;
-
 			synchronized(SimYukkuri.lock) {
 				stress = 100 * Terrarium.bodyList.size() / Body.getHeadageLimit() * 10000 / (Terrarium.terrariumSizeParcent*Terrarium.terrariumSizeParcent);
 				speed = gameSpeed[SimYukkuri.selectedGameSpeed]; 
@@ -312,6 +320,7 @@ public class MyPane extends JPanel implements Runnable {
 			}
 			repaint();
 			try {
+				
 				if (speed >= 0) {
 					Thread.sleep(speed);
 				}

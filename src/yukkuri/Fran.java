@@ -15,7 +15,7 @@ import src.YukkuriUtil.YukkuriType;
 public class Fran extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 3001;
-	public static final String nameJ = "ふらん";
+	public static final String nameJ = "Flandre";
 	public static final String nameE = "Flandre";
 	public static final int valueSale = 400;
 	public static final int valuePurchase = 500;
@@ -111,7 +111,7 @@ public class Fran extends Body implements java.io.Serializable {
 		STRENGTH[AgeState.CHILD.ordinal()] *= factor;
 		STRENGTH[AgeState.BABY.ordinal()] *= factor;
 		
-		speed = 150;
+		speed = 180;
 		flyingType = true;
 		braidType = true;
 		predatorType = Body.PredatorType.SUCTION;

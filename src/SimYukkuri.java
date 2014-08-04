@@ -14,6 +14,10 @@ import javax.imageio.*;
 import src.attachment.AccelAmpoule;
 import src.attachment.OrangeAmpoule;
 import src.attachment.StopAmpoule;
+import src.attachment.FakeBadge;
+import src.attachment.BronzeBadge;
+import src.attachment.SilverBadge;
+import src.attachment.GoldBadge;
 import src.event.EatBodyEvent;
 import src.item.*;
 
@@ -25,7 +29,7 @@ import java.util.Locale;
 public class SimYukkuri extends JFrame {
 	static final long serialVersionUID = 1L;
 	static final String TITLE = "SimYukkuri";
-	static final String VERSION = "1.12.2";
+	static final String VERSION = "1.12.3";
 	static final Object lock = new Object();
 	static boolean initialized = false;
 
@@ -58,13 +62,14 @@ public class SimYukkuri extends JFrame {
 	
 	// 繧ｹ繝��繧ｿ繧ｹ縺ｮ繝ｩ繝吶Ν
 	static enum LabelName {
-		ENVIRONMENT("迺ｰ蠅�せ繝医Ξ繧ｹ: ", "Environment: "),
+		ENVIRONMENT("迺ｰ蠅�せ繝医Ξ繧ｹ: ", "Funds: "),
 		LABEL("繧�▲縺上ｊ縺ｮ迥ｶ諷�", "Label" ),
 		NAME("", ""),
 		PERSONALITY(" 諤ｧ譬ｼ: ", "Attitude: "),
 		INTEL(" 遏･閭ｽ: ", "Intelligence: "),
 		DAMAGE(" 繝�Γ繝ｼ繧ｸ: ", "Injury: "),
 		STRESS(" 繧ｹ繝医Ξ繧ｹ: ", "Stress: "),
+		COMPLACENCY("Complacency","Complacency"),
 		HUNGER(" 遨ｺ閻ｹ蠎ｦ: ", "Hunger: "),
 		TANG(" 蜻ｳ隕� ", "Tang: "),
 		SHIT(" 縺�ｓ縺�ｓ: ", "Expired Paste: "),
@@ -103,7 +108,9 @@ public class SimYukkuri extends JFrame {
 	static final String[] INTEL_LEVEL_E = { "Smart", "Average", "Dumb"};
 	static final String[] TANG_LEVEL_J = { "繝舌き闊�", "譎ｮ騾�", "閧･縺医※繧�"};
 	static final String[] TANG_LEVEL_E = { "Poor", "Normal", "Gourmet"};
+	static final String[] COMPLACENCY_LEVEL_E = { "Rebellious", "Irritated", "Unsure", "Complacent","Content"};
 
+	
 	static int selectedGameSpeed = 1;
 	static int selectedZoomScale = 0;
 	JLabel title;
@@ -294,12 +301,12 @@ public class SimYukkuri extends JFrame {
 
 		// 繧｢繧､繝�Β繧｢繧､繧ｳ繝ｳ
 		JPanel itemPane = new JPanel();
-		itemPane.setLayout(new GridLayout(1, 6, 1, 0));
+		itemPane.setLayout(new GridLayout(1, 6, 1, 0)); //1,6,1,0
 		for(int i = 0; i < itemLabel.length; i++) {
 			itemLabel[i] = new JLabel();
 			itemPane.add(itemLabel[i]);
 		}
-		buttonPane.add(itemPane);
+	//	buttonPane.add(itemPane); //i had to make room and this doesnt seem to do anything important
 
 		// 繧ｹ繝��繧ｿ繧ｹ
 		buttonPane.add(buttonPaneLabel[LabelName.ENVIRONMENT.ordinal()]);
@@ -320,6 +327,7 @@ public class SimYukkuri extends JFrame {
 		buttonPane.add(buttonPaneLabel[LabelName.STRESS.ordinal()]);
 		buttonPane.add(buttonPaneLabel[LabelName.HUNGER.ordinal()]);
 		buttonPane.add(buttonPaneLabel[LabelName.TANG.ordinal()]);
+		buttonPane.add(buttonPaneLabel[LabelName.COMPLACENCY.ordinal()]);
 		buttonPane.add(buttonPaneLabel[LabelName.SHIT.ordinal()]);
 
 		JPanel statPane = new JPanel();
@@ -408,6 +416,10 @@ public class SimYukkuri extends JFrame {
 				s2.setModel(new DefaultComboBoxModel(GadgetMenu.Tool2.values()));
 				s2.setSelectedIndex(0);
 				break;
+			case BADGES:
+				s2.setModel(new DefaultComboBoxModel(GadgetMenu.Badges.values()));
+				s2.setSelectedIndex(0);
+				break;
 			case FOODS:
 				s2.setModel(new DefaultComboBoxModel(GadgetMenu.Foods.values()));
 				s2.setSelectedIndex(0);
@@ -459,6 +471,7 @@ public class SimYukkuri extends JFrame {
 		buttonPaneLabel[LabelName.DAMAGE.ordinal()].setText(LabelName.DAMAGE.toString() + damage + "%");
 		buttonPaneLabel[LabelName.STRESS.ordinal()].setText(LabelName.STRESS.toString() + stress + "%");
 		buttonPaneLabel[LabelName.HUNGER.ordinal()].setText(LabelName.HUNGER.toString() + hungry + "%");
+		buttonPaneLabel[LabelName.COMPLACENCY.ordinal()].setText(LabelName.COMPLACENCY.toString() + ": " + b.complacencyVal + " " + COMPLACENCY_LEVEL_E[b.getComplacency().ordinal()] + " " + b.getComplacencyDirection());
 		buttonPaneLabel[LabelName.TANG.ordinal()].setText(LabelName.TANG.toString() + TANG_LEVEL_E[b.getTangType().ordinal()]);
 		buttonPaneLabel[LabelName.SHIT.ordinal()].setText(LabelName.SHIT.toString() + shit + "%");
 
@@ -1122,6 +1135,45 @@ public class SimYukkuri extends JFrame {
 									break;
 							}
 							break;
+						case BADGES: 
+							switch ((GadgetMenu.Badges)s2.getSelectedItem()) 
+							{
+								case FAKE:
+									if (found instanceof Body) {   //TODO add method for removing FakeBadge in body, that affects yukkuri attitude/complacency etc based on intelligence
+										Body b = (Body)found;
+										if(b.getAttachmentSize(FakeBadge.class) != 0) {
+											b.removeAttachment(FakeBadge.class, true);
+										} else {
+											b.testForBadge(0); //TODO work in progress
+										}
+									}
+								
+								break;
+								
+								case BRONZE:
+									if (found instanceof Body) {
+										Body b = (Body)found;
+										if(b.getAttachmentSize(BronzeBadge.class) != 0) {  //TODO 
+											b.removeAttachment(BronzeBadge.class, true);
+										} else {
+											b.addAttachment(new BronzeBadge((Body)found));
+										}
+									}
+								
+								break;	
+								
+								case SILVER: //TODO
+									
+								
+								break;	
+								
+								case GOLD: //TODO
+									
+								break;
+							}
+							break;
+
+						
 						case CLEAN:
 							if (found instanceof Body) {
 								if (((Body)found).isDead())

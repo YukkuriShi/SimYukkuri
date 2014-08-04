@@ -27,6 +27,7 @@ public class GadgetMenu {
 		SELECT("SELECTERU", "Select"),
         TOOL("驕灘�", "Tools"),
         TOOL2("驕灘�2", "Abuse Tools"),
+        BADGES("moonrunes", "Apply for Badges"),
         FOODS("縺医＆", "Yukkuri Food"),
         CLEAN("貂�祉", "Clean Yukkurium"),
         ACCESSORY("縺翫°縺悶ｊ", "Accessory"),
@@ -76,6 +77,18 @@ public class GadgetMenu {
         ;
         private String name;
         Tool2(String nameJ, String nameE) { this.name = nameE; }
+        public String toString() { return name; }
+    }
+	
+	enum Badges {
+		
+        FAKE("Ν", "Fake Badge"),
+        BRONZE(" Ν", "Bronze Badge"),
+        SILVER(" Ν", "Silver Badge"),
+        GOLD(" Ν", "Gold Badge"),
+        ;
+        private String name;
+        Badges(String nameJ, String nameE) { this.name = nameE; }
         public String toString() { return name; }
     }
 
@@ -202,9 +215,9 @@ public class GadgetMenu {
 	// %sft : SHIFT繧ｭ繝ｼ
 	// %ctl : CTRL繧ｭ繝ｼ
 	enum HelpContext {
-        SHIFT_LMB_ALL("%sft,%mlb,蜈ｨ菴灘ｮ溯｡�"),
-        SHIFT_LMB_ALL_ONOFF("%sft,%mlb,蜈ｨ菴徹N/OFF"),
-        CTRL_LMB_ALL_INVERT("%ctl,%mlb,蜈ｨ菴灘渚霆｢"),
+        SHIFT_LMB_ALL("%sft,%mlb,All"),
+        SHIFT_LMB_ALL_ONOFF("%sft,%mlb,ON/OFF"),
+        CTRL_LMB_ALL_INVERT("%ctl,%mlb,All(Invert)"),
         ;
         private String name;
         HelpContext(String nameJ) { this.name = nameJ; }
@@ -278,6 +291,17 @@ public class GadgetMenu {
 			tool2Menu.add(subMenu);
 		}
 		popup.add(tool2Menu);
+		
+		JMenu BadgesMenu = new JMenu(MainCategory.BADGES.toString());
+		Badges[] BadgesList = Badges.values();
+		for(int i = 0; i < BadgesList.length; i++)
+		{
+			subMenu = new JMenuItem(BadgesList[i].toString());
+			subMenu.addActionListener(action);
+			subMenu.setActionCommand(BadgesList[i].name());
+			BadgesMenu.add(subMenu);
+		}
+		popup.add(BadgesMenu);
 
 		JMenu foodMenu = new JMenu(MainCategory.FOODS.toString());
 		Foods[] foodList = Foods.values();
@@ -415,6 +439,14 @@ public class GadgetMenu {
 						currentHelp[1] = HelpContext.CTRL_LMB_ALL_INVERT;
 						currentHelpNum = 2;
 						break;
+					default:
+						currentHelpNum = 0;
+						break;
+				}
+				break;
+			case BADGES:
+				Badges badges = Badges.values()[s2];
+				switch(badges) {
 					default:
 						currentHelpNum = 0;
 						break;
@@ -563,6 +595,13 @@ class PopupAction implements ActionListener
 		try {
 			GadgetMenu.Tool2 sel = GadgetMenu.Tool2.valueOf(command);
 			SimYukkuri.s1.setSelectedIndex(GadgetMenu.MainCategory.TOOL2.ordinal());
+			SimYukkuri.setSubMenu();
+			SimYukkuri.s2.setSelectedIndex(sel.ordinal());
+		} catch(IllegalArgumentException ex) {}
+		
+		try {
+			GadgetMenu.Badges sel = GadgetMenu.Badges.valueOf(command);
+			SimYukkuri.s1.setSelectedIndex(GadgetMenu.MainCategory.BADGES.ordinal());
 			SimYukkuri.setSubMenu();
 			SimYukkuri.s2.setSelectedIndex(sel.ordinal());
 		} catch(IllegalArgumentException ex) {}

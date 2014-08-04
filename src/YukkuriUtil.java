@@ -151,24 +151,24 @@ public class YukkuriUtil {
 		ret.raperChild = isRape;
 
 		// 諤ｧ譬ｼ縺ｮ險ｭ螳�
-		// 0(螟ｧ蝟�憶+螟ｧ蝟�憶)��(繝峨ご繧ｹ+繝峨ご繧ｹ)
+		// 0(螟ｧ蝟�憶+螟ｧ蝟�憶)��(繝峨ご繧ｹ+繝峨ご繧ｹ)    Set attitude based on parents
 		int attBase = father.getAttitude().ordinal() + motherAtt.ordinal();
 		
-		switch(attBase) {
-			case 0:
-				if(rnd.nextInt(20) == 0) {
-					ret.attitude = Attitude.values()[2 + rnd.nextInt(3)];
+		switch(attBase) {  // attitude values go Very_Nice to Super_Shithead 0vn, 1n, 2a, 3s, 4ss
+			case 0:  /// Parents were both Very_Nice
+				if(rnd.nextInt(15) == 0) {
+					ret.attitude = Attitude.values()[2 + rnd.nextInt(3)];  // 1/15 chance of average, shithead, or super shithead
 				} else {
-					ret.attitude = Attitude.values()[rnd.nextInt(3)];
+					ret.attitude = Attitude.values()[rnd.nextInt(3)];      // usually verynice - average
 				}
 				break;
-			case 1:
-			case 2:
-			case 3:
+			case 1:  // 1 parent nice, other vn
+			case 2:  //both parents nice
+			case 3: //one parent average and nice/ one parent shithead and verynice
 				if(rnd.nextInt(15) == 0) {
-					ret.attitude = Attitude.values()[rnd.nextInt(2)];
+					ret.attitude = Attitude.values()[rnd.nextInt(2)];  // 1/15 chance of vn or nice
 				} else {
-					ret.attitude = Attitude.values()[1 + rnd.nextInt(4)];
+					ret.attitude = Attitude.values()[1 + rnd.nextInt(4)]; //usually  nice- super shithead
 				}
 				break;
 			case 4:

@@ -14,7 +14,7 @@ import src.YukkuriUtil.YukkuriType;
 public class Marisa extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 0;
-	public static final String nameJ = "まりさ";
+	public static final String nameJ = "Marisa";
 	public static final String nameE = "Marisa";
 	public static final int valueSale = 125;
 	public static final int valuePurchase = 250;

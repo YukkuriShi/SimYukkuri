@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Rectangle;
+import java.awt.event.ActionListener;
 import java.awt.image.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,6 +18,10 @@ import javax.imageio.ImageIO;
 import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.attachment.Fire;
+import src.attachment.FakeBadge;
+import src.attachment.BronzeBadge;
+import src.attachment.SilverBadge;
+import src.attachment.GoldBadge;
 import src.event.BreedEvent;
 import src.event.HateNoOkazariEvent;
 import src.event.RaperReactionEvent;
@@ -24,6 +29,8 @@ import src.event.RaperWakeupEvent;
 import src.event.RevengeAttackEvent;
 import src.item.*;
 import src.yukkuri.*;
+//import java.util.Timer;
+import javax.swing.Timer;
 
 
 public abstract class Body extends Obj implements java.io.Serializable {
@@ -181,7 +188,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	// tunable parameters for each Yukkuri
 	protected int EATAMOUNT[] = {100*6, 100*12, 100*24};		// 荳�屓縺ｮ鬟滉ｺ矩㍼
 	protected int WEIGHT[] = {100, 300, 600};					// 菴馴㍾
-	protected int HUNGRYLIMIT[] = {100*24, 100*24*2, 100*24*4}; // 遨ｺ閻ｹ髯千阜
+	protected int HUNGRYLIMIT[] = {100*12, 100*18, 100*24}; // 遨ｺ閻ｹ髯千阜
 	protected int SHITLIMIT[] = {100*12, 100*24, 100*24};		// 縺�ｓ縺�ｓ髯千阜
 	protected int DAMAGELIMIT[] = {100*24, 100*24*2, 100*24*7}; // 繝�Γ繝ｼ繧ｸ髯千阜
 	protected int STRESSLIMIT[] = {1, 1, 1}; //
@@ -332,9 +339,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected boolean nobinobi = false;
 	protected boolean pikopiko = false;
 	
-	
-	//////////////////////////////////////////////////
-	//////////// Wetstate Handling ~ Eternity
+		//////////// Wetstate Handling
 	protected int wetTimer = 0;
 	protected int dryTimer = 0;
 	protected int wetCount = 0;
@@ -344,7 +349,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected int COOKLIMIT = 75;			//total length of time to use burn01.png before switching to burn.png, 10 ticks per second, so 7.5 seconds
 	protected int cookTimer = 0;
 	
-	/////////////////////////////////////////// Eternity's bools
+	///////////////////////////////////////////   TODO organize by tool
 	
 	protected boolean pinned = false;
 	protected boolean pinnedDontMove = false;
@@ -365,20 +370,56 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	
 	// for water pools and any other water sources added in the future
-	protected boolean wetCurrently = false;		// is the yukkuri in water right now?
-	protected boolean soaked = false;				// the yukkuri is already soaked!
+	protected boolean wetCurrently = false;		// is the yukkuri in water right now
+	protected boolean soaked = false;				// the yukkuri is already soaked
 	protected boolean melting = false;			// the yukkuri has begun to melt
 	protected boolean dissolving = false;		// the yukkuri has died and will dissolve to death.
 	protected boolean hasMelted = false;
 	
 	
 
+	///// Complacency system
+	public enum Complacency  { REBELLIOUS, IRRITATED, UNSURE, COMPLACENT, CONTENT}; //TODO add modifiers to activities
+	protected int complacencyVal = 1200;
+	protected Complacency complacency;
+
+	protected int complacencyMax = 2000;
+	protected boolean complacencyInitial = false;
+	
+	protected boolean reduceComplacency = false;
+	public int reduceComplacencyTimer = 0;
+	
+	protected boolean increaseComplacency = false;
+	protected int increaseComplacencyTimer = 0;
+	
+	protected boolean isSuppressed = false;  //complacency cannot be reduced
+	protected int suppressionTimer = 0; //timer for how long the yukkuri complacency cannot be reduced
+	
+	protected boolean isPraiseLimited = false; //anti-spam function
+	protected int praiseLimitTimer = 0; //anti-spam function
+	protected int praiseUsed = 0; //praise has diminishing returns
+	protected int lowerPraiseUsedTimer = 0; //reduced praisedused by 1 every 550 ticks
+	
+	protected int moveTowardsAttitudeTimer = 0;  //slowly shifts complacency towards attitude, so shithead yukkuri are never satisfied, and niceheads are more patient.
+	
+	protected int shockTimer = 0; //TODO
+	
+	///// Stress System
+	protected boolean increaseStress = false;
+	protected int increaseStressTimer = 0;
+	
+	protected boolean reduceStress = false;
+	protected int reduceStressTimer = 0;
+	
+	protected boolean stressLocked = false;
 	
 	
+	
+	///// Badge System
+	public enum BadgeState { NONE, FAKE, BRONZE, SILVER, GOLD};
+	protected BadgeState badgeState = BadgeState.NONE;
 	
 
-	////////////////////////////////////////////////////////////////////
-	
 	
 	
 	// variables related to actions.
@@ -535,6 +576,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		
 		if (hungry > HUNGRYLIMIT[bodyAgeState.ordinal()]) {
 			damage += (hungry - HUNGRYLIMIT[bodyAgeState.ordinal()]);
+			damage +=2*TICK;
 			hungry = HUNGRYLIMIT[bodyAgeState.ordinal()];
 		}
 		if (hungryState == Hunger.NONE && checkHungryState() == Hunger.NONE) {
@@ -685,11 +727,13 @@ public abstract class Body extends Obj implements java.io.Serializable {
 				if (bodyAgeState == AgeState.BABY) {
 					setDirty(true);
 					setHappiness(Happiness.SAD);
+					reduceComplacencyTimer += 40;
 					addStress(300);
 				}
 				if (hasPants) {
 					setDirty(true);
 					setHappiness(Happiness.VERY_SAD);
+					reduceComplacencyTimer += 50;
 					addStress(500);
 				}
 
@@ -775,6 +819,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			sleeping = true;
 			angry = false;
 			scare = false;
+			stressLocked = true;
 			damage -= TICK;
 			if ( !unBirth ){
 				setHappiness(Happiness.AVERAGE);
@@ -792,11 +837,12 @@ public abstract class Body extends Obj implements java.io.Serializable {
 				setMessage(MessagePool.getMessage(this, MessagePool.Action.Wakeup));
 				stay();
 				wakeup();
+				stressLocked = false;
 			}
 		} else {
 			// 螳滄ｨ�繧､繝吶Φ繝井ｸｭ縺ｯ遨ｺ閻ｹ縲∫擅逵��萓ｿ諢上′蠅励∴縺ｪ縺�ｈ縺�↓
 			if(currentEvent != null) return false;
-
+			stressLocked = false;
 			sleepingPeriod = 0;
 			sleeping = false;
 			if ( Terrarium.getDayState() == Terrarium.DayState.NIGHT ) {
@@ -1056,15 +1102,247 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 	
 	public void checkStress() {
+		if (increaseStressTimer > 0 && !stressLocked)
+		{
+			increaseStressTimer -= 1;
+			stress += 1;
+		}
+		if (reduceStressTimer > 0 && !stressLocked)
+		{
+			reduceStressTimer -=1;
+			stress -= 1;
+		}
+		
 		if(stress < 0) stress = 0;
 	}
+	
+	public void shiftComplacencyTo(int targetVal)
+	{
+		if (complacencyVal > targetVal){
+			reduceComplacencyTimer +=10;
+		}
+		else if (complacencyVal < targetVal){
+			increaseComplacencyTimer+=10;
+		}
+		return;
+	}
+	
+	public void checkComplacency(){
+		isSuppressed = false;      //reset suppression
+		moveTowardsAttitudeTimer += 1;
+		lowerPraiseUsedTimer += 1;
+		if (lowerPraiseUsedTimer > 550 )
+		{
+			lowerPraiseUsedTimer = 0;
+			if (praiseUsed > 0)
+			{
+			praiseUsed -= 1;
+			}
+		}
+		
+		if (moveTowardsAttitudeTimer == 150)
+		{
+			moveTowardsAttitudeTimer = 0;
+			int targetVal =0;
+		    if (complacencyVal < 400) {
+		    	targetVal = 200+(rnd.nextInt(100)-50);
+		    	shiftComplacencyTo(targetVal);
+		    }
+		    else if (complacencyVal > 399 && complacencyVal < 750) {
+		    	targetVal = 575+(rnd.nextInt(100)-50);
+		    	shiftComplacencyTo(targetVal);
+		    }
+		    else if (complacencyVal > 749 && complacencyVal < 1300) {
+		    	targetVal = 1000+(rnd.nextInt(400)-200);
+		    	shiftComplacencyTo(targetVal);
+		    }
+		    else if (complacencyVal > 1299 && complacencyVal < 1500) {
+		    	targetVal = 1400+(rnd.nextInt(100)-50);
+		    	shiftComplacencyTo(targetVal);
+		    }
+		    else if (complacencyVal > 1499) {
+		    	targetVal = 17500+(rnd.nextInt(100)-50);
+		    	shiftComplacencyTo(targetVal);
+		    }
+
+		}
+		
+		if (suppressionTimer > 0)  //set as suppressed or not
+		{
+			suppressionTimer -= 1;
+			isSuppressed = true;
+		}
+		if (!complacencyInitial)  //Setup complacency for new yukkuri based on attitude
+		{
+			int localDivisor = attitude.ordinal()+1;  // provides divisor for initial complacency setup. Necessary to prevent rare /0 error. VN is divide by 1.
+			complacencyVal = (1600+(rnd.nextInt(400)-300))/ localDivisor ;
+			if (complacencyVal > 1700 && !(isGoldBadge() || isSilverBadge()))
+			{
+				complacencyVal += (rnd.nextInt(550) - 560);  //prevent excessively high initial complacencyvalues, except for high grade badged yukkuri purchased from a store
+		    }
+			complacencyInitial = true;    //This section will only trigger once
+		}
+		//////////////////////////////////////////Main section below
+	    if (!dead)
+		{
+
+	    	if( isFeelPain() || isFeelHardPain())
+	    	{
+	    		reduceComplacencyTimer += 3;     //pained yukkuri are uncomfortable
+	    	}
+	    
+	    	if(reduceComplacencyTimer>0 && !isSuppressed){       // reduce complacency value, except when suppressed
+	    		reduceComplacencyTimer -= 1;
+	    		if (complacencyVal > 0)
+	    		{
+	    	complacencyVal -= 1;
+	    		}
+	    	}
+	    	
+	    	if(increaseComplacencyTimer>0 && (!isSuppressed && (reduceComplacencyTimer > 0))){      // increase complacency value. && statement prevents increases due to minor shifting occuring during inappropriate times (eg being hit)
+	    		increaseComplacencyTimer -= 1;
+	    		if (complacencyVal < (complacencyMax + 1))
+	    		{
+	    	complacencyVal += 1;
+	    		}
+	    								}
+			                                      
+		}
+	    if (praiseLimitTimer > 0){
+	    	isPraiseLimited = true;
+	    praiseLimitTimer -= 1;
+	    }
+	    if (praiseLimitTimer < 1)
+	    {
+	    	isPraiseLimited = false;
+	    }
+	    
+		return;
+		
+	}
+	
+	public String getComplacencyDirection()
+	{
+		 String  complacencyDirectionError=("Error");
+		 String  complacencyDirectionPos =("+");
+		 String  complacencyDirectionNeg =("-");
+		 String  complacencyDirectionBot =("-+");
+		 String  complacencyDirectionNei =("=");
+		increaseComplacency = false;
+		reduceComplacency = false;
+    	if (reduceComplacencyTimer > 0)
+    	{
+    		reduceComplacency = true;
+    	}
+    	if (increaseComplacencyTimer > 0)
+    	{
+    		increaseComplacency = true;
+    	}
+    	int localVal = 0;
+    	if (reduceComplacency && increaseComplacency)
+    	{
+    		localVal = 4;
+    	}
+    	if (reduceComplacency && !increaseComplacency)
+    	{
+    		localVal = 2;
+    	}
+    	if (!reduceComplacency && increaseComplacency){
+    		localVal = 3;
+    	}
+    	if (!reduceComplacency && !increaseComplacency){
+    		localVal = 1;
+    	}
+    	switch (localVal)
+    	{
+    	case 1:  //both are false
+    		 return complacencyDirectionNei;  
+    	case 2: //reduce is true, increase is false
+    		 return complacencyDirectionNeg;
+    	case 3: //increase is true, reduce is false
+    		return complacencyDirectionPos;
+    	case 4: //both are true
+    		 return complacencyDirectionBot;
+    	default: return complacencyDirectionError;
+    	}
+	}
+	
+	public String getStressDirection()
+	{
+		 String  stressDirectionError=("Error");
+		 String  stressDirectionPos =("+");
+		 String  stressDirectionNeg =("-");
+		 String  stressDirectionBot =("-+");
+		 String  stressDirectionNei =("=");
+		increaseStress = false;
+		reduceStress = false;
+    	if (reduceStressTimer > 0)
+    	{
+    		reduceStress = true;
+    	}
+    	if (increaseStressTimer > 0)
+    	{
+    		increaseStress = true;
+    	}
+    	int localVal = 0;
+    	if (reduceStress && increaseStress)
+    	{
+    		localVal = 4;
+    	}
+    	if (reduceStress && !increaseStress)
+    	{
+    		localVal = 2;
+    	}
+    	if (!reduceStress && increaseStress){
+    		localVal = 3;
+    	}
+    	if (!reduceStress && !increaseStress){
+    		localVal = 1;
+    	}
+    	switch (localVal)
+    	{
+    	case 1:  //both are false
+    		 return stressDirectionNei;  
+    	case 2: //reduce is true, increase is false
+    		 return stressDirectionNeg;
+    	case 3: //increase is true, reduce is false
+    		return stressDirectionPos;
+    	case 4: //both are true
+    		 return stressDirectionBot;
+    	default: return stressDirectionError;
+    	}
+	}
+	
+	public Complacency getComplacency() {
+	//	int complacencyPercentage = (complacencyVal / complacencyMax * 100);	
+	    if (complacencyVal < 400) {
+	    	complacency = Complacency.REBELLIOUS;
+	    }
+	    else if (complacencyVal > 399 && complacencyVal < 750) {
+	    	complacency = Complacency.IRRITATED;
+	    }
+	    else if (complacencyVal > 749 && complacencyVal < 1300) {
+	    	complacency = Complacency.UNSURE;
+	    }
+	    else if (complacencyVal > 1299 && complacencyVal < 1500) {
+	    	complacency = Complacency.COMPLACENT;
+	    }
+	    else if (complacencyVal > 1499) {
+	    	complacency = Complacency.CONTENT;
+	    }
+	    return complacency;
+	}
+	
+	
+		
+
 
 	public void checkTang() {
 		if(tang < 0) tang = 0;
 		if(tang > TANGLEVEL[2]) tang = TANGLEVEL[2]; 
 	}
 	
-	private void checkBurntState() {	//USED TO MAKE TALKING HEADS BURN :D
+	private void checkBurntState() {	//used to make talking heads burn
 		if (isOnFire() == false && !burned)
 		{
 			return;
@@ -1262,6 +1540,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		staying = true;
 		stayTime = STAYLIMIT;
 	}
+	
 
 	
 	public boolean  isCurrentlyWet() {
@@ -1675,15 +1954,20 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public void setBodyEventResMessage(String message, int count, boolean interrupt, boolean piko) {
 		setMessage(message, WindowType.BODY_RES, count, interrupt, piko);
 	}
+	
+	public void setBodyEventResMessage2(String message, int count, boolean interrupt, boolean piko) {
+		setMessage(message, WindowType.BODY_RES, count, interrupt, piko );
+	}
 
-	protected void setMessage(String message, WindowType type, int count, boolean interrupt, boolean piko) {
+	protected void setMessage(String message, WindowType type, int count, boolean interrupt, boolean piko) {  //setmessage method
 		if ( !canTalk ) {
 			messageCount = 0;
 			messageBuf = null;
 			return;
 		}
+
 		// interrupt縺荊rue縺ｪ繧臥樟蝨ｨ繝｡繝�そ繝ｼ繧ｸ陦ｨ遉ｺ荳ｭ縺ｧ繧ょ牡繧願ｾｼ繧�
-		if(interrupt || messageCount == 0) {
+		if((interrupt || messageCount == 0) ) {
 			messageCount = count;
 			messageBuf = message;
 			// reset actions.
@@ -1830,6 +2114,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public Attitude getAttitude() {
 		return attitude;
 	}
+	
+
+	
+
 
 	public Intelligence getIntelligence() {
 		return intelligence;
@@ -1877,7 +2165,14 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	public void addStress(int s) {
 		if(dead) return;
-		stress += TICK * s;
+		if (s < 0){
+		s *= -1;
+		reduceStressTimer +=s;
+		}
+		else
+		{
+			increaseStressTimer +=s;
+		}
 	}
 
 	public int getStressLimit() {
@@ -2205,6 +2500,14 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public boolean isHybrid() {
 		return false;
 	}
+	
+	public boolean isBecomingDiscontent(){
+		return (reduceComplacencyTimer > 200);
+	}
+	
+	public boolean isShocked(){
+		return (shockTimer > 0);
+	}
 
 	public boolean isHungry() {
 		return (!dead && (hungry >= HUNGRYLIMIT[bodyAgeState.ordinal()] / 2));
@@ -2340,6 +2643,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public boolean isSmart() {
 		return (attitude == Attitude.VERY_NICE || attitude == Attitude.NICE);
 	}
+	
+	public boolean isSuppressed() {
+		return isSuppressed;
+	}
 
 	// 螳ｶ譌城未菫ゅ�繝√ぉ繝�け鄒､  霎ｿ繧後ｋ縺ｮ縺ｯ1荳紋ｻ｣遞句ｺｦ
 	
@@ -2386,7 +2693,35 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		return false;
 	}
-	// other縺瑚�蛻��螯ｹ縺�
+	
+	
+	// badge methods
+	public boolean isNoBadge()
+	{
+		return (badgeState == BadgeState.NONE);
+	}
+	
+	public boolean isFakeBadge()
+	{
+		return (badgeState == BadgeState.FAKE);
+	}
+	
+	public boolean isBronzeBadge()
+	{
+		return (badgeState == BadgeState.BRONZE);
+	}
+	
+	public boolean isSilverBadge()
+	{
+		return (badgeState == BadgeState.SILVER);
+	}
+	
+	public boolean isGoldBadge()
+	{
+		return (badgeState == BadgeState.GOLD);
+	}
+	
+	// family methods
 	public boolean isElderSister(Body other) {
 		return (isSister(other) && (age >= other.age));
 	}
@@ -2604,6 +2939,8 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		if (!isDead() && !isSleeping()) {
 			setHappiness(Body.Happiness.VERY_SAD);
 			addStress(200);
+			reduceComplacencyTimer += 350;
+			
 			setMessage(MessagePool.getMessage(this, MessagePool.Action.AbuseBaby));
 		}
 		getStalks().remove(s);
@@ -2620,6 +2957,8 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		stay(60);
 		p.setStress(0);
 		p.stay(60);
+		increaseComplacencyTimer += 75;
+		p.increaseComplacencyTimer += 75;
 		clearActions();
 		sukkiri = true;
 		exciting = false;
@@ -2701,6 +3040,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		stay(65);
 		p.addStress(500);
 		p.stay(65);
+		increaseComplacencyTimer += 125;
+		p.reduceComplacencyTimer += 500;
+		suppressionTimer += 200;
+		shockTimer += 600;
 
 //		clearActions();
 		sukkiri = true;
@@ -2765,6 +3108,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			return;
 		}
 		strikeByPunish();
+		reduceComplacencyTimer += 200;
 		Terrarium.setAlarm();
 		if(dna == null || bodyCastration) {
 			return;
@@ -2788,6 +3132,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		wakeup();
 		setMessage(MessagePool.getMessage(this, MessagePool.Action.Excite));
 		exciting = true;
+		reduceComplacencyTimer += 75;
 		partner = null;
 		stay();
 	}
@@ -2801,6 +3146,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		exciting = true;
 		partner = null;
 		stay();
+		increaseComplacencyTimer += 55;
 	}
 
 	public void forceToSleep() {
@@ -2827,6 +3173,8 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		setMessage(MessagePool.getMessage(this, MessagePool.Action.SuriSuri));
 		addStress(-100);
+		increaseComplacencyTimer += 25;
+		p.increaseComplacencyTimer += 35;
 		stay(40);
 		p.addStress(-100);
 		p.stay(40);
@@ -2848,6 +3196,8 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		p.dirty = false;
 		setHappiness(Happiness.VERY_HAPPY);
 		addStress(-50);
+		increaseComplacencyTimer += 35;
+		p.increaseComplacencyTimer += 45;
 		p.setHappiness(Happiness.VERY_HAPPY);
 		p.addStress(-200);
 		if ((isSick() || p.isSick()) && rnd.nextBoolean()) {
@@ -3016,6 +3366,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			// 逕溘″縺溘∪縺ｾ鬟溘∋繧峨ｌ繧�
 			addDamage(amount);
 			wakeup();
+			reduceComplacencyTimer += 450;
 			if (bodyAmount <= DAMAGELIMIT[bodyAgeState.ordinal()]/2) {
 				bodyCut();
 				if (bodyAmount <= 0) {
@@ -3029,6 +3380,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	public void eatBody(int amount, Body eater) {
 		eatBody(amount);
+		reduceComplacencyTimer += 200;
 		if(dead) return;
 		if(unBirth) return;
 		
@@ -3058,6 +3410,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		if (dead) {
 			return;
 		}
+		reduceComplacencyTimer += 5;
 		damage += amount;
 		addStress(amount >> 1);
 		staying = false;
@@ -3095,6 +3448,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			messageBuf = null;
 		}
 		strike(NEEDLE);
+		reduceComplacencyTimer += 75;
+		if (!isRude())
+		{
+			suppressionTimer += 75;
+		}
 		setMessage(MessagePool.getMessage(this, MessagePool.Action.Scream));
 		setAngry();
 		if (isRude() && (messageDiscipline > DISCIPLINELIMIT) && (furifuriDiscipline != 0)) {
@@ -3119,6 +3477,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		toShit = false;
 		shitting = false;
 		birth = false;
+		reduceComplacencyTimer += 300;
 		angry = false;
 		furifuri = false;
 		eating = false;
@@ -3146,6 +3505,19 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		strike(HAMMER);
 		setMessage(MessagePool.getMessage(this, MessagePool.Action.Scream));
+		reduceComplacencyTimer += 400;
+		shockTimer += 150;
+		suppressionTimer += 140;
+		if (partner !=null)
+		{
+		partner.reduceComplacencyTimer+=200;
+		}
+		if (parents[Parent.MAMA.ordinal()] !=null)
+		{
+			String abuseBaby = "Don't hit " + getNameE() + "'s little one like that!";
+			parents[Parent.MAMA.ordinal()].setMessage(abuseBaby);
+		}
+	
 		setAngry();
 		if (dead) {
 			if (!silent) {
@@ -3221,9 +3593,19 @@ public abstract class Body extends Obj implements java.io.Serializable {
 					if(isRude() || (attitude == Attitude.AVERAGE && rnd.nextBoolean())) {
 						// 蜿肴茶
 						setAngry();
+
 						EventLogic.addBodyEvent(this, new RevengeAttackEvent(this, enemy, null, 1), null, null);
 					} else {
+						if (!isPartner(enemy))
 						setMessage(MessagePool.getMessage(this, MessagePool.Action.Scream));
+						if (isPartner(enemy))
+						{
+							String partnerAttack = enemy.getNameE() + " take it easy, it's " + getNameE() + ", not some uneasy yukkuri!";
+							setMessage(partnerAttack);
+							String bPartnerAttack = "This shitty yukkuri is nothing like " + enemy.getNameE() + "'s beautiful " + getNameE() +". So go die easy!";
+							enemy.setMessage(bPartnerAttack);
+						}
+						
 					}
 				} else if(e instanceof RaperReactionEvent) {
 					// 閾ｪ蛻�′繝ｬ繧､繝代�縺ｧ謾ｻ謦�＆繧後◆縺ｨ縺�
@@ -3406,7 +3788,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		if(analClose) {
 			// 髢蛾事
-			setHappiness(Happiness.HAPPY);
+			setHappiness(Happiness.HAPPY); //Why does this make it happy...
 			setMessage(MessagePool.getMessage(this, MessagePool.Action.AnalSealed));
 		} else {
 			// 髢区叛
@@ -3450,9 +3832,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		bodyCastration = !bodyCastration;
 		setBodyCastration(bodyCastration);
 	}
+
 	public boolean getBodyCastration() {
 		return bodyCastration;
 	}
+	
 	public void setBodyCastration(boolean flag) {
 		if(dead) {
 			return;
@@ -3464,6 +3848,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		if(bodyCastration) {
 			// 髢蛾事
+			reduceComplacencyTimer += 500;
 			setHappiness(Happiness.VERY_SAD);
 			addStress(400);
 			setMessage(MessagePool.getMessage(this, MessagePool.Action.Alarm));
@@ -3479,10 +3864,6 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		if(burned || PanicType.BURN == panicType || crashed) {
 			return;
 		}
-		
-
-		
-		
 		if(!dead) {
 			// 蟇昴※縺溘ｉ襍ｷ縺阪ｋ
 			if(sleeping) wakeup();
@@ -3508,6 +3889,113 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		wetPeriod = 0;
 		attach.add(new Fire(this));
 	}
+	
+	public void testFake() {
+		if(burned || PanicType.BURN == panicType || crashed) {
+			return;
+		}
+		if(!dead) {
+			// 蟇昴※縺溘ｉ襍ｷ縺阪ｋ
+			if(sleeping) wakeup();
+			staycount = 0;
+			staying = false;
+			toFood = false;
+			toSukkiri = false;
+			toShit = false;
+			shitting = false;
+			birth = false;
+			angry = false;
+			furifuri = false;
+			eating = false;
+			peropero = false;
+			sukkiri = false;
+			scare = false;
+			eatingShit = false;
+			nobinobi = false;
+			setHappiness(Happiness.VERY_SAD);
+		}
+		panicType = PanicType.BURN;
+		wet = false;
+		wetPeriod = 0;
+		attach.add(new Fire(this));
+	}
+	
+	public void testForBadge(int badgeType) // 0=fake, 1=bronze, 2=silver, 3=gold,  //TODO: use timer to delay tests so they don't overlap. Could also lock to a clocktick and map out the actions
+	{
+		int testScore = 0;
+		int passingScore = 0;
+		int isRude = 0;
+		String readyFakeTest;
+		staycount = 0;
+		staying = false;
+		toFood = false;
+		toSukkiri = false;
+		toShit = false;
+		shitting = false;
+		birth = false;
+		angry = false;
+		furifuri = false;
+		eating = false;
+		peropero = false;
+		sukkiri = false;
+		scare = false;
+		eatingShit = false;
+		nobinobi = false;
+		String demoStretch = "Demonstrating Stretch~Stretch~!";
+		switch(badgeType)
+		{
+		case 0: //testing for fake
+			// Stage 1, Setup the Test
+			clearActions();
+			if (intelligence == Intelligence.WISE)
+			{
+				//TODO add in dialog for identifying fake badge. shitheads should complain and demand a real one.
+				break;
+			}
+			passingScore = 0; //set requires score to receive badge
+			///////////// Set dialog as either rude or notrude
+			if (isRude())
+			{
+			 readyFakeTest = getNameE() + " deserves a badge so that shitty slave has to give " + getNameE() + " anything " + getNameE()+ " wants!";
+			 isRude=1;
+			}
+			else
+			{
+			 readyFakeTest = getNameE() + " is ready to become a badged yukkuri and take it even easier!";
+			 isRude=0;
+			}
+			setMessage(readyFakeTest, 10, false, true); //Deliver the previously defined dialog.  
+			stay(200);
+
+//////// Tests
+	
+			setMessage(demoStretch, 1, true, false);
+			nobinobi = true;
+			stay(100);
+
+			
+			
+			//
+			String localString = "gots da gudz!"; //placeholder to show success
+			addAttachment(new FakeBadge((Body)this));
+			setMessage(localString);  
+			break;
+			
+			
+		case 1: //testing for bronze
+			break;
+		case 2: //testing for silver
+			break;
+		case 3: //testing for gold
+			break;
+		default:
+			break;
+		}
+		return;
+	}
+	
+
+	
 	
 	public void givePin() {
 		if(dead || flyingType || crashed) {
@@ -3642,19 +4130,19 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		panicPeriod = 0;
 	}
 	
-	public void Bathing()
+	public void Bathing() //TODO add pools so this can actually happen
 	{
 		wetCurrently = true;
 		dirty = false; 
 		setHappiness(Happiness.HAPPY);
 
 		if (wetCount ==0){
-			//setMessage(MessagePool.getMessage(this, MessagePool.Action.Bathing);
+			//setMessage(MessagePool.getMessage(this, MessagePool.Action.Bathing); //TODO add dialog
 		}
 		return;
 	}
 	
-	public void Soak()
+	public void Soak()  //TODO tweak timer so that this doesnt last so long, have it contribute to melting
 	{
 		//wetCurrently = true;
 		dirty = false; 
@@ -3663,12 +4151,101 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 
 	// 螢ｰ謗帙￠
+	
+	public boolean partnerIsDistressed()
+	{
+		boolean IsDistressed = true;
+		if (partner==null) // catch null pointer exception
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		else if (!partner.isFeelPain() && !partner.isDamaged())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		return IsDistressed; //true
+	}
+	
+	public boolean yukkuriIsDistressed()
+	{
+		boolean IsDistressed = true;
+		if (isSick() && isRude())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		else if (!isFeelPain() && !isDamaged())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		return IsDistressed; //true
+	}
+	
+	/*
+	public boolean sisterIsDistressed() //TODO, need a way to actually reference sisters
+	{
+		boolean IsDistressed = true;
+		if ( && isRude())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		else if (!isFeelPain() && !isDamaged())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		return IsDistressed;
+	}
+	*/
+	
+	/*
+	public boolean childIsDistressed() //TODO, need a way to actually reference sisters
+	{
+		boolean IsDistressed = true;
+		if (this && isRude())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		else if (!isFeelPain() && !isDamaged())
+		{
+			IsDistressed = false;
+			return IsDistressed;
+		}
+		return IsDistressed;
+	}
+	*/
+	
+	public boolean isRebellious(){
+		return complacency==Complacency.REBELLIOUS;
+	}
+	
+	public boolean familyIsDistressed()
+	{
+		return (attitude !=Attitude.SUPER_SHITHEAD && (partnerIsDistressed() || yukkuriIsDistressed())); //TODO, add sister & child
+	}
+	
+	public boolean isPraiseLimited()
+	{
+		return isPraiseLimited;
+	}
+	
+	
 	public void voiceReaction(int type) {
 		if(panicType != null || dead) {
 			return;
 		}
 		switch(type) {
 		case 0:{
+			if (isPraiseLimited()){
+				break;
+			}
+			if (!isRebellious() && !familyIsDistressed()) //TODO move to external method for cleanliness and ease of mainteinence.
+			{
 			clearActions();
 			scare=false;
 			angry=false;
@@ -3679,10 +4256,61 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			noDamagePeriod = 0;
 			noHungryPeriod = 0;
 			relax=true;
-			setMessage(MessagePool.getMessage(this, MessagePool.Action.Wakeup));
+			String ysn = "Yukkuri shitteite ne!";  
+			setMessage(ysn);
 			addStress(-100);
+			praiseLimitTimer = 350 ; 
+			increaseComplacencyTimer += 100 - 5*praiseUsed;
+			praiseUsed += 1;
 			wakeup();
-		break;
+			break;
+			}
+			
+			else
+			{
+			double dialogSwitch = Math.random();
+			if (isRebellious() && !familyIsDistressed()){
+			if (dialogSwitch > .49)
+			{
+				String ysnLiar = "Liar mister can't take it easy...";  
+				setMessage(ysnLiar);
+			}
+			if (dialogSwitch < .5)
+			{
+				String uneasyMister = "Uneasy mister can't be trusted...";
+				setMessage(uneasyMister);
+			}
+			}
+			else if (partnerIsDistressed()){
+			if (dialogSwitch > .49)
+			{
+				String partnerMister = getNameE() + " can't take it easy with " + partner.getNameE() + " like this!";
+				setMessage(partnerMister);
+			}
+			if (dialogSwitch < .5)
+			{
+				String partnerMister = "This is no time to take it easy, " + partner.getNameE() + " needs help!";
+				setMessage(partnerMister);
+			}}
+			else if (yukkuriIsDistressed()){
+			if ((isFeelPain() || partner.isDamaged()) && dialogSwitch > .49)
+			{
+				String partnerMister = getNameE() + " can't take it easy with " + partner.getNameE() + " like this!";
+				setMessage(partnerMister);
+			}
+			if (dialogSwitch < .5 && (partner.isFeelPain() || partner.isDamaged()))
+			{
+				String partnerMister = "This is no time to take it easy, " + partner.getNameE() + " needs help!";
+				setMessage(partnerMister);
+			}}
+			
+
+			addStress(100);
+			praiseLimitTimer = 150; 
+			reduceComplacencyTimer += 55;
+			praiseUsed += 1;
+			break;
+			}
 		}
 		case 1:{
 			clearActions();
@@ -3857,6 +4485,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 //			ride=false;
 //		}
 		toSukkiri = false;
+		nobinobi = false;
 		toBed = false;
 		toFood = false;
 		toShit = false;
@@ -3873,6 +4502,8 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		targetPosOfsY = 0;
 		targetBind = false;
 	}
+	
+
 
 	public void clearEvent() {
 		if(currentEvent != null){
@@ -4417,6 +5048,7 @@ riding = bind
 			setHappiness(Happiness.VERY_SAD);
 			checkDamage();
 			checkStress();
+			checkComplacency();
 			checkSick();
 			checkCantDie();
 			moveBody(dontMove);
@@ -4426,6 +5058,7 @@ riding = bind
 		checkHungry();
 		checkDamage();
 		checkStress();
+		checkComplacency();
 		checkSick();
 		checkCantDie();
 		checkPinned();
@@ -4550,7 +5183,7 @@ riding = bind
 	//wetCurrently = false; //counteracts constant wetness, basically a countertimer
 
 
-	public Body(int initX, int initY, int initZ, AgeState initAgeState, Body mama, Body papa ) {
+	public Body(int initX, int initY, int initZ, AgeState initAgeState, Body mama, Body papa ) {    /// Create new yukkuri stats.  Needs rewrite
 		objType = Type.YUKKURI;
 		x = initX;
 		y = initY;
@@ -4558,19 +5191,45 @@ riding = bind
 		parents[Parent.PAPA.ordinal()] = papa;
 		parents[Parent.MAMA.ordinal()] = mama;
 		removed = false;
-
+		if (papa != null){   // if the yukkuri has a father, basically, if it wasn't purchased
 		if (rnd.nextBoolean()) {
 			attitude = (papa != null ? papa.attitude : Attitude.SHITHEAD);
 		}
 		else {
 			attitude = (mama != null ? mama.attitude : Attitude.NICE);
+			 }
+		}
+		else{
+			switch(rnd.nextInt(8)) {
+			case 0:
+				attitude = Body.Attitude.SUPER_SHITHEAD;
+				break;
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+
+				attitude = Body.Attitude.SHITHEAD;
+				break;
+			case 5:
+			case 6:
+				attitude = Body.Attitude.AVERAGE;
+				break;
+			default:
+				attitude = Body.Attitude.NICE;
+				break;
+		}
 		}
 
-		switch(rnd.nextInt(5)) {
+		switch(rnd.nextInt(9)) {
 			case 0:
+			case 1:
+			case 2:
+			case 3:
+			case 4:
 				intelligence = Body.Intelligence.FOOL;
 				break;
-			case 4:
+			case 5:
 				intelligence = Body.Intelligence.WISE;
 				break;
 			default:

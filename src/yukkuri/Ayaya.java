@@ -19,7 +19,7 @@ public class Ayaya extends Body implements java.io.Serializable {
 	public static final int type = 1002;
 	public static final int valueSale = 500;
 	public static final int valuePurchase = 750;
-	public static final String nameJ = "あや";
+	public static final String nameJ = "Aya";
 	public static final String nameE = "Aya";
 
 	private static Image[][][] images = new Image[NUM_OF_CONDITIONS][2][3];

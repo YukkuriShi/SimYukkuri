@@ -18,7 +18,7 @@ import src.YukkuriUtil.YukkuriType;
 public class Chiruno extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 1007;
-	public static final String nameJ = "縺｡繧九�";
+	public static final String nameJ = "Cirno";
 	public static final String nameE = "Cirno";
 	public static final int valueSale = 500;
 	public static final int valuePurchase = 1400;

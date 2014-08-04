@@ -18,7 +18,7 @@ import src.YukkuriUtil.YukkuriType;
 public class Chen extends Body implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	public static final int type = 4;
-	public static final String nameJ = "縺｡縺�ｓ";
+	public static final String nameJ = "Chen";
 	public static final String nameE = "Chen";
 	public static final int valueSale = 200;
 	public static final int valuePurchase = 300;

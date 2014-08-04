@@ -7,124 +7,124 @@ import java.util.HashMap;
 import java.util.Random;
 
 /*****************************************************
-	全キャラのメッセージ管理
+	蜈ｨ繧ｭ繝｣繝ｩ縺ｮ繝｡繝�そ繝ｼ繧ｸ邂｡逅�
 */
 
 public class MessagePool
 {
-	// アクション名定義
+	// 繧｢繧ｯ繧ｷ繝ｧ繝ｳ蜷榊ｮ夂ｾｩ
 	public enum Action {
-		WantFood,		// 餌発見
-		NoFood,		// 餌なし
-		Excite,		// 発情
-		Relax,		// リラックス
-		FuriFuri,		// 尻振り
-		Wakeup,		// 起床
-		Sleep,		// 睡眠
-		Scream,		// 悲鳴
-		Scare,		// 怯え
-		Alarm,		// 警戒
-		Dying,		// 瀕死
-		Dead,		// 死亡
-		Eating,		// 食事
-		EatingShit,		// 食事(うんうん)
-		EatingBitter,		// 食事(毒)
-		Full,		// 満腹
-		Healing,		// 回復
-		Sukkiri,		// すっきり
-		RaperSukkiri,	// レイパーとすっきり
-		Birth,		// 誕生
-		Shit,		// 排泄
-		Shit2,		// 排泄2
-		SuriSuri,		// すりすり
-		PeroPero,		// ぺろぺろ
-		Breed,		// 出産
-		Breed2,		// 産後
-		HateShit,		// うんうん発見
-		Hungry,		// 空腹
-		NoAccessory,		// おかざり没収
-		Flying,		// 持ち上げ
-		SadnessForChild,		// 子供死亡
-		SadnessForPartner,		// つがい死亡
-		SadnessForEldersister,		// 姉死亡
-		SadnessForSister,		// 妹死亡
-		BlockedByWall,		// 壁発見
-		GetTreasure,		// おもちゃ発見
-		LostTreasure,		// おもちゃ紛失
-		Inflation,		// 膨張
-		AbuseBaby,		// 子虐待
-		Nobinobi,		// のびのび
-		NearToBirth,		// 出産前
-		PoisonDamage,		// 毒
-		CantShit,		// 排泄不可
-		NoPregnancy,	// 妊娠失敗
-		Fear,			// 恐怖でパニック状態	
-		Burning,		// 火がついてる状態
-		Wet,			// 水をかけられた
-		AnalSealed,		// あにゃる閉鎖
-		NeedleStick,	// 針が刺さった時
-		NeedleScream,	// 針が刺さっている時
-		ExtractingNeedlePartner, // つがいの針をぐーりぐりする
-		ExtractingNeedleChild, // 子の針をぐーりぐりする
-		NeedlePain,		// 被ぐーりぐり時
-		NeedleRemove,	// 針を抜いた時
-		WantAmaama,		// あまあま要求
-		CantMove,		// 移動不能1
-		CantMove2,		// 移動不能2
-		Pull,			// 引っ張る
-		Pull2,			// 引っ張る2
-		Press,			// つぶす
-		Press2,			// つぶす2
-		FindAmaama,		// あまあま発見
-		EatingAmaama,	// あまあま食事
-		Vomit,			// 吐餡
-		Dying2,			// 汎用、瀕死継続
-		Surprise,		// 汎用、驚き
-		RevengeAttack,	// 汎用、他のゆっくりに何かされたときに対する攻撃、反撃
-		BraidCut,		// おさげ、尻尾、羽をちぎる
-		EatenByBody,	// 汎用、他のゆっくりに生きたまま食べられる
-		EatenByBody2,	// 汎用、他のゆっくりに生きたまま吸われる
-		EscapeFromRemirya, // れみりゃから逃げる
-		// イベント系メッセージ
-		HateYukkuri,		// おかざりのないゆっくり発見
-		ConcernAboutPartner, // つがいを気遣う
-		ConcernAboutChild, // 子を気遣う
-		ConcernAboutEldersister, // 姉を気遣う
-		ConcernAboutSister, // 妹を気遣う
-		RootForPartner,	// つがい出産時		
-		FirstGreeting,	// 子への最初の挨拶
-		ScareRapist,		// レイパー怯え
-		AttackRapist,	// レイパーに攻撃
-		CounterRapist,	// レイパーに反撃命令
-		YukkuringSui,	// ゆっくりしているすぃーを見て
-		WantingSui,		// すぃーを欲しがる
-		WantingSuiPartner,		// すぃーを欲しがっているゆっくりのパートナー
-		WantingSuiParent,	// すぃーを欲しがっているゆっくりの親
-		FindSui,		// すぃーを見つける
-		GetSui,			// すぃーを自分のものにする
-		FindGetSui,			// 自分のすぃーにのりにいく
-		FindGetSuiOtner,	// 自分以外のすぃーにのりにいく
-		WantRideSuiOtner,	// 自分以外のすぃーにのりにいくときに呼ぶ
-		RideSui,		// すぃーにのる
-		RidingSui,		// すぃーにのっている
-		DrivingSui,		// すぃーを運転する
-		DrivingSuiPartner,		// すぃーを運転するパートナーをみて（自分はのっていない）
-		DrivingSuiChild,	// すぃーを運転するこどもをみて（自分はのっていない）
-		DrivingSuiPAPA,	// すぃーを運転する父親をみて（自分はのっていない）
-		DrivingSuiMAMA,	// すぃーを運転する母親をみて（自分はのっていない）
-		DrivingSuiOldSister,	// すぃーを運転する姉をみて（自分はのっていない）
-		DrivingSuiYoungSister,	// すぃーを運転する妹をみて（自分はのっていない）
-		RideOffSui,		// すぃーから降りる
-		hasSui,			// 持っているすぃーを自慢する
-		hasSuiPartner,	// 持っているすぃーを自慢されるパートナー
-		hasSuiChild,	// 子どもの持っているすぃーを自慢される親
-		hasSuiPAPAChild,	// 父親の持っているすぃーを自慢されるこども
-		hasSuiMAMAChild,	// 母親の持っているすぃーを自慢されるこども
-		hasSuiOldSister,	// 姉の持っているすぃーを自慢される
-		hasSuiYoungSister,	// 妹の持っているすぃーを自慢される
+		WantFood,		// 鬢檎匱隕�
+		NoFood,		// 鬢後↑縺�
+		Excite,		// 逋ｺ諠�
+		Relax,		// 繝ｪ繝ｩ繝�け繧ｹ
+		FuriFuri,		// 蟆ｻ謖ｯ繧�
+		Wakeup,		// 襍ｷ蠎�
+		Sleep,		// 逹｡逵�
+		Scream,		// 謔ｲ魑ｴ
+		Scare,		// 諤ｯ縺�
+		Alarm,		// 隴ｦ謌�
+		Dying,		// 轢墓ｭｻ
+		Dead,		// 豁ｻ莠｡
+		Eating,		// 鬟滉ｺ�
+		EatingShit,		// 鬟滉ｺ�縺�ｓ縺�ｓ)
+		EatingBitter,		// 鬟滉ｺ�豈�
+		Full,		// 貅��
+		Healing,		// 蝗槫ｾｩ
+		Sukkiri,		// 縺吶▲縺阪ｊ
+		RaperSukkiri,	// 繝ｬ繧､繝代�縺ｨ縺吶▲縺阪ｊ
+		Birth,		// 隱慕函
+		Shit,		// 謗呈ｳ�
+		Shit2,		// 謗呈ｳ�
+		SuriSuri,		// 縺吶ｊ縺吶ｊ
+		PeroPero,		// 縺ｺ繧阪⊆繧�
+		Breed,		// 蜃ｺ逕｣
+		Breed2,		// 逕｣蠕�
+		HateShit,		// 縺�ｓ縺�ｓ逋ｺ隕�
+		Hungry,		// 遨ｺ閻ｹ
+		NoAccessory,		// 縺翫°縺悶ｊ豐｡蜿�
+		Flying,		// 謖√■荳翫￡
+		SadnessForChild,		// 蟄蝉ｾ帶ｭｻ莠｡
+		SadnessForPartner,		// 縺､縺後＞豁ｻ莠｡
+		SadnessForEldersister,		// 蟋画ｭｻ莠｡
+		SadnessForSister,		// 螯ｹ豁ｻ莠｡
+		BlockedByWall,		// 螢∫匱隕�
+		GetTreasure,		// 縺翫ｂ縺｡繧�匱隕�
+		LostTreasure,		// 縺翫ｂ縺｡繧�ｴ帛､ｱ
+		Inflation,		// 閹ｨ蠑ｵ
+		AbuseBaby,		// 蟄占剞蠕�
+		Nobinobi,		// 縺ｮ縺ｳ縺ｮ縺ｳ
+		NearToBirth,		// 蜃ｺ逕｣蜑�
+		PoisonDamage,		// 豈�
+		CantShit,		// 謗呈ｳ�ｸ榊庄
+		NoPregnancy,	// 螯雁ｨ�､ｱ謨�
+		Fear,			// 諱先�縺ｧ繝代ル繝�け迥ｶ諷�
+		Burning,		// 轣ｫ縺後▽縺�※繧狗憾諷�
+		Wet,			// 豌ｴ繧偵°縺代ｉ繧後◆
+		AnalSealed,		// 縺ゅ↓繧�ｋ髢蛾事
+		NeedleStick,	// 驥昴′蛻ｺ縺輔▲縺滓凾
+		NeedleScream,	// 驥昴′蛻ｺ縺輔▲縺ｦ縺�ｋ譎�
+		ExtractingNeedlePartner, // 縺､縺後＞縺ｮ驥昴ｒ縺舌�繧翫＄繧翫☆繧�
+		ExtractingNeedleChild, // 蟄舌�驥昴ｒ縺舌�繧翫＄繧翫☆繧�
+		NeedlePain,		// 陲ｫ縺舌�繧翫＄繧頑凾
+		NeedleRemove,	// 驥昴ｒ謚懊＞縺滓凾
+		WantAmaama,		// 縺ゅ∪縺ゅ∪隕∵ｱ�
+		CantMove,		// 遘ｻ蜍穂ｸ崎�1
+		CantMove2,		// 遘ｻ蜍穂ｸ崎�2
+		Pull,			// 蠑輔▲蠑ｵ繧�
+		Pull2,			// 蠑輔▲蠑ｵ繧�
+		Press,			// 縺､縺ｶ縺�
+		Press2,			// 縺､縺ｶ縺�
+		FindAmaama,		// 縺ゅ∪縺ゅ∪逋ｺ隕�
+		EatingAmaama,	// 縺ゅ∪縺ゅ∪鬟滉ｺ�
+		Vomit,			// 蜷宣､｡
+		Dying2,			// 豎守畑縲∫�豁ｻ邯咏ｶ�
+		Surprise,		// 豎守畑縲�ｩ壹″
+		RevengeAttack,	// 豎守畑縲∽ｻ悶�繧�▲縺上ｊ縺ｫ菴輔°縺輔ｌ縺溘→縺阪↓蟇ｾ縺吶ｋ謾ｻ謦��蜿肴茶
+		BraidCut,		// 縺翫＆縺偵�蟆ｻ蟆ｾ縲∫ｾｽ繧偵■縺弱ｋ
+		EatenByBody,	// 豎守畑縲∽ｻ悶�繧�▲縺上ｊ縺ｫ逕溘″縺溘∪縺ｾ鬟溘∋繧峨ｌ繧�
+		EatenByBody2,	// 豎守畑縲∽ｻ悶�繧�▲縺上ｊ縺ｫ逕溘″縺溘∪縺ｾ蜷ｸ繧上ｌ繧�
+		EscapeFromRemirya, // 繧後∩繧翫ｃ縺九ｉ騾�￡繧�
+		// 繧､繝吶Φ繝育ｳｻ繝｡繝�そ繝ｼ繧ｸ
+		HateYukkuri,		// 縺翫°縺悶ｊ縺ｮ縺ｪ縺�ｆ縺｣縺上ｊ逋ｺ隕�
+		ConcernAboutPartner, // 縺､縺後＞繧呈ｰ鈴▲縺�
+		ConcernAboutChild, // 蟄舌ｒ豌鈴▲縺�
+		ConcernAboutEldersister, // 蟋峨ｒ豌鈴▲縺�
+		ConcernAboutSister, // 螯ｹ繧呈ｰ鈴▲縺�
+		RootForPartner,	// 縺､縺後＞蜃ｺ逕｣譎�	
+		FirstGreeting,	// 蟄舌∈縺ｮ譛��縺ｮ謖ｨ諡ｶ
+		ScareRapist,		// 繝ｬ繧､繝代�諤ｯ縺�
+		AttackRapist,	// 繝ｬ繧､繝代�縺ｫ謾ｻ謦�
+		CounterRapist,	// 繝ｬ繧､繝代�縺ｫ蜿肴茶蜻ｽ莉､
+		YukkuringSui,	// 繧�▲縺上ｊ縺励※縺�ｋ縺吶＜繝ｼ繧定ｦ九※
+		WantingSui,		// 縺吶＜繝ｼ繧呈ｬｲ縺励′繧�
+		WantingSuiPartner,		// 縺吶＜繝ｼ繧呈ｬｲ縺励′縺｣縺ｦ縺�ｋ繧�▲縺上ｊ縺ｮ繝代�繝医リ繝ｼ
+		WantingSuiParent,	// 縺吶＜繝ｼ繧呈ｬｲ縺励′縺｣縺ｦ縺�ｋ繧�▲縺上ｊ縺ｮ隕ｪ
+		FindSui,		// 縺吶＜繝ｼ繧定ｦ九▽縺代ｋ
+		GetSui,			// 縺吶＜繝ｼ繧定�蛻��繧ゅ�縺ｫ縺吶ｋ
+		FindGetSui,			// 閾ｪ蛻��縺吶＜繝ｼ縺ｫ縺ｮ繧翫↓縺�￥
+		FindGetSuiOtner,	// 閾ｪ蛻�ｻ･螟悶�縺吶＜繝ｼ縺ｫ縺ｮ繧翫↓縺�￥
+		WantRideSuiOtner,	// 閾ｪ蛻�ｻ･螟悶�縺吶＜繝ｼ縺ｫ縺ｮ繧翫↓縺�￥縺ｨ縺阪↓蜻ｼ縺ｶ
+		RideSui,		// 縺吶＜繝ｼ縺ｫ縺ｮ繧�
+		RidingSui,		// 縺吶＜繝ｼ縺ｫ縺ｮ縺｣縺ｦ縺�ｋ
+		DrivingSui,		// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ
+		DrivingSuiPartner,		// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ繝代�繝医リ繝ｼ繧偵∩縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		DrivingSuiChild,	// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ縺薙←繧ゅｒ縺ｿ縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		DrivingSuiPAPA,	// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ辷ｶ隕ｪ繧偵∩縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		DrivingSuiMAMA,	// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ豈崎ｦｪ繧偵∩縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		DrivingSuiOldSister,	// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ蟋峨ｒ縺ｿ縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		DrivingSuiYoungSister,	// 縺吶＜繝ｼ繧帝°霆｢縺吶ｋ螯ｹ繧偵∩縺ｦ�郁�蛻��縺ｮ縺｣縺ｦ縺�↑縺�ｼ�
+		RideOffSui,		// 縺吶＜繝ｼ縺九ｉ髯阪ｊ繧�
+		hasSui,			// 謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺吶ｋ
+		hasSuiPartner,	// 謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧九ヱ繝ｼ繝医リ繝ｼ
+		hasSuiChild,	// 蟄舌←繧ゅ�謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧玖ｦｪ
+		hasSuiPAPAChild,	// 辷ｶ隕ｪ縺ｮ謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧九％縺ｩ繧�
+		hasSuiMAMAChild,	// 豈崎ｦｪ縺ｮ謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧九％縺ｩ繧�
+		hasSuiOldSister,	// 蟋峨�謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧�
+		hasSuiYoungSister,	// 螯ｹ縺ｮ謖√▲縺ｦ縺�ｋ縺吶＜繝ｼ繧定�諷｢縺輔ｌ繧�
 	}
 
-	// 埋め込み文字定義
+	// 蝓九ａ霎ｼ縺ｿ譁�ｭ怜ｮ夂ｾｩ
 	public enum Replace {
 		name,
 		name2,
@@ -135,7 +135,7 @@ public class MessagePool
 	private static Random rnd = new Random();
 	private static HashMap<String, MessageMap>[] pool_j = null;
 
-	// 全メッセージ読み込み
+	// 蜈ｨ繝｡繝�そ繝ｼ繧ｸ隱ｭ縺ｿ霎ｼ縺ｿ
 	@SuppressWarnings("unchecked")
 	public static final void loadMessage(ClassLoader loader)
 	{
@@ -147,7 +147,7 @@ public class MessagePool
 		for(int i = 0; i < yk.length; i++)
 		{
 			pool_j[i] = new HashMap<String, MessageMap>();
-			// 汎用メッセージ
+			// 豎守畑繝｡繝�そ繝ｼ繧ｸ
 			br = ModLoader.openMessageFile(loader, yk[i].messageFileName + "_j.txt");
 			try {
 				readMessageMap(br, pool_j[i]);
@@ -155,7 +155,7 @@ public class MessagePool
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			// イベントメッセージ
+			// 繧､繝吶Φ繝医Γ繝�そ繝ｼ繧ｸ
 			br = ModLoader.openMessageFile(loader, yk[i].messageFileName + "_ev_j.txt");
 			try {
 				readMessageMap(br, pool_j[i]);
@@ -166,7 +166,7 @@ public class MessagePool
 		}
 	}
 
-	// 1ファイル読み込み
+	// 1繝輔ぃ繧､繝ｫ隱ｭ縺ｿ霎ｼ縺ｿ
 	private static final void readMessageMap(BufferedReader br, HashMap<String, MessageMap> map) throws IOException
 	{
 		String actName = null;
@@ -183,14 +183,14 @@ public class MessagePool
 			
 			if(line == null || "".equals(line)) continue;
 			
-			// 先頭文字判定
+			// 蜈磯�譁�ｭ怜愛螳�
 			String head1 = line.substring(0, 1);
 			if("#".equals(head1)) continue;
 
-			if("[".equals(head1)) // アクション
+			if("[".equals(head1)) // 繧｢繧ｯ繧ｷ繝ｧ繝ｳ
 			{
 				String head2 = line.substring(1, 2);
-				// アクションを閉じる
+				// 繧｢繧ｯ繧ｷ繝ｧ繝ｳ繧帝哩縺倥ｋ
 				if("/".equals(head2))
 				{
 					if(actName != null && act != null)
@@ -204,16 +204,16 @@ public class MessagePool
 					}
 					continue;
 				}
-				// アクション開始
+				// 繧｢繧ｯ繧ｷ繝ｧ繝ｳ髢句ｧ�
 				int st = line.indexOf("[") + 1;
 				int ed = line.indexOf("]");
 				actName = line.substring(st, ed);
 			}
-			else if("<".equals(head1)) // サブタグ
+			else if("<".equals(head1)) // 繧ｵ繝悶ち繧ｰ
 			{
 				if(actName == null) continue;
 				
-				// 現在までのメッセージを登録
+				// 迴ｾ蝨ｨ縺ｾ縺ｧ縺ｮ繝｡繝�そ繝ｼ繧ｸ繧堤匳骭ｲ
 				if(msg != null && msg.size() > 0)
 				{
 					String key = createTagKey(flags);
@@ -224,7 +224,7 @@ public class MessagePool
 					msg = new ArrayList<String>();
 				}
 				
-				// タグを閉じる
+				// 繧ｿ繧ｰ繧帝哩縺倥ｋ
 				String head2 = line.substring(1, 2);
 				if("/".equals(head2))
 				{
@@ -234,7 +234,7 @@ public class MessagePool
 					MessageMap.Tag tag = MessageMap.Tag.valueOf(tagName);
 					flags[tag.ordinal()] = false;
 					
-					// normal, rudeタグの区切り
+					// normal, rude繧ｿ繧ｰ縺ｮ蛹ｺ蛻�ｊ
 					if(MessageMap.Tag.normal.equals(tag) || MessageMap.Tag.rude.equals(tag))
 					{
 						flags = null;
@@ -243,7 +243,7 @@ public class MessagePool
 				}
 				else
 				{
-					// タグ開始
+					// 繧ｿ繧ｰ髢句ｧ�
 					int st = line.indexOf("<") + 1;
 					int ed = line.indexOf(">");
 					tagName = line.substring(st, ed);
@@ -278,14 +278,14 @@ public class MessagePool
 					}
 				}
 			}
-			else // セリフ
+			else // 繧ｻ繝ｪ繝�
 			{
 				msg.add(line);
 			}
 		}while(line != null);
 	}
 	
-	// フラグからマップキー作成
+	// 繝輔Λ繧ｰ縺九ｉ繝槭ャ繝励く繝ｼ菴懈�
 	private static final String createTagKey(boolean[] flags)
 	{
 		StringBuffer key = new StringBuffer("");
@@ -304,7 +304,7 @@ public class MessagePool
 		return key.toString();
 	}
 	
-	// メッセージ取得
+	// 繝｡繝�そ繝ｼ繧ｸ蜿門ｾ�
 	public static final String getMessage(Body body, Action action)
 	{
 		HashMap<String, MessageMap> map = null;
@@ -314,9 +314,9 @@ public class MessagePool
 		String partnerName = "";
 		
 		map = pool_j[body.msgType.ordinal()];
-		name = body.getNameJ();
-		name2 = body.getNameJ2();
-		if(body.partner != null) partnerName = body.partner.getNameJ();
+		name = body.getNameE();
+		name2 = body.getNameE2();
+		if(body.partner != null) partnerName = body.partner.getNameE();
 		
 		if(map == null) return "NO MESSAGE FILE";
 
@@ -327,7 +327,7 @@ public class MessagePool
 		boolean[] flags = null;
 		StringBuilder key = null;
 		
-		// ゲスチェック
+		// 繧ｲ繧ｹ繝√ぉ繝�け
 		if((body.isRude() && act.rudeFlag) || !act.normalFlag)
 		{
 			flags = act.rudeTag;
@@ -338,7 +338,7 @@ public class MessagePool
 			flags = act.normalTag;
 			key = new StringBuilder(MessageMap.Tag.normal.name() + "_");
 		}
-		// 年齢チェック
+		// 蟷ｴ鮨｢繝√ぉ繝�け
 		if(body.mindAgeState == Body.AgeState.BABY && flags[MessageMap.Tag.baby.ordinal()])
 		{
 			key.append(MessageMap.Tag.baby.name() + "_");
@@ -351,17 +351,17 @@ public class MessagePool
 		{
 			key.append(MessageMap.Tag.adult.name() + "_");
 		}
-		// ダメージチェック
+		// 繝�Γ繝ｼ繧ｸ繝√ぉ繝�け
 		if(body.isDamaged() && flags[MessageMap.Tag.damage.ordinal()])
 		{
 			key.append(MessageMap.Tag.damage.name() + "_");
 		}
-		// 足焼きチェック
+		// 雜ｳ辟ｼ縺阪メ繧ｧ繝�け
 		if(body.getFootBakeLevel() == Body.FootBake.CRITICAL && flags[MessageMap.Tag.footbake.ordinal()])
 		{
 			key.append(MessageMap.Tag.footbake.name() + "_");
 		}
-		// おくるみチェック
+		// 縺翫￥繧九∩繝√ぉ繝�け
 		if(body.hasPants() && flags[MessageMap.Tag.pants.ordinal()])
 		{
 			key.append(MessageMap.Tag.pants.name() + "_");
@@ -372,7 +372,7 @@ public class MessagePool
 		if(msg == null) return "NO TAG <" + key.toString() + ">";
 		
 		StringBuffer ret = new StringBuffer(msg[rnd.nextInt(msg.length)]);
-		// 埋め込み文字の置き換え
+		// 蝓九ａ霎ｼ縺ｿ譁�ｭ励�鄂ｮ縺肴鋤縺�
 		if(ret.indexOf("%") != -1)
 		{
 			if(ret.indexOf("%" + Replace.dummy.name()) != -1) return null;
@@ -424,10 +424,10 @@ public class MessagePool
 			Cell cell = row.getCell(0);
 			System.out.println(cell.getStringCellValue());
 		} catch (InvalidFormatException e) {
-			// TODO 自動生成された catch ブロック
+			// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO 自動生成された catch ブロック
+			// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 			e.printStackTrace();
 		}
 	}
