@@ -1,0 +1,33 @@
+	public String getComplacencyDirection()
+	{
+		 String  complacencyDirectionError=("Null");
+		 String  complacencyDirectionPos =("+");
+		 String  complacencyDirectionNeg =("-");
+		 String  complacencyDirectionBot =("-+");
+		 String  complacencyDirectionNei =("||");
+		increaseComplacency = false;
+		reduceComplacency = false;
+    	if (reduceComplacencyTimer > 0)
+    	{
+    		reduceComplacency = true;
+    	}
+    	if (increaseComplacencyTimer > 0)
+    	{
+    		increaseComplacency = true;
+    	}
+    	int localVal = 0;
+    	if (reduceComplacency) { localVal |= 0x1;}
+    	if (increaseComplacency){ localVal |= 0x2; }   
+    	switch (localVal)
+    	{
+    	case 1:  //both are false
+    		 return complacencyDirectionNei;  
+    	case 2: //reduce is true, increase is false
+    		 return complacencyDirectionNeg;
+    	case 3: //increase is true, reduce is false
+    		return complacencyDirectionPos;
+    	case 4: //both are true
+    		 return complacencyDirectionBot;
+    	}
+    	 return complacencyDirectionError;
+	}
