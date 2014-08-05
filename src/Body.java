@@ -404,6 +404,12 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	protected int shockTimer = 0; //TODO
 	
+	//Poo-poo expansion
+	//added 02.08.14 - kirisame
+	public static final int INFINITE = 999999;
+	protected int previousShitDistance = INFINITE;
+	protected int shitStress = 0;
+	
 	///// Stress System
 	protected boolean increaseStress = false;
 	protected int increaseStressTimer = 0;
@@ -1671,6 +1677,15 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			return;
 		}
 
+		// faced with poo-poo multiple time. became very sad
+		if(shitStress > 200)
+		{
+			setHappiness(Happiness.VERY_SAD);
+			clearActions();
+			shitStress -= 40;
+			return;
+		}
+		
 		if (vx != 0) {
 			x += vx;
 			if (Terrarium.onBarrier(x, y, getW() >> 2, getH() >> 3, Terrarium.MAP_BODY[bodyAgeState.ordinal()])) {
@@ -1869,6 +1884,27 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			z += vecZ;
 		}
 
+		int nearestShitDistance = ToiletLogic.getMinimumShitDistance(this);
+		
+		// if yukkuri going towards a shit redirect to another direction
+		// added by kirisame
+		if(nearestShitDistance < 1000 && nearestShitDistance != 0)
+		{
+			if(previousShitDistance > nearestShitDistance)
+			{
+				dirX *= (rnd.nextBoolean() ? 1 : -1);
+				dirY *= (rnd.nextBoolean() ? 1 : -1);
+				destX = -1;
+				destY = -1;
+				
+				shitStress += TICK;
+			}
+		}
+		else
+			shitStress -= TICK/2;
+		
+		previousShitDistance = nearestShitDistance;
+		
 		// 螢√メ繧ｧ繝�け
 		if (Terrarium.onBarrier(x, y, getW() >> 2, getH() >> 3, Terrarium.MAP_BODY[bodyAgeState.ordinal()])) {
 			x -= vecX;

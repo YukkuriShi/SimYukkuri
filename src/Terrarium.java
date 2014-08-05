@@ -1196,27 +1196,35 @@ public class Terrarium {
 				if(b.getCurrentEvent() != null) {
 					EventLogic.eventUpdate(b);
 				}
-				// check Food
-				if (!FoodLogic.checkFood(b)) {
-					// check Sukkiri
-					if (!BodyLogic.checkPartner(b)) {
-						// check shit
-						if (!ToiletLogic.checkShit(b)) {
-							// check toilet
-							if (!ToiletLogic.checkToilet(b)) {
-								// check sleep
-								if (!BedLogic.checkBed(b)) {
-									// check toy
-									if(!ToyLogic.checkToy(b)){
-										ToyLogic.checkSui(b);
-									}
-								}
-							}
-						}
+				// Maslow's hierarchy of needs
+				boolean maslowControl = true;
+				if(b.isDead() || b.isSleeping())
+					maslowControl = false;
+				
+				int maslowCounter = 0;
+				if(b.isFull())
+					maslowCounter = 1;
+				
+				boolean a = b.isTalking();
+				while(maslowControl)
+				{
+					switch(++maslowCounter)
+					{	// check food
+						case 1 : maslowControl = !FoodLogic.checkFood(b); break;
+						// check sukkuri
+						case 2 : maslowControl = !BodyLogic.checkPartner(b); break;
+						// check toilet
+						case 3 : maslowControl = !ToiletLogic.checkToilet(b); break;
+						// check sleep
+						case 4 : maslowControl = !BedLogic.checkBed(b); break;
+						// check toy
+						case 5 : if(!ToyLogic.checkToy(b))
+									ToyLogic.checkSui(b);
+									break;
+						default: maslowControl = false; break;
 					}
 				}
 			}
-
 			if ( b.getStalkBabyTypes().size() > 0 ){
 				int j = 0;
 				Stalk currentStalk = null;

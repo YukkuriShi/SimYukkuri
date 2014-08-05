@@ -8,7 +8,7 @@ import src.item.Toilet;
 	トイレ関係の処理
  */
 public class ToiletLogic {
-	
+	private static final int INFINITE = 999999;
 	public static final boolean checkShit(Body b) {
 		// 毎フレームチェックは重いのでインターバル
 		if(b.getAge() % 10 != 0) return false;
@@ -35,9 +35,30 @@ public class ToiletLogic {
 		}
 		return ret;
 	}
+	
+	public static final int getMinimumShitDistance(Body b)
+	{
+		int min = INFINITE;
+		int current = 0;
+		
+		if (b.isDead() || b.isIdiot() || b.isSleeping() || b.isExciting() || b.nearToBirth() ) {
+			return INFINITE;
+		}
+		if(b.currentEvent != null && b.currentEvent.getPriority() != EventPacket.EventPriority.LOW) {
+			return 0;
+		}
+
+		for (Shit s: Terrarium.shitList) {
+			if(s.getZ() != b.getZ()) continue;
+			current = Translate.distance(b.getX(), b.getY(), s.getX(), s.getY());
+			if(current < min) 	
+				min = current;
+		}
+		return min;
+	}
 
 	public static final boolean checkToilet(Body b) {
-		if (b.isDead() || b.isIdiot() || b.isSleeping() || !b.wantToShit() || b.nearToBirth() ) {
+		if (b.isIdiot() || !b.wantToShit() || b.nearToBirth() ) {
 			return false;
 		}
 		if(b.currentEvent != null && b.currentEvent.getPriority() != EventPacket.EventPriority.LOW) {

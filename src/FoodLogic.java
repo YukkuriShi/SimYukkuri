@@ -2,6 +2,9 @@ package src;
 
 import java.util.Random;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
+
+import src.Body.Happiness;
 import src.event.FlyingEatEvent;
 import src.item.Food;
 import src.yukkuri.Sakuya;
@@ -17,8 +20,7 @@ public class FoodLogic {
 	// フィールド内から餌候補の検索と移動、捕食処理
 	public static final boolean checkFood(Body b) {
 
-		if (b.isExciting() || b.isSleeping() || b.isDead() 
-				|| b.isScare() || b.isSick() || b.isFeelHardPain() || b.nearToBirth()) {
+		if (b.isExciting() || b.isScare() || b.isSick() || b.isFeelHardPain() || b.nearToBirth()) {
 			return false;
 		}
 		if(b.isRaper() && b.isExciting()) {
@@ -33,7 +35,80 @@ public class FoodLogic {
 			return false;
 		}
 
-		// 食べる対象が決まっていたら到達したかチェック
+		if(b.toFood)
+			return goToFood(b);
+		else
+			return findFood(b);
+	}
+	
+	private static boolean findFood(Body b)
+	{
+		boolean[] forceEat = {false};
+		Obj found = null;
+
+		// フィールドの餌検索
+		if(b.isIdiot() || (b.getFootBakeLevel() == Body.FootBake.CRITICAL && !b.canflyCheck())) {
+			// 足りないゆ、完全足焼き用
+			found = searchFoodNearlest(b, forceEat);
+		} else {
+			if(b.isPredatorType()) {
+				// 捕食種用
+				found = searchFoodPredetor(b, forceEat);
+			} else {
+				// 通常種用
+				found = searchFoodStanderd(b, forceEat);
+			}
+		}
+
+		if (found != null) {
+			// 発見した餌まで移動
+			if (b.isHungry() || forceEat[0]) {
+				if (!b.isTalking()) {
+					int mz = 0;
+					if(b.canflyCheck()) mz = found.getZ();
+
+					// go to nearest food
+					if (found instanceof Food) {
+						if(((Food)found).getFoodType() == Food.type.SWEETS1 || ((Food)found).getFoodType() == Food.type.SWEETS2) {
+							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.FindAmaama));
+						} else {
+							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantFood));
+						}
+						b.moveToFood(found, ((Food)found).getFoodType(), found.getX(), found.getY(), mz);
+					}
+					else if (found instanceof Shit){
+						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
+						b.moveToFood(found, Food.type.SHIT, found.getX(), found.getY(), mz);
+					}
+					else if (found instanceof Body) {
+						b.moveToFood(found, Food.type.BODY, found.getX(), found.getY(), mz);
+					}
+					else if (found instanceof Stalk) {//Food
+						b.moveToFood(found, Food.type.STALK, found.getX(), found.getY(), mz);
+					}
+					else if (found instanceof Vomit){
+						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
+						b.moveToFood(found, Food.type.VOMIT, found.getX(), found.getY(), mz);
+					}
+				}
+				return true;
+			}
+		} else {
+			// フィールドに何もなかったらメッセージ
+			if (b.isHungry()) {
+				if (!b.isTalking() && (rnd.nextInt(10) == 0)) {
+					b.toFood = false;
+					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
+					b.stay();
+					b.setHappiness(Body.Happiness.SAD);
+				}
+			}
+		}
+		return false;
+	}
+
+	private static boolean goToFood(Body b)
+	{
 		if(b.toFood && b.moveTarget != null) {
 			// 途中で消されてたら他の餌候補を探す
 			if(b.moveTarget.removed) {
@@ -55,6 +130,15 @@ public class FoodLogic {
 							b.clearActions();
 							return false;
 						}
+						
+				/*		if(ToiletLogic.getMinimumShitDistance(b) < 1000 && b.getHungry() < 10000)
+						{
+							b.clearActions();
+							b.setHappiness(Happiness.VERY_SAD);
+							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.HateShit), false);
+							
+							return false;
+						}*/
 						eatFood(b, f.getFoodType(), Math.min(b.getEatAmount(), f.getAmount()));
 						f.eatFood(Math.min(b.getEatAmount(), f.getAmount()));
 						if(f.getFoodType() == Food.type.STALK && f.isEmpty()) f.remove();
@@ -124,73 +208,10 @@ public class FoodLogic {
 			}
 			return true;
 		}
-
-		boolean[] forceEat = {false};
-		Obj found = null;
-
-		// フィールドの餌検索
-		if(b.isIdiot() || (b.getFootBakeLevel() == Body.FootBake.CRITICAL && !b.canflyCheck())) {
-			// 足りないゆ、完全足焼き用
-			found = searchFoodNearlest(b, forceEat);
-		} else {
-			if(b.isPredatorType()) {
-				// 捕食種用
-				found = searchFoodPredetor(b, forceEat);
-			} else {
-				// 通常種用
-				found = searchFoodStanderd(b, forceEat);
-			}
-		}
-
-		if (found != null) {
-			// 発見した餌まで移動
-			if (b.isHungry() || forceEat[0]) {
-				if (!b.isTalking()) {
-					int mz = 0;
-					if(b.canflyCheck()) mz = found.getZ();
-
-					// go to nearest food
-					if (found instanceof Food) {
-						if(((Food)found).getFoodType() == Food.type.SWEETS1 || ((Food)found).getFoodType() == Food.type.SWEETS2) {
-							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.FindAmaama));
-						} else {
-							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantFood));
-						}
-						b.moveToFood(found, ((Food)found).getFoodType(), found.getX(), found.getY(), mz);
-					}
-					else if (found instanceof Shit){
-						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
-						b.moveToFood(found, Food.type.SHIT, found.getX(), found.getY(), mz);
-					}
-					else if (found instanceof Body) {
-						b.moveToFood(found, Food.type.BODY, found.getX(), found.getY(), mz);
-					}
-					else if (found instanceof Stalk) {//Food
-						b.moveToFood(found, Food.type.STALK, found.getX(), found.getY(), mz);
-					}
-					else if (found instanceof Vomit){
-						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
-						b.moveToFood(found, Food.type.VOMIT, found.getX(), found.getY(), mz);
-					}
-				}
-				return true;
-			}
-		} else {
-			// フィールドに何もなかったらメッセージ
-			if (b.isHungry()) {
-				if (!b.isTalking() && (rnd.nextInt(10) == 0)) {
-					b.toFood = false;
-					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
-					b.stay();
-					b.setHappiness(Body.Happiness.SAD);
-				}
-			}
-		}
 		return false;
 	}
-
-	// 餌検索A
-	// 足りないゆ、足焼き用 最も近いものを適当に食べる
+	
+	
 	private static final Obj searchFoodNearlest(Body b, boolean[] forceEat) {
 		Obj found = null;
 		int minDistance = b.getEyesight();
