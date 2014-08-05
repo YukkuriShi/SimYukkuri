@@ -6,53 +6,44 @@ import java.awt.Rectangle;
 
 
 /***************************************************
- 座標変換クラス 
+ 蠎ｧ讓吝､画鋤繧ｯ繝ｩ繧ｹ 
 
  */
 public class Translate {
 
-	// フィールド画像に占める床部分の比率 現在のback.jpgからおよその値を持ってきている
 	private static final float wallX = 0.75f;
 //	private static final float wallY = 0.8f;
 	private static final float wallY = 0.7f;
 	
-	// 飛行種の最大高度、適当に画面外に出ない値で
 	public static final float flyLimit = 0.175f;
 
-	// マップサイズ 内部計算で使用するオブジェクトの位置座標
 	public static int mapW;
 	public static int mapH;
 	public static int mapZ;
-	// フィールドサイズ 実際に描画されるフィールドのピクセル値
 	public static int fieldW;
 	public static int fieldH;
-	// バックバッファサイズ
 	public static int bufferW;
 	public static int bufferH;
-	// バックバッファ描画位置、サイズ
 	private static Rectangle displayArea = new Rectangle();
 	private static float[] zoomTable;
 	private static int zoomRate = 0;
 	
-	// キャンバスサイズ 画面に描画されるウィンドウ枠の大きさ
 	public static int canvasW;
 	public static int canvasH;
 
-	// 四角のマップを台形に歪めて配置するため
-	// フィールド各Y座標でのXのスケールレートをテーブル化
+	
 	public static float[] rateX;
 	public static int[] ofsX;
-	// Y座標は直線なので単純なテーブル引きで済む
+	//
 	public static int[] mapToFieldY;
 	public static int fieldMinY;
-	// Z座標はテーブルを使わずレート計算
+	//
 	public static float rateZ;
 	
-	// マウスクリックなどフィールドのクリック位置からマップ座標へ変換するテーブル
-	// Xはマップ->フィールドから逆引きできるのでYのみ作成
+	//
 	public static int[] fieldToMapY;
 	
-	// オブジェクトの内包を簡易判定するためのシェイプ
+//
 	public static Polygon fieldPoly;
 
 	public static final void setMapSize(int mW, int mH, int mZ) {
@@ -152,13 +143,13 @@ public class Translate {
 		return displayArea;
 	}
 
-	// キャンバス -> フィールド変換
+	// 繧ｭ繝｣繝ｳ繝舌せ -> 繝輔ぅ繝ｼ繝ｫ繝牙､画鋤
 	public static final void transCanvasToField(int x, int y, int[] out) {
 		out[0] = displayArea.x + (int)(x * fieldW / canvasW * zoomTable[zoomRate]);
 		out[1] = displayArea.y + (int)(y * fieldH / canvasH * zoomTable[zoomRate]);
 	}
 
-	// フィールド -> キャンバス変換
+	// 繝輔ぅ繝ｼ繝ｫ繝�-> 繧ｭ繝｣繝ｳ繝舌せ螟画鋤
 	public static final void transFieldToCanvas(int x, int y, int[] out) {
 		out[0] = (int)((x - displayArea.x) * canvasW / fieldW / zoomTable[zoomRate]);
 		out[1] = (int)((y - displayArea.y) * canvasH / fieldH / zoomTable[zoomRate]);
@@ -180,20 +171,19 @@ public class Translate {
 		return canvasH;
 	}
 
-	// セットされたマップとフィールドサイズから変換テーブルを作成
+//
 	public static final void createTransTable() {
-		// マップ->フィールド変換テーブル
-		// 壁の部分を引いたYライン数を計算
+		//
 		float groundY = (float)fieldH * wallY;
 		float ofsY = (float)fieldH - groundY;
-		// マップの各Y値に対応するフィールドのYを計算
+//
 		float deltaY = groundY / (float)mapH; 
 		mapToFieldY = new int[mapH];
 		for(int y = 0; y < mapH; y++) {
 			mapToFieldY[y] = (int)(ofsY + (y * deltaY));
 		}
 		
-		// XはYが小さいほど幅が狭くなるので比率と壁のオフセットを計算
+		//
 		rateX = new float[mapH];
 		ofsX = new int[mapH];
 		
@@ -204,25 +194,25 @@ public class Translate {
 			rateX[y] /= mapW;
 		}
 
-		// フィールド->マップ変換テーブル
+		//
 		fieldToMapY = new int[fieldH];
-		// 壁部分は-1で埋める
+		// 
 		for(int y = 0; y < fieldH; y++) {
 			fieldToMapY[y] = -1;
 		}
-		// 壁の計算
+		// 
 		fieldMinY = (int)((float)fieldH * (1.0f - wallY));
-		// 床の計算
+		// 
 		groundY = (float)(fieldH - fieldMinY);
 		deltaY = mapH / groundY;
 		for(int y = 0; y < (fieldH - fieldMinY); y++) {
 			fieldToMapY[y + fieldMinY] = (int)(y * deltaY);
 		}
 		
-		// 高さ
+		// 
 		rateZ = (float)fieldH / (float)mapZ;
 		
-		// 内包判定用ポリゴン
+		// 
 		int[] polx = new int[4];
 		int[] poly = new int[4];
 		polx[0] = ofsX[0];				poly[0] = fieldMinY;
@@ -232,7 +222,7 @@ public class Translate {
 		fieldPoly = new Polygon(polx, poly, 4);
 	}
 
-	// マップ->フィールド変換
+	// 
 	public static final void translate(int x, int y, Point pos) {
 //		Point ret = new Point();
 		if(y < 0) y = 0;
@@ -248,7 +238,7 @@ public class Translate {
 		return (int)((float)z * rateZ);
 	}
 
-	// フィールド->マップ変換 範囲外の座標はnullを返す
+	// 
 	public static final Point invert(int x, int y) {
 		if(y < 0) return null;
 		if(y >= fieldH) return null;
@@ -264,7 +254,7 @@ public class Translate {
 		return ret;
 	}
 
-	// フィールド->マップ変換 範囲外の座標は限界位置として扱う
+	// 
 	public static final Point invertLimit(int x, int y) {
 		if(y < 0) y = 0;
 		if(y >= fieldH) y = fieldH - 1;
@@ -280,7 +270,7 @@ public class Translate {
 		return ret;
 	}
 
-	// オブジェクト用 フィールド->マップ変換 立っているとみなしてYは座標制限に猶予がある
+	// 
 	public static final Point invertObject(int x, int y, int pivX, int margin) {
 		int minY = y - margin;
 		int maxY = y + margin;
@@ -309,7 +299,7 @@ public class Translate {
 		return ret;
 	}
 
-	// 床配置物用 フィールド->マップ変換 設置物が完全にフィールド内に納まるように座標を制限する
+	//
 	public static final void invertGround(int x, int y, int pivX, int pivY, Point pos) {
 		int minY = y - pivY;
 		int maxY = y + pivY;
@@ -336,7 +326,7 @@ public class Translate {
 		pos.y = py;
 	}
 
-	// 空中物用 フィールド->マップ変換 ここで返す値はx,z
+	// 
 	public static final void invertFlying(int x, int y, int z, int pivX, Point pos) {
 		int py = fieldToMapY[y];
 		if(py < 0) py = 0;
@@ -356,7 +346,7 @@ public class Translate {
 		pos.y = z * Terrarium.MAX_Z / fieldH;
 	}
 
-	// 移動量フィールド->マップ変換
+	// 
 	public static final void invertDelta(int x, int y, Point pos) {
 		if(y < 0) y = 0;
 		if(y >= fieldH) y = fieldH - 1;
@@ -370,7 +360,7 @@ public class Translate {
 		pos.y = py;
 	}
 
-	// マップY座標から画像サイズの距離を計算
+	// 
 	public static final int invertX(int x, int mapY) {
 		if(mapY < 0) mapY = 0;
 		if(mapY >= mapH) mapY = mapH - 1;
@@ -390,14 +380,40 @@ public class Translate {
 //		return (int)(size * 100 / Terrarium.terrariumSizeParcent);
 	}
 
-	// 2点間の距離計算 ルートを省いているので実際の距離にはならないので注意
+
+	
+	//
 	public static final int distance(int x1, int y1, int x2, int y2) {
 		return ((x2 - x1)*(x2 - x1)+(y2 - y1)*(y2 - y1));
 	}
 	
-	// 飛行種の最大高度マップZを返す
+	// 
 	public static final int getFlyHeightLimit() {
 		return (int)(getMapZ() * Translate.flyLimit);
 	}
 
+	//IMPORTED FOR COMPATABILITY
+	static final private double m = 1.0 / 8.0;
+	static final private double n = 7.0 / 8.0;
+
+	static public int transX(int x, int y, int X, int Y) {
+		return (int)(((n-m)*Y*x - m*X*y + m*X*Y)/((n-m-1)*y + Y));
+	}
+
+	static public int transY(int x, int y, int X, int Y) {
+		return (int)(((n-m)*Y*y)/((n-m-1)*y + Y));
+	}
+
+	static public int invX(int x, int y, int X, int Y) {
+		return (int)((Y*x + m*X*y - m*X*Y)/((n-m)*Y - (n-m-1)*y));
+	}
+
+	static public int invY(int x, int y, int X, int Y) {
+		return (int)(Y*y/((n-m)*Y - (n-m-1)*y));
+	}
+	
+	static public int transSizeOld(int size) {
+		return (int)(size*100/Terrarium.terrariumSizeParcent);
+	}
+	
 }

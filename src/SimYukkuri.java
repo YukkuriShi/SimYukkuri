@@ -1764,7 +1764,69 @@ public class SimYukkuri extends JFrame {
 			}
 		}
 
-		public void mouseMoved(MouseEvent e) {
+		public void mouseMoved(MouseEvent e) {   //TODO imported wholesale from previous version, needs testing and cleanup and dialog.
+			switch ((GadgetMenu.MainCategory)s1.getSelectedItem()) {
+			
+			case TOOL:
+				switch ((GadgetMenu.Tool)s2.getSelectedItem()) {
+				case HAMMER:
+					Dimension size = mypane.getSize();
+					int w = size.width, h = size.height;
+					for (Body b:Terrarium.bodyList) {
+						int offsetX = (Body.MAXSIZE - b.getSize())/2;
+						int offsetY = (Body.MAXSIZE - b.getSize());
+						int X = (e.getX() - offsetX)*Terrarium.MAX_X/(w-Body.MAXSIZE);
+						int Y = (e.getY() - offsetY)*Terrarium.MAX_Y/(h-Body.MAXSIZE);
+						int x = Translate.invX(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);
+						int y = Translate.invY(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);  //TODO yukkuri dont flee in the y axis properly
+						if (!b.isRude()){    //TODO, poor organization, needs cleaning
+							if (b.isAdult()) {
+							b.setAngry();
+						//	b.lookTo(x, y);
+							
+							}
+							b.setHappiness(Body.Happiness.SAD);
+							b.runAway(x, y);
+							b.setMessage(null, 20, false, true);
+						 if (b.isScare()) {
+						//	b.showScare(); //method needs to be written
+						}
+						} //End of isrude block
+						if (b.isRude())   //isRude block uses a graduated response, this can be rewritten to take advantage of the new intelligence attribute, eg: dumb wouldnt understand whats going on and wouldn't flee
+						{
+							b.setMessage(null, 20, false, true);
+							b.runAway(x, y);
+
+							if ( b.isPatchy() == true)
+							{
+								//b.showPatchyHammerFear();
+								b.runAway(x, y);
+								b.setHappiness(Body.Happiness.SAD);
+								b.setMessage(null, 20, false, true);
+
+							}
+							else if (b.getDamagePercent() < 51)
+							{
+								//b.showTauntMister();
+							}
+							else if (b.getDamagePercent() > 50)
+							{
+								//b.showBegMisterStop();
+								b.runAway(x, y);
+								b.setHappiness(Body.Happiness.VERY_SAD);
+							}
+							
+							
+						}
+					}
+				 default:
+					break;
+				}
+			default:
+				break;
+			
+			}
+
 		}
 		
 		public void mouseEntered(MouseEvent e) {

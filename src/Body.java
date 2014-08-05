@@ -413,6 +413,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	protected boolean stressLocked = false;
 	
+	///////
+	
+	public static final int MAXSIZE = 128;
+
 	
 	
 	///// Badge System
@@ -2020,6 +2024,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		return getType();
 	}
 
+	public int getDamagePercent() {
+		int damagePercent = 100 * getDamage() / getDamageLimit();
+		return damagePercent;
+	}
+	
 	public ArrayList<Dna> getBabyTypes() {
 		return babyTypes;
 	}
