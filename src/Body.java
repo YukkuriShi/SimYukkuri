@@ -190,7 +190,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected int WEIGHT[] = {100, 300, 600};					// 菴馴㍾
 	protected int HUNGRYLIMIT[] = {100*12, 100*18, 100*24}; // 遨ｺ閻ｹ髯千阜
 	protected int SHITLIMIT[] = {100*12, 100*24, 100*24};		// 縺�ｓ縺�ｓ髯千阜
-	protected int DAMAGELIMIT[] = {100*24, 100*24*2, 100*24*7}; // 繝�Γ繝ｼ繧ｸ髯千阜
+	protected int DAMAGELIMIT[] = {100*24, 100*24*2, 100*24*4}; // 繝�Γ繝ｼ繧ｸ髯千阜
 	protected int STRESSLIMIT[] = {1, 1, 1}; //
 	//protected int STRESSLIMIT[] = {100*24, 100*24*3, 100*24*7}; // 繧ｹ繝医Ξ繧ｹ髯千阜   for reference
 	protected int TANGLEVEL[] = {300, 600, 1000};				// 蜻ｳ隕壹Ξ繝吶Ν
@@ -209,7 +209,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected int DECLINEPERIOD = 100*6*10; // 10 min.
 	protected int DISCIPLINELIMIT = 10;
 	protected int BLOCKEDLIMIT = 60;
-	protected int DIRTYPERIOD = 300;
+	protected int DIRTYPERIOD = 250;
 	protected int ROBUSTNESS = 1;
 	protected int EYESIGHT = Terrarium.MAX_X * Terrarium.MAX_Y;
 	protected int STRENGTH[] = {100, 100*10, 100*30};
@@ -420,8 +420,24 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	
 	///// Badge System
+	
+/*Yukkuri can have one of five different badge states, but should only ever have a single badge at a time (TODO)
+ * To keep things stupid simple, the process by which a yukkuri gains a badge is split into two methods, the first one firing off when clicked and triggering the second one,
+ * which then occurs once per tick.  The yukkuri performs a series of actions, with a chance of failure based on their attitude, complacency, intelligence and a bit of randomness.
+ * Each successful action contributes to a running score.  If this score is higher than the score required by the badge, then the badge is awarded.
+ * 
+ * The boolean isBusy acts to prevent any actions from interrupting the test, maybe remove the checkDamage method from it, maybe not.  Will wait till the system is finished to do that.
+ * 
+ */
 	public enum BadgeState { NONE, FAKE, BRONZE, SILVER, GOLD};
 	protected BadgeState badgeState = BadgeState.NONE;
+	
+	protected int testBadge = 0;
+	
+	protected int localCounter = 0;
+	protected int localStep = 0;
+	
+	protected boolean isBusy = false;
 	
 
 	
@@ -693,7 +709,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 
 		// 髯千阜縺瑚ｿ代▼縺�◆繧画賜豕�メ繧ｧ繝�け
-		if (shit > SHITLIMIT[bodyAgeState.ordinal()] - TICK*SHITSTAY) {
+		if (shit > SHITLIMIT[bodyAgeState.ordinal()] - TICK*SHITSTAY && !isBusy) {
 			// 邊倡捩蠎翫↓縺､縺�※縺溘ｉ菴灘兇繧偵°縺医ｉ繧後★縺ｫ貍上ｉ縺�
 			if (lockmove) {
 				setDirty(true);
@@ -707,7 +723,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			if (hasPants) {
 				setHappiness(Happiness.SAD);
 			}
-			if(!shitting) {
+			if(!shitting && (!isBusy)) {
 				setMessage(MessagePool.getMessage(this, MessagePool.Action.Shit), TICK*SHITSTAY);
 				wakeup();
 				shitting = true;
@@ -818,7 +834,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 
 	private boolean checkSleep() {
-		if (sleeping || ( wakeUpTime + ACTIVEPERIOD*12/10 < age && !exciting && relax && !scare && !isVerySad()) || unBirth) {
+		if (!isBusy() && sleeping || ( wakeUpTime + ACTIVEPERIOD*12/10 < age && !exciting && relax && !scare && !isVerySad()) || unBirth) {
 			clearActions();
 			sleeping = true;
 			angry = false;
@@ -2024,6 +2040,9 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		return getType();
 	}
 
+	public boolean isBusy(){
+		return isBusy;
+	}
 	public int getDamagePercent() {
 		int damagePercent = 100 * getDamage() / getDamageLimit();
 		return damagePercent;
@@ -2519,7 +2538,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 
 	public boolean isHungry() {
-		return (!dead && (hungry >= HUNGRYLIMIT[bodyAgeState.ordinal()] / 2));
+		return (!dead && (hungry >= HUNGRYLIMIT[bodyAgeState.ordinal()] / 2) && (!isBusy()));
 	}
 
 	public boolean isSoHungry() {
@@ -3899,37 +3918,9 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		attach.add(new Fire(this));
 	}
 	
-	public void testFake() {
-		if(burned || PanicType.BURN == panicType || crashed) {
-			return;
-		}
-		if(!dead) {
-			// 蟇昴※縺溘ｉ襍ｷ縺阪ｋ
-			if(sleeping) wakeup();
-			staycount = 0;
-			staying = false;
-			toFood = false;
-			toSukkiri = false;
-			toShit = false;
-			shitting = false;
-			birth = false;
-			angry = false;
-			furifuri = false;
-			eating = false;
-			peropero = false;
-			sukkiri = false;
-			scare = false;
-			eatingShit = false;
-			nobinobi = false;
-			setHappiness(Happiness.VERY_SAD);
-		}
-		panicType = PanicType.BURN;
-		wet = false;
-		wetPeriod = 0;
-		attach.add(new Fire(this));
-	}
+
 	
-	public void testForBadge(int badgeType) // 0=fake, 1=bronze, 2=silver, 3=gold,  //TODO: use timer to delay tests so they don't overlap. Could also lock to a clocktick and map out the actions
+	public void setupBadgeTest(int badgeType) // 0=fake, 1=bronze, 2=silver, 3=gold,  //TODO: use timer to delay tests so they don't overlap. Could also lock to a clocktick and map out the actions
 	{
 		int testScore = 0;
 		int passingScore = 0;
@@ -3950,7 +3941,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		scare = false;
 		eatingShit = false;
 		nobinobi = false;
-		String demoStretch = "Demonstrating Stretch~Stretch~!";
+		if (isSleeping())
+		{
+			wakeup();
+		}
+
 		switch(badgeType)
 		{
 		case 0: //testing for fake
@@ -3958,11 +3953,20 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			clearActions();
 			if (intelligence == Intelligence.WISE)
 			{
-				//TODO add in dialog for identifying fake badge. shitheads should complain and demand a real one.
+				String tooSmart = getNameE() + " doesn't want a fake mister badge like that!";
+				String tooSmartRude = getNameE() + " doesn't want a fake mister badge like that! Go die easy!";
+				if (isRude()){
+					setMessage(tooSmartRude, 30, true, true);
+				}
+				else
+				{
+					setMessage(tooSmart, 30, true, true);
+				}
+				setAngry();
+				stay(30);
 				break;
 			}
 			passingScore = 0; //set requires score to receive badge
-			///////////// Set dialog as either rude or notrude
 			if (isRude())
 			{
 			 readyFakeTest = getNameE() + " deserves a badge so that shitty slave has to give " + getNameE() + " anything " + getNameE()+ " wants!";
@@ -3973,35 +3977,72 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			 readyFakeTest = getNameE() + " is ready to become a badged yukkuri and take it even easier!";
 			 isRude=0;
 			}
-			setMessage(readyFakeTest, 10, false, true); //Deliver the previously defined dialog.  
-			stay(200);
-
-//////// Tests
-	
-			setMessage(demoStretch, 1, true, false);
-			nobinobi = true;
-			stay(100);
-
-			
-			
-			//
-			String localString = "gots da gudz!"; //placeholder to show success
-			addAttachment(new FakeBadge((Body)this));
-			setMessage(localString);  
-			break;
-			
-			
-		case 1: //testing for bronze
-			break;
-		case 2: //testing for silver
-			break;
-		case 3: //testing for gold
-			break;
-		default:
+			setMessage(readyFakeTest, 60, false, true); //Deliver the previously defined dialog.  
+			stay(210);
+			testBadge =1; // determines which badge we're testing for in the next section
+			isBusy=true;			
 			break;
 		}
-		return;
 	}
+	
+	public void runBadgeTest(int localSwitch){  //TODO Placeholder
+		String demoStretchAdult = "Demonstrating Stretch~Stretch~!";
+		String demoStretchBaby = "Demonshtwating Stwetch~Stwetch~ eajy!";
+		switch (localSwitch){
+		
+		
+	case 1:
+		localCounter++;
+		stay(50);
+		if (localCounter > 60 && localStep ==0)
+		{
+			//Determine dialog as either adult or baby
+			if (isAdult()){
+				setMessage(demoStretchAdult, 60, true, false);
+		}
+			else {
+				setMessage(demoStretchBaby, 60, true, true);
+		}
+			clearActions();
+			stay(60);
+				nobinobi = true;
+				stay(100);
+			localCounter = 0;
+			localStep ++;
+		}
+		if (localCounter > 70 && localStep ==1)
+		{
+			localStep ++;
+			clearActions();
+			localCounter  =0;
+			stay(50);
+			String successRude = "Mister badge is all " + getNameE() + "'s , so bring sweet-sweets old geezer!"; //placeholder to show success
+			String success = "Mister badge is all " + getNameE() + "'s! Take it easy!"; //placeholder to show success
+			if (isRude()){
+			setMessage(successRude, 30, true, false);  
+			}
+			else
+			{
+				setMessage(success, 30, true, true);  
+			}
+			addAttachment(new FakeBadge((Body)this));
+
+
+		}
+		if (localCounter > 40 && localStep ==2)
+		{
+			localStep =0; //Reset all the old variables so this doesn't get checked anymore, and so a second test works properly.
+			testBadge = 0;
+			isBusy=false;
+		}
+		break;
+		
+	default: 
+		break;
+		}
+	}
+		
+
 	
 
 	
@@ -4265,8 +4306,15 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			noDamagePeriod = 0;
 			noHungryPeriod = 0;
 			relax=true;
-			String ysn = "Yukkuri shitteite ne!";  
-			setMessage(ysn);
+			String ysn = "Take it easy!";  
+			String ysnBaby = "Chake id eajy!";
+			if (isAdult()){
+				setMessage(ysn, 30);
+			}
+			else
+			{
+			setMessage(ysnBaby, 30);
+			}
 			addStress(-100);
 			praiseLimitTimer = 350 ; 
 			increaseComplacencyTimer += 100 - 5*praiseUsed;
@@ -5064,6 +5112,7 @@ riding = bind
 			return retval;
 		}
 		// check status
+	if (!isBusy()){
 		checkHungry();
 		checkDamage();
 		checkStress();
@@ -5073,6 +5122,10 @@ riding = bind
 		checkPinned();
 		checkWetState();
 		checkBurntState();
+	}
+		if (testBadge > 0){ 
+			runBadgeTest(testBadge);
+			}
 	
 		// check events
 		int oldShit = shit;
@@ -5129,7 +5182,9 @@ riding = bind
 		}
 
 		// check relax and excitement
+		if (!isBusy()){
 		checkEmotion();
+		}
 
 		// check discipline level
 		checkDiscipline();

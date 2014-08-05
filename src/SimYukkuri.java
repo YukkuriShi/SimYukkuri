@@ -1144,7 +1144,7 @@ public class SimYukkuri extends JFrame {
 										if(b.getAttachmentSize(FakeBadge.class) != 0) {
 											b.removeAttachment(FakeBadge.class, true);
 										} else {
-											b.testForBadge(0); //TODO work in progress
+											b.setupBadgeTest(0); //TODO work in progress
 										}
 									}
 								
@@ -1779,6 +1779,10 @@ public class SimYukkuri extends JFrame {
 						int Y = (e.getY() - offsetY)*Terrarium.MAX_Y/(h-Body.MAXSIZE);
 						int x = Translate.invX(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);
 						int y = Translate.invY(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);  //TODO yukkuri dont flee in the y axis properly
+						if (b.isDead())
+						{
+							break;  //prevent dead bodies waving their braids
+						}
 						if (!b.isRude()){    //TODO, poor organization, needs cleaning
 							if (b.isAdult()) {
 							b.setAngry();
