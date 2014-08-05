@@ -1527,6 +1527,7 @@
 			Hwoootch!
 			Myaamyaa! Hwoootch!
 			SHO HOT!?
+			SHO HOT!?", "Hurdz! Ish choo hot!
 			HURDZ! Mishter fire ish not eajy!
 			<damage>
 				Yu... yu... yu...
@@ -1855,10 +1856,12 @@
 		<baby>
 			Mishter footshiesh won'd mobe?
 			Mishta feets wont work!
+			Weimu can'ch feel her mishder feet!?
 			Gan'd mobe? Mishder don'd be mean!
 		</baby>
 		<child>
 			Mishter footshiesh won'd mobe?
+			Weimu can'ch feel her mishder feet!?
 			Mishta feets don't be uneasy!!
 			Weimu can'ch feel her mishder feet!?
 			Why can'ch Weimu can'ch do jump-jump anymore!?
@@ -1876,6 +1879,7 @@
 			Mishter fwootshiesh won'd mwobe?
 			Mishat feets wont work!
 			Gan'd mobe? Shiddy shwabe don'd be mean!
+			Weimu can'ch feel her mishder feet!?
 		</baby>
 		<child>
 			Mishter footshiesh won'd move?
@@ -1886,6 +1890,7 @@
 		</child>
 		<adult>
 			Mister footsies won't move?
+			Reimu can'ch feel her mishder feet!?
 			Fix Reimu's beautfiul mister feets!!
 			Shitty slave! What did you do to Reimu's mister footsies!?
 			Why won'ch mister let Reimu go, is it because Reimu is so cute? Reimu is showwy for being so cute!!
@@ -2317,3 +2322,35 @@
 		</adult>
 	</normal>
 [/EscapeFromRemirya]
+# Death
+
+[Neutered]
+	<normal>
+		<baby>
+			Owch! Weimu's mishter peni-peni ish gone!
+		</baby>
+		<child>
+			Wry...
+			Nhoo, mishder peni-peni!
+			Hurdz! Weimu can'ch feel her misder peni-peni anymore!?...
+		</child>
+		<adult>
+			Why...
+			Ouch! Mishter peni-peni! No!
+			Mister peni-peni is gone!
+		</adult>
+	</normal>
+	<rude>
+		<baby>
+			Wanded... eajy...
+		</baby>
+		<child>
+			Wanded choo chage id eajy more...
+		</child>
+		<adult>
+			Wanted to take it easy more...
+			Wanted to refresh more...
+		</adult>
+	</rude>
+[/Neutered]
+
