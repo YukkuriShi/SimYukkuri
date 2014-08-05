@@ -2,16 +2,16 @@
 [WantFood]
 	<normal>
 		<baby>
-			ごはんしゃんのにおいがしゅりゅみょん
-			ちーんぽ！
+			Wand mwunj mwunj!
+			Id'sh a tashdy mishder fwood!
 		</baby>
 		<child>
-			ごはんしゃんのにおいがしゅりゅみょん
-			ちーんぽ！
+			Want munj-munj!
+			It'sh a tashty mishter food! 
 		</child>
 		<adult>
-			ごはんさんのにおいがするみょん
-			ちーんぽ！
+			Want munch munch!
+			It's a tasty mister food!
 		</adult>
 	</normal>
 [/WantFood]
@@ -20,41 +20,41 @@
 [NoFood]
 	<normal>
 		<baby>
-			ごはんしゃんにゃいみょん！
+			Dewe'j nyo mishder fwood?
 			<damage>
-				ごはんしゃんくだちゃい、、、
+				Fwood... pweaje...
 			</damage>
 		</baby>
 		<child>
-			ごはんしゃんにゃいにょみょん？
+			There'sh no mishter food?
 			<damage>
-				ごはんしゃんくだちゃい、、、
+				Food... pweashe...
 			</damage>
 		</child>
 		<adult>
-			ごはんさんがないみょん？
+			There's no mister food?
 			<damage>
-				ごはんざんぐだざいぃ、、、
+				Vood... bleaze...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ごはんしゃんにゃいみょん！
+			Dewe'j nyo fwood, dick mishder!
 			<damage>
-				ごはんしゃんくだちゃい、、、
+				Bwing mishder fwood... now ij fine...
 			</damage>
 		</baby>
 		<child>
-			ごはんしゃんにゃいにょみょん？
+			Thewe'sh no food, dick mishter!
 			<damage>
-				ごはんしゃんくだちゃい、、、
+				Bwing mishter food... now ish fine...
 			</damage>
 		</child>
 		<adult>
-			ごはんさんないみょん？ばかなの？しぬみょん？
+			There's no food, dick mister!
 			<damage>
-				ごはんざんぐだざいぃ、、、
+				Bring mizder vood... now iz vine...
 			</damage>
 		</adult>
 	</rude>
@@ -64,19 +64,19 @@
 [Excite]
 	<normal>
 		<baby>
-			ちーんぽ！
-			ちんぽおおお！！！
-			ぺにす！かりぶと！びっぐまら！
+			Dick!
+			Diiiiick!
+			Bwig dicksh! Hyuge dicksh! 
 		</baby>
 		<child>
-			ちーんぽ！
-			ちんぽおおお！！！
-			ぺにす！かりぶと！びっぐまら！
+			Dick!
+			Diiiiick!
+			Myon's huge dick wiww annihiwate you!
 		</child>
 		<adult>
-			ちーんぽ！
-			ぢんぼおおおお！！！！
-			ぺにす！かりぶと！びっぐまら！
+			Dick!
+			Diiiiick!
+			Myon's huge dick will annihilate you!
 		</adult>
 	</normal>
 [/Excite]
@@ -85,48 +85,48 @@
 [Relax]
 	<normal>
 		<baby>
-			ゆっくちしていっちぇね！
-			みょんはみょんだみょん！ゆっくちしていっちぇね！
-			みょーん！みょーん！みょーん！
-			みょんみょんみょ～ん！
-			ちーんぽ！
-			おにいしゃんもゆっくちちていくみょん！
+			Di~ck
+			Chage id eajy!
+			Chinpo~
+			Chinchin~
+			Eajy~
+			Yuu!
 		</baby>
 		<child>
-			ゆっくちしていっちぇね！
-			みょんはみょんだみょん！ゆっくちしていってね！
-			みょーん！みょーん！みょーん！
-			むれのみんなはみょんがまもるみょん！
-			ちーんぽ！
-			おにいしゃんもゆっくちちていくみょん！
+			Chake it eajy!
+			Di~ck
+			Chinpo~
+			Chinchin~
+			Eajy~
+			Yuu!
 		</child>
 		<adult>
-			ゆっくりしていってね！
-			みょんはみょんだみょん！ゆっくりしていってね！
-			みょーん！みょーん！みょーん！
-			むれのみんなはみょんがまもるんだみょん！
-			ちーんぽ！
-			おにいさんもゆっくりしていくみょん！
+			Take it easy!
+			Di~ck
+			Chinpo~
+			Chinchin~
+			Easy~
+			Yukkuri shitteite ne!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんみょんみょ～ん！
-			ゆっくちちてないじじいがいるみょん！
-			みょーん！みょーん！みょーん！
-			ちーんぽ！
+			Myon chakes id eajier den mishder human~
+			Die eajy~
+			Dick! Dick! Bwig fat dick!
+			Fwucking hyuge dick!
 		</baby>
 		<child>
-			むれのみんなはみょんがまもっちぇやるみょん！
-			ゆっくちしてないじじいがいるみょん！
-			みょーん！みょーん！みょーん！
-			ちーんぽ！
+			Myon takesh it eajier den mishter human~
+			Die eajy~
+			Dick! Dick! Big fat dick!
+			Fucking hyuge dick!
 		</child>
 		<adult>
-			むれのみんなはみょんがまもってやるみょん！
-			ゆっくりしてないじじいがいるみょん！
-			みょーん！みょーん！みょーん！
-			ちーんぽ！
+			Myon takes it easier than mister human~
+			Die easy~
+			Dick! Dick! Big fat dick!
+			Fucking huge dick!
 		</adult>
 	</rude>
 [/Relax]
@@ -135,45 +135,45 @@
 [FuriFuri]
 	<normal>
 		<baby>
-			こ～りょこ～りょするみょん！
-			えろほん！びにぼん！うらびでお！
-			ちーんぽ！
-			おなほ！ろーしょん！らぶどーる！
+			Wigguw wigguw!
+			Wo~ll wo~ll
+			Dick!
+			Yuwawa~!
 		</baby>
 		<child>
-			こ～りょこ～りょするみょん！
-			えろほん！びにぼん！うらびでお！
-			ちーんぽ！
-			おなほ！ろーしょん！らぶどーる！
+			Wigguw wigguw!
+			Wo~ll wo~ll
+			Dick!
+			Yuwawa~!
 		</child>
 		<adult>
-			こ～ろこ～ろするみょん！
-			えろほん！びにぼん！うらびでお！
-			ちーんぽ！
-			おなほ！ろーしょん！らぶどーる！
+			Wiggle wiggle!
+			Ro~ll ro~ll
+			Dick!
+			Yuwawa~!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			こ～りょこ～りょするみょん！
-			えろほん！びにぼん！うらびでお！
-			ゆなほ！ろーしょん！らぶどーる！
-			ちーんぽ！
-			どりぇい！みょんのあにゃりゅぺりょぺりょするみょん！
+			Hyuge thwobbing dicksh!
+			Wigguw wigguw!
+			Wo~ll wo~ll
+			Dick!
+			Shiddy geejer do anyawu wick~wick!
 		</baby>
 		<child>
-			こ～りょこ～りょするみょん！
-			えろほん！びにぼん！うらびでお！
-			ゆなほ！ろーしょん！らぶどーる！
-			ちーんぽ！
-			どりぇい！みょんのあにゃりゅぺりょぺりょするみょん！
+			Hyuge thwobbing dicks!
+			Wigguw wigguw!
+			Wo~ll wo~ll
+			Dick!
+			Shitty geejer do anyawu wick~wick!
 		</child>
 		<adult>
-			こ～りょこ～りょするみょん！
-			えろほん！びにぼん！うらびでお！
-			ゆなほ！ろーしょん！らぶどーる！
-			ちーんぽ！
-			どりぇい！みょんのあにゃりゅぺりょぺりょするみょん！
+			Huge throbbing dicks!
+			Wiggle wiggle!
+			Ro~ll ro~ll
+			Dick!
+			Shitty geezer can admire Myon's anyaru!
 		</adult>
 	</rude>
 [/FuriFuri]
@@ -182,30 +182,30 @@
 [Wakeup]
 	<normal>
 		<baby>
-			ゆっくちしていっちぇね！
-			ゆっくちしていくみょん！
+			Chage id eajy!
+			Di~ck!
 		</baby>
 		<child>
-			ゆっくちしていっちぇね！
-			ゆっくちしていくみょん！
+			Chake it eajy!
+			Di~ck!
 		</child>
 		<adult>
-			ゆっくりしていってね！
-			ゆっくりしていくみょん！
+			Take it easy!
+			Di~ck!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆっくちしていっちぇね！！！
-			ゆっくちしていくみょん！！！
+			Chage id eajy!
+			Di~ck!
 		</baby>
 		<child>
-			ゆっくちしていっちぇね！！！
-			ゆっくちしていくみょん！！！
+			Chake it eajy!
+			Di~ck!
 		</child>
 		<adult>
-			ゆっくりしていってね！！！
-			ゆっくりしていくみょん！！！
+			Take it easy!
+			Di~ck!
 		</adult>
 	</rude>
 [/Wakeup]
@@ -214,16 +214,16 @@
 [Sleep]
 	<normal>
 		<baby>
-			みょーんみょーん・・・
-			みょん・・・
+			Myon ij ashweep...
+			Di... ck...
 		</baby>
 		<child>
-			みょーんみょーん・・・
-			みょん・・・
+			Myon is ashweep...
+			Di... ck...
 		</child>
 		<adult>
-			みょーんみょーん・・・
-			むれはみょんがまもるみょん・・・
+			Myon is asleep...
+			Di... ck...
 		</adult>
 	</normal>
 [/Sleep]
@@ -232,65 +232,65 @@
 [Scream]
 	<normal>
 		<baby>
-			いぢゃいいいい！！！
-			おきゃーしゃ！
-			みょんやあああ！！！
+			HURDZ!?
+			Yunyaaaa!!!
+			Myamya!!!
 			<damage>
-				みょ、みょ、みょ、、、
-				たしゅけて、、、
-				おがーじゃん、、、
+				Shdob id... eajy...
+				Wry...
+				Myon ish showwy...
 			</damage>
 		</baby>
 		<child>
-			いちゃい！やめりゅみょん！
-			おきゃーしゃーん！
-			みょんやあああ！！！みょんわるいみょんぢゃにゃいのにー！
+			ID HURD!?
+			Yunyaaaa!
+			Shtop it? Shtop it eajy!
 			<damage>
-				いちゃい、、、やめりゅみょん、、、
-				みょん、ちにたくない、、、たしゅけてみょん、、、
-				いだい、、、いだいいいい
+				Shtop it... eajy...
+				Wry... awe you doing dish...
+				Myon ish shorry...
 			</damage>
 		</child>
 		<adult>
-			いたい！やめるんだみょん！はくろーけんのさびにしてやるみょん！
-			みょんのこといじめないでみょん？
-			みょんやあああ！！！みょんわるいみょんじゃないみょん！？
+			ID HURDZ!?
+			Yunyaaaa!
+			Stop it? Stop it easy!
 			<damage>
-				おねがいするみょん、やべでぐだざいみょん、、、
-				じにだぐないみょん、だずげでほしいみょん、、、
-				やべで、、、もうやべでぐだざいみょん、、、
+				Zdob id... eazy...
+				Wry... are you doing diz...
+				Myon iz zorry...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんやあああ！！！
-			いぢゃいいいい！！！
-			ゆぎゃぁあああん！！
+			HURDZ!?
+			Yunyaaaa!
+			Shdob id, shiddy mishder!
 			<damage>
-				みょ、みょ、みょ、、、
-				やめでえええ、、、
-				ゆっくちさせちぇええ、、、
+				Shdob id... eajy...
+				Weave pwecioush Myon awone...
+				Wry...
 			</damage>
 		</baby>
 		<child>
-			みょんやー！にゃにすりゅんだみょん？ぷきゅーするみょん！
-			いぢゃいいいい！！！やめりょくしょどれい！
-			いだいい！！やめりょ！！
+			ID HURD!?
+			Yunyaaaa!
+			Shtop it, shitty mishter!
 			<damage>
-				ごめんだみょん、やめちぇね、、、
-				ゆっくぢじないでやべろ、、、
-				みょんをゆっぐりざぜろ、、、
+				Shtop it... eajy...
+				Wry... awe you doing dish...
+				Weave pwecious Myon awone...
 			</damage>
 		</child>
 		<adult>
-			いたい！やめるんだみょん！はくろーけんのさびにしてやるみょん！
-			いぢゃいいいい！！！せいっさいしてやるみょん！？
-			いだいい！みょんにあやまれえええ！！！！
+			ID HURDZ!?
+			Yunyaaaa!
+			Stop it, shitty mister!
 			<damage>
-				おねがいじばずゆるじでぐだざいみょん、、、
-				いますぐやめたらゆるしてやるみょん、、、
-				みょんをゆっぐぢざぜでぐだざいみょん、、、
+				Zdob id... eazy...
+				Wry... are you doing diz...
+				Leave brezious Myon alone...
 			</damage>
 		</adult>
 	</rude>
@@ -300,21 +300,21 @@
 [Scare]
 	<normal>
 		<baby>
-			みょんやー！
+			Yunya!
 			<damage>
-				やめちぇにぇやめちぇにぇ、、、
+				Gan'd chage id eajy...
 			</damage>
 		</baby>
 		<child>
-			ゆっくちできにゃいみょんー！
+			Myon canch chake it eajy!
 			<damage>
-				ごめんにゃちゃいやめちぇね、、、
+				Pweashe shtop...
 			</damage>
 		</child>
 		<adult>
-			ゆっくりできないみょん！
+			Myon can't take it easy!
 			<damage>
-				おねがいじばず、やめでぐだざいみょん、、、
+				Bleaze zdob...
 			</damage>
 		</adult>
 	</normal>
@@ -324,41 +324,41 @@
 [Alarm]
 	<normal>
 		<baby>
-			ゆっくちできにゃいみょん！
+			Yunyaaa!
 			<damage>
-				やめちぇにぇやめちぇにぇ、、、
+				Jdob id...
 			</damage>
 		</baby>
 		<child>
-			ゆっくちできにゃいみょん！
+			Can'ch chake id eajy!
 			<damage>
-				ごめんにゃちゃいやめちぇね、、、
+				Pweashe shtop it...
 			</damage>
 		</child>
 		<adult>
-			やめるんだぜ！はくろーけんのさびにしてやるみょん！
+			This can't take it easy!
 			<damage>
-				おねがいじばず、やめでぐだざいみょん、、、
+				Bleaze zdob id...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			やめりょくしょどれい！
+			Yunyaaa!
 			<damage>
-				やめちぇにぇやめちぇにぇ、、、
+				Jdob id...
 			</damage>
 		</baby>
 		<child>
-			やめりょくしょどれい！しぇいしゃいしゅりゅよ！
+			Can'ch chake it eajy!
 			<damage>
-				ごめんにゃちゃいやめちぇね、、、
+				Shtop ich... wight now ish fine...
 			</damage>
 		</child>
 		<adult>
-			いますぐやめるんだぜ！はくろーけんのさびにするみょん！
+			This can't take it easy!
 			<damage>
-				おねがいじばず、やめでぐだざいみょん、、、
+				Zdob id... righd now iz vine...
 			</damage>
 		</adult>
 	</rude>
@@ -368,13 +368,13 @@
 [Dying]
 	<normal>
 		<baby>
-			みょべっ！
+			Myobeh!
 		</baby>
 		<child>
-			みょ、みょ、みょ、、、
+			Myo, myo, myo...
 		</child>
 		<adult>
-			ぶぼっ！
+			Byuboeh!
 		</adult>
 	</normal>
 [/Dying]
@@ -383,16 +383,16 @@
 [Dead]
 	<normal>
 		<baby>
-			みょんやぁ、、、
-			もっちょゆっくち、、、
+			Myonya~a...
+			Wanded... eajy...
 		</baby>
 		<child>
-			ふがいないみょんでごめんだみょん、、、
-			もっちょゆっくちしちゃかった、、、
+			Wanded... eajy...
+			Wanded eajy more...
 		</child>
 		<adult>
-			ふがいないみょんでごめんだみょん、、、
-			もっとゆっくりしたかった、、、
+			Wanted to... take it easy more...
+			Sorry for being uneasy...
 		</adult>
 	</normal>
 [/Dead]
@@ -401,30 +401,30 @@
 [Eating]
 	<normal>
 		<baby>
-			む～ちゃむ～ちゃ、おいちいみょん
-			これ、おいちいみょん！
+			Mwunsh mwunsh~ happinech!
+			Dewicious!
 		</baby>
 		<child>
-			みょーんみょーん、ちあわちぇー！
-			みょーんみょーん、はふはふ！
+			Munch munch~ happinech!
+			Dewicious!
 		</child>
 		<adult>
-			みょーんみょーん、しあわせー！
-			みょーんみょーん、めっちゃうめぇ！
+			Munch munch~ happiness!
+			Delicious!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			む～ちゃむ～ちゃ、びみょうだみょーん
-			むっちゃむっちゃ、びみょうだみょーん
+			Mwunsh mwunsh~ fucking tashdy!
+			Dewicious!
 		</baby>
 		<child>
-			むーちゃむーちゃ、それなりなんだみょーん！
-			みょーんみょーん、はふはふ！
+			Munch munch~ fucking tashty!
+			Dewicious!
 		</child>
 		<adult>
-			みょーんみょーん、それなりー！
-			みょーんみょーん、これめっちゃうめぇ！
+			Munch munch~ fucking tasty!
+			Delicious!
 		</adult>
 	</rude>
 [/Eating]
@@ -433,37 +433,37 @@
 [EatingShit]
 	<normal>
 		<baby>
-			にゃんでみょんがこんにゃのたべにゃきゃいけにゃいんだみょん、、、
-			うんうんたべちゃくにゃいみょん、、、
-		　　どうしてみょんにいじわるするんだみょん、、、
+			Pwoo pwoo ish noch fwood!
+			Yucky! Tashtesh bwad!
+		　　Myon don'd wanna each mishder pwoo pwoo!
 		</baby>
 		<child>
-			にゃんでみょんがこんにゃのたべにゃきゃいけにゃいんだみょん、、、
-			うんうんたべちゃくにゃいみょん、、、
-		　　どうしてみょんにいじわるするんだみょん、、、
+			Poo poo ish nod food!
+			Yucky! Tashtesh bad!
+		　Myon don'd wanna ead mishter poo poo!
 		</child>
 		<adult>
-			なんでみょんがこんなのたべなきゃいけないんだみょん、、、
-			うんうんたべたくないいい、、、
-		　　うんうんはごはんさんじゃないみょん、どうしてみょんにいじわるするんだみょん？
+			Poo poo is not food!
+			Yucky! Tastes bad!
+		　　Myon doesn't wanna eat mister poo poo!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			にゃんでみょんがこんにゃのたべにゃきゃいけにゃいんだみょん、、、
-			うんうんたべちゃくにゃいみょん、、、
-		　　どうしてみょんにいじわるするんだみょん、、、
+			Pwoo pwoo ish noch fwood! Awe you shtupid?
+			Yucky! Tashtesh bwad!
+		　　Myon don'd wanna each mishder pwoo pwoo!
 		</baby>
 		<child>
-			にゃんでみょんがこんにゃのたべにゃきゃいけにゃいんだみょん、、、
-			うんうんたべちゃくにゃいみょん、、、
-		　　どうしてみょんにいじわるするんだみょん、、、
+			Poo poo is nod food! Awe you shtupid?
+			Yucky! Tashtesh bad!
+		　　Myon don'd wanna ead mishter poo poo!
 		</child>
 		<adult>
-			なんでみょんがこんなのたべなきゃいけないんだみょん、、、
-			うんうんたべたくないいい、、、
-		　　このくそじじい、、、うんうんじゃなくてごはんさんだみょん、、、　　
-		　　うんうんはごはんさんじゃないだみょん、どうしてみょんにいじわるするんだみょん？
+			Poo poo is not food! Are you stupid?
+			Yucky! Tastes bad!
+		　　Myon doesn't wanna eat mister poo poo!
+		　　Fucking disgusting!
 		</adult>
 [/EatingShit]
 
@@ -471,13 +471,13 @@
 [EatingBitter]
 	<normal>
 		<baby>
-			む～ちゃむ～ちゃ、こりぇどきゅはいっちぇりゅみょん！
+			Mwunj mwunj~ it tashte weiwd???
 		</baby>
 		<child>
-			むーちゃむーちゃ、こりぇどきゅはいっちぇりゅみょん！
+			Munch munch~ it tashtesh weiwd???
 		</child>
 		<adult>
-			たべちゃだめだみょん！これどくはいってるみょん！
+			Munch munch~ it tastes weird! Unhappiness!
 		</adult>
 	</normal>
 [/EatingBitter]
@@ -486,13 +486,13 @@
 [Full]
 	<normal>
 		<baby>
-			おにゃかいっぱい、、、
+			Chummy fuww!
 		</baby>
 		<child>
-			おにゃかいっぱい、、、
+			Can'd ead any moa!
 		</child>
 		<adult>
-			もうたべられないみょん、、、
+			Can't eat any more!
 		</adult>
 	</normal>
 [/Full]
@@ -501,55 +501,55 @@
 [Healing]
 	<normal>
 		<baby>
-			みょーん！あみゃあみゃ！
-			おにいしゃんゆっくちありがとうだみょん！
-			あみゃあみゃはゆっくちできりゅみょん！
+			Chaging id eajier!!
+			Sweet sweech! Fanksh!
+			Feewing bedder!
 			<damage>
-				ふっきゃちゅしたみょん！
+				Gan chage id a bid eajier...
 			</damage>
 		</baby>
 		<child>
-			みょーん！あまあまおいちぃ！！！
-			おにいしゃんゆっくちありがとうだみょん！
-			あまあまはゆっくちできりゅみょん！
+			Chaking it eajier!
+			Sweet sweetsh! Thanksh!
+			Feewing better!
 			<damage>
-				みょみょーん！みょんはふっきゃつしちゃみょん！
+				Can chake it a bit eajier...
 			</damage>
 		</child>
 		<adult>
-			みょーん！あまあまおいしいよお！！！
-			ゆゆっ！おにいさんありがとう！
-			あまあまはゆっくりできるみょん！
+			Taking it easier!
+			Sweet sweets! Thanks!
+			Feeling better!
 			<damage>
-				みょみょーん！みょんはふっかつしたみょん！
+				Gan dage id a bid eazier...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			へぶんじょうたいっ！なんだみょん！
-			あみゃあみゃもっとよこすんだみょん！
-			くちょどりぇいのくちぇにきがきくんだみょん！
+			Mowe shweet shweech!
+			Shweet shweech awe wate!
+			Feewing bedder!
 			<damage>
-				ふっきゃつしちゃみょん！
-				もうみょんをおこらせにゃいほうがいいみょん？
+				Gan chage id a bid eajier...
+				More...
 			</damage>
 		</baby>
 		<child>
-			へぶんじょうたいっ！なんだみょん！
-			あまあまもっちょよこすんだみょん！
-			くしょどりぇいのくしぇにきがきくんだみょん！
+			Mowe sweet sweetsh!
+			Sweet sweetsh are wate!
+			Feewing better!
 			<damage>
-				みょんはかれいにふっきゃつしちゃんだみょん！
-				やっとみょんのおそろししゃにきがついたんだみょん？
+				Can chake it a bit eajier...
+				More...
 			</damage>
 		</child>
 		<adult>
-			へぶんじょうたい！なんだみょん！
-			くそどれいのくせにきがきくんだみょん！でももっともってくるんだみょん！
+			More sweet sweets!
+			Shitty mister was late with the sweet sweets!
 			<damage>
-				みょんはかれいにふっかつしたんだみょん！
-				ぐずはあまあまをよこすのもおそいんだみょん！
+				Gan dage id a bid eazier...
+				Bring more zweed zweedz...
 			</damage>
 		</adult>
 	</rude>
@@ -559,13 +559,13 @@
 [Sukkiri]
 	<normal>
 		<baby>
-			ちゅっきち！
+			Wefweshed!
 		</baby>
 		<child>
-			ちゅっきり！
+			Wefweshed!
 		</child>
 		<adult>
-			すっきり！
+			Refreshed!
 		</adult>
 	</normal>
 [/Sukkiri]
@@ -574,13 +574,13 @@
 [RaperSukkiri]
 	<normal>
 		<baby>
-			いやぢゃぁぁぁ！
+			Don'd do ich eny moa!
 		</baby>
 		<child>
-			ちゅっきりしだぐないぃぃぃ！
+			Hurdz!? Babiesz gwowing!?
 		</child>
 		<adult>
-			も゛う゛ずっぎりじだぐないぃぃぃ！
+			It hurts!? Little ones take it easy and don't grow!
 		</adult>
 	</normal>
 [/RaperSukkiri]
@@ -588,7 +588,7 @@
 # 誕生
 [Birth]
 	<normal>
-		ゆっくちちていっちぇね！
+		Chage id eajy!
 	</normal>
 [/Birth]
 
@@ -596,55 +596,55 @@
 [Shit]
 	<normal>
 		<baby>
-			うんうんしゃんゆっくちでてくるんだみょん
-			うんうんしゃんばいばいなんだみょん！
+			Pwoo pwoo goming oud!
+			Doing pwoo pwoo!
 			<pants>
-				うんうんもりぇりゅんだみょん！
-				うんうんしゃんゆっくちでてこないでにぇ！
+				Gonna pwoo pwoo Myon's pantsh!
+				Wry don'd pantsh gome off!?
 			</pants>
 		</baby>
 		<child>
-			うんうんさんゆっくちでてきてにぇ
-			うんうんしゃんばいばいなんだみょん！
+			Poo poo coming oud!
+			Doing poo poo!
 			<pants>
-				うんうんもりぇりゅぅぅぅ！
-				うんうんしゃんゆっくちでてこないでみょん！
+				Poo poo ish leaking in pantsh!
+				Mishter pantsh huwwy and gome off!
 			</pants>
 		</child>
 		<adult>
-			うんうんはゆっくりでてくるんだみょん
-			うんうんでるみょん！
+			Poo poo coming out!
+			Doing poo poo!
 			<pants>
-				みょんやああ！うんうんもれちゃうみょん！
-				みょんやあ！ぱんつさんぬげないぃぃ？		
-				おにいさん！ぱんつさんとってみょん？
+				Poo poo is leaking in pants!
+				Mister pants hurry and come off!	
+				Can't hold poo poo! Please help, mister!
 			</pants>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			うんうんぢぇりゅ！
+			Doing a happy poo-poo!
 			<pants>
-				うんうんもりぇりゅんだみょん！
-				うんうんしゃんゆっくちでてこないでにぇ！
+				Mishder pantsh won'd gome off! Shitty geejer do swomeshing!
+				Wry don'd pantsh gome off!?
 			</pants>
 		</baby>
 		<child>
-			みょんのすーぴゃーうんうんちゃいみゅだみょん！
-			くしょじょれいはみょんのうんうんくらうんだみょん！
+			Myon ish a merchifuw Yukkuwi and wiww wet mishter ead her poo poo if he wishes cho!
+			Poo poo coming out!
 			<pants>
-				うんうんもりぇりゅぅぅぅ！
-				うんうんしゃんゆっくちでてこないでみょん！
+				Mishter pantsh won'd come off! Shitty geezer do someshing!
+				Wry don't pantsh come off!?
 			</pants>
 		</child>
 		<adult>
-			みょんのすーぱーうんうんたいむだみょん！
-			くそどれいはみょんさまのうんうんくらうんだみょん！
-			おーごんぷれい！すかっとろ！！！
+			Myon is a merciful Yukkuri and will let mister eat her poo poo if he wishes to!
+			Poo poo coming out!
+			Slave eating Myon's shit is fine!
 			<pants>
-				みょんやああ！うんうんもれるんだみょん！
-				みょんやあ！ぱんつさんぬげないんだみょん？
-				くそどれい！ぱんつさんとるんだみょん！！！
+				Mister pants won't come off? Shitty geezer do something!
+				Wry don't pants come off!?
+				Can't hold poo poo! Myon is leaking with shit!
 			</pants>
 		</adult>
 	</rude>
@@ -654,49 +654,49 @@
 [Shit2]
 	<normal>
 		<baby>
-			すっきち！
+			Wefweshed!
 			<pants>
-				みょんやあああ！！！
+				Shdinky!!!
 			</pants>
 		</baby>
 		<child>
-			すっきちー！
+			Wefweshed!
 			<pants>
-				みょんやあああ！！！
-				みょんやあああ！くさいよ、きもちわるいんだみょん、、、
+				Poo poo shtinky!!!
+				Shtiiiinksh!? Feelsh baaad!?
 			</pants>
 		</child>
 		<adult>
-			すっきりー！
+			Refreshed!
 			<pants>
-				みょんやあああ！！！
-				みょんやあああ！みょんおちびちゃんじゃないのにー！
-				みょんやあああ！くさいよ、きもちわるいんだみょん、、、
-				みょんやあああ！うんうんくさいんだみょん、、、
+				Poo poo stinks!!!
+				Stiiinks! Feels baaad!
+				Idz zmellyyyyy!!!
+				Poo poo can't take it easy!
 			</pants>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			すっきち！
+			Wefweshed!
 			<pants>
-				みょんやあああ！！！
+				Shdinky!
 			</pants>
 		</baby>
 		<child>
-			すっきちー！
+			Wefweshed!
 			<pants>
-				みょんやあああ！！！
-				みょんやあああ！くさいよ、きもちわるいんだみょん、、、
+				Poo poo shtinky!
+				Huwwy and do wick wick!
 			</pants>
 		</child>
 		<adult>
-			すっきりー！
+			Refreshed!
 			<pants>
-				みょんやあああ！！！
-				みょんやあああ！みょんおちびちゃんじゃないのにー！
-				みょんやあああ！くさいよ、きもちわるいんだみょん、、、
-				みょんやあああ！うんうんくさいんだみょーん！
+				Poo poo stinks!!!
+				Idz zmellyyyyy!!!
+				Hurry and do lick lick!
+				Poo poo can't take it easy!
 			</pants>
 		</adult>
 	</rude>
@@ -706,13 +706,13 @@
 [SuriSuri]
 	<normal>
 		<baby>
-			ちゅりちゅり
+			Wu~b wu~b
 		</baby>
 		<child>
-			ちゅーりちゅーり
+			Wu~b wu~b
 		</child>
 		<adult>
-			すーりすーり
+			Ru~b ru~b
 		</adult>
 	</normal>
 [/SuriSuri]
@@ -721,16 +721,16 @@
 [PeroPero]
 	<normal>
 		<baby>
-			ぺりょぺりょ
-			ぺりょぺりょするみょん
+			Wick wick~
+			Myamya~
 		</baby>
 		<child>
-			ぺーりょぺーりょ
-			きれいにするんだみょん
+			Wick wick~
+			Mama~
 		</child>
 		<adult>
-			ぺーろぺーろ
-			みょ～ん！おちびはあまえんぼうだみょん
+			Lick lick~
+			Myon's little ones are very easy~
 		</adult>
 	</normal>
 [/PeroPero]
@@ -738,16 +738,16 @@
 # 出産
 [Breed]
 	<normal>
-		う、おちびがうばれるみょん、、、
+		Giving birth...!
 	</normal>
 [/Breed]
 
 # 産後
 [Breed2]
 	<normal>
-		ゆっくりしていってね！
+		Take it easy!
 		<pants>
-			みょがあぁ！おちびがあぁぁ！
+			LIDDLE ONESZ!?
 		</pants>
 	</normal>
 [/Breed2]
@@ -756,41 +756,41 @@
 [HateShit]
 	<normal>
 		<baby>
-			くちゃい～！
+			Shdinky!
 			<damage>
-				くちゃい、、、
+				Shdinky...
 			</damage>
 		</baby>
 		<child>
-			うんうんくちゃいみょん！
+			Poo poo go away!
 			<damage>
-				くちゃいよ、ゆっくちできにゃいみょん、、、
+				Poo poo go away please...
 			</damage>
 		</child>
 		<adult>
-			うんうんかたづけてみょん！
+			Mister, please clean up poo poo!
 			<damage>
-				くさいんだみょん、、、ゆっくりできないみょん、、、
+				Bleaze ged rid of zmelly mizder boo boo...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			くちゃい！
+			Shdinky!
 			<damage>
-				くちゃい、、、
+				Shdinky...
 			</damage>
 		</baby>
 		<child>
-			しゅぎゅにうんうんかたじゅきぇるみょん！
+			Shitty geejer huwwy and get wid of poo poo!
 			<damage>
-				くちゃいよ、ゆっくちできにゃいみょん、、、
+				Poo poo go away... now is fine...
 			</damage>
 		</child>
 		<adult>
-			くそどれいはすぐにうんうんかたづけるみょん！
+			Shitty geezer, why haven't you eaten Myon's poo poo yet?
 			<damage>
-				くさいんだみょん、、、ゆっくりできないみょん、、、
+				Ged rid ov mizder boo boo already... now iz vine...
 			</damage>
 		</adult>
 	</rude>
@@ -800,41 +800,41 @@
 [Hungry]
 	<normal>
 		<baby>
-			おなかへったみょん！
+			Hungwy!
 			<damage>
-				ごはんしゃんどきょ？
+				Fwood ish dere...?
 			</damage>
 		</baby>
 		<child>
-			ごはんしゃんみょんにちょうだいみょん！
+			Myon is feewing hungwy!
 			<damage>
-				おにゃきゃへっちゃみょん、、、
+				Mishter food ish dere...?
 			</damage>
 		</child>
 		<adult>
-			みょんはごはんさんほしいみょん！
+			Myon is feeling hungry!
 			<damage>
-				みょんにごはんぐだざいぃ、、、
+				Mizder vood iz dere...?
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ごはんしゃんもっちぇこい！
+			Hungwy!
 			<damage>
-				ごはんしゃんどきょ？
+				Fwood ish dere...?
 			</damage>
 		</baby>
 		<child>
-			すぎゅにごはんしゃんもってきゅるんだみょん！
+			That shit smells tasty!
 			<damage>
-				おにゃきゃへっちゃみょん、、、
+				Mishter food ish dere...?
 			</damage>
 		</child>
 		<adult>
-			くそどれいはごはんさんよこすんだみょん！
+			That shit smells fucking tasty!
 			<damage>
-				みょんにごはんぐだざいぃ、、、
+				Mizder vood iz dere...?
 			</damage>
 		</adult>
 	</rude>
@@ -844,13 +844,15 @@
 [NoAccessory]
 	<normal>
 		<baby>
-			みょんやあああ！！！かえちてね？かえちてね？
+			Yunyaa!!! 
+			Whewe did pwecious mishder headbanj go!?
 		</baby>
 		<child>
-			みょんやあああ！！！みょんのしゅてきなおりぼんしゃんかえちてね？
+			Yunyaa!!!
+			Pweashe give bag Myon'sh headbanj!
 		</child>
 		<adult>
-			みょんのつよさのしょうちょうたるおりぼんさんかえしてね？
+			Please give super easy mister headband back!
 		</adult>
 	</normal>
 [/NoAccessory]
@@ -859,22 +861,22 @@
 [Flying]
 	<normal>
 		<baby>
-			おちょらをとんでるみちゃい！
-			ゆわわ～い！
-			おしょらとんでるみょん！
-			とべとべつちのこ！
+			Ich wike fwying in da shky!
+			Yuwawaii!
+			Myon is a mishder fwying biwd!
+			Feewsh wike fwying!
 		</baby>
 		<child>
-			おしょらをとんでるみちゃい！
-			ゆわわ～い！
-			おしょらをとんでるみょん！
-			とべとべつちのこ！
+			It's wike fwying in the shky!
+			Yuwawaii!
+			Myon is a mishter fwying bird!
+			Feewsh wike fwying!
 		</child>
 		<adult>
-			おそらをとんでるみたい！
-			ゆわわ～い！
-			おそらをとんでるみょん！
-			とべとべつちのこ！
+			It's like flying in the sky!
+			Yuwawaii!
+			Myon is a mister flying bird!
+			Feels like flying!
 		</adult>
 	</normal>
 [/Flying]
@@ -882,14 +884,14 @@
 # 子供死亡
 [SadnessForChild]
 	<normal>
-		おちびしぬんじゃないみょん！
+		Little one wryyyy!?
 	</normal>
 [/SadnessForChild]
 
 # つがい死亡
 [SadnessForPartner]
 	<normal>
-		%partnerめをあけるみょん！
+		%partner wryyyy!?
 	</normal>
 [/SadnessForPartner]
 
@@ -897,13 +899,13 @@
 [SadnessForEldersister]
 	<normal>
 		<baby>
-			おねぇしゃんめをあけるみょんー！
+			Open youw mishder eyesh bwig shish!
 		</baby>
 		<child>
-			おねぇしゃんめをあけるみょんー！
+			Open youw mishter eyes big shish!
 		</child>
 		<adult>
-			%partnerめをあけるみょん！
+			%partner open your mister eyes!
 		</adult>
 	</normal>
 [/SadnessForEldersister]
@@ -912,13 +914,13 @@
 [SadnessForSister]
 	<normal>
 		<baby>
-			いもうちょめをあけるみょんー！
+			Open youw mishder eyesh widdwe shish!
 		</baby>
 		<child>
-			いもうちょめをあけるみょんー！
+			Open youw mishter eyesh widdwe shish!
 		</child>
 		<adult>
-			%partnerめをあけるみょん！
+			%partner open your mister eyes!
 		</adult>
 	</normal>
 [/SadnessForSister]
@@ -927,24 +929,24 @@
 [BlockedByWall]
 	<normal>
 		<baby>
-			みょんしゅしゅめにゃいみょん！？
+			Wry did Myon shdob moving foward?
 		</baby>
 		<child>
-			にゃんでかべしゃんじゃましゅるだみょん！？
+			Can'd go forward!?
 		</child>
 		<adult>
-			みょんのじゃまをするんじゃないみょん！
+			Mister wall, don't be mean!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			くちょかびぇはちねみょん！！
+			Wry did Myon shdob moving foward?
 		</baby>
 		<child>
-			くちょかべはちね！！ぷきゅーだみょん！！
+			Can'd go forward!?
 		</child>
 		<adult>
-			みょんにけんかをうるなんていいどきょうだみょん！
+			Mister wall is a dick!
 		</adult>
 	</rude>
 [/BlockedByWall]
@@ -953,13 +955,13 @@
 [GetTreasure]
 	<normal>
 		<baby>
-			こりぇをみょんにょたからもにょにしゅるにょじぇ！
+			Dis can chage id eajy!
 		</baby>
 		<child>
-			こりぇをみょんのたからものにしゅるみょん！
+			Dis can chake it eajy!
 		</child>
 		<adult>
-			これをみょんのたからものにするみょん！
+			This can take it easy!
 		</adult>
 	</normal>
 [/GetTreasure]
@@ -968,13 +970,13 @@
 [LostTreasure]
 	<normal>
 		<baby>
-			みょんやー！
+			Yunya!!
 		</baby>
 		<child>
-			みょんやー！みょんのたからものさんかえちてぇ!
+			Yunya!! Gibe id bag!!
 		</child>
 		<adult>
-			みょんのたからものさんかえすみょん!
+			Please give back Myon's easy mister treasure!
 		</adult>
 	</normal>
 [/LostTreasure]
@@ -983,48 +985,48 @@
 [Inflation]
 	<normal>
 		<baby>
-			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
-			ぽんぽんいだいいいい！
-			くるちいいいい！！！！
-			いちゃああいいい！！！おにいしゃんだじゅげでえ！！！！
-			たしゅけちぇ！みょんちにたくないみょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id huuuuurd sho much!?
+			Chummy hurch!!
+			Ichai!! Mwommy!
 		</baby>
 		<child>
-			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
-			ぽんぽんいだいいいい！
-			くるちいいいい！！！！
-			いちゃああいいい！！！おにいしゃんだじゅげでえ！！！！
-			たしゅけちぇ！みょんちにたくないみょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id huuuuurds so much!?
+			Chummy hurch!!
+			Ichai!! Mommy!
 		</child>
 		<adult>
-			ぽんぽんがばくはつするうううううぅぅぅぅ！
-			ぽんぽんいだいいいい！
-			ぐるぢいいいい！！！！
-			いだああいいい！！！おにいさんだずげでえ！！！！
-			たすけてぇ！みょんしにたくないみょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id hurdz zo mudj!?
+			Dummy hurdz!!
+			Idai!! Mizder bleaze helb!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
-			ぽんぽんいだいいいい！
-			くるちいいいい！！！！
-			いぢゃあああい！くしょじじいだじゅげろおおお！！！！
-			じじい、たしゅけりょ！みょんちにたくないみょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id huuuuurd sho much!?
+			Chummy hurch!!
+			Ichai!! Mwommy!
 		</baby>
 		<child>
-			ぴょんぴょんがびゃきゅひゃちゅしゅりゅぅぅぅ！
-			ぽんぽんいだいいいい！
-			くるちいいいい！！！！
-			いぢゃあああい！くしょじじいだじゅげろおおお！！！！
-			じじい、たしゅけりょ！みょんちにたくないみょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id huuuuurds so much!?
+			Chummy hurch!!
+			Ichai!! Mommy!
 		</child>
 		<adult>
-			ぽんぽんがばくはつするうううううぅぅぅぅ！
-			ぽんぽんいだいいいい！
-			ぐるぢいいいい！！！！
-			いだああいいい！！！ぐぞじじいだずげろおおお！！！！
-			じじい、だずげろお！みょん、じにだぐないみ゛ょん！！！！！！
+			Yupipipipiii!?!?!?
+			Diiick!?!?
+			Id hurdz zo mudj!?
+			Dummy hurdz!!
+			Idai!! Geezer helb me now!
 		</adult>
 	<rude>
 [/Inflation]
@@ -1033,51 +1035,51 @@
 [AbuseBaby]
 	<normal>
 		<baby>
-			みょんやあああ！！！
-			いちゃいいいい！！！やめるんだみょん？
-			みょんやあああ！あかちゃんかえすんだみょん！！！
-			どぼじでごんなごどずるんだみょん？！
-			みょーん！にんげんしゃん、あかちゃんをいじめるのはゆっくちできないんだみょん！！！
+			Gib bag bwabyy!!!
+			Don'd chage away bwabiesh!!!
+			Jdob idj! Don'd do ich!
+			Don'd hurd-hurd Myon'z bwaybieshz, ogay?!
+			Yunyaa! Pweaje shdob id!
 		</baby>
 		<child>
-			みょんやあああ！！！
-			いちゃいいいい！！！やめるんだみょん？
-			みょんやあああ！あかちゃんかえすんだみょん！！！
-			どぼじでごんなごどずるんだみょん？！
-			みょーん！にんげんしゃん、あかちゃんをいじめるのはゆっくちできないんだみょん！！！
+			Gib bag babyy!!!
+			Don'd chake away babiesh!!!
+			Shtop it! Don'd do ich!
+			Don'd hurd-hurd Myon's baybeishz, ogay?!
+			Pweaze, pweaze shtop it!
 		</child>
 		<adult>
-			みょんやあああ！！！
-			いぢゃいいいい！！！やめるんだみょん？
-			みょんやあああ！おちびちゃんかえすんだみょん！！！
-			どぼじでごんなごどずるんだみょん？！
-			みょーん！にんげんさん、おちびちゃんをいじめるのはゆっくりできないんだみょん！！！
+			Don't hurt Myon's little one!
+			Don't take away my little ones!
+			Stop it! Don't do this!
+			Don't hurt-hurt Myon's little ones, okay?
+			Why would you hurt the precious little one that Myon was blessed with!?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんやあああ！！！
-			いちゃいいいい！！！やめるんだみょん？
-			みょんやあああ！あかちゃんいじめるなみょん！
-			どぼじでごんなごどずるんだみょん？！
-			げす！あくま！おまえらころちてやるみょん！！！
-			やめるんだみょん！みょんのあかちゃんかえすんだみょん！！！
+			Shiddy mishder, don'd do dat!!!
+			Don'd chage away bwabiesh!!!
+			Jdob idj! Don'd do ich!
+			Shiddy mishder who kiwws bwabiesh gan'd chage id eajy!
+			Jdob hurd-hurding Myon's bwabiesh! Now ish fine! 
+			Wry awe you doing dish!?
 		</baby>
 		<child>
-			みょんやあああ！！！
-			いちゃいいいい！！！やめるんだみょん？
-			みょんやあああ！あかちゃんいじめるなみょん！
-			どぼじでごんなごどずるんだみょん？！
-			げす！あくま！おまえらころちてやるみょん！！！
-			やめるんだみょん！みょんのあかちゃんかえすんだみょん！！！
+			Shitty mishter, don't do dat!
+			Don'd chake away babiesh!
+			Shtop it! Don'd do ich!
+			Shitty mishter who kiwws babiesh can'd chake it eajy!
+			Shtop hurt-hurting Myon's babiesh! Now ish fine!
+			Wry awe you doing dish!?
 		</child>
 		<adult>
-			みょんやあああ！！！
-			いぢゃいいいい！やべろー！！！
-			ゆわあああ！おちびにてをだすなー！
-			どぼじでごんなごどずるんだみょん？！
-			げす！あぐま！おばえらごろじでやるううう！！！
-			やめるんだみょん！みょんのおちびをがえずんだみょん！！！
+			Shitty mister don't do that!
+			Don't take away my little ones!
+			Stop it! Don't do this!
+			Shitty mister who kills little ones can't take it easy!
+			Stop hurt-hurting Myon's babies! Now is fine!
+			Will punish shitty slave for this!
 		</adult>
 	</rude>
 [/AbuseBaby]
@@ -1086,13 +1088,13 @@
 [Nobinobi]
 	<normal>
 		<baby>
-			にょーびにょーに
+			Shdwech shdwech~
 		</baby>
 		<child>
-			にょーびにょ－び
+			Shtewtch shtwetch~
 		</child>
 		<adult>
-			のーびのーび
+			Stretch stretch~
 		</adult>
 	</normal>
 [/Nobinobi]
@@ -1101,38 +1103,38 @@
 [NearToBirth]
 	<normal>
 		<baby>
-			うみゃりぇりゅみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			あかちゃんうごいちぇるのがわかるみょん！
+			Bwabiesh mobed!
+			Cude babiesh be bworn shoon!
+			Myon's bwabiesh awe bewwy eajy!
 		</baby>
 		<child>
-			あかちゃんうみゃれるみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			あかちゃんうごいちぇるのがわかるんだみょん！
+			Babiesh moved!
+			Cute babiesh be bown shoon!
+			Myon's babiesh awe bewwy eajy!
 		</child>
 		<adult>
-			おちびがうまれるみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			おちびがうごいてるのがわかるよ！
-			みょーん！おちびはゆっくりできるみょん！
+			Little ones are moving!
+			Cute precious little ones, be born easy!
+			Myon's little ones are very easy!
+			Be born soon, okay?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			うみゃりぇりゅみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			あかちゃんうごいちぇるのがわかるみょん！
+			Bwabiesh mobed!
+			Cude babiesh be bworn shoon!
+			Myon's bwabiesh awe bewwy eajy!
 		</baby>
 		<child>
-			あかちゃんうみゃれるみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			あかちゃんうごいちぇるのがわかるんだみょん！
+			Babiesh moved!
+			Cute babiesh be bown shoon!
+			Myon's babiesh awe bewwy eajy!
 		</child>
 		<adult>
-			おちびがうまれるみょん！
-			はらませ！ぼてばら！にんぷっぷ！
-			おちびがうごいてるのがわかるのぜ！
-			みょーん！おちびはゆっくりできるみょん！
+			Little ones are moving!
+			Cute precious little ones, be born easy!
+			Myon's little ones are very easy!
+			Little ones will be born soon, so bring lots of sweet sweets when that happens, okay slave?
 		</adult>
 	<rude>
 [/NearToBirth]
@@ -1141,21 +1143,21 @@
 [PoisonDamage]
 	<normal>
 		<baby>
-			ちんぽー!
+			Dick!
 			<damage>
-				ぢぃいんぼおぉぉぉぉっ！
+				Diii~ck...
 			</damage>
 		</baby>
 		<child>
-			ちんぽー!
+			Dick!
 			<damage>
-				ぢぃいんぼおぉぉぉぉっ！
+				Diii~ck...
 			</damage>
 		</child>
 		<adult>
-			みんなー！にげるんだみょん！
+			Wry does id hurd!?
 			<damage>
-				ぢぃいんぼおぉぉぉぉっ！
+				Diii~ck...
 			</damage>
 		</adult>
 	</normal>
@@ -1165,44 +1167,44 @@
 [CantShit]
 	<normal>
 		<baby>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんしゃんでにゃいみょん!
+			Pwoo pwoo don'd chage id eajy and gome oud!
+			Can'd do pwoo pwoo!?
+			Pwoo pwoo iz hurding Myon!?
+			Id huuuurch!
 		</baby>
 		<child>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんしゃんでにゃいみょん!
+			Poo poo don't chake it eajy and come oud!
+			Can'd do poo poo!?
+			Poo poo is hurding Myon!?
+			Id huuuurch!
 		</child>
 		<adult>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんしゃんでにゃいみょん!
-			うんうんさんゆっくりしないでてくるみょん！
+			Boo boo don'd dage id eazy and gome oud!
+			Can'd do boo boo!?
+			Boo boo iz hurding Myon!?
+			Id huuuurdz!
+			Boo boo is gilling me!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんでにゃいみょん!
+			Pwoo pwoo don'd chage id eajy and gome oud!
+			Can'd do pwoo pwoo!? Geejer hewb me!
+			Pwoo pwoo iz hurding Myon!?
+			Id huuuurch!
 		</baby>
 		<child>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんでにゃいみょん!
+			Poo poo don't chake it eajy and come oud!
+			Can'd do poo poo!? Geejer hewp me!
+			Poo poo is hurding Myon!?
+			Id huuuurch!
 		</child>
 		<adult>
-			ぷらぐ！かんちょー！あにゃるぜめ！
-			ふぃすとふぁっく！デスアナル！
-			すかるふぁっく！ゆーえす・はーどこあ！
-			うんうんしゃんでにゃいみょん!
-			うんうんはゆっくりしないでてくるみょん！
+			Boo boo don'd dage id eazy and gome oud!
+			Can'd do boo boo!? Geezer helb me!
+			Boo boo iz hurding Myon!?
+			Id huuuurdz!
+			Boo boo is gilling me!
 		</adult>
 	<rude>
 [/CantShit]
@@ -1211,48 +1213,48 @@
 [NoPregnancy]
 	<normal>
 		<baby>
-		いんぽ！ふにゃちん！やくたたず！
-		みょーん？あかちゃんできないみょん？
-		みょんやー！にんっしん！できないみょん？！
-		いーーんぽ！！！
-		ぱいぷかーーっと？
+		Gan'd have bwabiez!?
+		Whewe did da bwabiez go!?
+		Dere'z no bwaaaaybweeeez!
+		Bwabiesh, gome bag!
+		Da bwabiesh awe gone??
 		</baby>
 		<child>
-		いんぽ！ふにゃちん！やくたたず！
-		みょーん？あかちゃんできないみょん？
-		みょんやー！にんっしん！できないみょん？！
-		いーーんぽ！！！
-		ぱいぷかーーっと？
+		Can'd have babiez!?
+		Where did da babiez go!?
+		Dere's no baaaaybeeeez!
+		Babiesz, come bag!
+		Da babiez awe gone??
 		</child>
 		<adult>
-		いんぽ！ふにゃちん！やくたたず！
-		みょんもおちびちゃんがほしいみょん、、、
-		みょんやあああ！みょんはゆっくりできないゆっくりになっちゃったみょん、、、
-		いーーんぽ！！！
-		ぱいぷかーーっと？
+		Can't have little ones!?
+		Where did the little ones go!?
+		There's no little oooooones!
+		Little ones, come back!
+		The little ones are gone??
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-		いんぽ！ふにゃちん！やくたたず！
-		みょーん？あかちゃんできないみょん？
-		みょんやー！にんっしん！できないみょん？！
-		いーーんぽ！！！
-		ぱいぷかーーっと？
+		Gan'd have bwabiez!?
+		Whewe did da bwabiez go!?
+		Dere'z no bwaaaaybweeeez!
+		Bwabiesh, gome bag!
+		Da cyute bwabiesh awe gone??
 		</baby>
 		<child>
-		いんぽ！ふにゃちん！やくたたず！
-		みょーん？あかちゃんできないみょん？
-		みょんやー！にんっしん！できないみょん？！
-		いーーんぽ！！！！
-		ぱいぷかーーっと？
+		Can'd have babiez!?
+		Where did da babiez go!?
+		Dere's no baaaaybeeeez!
+		Babiesz, come bag!
+		Da cute babiez awe gone??
 		</child>
 		<adult>
-		いんぽ！ふにゃちん！やくたたず！
-		みょんもおちびちゃんがほしいみょん、、、
-		みょんやあああ！みょんはゆっくりできないゆっくりになっちゃったみょん、、、
-		いーーんぽ！！！
-		ぱいぷかーーっと？
+		Can't have little ones!?
+		Where did the little ones go!?
+		There's no little oooooones!
+		Little ones, come back!
+		The super cute and precious little ones are gone??
 		</adult>
 	</rude>
 [/NoPregnancy]
@@ -1261,66 +1263,67 @@
 [Fear]
 	<normal>
 		<baby>
-			みょんやぁぁ！
-			みょんやー！たちゅけちぇー！
-			みょんはゆっくちにげるみょん！
+			Yunyaaa!
+			Shcawyy!
+			Myamya hewp me!
 			<damage>
-				いんぽ、、そーろー、、ふにゃふにゃちん、、、
-				だぢゅげでみょん、、、
-				おがーじゃん、、、
+				D-d-dick...
+				Shcawy...
+				Hewb...
 			</damage>
 		</baby>
 		<child>
-			みょんやぁぁ！
-			みょんやー！たしゅけてー！
-			みょんはゆっくちにげるみょん！
+			Yunyaaa!
+			Shcawyy!
+			Myamya hewp me!
 			<damage>
-				いんぽ、、そーろー、、ふにゃふにゃちん、、、
-				だぢゅげでみょん、、、
-				おがーじゃん、、、
+				D-d-dick...
+				Shcawy...
+				Hewp...
 			</damage>
 		</child>
 		<adult>
-			みょんやあぁぁぁ！！！
-			ゆっくりできないぃぃぃぃぃ！
-			みょんがゆっくりできないみょん？いますぐやめるんだみょん！！！
-			みょんやあぁ！みんなゆっくりしないでにげるんだみょん！！！
+			Yunyaaa!
+			Scaryy!
+			This can't take it easy!
+			Goin' home!
 			<damage>
-				み゛ょんや゛あ゛ぁぁぁ、、、
-				だれが、、、だずげでみょん、、、
-				おねがい、、みんなをゆっくりさせてほしいみょん、、、
+				D-d-dick...
+				Zgary...
+				Helb...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんやぁぁ！
-			みょんやー！たちゅけちぇー！
-			みょんはゆっくちにげるみょん！
+			Yunyaaa!
+			Shcawyy!
+			Myamya hewp me!
 			<damage>
-				いんぽ、、そーろー、、ふにゃふにゃちん、、、
-				だぢゅげでみょん、、、
-				おがーじゃん、、、
+				D-d-dick...
+				Shcawy...
+				Hewb...
 			</damage>
 		</baby>
 		<child>
-			みょんやぁぁ！
-			みょんやー！たしゅけてー！
-			みょんはゆっくちにげるみょん！
+			Yunyaaa!
+			Shcawyy!
+			Myamya hewp me!
 			<damage>
-				いんぽ、、そーろー、、ふにゃふにゃちん、、、
-				だぢゅげでみょん、、、
-				おがーじゃん、、、
+				D-d-dick...
+				Shcawy...
+				Hewp...
 			</damage>
 		</child>
 		<adult>
-			みょんやあぁぁぁ！！！
-			ゆっくりできないぃぃぃぃぃ！
-			みょんがゆっくりできないみょん？いますぐやめるんだみょん！！！
-			みょんやあぁぁ！せいっさいしてやるみょん！！！
+			Yunyaaa!
+			Scaryy!
+			This can't take it easy!
+			Goin' home!
 			<damage>
-				み゛ょんや゛あ゛ぁぁぁ、、、
-				だれが、、、だずげでみょん、、、
+				D-d-dick...
+				Zgary...
+				Helb...
 			</damage>
 		</adult>
 	</rude>
@@ -1330,69 +1333,69 @@
 [Burning]
 	<normal>
 		<baby>
-			みょんやあぁぁぁ！！！
-			あちゅいよー！
-			たちゅけちぇー！
-			おぎゃーしゃーん！あぢゅいみょーん！！！
+			Ichaiiii!!!
+			Yupiiii!!!
+			Hwooodj!!
+			Ich hwotch! Myamya hewp!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				あぢゅい、、、だぢゅげでみょん、、、
-				やべで、、やべで、、みょんぢにたぐないぃ、、、
+				Yu, yu, yu...
+				Hwotch... hewp...
+				Hurdz...
 			</damage>
 		</baby>
 		<child>
-			みょんやあぁぁぁ！！！
-			あぢゅいみょーん！！！
-			たしゅけちぇー！
-			おぎゃーしゃーん！あぢゅいみょーん！！！
+			Ichaiiii!!!
+			Yupyaaaa!!!
+			Hooodj!~
+			Ids hotch! Mama hewp!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				あぢゅい、、、だぢゅげでみょん、、、
-				やべで、、やべで、、みょんじにだぐないぃ、、、
+				Yu, yu, yu...
+				Hotch... hewp...
+				Hurdz...
 			</damage>
 		</child>
 		<adult>
-			あづいいいぃぃぃぃ！
-			だずげでぇぇぇぇぇぇ！
-			やめるんだみょん！はやくひをけすんだみょん！！！
+			Idaiiii! Zdob!!!
+			Yugyaaaa!!!
+			Hoood!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				あづい、、、だずげで、、、
-				いやだ、、、みょんじにだぐない、、、
+				Yu, yu, yu...
+				Hod... helb...
+				Diz hurdz... gan'd uze mizder vootziez eny moa...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんやあぁぁぁ！！！
-			あぢゅいみょーん！！！
-			たちゅけちぇー！
-			おぎゃーしゃーん！あぢゅいみょーん！！！
+			Ichaiiii!!!
+			Yupiiii!!!
+			Hwooodj!!
+			Ich hwotch! Shiddy geejer hewp!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				あぢゅい、、、だぢゅげでみょん、、、
-				いやじゃ、、、みょんぢにたぐないぃ、、、
+				Yu, yu, yu...
+				Hwotch... hewp...
+				Hurdz...
 			</damage>
 		</baby>
 		<child>
-			みょんやあぁぁぁ！！！
-			あぢゅいみょーん！！！
-			たしゅけちぇー！
-			おぎゃーしゃーん！あぢゅいみょーん！！！
+			Ichaiiii!!!
+			Yupyaaaa!!!
+			Hooodj!~
+			Ids hotch! Shitty geejer hewp!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				あぢゅい、、、だぢゅげでみょん、、、
-				いやじゃ、、、みょんぢにたぐないぃ、、、
+				Yu, yu, yu...
+				Hotch... hewp...
+				Hurdz...
 			</damage>
 		</child>
 		<adult>
-			あづいいいぃぃぃぃ！
-			だずげでぇぇぇぇぇぇ！
-			やめるんだみょん！はやくひをけすんだみょん！！！
+			Idaiiii! Zdob id righd now!!!
+			Yugyaaaa!!!
+			Hoood! Shiddy mizder do zomezing!
 			<damage>
-				ゆ゛っゆ゛っゆ゛っ、、、
-				だれが、、、だずげで、、、
-				いやだ、、、みょんじにたぐない、、、
+				Yu, yu, yu...
+				Hod... helb...
+				Diz hurdz... gan'd uze mizder vootziez eny moa...
 			</damage>
 		</adult>
 	</rude>
@@ -1402,53 +1405,53 @@
 [Wet]
 	<normal>
 		<baby>
-			ちゅべだぃ！
-			おみずしゃんゆっくちできにゃいみょん！
+			Ich cwolj!
+			Mishder wacher can'ch chage id eajy!
 			<damage>
-				ちゅべだぃ、、、
-				みょんのあんよがとけちぇりゅみょん、、、
+				Cwoldj...
+				Di... di... dick...?
 			</damage>
 		</baby>
 		<child>
-			ぢゅべだいぃぃぃ！
-			おみずしゃんゆっくちできにゃいみょん！
+			Ich cooooooold!
+			Mishter wacher can't chake it eajy!
 			<damage>
-				ぢゅべだいぃぃぃ、、、
-				みょんのあんよがとけちぇりゅみょん、、、
+				Cold...
+				Di... di... dick...?
 			</damage>
 		</child>
 		<adult>
-			づべだいいぃぃぃ！
-			おみずさんはゆっくりできないみょん！やめてほしいみょん！
+			Idz gooooooold!
+			Mizder wader gan'd dage id eazy!
 			<damage>
-				づべだいいぃぃぃ、、、
-				ゆがぁ、、、みょんのあんよがとけてるぅ、、、
+				Cold...
+				Di... di... dick...?
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ちゅべだぃ！
-			おみずしゃんゆっくちできにゃいみょん！
+			Ich cwolj!
+			Mishder wacher can'ch chage id eajy!
 			<damage>
-				ちゅべだぃ、、、
-				みょんのあんよがとけちぇりゅみょん、、、
+				Cwoldj...
+				Di... di... dick...?
 			</damage>
 		</baby>
 		<child>
-			ぢゅべだいぃぃぃ！
-			おみずしゃんゆっくちできにゃいみょん！
+			Ich cooooooold!
+			Mishter wacher can't chake it eajy!
 			<damage>
-				ぢゅべだいぃぃぃ、、、
-				みょんのあんよがとけちぇりゅみょん、、、
+				Cold...
+				Di... di... dick...?
 			</damage>
 		</child>
 		<adult>
-			づべだいいぃぃぃ！
-			おみずさんはゆっくりできないみょん！すぐにやめるんだみょん！
+			Idz gooooooold!
+			Mizder wader gan'd dage id eazy!
 			<damage>
-				づべだいいぃぃぃ、、、
-				ゆがぁ、、、みょんのあんよがとけてるぅ、、、
+				Cold...
+				Di... di... dick...?
 			</damage>
 		</adult>
 	</rude>
@@ -1458,36 +1461,36 @@
 [AnalSealed]
 	<normal>
 		<baby>
-			みょんのあなるしゃん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			Dat'j ticklesh!?
+			Yufufu~!
+			Id ticklesh!
 		</baby>
 		<child>
-			みょんのあなるしゃん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			Dat ticklesh!?
+			Yufufu~!
+			Feelsh funny!
 		</child>
 		<adult>
-			みょんのあなるさん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			That tickled!
+			Yufufu~
+			Feels funny!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			みょんのあなるしゃん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			Dat'j ticklesh!?
+			Don'd touch dere!
+			Myon'j anyawu ish shacwed!
 		</baby>
 		<child>
-			みょんのあなるしゃん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			Dat ticklesh!?
+			Don't touch dere!
+			Myon's anyaru is sacred! Fuck off!
 		</child>
 		<adult>
-			みょんのあなるさん、みょんみょんするみょん！
-			くすぐったいみょん！
-			そーぷらんどっ！すけべいす！
+			That tickled!
+			Don't touch there!
+			Myon's anyaru is sacred! Offer sweet sweets first if you want to touch it so badly, okay?
 		</adult>
 	</rude>
 [/AnalSealed]
@@ -1496,20 +1499,20 @@
 [NeedleStick]
 	<normal>
 		<baby>
-			ぴぎぃ！？
-			ゆぴぃ！？
-			ギピィイ！
-			いちゃいみょぉぉん！
+			Pigii!?
+			Yupii!?
+			Gipyii!
+			Hurch!
 		</baby>
 		<child>
-			ぴぎぃ！？
-			ゆぴぃ！？
-			ギピィイ！
-			いちゃいみょぉぉん！
+			Pigii!?
+			Yupii!?
+			Gipyii!
+			Hurch!
 		</child>
 		<adult>
-			いだいみょぉぉぉおん！
-			ゆぎゃぁぁぁぁぁあ！
+			Hurdz!
+			Yugyaaaa!
 		</adult>
 	</normal>
 [/NeedleStick]
@@ -1518,26 +1521,26 @@
 [NeedleScream]
 	<normal>
 		<baby>
-			いぢゃぃみょぉぉぉおん！
-			いぢゃいぢゃいぢゃい！
-			ぬいちぇみょん！はやくぬいちぇみょん！
-			ゆびぃぃぃぃぃぃい！
-			これとっちぇみょん！
-			ぷーしゅぷしゅしゃんはゆっくちできにゃいみょぉぉ！
+			Chage id ouj!
+			Igyagyagyaiii!
+			Mishder shdab shdab hurch!
+			Yupiiiii!
+			Quigwy chage id ouj!
+			Hewp meee!
 		</baby>
 		<child>
-			いぢゃぃみょぉぉぉおん！
-			いぢゃいぢゃいぢゃい！
-			ぬいちぇみょん！はやくぬいちぇみょん！
-			ゆびぃぃぃぃぃぃい！
-			これとっちぇみょん！
-			ぷーしゅぷしゅしゃんはゆっくちできにゃいみょぉぉ！
+			Chake it outch!
+			Igyagyagyaiii!
+			Mishter shtab shtab hurch!
+			Yupiiiii!
+			Quigwy chake it outch!
+			Hewp meee!
 		</child>
 		<adult>
-			いだいみょぉぉぉおん！
-			ゆぎゃぁぁぁぁぁあ！
-			ぬいてみょん！はやくぬいてみょん！
-			ぷーすぷすさんはゆっくりできないみょぉぉ！
+			Dage id oud!
+			Yupyaaaa!
+			Mizder zdab zdab hurdz!
+			Helb meee!
 		</adult>
 	</normal>
 [/NeedleScream]
@@ -1546,21 +1549,21 @@
 [ExtractingNeedlePartner]
 	<normal>
 		<baby>
-			いみゃたしゅけりゅみょん！
-			ぷーしゅぷしゅしゃんはゆっくちしにゃいぢぇはやきゅぬけりゅみょん！
-			どぼぢぢぇぷーしゅぷしゅしゃんにゅきぇにゃいみょぉぉぉお！？
+			Hewping eajy!
+			Mishder shtab shtab don'd chage id eajy and gome oud!
+			Puwwing it oud!
 		</baby>
 		<child>
-			いまたすけりゅみょん！
-			ぷーすぷすしゃんはゆっくちしにゃいではやくぬけるみょん！
-			どぼぢでぷーすぷすしゃんぬきぇないみょぉぉぉお！？
+			Hewping eajy!
+			Mishter shtab shtab don't chake it eajy and come outch!
+			Puwwing it outch!
 		</child>
 		<adult>
-			%partner、いまたすけるみょん！
-			ぷーすぷすさんはゆっくりしないではやくぬけるみょん！
-			%partnerがいやがってるみょん！ぷーすぷすさんはどこかへいくみょん！
-			%partnerをいじめるぷーすぷすさんはせいっさいっするみょん！
-			どぼじでぷーすぷすさんぬけないみょぉぉぉお！？
+			It will be okay now that Myon is here, %partner!
+			Helping easy!
+			Will punish stab-stab for hurting %partner!
+			%partner needs help!
+			Pulling it out!
 		</adult>
 	</normal>
 [/ExtractingNeedlePartner]
@@ -1569,21 +1572,21 @@
 [ExtractingNeedleChild]
 	<normal>
 		<baby>
-			いみゃたしゅけりゅみょん！
-			ぷーしゅぷしゅしゃんはゆっくちしにゃいぢぇはやきゅぬけりゅみょん！
-			どぼぢぢぇぷーしゅぷしゅしゃんにゅきぇにゃいみょぉぉぉお！？
+			Hewping eajy!
+			Mishder shtab shtab don'd chage id eajy and gome oud!
+			Puwwing it oud!
 		</baby>
 		<child>
-			いまたすけりゅみょん！
-			ぷーすぷすしゃんはゆっくちしにゃいではやくぬけるみょん！
-			どぼぢでぷーすぷすしゃんぬきぇないみょぉぉぉお！？
+			Hewping eajy!
+			Mishter shtab shtab don't chake it eajy and come outch!
+			Puwwing it outch!
 		</child>
 		<adult>
-			おちびちゃん、いまたすけるみょん！
-			ぷーすぷすさんはゆっくりしないではやくぬけるみょん！
-			おちびちゃんががいやがってるみょん！ぷーすぷすさんはどこかへいくみょん！
-			おちびちゃんをいじめるぷーすぷすさんはせいっさいっするみょん！
-			どぼじでぷーすぷすさんぬけないみょぉぉぉお！？
+			It will be okay now that Myon is here, little one!
+			Helping easy!
+			Will punish stab-stab for hurting little one!
+			Little one needs help!
+			Pulling it out!
 		</adult>
 	</normal>
 [/ExtractingNeedleChild]
@@ -1592,19 +1595,19 @@
 [NeedlePain]
 	<normal>
 		<baby>
-			やめぢにぇぇぇぇえ！
-			ぎゅーりぎゅりしぢゃぢゃみぇみょぉぉお！
-			だぢゅぎぇ、、、ピギィィィィィィイ！
+			Shdooob!
+			Hurch!
+			Don'd gwind gwind!
 		</baby>
 		<child>
-			やめぢにぇぇぇぇえ！
-			ぎゅーりぎゅりしぢゃだみぇみょぉぉお！
-			だぢゅけ、、、ピギィィィィィィイ！
+			Shtooop!
+			Id hurch!
+			Don'ch gwind gwind!
 		</child>
 		<adult>
-			やべるみょぉぉぉおん！
-			ぐーりぐりじじゃだめみょぉぉぉおん！
-			たすけ、、、でかまらぁぁぁぁぁあ！
+			Zdooob!
+			Id hurdz!
+			Don'd grind grind!
 		</adult>
 	</normal>
 [/NeedlePain]
@@ -1613,13 +1616,13 @@
 [NeedleRemove]
 	<normal>
 		<baby>
-			ぷーすぷすしゃん、いちゃかっちゃみょぉ、、、
+			Shdab shdab waj bwad...
 		</baby>
 		<child>
-			ぷーすぷすしゃん、いたかっちゃみょぉ、、、
+			Shtab shtab wash bad...
 		</child>
 		<adult>
-			ぷーすぷすさん、いたかったみょん、、、
+			Zdab zdab waz bad...
 		</adult>
 	</normal>
 [/NeedleRemove]
@@ -1628,19 +1631,19 @@
 [WantAmaama]
 	<rude>
 		<baby>
-			みょんはあみゃあみゃをたべたいんだみょん？ばきゃにゃにょ？しにゅみょん？
-			いますぐみょんにあまあまよこすんだみょん！とくっもり！でいいんだみょん！！！
-			こんなくっさいごはんたべられるわけないんだみょん！わかったらはやくあみゃあみゃもってくるんだみょん！
+			Whewe's the sweet sweech? Awe you shtupid? Wanna die?
+			Myon demandsh shweet shweech!
+			Bwing shweet shweech! Now ij fine!
 		</baby>
 		<child>
-			みょんはあみゃあみゃをたべたいんだみょん？ばかにゃの？しぬみょん？
-			いますぐみょんにあまあまよこすんだみょん！とくっもり！でいいんだみょん！！！
-			こんなくっさいごはんたべられるわけないんだみょん！わかったらはやくあみゃあみゃもってくるんだみょん！
+			Whewe's the sweet sweech? Awe you shtupid? Wanna die?
+			Myon demands shweet shweech!
+			Bwing shweet shweech! Now ish fine!
 		</child>
 		<adult>
-			みょんはあまあまをたべたいんだみょん？ばかなの？しぬみょん？
-			いますぐみょんにあまあまよこすんだみょん！とくっもり！でいいんだみょん！！！
-			こんなくっさいごはんたべられるわけないんだみょん！わかったらはやくあみゃあみゃもってくるんだみょん！
+			Where's the sweet sweets? Are you stupid? Wanna die?
+			Myon demands sweet sweets!
+			Bring sweet sweets! Now is fine!
 		</adult>
 	</rude>
 [/WantAmaama]
@@ -1650,28 +1653,28 @@
 [CantMove]
 	<normal>
 		<baby>
-			ゆ？すすめにゃいよ！
+			Mishder footshie won'd work!?
 		</baby>
 		<child>
-			あんよしゃんゆっくちしないでうごいちぇね！
+			Mishter footshie won't work!?
 		</child>
 		<adult>
-			あんよさんゆっくりしないでうごいてね！
+			Mister footsie won't work!?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			あんよしゃんうごかないよ！
-			すすめにゃいよ！どりぇいすすめさせちぇね！
+			Mishder footshie won'd work!?
+			Awe you shtupid!? Hewp Myon now!
 		</baby>
 		<child>
-			あんよしゃんうごかないよ！
-			どりぇい！むこうにいきちゃいよ！
-			あんよしゃんうごかないよ！どうにかしちぇね！
+			Mishter footshie won't work!?
+			Awe you stupid!? Hewp Myon now!
+			Can'ch move! Huwwy up and hewp!
 		</child>
 		<adult>
-			あんよさんうごかないよ！
-			あんよさんうごかないよ！どれい！ゆっくりしないでどうにかしてね！
+			Mister footsie won't work!?
+			Are you stupid!? Help Myon now!
 		</adult>
 	</rude>
 [/CantMove]
@@ -1680,26 +1683,26 @@
 [CantMove2]
 	<normal>
 		<baby>
-			しゅしゅめにゃいよおおお！？
+			Gan'd mwove wrrryy?
 		</baby>
 		<child>
-			あんよしゃんうごいちぇよぉ・・・
+			Can'd move wrrryy?
 		</child>
 		<adult>
-			あんよさんどうしてうごかないのおおお！？
+			Can't move wrrryy?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			どりぇいいい！しゅしゅめにゃいよおおお！？
+			Gan'd mwove wrrryy?
 		</baby>
 		<child>
-			どりぇいいい！しゅしゅめにゃいよおおお！？ゆっくりしないでどうにかしちぇえええ！
-			あんよしゃんうごかないよおお！どれいどうにかしちぇええ！
+			Can'd move wrrryy?
+			Huwwy and hewp!
 		</child>
 		<adult>
-			どれいいいい！あんよさんうごかないっていってるでしょおおお！はやくどうにかしろおおお！
-			ゆわああ！どうしてあんよさんうごかないの！？
+			Can't move wrrryy?
+			Hurry and help!
 		</adult>
 	</rude>
 [/CantMove2]
@@ -1708,30 +1711,30 @@
 [Pull]
 	<normal>
 		<baby>
-			ゆ？
-			ゆ？にょーびにょーび？
+			Yu!?
+			Yu!? Shtwetch shtwetch!?
 		</baby>
 		<child>
-			ゆ？にょーびにょーび？
-			にょばさないでね！
+			Yu!? Shtwetch shtwetch!?
+			Shtob idj!
 		</child>
 		<adult>
-			のーびのーび？
-			ゆっくりのばさないでね！
+			Stretch stretch!?
+			Yugii!! Stop it!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆ？
-			ゆ？にょーびにょーび？
+			Yu!?
+			Yu!? Shtwetch shtwetch!?
 		</baby>
 		<child>
-			ゆ？にょーびにょーび？
-			にょばさないでね！
+			Yu!? Shtwetch shtwetch!?
+			Shtob idj shitty mishter!
 		</child>
 		<adult>
-			のーびのーび？
-			どれい！のばさないでね！
+			Stretch stretch!?
+			Yugii!! Stop it shitty mister!
 		</adult>
 	</rude>
 [/Pull]
@@ -1740,28 +1743,28 @@
 [Pull2]
 	<normal>
 		<baby>
-			ゆわあああ！
+			Yuwaaa!!!
 		</baby>
 		<child>
-			ゆわあああ！のばしゃにゃいでね！
-			ちぎれりゅううう！
+			Yuwaaa!!! Id hurdz!!!
+			Shtop ich!!!
 		</child>
 		<adult>
-			これいじょうのーびのーびできないよ！
-			ちぎれりゅよ！のばさないでね！
+			Yuwaaa!!! Id hurdz!!!
+			Zdob id eazy!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆわあああ！
+			Yuwaaa!!!
 		</baby>
 		<child>
-			ゆわあああ！のばしゅなああ！
-			ちぎれりゅううう！
+			Yuwaaa!!! Id hurdz!!!
+			Shtop ich now ow ewse Myon wiww do puff puff!!!
 		</child>
 		<adult>
-			どれいいい！そんなにのばしたらゆっくりできないでしょおお！
-			どれいいい！これいじょうのびるわけないでしょおお！はやくやめろおお！
+			Yuwaaa!!! Id hurdz!!!
+			Zdob id now or elze Myon will do buvv buvv!
 		</adult>
 	</rude>
 [/Pull2]
@@ -1770,28 +1773,28 @@
 [Press]
 	<normal>
 		<baby>
-			ゆ？
-			なにすりゅにょ？
+			Yu!?
+			Don'd do dat!!
 		</baby>
 		<child>
-			ゆ？
-			なにすりゅにょ？
+			Yu!?
+			Don't do dat!!
 		</child>
 		<adult>
-			ゆっくりおさえないでね！
+			Don't do that!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆ？
-			なにすりゅにょ？
+			Yu!?
+			Shdob id geejer!
 		</baby>
 		<child>
-			ゆ？
-			なにすりゅにょ？
+			Yu!?
+			Shtop it geejer!
 		</child>
 		<adult>
-			どれい！ゆっくりおさえないでね！
+			Stop it geezer!
 		</adult>
 	</rude>
 [/Press]
@@ -1800,34 +1803,34 @@
 [Press2]
 	<normal>
 		<baby>
-			ゆわああ！
-			つぶれりゅううう！
-			たすけちぇえええ！
+			Yuwaaa!!!
+			Hurdz!!!
+			Being cwushed!
 		</baby>
 		<child>
-			ゆわああ！
-			つぶれりゅううう！
-			たすけちぇえええ！
+			Yuwaaa!!!
+			Hurdz!!!
+			Being cwushed!
 		</child>
 		<adult>
-			つぶれるううう！はなしてえええ！
-			つぶれるううう！たすけてえええ！
+			Being crushed!
+			Hurdz!?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆわああ！
-			つぶれりゅううう！
+			Yuwaaa!!!
+			Hurdz!!!
+			Shdob id geejer!
 		</baby>
 		<child>
-			ゆわああ！
-			つぶれりゅううう！
-			どれいいい！はやきゅたすけりょおおお！
+			Yuwaaa!!!
+			Hurdz!!!
+			Shtop it geejer!
 		</child>
 		<adult>
-			つぶれるううう！はなせええええ！
-			どれいいい！つぶれるだろおおお！
-			どれいいい！たすけろおおお！
+			Zdob id geezer!
+			Hurdz!?
 		</adult>
 	</rude>
 [/Press2]
@@ -1837,13 +1840,13 @@
 [FindAmaama]
 	<normal>
 		<baby>
-			あまあま！
+			Sweet sweech!
 		</baby>
 		<child>
-			あまあましゃん、ゆっくりたべられてね！
+			Sweet sweech! Can chake it eajy!
 		</child>
 		<adult>
-			あまあまさん、ゆっくりたべられてね！
+			Sweet sweets! Can take it easy!
 		</adult>
 	</normal>
 [/FindAmaama]
@@ -1852,13 +1855,13 @@
 [EatingAmaama]
 	<normal>
 		<baby>
-			むーちゃ、むーちゃ、ちちちちあわちぇぇぇぇぇ！
+			Mwunj mwunj~ happinech!
 		</baby>
 		<child>
-			むーしゃ、むーしゃ、しあわしぇぇぇぇ！
+			Munsh munsh~ happinesh!
 		</child>
 		<adult>
-			むーしゃ、むーしゃ、しあわせぇぇぇぇ！
+			Munch munch~ happiness!
 		</adult>
 	</normal>
 [/EatingAmaama]
@@ -1867,13 +1870,13 @@
 [Vomit]
 	<normal>
 		<baby>
-			ゆびぇ・・・
+			Yubye...
 		</baby>
 		<child>
-			ゆぶぇ・・・
+			Yubue...
 		</child>
 		<adult>
-			ゆぶぶ・・・
+			Yububu...
 		</adult>
 	</normal>
 [/Vomit]
@@ -1882,13 +1885,13 @@
 [Dying2]
 	<normal>
 		<baby>
-			ゆっ・・・ゆぴっ・・・
+			Yu... yupii...
 		</baby>
 		<child>
-			ゆびっ・・・ゆぎゅ・・・
+			Yubii... yugyu...
 		</child>
 		<adult>
-			ゆぐっ・・・ゆばぁっ・・・
+			Yuguu... yubah...
 		</adult>
 	</normal>
 [/Dying2]
@@ -1897,13 +1900,13 @@
 [Surprise]
 	<normal>
 		<baby>
-			どぼぢでぇぇぇ！？
+			Don do daaat!
 		</baby>
 		<child>
-			どぼぢでぇぇぇ！？
+			Don'd do daaat!
 		</child>
 		<adult>
-			どぼぢでぇぇぇ！？
+			Don'd do daaat!
 		</adult>
 	</normal>
 [/Surprise]
@@ -1912,13 +1915,13 @@
 [RevengeAttack]
 	<rude>
 		<baby>
-			ゆっくちちにぇ！
+			Pwuniching eajy!
 		</baby>
 		<child>
-			ゆっくちしね！
+			Puniching eajy!!
 		</child>
 		<adult>
-			ゆっくりしね！
+			Punishing easy!
 		</adult>
 	</rude>
 [/RevengeAttack]
@@ -1927,13 +1930,13 @@
 [BraidCut]
 	<normal>
 		<baby>
-			ぴこぴこしゃんがぁぁ！
+			Mishder fwap fwaps!?
 		</baby>
 		<child>
-			ぴこぴこさんがぁぁ！
+			Mishter fwap fwaps!?
 		</child>
 		<adult>
-			すてきなぴこぴこさんがぁぁ！！
+			Myon's pwecious fwap fwaps!
 		</adult>
 	</normal>
 [/BraidCut]
@@ -1942,13 +1945,13 @@
 [EatenByBody]
 	<normal>
 		<baby>
-			たべにゃいでぇぇ！
+			D-diiick!
 		</baby>
 		<child>
-			たべないでぇぇぇ！
+			Don'd do munch munch! Myon ish nod food!
 		</child>
 		<adult>
-			だべないでぇぇぇ！！
+			Don'd do munj munj! Myon iz nod vood!
 		</adult>
 	</normal>
 [/EatenByBody]
@@ -1957,13 +1960,13 @@
 [EatenByBody2]
 	<normal>
 		<baby>
-			あんこさんすわないぢぇぇ！
+			Don'd! Shdob!
 		</baby>
 		<child>
-			あんこさんすわないでぇぇ！
+			Shtop! Don'd do dis!
 		</child>
 		<adult>
-			あ゛んござん゛ずわないでぇぇぇ！！
+			Zdob! Don'd zug Myon'z mizder bean baste!
 		</adult>
 	</normal>
 [/EatenByBody2]
@@ -1972,13 +1975,13 @@
 [EscapeFromRemirya]
 	<normal>
 		<baby>
-			ゆんやぁぁぁぁ！！
+			Yunyaa!!
 		</baby>
 		<child>
-			れみりゃぢゃぁぁぁぁぁ！
+			Ich Wemiwya!!
 		</child>
 		<adult>
-			れみりゃだぁぁぁぁぁぁ！！
+			Idz a Reimirya!!!
 		</adult>
 	</normal>
 [/EscapeFromRemirya]
