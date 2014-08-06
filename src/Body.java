@@ -29,6 +29,7 @@ import src.event.RaperWakeupEvent;
 import src.event.RevengeAttackEvent;
 import src.item.*;
 import src.yukkuri.*;
+
 //import java.util.Timer;
 import javax.swing.Timer;
 
@@ -409,6 +410,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public static final int INFINITE = 999999;
 	protected int previousShitDistance = INFINITE;
 	protected int shitStress = 0;
+	protected boolean shitPanicEscape = false;
 	
 	///// Stress System
 	protected boolean increaseStress = false;
@@ -1681,10 +1683,15 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		if(shitStress > 200)
 		{
 			setHappiness(Happiness.VERY_SAD);
+			setMessage(MessagePool.getMessage(this, MessagePool.Action.HateShit), false);
 			clearActions();
+			stay();
 			shitStress -= 40;
+			shitPanicEscape = true;
 			return;
 		}
+		if(shitStress < 125 && shitPanicEscape == true)
+			shitPanicEscape = false;
 		
 		if (vx != 0) {
 			x += vx;
@@ -1883,25 +1890,27 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			y += vecY;
 			z += vecZ;
 		}
-
-		int nearestShitDistance = ToiletLogic.getMinimumShitDistance(this);
 		
 		// if yukkuri going towards a shit redirect to another direction
 		// added by kirisame
-		if(nearestShitDistance < 1000 && nearestShitDistance != 0)
+		int nearestShitDistance = ToiletLogic.getMinimumShitDistance(this);
+		if(nearestShitDistance < 1000 && nearestShitDistance != 0 && !this.toFood && !this.wantToShit() && !this.shitPanicEscape)
 		{
 			if(previousShitDistance > nearestShitDistance)
 			{
+				this.setMessage(MessagePool.getMessage(this, MessagePool.Action.HateShit), false);
+				this.stay();
 				dirX *= (rnd.nextBoolean() ? 1 : -1);
 				dirY *= (rnd.nextBoolean() ? 1 : -1);
 				destX = -1;
 				destY = -1;
-				
-				shitStress += TICK;
+				staying = false;
+				shitStress += 10*TICK;
 			}
 		}
 		else
-			shitStress -= TICK/2;
+			if(!staying && shitStress > 0)
+				shitStress -= TICK;
 		
 		previousShitDistance = nearestShitDistance;
 		

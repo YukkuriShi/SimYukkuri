@@ -1,5 +1,6 @@
 package src;
 
+import src.Body.Attitude;
 import src.item.Toilet;
 
 
@@ -112,6 +113,17 @@ public class ToiletLogic {
 			b.moveToToilet(found, found.getX(), found.getY(), 0);
 			ret = true;
 		}
+		else
+		{
+			if(b.getAttitude().equals(Attitude.VERY_NICE) || b.getAttitude().equals(Attitude.NICE))
+			{
+				Obj toilet = new Obj();
+				// TO DO :magic numbers will be changed
+				b.moveToToilet(toilet, 5, b.getY());
+				ret = true;
+			}
+		}
+		
 		return ret;
 	}
 }
