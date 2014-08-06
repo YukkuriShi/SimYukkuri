@@ -28,6 +28,7 @@ public class GadgetMenu {
         TOOL("驕灘�", "Tools"),
         TOOL2("驕灘�2", "Abuse Tools"),
         BADGES("moonrunes", "Apply for Badges"),
+        MISC("misc", "Miscellaneous"),
         FOODS("縺医＆", "Yukkuri Food"),
         CLEAN("貂�祉", "Clean Yukkurium"),
         ACCESSORY("縺翫°縺悶ｊ", "Accessory"),
@@ -89,6 +90,14 @@ public class GadgetMenu {
         ;
         private String name;
         Badges(String nameJ, String nameE) { this.name = nameE; }
+        public String toString() { return name; }
+    }
+	
+	enum Misc {
+        BOX(" Ν", "Cardboard Box"),
+        ;
+        private String name;
+        Misc(String nameJ, String nameE) { this.name = nameE; }
         public String toString() { return name; }
     }
 
@@ -302,6 +311,17 @@ public class GadgetMenu {
 			BadgesMenu.add(subMenu);
 		}
 		popup.add(BadgesMenu);
+		
+		JMenu MiscMenu = new JMenu(MainCategory.MISC.toString());
+		Misc[] MiscList = Misc.values();
+		for(int i = 0; i < MiscList.length; i++)
+		{
+			subMenu = new JMenuItem(MiscList[i].toString());
+			subMenu.addActionListener(action);
+			subMenu.setActionCommand(MiscList[i].name());
+			MiscMenu.add(subMenu);
+		}
+		popup.add(MiscMenu);
 
 		JMenu foodMenu = new JMenu(MainCategory.FOODS.toString());
 		Foods[] foodList = Foods.values();
@@ -452,6 +472,7 @@ public class GadgetMenu {
 						break;
 				}
 				break;
+			case MISC:
 			case FOODS:
 			case CLEAN:
 				currentHelpNum = 0;
@@ -602,6 +623,13 @@ class PopupAction implements ActionListener
 		try {
 			GadgetMenu.Badges sel = GadgetMenu.Badges.valueOf(command);
 			SimYukkuri.s1.setSelectedIndex(GadgetMenu.MainCategory.BADGES.ordinal());
+			SimYukkuri.setSubMenu();
+			SimYukkuri.s2.setSelectedIndex(sel.ordinal());
+		} catch(IllegalArgumentException ex) {}
+		
+		try {
+			GadgetMenu.Misc sel = GadgetMenu.Misc.valueOf(command);
+			SimYukkuri.s1.setSelectedIndex(GadgetMenu.MainCategory.MISC.ordinal());
 			SimYukkuri.setSubMenu();
 			SimYukkuri.s2.setSelectedIndex(sel.ordinal());
 		} catch(IllegalArgumentException ex) {}

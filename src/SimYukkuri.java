@@ -12,6 +12,7 @@ import java.io.*;
 import javax.imageio.*;
 
 import src.attachment.AccelAmpoule;
+import src.attachment.CardboardBox;
 import src.attachment.OrangeAmpoule;
 import src.attachment.StopAmpoule;
 import src.attachment.FakeBadge;
@@ -418,6 +419,10 @@ public class SimYukkuri extends JFrame {
 				break;
 			case BADGES:
 				s2.setModel(new DefaultComboBoxModel(GadgetMenu.Badges.values()));
+				s2.setSelectedIndex(0);
+				break;
+			case MISC:
+				s2.setModel(new DefaultComboBoxModel(GadgetMenu.Misc.values()));
 				s2.setSelectedIndex(0);
 				break;
 			case FOODS:
@@ -1170,6 +1175,24 @@ public class SimYukkuri extends JFrame {
 								case GOLD: //TODO
 									
 								break;
+							}
+							break;
+							
+						case MISC: 
+							switch ((GadgetMenu.Misc)s2.getSelectedItem()) 
+							{
+								case BOX:
+									if (found instanceof Body) {   //TODO add method for removing FakeBadge in body, that affects yukkuri attitude/complacency etc based on intelligence
+										Body b = (Body)found;
+										if(b.getAttachmentSize(CardboardBox.class) != 0) {
+											b.removeAttachment(CardboardBox.class, true);
+										} else {
+											b.addAttachment(new CardboardBox((Body)found)); //TODO work in progress
+										}
+									}
+								
+								break;
+								
 							}
 							break;
 

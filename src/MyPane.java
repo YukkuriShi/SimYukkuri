@@ -46,6 +46,7 @@ import javax.swing.JPanel;
 import src.TrashUtil.OkazariType;
 import src.attachment.AccelAmpoule;
 import src.attachment.BronzeBadge;
+import src.attachment.CardboardBox;
 import src.attachment.FakeBadge;
 import src.attachment.Fire;
 import src.attachment.GoldBadge;
@@ -214,6 +215,8 @@ public class MyPane extends JPanel implements Runnable {
 		    BronzeBadge.loadImages(loader, this);
 		    SilverBadge.loadImages(loader, this);
 		    GoldBadge.loadImages(loader, this);
+		    //other
+		    CardboardBox.loadImages(loader, this);
 
 			// 繧ｫ繝ｼ繧ｽ繝ｫ
 			cursor[0] = ImageIO.read(loader.getResourceAsStream("images/icon/cur_lt.png"));
