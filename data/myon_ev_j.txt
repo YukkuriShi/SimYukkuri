@@ -2,36 +2,36 @@
 [ScareRapist]
 	<normal>
 		<baby>
-			みょんやー！
-			みょんはゆなほーるさんになりたくないみょん！
-			ろりっこん！のへんたいだみょん！
-			みょんやぁぁぁあああ！！！
+			Hewp!!
+			Gan'ch chage id eajy!
+			Ij a waper!
+			Don'd hurch me!
 			<damage>
-				みょんやー、、、
-				れいぽぉはゆっくぢでぎないみょん、、、
-				たぢゅげで、たぢゅげで、たぢゅげで、、、
+				Hewp...
+				Don'd go ober hea...
+				Shdob id...
 			</damage>
 		</baby>
 		<child>
-			みょんやー！れいぱーだみょんー！
-			みょんはゆなほーるさんになりたくないみょん！
-			みょんには、はやすぎりゅみょん！
-			みょんやぁぁぁあああ！！！
+			Hewp!!
+			Can'ch chake it eajy!
+			Ich a waper!
+			Don'd hurch me!
 			<damage>
-				みょんやー、、、れいぱーだみょんー、、、
-				れいぽぉはゆっくぢでぎないみょん、、、
-				おねぎゃいたぢゅげで、、、
+				Hewp...
+				Don't go ober hea...
+				Shtop id...
 			</damage>
 		</child>
 		<adult>
-			やめるんだみょん！はくろーけんのさびにしてやるみょん！
-			みょんはゆなほーるさんになりたくないみょん！
-			みょん、すっきりしたくないんだみょん！
-			おさー！れいぱーだー！
+			Help!
+			Can't take it easy!
+			It's a raper!
+			Don't hurt me!
 			<damage>
-				やめるんだみょん、、、はくろーけんのさびにしてやるみょん、、、
-				れいぽぉはゆっくぢでぎないみょん、、、
-				だれがだずげで、、、
+				Helb...
+				Don'd go ober here...
+				Zdob id...
 			</damage>
 		</adult>
 	</normal>
@@ -41,14 +41,14 @@
 [AttackRapist]
 	<normal>
 		<baby>
-			使われないんでダミー
+			Dick!
 		</baby>
 		<child>
-			使われないんでダミー
+			Go away!
 		</child>
 		<adult>
-			れいぱーはせいっさいだよ！
-			れいぱーなんてやっつけてやるよ！
+			Die easy, raper!
+			Go away, uneasy yukkuri!
 		</adult>
 	</normal>
 [/AttackRapist]
@@ -57,14 +57,14 @@
 [CounterRapist]
 	<normal>
 		<baby>
-			使われないんでダミー
+			unused dummy
 		</baby>
 		<child>
-			使われないんでダミー
+			unused dummy
 		</child>
 		<adult>
-			みんなでれいぱーをやっつけるよ！
-			いまのすきにみんなでこうげきだよ！
+			Kill this scum rapist!
+			Punishment time!
 		</adult>
 	</normal>
 [/CounterRapist]
@@ -73,24 +73,24 @@
 [HateYukkuri]
 	<normal>
 		<baby>
-			ゆっくちちてにゃいゆっくちがいりゅみょん
+			Ich a shcawy yukkuchi!?
 		</baby>
 		<child>
-			はくろーけんのさびにしてやるみょん！
+			It's a weiwd yukkuchi!?
 		</child>
 		<adult>
-			みょ～ん！いちげきで、いきのねをとめてやるみょん！
+			It's a weird yukkuri!?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			ゆっくちちてにゃいゆっくちがいりゅよ
+			Bunishmend chime!
 		</baby>
 		<child>
-			ゆぷぷ、はくろーけんのさびにしてやるみょん！
+			Uneajy yukkuchi can dwop dead eajy!
 		</child>
 		<adult>
-			ゆへへ、なぶりごろしにしてやるみょん！
+			Uneasy yukkuri can drop dead easy!
 		</adult>
 	</rude>
 [/HateYukkuri]
@@ -99,19 +99,19 @@
 [ConcernAboutPartner]
 	<normal>
 		<baby>
-			ちゅりちゅり、ゆっくちしゅりゅみょん？
-			みょん！みょーん！
-			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+			Wick wick, wub wub?
+			D-dick??
+			Can'ch chake it eajy?
 		</baby>
 		<child>
-			しゅりしゅり、ゆっくちするみょん？
-			ゆっくちするみょん、、、
-			ぺーりょぺーりょ、ゆっくちよくなるみょん
+			Wick wick, wub wub?
+			D-dick??
+			Can't chake it eajy?
 		</child>
 		<adult>
-			%partner、だいじょうぶみょん？
-			%partner、しっかりするみょん！
-			%partner、あんこさんはいちゃだめみょん！
+			%partner, are you okay?
+			%partner, it will be okay now that Myon has arrived!
+			Helping %partner easy!
 		</adult>
 	</normal>
 
@@ -121,19 +121,19 @@
 [ConcernAboutChild]
 	<normal>
 		<baby>
-			ちゅりちゅり、ゆっくちしゅりゅみょん？
-			みょん！みょーん！
-			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+			Wick wick, wub wub?
+			D-dick??
+			Can'ch chake it eajy?
 		</baby>
 		<child>
-			しゅりしゅり、ゆっくちするみょん？
-			ゆっくちするみょん、、、
-			ぺーりょぺーりょ、ゆっくちよくなるみょん
+			Wick wick, wub wub?
+			D-dick??
+			Can't chake it eajy?
 		</child>
 		<adult>
-			おちびちゃん、だいじょうぶみょん？
-			おちびちゃん、しっかりするみょん！
-			おちびちゃん、あんこさんはいちゃだめみょん！
+			Little one, are you okay?
+			Little one, it will be okay now that mommy has arrived!
+			Helping little one easy!
 		</adult>
 	</normal>
 [/ConcernAboutChild]
@@ -142,19 +142,19 @@
 [ConcernAboutEldersister]
 	<normal>
 		<baby>
-			ちゅりちゅり、ゆっくちしゅりゅみょん？
-			おねぇしゃん、みょん！みょーん！
-			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+			Wick wick, wub wub?
+			D-dick??
+			Bwig shish can'ch chake it eajy?
 		</baby>
 		<child>
-			しゅりしゅり、ゆっくちするみょん？
-			おねぇちゃん、ゆっくちするみょん、、、
-			ぺーりょぺーりょ、ゆっくちよくなるみょん
+			Wick wick, wub wub?
+			D-dick??
+			Big shish can't chake it eajy?
 		</child>
 		<adult>
-			%partner、だいじょうぶみょん？
-			%partner、しっかりするみょん！
-			%partner、あんこさんはいちゃだめみょん！
+			%partner, are you okay?
+			%partner, it will be okay now that Myon has arrived!
+			Helping %partner easy!
 		</adult>
 	</normal>
 [/ConcernAboutEldersister]
@@ -163,19 +163,19 @@
 [ConcernAboutSister]
 	<normal>
 		<baby>
-			ちゅりちゅり、ゆっくちしゅりゅみょん？
-			いもうちょ、みょん！みょーん！
-			ぺーりょぺーりょ、ゆっくちよくなってにぇ
+			Wick wick, wub wub?
+			D-dick??
+			Widdle shish can'ch chake it eajy?
 		</baby>
 		<child>
-			しゅりしゅり、ゆっくちするみょん？
-			いもうと、ゆっくちするみょん、、、
-			ぺーりょぺーりょ、ゆっくちよくなるみょん
+			Wick wick, wub wub?
+			D-dick??
+			Widdle shish can't chake it eajy?
 		</child>
 		<adult>
-			%partner、だいじょうぶみょん？
-			%partner、しっかりするみょん！
-			%partner、あんこさんはいちゃだめみょん！
+			%partner, are you okay?
+			%partner, it will be okay now that Myon has arrived!
+			Helping %partner easy!
 		</adult>
 	</normal>
 [/ConcernAboutSisterr]
@@ -184,13 +184,13 @@
 [RootForPartner]
 	<normal>
 		<baby>
-			がんばりゅみょん！
+			Keep at ich!
 		</baby>
 		<child>
-			がんばりゅみょん！
+			You can do ich!
 		</child>
 		<adult>
-			%partner、がんるみょん！
+			Keep going, %partner!
 		</adult>
 	</normal>
 [/RootForPartner]
@@ -199,13 +199,13 @@
 [FirstGreeting]
 	<normal>
 		<baby>
-			ゆっくちちちぇいっちぇにぇ！
+			Chage id eajy!
 		</baby>
 		<child>
-			ゆっくちしちぇいっちぇにぇ！
+			Chake it eajy!
 		</child>
 		<adult>
-			ゆっくりしていってね！
+			Take it easy!
 		</adult>
 	</normal>
 [/FirstGreeting]
@@ -213,158 +213,158 @@
 # すぃーを見つける
 [FindSui]
 	<normal>
-		すぃーがあるよ！
+		It's a suii!
 	</normal>
 [/FindSui]
 
 # すぃーを自分のも��にする
 [GetSui]
 	<normal>
-		このすぃーは%nameのものだよ！
+		This suii belongs to Myon!
 	</normal>
 [/GetSui]
 
 # 自分のすぃーにのりにいく
 [FindGetSui]
 	<normal>
-		どらいぶするよ！
+		Time to drive!
 	</normal>
 [/FindGetSui]
 
 # 自分以外のすぃーにのりにいく
 [FindGetSuiOtner]
 	<normal>
-		いっしょにどらいぶするよ！
+		Let's ride it together easy!
 	</normal>
 [/FindGetSuiOtner]
 
 # 自分以外のすぃーにのりにいくときに呼ぶ
 [WantRideSuiOtner]
 	<normal>
-		すぃーにのせてね！
+		Let Myon ride too!
 	</normal>
 [/WantRideSuiOtner]
 
 # すぃーにのる
 [RideSui]
 	<normal>
-		しゅっぱつじゅんびかんりょうだよ！
+		Let's go!
 	</normal>
 [/RideSui]
 
 # すぃーにのっている
 [RidingSui]
 	<normal>
-		きもちいいよ！
-		たのしいよ！
+		Diiiiick~
+		Fun!
 	</normal>
 [/RidingSui]
 
 # すぃーを運転する
 [DrivingSui]
 	<normal>
-		%nameのうんてんてくにっくをみてね！
+		Watch Myon go very fast!
 	</normal>
 [/DrivingSui]
 
 # すぃーを運転するパートナーをみて（自分はのっていない）
 [DrivingSuiPartner]
 	<normal>
-		さすが%nameの%partnerだよ！
-		かっこいいよ！
+		%partner is amazing!
+		So cool!
 	</normal>
 [/DrivingSuiPartner]
 
 # すぃーを運転するこどもをみて（自分はのっていない）
 [DrivingSuiChild]
 	<normal>
-		さすが%nameのおちびちゃん！
+		Myon's little one is so cool!
 	</normal>
 [/DrivingSuiChild]
 
 # すぃーを運転する父親をみて（自分はのっていない）
 [DrivingSuiPAPA]
 	<normal>
-		おとうしゃんすごいよ！
+		Otousan looks so cool!
 	</normal>
 [/DrivingSuiPAPA]
 
 # すぃーを運転する母親���みて（自分はのっていない）
 [DrivingSuiMAMA]
 	<normal>
-		おかあしゃんすごいよ！
+		Mama looks so cool!
 	</normal>
 [/DrivingSuiMAMA]
 
 # すぃーを運転する姉をみて（自分はのっていない）
 [DrivingSuiOldSister]
 	<normal>
-		おねえちゃんすごいよ！
+		Big sis looks so cool!
 	</normal>
 [/DrivingSuiOldSister]
 
 # すぃーを運転する妹をみて（自分はのっていない）
 [DrivingSuiYoungSister]
 	<normal>
-		%nameのいもうとすごいよ！
+		Little sis looks so cool!
 	</normal>
 [/DrivingSuiYoungSister]
 
 # すぃーから降りる
 [RideOffSui]
 	<normal>
-		たのしかったよ！
+		That was very fun!
 	</normal>
 [/RideOffSui]
 
 # 持っているすぃーを自慢する
 [hasSui]
 	<normal>
-		%nameはすぃーをもってるんだよ！
+		Myon has a suii!
 	</normal>
 	<rude>
-		おねえさんにたのんですぃーをかってもらったのぜちょろいのぜ
+		Myon got to drive the suii that big sis begged for!
 	</rude>
 [/hasSui]
 
 # 持っているすぃーを自慢されるパートナー
 [hasSuiPartner]
 	<normal>
-		さすが%partnerだよ！
+		%partner is so cool!
 	</normal>
 [/hasSuiPartner]
 
 # ��どもの持っているすぃーを自慢される親
 [hasSuiChild]
 	<normal>
-		さすが%nameのおちびちゃんだよ！
+		Myon's little ones are the best!
 	</normal>
 [/hasSuiChild]
 
 # 父親の持っているすぃーを自慢されるこども
 [hasSuiPAPAChild]
 	<normal>
-		さすがおとうしゃん！
+		Myon's otousan is the best!
 	</normal>
 [/hasSuiPAPAChild]
 
 # 母親の持っているすぃーを自慢されるこども
 [hasSuiMAMAChild]
 	<normal>
-		さすがおかあしゃん！
+		Myon's mama is the best!
 	</normal>
 [/hasSuiMAMAChild]
 
 # 姉の持っているす���ーを自慢される
 [hasSuiOldSister]
 	<normal>
-		さすがおねえちゃん！
+		Myon's big sis is the best!
 	</normal>
 [/hasSuiOldSister]
 
 # 妹の持っているすぃーを自慢される
 [hasSuiYoungSister]
 	<normal>
-		さすが%nameのいもうと！
+		Myon's little sis is the best!
 	</normal>
 [/hasSuiYoungSister]

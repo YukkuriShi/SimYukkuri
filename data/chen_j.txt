@@ -42,7 +42,7 @@
 			Whewe ish mishter fwood?
 			<damage>
 				Mishder food ish not hea...
-				Pwease feed mister food...Å
+				Pwease feed mister food...
 				Can'ch chake it eajy wif no mishter food...
 			</damage>
 		</child>
@@ -98,26 +98,26 @@
 		<baby>
 			I ged idÔºÅ
 			Chake id eajy!
-			Chen ij chaking id eajy!Å
-			Yuuu~Å
-			Chake id eajy wid Chen! Å
+			Chen ij chaking id eajy!
+			Yuuu~
+			Chake id eajy wid Chen! 
 			Ea~jy
 		</baby>
 		<child>
-			Chake it eajy!Å
-			I get itÔº
+			Chake it eajy!
+			I get it~
 			Chen ish chaking it eajy!
 			Yuu~ Yuu~
 			Ea~jy
-			Chen getsh it~Å
+			Chen getsh it~
 		</child>
 		<adult>
-			Take it easy!Å
-			I get it!Å
+			Take it easy!
+			I get it!
 			Chen is taking it easy!
 			Chen's feeling very easy!
 			Yuyu~
-			Getting it~Å
+			Getting it~
 		</adult>
 	</normal>
 	<rude>
@@ -127,7 +127,7 @@
 		</baby>
 		<child>
 			Chen ish eajier den shitty geezer!
-			Yesh, I get it, I get it!Å
+			Yesh, I get it, I get it!
 		</child>
 		<adult>
 			Chen is easier than shitty geezer!
@@ -145,26 +145,26 @@
 			Gedding id!
 		</baby>
 		<child>
-			Relax-relax~, chake it eajy!Å
+			Relax-relax~, chake it eajy!
 			Wigguw wigguw~
-			Getting it!Å
+			Getting it!
 		</child>
 		<adult>
-			Relax-relax~Å
+			Relax-relax~
 			Wiggle wiggle~
-			Getting it!Å
+			Getting it!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
 			Relax-relax~, chage id eajy!
 			Wigguw wigguw~
-			Gedding id!Å
+			Gedding id!
 		</baby>
 		<child>
 			Do wick-wicking of Chen's mishter anyawu!
 			Wigguw wigguw~
-			Getting it!Å
+			Getting it!
 		</child>
 		<adult>
 			Do lick-licking of Chen's mister anyaru!
@@ -178,13 +178,13 @@
 [Wakeup]
 	<normal>
 		<baby>
-			Gwood mohning eajy!Å
+			Gwood mohning eajy!
 		</baby>
 		<child>
-			Good mowning eajy!Å
+			Good mowning eajy!
 		</child>
 		<adult>
-			Good morning easy!Å
+			Good morning easy!
 		</adult>
 	</normal>
 	<rude>
@@ -195,7 +195,7 @@
 			Cute Chen ish waking up!
 		</child>
 		<adult>
-			The beautiful Chen is waking up!Å
+			The beautiful Chen is waking up!
 		</adult>
 	</rude>
 [/Wakeup]
@@ -225,73 +225,73 @@
 [Scream]
 	<normal>
 		<baby>
-			ID HURD!!Å
-			Hewb me, Wan-shyamaa!!Å
+			ID HURD!!
+			Hewb me, Wan-shyamaa!!
 			Don'd do ich!!!
 			<damage>
 				Shdob id...
-				Yu... Yu... Yu...Å
-				Don'd ged id...Å
+				Yu... Yu... Yu...
+				Don'd ged id...
 				Wry ij dish habbening...
-				Don'd do hurd-hurd anymore...Å
+				Don'd do hurd-hurd anymore...
 			</damage>
 		</baby>
 		<child>
-			ID HURDZ!!Å
-			Hewp me, Wan-shama!!Å
+			ID HURDZ!!
+			Hewp me, Wan-shama!!
 			Yunyaa!!
 			Chen doesn't get it!
 			<damage>
-				Shtop it...Å
-				Chen ish showwy...Å
-				Wry ish dish happening...Å
+				Shtop it...
+				Chen ish showwy...
+				Wry ish dish happening...
 				Don'd ged id...
-				Yu... Yu... Yu...Å
+				Yu... Yu... Yu...
 			</damage>
 		</child>
 		<adult>
-			YUNYAA!!!Å
+			YUNYAA!!!
 			I don't get it!
-			Stop it easy!Å
+			Stop it easy!
 			Help me, Ran-sama!
 			<damage>
-				Wry? I don'd ged id...Å
-				Jen iz zorry...Å
-				Zdob... zdob id bleaze...Å
-				Yuu... yuu...Å
+				Wry? I don'd ged id...
+				Jen iz zorry...
+				Zdob... zdob id bleaze...
+				Yuu... yuu...
 				Don'd do hurd-hurd anymore...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Shiddy geejer shdob id! Immwediatewy ij fine!Å
-			Yunyaa!!Å
-			ID HURD!!Å
+			Shiddy geejer shdob id! Immwediatewy ij fine!
+			Yunyaa!!
+			ID HURD!!
 			<damage>
-				Shdob id...Å
-				Shwave doejn'd ged id...Å
-				Yu... yu... yu...Å
+				Shdob id...
+				Shwave doejn'd ged id...
+				Yu... yu... yu...
 			</damage>
 		</baby>
 		<child>
-			Shitty geezer shtop it! Immediatewy ish fine!Å
-			Yunyaa!!Å
-			ID HURDZ!!Å
+			Shitty geezer shtop it! Immediatewy ish fine!
+			Yunyaa!!
+			ID HURDZ!!
 			<damage>
 				Geezer can dwop dead...
-				Shtop it... shtop it awweady...Å
-				Yu... yu... yu...Å
+				Shtop it... shtop it awweady...
+				Yu... yu... yu...
 			</damage>
 		</child>
 		<adult>
-			Yuwaaa!!Å
-			Shitty geezer stop doing hurt-hurt!Å
-			Fuck off, slave!Å
+			Yuwaaa!!
+			Shitty geezer stop doing hurt-hurt!
+			Fuck off, slave!
 			<damage>
-				Geezer gan drob dead vor hurd-hurding da beaudivul Chen...Å
-				Zdob id... zdob id immediadely...Å
-				Zdob id... yu, yu...Å
+				Geezer gan drob dead vor hurd-hurding da beaudivul Chen...
+				Zdob id... zdob id immediadely...
+				Zdob id... yu, yu...
 			</damage>
 		</adult>
 	</rude>
@@ -301,53 +301,53 @@
 [Scare]
 	<normal>
 		<baby>
-			Shdob id pweaze!Å
-			Chen ij shcared!Å
+			Shdob id pweaze!
+			Chen ij shcared!
 			<damage>
-				I don'd ged id...Å
-				Can'ch chake id eajy...Å
+				I don'd ged id...
+				Can'ch chake id eajy...
 			</damage>
 		</baby>
 		<child>
-			Pwease shtop!Å
-			I can't chake it eashy!Å
+			Pwease shtop!
+			I can't chake it eashy!
 			<damage>
-				I don't get it...Å
-				Shcared... hewp...Å
+				I don't get it...
+				Shcared... hewp...
 			</damage>
 		</child>
 		<adult>
-			Please stop it!Å
-			I can't Åtake it easy!
+			Please stop it!
+			I can't take it easy!
 			<damage>
-				I don't get it...Å
-				Scared... help...Å
+				I don't get it...
+				Scared... help...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Shdob id! Wight now ij fine!Å
-			Chen ij shcared!Å
+			Shdob id! Wight now ij fine!
+			Chen ij shcared!
 			<damage>
-				Shdob id...Å
-				Cude widdwe Chen ij showwy...Å
+				Shdob id...
+				Cude widdwe Chen ij showwy...
 			</damage>
 		</baby>
 		<child>
-			Shtop it! Wight now ish fine!Å
-			Chen ish shcared, got it?Å
+			Shtop it! Wight now ish fine!
+			Chen ish shcared, got it?
 			<damage>
-				Shtop it...Å
-				Cute Chen is showwy...Å
+				Shtop it...
+				Cute Chen is showwy...
 			</damage>
 		</child>
 		<adult>
-			Stop it! Right now is fine!Å
-			Chen is scared, got it?Å
+			Stop it! Right now is fine!
+			Chen is scared, got it?
 			<damage>
-				Zdob id...Å
-				The beaudivul Chen iz zorry... Å
+				Zdob id...
+				The beaudivul Chen iz zorry... 
 			</damage>
 		</adult>
 	</rude>
@@ -363,35 +363,35 @@
 			</damage>
 		</baby>
 		<child>
-			I don't get it!Å
+			I don't get it!
 			<damage>
-				Pweashe stop...Å
+				Pweashe stop...
 			</damage>
 		</child>
 		<adult>
-			I don't get it!Å
+			I don't get it!
 			<damage>
-				Bleaze zdob id...Å
+				Bleaze zdob id...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			I don'd ged id!Å
+			I don'd ged id!
 			<damage>
-				Shdob id...Å
+				Shdob id...
 			</damage>
 		</baby>
 		<child>
-			I don't get it!Å
+			I don't get it!
 			<damage>
-				ÅShtop it...
+				Shtop it...
 			</damage>
 		</child>
 		<adult>
-			I don't get it!Å
+			I don't get it!
 			<damage>
-				Zdob id bleaze...Å
+				Zdob id bleaze...
 			</damage>
 		</adult>
 	</rude>
@@ -401,13 +401,13 @@
 [Dying]
 	<normal>
 		<baby>
-			Yugya-!Å
+			Yugya-!
 		</baby>
 		<child>
 			Yugeh-!
 		</child>
 		<adult>
-			Gyah-!Å
+			Gyah-!
 		</adult>
 	</normal>
 [/Dying]
@@ -416,19 +416,19 @@
 [Dead]
 	<normal>
 		<baby>
-			Wry... did dish habben...Å
-			I sdill don'd ged id...Å
-			Wanded choo chake id eajy more...Å
+			Wry... did dish habben...
+			I sdill don'd ged id...
+			Wanded choo chake id eajy more...
 		</baby>
 		<child>
-			Wry.... did dish happen...Å
-			I still don't get it...Å
-			Wanted choo chake it eashy more...Å
+			Wry.... did dish happen...
+			I still don't get it...
+			Wanted choo chake it eashy more...
 		</child>
 		<adult>
-			Wry... did diz habben...Å
-			I zdill don'd ged id...Å
-			Wanted to take it easy more...Å
+			Wry... did diz habben...
+			I zdill don'd ged id...
+			Wanted to take it easy more...
 		</adult>
 	</normal>
 [/Dead]
@@ -437,27 +437,27 @@
 [Eating]
 	<normal>
 		<baby>
-			Yu~ Yu~Å
-			Dewicious~Åfanksh, mishder
-			Mwunj mwunj~Å
+			Yu~ Yu~
+			Dewicious~ fanksh, mishder
+			Mwunj mwunj~
 		</baby>
 		<child>
-			Yu~ Yu~Å
-			Dewicious~ Åthanksh, mishter
-			Munj munj~Å
+			Yu~ Yu~
+			Dewicious~ thanksh, mishter
+			Munj munj~
 		</child>
 		<adult>
-			Yu~ Yu~Å
-			Delicious~ thanks, misterÅ
-			Munch munch~Å
+			Yu~ Yu~
+			Delicious~ thanks, mister
+			Munch munch~
 		</adult>
 	</normal>
 	<rude>
 		<baby>
 			Yu~ Yu~
-			Mishder shwabe bwingsh gwud fwood~Å
+			Mishder shwabe bwingsh gwud fwood~
 			Myunj myunj~
-			Dewicious~Å
+			Dewicious~
 		</baby>
 		<child>
 			Yu~ Yu~
@@ -481,7 +481,7 @@
 			Dish ij wrong... Chen doejn'd ged mishder pwoo-pwoo...
 		</baby>
 		<child>
-			Dish ish wrong... Chen doeshn't get mishter poo-poo...Å
+			Dish ish wrong... Chen doeshn't get mishter poo-poo...
 		</child>
 		<adult>
 			This is wrong... Chen doesn't get mister poo-poo...
@@ -493,15 +493,15 @@
 [EatingBitter]
 	<normal>
 		<baby>
-			MyunjÅmyunj, dish ij poijon!
+			Myunj myunj, dish ij poijon!
 			Tashtesh bwad!
 		</baby>
 		<child>
-			Munsh munsh, dish ish poishon!Å
+			Munsh munsh, dish ish poishon!
 			Tashtesh bad!
 		</child>
 		<adult>
-			This is poisoned!Å
+			This is poisoned!
 			I don't get it!
 		</adult>
 	</normal>
@@ -511,13 +511,13 @@
 [Full]
 	<normal>
 		<baby>
-			Chen can'd ead eny moa.Å
+			Chen can'd ead eny moa.
 		</baby>
 		<child>
-			Chen got enough.Å
+			Chen got enough.
 		</child>
 		<adult>
-			Chen got enough mister food.Å
+			Chen got enough mister food.
 		</adult>
 	</normal>
 [/Full]
@@ -526,59 +526,59 @@
 [Healing]
 	<normal>
 		<baby>
-			Chaking id eajier!Å
+			Chaking id eajier!
 			I ged id!
 			<damage>
-				Feewing bedder...Å
-				Can chake id a bid eajier...Å
-				I'm gedding ich...Å
+				Feewing bedder...
+				Can chake id a bid eajier...
+				I'm gedding ich...
 			</damage>
 		</baby>
 		<child>
-			Chaking it eashier!Å
-			I get it!Å
+			Chaking it eashier!
+			I get it!
 			<damage>
-				Feewing better...Å
-				Can chake it a bit eashier...Å
-				I'm getting it...Å
+				Feewing better...
+				Can chake it a bit eashier...
+				I'm getting it...
 			</damage>
 		</child>
 		<adult>
-			Taking it easier!Å
-			I get it!Å
-			Easy~Å
+			Taking it easier!
+			I get it!
+			Easy~
 			<damage>
-				Veeling bedder...Å
-				Gan dage id a bid eazier...Å
-				I'b gedding id...Å
+				Veeling bedder...
+				Gan dage id a bid eazier...
+				I'b gedding id...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Chaking id eajier!Å
-			Cude widdwe Chen getsh id!Å
+			Chaking id eajier!
+			Cude widdwe Chen getsh id!
 			<damage>
-				Feewing bedder...Å
-				Can chake id eajier...Å
+				Feewing bedder...
+				Can chake id eajier...
 			</damage>
 		</baby>
 		<child>
-			Cude Chen getsh it!Å
-			Chaking it eashier!Å
-			Easy~Å
+			Cude Chen getsh it!
+			Chaking it eashier!
+			Easy~
 			<damage>
-				Feewing better...Å
-				Can chake it a bit eashier..Å
+				Feewing better...
+				Can chake it a bit eashier..
 			</damage>
 		</child>
 		<adult>
-			The beautiful Chen gets it!Å
-			Taking it easier!Å
-			Easy~Å
+			The beautiful Chen gets it!
+			Taking it easier!
+			Easy~
 			<damage>
-				Veeling bedder...Å
-				Gan dage id a bid eazier...Å
+				Veeling bedder...
+				Gan dage id a bid eazier...
 			</damage>
 		</adult>
 	</rude>
@@ -588,13 +588,13 @@
 [Sukkiri]
 	<normal>
 		<baby>
-			We~fweshed!Å
+			We~fweshed!
 		</baby>
 		<child>
-			We~fweshed!Å
+			We~fweshed!
 		</child>
 		<adult>
-			Re~freshed!Å
+			Re~freshed!
 		</adult>
 	</normal>
 [/Sukkiri]
@@ -603,13 +603,13 @@
 [RaperSukkiri]
 	<normal>
 		<baby>
-			Wry ar babiesh gwowing?!Å
+			Wry ar babiesh gwowing?!
 		</baby>
 		<child>
-			Wry are mishter babiesh gwowing?! Å
+			Wry are mishter babiesh gwowing?! 
 		</child>
 		<adult>
-			Zdob! Chen doesn't get mister babies!Å
+			Zdob! Chen doesn't get mister babies!
 		</adult>
 	</normal>
 [/RaperSukkiri]
@@ -617,7 +617,7 @@
 # Ë™ïÁîü
 [Birth]
 	<normal>
-		Chage id eajy!Å
+		Chage id eajy!
 	</normal>
 [/Birth]
 
@@ -625,52 +625,52 @@
 [Shit]
 	<normal>
 		<baby>
-			Pwoo pwoo goming oud!Å
-			Mishder pwoo pwoo ish gedding oud!Å
+			Pwoo pwoo goming oud!
+			Mishder pwoo pwoo ish gedding oud!
 			<pants>
-				Pwoo pwoo don'd go in pantsh! Å
-				Mishder pants pweashe gome ooofff!Å
+				Pwoo pwoo don'd go in pantsh! 
+				Mishder pants pweashe gome ooofff!
 			</pants>
 		</baby>
 		<child>
 			Poo poo coming oud!
-			Mishter poo poo ish gedding oud!Å
+			Mishter poo poo ish gedding oud!
 			<pants>
-				Wry ish poo poo going in pantsh!?Å
-				Mishter pantsh pwease come ooofff!Å
+				Wry ish poo poo going in pantsh!?
+				Mishter pantsh pwease come ooofff!
 			</pants>
 		</child>
 		<adult>
-			Poo poo coming out!Å
-			Mister poo poo is getting out!Å
+			Poo poo coming out!
+			Mister poo poo is getting out!
 			<pants>
-				Wryyy is poo poo going in pants!?Å
-				Mister pants please come ooofff!Å
+				Wryyy is poo poo going in pants!?
+				Mister pants please come ooofff!
 			</pants>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Pwoo pwoo goming oud!Å
-			Shiddy shwabe can ead Chen'sh pwoo pwoo~Å
+			Pwoo pwoo goming oud!
+			Shiddy shwabe can ead Chen'sh pwoo pwoo~
 			<pants>
-				Geejer!! Chake off Chen's mishder pantsh!Å
-				Pwoo pwoo don'd go in pantsh!Å
+				Geejer!! Chake off Chen's mishder pantsh!
+				Pwoo pwoo don'd go in pantsh!
 			</pants>
 		</baby>
 		<child>
-			Poo poo coming oud!Å
-			Shitty shwave can eat Chen'sh poo poo~Å
+			Poo poo coming oud!
+			Shitty shwave can eat Chen'sh poo poo~
 			<pants>
-				Geezer! Wemove Chen's mishter pantsh!Å
-				Wry ish poo poo going in pantsh!?Å
+				Geezer! Wemove Chen's mishter pantsh!
+				Wry ish poo poo going in pantsh!?
 			</pants>
 		</child>
 		<adult>
-			Poo poo coming out!Å
+			Poo poo coming out!
 			Shitty slave can eat Chen's poo poo~
 			<pants>
-				Geezer! Remove Chen's mister pants!Å
+				Geezer! Remove Chen's mister pants!
 				Wryyy is poo poo going in pants!?
 			</pants>
 		</adult>
@@ -681,21 +681,21 @@
 [Shit2]
 	<normal>
 		<baby>
-			W-wefweched...Å
+			Wefweched!
 			<pants>
-				Yuaaa! Shdinksh!Å
+				Yuaaa! Shdinksh!
 			</pants>
 		</baby>
 		<child>
-			W-wefweshed...Å
+			Wefweshed!
 			<pants>
-				I don't get it...Å
+				I don't get it...
 			</pants>
 		</child>
 		<adult>
-			R-refreshed...Å
+			Refreshed!
 			<pants>
-				I don't get it...Å
+				I don't get it...
 			</pants>
 		</adult>
 	</normal>
@@ -706,15 +706,15 @@
 	<normal>
 		<baby>
 			Wub wub~
-			Doing wub wub~Å
+			Doing wub wub~
 		</baby>
 		<child>
 			Wub wub feelsh good~
-			Wub wub~Å
+			Wub wub~
 		</child>
 		<adult>
 			Rub rub~
-			Rub rub feels good~Å
+			Rub rub feels good~
 		</adult>
 	</normal>
 [/SuriSuri]
@@ -724,15 +724,15 @@
 	<normal>
 		<baby>
 			Wick wick~
-			Myamya~Å
+			Myamya~
 		</baby>
 		<child>
 			Wick wick~
-			Mama~Å
+			Mama~
 		</child>
 		<adult>
-			Lick lick~ç
-			Chen gets the little ones~Å
+			Lick lick~
+			Chen gets the little ones~
 		</adult>
 	</normal>
 [/PeroPero]
@@ -741,16 +741,16 @@
 [Breed]
 	<normal>
 		<baby>
-			Yugu, mishder chummy ijn't gedding id...!?Å
+			Yugu, mishder chummy ijn't gedding id...!?
 			Gigigigi...!!
 		</baby>
 		<child>
-			Da liddle onesh are coming oud!?Å
+			Da liddle onesh are coming oud!?
 			Ch-chummy huuuurch!
 		</child>
 		<adult>
-			Gigigigiving biiiiirth!!Å
-			Little ones are being born!Å
+			Gigigigiving biiiiirth!!
+			Little ones are being born!
 		</adult>
 	</normal>
 [/Breed]
@@ -758,9 +758,9 @@
 # Áî£Âæå
 [Breed2]
 	<normal>
-		Take it easy!Å
+		Take it easy!
 		<pants>
-			Nooo! Wry iz dere no liddle ooooones!?Å
+			Nooo! Wry iz dere no liddle ooooones!?
 		</pants>
 	</normal>
 [/Breed2]
@@ -769,10 +769,10 @@
 [HateShit]
 	<normal>
 		<baby>
-			Shdinky!Å
-			I don'd ged mishder pwoo pwoo!Å
+			Shdinky!
+			I don'd ged mishder pwoo pwoo!
 			<damage>
-				Shmelly...Å
+				Shmelly...
 				Pweashe ged wid of mishder pwoo pwoo...
 			</damage>
 		</baby>
@@ -786,36 +786,36 @@
 		</child>
 		<adult>
 			Please clean up poo poo!
-			Poo poo doesn't get it!Å
+			Poo poo doesn't get it!
 			<damage>
 				Please clean mister poo poo...
-				Miste poo poo go away...Å
+				Miste poo poo go away...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Shdinky!Å
-			Shwabe! Cwean pwoo pwoo!Å
+			Shdinky!
+			Shwabe! Cwean pwoo pwoo!
 			<damage>
-				Shtinksh...Å
-				Huwwy and cwean id ub...Å
+				Shtinksh...
+				Huwwy and cwean id ub...
 			</damage>
 		</baby>
 		<child>
-			Poo poo shmellsh bad!Å
-			Do a wick-wick of mishter poo poo!Å
+			Poo poo shmellsh bad!
+			Do a wick-wick of mishter poo poo!
 			<damage>
-				Shmelly, can'ch chake id eashy...Å
+				Shmelly, can'ch chake id eashy...
 				Get wid of poo poo awweady...
 			</damage>
 		</child>
 		<adult>
-			Poo poo doesn't get it!Å
+			Poo poo doesn't get it!
 			Do a lick-lick of mister poo poo!
 			<damage>
-				Ged rid of boo boo already...Å
-				Hurry and glean id ub...Å
+				Ged rid of boo boo already...
+				Hurry and glean id ub...
 			</damage>
 		</adult>
 	</rude>
@@ -825,68 +825,68 @@
 [Hungry]
 	<normal>
 		<baby>
-			Hungwy!Å
-			Can I ged id?Å
+			Hungwy!
+			Can I ged id?
 			Mishder fwood!
 			Chen ij hungwy!
 			<damage>
-				Wand mishder fwood...Å
+				Wand mishder fwood...
 				Hungwy...
-				Chen wandsh to myunj-myunj...Å
+				Chen wandsh to myunj-myunj...
 			</damage>
 		</baby>
 		<child>
-			Chen ish hungwy!Å
-			Feewing hungwy~Å
+			Chen ish hungwy!
+			Feewing hungwy~
 			Can I get it?
-			Want to each mishter food!Å
+			Want to each mishter food!
 			<damage>
-				Want mishter food...Å
-				Sho hungwy...Å
-				Chen wandsh to do munj-munj...Å
+				Want mishter food...
+				Sho hungwy...
+				Chen wandsh to do munj-munj...
 			</damage>
 		</child>
 		<adult>
-			Feeling hungry!Å
-			Can I get it?Å
+			Feeling hungry!
+			Can I get it?
 			Want to eat mister food!
-			Chen is hungry!Å
+			Chen is hungry!
 			<damage>
 				Wand mizder vood...
-				Zho hungry...Å
-				Chen wandzh to do munj-munj...Å
+				Zho hungry...
+				Chen wandzh to do munj-munj...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Chen wantsh shweed sweech! Gib dem!Å
-			Shwabe! Feed cude widdwe Chen!Å
-			Whewe'sh the mishder fwood?Å
+			Chen wantsh shweed sweech! Gib dem!
+			Shwabe! Feed cude widdwe Chen!
+			Whewe'sh the mishder fwood?
 			<damage>
-				I wand fwood now...Å
-				Bwing sweed sweech...Å
-				Fwood... Now...Å
+				I wand fwood now...
+				Bwing sweed sweech...
+				Fwood... Now...
 			</damage>
 		</baby>
 		<child>
-			Chen wantsh shweet shweets! Now ish fine!Å
-			Shwave! Feed cude Chen!Å
-			Whewe'sh the mishter food?Å
+			Chen wantsh shweet shweets! Now ish fine!
+			Shwave! Feed cude Chen!
+			Whewe'sh the mishter food?
 			<damage>
-				I want food now...Å
+				I want food now...
 				Need shweet shweetsh...
-				Food... bwing food now...Å
+				Food... bwing food now...
 			</damage>
 		</child>
 		<adult>
-			Shitty slave bring sweet sweets!Å
-			Geezer! Can't you see that the beautiful Chen is hungry?Å
+			Shitty slave bring sweet sweets!
+			Geezer! Can't you see that the beautiful Chen is hungry?
 			Are you stupid? Do you not get where mister food is?
 			<damage>
-				I wand vood already...Å
-				Chen needz zweed zweets...Å
-				I don'd ged id...Å
+				I wand vood already...
+				Chen needz zweed zweets...
+				I don'd ged id...
 			</damage>
 		</adult>
 	</rude>
@@ -896,16 +896,16 @@
 [NoAccessory]
 	<normal>
 		<baby>
-			Yunyyyaa! Whewe ij mishder had?!Å
-			Gibe id bag! Gibe id baaag!Å
+			Yunyyyaa! Whewe ij mishder had?!
+			Gibe id bag! Gibe id baaag!
 		</baby>
 		<child>
 			Yunyyyaa! Whewe ish mishter hat?!
-			Give it back! Give it baaack!Å
+			Give it back! Give it baaack!
 		</child>
 		<adult>
-			Where did Chen's mister hat go?!Å
-			Chen needs her hat to get it so please give it back!Å
+			Where did Chen's mister hat go?!
+			Chen needs her hat to get it so please give it back!
 		</adult>
 	</normal>
 [/NoAccessory]
@@ -914,19 +914,19 @@
 [Flying]
 	<normal>
 		<baby>
-			Ich wike fwying in da shky!Å
-			Mishter gwavidy getsh id!Å
-			Chen ij fwoading!Å
+			Ich wike fwying in da shky!
+			Mishter gwavidy getsh id!
+			Chen ij fwoading!
 		</baby>
 		<child>
-			It's wike fwying in the sky!Å
-			Mishter gwavity getsh it!Å
-			Chen ish fwoating!Å
+			It's wike fwying in the sky!
+			Mishter gwavity getsh it!
+			Chen ish fwoating!
 		</child>
 		<adult>
-			It's like flying in the sky!Å
-			Mister gravity gets it!Å
-			Chen is floating!Å
+			It's like flying in the sky!
+			Mister gravity gets it!
+			Chen is floating!
 		</adult>
 	</normal>
 [/Flying]
@@ -935,19 +935,19 @@
 [SadnessForChild]
 	<normal>
 		<baby>
-			Bwaybyy!!!Å
-			Gech id togejer, bwaby!Å
-			Wrryyyyy!?Å
+			Bwaybyy!!!
+			Gech id togejer, bwaby!
+			Wrryyyyy!?
 		</baby>
 		<child>
-			Babyy!!Å
+			Babyy!!
 			Get it togejer, baby!
-			Wrryyyyy!?Å
+			Wrryyyyy!?
 		</child>
 		<adult>
 			Little ooooone!!
-			Get it together, little one!Å
-			Wrryyyyy!?Å
+			Get it together, little one!
+			Wrryyyyy!?
 		</adult>
 	</normal>
 [/SadnessForChild]
@@ -963,10 +963,10 @@
 [SadnessForEldersister]
 	<normal>
 		<baby>
-			Open youw eyesh, bwig shish!Å
+			Open youw eyesh, bwig shish!
 		</baby>
 		<child>
-			Big shish, open youw mishter eyesh!Å
+			Big shish, open youw mishter eyesh!
 		</child>
 		<adult>
 			%partner open your mister eyes!
@@ -978,10 +978,10 @@
 [SadnessForSister]
 	<normal>
 		<baby>
-			Open youw eyesh, widdwe shish!Å
+			Open youw eyesh, widdwe shish!
 		</baby>
 		<child>
-			ÅWiddwe shish, open youw mishter eyesh!
+			Widdwe shish, open youw mishter eyesh!
 		</child>
 		<adult>
 			%partner open your mister eyes!
@@ -1004,13 +1004,13 @@
 	</normal>
 	<rude>
 		<baby>
-			Shiddy waww doejn't ged id!Å
+			Shiddy waww doejn't ged id!
 		</baby>
 		<child>
-			Shitty waww doeshn't get it!Å
+			Shitty waww doeshn't get it!
 		</child>
 		<adult>
-			Shitty wall doesn't get it!Å
+			Shitty wall doesn't get it!
 		</adult>
 	</rude>
 [/BlockedByWall]
@@ -1019,16 +1019,16 @@
 [GetTreasure]
 	<normal>
 		<baby>
-			Mishder mwarbwe getsh id~Å
-			Chen wubs her eajy tweashure!Å
+			Mishder mwarbwe getsh id~
+			Chen wubs her eajy tweashure!
 		</baby>
 		<child>
-			Mishter marbwe getsh it~Å
-			Chen wuvs her eashy tweasure! Å
+			Mishter marbwe getsh it~
+			Chen wuvs her eashy tweasure! 
 		</child>
 		<adult>
-			Mister marble gets it~Å
-			Chen loves her easy treasure!Å
+			Mister marble gets it~
+			Chen loves her easy treasure!
 		</adult>
 	</normal>
 [/GetTreasure]
@@ -1054,42 +1054,42 @@
 [Inflation]
 	<normal>
 		<baby>
-			Chummy HUUUUURCH!Å
-			Wrryyy ij dish habbening!?!?!?Å
-			Mishder! Wan-shyama! Anyone! Hewb meeee!!!Å
-			Chen's chummy hurch sho muuuuch!!!Å
+			Chummy HUUUUURCH!
+			Wrryyy ij dish habbening!?!?!?
+			Mishder! Wan-shyama! Anyone! Hewb meeee!!!
+			Chen's chummy hurch sho muuuuch!!!
 		</baby>
 		<child>
-			Chummy HUUUUURCH!Å
-			Wrryyy ish dish happening!?!?!?Å
-			Mishter! Wan-shama! Anyone! Hewp meeee!!!Å
-			Chen's chummy hurch sho muuuuch!!!Å
+			Chummy HUUUUURCH!
+			Wrryyy ish dish happening!?!?!?
+			Mishter! Wan-shama! Anyone! Hewp meeee!!!
+			Chen's chummy hurch sho muuuuch!!!
 		</child>
 		<adult>
-			Dummy HUUUUURDZ!Å
-			Wrryyy iz diz habbening!?!?!?Å
-			Mizder! Ran-zama! Anyone! Helb meeee!!!Å
-			Chen'z dummy hurdz zo muuuuudj!Å
+			Dummy HUUUUURDZ!
+			Wrryyy iz diz habbening!?!?!?
+			Mizder! Ran-zama! Anyone! Helb meeee!!!
+			Chen'z dummy hurdz zo muuuuudj!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Chummy HUUUUURCH!Å
-			Wrryyy ij dish habbening!?!?!?Å
-			Geejer! Wan-shyama! Anyone! Hewb me nooooowww!!!Å
-			Chen's chummy hurch sho muuuuch!Å
+			Chummy HUUUUURCH!
+			Wrryyy ij dish habbening!?!?!?
+			Geejer! Wan-shyama! Anyone! Hewb me nooooowww!!!
+			Chen's chummy hurch sho muuuuch!
 		</baby>
 		<child>
-			Chummy HUUUUURCH!Å
-			Wrryyy ish dish happening!?!?!?Å
+			Chummy HUUUUURCH!
+			Wrryyy ish dish happening!?!?!?
 			Geezer! Wan-shama! Anyone! Hewb me nooooowww!!!
-			Chen's chummy hurch sho muuuuch!!!Å
+			Chen's chummy hurch sho muuuuch!!!
 		</child>
 		<adult>
-			Dummy HUUUUURDZ!Å
-			Wrryyy iz diz habbening!?!?!?Å
-			Geezer! Ran-zama! Anyone! Helb me nooooowww!!!Å
-			Chen's dummy hurdz zo muuuuudj!Å
+			Dummy HUUUUURDZ!
+			Wrryyy iz diz habbening!?!?!?
+			Geezer! Ran-zama! Anyone! Helb me nooooowww!!!
+			Chen's dummy hurdz zo muuuuudj!
 		</adult>
 	<rude>
 [/Inflation]
@@ -1098,57 +1098,57 @@
 [AbuseBaby]
 	<normal>
 		<baby>
-			Gib bwag bwabyy!!!Å
+			Gib bwag bwabyy!!!
 			Don'd hurd-hurd Chen's bwaby!
 			Wry would you do daaat!?!?!?
-			Shdob hurding bwaby! Pweaze shdob!Å
-			Wed go of bwabyy!!Å
-			WRRYYYY!?!?Å
-			Bwabyyyyy!!!!!!!!Å
+			Shdob hurding bwaby! Pweaze shdob!
+			Wed go of bwabyy!!
+			WRRYYYY!?!?
+			Bwabyyyyy!!!!!!!!
 		</baby>
 		<child>
-			Give bag babyy!!! Å
+			Give bag babyy!!! 
 			Don'ch hurt-hurt Chen's baby!
 			Wry would you do daaat!?!?!?
 			Shtop hurding baby! Pweaze shtop!
 			WRRYYYY!?!?
-			Babyyyyy!!!!!!!!Å
-			Chen's baby is a living being choo! Å
+			Babyyyyy!!!!!!!!
+			Chen's baby is a living being choo! 
 		</child>
 		<adult>
-			Give back babyy!!!Å
+			Give back babyy!!!
 			Don't hurt-hurt Chen's baby!
 			Wry would you do daaat!?!?!?
-			Zdob hurding baby! Bleaze zdob!Å
-			WRRYYYY!?!?Å
-			Babyyyyy!!!!!!!!Å
-			Chen's baby is a living being too!Å
+			Zdob hurding baby! Bleaze zdob!
+			WRRYYYY!?!?
+			Babyyyyy!!!!!!!!
+			Chen's baby is a living being too!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Shiddy shwabe! Gib bag bwaby!Å
-			Gib bag baby or Chen wiww do pyuff-pyuff!Å
-			Geejer doejn'd ged id!Å
-			Wan-shyama wiww do hurd-hurd to geejer sho shdob id now!ÅÅ
+			Shiddy shwabe! Gib bag bwaby!
+			Gib bag baby or Chen wiww do pyuff-pyuff!
+			Geejer doejn'd ged id!
+			Wan-shyama wiww do hurd-hurd to geejer sho shdob id now!
 		</baby>
 		<child>
-			Shitty shwave! Give bwag baby!Å
-			Give bag bwaby or Chen wiww do puff-puff!Å
+			Shitty shwave! Give bwag baby!
+			Give bag bwaby or Chen wiww do puff-puff!
 			Geezer doeshn't get it!
 			Wan-shama wiww do hurt-hurt to geezer sho shtop it now!
 			Getting ANGWY!
-			Shtop it! NOW ISH FINE!Å
-			Chen can'ch chake id eajy wifoud her bwaby sho shdob id, okay geezer?Å
+			Shtop it! NOW ISH FINE!
+			Chen can'ch chake id eajy wifoud her bwaby sho shdob id, okay geezer?
 		</child>
 		<adult>
-			Shitty slave! Give back little one!Å
-			Give back little one or Chen will do puff-puff!Å
+			Shitty slave! Give back little one!
+			Give back little one or Chen will do puff-puff!
 			Geezer doesn't get it!
-			Ran-sama will do hurt-hurt to geezer so stop it now!Å
-			Getting ANGRY!Å
-			Stop it! NOW IS FINE!Å
-			Chen can't take it easy without her little one so stop it, okay geezer?Å
+			Ran-sama will do hurt-hurt to geezer so stop it now!
+			Getting ANGRY!
+			Stop it! NOW IS FINE!
+			Chen can't take it easy without her little one so stop it, okay geezer?
 		</adult>
 	</rude>
 [/AbuseBaby]
@@ -1162,7 +1162,7 @@
 		</baby>
 		<child>
 			No-bi no-bi~
-			Shtwetch shtwetch~Å
+			Shtwetch shtwetch~
 		</child>
 		<adult>
 			No-bi no-bi~
@@ -1175,21 +1175,21 @@
 [NearToBirth]
 	<normal>
 		<baby>
-			Chen's bwabiesh are gedding it!Å
-			Bwabiesh mobed!Å
-			Chen'sh eajy babiesh wiww be bworn shoon!Å
-			Chen can'd waich choo meed her babiesh!Å
+			Chen's bwabiesh are gedding it!
+			Bwabiesh mobed!
+			Chen'sh eajy babiesh wiww be bworn shoon!
+			Chen can'd waich choo meed her babiesh!
 		</baby>
 		<child>
-			Chen's babiesh are getting it!Å
-			Babiesh jusht moved!Å
-			Chen'sh eashy babieshÅwiww be born shoon!
+			Chen's babiesh are getting it!
+			Babiesh jusht moved!
+			Chen'sh eashy babiesh wiww be born shoon!
 			Chen can'd waich choo meet her babiesh!
 		</child>
 		<adult>
 			Chen's little ones are getting it!
-			Little ones just moved!Å
-			Chen's easy little ones will be born soon!Å
+			Little ones just moved!
+			Chen's easy little ones will be born soon!
 			Chen can't wait to meet her little ones!
 		</adult>
 	</normal>
@@ -1199,7 +1199,7 @@
 [PoisonDamage]
 	<normal>
 		<baby>
-			Yuba!Å
+			Yuba!
 			<damage>
 				Wry ish... hurd hurd...
 			</damage>
@@ -1207,13 +1207,13 @@
 		<child>
 			Id hurdz!?
 			<damage>
-				Wry does it hurt-hurt...?Å
+				Wry does it hurt-hurt...?
 			</damage>
 		</child>
 		<adult>
-			Chen has been poi~soned!Å
+			Chen has been poi~soned!
 			<damage>
-				Uneazy boizon bleaze zdob hurding Chen...Å
+				Uneazy boizon bleaze zdob hurding Chen...
 			</damage>
 		</adult>
 	</normal>
@@ -1226,11 +1226,11 @@
 			ID HURD! HEWB ME WAN-SHYAMA!
 		</baby>
 		<child>
-			Wryyy is mishter poo poo doing hurt-hurt!?Å
+			Wryyy is mishter poo poo doing hurt-hurt!?
 		</child>
 		<adult>
-			Mister poo poo is hurt-hurting me!Å
-			Why can't poo come out!?Å
+			Mister poo poo is hurt-hurting me!
+			Why can't poo come out!?
 		</adult>
 	</normal>
 	<rude>
@@ -1241,8 +1241,8 @@
 			Wryyy is mister poo poo doing hurt-hurt!? 
 		</child>
 		<adult>
-			Mister poo poo's hurting chen! Do something, slave!Å
-			Slave! Help chen open her mister anyaru, quickly is fine!Å
+			Mister poo poo's hurting chen! Do something, slave!
+			Slave! Help chen open her mister anyaru, quickly is fine!
 		</adult>
 	<rude>
 [/CantShit]
@@ -1251,34 +1251,34 @@
 [NoPregnancy]
 	<normal>
 		<baby>
-		I don'd ged why I can'ch hab bwabiesh!?Å
+		I don'd ged why I can'ch hab bwabiesh!?
 		Whewe are Chen'sh bwabiesh!?
 		</baby>
 		<child>
-		I don't getch why I can'ch have babiesh!?Å
+		I don't getch why I can'ch have babiesh!?
 		Whewe are Chen'sh babiesh!?
 		</child>
 		<adult>
 		I don't get why there's no little ones!
 		Little ones are not here!
-		Yugyaaaa! Wrrrry iz dere no liddle onezzz!?!?Å
+		Yugyaaaa! Wrrrry iz dere no liddle onezzz!?!?
 		Little ones, where did you go!?!?
-		Little ones just wanted to take it easy! Wryyy!?Å
+		Little ones just wanted to take it easy! Wryyy!?
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-		Thewe'sh no bwabiesh! Geejer shtowe dem!Å
+		Thewe'sh no bwabiesh! Geejer shtowe dem!
 		I don'd ged why I can'ch hab bwabiesh!?
 		</baby>
 		<child>
-		Thewe'sh no babiesh! I bet geezer shtole them!Å
+		Thewe'sh no babiesh! I bet geezer shtole them!
 		I don't get why I can'ch have babiesh!?
 		</child>
 		<adult>
-		There's no little ones!! What have you done, Geezer!?Å
-		I don't get why there's no little ones!Å
-		Yugyaaaa! Wrrrry are Chen's adorable little ones missing!?Å
+		There's no little ones!! What have you done, Geezer!?
+		I don't get why there's no little ones!
+		Yugyaaaa! Wrrrry are Chen's adorable little ones missing!?
 		Little ones, where did you go!?!?
 		I can't take it easy without little ones!!!
 		</adult>
@@ -1289,69 +1289,69 @@
 [Fear]
 	<normal>
 		<baby>
-			YUNYA!!!Å
-			Shcaaawed! Chen ij shcawed!Å
-			Myamyaaaa!Å
+			YUNYA!!!
+			Shcaaawed! Chen ij shcawed!
+			Myamyaaaa!
 			<damage>
-				Hewb...Å
-				Myamya...Å
-				I don'd ged id...Å
+				Hewb...
+				Myamya...
+				I don'd ged id...
 			</damage>
 		</baby>
 		<child>
-			YUNYA!!!Å
-			Can'ch chake it eashy!Å
-			Shcaaawed! Chen ish shcawed!Å
+			YUNYA!!!
+			Can'ch chake it eashy!
+			Shcaaawed! Chen ish shcawed!
 			<damage>
-				Hewp...Å
-				I don'ch get it...Å
-				Pweashe hewp me...Å
+				Hewp...
+				I don'ch get it...
+				Pweashe hewp me...
 			</damage>
 		</child>
 		<adult>
-			YUNYA!!!Å
-			Can't take it easy!Å
-			Scaaared! Chen is scared!Å
-			Please let Chen take it easy!Å
+			YUNYA!!!
+			Can't take it easy!
+			Scaaared! Chen is scared!
+			Please let Chen take it easy!
 			Don't do this!
 			<damage>
-				I don'd ged id...Å
-				Bleaze helb me...Å
-				Helb...Å
+				I don'd ged id...
+				Bleaze helb me...
+				Helb...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			YUNYA!!!Å
-			Can'ch chake id eajy!Å
-			Myamyaaaa!Å
+			YUNYA!!!
+			Can'ch chake id eajy!
+			Myamyaaaa!
 			<damage>
-				Hewb...Å
-				Myamya...Å
-				I don'd ged id...Å
+				Hewb...
+				Myamya...
+				I don'd ged id...
 			</damage>
 		</baby>
 		<child>
-			YUNYA!Å
-			Chen can'ch chake it eashy, sho shtop wight now, okay?Å
-			Wet cute Chen chake it eashy and shtop it!Å
+			YUNYA!
+			Chen can'ch chake it eashy, sho shtop wight now, okay?
+			Wet cute Chen chake it eashy and shtop it!
 			<damage>
-				I don'ch get it..Å
-				Hewp me...Å
-				Geejer, hewp me...Å
+				I don'ch get it...
+				Hewp me...
+				Geejer, hewp me...
 			</damage>
 		</child>
 		<adult>
-			YUNYA!!!Å
-			Chen can't take it easy, stop right now, okay?Å
-			Don't do this!Å
-			Let the beautiful Chen take it easy and stop it!Å
-			Don't do this!Å
+			YUNYA!!!
+			Chen can't take it easy, stop right now, okay?
+			Don't do this!
+			Let the beautiful Chen take it easy and stop it!
+			Don't do this!
 			<damage>
-				I don'd ged id...Å
-				Helb me...Å
-				Geejer, helb me...Å
+				I don'd ged id...
+				Helb me...
+				Geejer, helb me...
 			</damage>
 		</adult>
 	</rude>
@@ -1361,76 +1361,76 @@
 [Burning]
 	<normal>
 		<baby>
-			Gyaaaa!!!Å
-			Ich hwoooootch!Å
-			Ich choo hotch! Myamyaaaa!!Å
-			Wan-shyama! Pweashe hewb me!!!Å
+			Gyaaaa!!!
+			Ich hwoooootch!
+			Ich choo hotch! Myamyaaaa!!
+			Wan-shyama! Pweashe hewb me!!!
 			<damage>
-				Yu... yu... yu...Å
-				Choo... hwotch...Å
+				Yu... yu... yu...
+				Choo... hwotch...
 				Sho... hotch... !?
-				Chen... ij... dying...Å
+				Chen... ij... dying...
 			</damage>
 		</baby>
 		<child>
-			Yuppyaaaa!!! Hotch!Å
-			Mishter fire shtop hurt-hurting me!Å
-			Ich choo hooootch!!!Å
-			Wan-shama!ÅPweashe hewp me!!!
+			Yuppyaaaa!!! Hotch!
+			Mishter fire shtop hurt-hurting me!
+			Ich choo hooootch!!!
+			Wan-shama! Pweashe hewp me!!!
 			<damage>
 				Yu... yu... yu...
 				Choo... hotch...
 				Wry... ?
-				Chen... ish... dying...Å
+				Chen... ish... dying...
 			</damage>
 		</child>
 		<adult>
-			GIGIGIGYAAAAAAAAA!!!Å
+			GIGIGIGYAAAAAAAAA!!!
 			Id's doo hod!!!
-			Burniiiiing! Meldiiiiiing!Å
-			Mizder vire zdob hurd-hurding me!Å
+			Burniiiiing! Meldiiiiiing!
+			Mizder vire zdob hurd-hurding me!
 			<damage>
-				Yu... yu... yu..Å
-				Id'z... doo... hod...Å
-				Wry... ?Å
-				Chen... iz... dying...Å
+				Yu... yu... yu..
+				Id'z... doo... hod...
+				Wry... ?
+				Chen... iz... dying...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Gyaaaa!!!Å
-			Ich hwoooootch!Å
-			Ich choo hotch! Myamyaaaa!!Å
-			Wan-shyama! Hewb me!!!Å
+			Gyaaaa!!!
+			Ich hwoooootch!
+			Ich choo hotch! Myamyaaaa!!
+			Wan-shyama! Hewb me!!!
 			<damage>
-				Yu... yu... yu..Å
-				Choo... hwotch...Å
-				Sho... hotch... !?Å
-				Chen... ij... dying...Å
+				Yu... yu... yu..
+				Choo... hwotch...
+				Sho... hotch... !?
+				Chen... ij... dying...
 			</damage>
 		</baby>
 		<child>
-			Yuppyaaaa!!! Hotch!Å
-			Geezer! Put it out! Quickwy ish fine!Å
-			Ich choo hooootch!!!Å
-			Mishter fire shtop hurt-hurting me!Å
+			Yuppyaaaa!!! Hotch!
+			Geezer! Shtob id! Quickwy ish fine!
+			Ich choo hooootch!!!
+			Mishter fire shtop hurt-hurting me!
 			<damage>
-				Yu... yu... yu...Å
-				Choo... hotch...Å
-				Wry... ?Å
-				Chen... ish... dying...Å
+				Yu... yu... yu...
+				Choo... hotch...
+				Wry... ?
+				Chen... ish... dying...
 			</damage>
 		</child>
 		<adult>
-			GIGIGIGYAAAAAAAAA!!!Å
-			Id's doo hod!!!Å
-			Geezer! Bud id oud! Gwigly iz vine!Å
+			GIGIGIGYAAAAAAAAA!!!
+			Id's doo hod!!!
+			Geezer! Zdob id! Gwigly iz vine!
 			<damage>
-				Yu... yu... yu...Å
+				Yu... yu... yu...
 				Id'z... doo... hod...
-				Wry... ?Å
-				Chen... iz... dying...Å
+				Wry... ?
+				Chen... iz... dying...
 			</damage>
 		</adult>
 	</rude>
@@ -1440,37 +1440,37 @@
 [Wet]
 	<normal>
 		<baby>
-			Cwowd!Å
-			Mishder wacher doejn't ged id!Å
+			Cwowd!
+			Mishder wacher doejn't ged id!
 			<damage>
-				Sho... cwowd...Å
+				Sho... cwowd...
 				Wry are footshies melching...
 				Can'ch feew anyfing...
 			</damage>
 		</baby>
 		<child>
-			Cowd!Å
-			Mishter wacher doeshn't get it!Å
+			Cowd!
+			Mishter wacher doeshn't get it!
 			<damage>
-				Sho... cowd...Å
+				Sho... cowd...
 				Wry are footshiesh melching...
 				Can'ch feew anyshing...
 			</damage>
 		</child>
 		<adult>
-			Cold!Å
+			Cold!
 			Mister water doesn't get it!
 			<damage>
-				Zo... cold...Å
-				Wry are vootziez melding...Å
+				Zo... cold...
+				Wry are vootziez melding...
 				Can'd veel anyding...
 			</damage>
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Cwowd!Å
-			Mishder wacher doejn't ged id! Shdop id!Å
+			Cwowd!
+			Mishder wacher doejn't ged id! Shdop id!
 			<damage>
 				Sho... cwowd...
 				Wry are footshiesh melching...
@@ -1478,20 +1478,20 @@
 			</damage>
 		</baby>
 		<child>
-			Cowd!Å
-			Mishter water doesn't get it! Shtop it!Å
+			Cowd!
+			Mishter water doesn't get it! Shtop it!
 			<damage>
-				Sho... cowd...Å
+				Sho... cowd...
 				Wry are footshies melching...
 				Can'ch feew anyshing...
 			</damage>
 		</child>
 		<adult>
-			Cold!Å
-			Mister water doesn't get it! Stop it!Å
+			Cold!
+			Mister water doesn't get it! Stop it!
 			<damage>
 				Zo... cold...
-				Wry are vootziez melding...Å
+				Wry are vootziez melding...
 				Can'd veel anyding...
 			</damage>
 		</adult>
@@ -1502,22 +1502,22 @@
 [AnalSealed]
 	<normal>
 		<baby>
-			Feelsh funny!Å
-			Dat ticklej!Å
+			Feelsh funny!
+			Dat ticklej!
 		</baby>
 		<child>
-			Feelsh funny!Å
-			Dat tickled!Å
+			Feelsh funny!
+			Dat tickled!
 		</child>
 		<adult>
-			Feels funny!Å
-			That tickled!Å
+			Feels funny!
+			That tickled!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
 			Cweepy weiwdo!
-			Geejer ij a pedophile! Don'd tuch baby Chen'sh anyawu, shicko!Å
+			Geejer ij a pedophile! Don'd tuch baby Chen'sh anyawu, shicko!
 		</baby>
 		<child>
 			Cweepy weiwdo!
@@ -1525,8 +1525,8 @@
 		</child>
 		<adult>
 			Creepy weirdo!
-			Geezer is a pervert! Å
-			Ask the beautiful Chen before you admire her anyaru!Å
+			Geezer is a pervert! 
+			Ask the beautiful Chen before you admire her anyaru!
 		</adult>
 	</rude>
 [/AnalSealed]
@@ -1537,18 +1537,18 @@
 		<baby>
 			Gyigyigyaaaa!!?
 			Id huuuurch!
-			Yupii!?Å
-			Byigyaaaa!!Å
+			Yupii!?
+			Byigyaaaa!!
 		</baby>
 		<child>
 			KyaaAA!!!
 			Id hurd!!!
-			Yupii!?Å
-			Byigyaaaa!!Å
+			Yupii!?
+			Byigyaaaa!!
 		</child>
 		<adult>
 			Dat hurdz!!!
-			Gyaaa! Id huuuurdz!!!Å
+			Gyaaa! Id huuuurdz!!!
 		</adult>
 	</normal>
 [/NeedleStick]
@@ -1557,26 +1557,26 @@
 [NeedleScream]
 	<normal>
 		<baby>
-			Pweaje chage id ouwj!Å
-			Wry!? I don'd ged id!!!Å
-			I don'd ged why mishder shdab-shdab hurch me!Å
-			Chage id ouwj quiqwy! Id hurch!Å
-			Shdab-shdab ij uneajy!Å
-			Id hurch sho myuch!Å
+			Pweaje chage id ouwj!
+			Wry!? I don'd ged id!!!
+			I don'd ged why mishder shdab-shdab hurch me!
+			Chage id ouwj quiqwy! Id hurch!
+			Shdab-shdab ij uneajy!
+			Id hurch sho myuch!
 		</baby>
 		<child>
-			Pweashe chage id oud!Å
-			Wry!? I don't get it!Å
-			I don'd ged why mishder shtab-shtab hurd me!Å
+			Pweashe chage id oud!
+			Wry!? I don't get it!
+			I don'd ged why mishder shtab-shtab hurd me!
 			Chage it out quickwy! It hurd!
-			Shtab-shtab ish uneashy!Å
-			Id hurd sho much!Å
+			Shtab-shtab ish uneashy!
+			Id hurd sho much!
 		</child>
 		<adult>
-			Please take it out!Å
-			Wry!? I don't get it!Å
-			I don't get why mister stab-stab hurt me!Å
-			It hurts so much!Å
+			Please take it out!
+			Wry!? I don't get it!
+			I don't get why mister stab-stab hurt me!
+			It hurts so much!
 		</adult>
 	</normal>
 [/NeedleScream]
@@ -1585,20 +1585,20 @@
 [ExtractingNeedlePartner]
 	<normal>
 		<baby>
-			Hewbing eajy!Å
-			Uneajy shdab-shdab gome oud!Å
+			Hewbing eajy!
+			Uneajy shdab-shdab gome oud!
 			Gonna chake oud mishder shdab shdab!
 		</baby>
 		<child>
-			Hewping eashy!Å
-			Uneashy shtab-shtab come ouch!Å
+			Hewping eashy!
+			Uneashy shtab-shtab come ouch!
 			Gonna chake ouch mishter shtab-shtab!
 		</child>
 		<adult>
-			Helping %partner easy!Å
-			Uneasy stab-stab come out!Å
-			Will do hurt-hurt to mister stab-stab for bullying %partner!Å
-			%partner will be able to take it easy again!Å
+			Helping %partner easy!
+			Uneasy stab-stab come out!
+			Will do hurt-hurt to mister stab-stab for bullying %partner!
+			%partner will be able to take it easy again!
 			Gonna take out mister stab stab!
 		</adult>
 	</normal>
@@ -1608,20 +1608,20 @@
 [ExtractingNeedleChild]
 	<normal>
 		<baby>
-			Hewping eajy!Å
-			Uneajy shdab-shdab gome oud!Å
+			Hewping eajy!
+			Uneajy shdab-shdab gome oud!
 			Gonna chake oud mishder shdab shdab!
 		</baby>
 		<child>
-			Hewping eashy!Å
-			Uneashy shtab-shtab come ouch!Å
+			Hewping eashy!
+			Uneashy shtab-shtab come ouch!
 			Gonna chake ouch mishter shtab-shtab!
 		</child>
 		<adult>
-			Helping little one easy!Å
-			Uneasy mister stab-stab come out!Å
-			Gonna take out mister stab-stab!Å
-			It will be okay, little one!Å
+			Helping little one easy!
+			Uneasy mister stab-stab come out!
+			Gonna take out mister stab-stab!
+			It will be okay, little one!
 			I got it!
 		</adult>
 	</normal>
@@ -1631,19 +1631,19 @@
 [NeedlePain]
 	<normal>
 		<baby>
-			Shdooooob!Å
-			Don'ch gwind gwind!Å
+			Shdooooob!
+			Don'ch gwind gwind!
 			Fweews bwaaaaad!
 		</baby>
 		<child>
-			Don'd gwind gwind!Å
+			Don'd gwind gwind!
 			YugyaaaAA...
 			Feews baaaaad!
 		</child>
 		<adult>
-			Don'd do grind grind!Å
-			YugyaaaAA...Å
-			Veelz baaaaad!Å
+			Don'd do grind grind!
+			YugyaaaAA...
+			Veelz baaaaad!
 		</adult>
 	</normal>
 [/NeedlePain]
@@ -1667,15 +1667,15 @@
 [WantAmaama]
 	<rude>
 		<baby>
-			Wanch shweet shweech!Å
+			Wanch shweet shweech!
 			Geejer! Gome and bwing shweet shweech!
 		</baby>
 		<child>
-			Chen wants shweet shweets!Å
+			Chen wants shweet shweets!
 			Geezer! Come and bwing shweet shweets!
 		</child>
 		<adult>
-			Chen wants sweet sweets!Å
+			Chen wants sweet sweets!
 			Geezer! Come and bring sweet sweets!
 		</adult>
 	</rude>
@@ -1685,13 +1685,13 @@
 [CantMove]
 	<normal>
 		<baby>
-			Don'd ged why I'm shduck!Å
+			Don'd ged why I'm shduck!
 		</baby>
 		<child>
-			Don't get why I'm shtuck!Å
+			Don't get why I'm shtuck!
 		</child>
 		<adult>
-			Don't get why I'm stuck!Å
+			Don't get why I'm stuck!
 		</adult>
 	</normal>
 	<rude>
@@ -1700,12 +1700,12 @@
 			Shiddy shwabe! Hewb!
 		</baby>
 		<child>
-			Don't get why I'm shtuck!Å
-			Shitty shwave! Hewp!Å
-			Chen ish vewwy angwy!Å
+			Don't get why I'm shtuck!
+			Shitty shwave! Hewp!
+			Chen ish vewwy angwy!
 		</child>
 		<adult>
-			Don't get why I'm stuck!Å
+			Don't get why I'm stuck!
 			Shitty slave! Help!
 		</adult>
 	</rude>
@@ -1729,11 +1729,11 @@
 			I don'd ged why my footshiesh don'd mobe!
 		</baby>
 		<child>
-			I don't gech why my fooshiesh don't move!Å
-			Shitty geezer don'ch chake it eashy and hewp!Å
+			I don't gech why my fooshiesh don't move!
+			Shitty geezer don'ch chake it eashy and hewp!
 		</child>
 		<adult>
-			I don't get why my footsies don't move!Å
+			I don't get why my footsies don't move!
 			Shitty geezer don't take it easy and help!
 		</adult>
 	</rude>
@@ -1743,47 +1743,47 @@
 [Pull]
 	<normal>
 		<baby>
-			Yugii!?!?Å
-			Gyaaa!!! Shdob, you'we shtwetching Chen'sh mishder shkin!Å
+			Yugii!?!?
+			Gyaaa!!! Shdob, you'we shtwetching Chen'sh mishder shkin!
 			Shdob iiiddd!!!
-			I can'ch chake id eajyyyyy!!!Å
+			I can'ch chake id eajyyyyy!!!
 		</baby>
 		<child>
-			Yugii!?!?Å
+			Yugii!?!?
 			Gyaaa!!! Shtop, you'we shtwetching Chen'sh mishter shkin! 
-			Shtop iiiddd!!!Å
-			I can'ch chake it eajy!Å
-			Yu!!! Yu!!! YUU!!!Å
+			Shtop iiiddd!!!
+			I can'ch chake it eajy!
+			Yu!!! Yu!!! YUU!!!
 		</child>
 		<adult>
-			Yugii!?!?Å
+			Yugii!?!?
 			Gyaaa!!! Zdob, you're ztretching Chen'z mizder zkin! 
-			Zdop iiiddd!!!Å
-			I can'd dage id eazy!Å
-			Yu!!! Yu!!! YUU!!!Å
+			Zdop iiiddd!!!
+			I gan'd dage id eazy!
+			Yu!!! Yu!!! YUU!!!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Shiddy geejer shdob id!Å
-			You'we wuining Chen'sh cute shoft mishder shkin!Å
-			Sdob iiiddd!!!Å
+			Shiddy geejer shdob id!
+			You'we wuining Chen'sh cute shoft mishder shkin!
+			Sdob iiiddd!!!
 			I can'ch chake id eajy!
-			WrryyyYYY!?Å
+			WrryyyYYY!?
 		</baby>
 		<child>
-			Shitty geezer shtop it!Å
-			You'we wuining Chen'sh cute shoft mishter shkin!Å
-			Sdob iiiddd!!!Å
+			Shitty geezer shtop it!
+			You'we wuining Chen'sh cute shoft mishter shkin!
+			Sdob iiiddd!!!
 			I can'ch chake id eajy!
-			WrryyyYYY!?Å
+			WrryyyYYY!?
 		</child>
 		<adult>
-			Shitty geezer stop it!Å
-			You're ruining Chen's cute soft mister skin!Å
-			Zdop iiiddd!!!Å
-			I can'd dage id eazy!Å
-			Yu!!! Yu!!! YUU!!!Å
+			Shitty geezer stop it!
+			You're ruining Chen's cute soft mister skin!
+			Zdop iiiddd!!!
+			I can'd dage id eazy!
+			Yu!!! Yu!!! YUU!!!
 		</adult>
 	</rude>
 [/Pull]
@@ -1792,40 +1792,40 @@
 [Pull2]
 	<normal>
 		<baby>
-			Id hurch! Wrryy!!Å
-			Yuwaaaa! Shdoooob!Å
-			Can'ch sdwetchÅsdwetch any moaaaaa! 
+			Id hurch! Wrryy!!
+			Yuwaaaa! Shdoooob!
+			Can'ch sdwetch sdwetch any moaaaaa! 
 		</baby>
 		<child>
-			Id hurd! Wrryy!!Å
-			Yuwaaaa! Shtoooop!Å
-			Can'd stwetch stwetch any moaaaaa!Å
-			Hurdsh sho muuuuuch!Å
+			Id hurd! Wrryy!!
+			Yuwaaaa! Shtoooop!
+			Can'd stwetch stwetch any moaaaaa!
+			Hurdsh sho muuuuuch!
 		</child>
 		<adult>
-			Id hurdz! Wrryy!!Å
-			Yuwaaaa! Zdoooob!Å
-			Can'd zdredch-zdredch any moooore!Å
-			Hurdz zo muuuuuj!Å
+			Id hurdz! Wrryy!!
+			Yuwaaaa! Zdoooob!
+			Can'd zdredch-zdredch any moooore!
+			Hurdz zo muuuuuj!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Id hurch! Wrryy!!Å
-			Yuwaaaa! Shdob id geejer!Å
-			Can'ch sdwetchÅsdwetch any moaaaaa! Å
+			Id hurch! Wrryy!!
+			Yuwaaaa! Shdob id geejer!
+			Can'ch sdwetch sdwetch any moaaaaa! 
 		</baby>
 		<child>
-			Id hurd! Wrryy!!Å
-			Yuwaaaa! Shtop it geezer!Å
-			Can'd stwetch stwetch any moaaaaa!Å
-			Hurdsh sho muuuuuch!Å
+			Id hurd! Wrryy!!
+			Yuwaaaa! Shtop it geezer!
+			Can'd stwetch stwetch any moaaaaa!
+			Hurdsh sho muuuuuch!
 		</child>
 		<adult>
-			Id hurdz! Wrryy!!Å
-			Yuwaaaa! Zdob id geezer!Å
-			Can'd zdredch-zdredch any moooore!Å
-			Hurdz zo muuuuuj!Å
+			Id hurdz! Wrryy!!
+			Yuwaaaa! Zdob id geezer!
+			Can'd zdredch-zdredch any moooore!
+			Hurdz zo muuuuuj!
 		</adult>
 	</rude>
 [/Pull2]
@@ -1834,42 +1834,42 @@
 [Press]
 	<normal>
 		<baby>
-			Yube!Å
+			Yube!
 			Can'ch chage id eajy lige diz!
-			Shdob id, ogay?Å
+			Shdob id, ogay?
 			Huuurch!
 		</baby>
 		<child>
-			Yubyeagh!Å
+			Yubyeagh!
 			Can'ch chake it eashy like dish!
-			Shtop it, okay?Å
+			Shtop it, okay?
 			Huuurd!
 		</child>
 		<adult>
-			Yugya!Å
+			Yugya!
 			Gan'd dage id eazy lige diz!
-			Zdob id, ogay?Å
+			Zdob id, ogay?
 			Huuurdz!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Yube!Å
-			Don'ch do dat to mishder head, geejer!Å
-			You don'ch ged id! Id hurch!Å
-			Shdooop!Å
+			Yube!
+			Don'ch do dat to mishder head, geejer!
+			You don'ch ged id! Id hurch!
+			Shdooop!
 		</baby>
 		<child>
-			Yubyeagh!Å
+			Yubyeagh!
 			Don'd do that to mishter head, geezer!
-			You don'tÅget it! Id hurch! 
-			Shtooop!Å
+			You don't get it! Id hurch! 
+			Shtooop!
 		</child>
 		<adult>
-			Yugya!Å
+			Yugya!
 			Don't do that to mister head, geezer!
-			You don'd ged id! Id hurdz!Å
-			Zdooob!Å
+			You don'd ged id! Id hurdz!
+			Zdooob!
 		</adult>
 	</rude>
 [/Press]
@@ -1878,60 +1878,60 @@
 [Press2]
 	<normal>
 		<baby>
-			Yuwaaa!Å
-			I don'd ged why I'm being cwushed!Å
-			Shdob id! Shdooob!Å
-			Chen ij being cwu~u~ushed!Å
-			Ran-Shyama, hewb me!Å
-			Sdob! Can'ch chake id eajy lige dish!Å
-			Huuuurdz!Å
+			Yuwaaa!
+			I don'd ged why I'm being cwushed!
+			Shdob id! Shdooob!
+			Chen ij being cwu~u~ushed!
+			Ran-Shyama, hewb me!
+			Sdob! Can'ch chake id eajy lige dish!
+			Huuuurdz!
 		</baby>
 		<child>
-			Yuwaaa!Å
-			I don't get why I'm being cwushed!Å
-			Shtop it! Shtooop!Å
-			Chen ish being cwu~u~ushed!Å
-			Ran-Shyama, hewb me!Å
-			Sdob! Can'ch chake id eajy lige dish!Å
-			Huuuurdz!Å
+			Yuwaaa!
+			I don't get why I'm being cwushed!
+			Shtop it! Shtooop!
+			Chen ish being cwu~u~ushed!
+			Ran-Shyama, hewb me!
+			Sdob! Can'ch chake id eajy lige dish!
+			Huuuurdz!
 		</child>
 		<adult>
-			Yuwaaa!Å
-			I don'd ged why I'm being grushed!Å
-			Zdob id! Zdooob!Å
-			Chen iz being gru~u~ushed!Å
+			Yuwaaa!
+			I don'd ged why I'm being grushed!
+			Zdob id! Zdooob!
+			Chen iz being gru~u~ushed!
 			Ran-Zama, helb me!
-			Zdob! Gan'd dage id eazy lige diz!Å
-			Huuuurdz!Å
+			Zdob! Gan'd dage id eazy lige diz!
+			Huuuurdz!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
-			Yuwaaa!Å
-			I don'd ged why I'm being cwushed!Å
-			Shdob id! Shdooob!Å
-			Chen ij being cwu~u~ushed!Å
-			Shiddy geejer, shdob id!Å
-			Sdob! Can'ch chake id eajy lige dish!Å
-			Huuuurdz!Å
+			Yuwaaa!
+			I don'd ged why I'm being cwushed!
+			Shdob id! Shdooob!
+			Chen ij being cwu~u~ushed!
+			Shiddy geejer, shdob id!
+			Sdob! Can'ch chake id eajy lige dish!
+			Huuuurdz!
 		</baby>
 		<child>
-			Yuwaaa!Å
-			I don't get why I'm being cwushed!Å
-			Shtop it! Shtooop!Å
-			Chen ish being cwu~u~ushed!Å
-			Shitty geezer, shtop it!Å
-			Sdob! Can'ch chake id eajy lige dish!Å
-			Huuuurdz!Å
+			Yuwaaa!
+			I don't get why I'm being cwushed!
+			Shtop it! Shtooop!
+			Chen ish being cwu~u~ushed!
+			Shitty geezer, shtop it!
+			Sdob! Can'ch chake id eajy lige dish!
+			Huuuurdz!
 		</child>
 		<adult>
-			Yuwaaa!Å
-			I don'd ged why I'm being grushed!Å
-			Zdob id! Zdooob!Å
-			Chen iz being gru~u~ushed!Å
+			Yuwaaa!
+			I don'd ged why I'm being grushed!
+			Zdob id! Zdooob!
+			Chen iz being gru~u~ushed!
 			Siddy geezer, zdob id!
-			Zdob! Gan'd dage id eazy lige diz!Å
-			Huuuurdz!Å
+			Zdob! Gan'd dage id eazy lige diz!
+			Huuuurdz!
 		</adult>
 	</rude>
 [/Press2]
@@ -1940,10 +1940,10 @@
 [FindAmaama]
 	<normal>
 		<baby>
-			Shweed shweech! I get it!Å
+			Shweed shweech! I get it!
 		</baby>
 		<child>
-			Shweet sweech! I get it!Å
+			Shweet sweech! I get it!
 		</child>
 		<adult>
 			Sweet sweets! I get it!
@@ -1955,13 +1955,13 @@
 [EatingAmaama]
 	<normal>
 		<baby>
-			Mwunj mwunj~ dewicious!Å
+			Mwunj mwunj~ dewicious!
 		</baby>
 		<child>
-			Munsh munsh~ dewicious!Å
+			Munsh munsh~ dewicious!
 		</child>
 		<adult>
-			Munch munch~ delicious!Å
+			Munch munch~ delicious!
 		</adult>
 	</normal>
 [/EatingAmaama]
@@ -1989,7 +1989,7 @@
 	<normal>
 		<baby>
 			Yu... yugi...
-			Yu... yu... yu...Å
+			Yu... yu... yu...
 		</baby>
 		<child>
 			Yu... yubeh...
@@ -1997,7 +1997,7 @@
 		</child>
 		<adult>
 			Yu... yubeh...
-			Yu, yu... yu...Å
+			Yu, yu... yu...
 		</adult>
 	</normal>
 [/Dying2]
@@ -2007,15 +2007,15 @@
 	<normal>
 		<baby>
 			Yuaaaaa~n!
-			I don'ch gech why you did daaaat!Å
+			I don'ch gech why you did daaaat!
 		</baby>
 		<child>
 			Yuaaaaa~n!
-			I don't get why you did daaaat!Å
+			I don't get why you did daaaat!
 		</child>
 		<adult>
 			Yuaaaaa~n!
-			I don'd ged why you did daaaat!Å
+			I don'd ged why you did daaaat!
 		</adult>
 	</normal>
 [/Surprise]
@@ -2024,13 +2024,13 @@
 [RevengeAttack]
 	<rude>
 		<baby>
-			I do NOCH get ich!Å
+			I do NOCH get ich!
 		</baby>
 		<child>
-			I do NODÅged id!
+			I do NOD ged id!
 		</child>
 		<adult>
-			I do NOT get it!Å
+			I do NOT get it!
 		</adult>
 	</rude>
 [/RevengeAttack]
@@ -2039,13 +2039,13 @@
 [BraidCut]
 	<normal>
 		<baby>
-			Mishder fwap fwaps wrryyy!?Å
+			Mishder fwap fwaps wrryyy!?
 		</baby>
 		<child>
-			Chen's mishter fwap fwaps! Noooo!!Å
+			Chen's mishter fwap fwaps! Noooo!!
 		</child>
 		<adult>
-			Wrrr would you do dat to Chen's vlap vlaaaabs!?Å
+			Wrrr would you do dat to Chen's vlab vlaaaabs!?
 		</adult>
 	</normal>
 [/BraidCut]
@@ -2054,13 +2054,13 @@
 [EatenByBody]
 	<normal>
 		<baby>
-			I don'ch gech why I'm being mwunch mwuuuunched!Å
+			I don'ch gech why I'm being mwunch mwuuuunched!
 		</baby>
 		<child>
-			I don't get why I'm being munsh muuuunshed!Å
+			I don't get why I'm being munsh muuuunshed!
 		</child>
 		<adult>
-			I don'd ged why I'm being munj muuuunjed!Å
+			I don'd ged why I'm being munj muuuunjed!
 		</adult>
 	</normal>
 [/EatenByBody]
@@ -2069,13 +2069,13 @@
 [EatenByBody2]
 	<normal>
 		<baby>
-			Huuuurch!?Å
+			Huuuurch!?
 		</baby>
 		<child>
-			Mishter fiwwing noooo!!Å
+			Mishter fiwwing noooo!!
 		</child>
 		<adult>
-			I don't get iiiit!!!Å
+			I don't get iiiit!!!
 		</adult>
 	</normal>
 [/EatenByBody2]
@@ -2084,13 +2084,13 @@
 [EscapeFromRemirya]
 	<normal>
 		<baby>
-			Ij Wemiwyaaaaa!Å
+			Ij Wemiwyaaaaa!
 		</baby>
 		<child>
-			I don'ch gech why Wemiwya's heaaaa!Å
+			I don'ch gech why Wemiwya's heaaaa!
 		</child>
 		<adult>
-			I don'd ged why Remirya's heeeeere!Å
+			I don'd ged why Remirya's heeeeere!
 		</adult>
 	</normal>
 [/EscapeFromRemirya]

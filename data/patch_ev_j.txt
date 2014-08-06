@@ -2,31 +2,31 @@
 [ScareRapist]
 	<normal>
 		<baby>
-			Mukya!!!�
-			Hewp!�
-			Ich a waper! �
+			Mukya!!!
+			Hewp!
+			Ich a waper! 
 			<damage>
-				Mugyuu.. Go away pweashe...�
+				Mugyuu.. Go away pweashe...
 				Hewp...
 			</damage>
 		</baby>
 		<child>
-			Mukya!!!�
-			Help!�
-			It's a raper!�
+			Mukya!!!
+			Help!
+			It's a raper!
 			<damage>
-				Mukyuu.. Go away please...�
+				Mukyuu.. Go away please...
 				Help...
 			</damage>
 		</child>
 		<adult>
-			Mukya!!!�
+			Mukya!!!
 			Help!
-			It's a raper!�
-			Don't wanna refresh!!!�
+			It's a raper!
+			Don't wanna refresh!!!
 			<damage>
 				Mukyuu.. Go away please...
-				Help...�
+				Help...
 			</damage>
 		</adult>
 	</normal>
@@ -42,9 +42,9 @@
 			Stop that!
 		</child>
 		<adult>
-			Raper can go away easy!�
-			Don't touch Patchy!�
-			Die easy!�
+			Raper can go away easy!
+			Don't touch Patchy!
+			Die easy!
 		</adult>
 	</normal>
 [/AttackRapist]
@@ -59,8 +59,8 @@
 			unused dummy
 		</child>
 		<adult>
-			Help Patchy punish this raper easy!�
-			Let's get rid of the raper together!�
+			Help Patchy punish this raper easy!
+			Let's get rid of the raper together!
 		</adult>
 	</normal>
 	<rude>
@@ -71,8 +71,8 @@
 			unused dummy
 		</child>
 		<adult>
-			Help Patchy punish this raper easy!�
-			Let's kill the scum together!�
+			Help Patchy punish this raper easy!
+			Let's kill the scum together!
 		</adult>
 	</rude>
 [/CounterRapist]
@@ -81,32 +81,32 @@
 [HateYukkuri]
 	<normal>
 		<baby>
-			Whad a shtwange yukkuri!�
-			A yukkuri�that can'ch chake id eajy!
+			Whad a shtwange yukkuri!
+			A yukkuri that can'ch chake id eajy!
 		</baby>
 		<child>
-			What a strange yukkuri!�
-			A yukkuri that can't take it easy!�
+			What a strange yukkuri!
+			A yukkuri that can't take it easy!
 		</child>
 		<adult>
-			What a strange yukkuri!�
+			What a strange yukkuri!
 			A yukkuri that can't take it easy!
 		</adult>
 	</normal>
 	<rude>
 		<baby>
 			Shtwange yukkuwis go away fwom hea!
-			Uneajy yukkuwis can dwop dead eajy!�
-			Ged oud, shcum!�
+			Uneajy yukkuwis can dwop dead eajy!
+			Ged oud, shcum!
 		</baby>
 		<child>
 			Strange yukkuris go away!
-			Uneasy yukkuris can drop dead easy!�
+			Uneasy yukkuris can drop dead easy!
 			Get out, scum!
 		</child>
 		<adult>
 			Strange yukkuris go away!
-			Uneasy yukkuris can drop dead easy!�
+			Uneasy yukkuris can drop dead easy!
 			Get out, scum!
 		</adult>
 	</rude>
@@ -117,16 +117,16 @@
 	<normal>
 		<baby>
 			Doing a hewpfuw wick wick~
-			Doing a hewpfuw wub wub~�
+			Doing a hewpfuw wub wub~
 			Mugyu~ Wry is id feewing uneajy?
 		</baby>
 		<child>
 			Helping easy!
-			Lick lick, rub rub~�
+			Lick lick, rub rub~
 			Mukyu~ Why are you feeling uneasy?
 		</child>
 		<adult>
-			Patchy will help you, %partner!�
+			Patchy will help you, %partner!
 			%partner is getting better!
 			It's okay now that Patchy is here!
 		</adult>
@@ -139,16 +139,16 @@
 	<normal>
 		<baby>
 			Doing a hewpfuw wick wick~
-			Doing a hewpfuw wub wub~�
+			Doing a hewpfuw wub wub~
 			Mugyu~ Wry is id feewing uneajy?
 		</baby>
 		<child>
 			Helping easy!
-			Lick lick, rub rub~�
+			Lick lick, rub rub~
 			Mukyu~ Why are you feeling uneasy?
 		</child>
 		<adult>
-			Patchy will help you, little one!�
+			Patchy will help you, little one!
 			Little one is getting better!
 			It's okay now that mommy is here!
 		</adult>
@@ -160,18 +160,18 @@
 	<normal>
 		<baby>
 			Doing a hewpfuw wick wick fow bwig shish~
-			Doing a hewpfuw wub wub fow bwig shish~�
+			Doing a hewpfuw wub wub fow bwig shish~
 			Mugyu~ Wry is id feewing uneajy?
 		</baby>
 		<child>
 			Helping easy!
-			Lick lick, rub rub~�
+			Lick lick, rub rub~
 			Mukyu~ Why are you feeling uneasy, big sis?
 		</child>
 		<adult>
-			Patchy will help you, %partner!�
+			Patchy will help you, %partner!
 			%partner is getting better!
-			It's okay now that Patchy is here!�
+			It's okay now that Patchy is here!
 		</adult>
 	</normal>
 [/ConcernAboutEldersister]
@@ -181,18 +181,18 @@
 	<normal>
 		<baby>
 			Doing a hewpfuw wick wick fow widdle shish~
-			Doing a hewpfuw wub wub fow widdle shish~�
+			Doing a hewpfuw wub wub fow widdle shish~
 			Mugyu~ Wry is id feewing uneajy?
 		</baby>
 		<child>
 			Helping easy!
-			Lick lick, rub rub~�
+			Lick lick, rub rub~
 			Mukyu~ Why are you feeling uneasy, widdle sis?
 		</child>
 		<adult>
-			Patchy will help you, %partner!�
+			Patchy will help you, %partner!
 			%partner is getting better!
-			It's okay now that Patchy is here!�
+			It's okay now that Patchy is here!
 		</adult>
 	</normal>
 [/ConcernAboutSisterr]
@@ -201,13 +201,13 @@
 [RootForPartner]
 	<normal>
 		<baby>
-			Keep going!�
+			Keep going!
 		</baby>
 		<child>
-			Hang in there!�
+			Hang in there!
 		</child>
 		<adult>
-			Take it easy, %partner!�
+			Take it easy, %partner!
 		</adult>
 	</normal>
 [/RootForPartner]
@@ -216,13 +216,13 @@
 [FirstGreeting]
 	<normal>
 		<baby>
-			Chage id eajy!�
+			Chage id eajy!
 		</baby>
 		<child>
 			Chake it eajy!
 		</child>
 		<adult>
-			Take it easy!�
+			Take it easy!
 		</adult>
 	</normal>
 [/FirstGreeting]
@@ -230,38 +230,38 @@
 # ゆっくりしているすぃーを見て
 [YukkuringSui]
 	<normal>
-		Uiiiiiii~�
+		Uiiiiiii~
 	</normal>
 [/YukkuringSui]
 
 # すぃーを欲しがる
 [WantingSui]
 	<normal>
-		Patchy wants to ride mister suii!�
-		Patchy wants to take it easy with a mister suii, okay?�
+		Patchy wants to ride mister suii!
+		Patchy wants to take it easy with a mister suii, okay?
 	</normal>
 [/WantingSui]
 
 # すぃーを欲しがっているゆっくりのパートナー
 [WantingSuiPartner]
 	<normal>
-		%partner wants to ride mister suii!�
-		%partner wants to take it easy with mister suii, okay?�
+		%partner wants to ride mister suii!
+		%partner wants to take it easy with mister suii, okay?
 	</normal>
 [/WantingSuiPartner]
 
 # すぃーを欲しがっているゆっくりの親
 [WantingSuiParent]
 	<normal>
-		Little one wants to ride mister suii!�
-		Little one wants to take it easy on the mister Suii, okay?�
+		Little one wants to ride mister suii!
+		Little one wants to take it easy on the mister Suii, okay?
 	</normal>
 [/WantingSuiParent]
 
 # すぃーを見つける
 [FindSui]
 	<normal>
-		It's an easy mister suii, mukyu~!�
+		It's an easy mister suii, mukyu~!
 	</normal>
 [/FindSui]
 
@@ -275,7 +275,7 @@
 # 自分のすぃーにのりにいく
 [FindGetSui]
 	<normal>
-		Gonna drive around!�
+		Gonna drive around!
 	</normal>
 [/FindGetSui]
 
@@ -289,51 +289,51 @@
 # 自分以外のすぃーにのりにいくときに呼ぶ
 [WantRideSuiOtner]
 	<normal>
-		�Let Patchy ride the sui too!
+		Let Patchy ride the sui too!
 	</normal>
 [/WantRideSuiOtner]
 
 # すぃーにのる
 [RideSui]
 	<normal>
-		Ready, mukyu!�
+		Ready, mukyu!
 	</normal>
 [/RideSui]
 
 # すぃーにのっている
 [RidingSui]
 	<normal>
-		Speeeeedyyy~�
-		This is very fun!�
+		Speeeeedyyy~
+		This is very fun!
 	</normal>
 [/RidingSui]
 
 # すぃーを運転する
 [DrivingSui]
 	<normal>
-		Patchy is a very good driver!�
+		Patchy is a very good driver!
 	</normal>
 [/DrivingSui]
 
 # すぃーを運転するパートナーをみて（自分はのっていない）
 [DrivingSuiPartner]
 	<normal>
-		%partner is so cool!�
-		Amazing!�
+		%partner is so cool!
+		Amazing!
 	</normal>
 [/DrivingSuiPartner]
 
 # すぃーを運転するこどもをみて（自分はのっていない）
 [DrivingSuiChild]
 	<normal>
-		Patchy's little one looks so cool!�
+		Patchy's little one looks so cool!
 	</normal>
 [/DrivingSuiChild]
 
 # すぃーを運転する父親をみて（自分はのっていない）
 [DrivingSuiPAPA]
 	<normal>
-		Otousan looks so cool!�
+		Otousan looks so cool!
 	</normal>
 [/DrivingSuiPAPA]
 
@@ -347,28 +347,28 @@
 # すぃーを運転する姉をみて（自分はのっていない）
 [DrivingSuiOldSister]
 	<normal>
-		Big sis looks so cool!�
+		Big sis looks so cool!
 	</normal>
 [/DrivingSuiOldSister]
 
 # すぃーを運転する妹をみて（自分はのっていない）
 [DrivingSuiYoungSister]
 	<normal>
-		Little sis looks so cool!�
+		Little sis looks so cool!
 	</normal>
 [/DrivingSuiYoungSister]
 
 # すぃーから降りる
 [RideOffSui]
 	<normal>
-		What a thrilling experience~!�
+		What a thrilling experience~!
 	</normal>
 [/RideOffSui]
 
 # 持っているすぃーを自慢する
 [hasSui]
 	<normal>
-		Patchy has a sui!�
+		Patchy has a sui!
 	</normal>
 	<rude>
 		You all wish you were cool enough to ride a suii like Patchy!
@@ -378,41 +378,41 @@
 # 持っているすぃーを自慢されるパートナー
 [hasSuiPartner]
 	<normal>
-		%partner is the best!�
+		%partner is the best!
 	</normal>
 [/hasSuiPartner]
 
 # ��どもの持っているすぃーを自慢される親
 [hasSuiChild]
 	<normal>
-		Patchy's little one is the best!�
+		Patchy's little one is the best!
 	</normal>
 [/hasSuiChild]
 
 # 父親の持っているすぃーを自慢されるこども
 [hasSuiPAPAChild]
 	<normal>
-		Patchy's otousan is the best!�
+		Patchy's otousan is the best!
 	</normal>
 [/hasSuiPAPAChild]
 
 # 母親の持っているすぃーを自慢されるこども
 [hasSuiMAMAChild]
 	<normal>
-		Patchy's mama is the best!�
+		Patchy's mama is the best!
 	</normal>
 [/hasSuiMAMAChild]
 
 # 姉の持っているす���ーを自慢される
 [hasSuiOldSister]
 	<normal>
-		Patchy's big sis is the best!�
+		Patchy's big sis is the best!
 	</normal>
 [/hasSuiOldSister]
 
 # 妹の持っているすぃーを自慢される
 [hasSuiYoungSister]
 	<normal>
-		Patchy's little sis is the best!�
+		Patchy's little sis is the best!
 	</normal>
 [/hasSuiYoungSister]
