@@ -425,7 +425,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	public static final int MAXSIZE = 128;
 
-	
+	public boolean isSold = false;
 	
 	///// Badge System
 	
@@ -2084,6 +2084,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public int getHybridType(int partnerType) {
 		return getType();
 	}
+
 
 	public boolean isBusy(){
 		return isBusy;

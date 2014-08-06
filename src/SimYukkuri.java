@@ -953,7 +953,10 @@ public class SimYukkuri extends JFrame {
 									GadgetMenu.executeBodyMethod(e, found, "forceToSleep");
 									break;
 								case SELLYUKKURI:
+									if (selectedGameSpeed != 0)
+									{
 									GadgetMenu.executeBodyMethod(e, found, "sellYukkuri");
+									}
 									break;
 								case HAMMER:
 									if(e.isShiftDown()) {
