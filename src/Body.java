@@ -411,6 +411,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected int previousShitDistance = INFINITE;
 	protected int shitStress = 0;
 	protected boolean shitPanicEscape = false;
+	protected boolean cleanFood = true;
 	
 	///// Stress System
 	protected boolean increaseStress = false;
