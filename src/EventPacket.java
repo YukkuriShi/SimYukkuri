@@ -1,5 +1,7 @@
 package src;
 
+import src.yukkuriBody.Body;
+
 
 
 /*****************************************************
@@ -33,19 +35,19 @@ abstract public class EventPacket implements java.io.Serializable
 	}
 	
 	// イベントを発生させる側で設定する項目
-	protected Body from;			// イベントを発した個体
+	private Body from;			// イベントを発した個体
 	protected Body to;				// 特定の対象に向けた場合はその個体
 	protected Obj target;			// イベント対象
 	protected int count;			// イベント有効期間
 
 	// イベントに参加する側で設定する項目
 	protected EventPriority priority = EventPriority.LOW;	// 優先度
-	protected int toX;				// 移動目標
-	protected int toY;
-	protected int toZ;
+	public int toX;				// 移動目標
+	public int toY;
+	public int toZ;
 
 	public EventPacket(Body f, Body t, Obj tgt, int cnt) {
-		from = f;
+		setFrom(f);
 		to = t;
 		target = tgt;
 		count = cnt;
@@ -116,6 +118,10 @@ abstract public class EventPacket implements java.io.Serializable
 	// 普通は必要ないが後始末の処理が必要な場合はこれをオーバーライドする
 	public void end(Body b) {
 		return;
+	}
+
+	public Body getFrom() {
+		return from;
 	}
 }
 

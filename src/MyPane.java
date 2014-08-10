@@ -56,6 +56,29 @@ import src.attachment.StopAmpoule;
 import src.effect.*;
 import src.item.*;
 import src.yukkuri.*;
+import src.yukkuri.Common.Alice;
+import src.yukkuri.Common.Chen;
+import src.yukkuri.Common.Marisa;
+import src.yukkuri.Common.Myon;
+import src.yukkuri.Common.Patch;
+import src.yukkuri.Common.Reimu;
+import src.yukkuri.Predator.Fran;
+import src.yukkuri.Predator.Remirya;
+import src.yukkuri.Rare.Ayaya;
+import src.yukkuri.Rare.Chiruno;
+import src.yukkuri.Rare.Eiki;
+import src.yukkuri.Rare.Meirin;
+import src.yukkuri.Rare.Nitori;
+import src.yukkuri.Rare.Ran;
+import src.yukkuri.Rare.Sakuya;
+import src.yukkuri.Rare.Suwako;
+import src.yukkuri.Rare.Tenko;
+import src.yukkuri.Rare.Udonge;
+import src.yukkuri.Rare.Yuuka;
+import src.yukkuri.Rare.Yuyuko;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 
 public class MyPane extends JPanel implements Runnable {
 	static final long serialVersionUID = 4L;
@@ -251,22 +274,16 @@ public class MyPane extends JPanel implements Runnable {
 				Method m = c.getMethod("loadImages", ClassLoader.class, ImageObserver.class);
 				m.invoke(null, loader, this);
 			} catch (SecurityException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch (NoSuchMethodException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch (ClassNotFoundException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch (IllegalArgumentException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch (InvocationTargetException e) {
-				// TODO 閾ｪ蜍慕函謌舌＆繧後◆ catch 繝悶Ο繝�け
 				e.printStackTrace();
 			} catch(OutOfMemoryError e) {
 				JOptionPane.showMessageDialog(null, "繝｡繝｢繝ｪ荳崎ｶｳ縺ｧ縺�");
@@ -534,17 +551,17 @@ public class MyPane extends JPanel implements Runnable {
 				if(selectType == Ayaya.type && rnd.nextInt(2) == 0)
 					selectType = Kimeemaru.type; 
 
-				Body.AgeState age;
+				AgeState age;
 				switch (selectAge) {
 				case BABY:
-					age = Body.AgeState.BABY;
+					age = AgeState.BABY;
 					break;
 				case CHILD:
-					age = Body.AgeState.CHILD;
+					age = AgeState.CHILD;
 					break;
 				case ADULT:
 				default:
-					age = Body.AgeState.ADULT;
+					age = AgeState.ADULT;
 					break;
 				}
 				Body b = terrarium.makeBody(rnd.nextInt(Terrarium.MAX_X), rnd.nextInt(Terrarium.MAX_Y), 0, selectType, null, age, null, null);
@@ -692,7 +709,7 @@ public class MyPane extends JPanel implements Runnable {
 					b.setScreenRect(bodyExpandRect);
 
 					// 繧ｫ繝ｼ繧ｽ繝ｫ逋ｻ骭ｲ
-					if(b.pin) {
+					if(b.isPin()) {
 						Rectangle rect = new Rectangle();
 						rect.x = bodyExpandRect.x;
 						rect.y = bodyExpandRect.y;
@@ -788,8 +805,8 @@ public class MyPane extends JPanel implements Runnable {
 							backBufferG2.drawImage(drawLayer[i], bodyExpandRect.x, bodyExpandRect.y, bodyExpandRect.width, bodyExpandRect.height, this);
 						}
 						// 蛻�妙繝槭せ繧ｯ
-						if(b.criticalDamege == Body.CriticalDamegeType.CUT) {
-							backBufferG2.drawImage(b.getImage(Body.BODY_CUT,direction), bodyExpandRect.x, bodyExpandRect.y + (bodyExpandRect.height / 4), bodyExpandRect.width, bodyExpandRect.height, this);
+						if(b.getCriticalDamege() == CriticalDamegeType.CUT) {
+							backBufferG2.drawImage(b.getImage(ConstantValues.BODY_CUT,direction), bodyExpandRect.x, bodyExpandRect.y + (bodyExpandRect.height / 4), bodyExpandRect.width, bodyExpandRect.height, this);
 						}
 						
 						// 縺翫＆縺�
@@ -800,12 +817,12 @@ public class MyPane extends JPanel implements Runnable {
 						// 闊�
 						if (b.isPeroPero() || b.isEating() || b.isEatingShit()) {
 							if (b.getMessage() != null) {
-								backBufferG2.drawImage(b.getImage(Body.LICK,direction), bodyOriginalRect.x, bodyOriginalRect.y + faceOfsY, bodyOriginalRect.width, bodyOriginalRect.height, this);
+								backBufferG2.drawImage(b.getImage(ConstantValues.LICK,direction), bodyOriginalRect.x, bodyOriginalRect.y + faceOfsY, bodyOriginalRect.width, bodyOriginalRect.height, this);
 							}
 						}
 
 					}
-					for(Attachment at : b.attach) {
+					for(Attachment at : b.getAttach()) {
 						at.getBoundaryShape(tmpRect);
 						int atX = Translate.transSize(tmpRect.x);
 						int atY = Translate.transSize(tmpRect.y);
@@ -818,14 +835,14 @@ public class MyPane extends JPanel implements Runnable {
 						if(parentOrigin == 0) {
 							bx = bodyOriginalRect.x;
 							by = bodyOriginalRect.y;
-							if(b.getDirection() == Body.Direction.RIGHT) {
+							if(b.getDirection() == Direction.RIGHT) {
 								bx += bodyOriginalRect.width;
 								ofsX = -ofsX;
 							}
 						} else {
 							bx = bodyExpandRect.x;
 							by = bodyExpandRect.y;
-							if(b.getDirection() == Body.Direction.RIGHT) {
+							if(b.getDirection() == Direction.RIGHT) {
 								bx += bodyExpandRect.width;
 								ofsX = -ofsX;
 							}

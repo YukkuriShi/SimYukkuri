@@ -4,11 +4,13 @@ package src;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.basic.BasicBorders;
 
 import java.io.*;
+
 import javax.imageio.*;
 
 import src.attachment.AccelAmpoule;
@@ -21,6 +23,10 @@ import src.attachment.SilverBadge;
 import src.attachment.GoldBadge;
 import src.event.EatBodyEvent;
 import src.item.*;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
+import src.yukkuriLogic.EventLogic;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -476,11 +482,11 @@ public class SimYukkuri extends JFrame {
 		buttonPaneLabel[LabelName.DAMAGE.ordinal()].setText(LabelName.DAMAGE.toString() + damage + "%");
 		buttonPaneLabel[LabelName.STRESS.ordinal()].setText(LabelName.STRESS.toString() + stress + "%");
 		buttonPaneLabel[LabelName.HUNGER.ordinal()].setText(LabelName.HUNGER.toString() + hungry + "%");
-		buttonPaneLabel[LabelName.COMPLACENCY.ordinal()].setText(LabelName.COMPLACENCY.toString() + ": " + b.complacencyVal + " " + COMPLACENCY_LEVEL_E[b.getComplacency().ordinal()] + " " + b.getComplacencyDirection());
+		buttonPaneLabel[LabelName.COMPLACENCY.ordinal()].setText(LabelName.COMPLACENCY.toString() + ": " + b.getComplacencyVal() + " " + COMPLACENCY_LEVEL_E[b.getComplacency().ordinal()] + " " + b.getComplacencyDirection());
 		buttonPaneLabel[LabelName.TANG.ordinal()].setText(LabelName.TANG.toString() + TANG_LEVEL_E[b.getTangType().ordinal()]);
 		buttonPaneLabel[LabelName.SHIT.ordinal()].setText(LabelName.SHIT.toString() + shit + "%");
 
-		pinButton.setSelected(b.pin);
+		pinButton.setSelected(b.isPin());
 		if(b.getAnalClose()) {
 			statLabel[0].setIcon(statIcon[0]);
 			statLabel[0].setToolTipText(StatusName.AnalClose.toString());
@@ -690,8 +696,8 @@ public class SimYukkuri extends JFrame {
 			else if(source.equals(pinButton)) {
 				if(MyPane.selectBody != null && !MyPane.selectBody.removed)
 				{
-					if(pinButton.isSelected()) MyPane.selectBody.pin = true;
-					else MyPane.selectBody.pin = false;
+					if(pinButton.isSelected()) MyPane.selectBody.setPin(true);
+					else MyPane.selectBody.setPin(false);
 				}
 			}
 		}
@@ -964,8 +970,8 @@ public class SimYukkuri extends JFrame {
 											b.strikeByHammer();
 											if (!b.hasPants() && !b.isDead()) {
 												int ofsX = Translate.invertX(b.getCollisionX()>>1, b.getY());
-												if(b.getDirection() == Body.Direction.LEFT) ofsX = -ofsX;
-												mypane.terrarium.addVomit(b.getX() + ofsX, b.getY(), b.getZ(), b.getAgeState(), b.shitType);
+												if(b.getDirection() == Direction.LEFT) ofsX = -ofsX;
+												mypane.terrarium.addVomit(b.getX() + ofsX, b.getY(), b.getZ(), b.getAgeState(), b.getShitType());
 												b.stay();
 											}
 											b.setDirty(true);
@@ -977,8 +983,8 @@ public class SimYukkuri extends JFrame {
 											b.strikeByHammer();
 											if (!b.hasPants() && !b.isDead()) {
 												int ofsX = Translate.invertX(b.getCollisionX()>>1, b.getY());
-												if(b.getDirection() == Body.Direction.LEFT) ofsX = -ofsX;
-												mypane.terrarium.addVomit(b.getX() + ofsX, b.getY(), b.getZ(), b.getAgeState(), b.shitType);
+												if(b.getDirection() == Direction.LEFT) ofsX = -ofsX;
+												mypane.terrarium.addVomit(b.getX() + ofsX, b.getY(), b.getZ(), b.getAgeState(), b.getShitType());
 												b.stay();
 											}
 											b.setDirty(true);
@@ -1799,10 +1805,10 @@ public class SimYukkuri extends JFrame {
 					Dimension size = mypane.getSize();
 					int w = size.width, h = size.height;
 					for (Body b:Terrarium.bodyList) {
-						int offsetX = (Body.MAXSIZE - b.getSize())/2;
-						int offsetY = (Body.MAXSIZE - b.getSize());
-						int X = (e.getX() - offsetX)*Terrarium.MAX_X/(w-Body.MAXSIZE);
-						int Y = (e.getY() - offsetY)*Terrarium.MAX_Y/(h-Body.MAXSIZE);
+						int offsetX = (ConstantValues.MAXSIZE - b.getSize())/2;
+						int offsetY = (ConstantValues.MAXSIZE - b.getSize());
+						int X = (e.getX() - offsetX)*Terrarium.MAX_X/(w-ConstantValues.MAXSIZE);
+						int Y = (e.getY() - offsetY)*Terrarium.MAX_Y/(h-ConstantValues.MAXSIZE);
 						int x = Translate.invX(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);
 						int y = Translate.invY(X, Y, Terrarium.MAX_X, Terrarium.MAX_Y);  //TODO yukkuri dont flee in the y axis properly
 						if (b.isDead())
@@ -1815,7 +1821,7 @@ public class SimYukkuri extends JFrame {
 						//	b.lookTo(x, y);
 							
 							}
-							b.setHappiness(Body.Happiness.SAD);
+							b.setHappiness(Happiness.SAD);
 							b.runAway(x, y);
 							b.setMessage(null, 20, false, true);
 						 if (b.isScare()) {
@@ -1831,7 +1837,7 @@ public class SimYukkuri extends JFrame {
 							{
 								//b.showPatchyHammerFear();
 								b.runAway(x, y);
-								b.setHappiness(Body.Happiness.SAD);
+								b.setHappiness(Happiness.SAD);
 								b.setMessage(null, 20, false, true);
 
 							}
@@ -1843,7 +1849,7 @@ public class SimYukkuri extends JFrame {
 							{
 								//b.showBegMisterStop();
 								b.runAway(x, y);
-								b.setHappiness(Body.Happiness.VERY_SAD);
+								b.setHappiness(Happiness.VERY_SAD);
 							}
 							
 							

@@ -2,13 +2,16 @@ package src.event;
 
 import java.util.Random;
 
-import src.Body;
-import src.EventLogic;
 import src.EventPacket;
 import src.MessagePool;
 import src.Obj;
 import src.Terrarium;
 import src.item.Sui;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.FavItemType;
+import src.yukkuriBody.ConstantValues.Happiness;
+import src.yukkuriLogic.EventLogic;
 
 /*
 	すぃーの乗車管理イベント
@@ -33,15 +36,15 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 	// また、イベント優先度も必要に応じて設定できる
 	public boolean checkEventResponse(Body b) {
 //		boolean ret = false;
-		if(from == b) {
+		if(getFrom() == b) {
 			return true;
 		}
-		else if(from.getCurrentEvent()==this) {
-			if(b.isParent(from) || from.isParent(b) || b.isPartner(from) || from.isSister(b)){
+		else if(getFrom().getCurrentEvent()==this) {
+			if(b.isParent(getFrom()) || getFrom().isParent(b) || b.isPartner(getFrom()) || getFrom().isSister(b)){
 				if (b.isDead() || b.isSleeping() || b.isExciting() || b.isScare()) {
 					return false;
 				}
-				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.FindGetSuiOtner), Body.HOLDMESSAGE, true, false);
+				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.FindGetSuiOtner), ConstantValues.HOLDMESSAGE, true, false);
 				return true;
 			}
 		}
@@ -58,11 +61,11 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 	public UpdateState update(Body b) {
 //		System.out.println(tick);
 		Sui s = (Sui)target;
-		if(b.getFavItem(Body.FavItemType.SUI) != null) {
+		if(b.getFavItem(FavItemType.SUI) != null) {
 			
-			if(from == b) {
+			if(getFrom() == b) {
 				if(s.getcurrent_bindbody_num() >= 3 || tick > 50) {
-					b.setHappiness(Body.Happiness.HAPPY);
+					b.setHappiness(Happiness.HAPPY);
 					if(s.getcurrent_condition() == 1 ){
 						
 						if(!memberride || tick%50==0) {
@@ -79,10 +82,10 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 					else {
 						if(!b.isTalking()) {
 							if(rnd.nextBoolean()) {
-								b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RidingSui), Body.HOLDMESSAGE, true, false);
+								b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RidingSui), ConstantValues.HOLDMESSAGE, true, false);
 							}
 							else{
-								b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.DrivingSui), Body.HOLDMESSAGE, true, false);
+								b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.DrivingSui), ConstantValues.HOLDMESSAGE, true, false);
 							}
 						}
 						if(rnd.nextInt(100)==0){
@@ -94,9 +97,9 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 			}
 			else{
 				if(!b.isTalking() && s.getcurrent_condition() != 1 ) {
-					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RidingSui), Body.HOLDMESSAGE, true, false);
+					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RidingSui), ConstantValues.HOLDMESSAGE, true, false);
 				}
-				if(from.getCurrentEvent()!=this && s.getcurrent_condition() == 1 ) {
+				if(getFrom().getCurrentEvent()!=this && s.getcurrent_condition() == 1 ) {
 					if(!b.isTalking()) {
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.RideOffSui), true);
 					}
@@ -107,11 +110,11 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 		} else{
 			
 			b.moveToEvent(this, target.getX(), target.getY());
-			if(from==b && s.iscanriding() || s.getcurrent_bindbody_num() >= 3 ){
+			if(getFrom()==b && s.iscanriding() || s.getcurrent_bindbody_num() >= 3 ){
 				memberride=false;
 				return UpdateState.ABORT;
 			}
-			if(from != b && from.getCurrentEvent()==null){
+			if(getFrom() != b && getFrom().getCurrentEvent()==null){
 				memberride=false;
 				return UpdateState.ABORT;
 			}
@@ -119,12 +122,12 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 				memberride=false;
 				return UpdateState.ABORT;
 			}
-			if(from != b && from.getFavItem(Body.FavItemType.SUI) != null
-					&& b.getFavItem(Body.FavItemType.SUI) == null && memberride==false && rnd.nextBoolean()) {
+			if(getFrom() != b && getFrom().getFavItem(FavItemType.SUI) != null
+					&& b.getFavItem(FavItemType.SUI) == null && memberride==false && rnd.nextBoolean()) {
 				if(!b.isTalking()){
 					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantRideSuiOtner), true);
 				}
-				from.moveTo(b.getX(), b.getY());
+				getFrom().moveTo(b.getX(), b.getY());
 				memberride=true;
 			}
 		}
@@ -135,8 +138,8 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 	// trueを返すとイベント終了
 	public boolean execute(Body b) {
 		Sui s = (Sui)target;
-		if(b.getFavItem(Body.FavItemType.SUI) == null && s.getcurrent_condition() == 1 ){
-			if(b == from || (b != from && from.getFavItem(Body.FavItemType.SUI) != null)){
+		if(b.getFavItem(FavItemType.SUI) == null && s.getcurrent_condition() == 1 ){
+			if(b == getFrom() || (b != getFrom() && getFrom().getFavItem(FavItemType.SUI) != null)){
 				s.rideOn(b);
 				memberride=false;
 			}

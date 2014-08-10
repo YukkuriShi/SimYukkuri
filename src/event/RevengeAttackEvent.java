@@ -3,6 +3,9 @@ package src.event;
 import java.util.Random;
 
 import src.*;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.BodyLogic;
+import src.yukkuriBody.ConstantValues;
 
 /*
 	ゆっくりが攻撃されたときの反撃イベント
@@ -52,15 +55,15 @@ public class RevengeAttackEvent extends EventPacket implements java.io.Serializa
 	public boolean execute(Body b) {
 		// 相手が残っていたら攻撃
 		if(!to.isRemoved() && to.getZ() < 5) {
-			b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RevengeAttack), Body.HOLDMESSAGE, true, false);
-			if(b.getDirection() == Body.Direction.LEFT) {
+			b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RevengeAttack), ConstantValues.HOLDMESSAGE, true, false);
+			if(b.getDirection() == ConstantValues.Direction.LEFT) {
 				SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.HIT, b.getX()-10, b.getY(), 0,
 														0, 0, 0, false, 500, 1, true, false, true);
 			} else {
 				SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.HIT, b.getX()+10, b.getY(), 0,
 														0, 0, 0, true, 500, 1, true, false, true);
 			}
-			b.setForceFace(Body.PUFF);
+			b.setForceFace(ConstantValues.PUFF);
 			to.strikeByYukkuri(b, this);
 			b.addStress(-500);
 		}

@@ -1,6 +1,8 @@
 package src.event;
 
 import src.*;
+import src.yukkuriBody.Body;
+import src.yukkuriLogic.EventLogic;
 
 /*
 	レイパー発情通知イベント
@@ -19,7 +21,7 @@ public class RaperWakeupEvent extends EventPacket implements java.io.Serializabl
 
 	public boolean simpleEventAction(Body b) {
 		// 自分自身はスキップ
-		if(b == from) return false;
+		if(b == getFrom()) return false;
 		// 死体、睡眠はスキップ
 		if(b.isDead() || b.isSleeping()) return true;
 		
@@ -31,7 +33,7 @@ public class RaperWakeupEvent extends EventPacket implements java.io.Serializabl
 		
 		// 一般人の反応
 		// 固体ごとに異なる行動をするため新しいイベントのインスタンスを作成して固体イベントに登録
-		EventLogic.addBodyEvent(b, new RaperReactionEvent(from, null, null, 1), null, null);
+		EventLogic.addBodyEvent(b, new RaperReactionEvent(getFrom(), null, null, 1), null, null);
 		return true;
 	}
 

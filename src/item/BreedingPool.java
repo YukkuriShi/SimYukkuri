@@ -6,7 +6,6 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -18,6 +17,10 @@ import javax.swing.JRadioButton;
 
 import src.*;
 import src.yukkuri.*;
+import src.yukkuri.Common.Marisa;
+import src.yukkuri.Common.Reimu;
+import src.yukkuri.Rare.Ayaya;
+import src.yukkuriBody.Body;
 
 
 public class BreedingPool extends ObjEX implements java.io.Serializable {

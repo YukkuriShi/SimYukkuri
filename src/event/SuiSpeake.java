@@ -2,13 +2,14 @@ package src.event;
 
 import java.util.Random;
 
-import src.Body;
-import src.EventLogic;
 import src.EventPacket;
 import src.MessagePool;
 import src.Obj;
 import src.Translate;
 import src.item.Sui;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriLogic.EventLogic;
 
 /*
 	すぃーに関連した会話イベント
@@ -28,10 +29,10 @@ public class SuiSpeake extends EventPacket implements java.io.Serializable {
 	
 	public boolean simpleEventAction(Body b) {
 		if(b.getCurrentEvent() != null || b.isTalking() || rnd.nextInt(20) !=0) return true;
-		if(from==null){
+		if(getFrom()==null){
 			if(target==null){
 				if(b.isRude() || rnd.nextBoolean()){
-					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.WantingSui), Body.HOLDMESSAGE, true, false);
+					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.WantingSui), ConstantValues.HOLDMESSAGE, true, false);
 					EventLogic.addWorldEvent(new SuiSpeake(b, null, null, 10), null, null);
 				}
 				else{
@@ -72,35 +73,35 @@ public class SuiSpeake extends EventPacket implements java.io.Serializable {
 			}
 		}
 		else{
-			if(from == b) return false;
+			if(getFrom() == b) return false;
 			if(target==null){
-				if(Translate.distance(b.getX(), b.getY(), from.getX(), from.getY()) < 200000){
-					if(b.isParent(from)){
+				if(Translate.distance(b.getX(), b.getY(), getFrom().getX(), getFrom().getY()) < 200000){
+					if(b.isParent(getFrom())){
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantingSuiParent), true);
 					}
-					else if(b.isPartner(from) ){
+					else if(b.isPartner(getFrom()) ){
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantingSuiPartner), true);
 					}
 				}
 			}
 			else{
 				if(Translate.distance(b.getX(), b.getY(), target.getX(), target.getY()) < 200000){
-					if(from.isParent(b)){
-						if(from.isPapa(b)){
+					if(getFrom().isParent(b)){
+						if(getFrom().isPapa(b)){
 							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiPAPAChild), true);
 						}
 						else{
 							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiMAMAChild), true);
 						}
 					}
-					else if(b.isPartner(from) ){
+					else if(b.isPartner(getFrom()) ){
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiPartner), true);
 					}
-					else if(b.isParent(from)) {
+					else if(b.isParent(getFrom())) {
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiChild), true);
 					}
-					else if(from.isSister(b)){
-						if(from.isElderSister(b)){
+					else if(getFrom().isSister(b)){
+						if(getFrom().isElderSister(b)){
 							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiOldSister), true);
 						}else{
 							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.hasSuiYoungSister), true);

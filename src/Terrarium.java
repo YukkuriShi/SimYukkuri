@@ -4,11 +4,38 @@ import java.awt.Rectangle;
 import java.io.*;
 import java.util.*;
 
-import src.Body.PanicType;
 import src.YukkuriUtil.YukkuriType;
 import src.effect.*;
 import src.item.*;
 import src.yukkuri.*;
+import src.yukkuri.Common.Alice;
+import src.yukkuri.Common.Chen;
+import src.yukkuri.Common.Marisa;
+import src.yukkuri.Common.Myon;
+import src.yukkuri.Common.Patch;
+import src.yukkuri.Common.Reimu;
+import src.yukkuri.Predator.Fran;
+import src.yukkuri.Predator.Remirya;
+import src.yukkuri.Rare.Ayaya;
+import src.yukkuri.Rare.Chiruno;
+import src.yukkuri.Rare.Eiki;
+import src.yukkuri.Rare.Meirin;
+import src.yukkuri.Rare.Nitori;
+import src.yukkuri.Rare.Ran;
+import src.yukkuri.Rare.Sakuya;
+import src.yukkuri.Rare.Suwako;
+import src.yukkuri.Rare.Tenko;
+import src.yukkuri.Rare.Udonge;
+import src.yukkuri.Rare.Yuuka;
+import src.yukkuri.Rare.Yuyuko;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.BodyLogic;
+import src.yukkuriBody.ConstantValues.*;
+import src.yukkuriLogic.BedLogic;
+import src.yukkuriLogic.EventLogic;
+import src.yukkuriLogic.FoodLogic;
+import src.yukkuriLogic.ToiletLogic;
+import src.yukkuriLogic.ToyLogic;
 
 
 public class Terrarium {
@@ -470,20 +497,20 @@ public class Terrarium {
 			} else {
 				// 諱先�蜷悟｣ｫ縺ｧ莨晄眺縺ｮ辟｡髯舌Ν繝ｼ繝励↓蜈･繧峨↑縺�ｈ縺�↓蛻ｶ髯�
 				if(b.getPanicType() == PanicType.BURN) {
-					p.setPanic(true, Body.PanicType.FEAR);
+					p.setPanic(true, PanicType.FEAR);
 				}
 			}
 		}
 	}
 
 	private void addBaby(int x, int y, int z, Dna dna, Body p1, Body p2) {
-		babyList.add(makeBody(x, y, z + 1, dna, Body.AgeState.BABY, p1, p2));
+		babyList.add(makeBody(x, y, z + 1, dna, AgeState.BABY, p1, p2));
 		babyList.get(babyList.size()-1).kick(0,5,-2);
 		
 	}
 	
 	private void addBaby(int x, int y, int z, Dna dna, Body p1, Body p2, Stalk stalk) {
-		babyList.add(makeBody(x, y, z, dna, Body.AgeState.BABY, p1, p2));
+		babyList.add(makeBody(x, y, z, dna, AgeState.BABY, p1, p2));
 		Body b = babyList.get( babyList.size()-1 );
 		stalk.setBindBaby( b );
 		b.setBindStalk( stalk );
@@ -491,16 +518,16 @@ public class Terrarium {
 	}
 	
 	private void addBaby(int x, int y, int z, int vx, int vy, int vz, Dna dna, Body p1, Body p2) {
-		babyList.add(makeBody(x, y, z + 1, dna, Body.AgeState.BABY, p1, p2));
+		babyList.add(makeBody(x, y, z + 1, dna, AgeState.BABY, p1, p2));
 		babyList.get(babyList.size()-1).kick(vx,vy,vz);
 		
 	}
 
-	public Body makeBody(int x, int y, int z, Dna dna, Body.AgeState age, Body p1, Body p2) {
+	public Body makeBody(int x, int y, int z, Dna dna, AgeState age, Body p1, Body p2) {
 		return makeBody(x, y, z, dna.type, dna, age, p1, p2);
 	}
 
-	public Body makeBody(int x, int y, int z, int type, Dna dna, Body.AgeState age, Body p1, Body p2) {
+	public Body makeBody(int x, int y, int z, int type, Dna dna, AgeState age, Body p1, Body p2) {
 		Body b;
 		switch (type) {
 		case Marisa.type:
@@ -616,8 +643,8 @@ public class Terrarium {
 		
 		// DNA諠��縺梧ｸ｡縺輔ｌ縺ｦ縺溘ｉ繧ｹ繝��繧ｿ繧ｹ荳頑嶌縺�
 		if(dna != null) {
-			if(dna.attitude != null) b.attitude = dna.attitude;
-			if(dna.intelligence != null) b.intelligence = dna.intelligence;
+			if(dna.attitude != null) b.setAttitude(dna.attitude);
+			if(dna.intelligence != null) b.setIntelligence(dna.intelligence);
 		}
 		
 		// 逕溘＞遶九■縺ｮ險ｭ螳�p1=mama p2=papa
@@ -625,7 +652,7 @@ public class Terrarium {
 		return b;
 	}
 
-	public Body addBody(int x, int y, int z, int type, Body.AgeState age, Body p1, Body p2) {
+	public Body addBody(int x, int y, int z, int type, AgeState age, Body p1, Body p2) {
 		Body ret = makeBody(x, y, z, type, null, age, p1, p2);
 		bodyList.add(ret);
 		return ret;
@@ -645,13 +672,13 @@ public class Terrarium {
 		shitList.add(s);
 	}
 
-	public Vomit addVomit(int x, int y, int z, Body.AgeState ageState, YukkuriType type) {
+	public Vomit addVomit(int x, int y, int z, AgeState ageState, YukkuriType type) {
 		Vomit v = new Vomit(x, y, z, ageState, type);
 		vomitList.add(v);
 		return v;
 	}
 
-	public void addCrushedVomit(int x, int y, int z, Body.AgeState ageState, YukkuriType type) {
+	public void addCrushedVomit(int x, int y, int z, AgeState ageState, YukkuriType type) {
 		Vomit v = new Vomit(x, y, z, ageState, type);
 		v.crushVomit();
 		vomitList.add(v);
@@ -1112,7 +1139,7 @@ public class Terrarium {
 				if (b.isInfration()) {
 					int burstPower =  (b.getSize() - b.getOriginSize())*3/4;
 					for (Dna babyTypes: b.getBabyTypes()) {
-						addBaby(b.getX(), b.getY(), b.getZ()+b.getSize()/20, rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/5+1)-burstPower/10-1, babyTypes, b, b.partner);
+						addBaby(b.getX(), b.getY(), b.getZ()+b.getSize()/20, rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/5+1)-burstPower/10-1, babyTypes, b, b.getPartner());
 					}
 					b.getBabyTypes().clear();
 					for ( Stalk s:b.getStalks() ){
@@ -1121,13 +1148,13 @@ public class Terrarium {
 						}
 					}
 					b.disPlantStalks();
-					if ( b.shit > b.SHITLIMIT[b.getAgeState().ordinal()] ){
-						for ( int j = 0; b.shit / b.SHITLIMIT[b.getAgeState().ordinal()] > j; j++ ){
-							addShit(b.getX(), b.getY(), b.getZ()+b.getSize()/15, b, b.shitType);
+					if ( b.getShit() > b.SHITLIMIT[b.getAgeState().ordinal()] ){
+						for ( int j = 0; b.getShit() / b.SHITLIMIT[b.getAgeState().ordinal()] > j; j++ ){
+							addShit(b.getX(), b.getY(), b.getZ()+b.getSize()/15, b, b.getShitType());
 							shitList.get(shitList.size()-1).kick(rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/4+1)-burstPower/8, rnd.nextInt(burstPower/5+1)-burstPower/10-1);
 						}
 					}
-					b.shit = 0;
+					b.setShit(0);
 					if ( b.isCrashed() == false ) {
 						b.strikeByPress();
 					}
@@ -1139,10 +1166,10 @@ public class Terrarium {
 				continue;
 			case BIRTHBABY:
 				if ( b.age % 10 == 0 ){
-					if (!b.hasPants) {
+					if (!b.isHasPants()) {
 						Dna babyType = b.getBabyTypesDequeue();
 						if ( babyType != null ){
-							addBaby(b.getX(), b.getY(), b.getZ()+b.getSize()/15, babyType, b, b.partner);
+							addBaby(b.getX(), b.getY(), b.getZ()+b.getSize()/15, babyType, b, b.getPartner());
 						}
 					}
 				}
@@ -1174,11 +1201,11 @@ public class Terrarium {
 				b.getStalks().clear();
 				break;
 			case DOSHIT:
-				addShit(b.getX(), b.getY(), b.getZ()+b.getSize()/15, b, b.shitType);
+				addShit(b.getX(), b.getY(), b.getZ()+b.getSize()/15, b, b.getShitType());
 				shitList.get(shitList.size()-1).kick(0,1,1);
 				break;
 			case DOVOMIT:
-				addVomit(b.getX(), b.getY(), b.getZ(), b.getAgeState(), b.shitType);
+				addVomit(b.getX(), b.getY(), b.getZ(), b.getAgeState(), b.getShitType());
 				break;
 			case REMOVED:
 				i.remove();
@@ -1232,11 +1259,11 @@ public class Terrarium {
 					if ( j % 5 == 0 ) {
 						SimYukkuri.mypane.terrarium.addObjEX( ObjEX.ObjEXType.STALK, b.getX(), b.getY(), b.getDirection().ordinal() );
 						currentStalk = (Stalk)Stalk.objEXList.get( Stalk.objEXList.size()-1 );
-						b.stalks.add( currentStalk );
+						b.getStalks().add( currentStalk );
 						currentStalk.setPlantYukkuri( b );
 					}
 					if ( babyTypes != null ) {
-						addBaby(b.getX(), b.getY(), 0, babyTypes, b, b.partner, currentStalk);
+						addBaby(b.getX(), b.getY(), 0, babyTypes, b, b.getPartner(), currentStalk);
 						babyList.get( babyList.size()-1 ).setBindStalk(currentStalk);
 					}else{
 						currentStalk.setBindBaby( null );
@@ -1283,5 +1310,6 @@ public class Terrarium {
 		}
 
 		operationTime += TICK;
+	
 	}
 }

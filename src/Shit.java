@@ -8,6 +8,9 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import src.YukkuriUtil.YukkuriType;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 
 public class Shit extends Obj implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
@@ -20,7 +23,7 @@ public class Shit extends Obj implements java.io.Serializable {
 
 	private static final int SHITLIMIT[] = {100*24*2, 100*24*4, 100*24*8};
 	private Body owner;
-	private Body.AgeState ageState;
+	private ConstantValues.AgeState ageState;
 	private int falldownDamage = 0;
 	private int amount = 0;
 	private int shitType = 0;
@@ -50,22 +53,22 @@ public class Shit extends Obj implements java.io.Serializable {
 		for(int i = 0; i < name.length; i++) {
 			if(name[i].imageDirName.length() == 0) continue;
 			
-			images[i][SHIT_NORMAL][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun.png"));
-			images[i][SHIT_CRASHED][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun2.png"));
-			images[i][SHIT_SHADOW][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun-shadow.png"));
+			images[i][SHIT_NORMAL][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun.png"));
+			images[i][SHIT_CRASHED][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun2.png"));
+			images[i][SHIT_SHADOW][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/unun-shadow.png"));
 
 			for(int j = 0; j < NUM_OF_SHIT_STATE; j++) {
-				imgW[i][Body.adultIndex] = images[i][0][Body.adultIndex].getWidth(io);
-				imgH[i][Body.adultIndex] = images[i][0][Body.adultIndex].getHeight(io);
-				pivX[i][Body.adultIndex] = imgW[i][Body.adultIndex] >> 1;
-				pivY[i][Body.adultIndex] = imgH[i][Body.adultIndex] - 1;
+				imgW[i][ConstantValues.adultIndex] = images[i][0][ConstantValues.adultIndex].getWidth(io);
+				imgH[i][ConstantValues.adultIndex] = images[i][0][ConstantValues.adultIndex].getHeight(io);
+				pivX[i][ConstantValues.adultIndex] = imgW[i][ConstantValues.adultIndex] >> 1;
+				pivY[i][ConstantValues.adultIndex] = imgH[i][ConstantValues.adultIndex] - 1;
 
-				sx = (int)((float)imgW[i][Body.adultIndex] * shitSize[1]);
-				sy = (int)((float)imgH[i][Body.adultIndex] * shitSize[1]);
-				images[i][j][Body.childIndex] = images[i][j][Body.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
-				sx = (int)((float)imgW[i][Body.adultIndex] * shitSize[0]);
-				sy = (int)((float)imgH[i][Body.adultIndex] * shitSize[0]);
-				images[i][j][Body.babyIndex] = images[i][j][Body.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
+				sx = (int)((float)imgW[i][ConstantValues.adultIndex] * shitSize[1]);
+				sy = (int)((float)imgH[i][ConstantValues.adultIndex] * shitSize[1]);
+				images[i][j][ConstantValues.childIndex] = images[i][j][ConstantValues.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
+				sx = (int)((float)imgW[i][ConstantValues.adultIndex] * shitSize[0]);
+				sy = (int)((float)imgH[i][ConstantValues.adultIndex] * shitSize[0]);
+				images[i][j][ConstantValues.babyIndex] = images[i][j][ConstantValues.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
 			}
 		}
 		for(int i = 0; i < name.length; i++) {
@@ -105,7 +108,7 @@ public class Shit extends Obj implements java.io.Serializable {
 					imgW[shitType][ageState.ordinal()], imgH[shitType][ageState.ordinal()]);
 	}
 
-	public Body.AgeState getAgeState() {
+	public ConstantValues.AgeState getAgeState() {
 		return ageState;
 	}
 

@@ -5,13 +5,14 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import src.*;
-import src.Body.FootBake;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 
 
 public class HotPlate extends ObjEX implements java.io.Serializable {
@@ -43,8 +44,8 @@ public class HotPlate extends ObjEX implements java.io.Serializable {
 			if(bindBody != null) {
 				FootBake f = null;
 				f = bindBody.getFootBakeLevel();
-				if(f == Body.FootBake.CRITICAL) return images[2];
-				else if(f == Body.FootBake.MIDIUM) return images[1];
+				if(f == FootBake.CRITICAL) return images[2];
+				else if(f == FootBake.MIDIUM) return images[1];
 			}
 			return images[0];
 		}
@@ -85,7 +86,7 @@ public class HotPlate extends ObjEX implements java.io.Serializable {
 	public int objHitProcess( Obj o ) {
 		
 		bindBody = (Body)o;
-		if(bindBody.getCriticalDamegeType() == Body.CriticalDamegeType.CUT) return 0;
+		if(bindBody.getCriticalDamegeType() == CriticalDamegeType.CUT) return 0;
 
 		bindBody.clearActions();
 		bindBody.setX(x);
@@ -127,8 +128,8 @@ public class HotPlate extends ObjEX implements java.io.Serializable {
 					bindBody.addFootBakePeriod(50);
 					bindBody.addDamage(20);
 					bindBody.addStress(10);
-					bindBody.setHappiness(Body.Happiness.VERY_SAD);
-					bindBody.setForceFace(Body.PAIN);
+					bindBody.setHappiness(Happiness.VERY_SAD);
+					bindBody.setForceFace(ConstantValues.PAIN);
 					if(rnd.nextInt(10) == 0) {
 						bindBody.setMessage(MessagePool.getMessage(bindBody, MessagePool.Action.Burning), 40, true, true);
 					}

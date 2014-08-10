@@ -1,5 +1,7 @@
 package src;
 
+import src.yukkuriBody.Body;
+
 public class Cash {
 	
 	private static long cash = 10000;
@@ -22,7 +24,7 @@ public class Cash {
 	
 	public static void buyYukkuri(Body body) {
 	int val = 0;
-	val = body.VALUEPURCHASE[body.bodyAgeState.ordinal()];
+	val = body.getVALUEPURCHASE()[body.getBodyAgeState().ordinal()];
 	
 	
 	
@@ -31,7 +33,7 @@ public class Cash {
 
 	public static void sellYukkuri(Body body) {
 		int val = 0;
-		val = body.VALUESALE[body.bodyAgeState.ordinal()];  //New method of determining value
+		val = body.getVALUESALE()[body.getBodyAgeState().ordinal()];  //New method of determining value
 		if(!body.hasOkazari()) val *= 0.8;
 		if(body.isBraidType() && !body.hasBraidCheck()) val *= 0.8;
 		switch(body.getAttitude()) {
@@ -71,7 +73,7 @@ public class Cash {
 	
 	public static int getYukkuriValue(Body body) {
 		int val = 0;
-		val = body.VALUESALE[body.bodyAgeState.ordinal()];  //New method of determining value
+		val = body.getVALUESALE()[body.getBodyAgeState().ordinal()];  //New method of determining value
 		if(!body.hasOkazari()) val *= 0.8;
 		if(body.isBraidType() && !body.hasBraidCheck()) val *= 0.8;
 		switch(body.getAttitude()) {

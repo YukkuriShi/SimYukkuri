@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.*;
+
 /*****************************************************
 	蜈ｨ繧ｭ繝｣繝ｩ縺ｮ繝｡繝�そ繝ｼ繧ｸ邂｡逅�
 */
@@ -313,10 +316,10 @@ public class MessagePool
 		String name2 = "";
 		String partnerName = "";
 		
-		map = pool_j[body.msgType.ordinal()];
+		map = pool_j[body.getMsgType().ordinal()];
 		name = body.getNameE();
 		name2 = body.getNameE2();
-		if(body.partner != null) partnerName = body.partner.getNameE();
+		if(body.getPartner() != null) partnerName = body.getPartner().getNameE();
 		
 		if(map == null) return "NO MESSAGE FILE";
 
@@ -339,15 +342,15 @@ public class MessagePool
 			key = new StringBuilder(MessageMap.Tag.normal.name() + "_");
 		}
 		// 蟷ｴ鮨｢繝√ぉ繝�け
-		if(body.mindAgeState == Body.AgeState.BABY && flags[MessageMap.Tag.baby.ordinal()])
+		if(body.getMindAgeState() == AgeState.BABY && flags[MessageMap.Tag.baby.ordinal()])
 		{
 			key.append(MessageMap.Tag.baby.name() + "_");
 		}
-		else if(body.mindAgeState == Body.AgeState.CHILD && flags[MessageMap.Tag.child.ordinal()])
+		else if(body.getMindAgeState() == AgeState.CHILD && flags[MessageMap.Tag.child.ordinal()])
 		{
 			key.append(MessageMap.Tag.child.name() + "_");
 		}
-		else if(body.mindAgeState == Body.AgeState.ADULT && flags[MessageMap.Tag.adult.ordinal()])
+		else if(body.getMindAgeState() == AgeState.ADULT && flags[MessageMap.Tag.adult.ordinal()])
 		{
 			key.append(MessageMap.Tag.adult.name() + "_");
 		}
@@ -357,7 +360,7 @@ public class MessagePool
 			key.append(MessageMap.Tag.damage.name() + "_");
 		}
 		// 雜ｳ辟ｼ縺阪メ繧ｧ繝�け
-		if(body.getFootBakeLevel() == Body.FootBake.CRITICAL && flags[MessageMap.Tag.footbake.ordinal()])
+		if(body.getFootBakeLevel() == FootBake.CRITICAL && flags[MessageMap.Tag.footbake.ordinal()])
 		{
 			key.append(MessageMap.Tag.footbake.name() + "_");
 		}

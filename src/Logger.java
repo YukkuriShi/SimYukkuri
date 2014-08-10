@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.yukkuri.*;
+import src.yukkuriBody.Body;
 
 
 
@@ -61,7 +62,7 @@ public class Logger {
 					logData[NUM_OF_RARE]++;
 				}
 
-				switch(b.bodyAgeState) {
+				switch(b.getBodyAgeState()) {
 					case BABY:
 						logData[NUM_OF_BABY]++;
 						break;
@@ -74,7 +75,7 @@ public class Logger {
 						break;
 				}
 
-				if ( b.sick == true ) {
+				if ( b.isSick() == true ) {
 					logData[NUM_OF_SICK]++;
 				}
 			}

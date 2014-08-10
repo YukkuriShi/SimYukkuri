@@ -6,8 +6,9 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.Attachment;
-import src.Body;
 import src.ModLoader;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.*;
 
 
 /****************************************
@@ -37,9 +38,9 @@ public class GoldBadge extends Attachment {
 	
 	public static void loadImages (ClassLoader loader, ImageObserver io) throws IOException {
 		
-		int baby = Body.AgeState.BABY.ordinal();
-		int child = Body.AgeState.CHILD.ordinal();
-		int adult = Body.AgeState.ADULT.ordinal();
+		int baby = AgeState.BABY.ordinal();
+		int child = AgeState.CHILD.ordinal();
+		int adult = AgeState.ADULT.ordinal();
 		images = new Image[3][2];
 		
 		images[adult][0] = ModLoader.loadItemImage(loader, "badges/badgeGold.png");
@@ -82,7 +83,7 @@ public class GoldBadge extends Attachment {
 	}
 
 	public Image getImage(Body b) {
-		if(b.getDirection() == Body.Direction.RIGHT) {
+		if(b.getDirection() == Direction.RIGHT) {
 			return images[parent.getAgeState().ordinal()][1];
 		}
 		return images[parent.getAgeState().ordinal()][0];

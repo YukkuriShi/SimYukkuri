@@ -8,8 +8,11 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
-import src.Body.AgeState;
 import src.YukkuriUtil.YukkuriType;
+import src.yukkuri.Common.Marisa;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 
 
 public class Tarinai extends Body implements java.io.Serializable {
@@ -21,7 +24,7 @@ public class Tarinai extends Body implements java.io.Serializable {
 	public static final int valueSale = -100;
 	public static final int valuePurchase = 0;
 	
-	private static Image[][][] images = new Image[NUM_OF_CONDITIONS][2][3];
+	private static Image[][][] images = new Image[ConstantValues.NUM_OF_CONDITIONS][2][3];
 	private static Rectangle[] boundary = new Rectangle[3];
 	private static Dimension[] braidBoundary = new Dimension[3];
 	private static boolean imageLoaded = false;
@@ -35,7 +38,7 @@ public class Tarinai extends Body implements java.io.Serializable {
 	}
 
 	public Image getImage(int type, int direction) {
-		return images[type][direction][bodyAgeState.ordinal()];
+		return images[type][direction][getBodyAgeState().ordinal()];
 	}
 
 	@Override
@@ -74,16 +77,16 @@ public class Tarinai extends Body implements java.io.Serializable {
 	}
 
 	// public methods
-	public Tarinai(int initX, int initY, int initZ, Body.AgeState initAgeState, Body p1, Body p2) {
+	public Tarinai(int initX, int initY, int initZ, AgeState initAgeState, Body p1, Body p2) {
 		super(initX, initY, initZ, initAgeState, p1, p2);
 		setBoundary(boundary, braidBoundary);
-		msgType = YukkuriType.TARINAI;
+		setMsgType(YukkuriType.TARINAI);
 		shitType = YukkuriType.TARINAI;
 	}
 	
 	public void tuneParameters() {
 		okazariType = null;
-		attitude = Attitude.SUPER_SHITHEAD;
+		setAttitude(Attitude.SUPER_SHITHEAD);
 		double factor = Math.random()*2+1;
 		HUNGRYLIMIT[AgeState.ADULT.ordinal()] *= factor;
 		HUNGRYLIMIT[AgeState.CHILD.ordinal()] *= factor;
@@ -116,13 +119,13 @@ public class Tarinai extends Body implements java.io.Serializable {
 		STRENGTH[AgeState.CHILD.ordinal()] *= factor;
 		STRENGTH[AgeState.BABY.ordinal()] *= factor;
 		
-		VALUEPURCHASE[AgeState.ADULT.ordinal()] = 4*valuePurchase;
-		VALUEPURCHASE[AgeState.CHILD.ordinal()] = 2*valuePurchase;
-		VALUEPURCHASE[AgeState.BABY.ordinal()] = valuePurchase;
+		getVALUEPURCHASE()[AgeState.ADULT.ordinal()] = 4*valuePurchase;
+		getVALUEPURCHASE()[AgeState.CHILD.ordinal()] = 2*valuePurchase;
+		getVALUEPURCHASE()[AgeState.BABY.ordinal()] = valuePurchase;
 		
-		VALUESALE[AgeState.ADULT.ordinal()] = 4*valueSale;
-		VALUESALE[AgeState.CHILD.ordinal()] = 2*valueSale;
-		VALUESALE[AgeState.BABY.ordinal()] = valueSale ;
+		getVALUESALE()[AgeState.ADULT.ordinal()] = 4*valueSale;
+		getVALUESALE()[AgeState.CHILD.ordinal()] = 2*valueSale;
+		getVALUESALE()[AgeState.BABY.ordinal()] = valueSale ;
 		
 		int stressFactor = rnd.nextInt(200) - 100;
 		int StressMedian = 300;

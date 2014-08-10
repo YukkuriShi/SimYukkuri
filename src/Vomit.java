@@ -7,6 +7,11 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.AgeState;
+
+
 public class Vomit extends Obj implements java.io.Serializable {
 	static final long serialVersionUID = 2L;
 	
@@ -17,7 +22,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 	public static final int NUM_OF_VOMIT_STATE = 3;
 
 	private static final int VOMITLIMIT[] = {100*24*2, 100*24*4, 100*24*8};
-	private Body.AgeState ageState;
+	private AgeState ageState;
 	private int falldownDamage = 0;
 	private int amount = 0;
 	private int vomitType = 0;
@@ -45,22 +50,22 @@ public class Vomit extends Obj implements java.io.Serializable {
 		for(int i = 0; i < name.length; i++) {
 			if(name[i].imageDirName.length() == 0) continue;
 			
-			images[i][VOMIT_NORMAL][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan.png"));
-			images[i][VOMIT_CRASHED][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan2.png"));
-			images[i][VOMIT_SHADOW][Body.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan_shadow.png"));
+			images[i][VOMIT_NORMAL][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan.png"));
+			images[i][VOMIT_CRASHED][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan2.png"));
+			images[i][VOMIT_SHADOW][ConstantValues.adultIndex] = ImageIO.read(loader.getResourceAsStream(path+name[i].imageDirName+"/toan_shadow.png"));
 
 			for(int j = 0; j < NUM_OF_VOMIT_STATE; j++) {
-				imgW[i][Body.adultIndex] = images[i][0][Body.adultIndex].getWidth(io);
-				imgH[i][Body.adultIndex] = images[i][0][Body.adultIndex].getHeight(io);
-				pivX[i][Body.adultIndex] = imgW[i][Body.adultIndex] >> 1;
-				pivY[i][Body.adultIndex] = imgH[i][Body.adultIndex] - 1;
+				imgW[i][ConstantValues.adultIndex] = images[i][0][ConstantValues.adultIndex].getWidth(io);
+				imgH[i][ConstantValues.adultIndex] = images[i][0][ConstantValues.adultIndex].getHeight(io);
+				pivX[i][ConstantValues.adultIndex] = imgW[i][ConstantValues.adultIndex] >> 1;
+				pivY[i][ConstantValues.adultIndex] = imgH[i][ConstantValues.adultIndex] - 1;
 
-				sx = (int)((float)imgW[i][Body.adultIndex] * imageSize[1]);
-				sy = (int)((float)imgH[i][Body.adultIndex] * imageSize[1]);
-				images[i][j][Body.childIndex] = images[i][j][Body.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
-				sx = (int)((float)imgW[i][Body.adultIndex] * imageSize[0]);
-				sy = (int)((float)imgH[i][Body.adultIndex] * imageSize[0]);
-				images[i][j][Body.babyIndex] = images[i][j][Body.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
+				sx = (int)((float)imgW[i][ConstantValues.adultIndex] * imageSize[1]);
+				sy = (int)((float)imgH[i][ConstantValues.adultIndex] * imageSize[1]);
+				images[i][j][ConstantValues.childIndex] = images[i][j][ConstantValues.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
+				sx = (int)((float)imgW[i][ConstantValues.adultIndex] * imageSize[0]);
+				sy = (int)((float)imgH[i][ConstantValues.adultIndex] * imageSize[0]);
+				images[i][j][ConstantValues.childIndex] = images[i][j][ConstantValues.adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
 			}
 		}
 		for(int i = 0; i < name.length; i++) {
@@ -87,7 +92,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 		return imgW[vomitType][ageState.ordinal()];
 	}
 
-	public Vomit (int initX, int initY, int initZ, Body.AgeState initAgeState, YukkuriUtil.YukkuriType type) {
+	public Vomit (int initX, int initY, int initZ, AgeState initAgeState, YukkuriUtil.YukkuriType type) {
 		objType = Type.VOMIT;
 		vomitType = type.ordinal();
 		x = initX;
@@ -110,7 +115,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 					imgW[vomitType][ageState.ordinal()], imgH[vomitType][ageState.ordinal()]);
 	}
 
-	public Body.AgeState getAgeState() { return ageState; }
+	public AgeState getAgeState() { return ageState; }
 
 	public int getVomitState() {
 		if (age >= VOMITLIMIT[ageState.ordinal()]/4) {

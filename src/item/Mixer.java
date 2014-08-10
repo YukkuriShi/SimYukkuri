@@ -5,13 +5,16 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.AgeState;
+import src.yukkuriBody.ConstantValues.CriticalDamegeType;
+import src.yukkuriBody.ConstantValues.Happiness;
 
 public class Mixer extends ObjEX implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
@@ -116,7 +119,7 @@ public class Mixer extends ObjEX implements java.io.Serializable {
 					mix.setY(y);
 				}
 			} else if(bindBody.getX() != x || bindBody.getY() != y || bindBody.getZ() != z || bindBody.isRemoved()) {
-				if(counter > 60) bindBody.setCriticalDamegeType(Body.CriticalDamegeType.CUT);
+				if(counter > 60) bindBody.setCriticalDamegeType(CriticalDamegeType.CUT);
 				bindBody.setForceFace(-1);
 				bindBody.setCantMove(false);
 				bindBody.setDropShadow(true);
@@ -134,8 +137,8 @@ public class Mixer extends ObjEX implements java.io.Serializable {
 					if(bindBody.isSleeping()) bindBody.wakeup();
 					bindBody.addDamage(100);
 					bindBody.addStress(20);
-					bindBody.setHappiness(Body.Happiness.VERY_SAD);
-					bindBody.setForceFace(Body.PAIN);
+					bindBody.setHappiness(Happiness.VERY_SAD);
+					bindBody.setForceFace(ConstantValues.PAIN);
 					if(rnd.nextInt(10) == 0) {
 						bindBody.setMessage(MessagePool.getMessage(bindBody, MessagePool.Action.Scream), true);
 					}

@@ -4,12 +4,12 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import src.*;
+import src.yukkuriBody.Body;
 
 
 public class ProductChute extends ObjEX implements java.io.Serializable {

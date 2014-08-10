@@ -14,6 +14,8 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.Direction;
 
 
 public class Stalk extends ObjEX implements java.io.Serializable {
@@ -110,10 +112,10 @@ public class Stalk extends ObjEX implements java.io.Serializable {
 			}
 			if (option == 0) {
 				babyX = (( i % 5 ) * -5 + 14);
-				b.setDirection( Body.Direction.RIGHT );
+				b.setDirection( Direction.RIGHT );
 			}else{
 				babyX = (( i % 5 ) * -5 + 14) * -1;
-				b.setDirection( Body.Direction.LEFT );
+				b.setDirection( Direction.LEFT );
 			}
 			babyZ = (( i % 5 ) * -2 + 14);
 			b.setX( getX() + babyX );

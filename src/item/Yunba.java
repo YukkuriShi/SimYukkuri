@@ -21,7 +21,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+import src.yukkuriBody.ConstantValues.Attitude;
 import src.*;
+import src.yukkuriBody.Body;
 
 
 public class Yunba extends ObjEX implements java.io.Serializable {
@@ -254,19 +256,19 @@ public class Yunba extends ObjEX implements java.io.Serializable {
 					if (actionFlags[Action.WALLTHROUGH.ordinal()][0] == false && Terrarium.acrossBarrier(getX(), getY(), b.getX(), b.getY(), Terrarium.MAP_ADULT)) {
 						continue;
 					}
-					if(b.getAttitude() == Body.Attitude.NICE && actionFlags[Action.SMARTLIMIT.ordinal()][0]){
+					if(b.getAttitude() == Attitude.NICE && actionFlags[Action.SMARTLIMIT.ordinal()][0]){
 						continue;
 					}
-					if(b.getAttitude() == Body.Attitude.SHITHEAD && actionFlags[Action.RUDELIMIT.ordinal()][0]){
+					if(b.getAttitude() == Attitude.SHITHEAD && actionFlags[Action.RUDELIMIT.ordinal()][0]){
 						continue;
 					}
-					if(b.getAttitude() == Body.Attitude.AVERAGE && actionFlags[Action.AVERAGELIMIT.ordinal()][0]){
+					if(b.getAttitude() == Attitude.AVERAGE && actionFlags[Action.AVERAGELIMIT.ordinal()][0]){
 						continue;
 					}
-					if((b.getAttitude() == Body.Attitude.SUPER_SHITHEAD && actionFlags[Action.SUPERRUDELIMIT.ordinal()][0])) {
+					if((b.getAttitude() == Attitude.SUPER_SHITHEAD && actionFlags[Action.SUPERRUDELIMIT.ordinal()][0])) {
 						continue;
 					}
-					if((b.getAttitude() == Body.Attitude.VERY_NICE && actionFlags[Action.SUPERSMARTLIMIT.ordinal()][0])) {
+					if((b.getAttitude() == Attitude.VERY_NICE && actionFlags[Action.SUPERSMARTLIMIT.ordinal()][0])) {
 						continue;
 					}
 					if(b.isDead()) {

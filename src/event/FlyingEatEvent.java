@@ -4,6 +4,10 @@ import java.util.Random;
 
 import src.*;
 import src.item.Food;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.Happiness;
+import src.yukkuriLogic.FoodLogic;
 
 
 /*
@@ -91,8 +95,8 @@ public class FlyingEatEvent extends EventPacket implements java.io.Serializable 
 				return true;
 			} else {
 				to.setMessage(MessagePool.getMessage(to, MessagePool.Action.EatenByBody2));
-				to.setHappiness(Body.Happiness.VERY_SAD);
-				to.setForceFace(Body.PAIN);
+				to.setHappiness(Happiness.VERY_SAD);
+				to.setForceFace(ConstantValues.PAIN);
 			}
 		}
 		return false;

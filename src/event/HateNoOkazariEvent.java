@@ -3,7 +3,11 @@ package src.event;
 import java.util.Random;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.BodyLogic;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.Attitude;
+import src.yukkuriBody.ConstantValues.Intelligence;
 /*
 	縺翫°縺悶ｊ縺ｮ縺ｪ縺�ｆ縺｣縺上ｊ縺ｸ縺ｮ謾ｻ謦�う繝吶Φ繝�
 	protected Body from;			// 繧､繝吶Φ繝医ｒ逋ｺ縺励◆蛟倶ｽ�
@@ -29,14 +33,14 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 		// 蝟�憶縺ｯ蜿ょ刈縺励↑縺�
 		if(b.isSmart()) return false;
 		// 閾ｪ蛻�′雉｢縺��蜷医�縺翫°縺悶ｊ縺後↑縺上※繧ょｮｶ譌上ｒ隱崎ｭ倥＠縺ｦ蜿ょ刈縺励↑縺�
-		if(b.getIntelligence() == Body.Intelligence.WISE) {
+		if(b.getIntelligence() == Intelligence.WISE) {
 			if(to.isParent(b) || to.isPartner(b) || b.isParent(to) || b.isPartner(to)) return false;
 		}
 
 		// 閾ｪ蛻�′縺企｣ｾ繧翫≠繧翫�蛛･蠎ｷ縺ｧ襍ｷ縺阪※縺溘ｉ蜿ょ刈繝√ぉ繝�け
 		if(b.hasOkazari() && !b.isDamaged() && !b.isSleeping()) {
 			// 繝峨ご繧ｹ縺ｯ蜿ょ刈
-			if(b.getAttitude() == Body.Attitude.SUPER_SHITHEAD) ret = true;
+			if(b.getAttitude() == Attitude.SUPER_SHITHEAD) ret = true;
 			else {
 				// 繧ｲ繧ｹ縲∵勸騾壹�逶ｸ謇九′轢墓ｭｻ縺倥ｃ縺ｪ縺代ｌ縺ｰ蜿ょ刈
 				if(!b.isDamaged()) {
@@ -46,8 +50,8 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 		}
 		
 		if(ret) {
-			if(from != b) {
-				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.HateYukkuri), Body.HOLDMESSAGE, true, false);
+			if(getFrom() != b) {
+				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.HateYukkuri), ConstantValues.HOLDMESSAGE, true, false);
 
 			}
 		}
@@ -79,8 +83,8 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 	public boolean execute(Body b) {
 		// 逶ｸ謇九′谿九▲縺ｦ縺�◆繧画判謦�
 		if(!to.isDead() && !to.isRemoved() && to.getZ() < 5) {
-			b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.HateYukkuri), Body.HOLDMESSAGE, true, false);
-			if(b.getDirection() == Body.Direction.LEFT) {
+			b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.HateYukkuri), ConstantValues.HOLDMESSAGE, true, false);
+			if(b.getDirection() == ConstantValues.Direction.LEFT) {
 				SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.HIT, b.getX()-10, b.getY(), 0,
 														0, 0, 0, false, 500, 1, true, false, true);
 			} else {
@@ -94,7 +98,7 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 				String bPartnerAttack = "This shitty yukkuri is nothing like " + b.getNameE() + "'s beautiful " + to.getNameE() +". So go die easy!";
 				to.setMessage(bPartnerAttack);
 			}
-			b.setForceFace(Body.PUFF);
+			b.setForceFace(ConstantValues.PUFF);
 			to.strikeByYukkuri(b, this);
 			b.addStress(-500);
 			to.reduceComplacencyTimer += 100;

@@ -15,7 +15,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.AgeState;
+import src.yukkuriBody.ConstantValues.FootBake;
 
 public class OrangePool extends ObjEX implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
@@ -89,7 +91,7 @@ public class OrangePool extends ObjEX implements java.io.Serializable {
 				if ( b.isDead() && !b.isCrashed() && !b.isBurned() ){
 					b.revival();
 				}
-				if(b.getFootBakeLevel() != Body.FootBake.CRITICAL) {
+				if(b.getFootBakeLevel() != FootBake.CRITICAL) {
 					b.setFootBakePeriod(0);
 				}
 //				b.setCantDie();

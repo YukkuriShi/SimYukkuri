@@ -3,6 +3,12 @@ package src.event;
 import java.util.Random;
 
 import src.*;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.BodyLogic;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.Attitude;
+import src.yukkuriBody.ConstantValues.Happiness;
+import src.yukkuriBody.ConstantValues.Intelligence;
 
 /*
 	レイパー襲撃に対する反応イベント
@@ -41,7 +47,7 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 		} else {
 			// 飛べない固体
 			if(b.isAdult() && !b.isDamaged() && !b.isSick() && !b.hasBabyOrStalk()
-					&& (b.isSmart() && b.getIntelligence() == Body.Intelligence.FOOL)) {
+					&& (b.isSmart() && b.getIntelligence() == Intelligence.FOOL)) {
 				// 健康でバカな善良な大人は迎撃に向かう
 				state = STATE.Attack;
 			} else {
@@ -61,16 +67,16 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 		} else {
 			// 逃げは敵と反対方向へ
 			escapeTarget(b);
-			b.setHappiness(Body.Happiness.VERY_SAD);
+			b.setHappiness(Happiness.VERY_SAD);
 		}
 	}
 	
 	// 毎フレーム処理
 	public UpdateState update(Body b) {
 		// 相手が消えてしまったら他のレイパーを捜索
-		if(from.isRemoved() || from.isDead()) {
-			from = searchNextTarget();
-			if(from == null) return UpdateState.ABORT;
+		if(getFrom().isRemoved() || getFrom().isDead()) {
+			setFrom(searchNextTarget());
+			if(getFrom() == null) return UpdateState.ABORT;
 		}
 		
 		if(state == STATE.Attack) {
@@ -79,20 +85,20 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 				state = STATE.Escape;
 			} else {
 				// 攻撃は敵に向かう
-				b.setForceFace(Body.PUFF);
+				b.setForceFace(ConstantValues.PUFF);
 				moveTarget(b);
 				if(rnd.nextInt(20) == 0) {
-					b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.AttackRapist), Body.HOLDMESSAGE, true, false);
+					b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.AttackRapist), ConstantValues.HOLDMESSAGE, true, false);
 				}
 			}
 		} else {
 			// 賢い固体は反撃チェック
 			if((age % 10) == 0) {
-				if(b.isAdult() && b.getIntelligence() == Body.Intelligence.WISE) {
+				if(b.isAdult() && b.getIntelligence() == Intelligence.WISE) {
 					Body target = null;
 					// 何らかの原因で発情が解除されたら制裁
-					if(!from.isExciting()) {
-						target = from;
+					if(!getFrom().isExciting()) {
+						target = getFrom();
 					} else {
 						target = searchAttackTarget();
 					}
@@ -104,29 +110,29 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 								// 妊娠、大人以外は不参加
 								if(body.hasBabyOrStalk() || body.isSick() || !body.isAdult()) continue;
 								// ドゲスは不参加、善良ほど参加しやすく
-								if(body.getAttitude() == Body.Attitude.SUPER_SHITHEAD) num = 1;
-								else if(body.getAttitude() == Body.Attitude.SHITHEAD) num = rnd.nextInt(2);
-								else if(body.getAttitude() == Body.Attitude.AVERAGE) num = rnd.nextInt(1);
+								if(body.getAttitude() == Attitude.SUPER_SHITHEAD) num = 1;
+								else if(body.getAttitude() == Attitude.SHITHEAD) num = rnd.nextInt(2);
+								else if(body.getAttitude() == Attitude.AVERAGE) num = rnd.nextInt(1);
 								else num = 0;
 								
 								if(num == 0) {
 									RaperReactionEvent ev = (RaperReactionEvent)body.getCurrentEvent();
-									ev.from = target;
+									ev.setFrom(target);
 									ev.state = STATE.Attack;
 								}
 							}
 						}
-						b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.CounterRapist), Body.HOLDMESSAGE, true, false);
+						b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.CounterRapist), ConstantValues.HOLDMESSAGE, true, false);
 					}
 				}
 			} else {
 				// 逃げは敵と反対方向へ
-				b.setForceFace(Body.CRYING);
+				b.setForceFace(ConstantValues.CRYING);
 				if((age % 10) == 0) {
 					escapeTarget(b);
 				}
 				if(rnd.nextInt(20) == 0) {
-					b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.ScareRapist), Body.HOLDMESSAGE, true, false);
+					b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.ScareRapist), ConstantValues.HOLDMESSAGE, true, false);
 				}
 			}
 		}
@@ -138,33 +144,33 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 	// trueを返すとイベント終了
 	public boolean execute(Body b) {
 		// 相手が消えてしまったら他のレイパーを捜索
-		if(from.isRemoved() || from.isDead()) {
-			from = searchNextTarget();
+		if(getFrom().isRemoved() || getFrom().isDead()) {
+			setFrom(searchNextTarget());
 			// レイパー全滅でイベント終了
-			if(from == null) return true;
+			if(getFrom() == null) return true;
 			return false;
 		}
 
 		if(state == STATE.Attack) {
 			// 攻撃
-			if(from.getZ() < 5) {
-				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RevengeAttack), Body.HOLDMESSAGE, true, false);
-				if(b.getDirection() == Body.Direction.LEFT) {
+			if(getFrom().getZ() < 5) {
+				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RevengeAttack), ConstantValues.HOLDMESSAGE, true, false);
+				if(b.getDirection() == ConstantValues.Direction.LEFT) {
 					SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.HIT, b.getX()-10, b.getY(), 0,
 															0, 0, 0, false, 500, 1, true, false, true);
 				} else {
 					SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.HIT, b.getX()+10, b.getY(), 0,
 															0, 0, 0, true, 500, 1, true, false, true);
 				}
-				b.setForceFace(Body.PUFF);
-				from.strikeByYukkuri(b, this);
+				b.setForceFace(ConstantValues.PUFF);
+				getFrom().strikeByYukkuri(b, this);
 				b.addStress(-500);
 			}
 		} else {
 			// 逃げ
 			escapeTarget(b);
 			if(rnd.nextInt(20) == 0) {
-				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.ScareRapist), Body.HOLDMESSAGE, true, false);
+				b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.ScareRapist), ConstantValues.HOLDMESSAGE, true, false);
 			}
 		}
 		return false;
@@ -196,13 +202,13 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 
 	// 敵に向かって移動
 	private void moveTarget(Body b) {
-		int colX = BodyLogic.calcCollisionX(b, from);
-		b.moveToEvent(this, from.getX() + colX, from.getY());
+		int colX = BodyLogic.calcCollisionX(b, getFrom());
+		b.moveToEvent(this, getFrom().getX() + colX, getFrom().getY());
 	}
 	
 	// 敵から逃げるように移動
 	private void escapeTarget(Body b) {
-		int vx = b.getX() - from.getX();
+		int vx = b.getX() - getFrom().getX();
 		if(b.getX() < 2) {
 			vx = Terrarium.MAX_X;
 		} else if(b.getX() > Terrarium.MAX_X - 2) {
@@ -211,7 +217,7 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 			if(vx > 0) vx = Terrarium.MAX_X;
 			else vx = 0;
 		}
-		int vy = b.getY() - from.getY();
+		int vy = b.getY() - getFrom().getY();
 		if(b.getY() < 2) {
 			vy = Terrarium.MAX_Y;
 		} else if(b.getY() > Terrarium.MAX_Y - 2) {

@@ -3,6 +3,8 @@ package src.event;
 import java.util.Random;
 
 import src.*;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.*;
 
 /*
 	出産時の励ましイベント
@@ -31,30 +33,30 @@ public class BreedEvent extends EventPacket implements java.io.Serializable {
 		priority = EventPriority.MIDDLE;
 
 		if(b.isUnBirth()) return false;
-		if(from == b) return false;
+		if(getFrom() == b) return false;
 
 		// 自分が馬鹿で親におかざりがなかったら参加しない
-		if(!from.hasOkazari() && b.getIntelligence() == Body.Intelligence.FOOL) return false;
+		if(!getFrom().hasOkazari() && b.getIntelligence() == Intelligence.FOOL) return false;
 
-		if(from.isParent(b) || from.isPartner(b) || b.isParent(from) || b.isPartner(from)) return true;
+		if(getFrom().isParent(b) || getFrom().isPartner(b) || b.isParent(getFrom()) || b.isPartner(getFrom())) return true;
 
 		return ret;
 	}
 
 	// イベント開始動作
 	public void start(Body b) {
-		b.moveToEvent(this, from.getX(), from.getY());
+		b.moveToEvent(this, getFrom().getX(), getFrom().getY());
 	}
 	
 	// 毎フレーム処理
 	// trueを返すとイベント終了
 	public UpdateState update(Body b) {
 		// 相手の一定距離まで近づいたら移動終了
-		if(Translate.distance(b.getX(), b.getY(), from.getX(), from.getY()) < 20000) {
+		if(Translate.distance(b.getX(), b.getY(), getFrom().getX(), getFrom().getY()) < 20000) {
 			b.moveToEvent(this, b.getX(), b.getY());
 			return UpdateState.FORCE_EXEC;
 		} else {
-			b.moveToEvent(this, from.getX(), from.getY());
+			b.moveToEvent(this, getFrom().getX(), getFrom().getY());
 		}
 		return null;
 	}
@@ -63,27 +65,27 @@ public class BreedEvent extends EventPacket implements java.io.Serializable {
 	// trueを返すとイベント終了
 	public boolean execute(Body b) {
 		// 相手が出産前なら応援
-		if(from.isBirth()) {
-			b.setHappiness(Body.Happiness.AVERAGE);
-			b.lookTo(from.getX(), from.getY());
+		if(getFrom().isBirth()) {
+			b.setHappiness(Happiness.AVERAGE);
+			b.lookTo(getFrom().getX(), getFrom().getY());
 			b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.RootForPartner), 40, false, false);
 			return false;
 		} else {
 			// 誕生
-			if(!from.hasBabyOrStalk()) {
-				b.lookTo(from.getX(), from.getY());
-				if(from.hasPants()) {
-					b.setHappiness(Body.Happiness.VERY_SAD);
+			if(!getFrom().hasBabyOrStalk()) {
+				b.lookTo(getFrom().getX(), getFrom().getY());
+				if(getFrom().hasPants()) {
+					b.setHappiness(Happiness.VERY_SAD);
 					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.Surprise), 40, true, true);
 					b.addStress(1000);
 				} else {
-					b.setHappiness(Body.Happiness.VERY_HAPPY);
+					b.setHappiness(Happiness.VERY_HAPPY);
 					b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.FirstGreeting), 40, true, false);
 					b.setStress(0);
 				}
 			} else {
-				b.setHappiness(Body.Happiness.AVERAGE);
-				b.lookTo(from.getX(), from.getY());
+				b.setHappiness(Happiness.AVERAGE);
+				b.lookTo(getFrom().getX(), getFrom().getY());
 				return false;
 			}
 			return true;

@@ -12,13 +12,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import src.Body;
 import src.MessagePool;
 import src.ModLoader;
 import src.Obj;
 import src.ObjEX;
 import src.Terrarium;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.FavItemType;
+import src.yukkuriBody.ConstantValues.Intelligence;
 
 public class Sui extends ObjEX implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
@@ -134,7 +135,7 @@ public class Sui extends ObjEX implements java.io.Serializable {
 				if(bindobj==null){
 					bindobj=b;
 					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.GetSui), true);
-					b.setFavItem(Body.FavItemType.SUI, this);
+					b.setFavItem(FavItemType.SUI, this);
 				}
 				else{
 					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.RideSui), true);
@@ -221,7 +222,7 @@ public class Sui extends ObjEX implements java.io.Serializable {
 		for(int i=0;i<bindbody_num;i++){
 //			System.out.println(i + ":" + current_bindbody_num + ":" + bindBody[i]);
 			if(bindBody[i] == null) continue;
-			if(bindBody[i].isGrabbed() || bindBody[i].getFavItem(Body.FavItemType.SUI) == null){
+			if(bindBody[i].isGrabbed() || bindBody[i].getFavItem(FavItemType.SUI) == null){
 				bindBody[i].clearActions();
 				rideOff(bindBody[i]);
 				continue;
@@ -294,7 +295,7 @@ public class Sui extends ObjEX implements java.io.Serializable {
 						bx = rnd.nextInt(Terrarium.MAX_X);
 						by = rnd.nextInt(Terrarium.MAX_Y-boundary.height/2);
 					}
-					if(rnd.nextInt(100)==0 && b.getIntelligence() == Body.Intelligence.FOOL){
+					if(rnd.nextInt(100)==0 && b.getIntelligence() == Intelligence.FOOL){
 						speed=1000;
 					}
 					moveTo(bx, by);

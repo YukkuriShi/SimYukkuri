@@ -19,6 +19,7 @@ import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
+import src.yukkuriBody.ConstantValues;
 /*****************************************************
 	繧ｰ繝ｩ繝輔ぅ繝�け繝��繧ｿ縺ｮ隱ｭ縺ｿ霎ｼ縺ｿ諡｡蠑ｵ
 	繧ｲ繝ｼ繝�幕蟋区凾縺ｫ謖�ｮ壹＠縺溘ヵ繧ｩ繝ｫ繝�°繧峨�隱ｭ縺ｿ霎ｼ縺ｿ縺ｨ繧ｨ繝ｩ繝ｼ蜃ｦ逅�ｒ陦後≧
@@ -242,110 +243,110 @@ System.out.println("jarPath : " + jarPath);
 	// 繧�▲縺上ｊ縺ｮ繝代�繝�判蜒剰ｪｭ縺ｿ霎ｼ縺ｿ
 	public static void loadBodyImagePack(ClassLoader loader, Image[][][] images, String bodyName, ImageObserver io) throws IOException
 	{
-		int left = Body.LEFT;
-		int right = Body.RIGHT;
-		int babyIndex = Body.babyIndex;
-		int childIndex = Body.childIndex;
-		int adultIndex = Body.adultIndex;
+		int left = ConstantValues.LEFT;
+		int right = ConstantValues.RIGHT;
+		int babyIndex = ConstantValues.babyIndex;
+		int childIndex = ConstantValues.childIndex;
+		int adultIndex = ConstantValues.adultIndex;
 		Image[] img = new Image[2];
 
 		MediaTracker mt = new MediaTracker((MyPane)io);
 
 		// left face
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "body", ".png");
-		images[Body.BODY][left][adultIndex] = img[0]; images[Body.BODY][right][adultIndex] = img[1];
+		images[ConstantValues.BODY][left][adultIndex] = img[0]; images[ConstantValues.BODY][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "okazari", ".png");
-		images[Body.ACCESSORY][left][adultIndex] = img[0]; images[Body.ACCESSORY][right][adultIndex] = img[1];
+		images[ConstantValues.ACCESSORY][left][adultIndex] = img[0]; images[ConstantValues.ACCESSORY][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "pants", ".png");
-		images[Body.PANTS][left][adultIndex] =	img[0]; images[Body.PANTS][right][adultIndex] = img[1];
+		images[ConstantValues.PANTS][left][adultIndex] =	img[0]; images[ConstantValues.PANTS][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "body_cut", ".png");
-		images[Body.BODY_CUT][left][adultIndex] = img[0]; images[Body.BODY_CUT][right][adultIndex] = img[1];
+		images[ConstantValues.BODY_CUT][left][adultIndex] = img[0]; images[ConstantValues.BODY_CUT][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "damage0", ".png");
-		images[Body.DAMAGED0][left][adultIndex] = img[0]; images[Body.DAMAGED0][right][adultIndex] = img[1];
+		images[ConstantValues.DAMAGED0][left][adultIndex] = img[0]; images[ConstantValues.DAMAGED0][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "damage1", ".png");
-		images[Body.DAMAGED1][left][adultIndex] = img[0]; images[Body.DAMAGED1][right][adultIndex] = img[1];
+		images[ConstantValues.DAMAGED1][left][adultIndex] = img[0]; images[ConstantValues.DAMAGED1][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "damage2", ".png");
-		images[Body.DAMAGED2][left][adultIndex] = img[0]; images[Body.DAMAGED2][right][adultIndex] = img[1];
+		images[ConstantValues.DAMAGED2][left][adultIndex] = img[0]; images[ConstantValues.DAMAGED2][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "sick0", ".png");
-		images[Body.SICK0][left][adultIndex] = img[0]; images[Body.SICK0][right][adultIndex] = img[1];
+		images[ConstantValues.SICK0][left][adultIndex] = img[0]; images[ConstantValues.SICK0][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "sick1", ".png");
-		images[Body.SICK1][left][adultIndex] = img[0]; images[Body.SICK1][right][adultIndex] = img[1];
+		images[ConstantValues.SICK1][left][adultIndex] = img[0]; images[ConstantValues.SICK1][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "sick2", ".png");
-		images[Body.SICK2][left][adultIndex] = img[0]; images[Body.SICK2][right][adultIndex] = img[1];
+		images[ConstantValues.SICK2][left][adultIndex] = img[0]; images[ConstantValues.SICK2][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "foot_bake_0", ".png");
-		images[Body.FOOT_BAKE0][left][adultIndex] = img[0]; images[Body.FOOT_BAKE0][right][adultIndex] = img[1];
+		images[ConstantValues.FOOT_BAKE0][left][adultIndex] = img[0]; images[ConstantValues.FOOT_BAKE0][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "foot_bake_1", ".png");
-		images[Body.FOOT_BAKE1][left][adultIndex] = img[0]; images[Body.FOOT_BAKE1][right][adultIndex] = img[1];
+		images[ConstantValues.FOOT_BAKE1][left][adultIndex] = img[0]; images[ConstantValues.FOOT_BAKE1][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "shit", ".png");
-		images[Body.STAIN][left][adultIndex] = img[0]; images[Body.STAIN][right][adultIndex] = img[1];
+		images[ConstantValues.STAIN][left][adultIndex] = img[0]; images[ConstantValues.STAIN][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "wet", ".png");
-		images[Body.WET][left][adultIndex] = img[0]; images[Body.WET][right][adultIndex] = img[1];
+		images[ConstantValues.WET][left][adultIndex] = img[0]; images[ConstantValues.WET][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "lick", ".png");
-		images[Body.LICK][left][adultIndex] =	img[0]; images[Body.LICK][right][adultIndex] = img[1];
+		images[ConstantValues.LICK][left][adultIndex] =	img[0]; images[ConstantValues.LICK][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "braid/braid", ".png");
-		images[Body.BRAID][left][adultIndex] = img[0]; images[Body.BRAID][right][adultIndex] = img[1];
+		images[ConstantValues.BRAID][left][adultIndex] = img[0]; images[ConstantValues.BRAID][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "braid/braid_cut", ".png");
-		images[Body.BRAID_CUT][left][adultIndex] = img[0]; images[Body.BRAID_CUT][right][adultIndex] = img[1];
+		images[ConstantValues.BRAID_CUT][left][adultIndex] = img[0]; images[ConstantValues.BRAID_CUT][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "braid/braid_mv_0", ".png");
-		images[Body.BRAID_MV0][left][adultIndex] = img[0]; images[Body.BRAID_MV0][right][adultIndex] = img[1];
+		images[ConstantValues.BRAID_MV0][left][adultIndex] = img[0]; images[ConstantValues.BRAID_MV0][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "braid/braid_mv_1", ".png");
-		images[Body.BRAID_MV1][left][adultIndex] = img[0]; images[Body.BRAID_MV1][right][adultIndex] = img[1];
+		images[ConstantValues.BRAID_MV1][left][adultIndex] = img[0]; images[ConstantValues.BRAID_MV1][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "braid/braid_mv_2", ".png");
-		images[Body.BRAID_MV2][left][adultIndex] = img[0]; images[Body.BRAID_MV2][right][adultIndex] = img[1];
+		images[ConstantValues.BRAID_MV2][left][adultIndex] = img[0]; images[ConstantValues.BRAID_MV2][right][adultIndex] = img[1];
 		/////	
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "burn", ".png");
-		images[Body.BURN][left][adultIndex] = img[0]; images[Body.BURN][right][adultIndex] = img[1];
+		images[ConstantValues.BURN][left][adultIndex] = img[0]; images[ConstantValues.BURN][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "burn01", ".png");
-		images[Body.BURN01][left][adultIndex] = img[0]; images[Body.BURN01][right][adultIndex] = img[1];
+		images[ConstantValues.BURN01][left][adultIndex] = img[0]; images[ConstantValues.BURN01][right][adultIndex] = img[1];
 		
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "bodypinned", ".png");
-		images[Body.BODYPINNED][left][adultIndex] = img[0]; images[Body.BODYPINNED][right][adultIndex] = img[1];
+		images[ConstantValues.BODYPINNED][left][adultIndex] = img[0]; images[ConstantValues.BODYPINNED][right][adultIndex] = img[1];
 	
 
 		
 		
 		// 鬘�
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/cheer", ".png");
-		images[Body.CHEER][left][adultIndex] = img[0]; images[Body.CHEER][right][adultIndex] = img[1];
+		images[ConstantValues.CHEER][left][adultIndex] = img[0]; images[ConstantValues.CHEER][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/crying", ".png");
-		images[Body.CRYING][left][adultIndex] = img[0]; images[Body.CRYING][right][adultIndex] = img[1];
+		images[ConstantValues.CRYING][left][adultIndex] = img[0]; images[ConstantValues.CRYING][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/dead", ".png");
-		images[Body.DEAD][left][adultIndex] = img[0]; images[Body.DEAD][right][adultIndex] = img[1];
+		images[ConstantValues.DEAD][left][adultIndex] = img[0]; images[ConstantValues.DEAD][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/exciting", ".png");
-		images[Body.EXCITING][left][adultIndex] = img[0]; images[Body.EXCITING][right][adultIndex] = img[1];
+		images[ConstantValues.EXCITING][left][adultIndex] = img[0]; images[ConstantValues.EXCITING][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/normal", ".png");
-		images[Body.NORMAL][left][adultIndex] = img[0]; images[Body.NORMAL][right][adultIndex] = img[1];
+		images[ConstantValues.NORMAL][left][adultIndex] = img[0]; images[ConstantValues.NORMAL][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/pain", ".png");
-		images[Body.PAIN][left][adultIndex] = img[0]; images[Body.PAIN][right][adultIndex] = img[1];
+		images[ConstantValues.PAIN][left][adultIndex] = img[0]; images[ConstantValues.PAIN][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/puff", ".png");
-		images[Body.PUFF][left][adultIndex] = img[0]; images[Body.PUFF][right][adultIndex] = img[1];
+		images[ConstantValues.PUFF][left][adultIndex] = img[0]; images[ConstantValues.PUFF][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/refreshed", ".png");
-		images[Body.REFRESHED][left][adultIndex] = img[0]; images[Body.REFRESHED][right][adultIndex] = img[1];
+		images[ConstantValues.REFRESHED][left][adultIndex] = img[0]; images[ConstantValues.REFRESHED][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/rude", ".png");
-		images[Body.RUDE][left][adultIndex] = img[0]; images[Body.RUDE][right][adultIndex] = img[1];
+		images[ConstantValues.RUDE][left][adultIndex] = img[0]; images[ConstantValues.RUDE][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/sleeping", ".png");
-		images[Body.SLEEPING][left][adultIndex] = img[0]; images[Body.SLEEPING][right][adultIndex] = img[1];
+		images[ConstantValues.SLEEPING][left][adultIndex] = img[0]; images[ConstantValues.SLEEPING][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/smile", ".png");
-		images[Body.SMILE][left][adultIndex] = img[0]; images[Body.SMILE][right][adultIndex] = img[1];
+		images[ConstantValues.SMILE][left][adultIndex] = img[0]; images[ConstantValues.SMILE][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/surprise", ".png");
-		images[Body.SURPRISE][left][adultIndex] = img[0]; images[Body.SURPRISE][right][adultIndex] = img[1];
+		images[ConstantValues.SURPRISE][left][adultIndex] = img[0]; images[ConstantValues.SURPRISE][right][adultIndex] = img[1];
 		img = loadBodyImage(mt, loader, bodyTheme, bodyName, "faces/tired", ".png");
-		images[Body.TIRED][left][adultIndex] = img[0]; images[Body.TIRED][right][adultIndex] = img[1];
+		images[ConstantValues.TIRED][left][adultIndex] = img[0]; images[ConstantValues.TIRED][right][adultIndex] = img[1];
 		// center
-		images[Body.BURNED][left][adultIndex] = 		loadBodyImage(loader, bodyTheme, bodyName, "burned1", ".png");
-		images[Body.BURNED2][left][adultIndex] = 		loadBodyImage(loader, bodyTheme, bodyName, "burned2", ".png");
-		images[Body.CRUSHED][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "crushed", ".png");
-		images[Body.CRUSHED2][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "crushed2", ".png");
-		images[Body.ROLL_ACCESSORY][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "okazari", ".png");
-		images[Body.FRONT_PANTS][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "pants", ".png");
-		images[Body.FRONT_SHIT][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "shit", ".png");
-		images[Body.FRONT_SHIT_SEALED][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "shit_sealed", ".png");
-		images[Body.ROLL_PANTS][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "left_pants", ".png");
-		images[Body.ROLL_PANTS][right][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "right_pants", ".png");
-		images[Body.ROLL_SHIT][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "roll_left", ".png");
-		images[Body.ROLL_SHIT][right][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "roll_right", ".png");
-		images[Body.ROLL_SHIT_SEALED][left][adultIndex] = loadBodyImage(loader, bodyTheme, bodyName, "roll_left_sealed", ".png");
-		images[Body.ROLL_SHIT_SEALED][right][adultIndex] = loadBodyImage(loader, bodyTheme, bodyName, "roll_right_sealed", ".png");
+		images[ConstantValues.BURNED][left][adultIndex] = 		loadBodyImage(loader, bodyTheme, bodyName, "burned1", ".png");
+		images[ConstantValues.BURNED2][left][adultIndex] = 		loadBodyImage(loader, bodyTheme, bodyName, "burned2", ".png");
+		images[ConstantValues.CRUSHED][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "crushed", ".png");
+		images[ConstantValues.CRUSHED2][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "crushed2", ".png");
+		images[ConstantValues.ROLL_ACCESSORY][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "okazari", ".png");
+		images[ConstantValues.FRONT_PANTS][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "pants", ".png");
+		images[ConstantValues.FRONT_SHIT][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "shit", ".png");
+		images[ConstantValues.FRONT_SHIT_SEALED][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "shit_sealed", ".png");
+		images[ConstantValues.ROLL_PANTS][left][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "left_pants", ".png");
+		images[ConstantValues.ROLL_PANTS][right][adultIndex] =	loadBodyImage(loader, bodyTheme, bodyName, "right_pants", ".png");
+		images[ConstantValues.ROLL_SHIT][left][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "roll_left", ".png");
+		images[ConstantValues.ROLL_SHIT][right][adultIndex] =		loadBodyImage(loader, bodyTheme, bodyName, "roll_right", ".png");
+		images[ConstantValues.ROLL_SHIT_SEALED][left][adultIndex] = loadBodyImage(loader, bodyTheme, bodyName, "roll_left_sealed", ".png");
+		images[ConstantValues.ROLL_SHIT_SEALED][right][adultIndex] = loadBodyImage(loader, bodyTheme, bodyName, "roll_right_sealed", ".png");
 		//////////////////////////////////////////
 		//eternity
 ////////////////////////////////////////////////
@@ -371,11 +372,11 @@ System.out.println("jarPath : " + jarPath);
 				if(array[adultIndex] == null) {
 					continue;
 				}
-				sx = (int)((float)array[adultIndex].getWidth(io) * Body.bodySize[1]);
-				sy = (int)((float)array[adultIndex].getHeight(io) * Body.bodySize[1]);
+				sx = (int)((float)array[adultIndex].getWidth(io) * ConstantValues.bodySize[1]);
+				sy = (int)((float)array[adultIndex].getHeight(io) * ConstantValues.bodySize[1]);
 				array[childIndex] = array[adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
-				sx = (int)((float)array[adultIndex].getWidth(io) * Body.bodySize[0]);
-				sy = (int)((float)array[adultIndex].getHeight(io) * Body.bodySize[0]);
+				sx = (int)((float)array[adultIndex].getWidth(io) * ConstantValues.bodySize[0]);
+				sy = (int)((float)array[adultIndex].getHeight(io) * ConstantValues.bodySize[0]);
 				array[babyIndex] =  array[adultIndex].getScaledInstance(sx, sy, Image.SCALE_AREA_AVERAGING);
 			}
 		}
@@ -390,10 +391,10 @@ System.out.println("jarPath : " + jarPath);
 			bodyRect[i].x = bodyRect[i].width >> 1;
 			bodyRect[i].y = bodyRect[i].height - 1;
 
-			if(bodyImg[Body.BRAID][0][i] != null) {
-				braidRect[i] = new Dimension(bodyImg[Body.BRAID][0][i].getWidth(io), bodyImg[Body.BRAID][0][i].getHeight(io));
-			} else if(bodyImg[Body.BRAID][1][i] != null) {
-				braidRect[i] = new Dimension(bodyImg[Body.BRAID][1][i].getWidth(io), bodyImg[Body.BRAID][1][i].getHeight(io));
+			if(bodyImg[ConstantValues.BRAID][0][i] != null) {
+				braidRect[i] = new Dimension(bodyImg[ConstantValues.BRAID][0][i].getWidth(io), bodyImg[ConstantValues.BRAID][0][i].getHeight(io));
+			} else if(bodyImg[ConstantValues.BRAID][1][i] != null) {
+				braidRect[i] = new Dimension(bodyImg[ConstantValues.BRAID][1][i].getWidth(io), bodyImg[ConstantValues.BRAID][1][i].getHeight(io));
 			}
 		}
 	}

@@ -2,6 +2,8 @@ package src;
 
 import java.awt.Image;
 
+import src.yukkuriBody.Body;
+
 /****************************************
  *  ゆっくりの体に付くアタッチメントのベースクラス
  * 

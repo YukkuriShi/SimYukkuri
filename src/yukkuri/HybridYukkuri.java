@@ -7,8 +7,11 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
-import src.Body.AgeState;
 import src.YukkuriUtil.YukkuriType;
+import src.yukkuri.Common.Reimu;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 
 
 public class HybridYukkuri extends Body implements java.io.Serializable {
@@ -51,14 +54,14 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 					parentTmp = (HybridYukkuri)parents[Parent.MAMA.ordinal()];
 					doreiTmp = parentTmp.dorei;
 				}else{
-					doreiTmp = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.MAMA.ordinal()].getType(), null, Body.AgeState.BABY, null, null);
+					doreiTmp = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.MAMA.ordinal()].getType(), null, AgeState.BABY, null, null);
 				}
 			}else{
 				if ( parents[Parent.PAPA.ordinal()].getType() == 20000 ){
 					parentTmp = (HybridYukkuri)parents[Parent.PAPA.ordinal()];
 					doreiTmp = parentTmp.dorei;
 				}else{
-					doreiTmp = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.PAPA.ordinal()].getType(), null, Body.AgeState.BABY, null, null);
+					doreiTmp = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.PAPA.ordinal()].getType(), null, AgeState.BABY, null, null);
 				}
 			}
 
@@ -67,7 +70,7 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 					parentTmp2 = (HybridYukkuri)parents[Parent.PAPA.ordinal()];
 					doreiTmp2 = parentTmp2.dorei;
 				}else{
-					doreiTmp2 = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.PAPA.ordinal()].getType(), null, Body.AgeState.BABY, null, null);
+					doreiTmp2 = SimYukkuri.mypane.terrarium.makeBody(0, 0, 0, parents[Parent.PAPA.ordinal()].getType(), null, AgeState.BABY, null, null);
 				}
 			}else{
 				doreiTmp2 = doreiTmp;
@@ -99,64 +102,64 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 		nameE2 = dorei2.getNameE();
 
 		// left face
-		images[BODY] =		dorei;
-		images[LICK] =		dorei2;
-		images[BRAID] =		dorei3;
-		images[BRAID_CUT] =	dorei3;
-		images[BRAID_MV0] =	dorei3;
-		images[BRAID_MV1] =	dorei3;
-		images[BRAID_MV2] =	dorei3;
-		images[ACCESSORY] =	dorei4;
-		images[DAMAGED0] =	dorei;
-		images[DAMAGED1] =	dorei;
-		images[DAMAGED2] =	dorei;
-		images[PANTS] =		dorei4;
-		images[STAIN] =		dorei;
-		images[SICK0] =		dorei;
-		images[SICK1] =		dorei;
-		images[SICK2] =		dorei;
-		images[NORMAL] =	dorei2;
-		images[SLEEPING] =	dorei2;
-		images[CHEER] =		dorei2;
-		images[SMILE] =		dorei2;
-		images[TIRED] =		dorei2;
-		images[PUFF] =		dorei2;
-		images[CRYING] =	dorei2;
-		images[EXCITING] =	dorei2;
-		images[REFRESHED] =	dorei2;
-		images[DEAD] =		dorei2;
-		images[RUDE] =		dorei2;
-		images[WET] =		dorei;
-		images[PAIN] =		dorei2;
-		images[SURPRISE] = 	dorei2;
-		images[FRONT_SHIT_SEALED] = dorei;
-		images[ROLL_SHIT_SEALED] = dorei;
-		images[BODY_CUT] =	dorei;
-		images[FOOT_BAKE0] = dorei;
-		images[FOOT_BAKE1] = dorei;
+		images[ConstantValues.BODY] =		dorei;
+		images[ConstantValues.LICK] =		dorei2;
+		images[ConstantValues.BRAID] =		dorei3;
+		images[ConstantValues.BRAID_CUT] =	dorei3;
+		images[ConstantValues.BRAID_MV0] =	dorei3;
+		images[ConstantValues.BRAID_MV1] =	dorei3;
+		images[ConstantValues.BRAID_MV2] =	dorei3;
+		images[ConstantValues.ACCESSORY] =	dorei4;
+		images[ConstantValues.DAMAGED0] =	dorei;
+		images[ConstantValues.DAMAGED1] =	dorei;
+		images[ConstantValues.DAMAGED2] =	dorei;
+		images[ConstantValues.PANTS] =		dorei4;
+		images[ConstantValues.STAIN] =		dorei;
+		images[ConstantValues.SICK0] =		dorei;
+		images[ConstantValues.SICK1] =		dorei;
+		images[ConstantValues.SICK2] =		dorei;
+		images[ConstantValues.NORMAL] =	dorei2;
+		images[ConstantValues.SLEEPING] =	dorei2;
+		images[ConstantValues.CHEER] =		dorei2;
+		images[ConstantValues.SMILE] =		dorei2;
+		images[ConstantValues.TIRED] =		dorei2;
+		images[ConstantValues.PUFF] =		dorei2;
+		images[ConstantValues.CRYING] =	dorei2;
+		images[ConstantValues.EXCITING] =	dorei2;
+		images[ConstantValues.REFRESHED] =	dorei2;
+		images[ConstantValues.DEAD] =		dorei2;
+		images[ConstantValues.RUDE] =		dorei2;
+		images[ConstantValues.WET] =		dorei;
+		images[ConstantValues.PAIN] =		dorei2;
+		images[ConstantValues.SURPRISE] = 	dorei2;
+		images[ConstantValues.FRONT_SHIT_SEALED] = dorei;
+		images[ConstantValues.ROLL_SHIT_SEALED] = dorei;
+		images[ConstantValues.BODY_CUT] =	dorei;
+		images[ConstantValues.FOOT_BAKE0] = dorei;
+		images[ConstantValues.FOOT_BAKE1] = dorei;
 		// center
-		images[CRUSHED] =		dorei;			
-		images[CRUSHED2] =		dorei;			
-		images[FRONT_SHIT] =			dorei;
-		images[ROLL_ACCESSORY] =	dorei4;
-		images[ROLL_SHIT] =		dorei;
-		images[FRONT_PANTS] =		dorei4;
-		images[ROLL_PANTS] =	dorei4;
-		images[BURNED] =		dorei;
-		images[BURNED2] =		dorei;
+		images[ConstantValues.CRUSHED] =		dorei;			
+		images[ConstantValues.CRUSHED2] =		dorei;			
+		images[ConstantValues.FRONT_SHIT] =			dorei;
+		images[ConstantValues.ROLL_ACCESSORY] =	dorei4;
+		images[ConstantValues.ROLL_SHIT] =		dorei;
+		images[ConstantValues.FRONT_PANTS] =		dorei4;
+		images[ConstantValues.ROLL_PANTS] =	dorei4;
+		images[ConstantValues.BURNED] =		dorei;
+		images[ConstantValues.BURNED2] =		dorei;
 
 		for(int i = 0; i < 3; i++) {
-			images[BODY].setAgeState(Body.AgeState.values()[i]);
+			images[ConstantValues.BODY].setAgeState(AgeState.values()[i]);
 			boundary[i] = new Rectangle();
-			boundary[i].width = images[BODY].getW();
-			boundary[i].height = images[BODY].getH();
+			boundary[i].width = images[ConstantValues.BODY].getW();
+			boundary[i].height = images[ConstantValues.BODY].getH();
 			boundary[i].x = boundary[i].width >> 1;
 			boundary[i].y = boundary[i].height - 1;
 			
-			images[BRAID].setAgeState(Body.AgeState.values()[i]);
+			images[ConstantValues.BRAID].setAgeState(AgeState.values()[i]);
 			braidBoundary[i] = new Dimension();
-			braidBoundary[i].width = images[BRAID].getBraidW();
-			braidBoundary[i].height = images[BRAID].getBraidH();
+			braidBoundary[i].width = images[ConstantValues.BRAID].getBraidW();
+			braidBoundary[i].height = images[ConstantValues.BRAID].getBraidH();
 		}
 		
 		// 縺贋ｸ九￡譛臥┌
@@ -170,15 +173,15 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 		flyingType = dorei3.isFlyingType();
 		// 謐暮｣溽ｨｮ蠑慕ｶ吶℃
 		if(dorei.isPredatorType()) {
-			if(flyingType) predatorType = Body.PredatorType.SUCTION;
-			else predatorType = Body.PredatorType.BITE;
+			if(flyingType) predatorType = PredatorType.SUCTION;
+			else predatorType = PredatorType.BITE;
 		} else {
 			predatorType = null;
 		}
 	}
 
 	public Image getImage(int type, int direction) {
-		images[type].setAgeState(bodyAgeState);
+		images[type].setAgeState(getBodyAgeState());
 		return images[type].getImage(type, direction);
 	}
 	
@@ -225,10 +228,10 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 	}
 	
 	// public methods
-	public HybridYukkuri(int initX, int initY, int initZ, Body.AgeState initAgeState, Body p1, Body p2) {
+	public HybridYukkuri(int initX, int initY, int initZ, AgeState initAgeState, Body p1, Body p2) {
 		super(initX, initY, initZ, initAgeState, p1, p2);
 		setBoundary(boundary, braidBoundary);
-		msgType = YukkuriType.HYBRIDYUKKURI;
+		setMsgType(YukkuriType.HYBRIDYUKKURI);
 		shitType = p1.getShitType();
 	}
 	
@@ -268,12 +271,12 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 		STRENGTH[AgeState.CHILD.ordinal()] *= factor;
 		STRENGTH[AgeState.BABY.ordinal()] *= factor;
 		
-		VALUEPURCHASE[AgeState.ADULT.ordinal()] = 4*valuePurchase;
-		VALUEPURCHASE[AgeState.CHILD.ordinal()] = 2*valuePurchase;
-		VALUEPURCHASE[AgeState.BABY.ordinal()] = valuePurchase;
-		VALUESALE[AgeState.ADULT.ordinal()] = 5*valueSale;
-		VALUESALE[AgeState.CHILD.ordinal()] = 3*valueSale;
-		VALUESALE[AgeState.BABY.ordinal()] = valueSale ;
+		getVALUEPURCHASE()[AgeState.ADULT.ordinal()] = 4*valuePurchase;
+		getVALUEPURCHASE()[AgeState.CHILD.ordinal()] = 2*valuePurchase;
+		getVALUEPURCHASE()[AgeState.BABY.ordinal()] = valuePurchase;
+		getVALUESALE()[AgeState.ADULT.ordinal()] = 5*valueSale;
+		getVALUESALE()[AgeState.CHILD.ordinal()] = 3*valueSale;
+		getVALUESALE()[AgeState.BABY.ordinal()] = valueSale ;
 		
 		int stressFactor = rnd.nextInt(100) - 50;
 		int StressMedian = 650;
@@ -281,7 +284,7 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 		STRESSLIMIT[AgeState.CHILD.ordinal()] =StressMedian + stressFactor - 150;
 		STRESSLIMIT[AgeState.BABY.ordinal()] = StressMedian + stressFactor - 250;
 		
-		images = new Body[NUM_OF_CONDITIONS];
+		images = new Body[ConstantValues.NUM_OF_CONDITIONS];
 		try {
 			loadImages_Hyblid();
 		} catch (IOException e1) {

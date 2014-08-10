@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.yukkuriBody.Body;
 
 
 public class Beltconveyor extends ObjEX implements java.io.Serializable {

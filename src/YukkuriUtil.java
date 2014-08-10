@@ -5,9 +5,16 @@ import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Random;
 
-import src.Body.Attitude;
-import src.Body.Intelligence;
 import src.yukkuri.*;
+import src.yukkuri.Common.Marisa;
+import src.yukkuri.Common.Reimu;
+import src.yukkuri.Rare.Ayaya;
+import src.yukkuri.Rare.Suwako;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.Attitude;
+import src.yukkuriBody.ConstantValues.Intelligence;
+import src.yukkuriBody.ConstantValues.TangType;
 
 
 /***************************************************
@@ -237,7 +244,7 @@ public class YukkuriUtil {
 				if(b.isDead()) return null;
 				if(!b.isAdult()) return null;
 				if(b.getStress() > 0) return null;
-				if(b.getTangType() == Body.TangType.POOR) return null;
+				if(b.getTangType() == TangType.POOR) return null;
 				if(b.isDamaged()) return null;
 				if(!b.isFull()) return null;
 				if(!b.isRude()) return null;

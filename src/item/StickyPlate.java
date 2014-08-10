@@ -5,12 +5,12 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.CriticalDamegeType;
 
 public class StickyPlate extends ObjEX implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
@@ -71,7 +71,7 @@ public class StickyPlate extends ObjEX implements java.io.Serializable {
 	@Override	
 	public int objHitProcess( Obj o ) {
 		if(((Body)o).isDead()) return 0;
-		if(((Body)o).getCriticalDamegeType() == Body.CriticalDamegeType.CUT) return 0;
+		if(((Body)o).getCriticalDamegeType() == CriticalDamegeType.CUT) return 0;
 
 		bindBody = (Body)o;
 		bindBody.clearActions();

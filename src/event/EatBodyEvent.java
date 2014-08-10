@@ -3,7 +3,9 @@ package src.event;
 import java.util.Random;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.*;
 /*
 	死体食事中におかざりを戻すイベント
 	protected Body from;			// 死体
@@ -27,11 +29,11 @@ public class EatBodyEvent extends EventPacket implements java.io.Serializable {
 	public boolean checkEventResponse(Body b) {
 		boolean ret = false;
 
-		if(from == b) return false;
+		if(getFrom() == b) return false;
 
 		priority = EventPriority.MIDDLE;
 		// 自分が食事中でドゲス以外なら反応
-		if(b.isEating() && b.getMoveTarget() == from && b.getAttitude() != Body.Attitude.SUPER_SHITHEAD) {
+		if(b.isEating() && b.getMoveTarget() == getFrom() && b.getAttitude() != Attitude.SUPER_SHITHEAD) {
 			ret = true;
 		}
 		return ret;
@@ -40,7 +42,7 @@ public class EatBodyEvent extends EventPacket implements java.io.Serializable {
 	// イベント開始動作
 	public void start(Body b) {
 		// ゆっくりが隠れないように死体の手前に出る
-		b.moveToEvent(this, from.getX() + 5, from.getY() + 4);
+		b.moveToEvent(this, getFrom().getX() + 5, getFrom().getY() + 4);
 	}
 	
 	// イベント目標に到着した際に呼ばれる
@@ -49,22 +51,22 @@ public class EatBodyEvent extends EventPacket implements java.io.Serializable {
 		// 複数の動作を順次行うのでtickで管理
 		if(tick == 0) {
 			// 固まる
-			b.lookTo(from.getX(), from.getY());
-			b.setForceFace(Body.NORMAL);
+			b.lookTo(getFrom().getX(), getFrom().getY());
+			b.setForceFace(ConstantValues.NORMAL);
 			b.stay();
 		} else if(tick == 30) {
 			// 驚く
-			b.lookTo(from.getX(), from.getY());
-			b.setForceFace(Body.SURPRISE);
+			b.lookTo(getFrom().getX(), getFrom().getY());
+			b.setForceFace(ConstantValues.SURPRISE);
 			b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.Surprise), 52, true, false);
 			b.stay();
 		} else if(tick == 80) {
 			// 吐く
-			b.lookTo(from.getX(), from.getY());
-			b.setForceFace(Body.CRYING);
+			b.lookTo(getFrom().getX(), getFrom().getY());
+			b.setForceFace(ConstantValues.CRYING);
 			b.setBodyEventResMessage(MessagePool.getMessage(b, MessagePool.Action.Vomit), 62, true, false);
 			int ofsX = Translate.invertX(b.getCollisionX()>>1, b.getY());
-			if(b.getDirection() == Body.Direction.LEFT) ofsX = -ofsX;
+			if(b.getDirection() == Direction.LEFT) ofsX = -ofsX;
 			SimYukkuri.mypane.terrarium.addVomit(b.getX() + ofsX, b.getY(), b.getZ(), b.getAgeState(), b.getShitType());
 			b.stay();
 		} else if(tick == 140) {
@@ -85,10 +87,10 @@ public class EatBodyEvent extends EventPacket implements java.io.Serializable {
 					b.addStress(500);
 					break;
 			}
-			b.setHappiness(Body.Happiness.VERY_SAD);
+			b.setHappiness(Happiness.VERY_SAD);
 			return true;
 		} else {
-			b.lookTo(from.getX(), from.getY());
+			b.lookTo(getFrom().getX(), getFrom().getY());
 			b.stay();
 		}
 		tick++;

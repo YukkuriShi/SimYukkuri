@@ -16,6 +16,8 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import src.*;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.AgeState;
 
 
 public class AutoFeeder extends ObjEX implements java.io.Serializable {
@@ -126,7 +128,7 @@ public class AutoFeeder extends ObjEX implements java.io.Serializable {
 			}
 		} else {
 			if(type == FeedType.BODY.ordinal()) {
-				food = SimYukkuri.mypane.terrarium.addBody(getX(), getY(), 0, rnd.nextInt(6), Body.AgeState.BABY, null, null);
+				food = SimYukkuri.mypane.terrarium.addBody(getX(), getY(), 0, rnd.nextInt(6), AgeState.BABY, null, null);
 				Cash.buyYukkuri((Body)food);
 				Cash.addCash(-getCost());
 			} else {

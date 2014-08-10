@@ -1,6 +1,7 @@
 package src.event;
 
 import src.*;
+import src.yukkuriBody.Body;
 
 
 /*

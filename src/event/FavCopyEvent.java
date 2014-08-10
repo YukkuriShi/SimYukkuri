@@ -1,7 +1,9 @@
 package src.event;
 
 import src.*;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.FavItemType;
 /*
 	お気に入りの情報を家族で共有するシンプルアクション
 	protected Body from;			// イベントを発した個体
@@ -18,11 +20,11 @@ public class FavCopyEvent extends EventPacket implements java.io.Serializable {
 	}
 
 	public boolean simpleEventAction(Body b) {
-		if(from == b) return false;
+		if(getFrom() == b) return false;
 		// イベントの発信者が家族かチェック
-		if(b.isParent(from) || from.isParent(b) || b.isPartner(from)) {
-			if (!Terrarium.acrossBarrier(b.getX(), b.getY(), from.getX(), from.getY(), Terrarium.MAP_BODY[b.getAgeState().ordinal()])) {
-				b.setFavItem(Body.FavItemType.BED, from.getFavItem(Body.FavItemType.BED));
+		if(b.isParent(getFrom()) || getFrom().isParent(b) || b.isPartner(getFrom())) {
+			if (!Terrarium.acrossBarrier(b.getX(), b.getY(), getFrom().getX(), getFrom().getY(), Terrarium.MAP_BODY[b.getAgeState().ordinal()])) {
+				b.setFavItem(FavItemType.BED, getFrom().getFavItem(FavItemType.BED));
 			}
 		}
 		return true;

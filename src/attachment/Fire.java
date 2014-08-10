@@ -6,9 +6,10 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.Attachment;
-import src.Body;
 import src.MessagePool;
 import src.ModLoader;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.*;
 
 
 /****************************************
@@ -40,9 +41,9 @@ public class Fire extends Attachment {
 
 	public static void loadImages (ClassLoader loader, ImageObserver io) throws IOException {
 		
-		int baby = Body.AgeState.BABY.ordinal();
-		int child = Body.AgeState.CHILD.ordinal();
-		int adult = Body.AgeState.ADULT.ordinal();
+		int baby = AgeState.BABY.ordinal();
+		int child = AgeState.CHILD.ordinal();
+		int adult = AgeState.ADULT.ordinal();
 		images = new Image[3][4];
 		
 		// 炎

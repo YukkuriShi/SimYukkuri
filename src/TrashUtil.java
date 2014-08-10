@@ -8,7 +8,10 @@ import java.util.Random;
 
 import src.event.GetTrashOkazariEvent;
 import src.item.Trash;
-
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.ConstantValues.AgeState;
+import src.yukkuriLogic.EventLogic;
 
 /***************************************************
   ガラクタ処理クラス 
@@ -79,7 +82,7 @@ public class TrashUtil {
 		int wallMode = b.getAgeState().ordinal();
 		// 飛行可能なら壁以外は通過可能
 		if(b.canflyCheck()) {
-			wallMode = Body.AgeState.ADULT.ordinal();
+			wallMode = AgeState.ADULT.ordinal();
 		}
 
 		for (ObjEX t: Trash.objEXList) {
@@ -99,7 +102,7 @@ public class TrashUtil {
 		return false;
 	}
 	
-	public static final OkazariType getRandomOkazari(Body.AgeState ageState) {
+	public static final OkazariType getRandomOkazari(AgeState ageState) {
 		int num = OKAZARI_START[ageState.ordinal()] + rnd.nextInt(OKAZARI_NUM[ageState.ordinal()]);
 		return OkazariType.values()[num];
 	}

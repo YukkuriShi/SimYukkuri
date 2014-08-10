@@ -5,13 +5,14 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import src.*;
 import src.YukkuriUtil.YukkuriType;
+import src.yukkuriBody.Body;
+import src.yukkuriBody.ConstantValues.AgeState;
 
 
 public class FoodMaker extends ObjEX implements java.io.Serializable {
@@ -207,7 +208,7 @@ public class FoodMaker extends ObjEX implements java.io.Serializable {
 			int dir = 1;
 			if(x + 52 >= Terrarium.MAX_X) dir = -1;
 			if (foodType == Food.type.SHIT){
-				SimYukkuri.mypane.terrarium.addVomit(x + (52 * dir), y, 0, Body.AgeState.ADULT, YukkuriType.REIMU);
+				SimYukkuri.mypane.terrarium.addVomit(x + (52 * dir), y, 0, AgeState.ADULT, YukkuriType.REIMU);
 			}else{
 				SimYukkuri.mypane.terrarium.addObjEX(ObjEX.ObjEXType.FOOD, x + (52 * dir), y, foodType.ordinal());
 			}
