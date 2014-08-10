@@ -9,6 +9,7 @@ import java.io.IOException;
 
 import src.*;
 import src.YukkuriUtil.YukkuriType;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.*;

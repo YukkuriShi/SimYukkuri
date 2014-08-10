@@ -11,6 +11,10 @@ import java.util.Random;
 
 import src.*;
 import src.YukkuriUtil.YukkuriType;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Shit;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.AgeState;
 
@@ -66,7 +70,7 @@ public class FoodMaker extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public Image getImage() {
-		if(enabled) return images[(int)age / 2 % AnimeImagesNum[0]];
+		if(enabled) return images[(int)getAge() / 2 % AnimeImagesNum[0]];
 		return images[AnimeImagesNum[0]];
 	}
 
@@ -219,7 +223,7 @@ public class FoodMaker extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public void upDate() {
-		if ( age % 4 == 0 && processReady == false ){
+		if ( getAge() % 4 == 0 && processReady == false ){
 			processReady = true;
 		}
 	}

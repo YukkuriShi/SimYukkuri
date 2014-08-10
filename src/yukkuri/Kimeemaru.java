@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import src.*;
 import src.YukkuriUtil.YukkuriType;
+import src.system.ModLoader;
 import src.yukkuri.Rare.Ayaya;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;

@@ -4,6 +4,8 @@ import java.util.Random;
 
 import src.*;
 import src.item.Food;
+import src.object.Obj;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.Happiness;

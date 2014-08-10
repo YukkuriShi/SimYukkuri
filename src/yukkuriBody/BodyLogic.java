@@ -4,11 +4,11 @@ import java.util.Random;
 
 import src.MessagePool;
 import src.Terrarium;
-import src.Translate;
 import src.EventPacket.EventPriority;
 import src.MessagePool.Action;
 import src.TrashUtil.OkazariType;
 import src.event.*;
+import src.system.Translate;
 import src.yukkuri.Predator.Fran;
 import src.yukkuri.Predator.Remirya;
 import src.yukkuri.Rare.Sakuya;

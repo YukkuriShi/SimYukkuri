@@ -3,6 +3,9 @@ package src.event;
 import java.util.Random;
 
 import src.*;
+import src.object.Effect;
+import src.object.Obj;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.BodyLogic;
 import src.yukkuriBody.ConstantValues;

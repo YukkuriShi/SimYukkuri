@@ -8,6 +8,10 @@ import java.util.Random;
 
 import src.event.GetTrashOkazariEvent;
 import src.item.Trash;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.AgeState;

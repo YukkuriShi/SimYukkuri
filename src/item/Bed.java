@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.object.ObjEX;
+import src.system.ModLoader;
 
 
 public class Bed extends ObjEX implements java.io.Serializable {

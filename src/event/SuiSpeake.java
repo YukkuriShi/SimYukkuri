@@ -4,9 +4,9 @@ import java.util.Random;
 
 import src.EventPacket;
 import src.MessagePool;
-import src.Obj;
-import src.Translate;
 import src.item.Sui;
+import src.object.Obj;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriLogic.EventLogic;

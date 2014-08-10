@@ -1,9 +1,12 @@
-package src;
+package src.object;
 
 
 import java.awt.Image;
 import java.awt.Point;
 import java.awt.Rectangle;
+
+import src.Terrarium;
+import src.system.Translate;
 
 public abstract class ObjEX extends Obj implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
@@ -142,7 +145,7 @@ public abstract class ObjEX extends Obj implements java.io.Serializable {
 	@Override
 	public Event clockTick()
 	{
-		age += TICK;
+		setAge(getAge() + TICK);
 		if (removed) {
 			removeListData();
 			return Event.REMOVED;

@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 
 
@@ -37,7 +40,7 @@ public class MachinePress extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public Image getImage() {
-		if(enabled) return images[(int)age / 2 % AnimeImagesNum[0]];
+		if(enabled) return images[(int)getAge() / 2 % AnimeImagesNum[0]];
 		 return images[AnimeImagesNum[0]];
 	}
 
@@ -62,7 +65,7 @@ public class MachinePress extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public int objHitProcess( Obj o ) {
-		if ( o.getObjType() == Obj.Type.YUKKURI && (int)age/2%AnimeImagesNum[0] == 0) {
+		if ( o.getObjType() == Obj.Type.YUKKURI && (int)getAge()/2%AnimeImagesNum[0] == 0) {
 			Body p = (Body)o;
 			p.strikeByPress();
 		}
@@ -71,7 +74,7 @@ public class MachinePress extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public void upDate() {
-		if ( age % 2400 == 0 ){
+		if ( getAge() % 2400 == 0 ){
 			Cash.addCash(-getCost());
 		}
 	}

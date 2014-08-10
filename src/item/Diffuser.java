@@ -16,6 +16,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import src.*;
+import src.object.Effect;
+import src.object.ObjEX;
+import src.system.ModLoader;
 
 
 public class Diffuser extends ObjEX implements java.io.Serializable {
@@ -90,7 +93,7 @@ public class Diffuser extends ObjEX implements java.io.Serializable {
 	public void upDate() {
 		if(!enabled) return;
 		
-		if ( age % 40 == 0 ) {
+		if ( getAge() % 40 == 0 ) {
 			if(steamType[steamNum]) {
 				Effect e = SimYukkuri.mypane.terrarium.addEffect(Effect.EffectType.STEAM, x, y, z + getH() >> 3,
 						0, 0, -1, false, 30, 0, false, false, false);
@@ -105,7 +108,7 @@ public class Diffuser extends ObjEX implements java.io.Serializable {
 				}
 			} while(!steamType[steamNum]);
 		}
-		if ( age % 150 == 0 ) {
+		if ( getAge() % 150 == 0 ) {
 			Cash.addCash(-getCost()/4);
 		}
 	}

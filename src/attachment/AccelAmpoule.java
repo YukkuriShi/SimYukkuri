@@ -5,8 +5,8 @@ import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
 
-import src.Attachment;
-import src.ModLoader;
+import src.object.Attachment;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.*;
 

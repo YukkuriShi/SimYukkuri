@@ -15,25 +15,16 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import src.Attachment;
 import src.Cash;
 import src.Dna;
 import src.EventPacket;
 import src.MessagePool;
-import src.Numbering;
-import src.Obj;
-import src.ObjEX;
 import src.SimYukkuri;
-import src.Stalk;
 import src.Terrarium;
-import src.Translate;
 import src.TrashUtil;
-import src.Vomit;
 import src.YukkuriUtil;
 import src.EventPacket.EventPriority;
 import src.MessagePool.Action;
-import src.Obj.Event;
-import src.Obj.Type;
 import src.Terrarium.DayState;
 import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
@@ -48,11 +39,26 @@ import src.event.RaperReactionEvent;
 import src.event.RaperWakeupEvent;
 import src.event.RevengeAttackEvent;
 import src.item.*;
+import src.object.Attachment;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Stalk;
+import src.object.Vomit;
+import src.object.Obj.Event;
+import src.object.Obj.Type;
+import src.system.Numbering;
+import src.system.Translate;
 import src.yukkuri.*;
 import src.yukkuriBody.ConstantValues.*;
 import src.yukkuriLogic.EventLogic;
-
 import src.yukkuriLogic.ToiletLogic;
+
+
+
+
+
+
+
 
 //import java.util.Timer;
 import javax.swing.Timer;
@@ -402,10 +408,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	private AgeState checkBodyAgeState()
 	{
-		if (age < BABYLIMIT) {
+		if (getAge() < BABYLIMIT) {
 			return AgeState.BABY;
 		}
-		else if (age < CHILDLIMIT) {
+		else if (getAge() < CHILDLIMIT) {
 			return AgeState.CHILD;
 		}
 		return AgeState.ADULT;
@@ -413,10 +419,10 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	private AgeState checkMindAgeState()
 	{
-		if (age < BABYLIMIT) {
+		if (getAge() < BABYLIMIT) {
 			return AgeState.BABY;
 		}
-		else if (age < CHILDLIMIT) {
+		else if (getAge() < CHILDLIMIT) {
 			return AgeState.CHILD;
 		}
 		return AgeState.ADULT;
@@ -726,7 +732,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 
 	private boolean checkSleep() {
-		if (!isBusy() && sleeping || ( wakeUpTime + ACTIVEPERIOD*12/10 < age && !exciting && relax && !scare && !isVerySad()) || unBirth) {
+		if (!isBusy() && sleeping || ( wakeUpTime + ACTIVEPERIOD*12/10 < getAge() && !exciting && relax && !scare && !isVerySad()) || unBirth) {
 			clearActions();
 			sleeping = true;
 			angry = false;
@@ -739,7 +745,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 				return sleeping;
 			}
 			if ( Terrarium.getDayState() == Terrarium.DayState.NIGHT ){
-				if ( ( age % ( Terrarium.nightTime / SLEEPPERIOD + 1 ) ) == 0 ) {
+				if ( ( getAge() % ( Terrarium.nightTime / SLEEPPERIOD + 1 ) ) == 0 ) {
 					sleepingPeriod += TICK;
 				}
 			}else{
@@ -777,7 +783,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	private void checkDiscipline() {
 		int period = (isRude() ? 1 : 2) * DECLINEPERIOD;
-		if (age % period == 0) {
+		if (getAge() % period == 0) {
 			if (--shittingDiscipline < 0) {
 				shittingDiscipline = 0;
 			}
@@ -812,7 +818,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		sleepingPeriod = 0;
 		sleeping = false;
-		wakeUpTime = age;
+		wakeUpTime = getAge();
 	}
 
 	private void checkEmotion() {
@@ -1672,7 +1678,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 
 		int freq = STEP[AgeState.ADULT.ordinal()] / step;
-		if (age % freq != 0) {
+		if (getAge() % freq != 0) {
 			return;
 		}
 		
@@ -2504,7 +2510,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 	
 	public boolean isSleepy() {
-		if (wakeUpTime + ACTIVEPERIOD < age) {
+		if (wakeUpTime + ACTIVEPERIOD < getAge()) {
 			return true;
 		}
 		return false;
@@ -2681,7 +2687,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	
 	// family methods
 	public boolean isElderSister(Body other) {
-		return (isSister(other) && (age >= other.age));
+		return (isSister(other) && (getAge() >= other.getAge()));
 	}
 
 	public boolean isRaper() {
@@ -2700,7 +2706,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 	
 	public boolean isOld() {
-		return age > (LIFELIMIT*9/10);
+		return getAge() > (LIFELIMIT*9/10);
 	}
 	
 	public boolean isTalking() {
@@ -3637,7 +3643,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	}
 	
 	public void putStress(int numOfBody) {
-		if (dead || (age % 10 != 0) || (ConstantValues.HEADAGELIMIT >= numOfBody)) {
+		if (dead || (getAge() % 10 != 0) || (ConstantValues.HEADAGELIMIT >= numOfBody)) {
 			return;
 		}
 		damage += rnd.nextInt(numOfBody - ConstantValues.HEADAGELIMIT);
@@ -4552,11 +4558,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	public void setAgeState( AgeState setAgeState ) {
 		setBodyAgeState(setAgeState);
 		if ( setAgeState == AgeState.BABY ){
-			age = 0;
+			setAge(0);
 		}else if ( setAgeState == AgeState.CHILD ){
-			age = BABYLIMIT;
+			setAge(BABYLIMIT);
 		}else if ( setAgeState == AgeState.ADULT ){
-			age = CHILDLIMIT;
+			setAge(CHILDLIMIT);
 		}
 	}
 	
@@ -4850,11 +4856,11 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			// 騾壼ｸｸ
 			if(canflyCheck()) {
 				// 鬟幄｡檎憾諷�
-				layer[idx] = getImage((int)(ConstantValues.BRAID_MV0 + ((age % 6) >> 1)), direction);
+				layer[idx] = getImage((int)(ConstantValues.BRAID_MV0 + ((getAge() % 6) >> 1)), direction);
 				idx++;
 			} else {
 				if(pikopiko) {
-					layer[idx] = getImage((int)(ConstantValues.BRAID_MV0 + ((age % 6) >> 1)), direction);
+					layer[idx] = getImage((int)(ConstantValues.BRAID_MV0 + ((getAge() % 6) >> 1)), direction);
 					idx++;
 				} else {
 					layer[idx] = getImage(ConstantValues.BRAID, direction);
@@ -4988,8 +4994,8 @@ riding = bind
 			if(Terrarium.ageStopSteam) addAge(-256);
 		}
 		// check age
-		age += TICK;
-		if (age > LIFELIMIT) {
+		setAge(getAge() + TICK);
+		if (getAge() > LIFELIMIT) {
 			toDead();
 			moveBody(true); // for falling the body
 			checkMessage();
@@ -5239,21 +5245,21 @@ riding = bind
 		tuneParameters(); // Update individual parameters.
 		switch (initAgeState) {
 		case BABY:
-			age = 0;
+			setAge(0);
 			break;
 		case CHILD:
-			age = BABYLIMIT;
+			setAge(BABYLIMIT);
 			break;
 		case ADULT:
 		default:
-			age = CHILDLIMIT;
+			setAge(CHILDLIMIT);
 			break;
 		}
-		age += rnd.nextInt(100);
+		setAge(getAge() + rnd.nextInt(100));
 		setBodyAgeState(checkBodyAgeState());
 		setMindAgeState(getBodyAgeState());
 		initAmount(initAgeState);
-		wakeUpTime = age;
+		wakeUpTime = getAge();
 		setShit(rnd.nextInt(SHITLIMIT[getBodyAgeState().ordinal()]));
 		if (getBodyAgeState() == AgeState.BABY) {
 			if (mama != null) {

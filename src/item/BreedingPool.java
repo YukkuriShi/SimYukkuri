@@ -16,6 +16,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuri.*;
 import src.yukkuri.Common.Marisa;
 import src.yukkuri.Common.Reimu;
@@ -104,7 +107,7 @@ public class BreedingPool extends ObjEX implements java.io.Serializable {
 			Body p = (Body)o;
 			// 閭守函驕ｿ螯翫＆繧後※縺溘ｉ螯雁ｨ�＠縺ｪ縺�
 			if(p.isBodyCastration()) return 0;
-			if ( p.isDead() == false && (int)age % ((highDensity==true)?4:10) == 0 ) {
+			if ( p.isDead() == false && (int)getAge() % ((highDensity==true)?4:10) == 0 ) {
 				
 				int babyType;
 

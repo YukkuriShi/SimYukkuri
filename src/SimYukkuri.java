@@ -23,6 +23,12 @@ import src.attachment.SilverBadge;
 import src.attachment.GoldBadge;
 import src.event.EatBodyEvent;
 import src.item.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Stalk;
+import src.system.Logger;
+import src.system.ModLoader;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.*;
@@ -133,7 +139,7 @@ public class SimYukkuri extends JFrame {
 	static ImageIcon[] itemIcon;
 	static ImageIcon[] statIcon;
 
-	static int clearLogTime = 0;
+	public static int clearLogTime = 0;
 
 	public static SimYukkuri simYukkuri = null;
 	public static MyPane mypane  = new MyPane();
@@ -694,7 +700,7 @@ public class SimYukkuri extends JFrame {
 				MyPane.isDisableHelp = helpButton.isSelected();
 			}
 			else if(source.equals(pinButton)) {
-				if(MyPane.selectBody != null && !MyPane.selectBody.removed)
+				if(MyPane.selectBody != null && !MyPane.selectBody.isRemoved())
 				{
 					if(pinButton.isSelected()) MyPane.selectBody.setPin(true);
 					else MyPane.selectBody.setPin(false);

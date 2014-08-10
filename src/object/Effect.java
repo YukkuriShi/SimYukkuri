@@ -1,7 +1,11 @@
-package src;
+package src.object;
 
 
 import java.awt.Image;
+
+import src.Terrarium;
+import src.object.Obj.Event;
+import src.object.Obj.Type;
 
 /****************************************
  *  セーブデータに保存する必要の無い軽量エフェクト
@@ -64,8 +68,8 @@ public abstract class Effect extends Obj {
 	
 	public Event clockTick()
 	{
-		age += TICK;
-		if ( removed || (lifeTime != -1 && age > lifeTime)) {
+		setAge(getAge() + TICK);
+		if ( removed || (lifeTime != -1 && getAge() > lifeTime)) {
 			return Event.REMOVED;
 		}
 		x += vx;

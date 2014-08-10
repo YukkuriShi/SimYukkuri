@@ -1,5 +1,6 @@
 package src;
 
+import src.object.Obj;
 import src.yukkuriBody.Body;
 
 

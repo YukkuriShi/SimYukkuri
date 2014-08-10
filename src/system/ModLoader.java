@@ -1,4 +1,4 @@
-package src;
+package src.system;
 
 import java.awt.Dimension;
 import java.awt.Image;
@@ -19,6 +19,7 @@ import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
+import src.MyPane;
 import src.yukkuriBody.ConstantValues;
 /*****************************************************
 	繧ｰ繝ｩ繝輔ぅ繝�け繝��繧ｿ縺ｮ隱ｭ縺ｿ霎ｼ縺ｿ諡｡蠑ｵ

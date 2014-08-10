@@ -1,4 +1,4 @@
-package src;
+package src.object;
 
 
 
@@ -14,6 +14,7 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import src.Terrarium;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.Direction;
 
@@ -241,7 +242,7 @@ public class Stalk extends ObjEX implements java.io.Serializable {
 	
 	public Event clockTick()
 	{
-		age += TICK;
+		setAge(getAge() + TICK);
 		if (removed) {
 			removeListData();
 			disBindBabys();

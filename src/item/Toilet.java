@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 
 
 public class Toilet extends ObjEX implements java.io.Serializable {

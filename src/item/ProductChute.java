@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Random;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 
 

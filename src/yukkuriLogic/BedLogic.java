@@ -3,14 +3,14 @@ package src.yukkuriLogic;
 import java.util.Random;
 
 import src.EventPacket;
-import src.Obj;
-import src.ObjEX;
 import src.Terrarium;
-import src.Translate;
 import src.EventPacket.EventPriority;
 import src.Terrarium.DayState;
 import src.event.FavCopyEvent;
 import src.item.Bed;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.*;
 

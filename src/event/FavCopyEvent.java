@@ -1,6 +1,7 @@
 package src.event;
 
 import src.*;
+import src.object.Obj;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.FavItemType;

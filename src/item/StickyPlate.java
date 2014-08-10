@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.CriticalDamegeType;
 

@@ -21,6 +21,12 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Shit;
+import src.object.Stalk;
+import src.object.Vomit;
+import src.system.ModLoader;
 import src.yukkuriBody.ConstantValues.Attitude;
 import src.*;
 import src.yukkuriBody.Body;
@@ -161,7 +167,7 @@ public class Yunba extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public void upDate() {
-		if ( age % 2400 == 0 ){
+		if ( getAge() % 2400 == 0 ){
 			Cash.addCash(-getCost());
 		}
 	}
@@ -182,7 +188,7 @@ public class Yunba extends ObjEX implements java.io.Serializable {
 	@Override
 	public Event clockTick()
 	{
-		age += TICK;
+		setAge(getAge() + TICK);
 		if (removed) {
 			action = null;
 			target = null;
@@ -204,8 +210,8 @@ public class Yunba extends ObjEX implements java.io.Serializable {
 			return Event.DONOTHING;
 		}
 		
-		if(action == null && (age > 10 || norndCheck)) { // 霑ｽ蜉�
-			age = 0;
+		if(action == null && (getAge() > 10 || norndCheck)) { // 霑ｽ蜉�
+			setAge(0);
 
 			if(shitCheck) {
 				for(Shit o: Terrarium.shitList) {

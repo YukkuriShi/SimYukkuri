@@ -1,4 +1,4 @@
-package src;
+package src.system;
 
 
 import java.awt.Image;
@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
+
+import src.SimYukkuri;
 
 public class JarGuard {
 	private static boolean authenticationResult = false;

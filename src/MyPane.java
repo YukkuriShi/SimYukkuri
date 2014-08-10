@@ -55,6 +55,17 @@ import src.attachment.SilverBadge;
 import src.attachment.StopAmpoule;
 import src.effect.*;
 import src.item.*;
+import src.object.Attachment;
+import src.object.Effect;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Shit;
+import src.object.Stalk;
+import src.object.Vomit;
+import src.system.JarGuard;
+import src.system.Logger;
+import src.system.ModLoader;
+import src.system.Translate;
 import src.yukkuri.*;
 import src.yukkuri.Common.Alice;
 import src.yukkuri.Common.Chen;
@@ -353,7 +364,7 @@ public class MyPane extends JPanel implements Runnable {
 		}
 	}
 
-	ClassLoader getImageLoader(){
+	public ClassLoader getImageLoader(){
 		return this.getClass().getClassLoader();
 	}
 	
@@ -673,7 +684,7 @@ public class MyPane extends JPanel implements Runnable {
 			}
 			// draw yukkuri, food and shit
 			for (Obj o: list4sort) {
-				switch (o.objType) {
+				switch (o.getObjType()) {
 				case YUKKURI:
 				{
 					Body b = (Body)o;
@@ -1057,7 +1068,7 @@ final class ObjDrawComp implements Comparator<Obj> {
 	final static ObjDrawComp INSTANCE = new ObjDrawComp();
 
 	@Override final public int compare(Obj o1, Obj o2) {
-		int c = o1.y - o2.y;
+		int c = o1.getY() - o2.getY();
 		if(c == 0) {
 			//Improve visibility: at the same y-coordinate, draw small
 			//objects after large ones.

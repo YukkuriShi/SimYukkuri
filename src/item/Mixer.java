@@ -10,6 +10,10 @@ import java.util.List;
 import java.util.Random;
 
 import src.*;
+import src.object.Effect;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.AgeState;
@@ -105,7 +109,7 @@ public class Mixer extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public void upDate() {
-		if ( age % 2400 == 0 ) {
+		if ( getAge() % 2400 == 0 ) {
 			Cash.addCash(-getCost());
 		}
 

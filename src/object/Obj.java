@@ -1,7 +1,9 @@
-package src;
+package src.object;
 
 import java.awt.Point;
 import java.awt.Rectangle;
+
+import src.Terrarium;
 
 /*********************************************************
  *  すべてのゲーム内オブジェクトの元となるクラス
@@ -39,8 +41,8 @@ public class Obj implements java.io.Serializable {
 	}
 
 	public void addAge(long val) {
-		age += val;
-		if(age < 0) age = 0;
+		setAge(getAge() + val);
+		if(getAge() < 0) setAge(0);
 	}
 
 	public int getX() {
@@ -240,7 +242,7 @@ public class Obj implements java.io.Serializable {
 
 	public Event clockTick()
 	{
-		age += TICK;
+		setAge(getAge() + TICK);
 		if (removed) {
 			return Event.REMOVED;
 		}
@@ -287,5 +289,9 @@ public class Obj implements java.io.Serializable {
 			}
 		}
 		return Event.DONOTHING;
+	}
+
+	public void setAge(long age) {
+		this.age = age;
 	}
 }

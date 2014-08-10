@@ -15,6 +15,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.AgeState;
 import src.yukkuriBody.ConstantValues.FootBake;

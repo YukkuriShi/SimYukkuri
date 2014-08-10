@@ -13,10 +13,10 @@ import java.util.List;
 import java.util.Random;
 
 import src.MessagePool;
-import src.ModLoader;
-import src.Obj;
-import src.ObjEX;
 import src.Terrarium;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.FavItemType;
 import src.yukkuriBody.ConstantValues.Intelligence;
@@ -245,7 +245,7 @@ public class Sui extends ObjEX implements java.io.Serializable {
 	@Override
 	public Event clockTick()
 	{
-		age += TICK;
+		setAge(getAge() + TICK);
 		if (removed) {
 			for(Body r:bindBody){
 				r.clearActions();
@@ -267,8 +267,8 @@ public class Sui extends ObjEX implements java.io.Serializable {
 			return Event.DONOTHING;
 		}
 		
-		if(age>10){
-			age=0;
+		if(getAge()>10){
+			setAge(0);
 			if(destX == -1 && destY == -1) {
 				speed=400;	
 				if(iscanriding()){

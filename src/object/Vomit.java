@@ -1,4 +1,4 @@
-package src;
+package src.object;
 
 
 import java.awt.Image;
@@ -7,6 +7,9 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import src.Terrarium;
+import src.YukkuriUtil;
+import src.YukkuriUtil.YukkuriType;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.AgeState;
@@ -118,7 +121,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 	public AgeState getAgeState() { return ageState; }
 
 	public int getVomitState() {
-		if (age >= VOMITLIMIT[ageState.ordinal()]/4) {
+		if (getAge() >= VOMITLIMIT[ageState.ordinal()]/4) {
 			return 1;
 		}
 		return 0;
@@ -133,7 +136,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 	}
 
 	public void crushVomit() {
-		age += VOMITLIMIT[ageState.ordinal()]/2;
+		setAge(getAge() + VOMITLIMIT[ageState.ordinal()]/2);
 	}
 	
 	public void kick() {
@@ -149,7 +152,7 @@ public class Vomit extends Obj implements java.io.Serializable {
 	{
 		if (removed == false) {
 			//age += TICK;
-			if (age >= VOMITLIMIT[ageState.ordinal()]) {
+			if (getAge() >= VOMITLIMIT[ageState.ordinal()]) {
 				removed = true;
 			}
 			if (!grabbed) {

@@ -7,6 +7,14 @@ import java.util.*;
 import src.YukkuriUtil.YukkuriType;
 import src.effect.*;
 import src.item.*;
+import src.object.Effect;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Shit;
+import src.object.Stalk;
+import src.object.Vomit;
+import src.system.Numbering;
+import src.system.Translate;
 import src.yukkuri.*;
 import src.yukkuri.Common.Alice;
 import src.yukkuri.Common.Chen;
@@ -1165,7 +1173,7 @@ public class Terrarium {
 //				b.setForcePanicClear();
 				continue;
 			case BIRTHBABY:
-				if ( b.age % 10 == 0 ){
+				if ( b.getAge() % 10 == 0 ){
 					if (!b.isHasPants()) {
 						Dna babyType = b.getBabyTypesDequeue();
 						if ( babyType != null ){

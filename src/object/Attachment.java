@@ -1,7 +1,9 @@
-package src;
+package src.object;
 
 import java.awt.Image;
 
+import src.object.Obj.Event;
+import src.object.Obj.Type;
 import src.yukkuriBody.Body;
 
 /****************************************
@@ -69,7 +71,7 @@ public abstract class Attachment extends Obj {
 	public Event clockTick()
 	{
 		Event ret = Event.DONOTHING;
-		age += TICK;
+		setAge(getAge() + TICK);
 		ret = update();
 		
 		if(animate) {

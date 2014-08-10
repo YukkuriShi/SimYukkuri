@@ -14,6 +14,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 
+import src.object.Obj;
 import src.yukkuriBody.Body;
 
 

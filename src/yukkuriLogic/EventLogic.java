@@ -3,8 +3,8 @@ import java.util.Iterator;
 
 import src.EventPacket;
 import src.Terrarium;
-import src.Translate;
 import src.EventPacket.UpdateState;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.*;

@@ -16,6 +16,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.AgeState;
 
@@ -107,7 +110,7 @@ public class AutoFeeder extends ObjEX implements java.io.Serializable {
 	@Override
 	public void upDate() {
 		
-		if((age % 20) != 0) return;
+		if((getAge() % 20) != 0) return;
 		
 		if(food != null) {
 			if(type == FeedType.BODY.ordinal()) {

@@ -5,12 +5,14 @@ import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
 
 
 public class GarbageChute extends ObjEX implements java.io.Serializable {

@@ -1,4 +1,4 @@
-package src;
+package src.system;
 
 
 import java.awt.Color;
@@ -8,6 +8,9 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import src.Cash;
+import src.SimYukkuri;
+import src.Terrarium;
 import src.yukkuri.*;
 import src.yukkuriBody.Body;
 

@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import src.*;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.system.ModLoader;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 
 
@@ -39,7 +43,7 @@ public class Beltconveyor extends ObjEX implements java.io.Serializable {
 	public Image getImage() {
 		int frame = 0;
 
-		if(enabled) frame = (int)age;
+		if(enabled) frame = (int)getAge();
 
 		switch ( option ) {	//讌ｽ縺ｫ繧｢繝九Γ謖�ｮ壹〒縺阪ｋ繧医≧縺ｫ縺励◆縺�′蠕後〒
 			case 0:
@@ -130,7 +134,7 @@ public class Beltconveyor extends ObjEX implements java.io.Serializable {
 
 	@Override
 	public void upDate() {
-		if ( age % 2400 == 0 ) {
+		if ( getAge() % 2400 == 0 ) {
 			Cash.addCash(-getCost());
 		}
 	}

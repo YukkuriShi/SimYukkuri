@@ -417,14 +417,14 @@ public class YukkuriUtil {
 		// 蟷ｴ鮨｢縺ｮ陬懈ｭ｣
 		switch (to.getAgeState()) {
 			case BABY:
-				to.age = 0;
+				to.setAge(0);
 				break;
 			case CHILD:
-				to.age = to.BABYLIMIT + 1;
+				to.setAge(to.BABYLIMIT + 1);
 				break;
 			case ADULT:
 			default:
-				to.age = to.CHILDLIMIT + 1;
+				to.setAge(to.CHILDLIMIT + 1);
 				break;
 		}
 	}

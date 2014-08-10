@@ -9,6 +9,7 @@ import java.io.IOException;
 
 import src.*;
 import src.YukkuriUtil.YukkuriType;
+import src.system.ModLoader;
 import src.yukkuri.Common.Marisa;
 import src.yukkuri.Common.Reimu;
 import src.yukkuriBody.Body;

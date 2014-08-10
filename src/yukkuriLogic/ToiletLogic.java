@@ -2,14 +2,14 @@ package src.yukkuriLogic;
 
 import src.EventPacket;
 import src.MessagePool;
-import src.Obj;
-import src.ObjEX;
-import src.Shit;
 import src.Terrarium;
-import src.Translate;
 import src.EventPacket.EventPriority;
 import src.MessagePool.Action;
 import src.item.Toilet;
+import src.object.Obj;
+import src.object.ObjEX;
+import src.object.Shit;
+import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.AgeState;
 import src.yukkuriBody.ConstantValues.Attitude;

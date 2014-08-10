@@ -5,8 +5,8 @@ import java.awt.Image;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
 
-import src.Effect;
-import src.ModLoader;
+import src.object.Effect;
+import src.system.ModLoader;
 
 
 /****************************************

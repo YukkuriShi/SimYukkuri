@@ -1,4 +1,4 @@
-package src;
+package src.object;
 
 
 import java.awt.Image;
@@ -7,6 +7,8 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import src.Terrarium;
+import src.YukkuriUtil;
 import src.YukkuriUtil.YukkuriType;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
@@ -117,7 +119,7 @@ public class Shit extends Obj implements java.io.Serializable {
 	}
 
 	public int getShitState() {
-		if (age >= SHITLIMIT[ageState.ordinal()]/4) {
+		if (getAge() >= SHITLIMIT[ageState.ordinal()]/4) {
 			return 1;
 		}
 		return 0;
@@ -132,7 +134,7 @@ public class Shit extends Obj implements java.io.Serializable {
 	}
 
 	public void crushShit() {
-		age += SHITLIMIT[ageState.ordinal()]/2;
+		setAge(getAge() + SHITLIMIT[ageState.ordinal()]/2);
 	}
 	
 	public void kick() {
@@ -148,7 +150,7 @@ public class Shit extends Obj implements java.io.Serializable {
 	{
 		if (removed == false) {
 			//age += TICK;
-			if (age >= SHITLIMIT[ageState.ordinal()]) {
+			if (getAge() >= SHITLIMIT[ageState.ordinal()]) {
 				removed = true;
 			}
 			if (!grabbed) {
