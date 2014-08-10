@@ -75,17 +75,17 @@ public class SimYukkuri extends JFrame {
 	
 	// 繧ｹ繝��繧ｿ繧ｹ縺ｮ繝ｩ繝吶Ν
 	static enum LabelName {
-		ENVIRONMENT("迺ｰ蠅�せ繝医Ξ繧ｹ: ", "Funds: "),
-		LABEL("繧�▲縺上ｊ縺ｮ迥ｶ諷�", "Label" ),
+		ENVIRONMENT("迺ｰ蠅�せ繝医Ξ繧ｹ: ", " Funds    : "),
+		LABEL("繧�▲縺上ｊ縺ｮ迥ｶ諷�", " Label" ),
 		NAME("", ""),
-		PERSONALITY(" 諤ｧ譬ｼ: ", "Attitude: "),
-		INTEL(" 遏･閭ｽ: ", "Intelligence: "),
-		DAMAGE(" 繝�Γ繝ｼ繧ｸ: ", "Injury: "),
-		STRESS(" 繧ｹ繝医Ξ繧ｹ: ", "Stress: "),
-		COMPLACENCY("Complacency","Complacency"),
-		HUNGER(" 遨ｺ閻ｹ蠎ｦ: ", "Hunger: "),
-		TANG(" 蜻ｳ隕� ", "Tang: "),
-		SHIT(" 縺�ｓ縺�ｓ: ", "Expired Paste: "),
+		PERSONALITY(" 諤ｧ譬ｼ: ",  " Attitude              : "),
+		INTEL(" 遏･閭ｽ: ",        " Intelligence       : "),
+		DAMAGE(" 繝�Γ繝ｼ繧ｸ: ",   " Injury                  : "),
+		STRESS(" 繧ｹ繝医Ξ繧ｹ: ",  " Stress                : "),
+		COMPLACENCY("Complacency"," Complacency  "),
+		HUNGER(" 遨ｺ閻ｹ蠎ｦ: ",    " Hunger               : "),
+		TANG(" 蜻ｳ隕� ",           " Tang                   : "),
+		SHIT(" 縺�ｓ縺�ｓ: ", " Expired Paste  : "),
 	//	WETSTATE ( "", "Sogginess: "),
 		;
         private String name;
@@ -365,6 +365,9 @@ public class SimYukkuri extends JFrame {
 		rootPane.add(mypane);
 		rootPane.add(buttonPane);
 		
+		// set number for not enable scroll bar
+		s1.setMaximumRowCount(15);
+		s2.setMaximumRowCount(12);
 		// setup my frame
 		initTerrariumSize();
 		mypane.loadImage();
@@ -478,9 +481,9 @@ public class SimYukkuri extends JFrame {
 		int shit = 100 * b.getShit() / b.getShitLimit();
 		int stress = 100 * b.getStress() / b.getStressLimit();
 
-		buttonPaneLabel[LabelName.LABEL.ordinal()].setText("Sale Value: $ " + Cash.getYukkuriValue(b));
+		buttonPaneLabel[LabelName.LABEL.ordinal()].setText("Sale Value          : $ " + Cash.getYukkuriValue(b));
 
-		buttonPaneLabel[LabelName.NAME.ordinal()].setText("Status of: " + b.getNameE());
+		buttonPaneLabel[LabelName.NAME.ordinal()].setText("Status of    : " + b.getNameE());
 //		buttonPaneLabel[LabelName.WETSTATE.ordinal()].setText(" Water Absorption: " + b.getDisplayableWetStateString());
 
 		buttonPaneLabel[LabelName.PERSONALITY.ordinal()].setText(LabelName.PERSONALITY.toString() + ATTITUDE_LEVEL_E[b.getAttitude().ordinal()]);
@@ -488,7 +491,7 @@ public class SimYukkuri extends JFrame {
 		buttonPaneLabel[LabelName.DAMAGE.ordinal()].setText(LabelName.DAMAGE.toString() + damage + "%");
 		buttonPaneLabel[LabelName.STRESS.ordinal()].setText(LabelName.STRESS.toString() + stress + "%");
 		buttonPaneLabel[LabelName.HUNGER.ordinal()].setText(LabelName.HUNGER.toString() + hungry + "%");
-		buttonPaneLabel[LabelName.COMPLACENCY.ordinal()].setText(LabelName.COMPLACENCY.toString() + ": " + b.getComplacencyVal() + " " + COMPLACENCY_LEVEL_E[b.getComplacency().ordinal()] + " " + b.getComplacencyDirection());
+		buttonPaneLabel[LabelName.COMPLACENCY.ordinal()].setText(LabelName.COMPLACENCY.toString() + " : " + b.getComplacencyVal() + " " + COMPLACENCY_LEVEL_E[b.getComplacency().ordinal()] + " " + b.getComplacencyDirection());
 		buttonPaneLabel[LabelName.TANG.ordinal()].setText(LabelName.TANG.toString() + TANG_LEVEL_E[b.getTangType().ordinal()]);
 		buttonPaneLabel[LabelName.SHIT.ordinal()].setText(LabelName.SHIT.toString() + shit + "%");
 

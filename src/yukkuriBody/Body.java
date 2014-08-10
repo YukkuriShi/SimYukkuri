@@ -4661,7 +4661,7 @@ riding = bind
 	}
 		if (testBadge > 0){ 
 			runBadgeTest(testBadge);
-			}
+		}
 	
 		// check events
 		int oldShit = getShit();
@@ -4876,8 +4876,8 @@ riding = bind
 				}
 			}
 		}
-		dirX = Moving.randomDirection(this, dirX);
-		dirY = Moving.randomDirection(this, dirY);
+		dirX = Moving.randomDirection(this.rnd.nextBoolean(), dirX);
+		dirY = Moving.randomDirection(this.rnd.nextBoolean(), dirY);
 
 		messageTextSize = 12;
 		

@@ -195,7 +195,7 @@ public class Moving {
 		body.z = Math.max(0, body.z);
 		body.z = Math.min(body.z, Terrarium.MAX_Z);
 
-		if (dontMove || body.lockmove || body.pinnedDontMove || body.burnedDontMove) {
+		if (dontMove || body.lockmove) {
 			return;
 		}
 
@@ -224,7 +224,7 @@ public class Moving {
 		} else {
 			if (body.countX++ >= body.sameDest * body.STEP[body.getBodyAgeState().ordinal()]) {
 				body.countX = 0;
-				body.dirX = randomDirection(body, body.dirX);			
+				body.dirX = randomDirection(body.rnd.nextBoolean(), body.dirX);			
 				if (!body.hasOkazari() && (body.isSad() || body.isVerySad())) {
 					if (!body.isTalking() && body.rnd.nextInt(10) == 0) {
 						body.setMessage(MessagePool.getMessage(body, MessagePool.Action.NoAccessory));
@@ -241,7 +241,7 @@ public class Moving {
 		} else {
 			if (body.countY++ >= body.sameDest * body.STEP[body.getBodyAgeState().ordinal()]) {
 				body.countY = 0;
-				body.dirY = randomDirection(body, body.dirY);
+				body.dirY = randomDirection(body.rnd.nextBoolean(), body.dirY);
 				if (!body.hasOkazari() && (body.isSad() || body.isVerySad())) {
 					if (!body.isTalking() && body.rnd.nextInt(10) == 0) {
 						body.setMessage(MessagePool.getMessage(body, MessagePool.Action.NoAccessory));
@@ -328,12 +328,12 @@ public class Moving {
 				body.destX = -1;
 				body.destY = -1;
 				body.staying = false;
-				body.shitStress += 10*body.TICK;
+				body.shitStress += 10*Obj.TICK;
 			}
 		}
 		else
 			if(!body.staying && body.shitStress > 0)
-				body.shitStress -= body.TICK;
+				body.shitStress -= Obj.TICK;
 		
 		body.previousShitDistance = nearestShitDistance;
 		
@@ -365,8 +365,8 @@ public class Moving {
 					body.setMessage(MessagePool.getMessage(body, MessagePool.Action.BlockedByWall));
 				}
 			} else {
-				body.dirX = randomDirection(body, body.dirX);
-				body.dirY = randomDirection(body, body.dirY);
+				body.dirX = randomDirection(body.rnd.nextBoolean(), body.dirX);
+				body.dirY = randomDirection(body.rnd.nextBoolean(), body.dirY);
 			}
 		} else {
 			body.blockedCount = Math.max(0, body.blockedCount - 1);
@@ -398,16 +398,16 @@ public class Moving {
 		}
 	}
 	
-	public static int randomDirection(Body body,int curDir) {
+	public static int randomDirection(Boolean rand,int curDir) {
 		switch (curDir) {
 		case 0:
-			curDir = (body.rnd.nextBoolean() ? 1 : -1);
+			curDir = (rand ? 1 : -1);
 			break;
 		case 1:
-			curDir = (body.rnd.nextBoolean() ? 0 : curDir);
+			curDir = (rand ? 0 : curDir);
 			break;
 		case -1:
-			curDir = (body.rnd.nextBoolean() ? 0 : curDir);
+			curDir = (rand ? 0 : curDir);
 			break;
 		}
 		return curDir;
