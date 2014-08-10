@@ -9,6 +9,7 @@ import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.Happiness;
+import src.yukkuriBody.Moving;
 import src.yukkuriLogic.FoodLogic;
 
 
@@ -38,7 +39,7 @@ public class FlyingEatEvent extends EventPacket implements java.io.Serializable 
 
 	// イベント開始動作
 	public void start(Body b) {
-		b.moveToEvent(this, b.getX(), b.getY(),  Translate.getFlyHeightLimit());
+		Moving.moveToEvent(b, this, b.getX(), b.getY(),  Translate.getFlyHeightLimit());
 		to.setLinkParent(b);
 	}
 	

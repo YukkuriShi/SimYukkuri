@@ -11,6 +11,7 @@ import src.yukkuriBody.BodyLogic;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.Attitude;
 import src.yukkuriBody.ConstantValues.Intelligence;
+import src.yukkuriBody.Moving;
 /*
 	縺翫°縺悶ｊ縺ｮ縺ｪ縺�ｆ縺｣縺上ｊ縺ｸ縺ｮ謾ｻ謦�う繝吶Φ繝�
 	protected Body from;			// 繧､繝吶Φ繝医ｒ逋ｺ縺励◆蛟倶ｽ�
@@ -64,7 +65,7 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 	// 繧､繝吶Φ繝磯幕蟋句虚菴�
 	public void start(Body b) {
 		int colX = BodyLogic.calcCollisionX(b, to);
-		b.moveToEvent(this, to.getX() + colX, to.getY());
+		Moving.moveToEvent(b, this, to.getX() + colX, to.getY());
 	}
 	
 	// 豈弱ヵ繝ｬ繝ｼ繝��逅�
@@ -77,7 +78,7 @@ public class HateNoOkazariEvent extends EventPacket implements java.io.Serializa
 			to.stay();
 		}
 		int colX = BodyLogic.calcCollisionX(b, to);
-		b.moveToEvent(this, to.getX() + colX, to.getY());
+		Moving.moveToEvent(b, this, to.getX() + colX, to.getY());
 		return null;
 	}
 

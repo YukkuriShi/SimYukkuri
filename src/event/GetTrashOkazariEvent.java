@@ -3,6 +3,7 @@ package src.event;
 import src.*;
 import src.object.Obj;
 import src.yukkuriBody.Body;
+import src.yukkuriBody.Moving;
 
 
 /*
@@ -31,13 +32,13 @@ public class GetTrashOkazariEvent extends EventPacket implements java.io.Seriali
 
 	// イベント開始動作
 	public void start(Body b) {
-		b.moveToEvent(this, target.getX(), target.getY());
+		Moving.moveToEvent(b, this, target.getX(), target.getY());
 	}
 
 	public UpdateState update(Body b) {
 		if(target.isRemoved()) return UpdateState.ABORT;
 		if(b.hasOkazari()) return UpdateState.ABORT;
-		b.moveToEvent(this, target.getX(), target.getY());
+		Moving.moveToEvent(b, this, target.getX(), target.getY());
 		return null;
 	}
 

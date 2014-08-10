@@ -22,8 +22,16 @@ public class Obj implements java.io.Serializable {
 	protected int value = 0;
 	protected int cost = 0;
 	protected long age;			//age of this object
-	protected int x, y, z;		//location
-	protected int vx, vy, vz;	//velocity of the object
+	public int x;		//location
+
+	public int y;
+
+	public int z;
+	public int vx;	//velocity of the object
+
+	public int vy;
+
+	public int vz;
 	protected Point screenPivot = new Point();		// 描画原点
 	protected Rectangle screenRect = new Rectangle(); // 描画XYWH
 	protected int imgW;
@@ -32,7 +40,7 @@ public class Obj implements java.io.Serializable {
 	protected int pivY;
 	protected Type objType;		//YUKKURI, SHIT, FOOD, TOILET, TOY
 	protected boolean removed = false;
-	protected boolean grabbed = false;
+	public boolean grabbed = false;
 	protected boolean enableWall = true;
 	protected Obj bindObj = null;
 

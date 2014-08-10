@@ -12,6 +12,7 @@ import src.object.Obj;
 import src.object.ObjEX;
 import src.system.Translate;
 import src.yukkuriBody.Body;
+import src.yukkuriBody.Moving;
 import src.yukkuriBody.ConstantValues.*;
 
 
@@ -111,7 +112,7 @@ public class BedLogic {
 				ofsY = Translate.invertY(found.getH() - 4);
 				ofsY = -(ofsY >> 1) + rnd.nextInt(ofsY);
 			}
-			b.moveToBed(found, found.getX() + ofsX, found.getY() + ofsY, 0);
+			Moving.moveToBed(b, found, found.getX() + ofsX, found.getY() + ofsY, 0);
 			b.setTargetMoveOffset(ofsX, ofsY);
 			ret = true;
 		}

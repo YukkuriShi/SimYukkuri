@@ -11,6 +11,7 @@ import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.FavItemType;
 import src.yukkuriBody.ConstantValues.Happiness;
+import src.yukkuriBody.Moving;
 import src.yukkuriLogic.EventLogic;
 
 /*
@@ -54,7 +55,7 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 
 	// イベント開始動作
 	public void start(Body b) {
-		b.moveToEvent(this, target.getX(), target.getY());
+		Moving.moveToEvent(b, this, target.getX(), target.getY());
 	}
 	
 	// 毎フレーム処理
@@ -109,7 +110,7 @@ public class SuiRideEvent extends EventPacket implements java.io.Serializable {
 			}
 		} else{
 			
-			b.moveToEvent(this, target.getX(), target.getY());
+			Moving.moveToEvent(b, this, target.getX(), target.getY());
 			if(getFrom()==b && s.iscanriding() || s.getcurrent_bindbody_num() >= 3 ){
 				memberride=false;
 				return UpdateState.ABORT;

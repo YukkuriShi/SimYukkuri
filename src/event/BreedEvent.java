@@ -6,6 +6,7 @@ import src.*;
 import src.object.Obj;
 import src.system.Translate;
 import src.yukkuriBody.Body;
+import src.yukkuriBody.Moving;
 import src.yukkuriBody.ConstantValues.*;
 
 /*
@@ -47,7 +48,7 @@ public class BreedEvent extends EventPacket implements java.io.Serializable {
 
 	// イベント開始動作
 	public void start(Body b) {
-		b.moveToEvent(this, getFrom().getX(), getFrom().getY());
+		Moving.moveToEvent(b, this, getFrom().getX(), getFrom().getY());
 	}
 	
 	// 毎フレーム処理
@@ -55,10 +56,10 @@ public class BreedEvent extends EventPacket implements java.io.Serializable {
 	public UpdateState update(Body b) {
 		// 相手の一定距離まで近づいたら移動終了
 		if(Translate.distance(b.getX(), b.getY(), getFrom().getX(), getFrom().getY()) < 20000) {
-			b.moveToEvent(this, b.getX(), b.getY());
+			Moving.moveToEvent(b, this, b.getX(), b.getY());
 			return UpdateState.FORCE_EXEC;
 		} else {
-			b.moveToEvent(this, getFrom().getX(), getFrom().getY());
+			Moving.moveToEvent(b, this, getFrom().getX(), getFrom().getY());
 		}
 		return null;
 	}

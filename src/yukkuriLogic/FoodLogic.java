@@ -21,6 +21,7 @@ import src.system.Translate;
 import src.yukkuri.Rare.Sakuya;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.Moving;
 import src.yukkuriBody.ConstantValues.*;
 
 
@@ -96,21 +97,21 @@ public class FoodLogic {
 					} else {
 						b.setMessage(MessagePool.getMessage(b, MessagePool.Action.WantFood));
 					}
-					b.moveToFood(found, ((Food)found).getFoodType(), found.getX(), found.getY(), mz);
+					Moving.moveToFood(b, found, ((Food)found).getFoodType(), found.getX(), found.getY(), mz);
 				}
 				else if (found instanceof Shit){
 					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
-					b.moveToFood(found, Food.type.SHIT, found.getX(), found.getY(), mz);
+					Moving.moveToFood(b, found, Food.type.SHIT, found.getX(), found.getY(), mz);
 				}
 				else if (found instanceof Body) {
-					b.moveToFood(found, Food.type.BODY, found.getX(), found.getY(), mz);
+					Moving.moveToFood(b, found, Food.type.BODY, found.getX(), found.getY(), mz);
 				}
 				else if (found instanceof Stalk) {//Food
-					b.moveToFood(found, Food.type.STALK, found.getX(), found.getY(), mz);
+					Moving.moveToFood(b, found, Food.type.STALK, found.getX(), found.getY(), mz);
 				}
 				else if (found instanceof Vomit){
 					b.setMessage(MessagePool.getMessage(b, MessagePool.Action.NoFood), false);
-					b.moveToFood(found, Food.type.VOMIT, found.getX(), found.getY(), mz);
+					Moving.moveToFood(b, found, Food.type.VOMIT, found.getX(), found.getY(), mz);
 				}
 			return true;
 			}

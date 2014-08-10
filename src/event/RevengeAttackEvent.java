@@ -9,6 +9,7 @@ import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.BodyLogic;
 import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.Moving;
 
 /*
 	ゆっくりが攻撃されたときの反撃イベント
@@ -36,7 +37,7 @@ public class RevengeAttackEvent extends EventPacket implements java.io.Serializa
 	// イベント開始動作
 	public void start(Body b) {
 		int colX = BodyLogic.calcCollisionX(b, to);
-		b.moveToEvent(this, to.getX() + colX, to.getY());
+		Moving.moveToEvent(b, this, to.getX() + colX, to.getY());
 	}
 	
 	// 毎フレーム処理
@@ -49,7 +50,7 @@ public class RevengeAttackEvent extends EventPacket implements java.io.Serializa
 			to.stay();
 		}
 		int colX = BodyLogic.calcCollisionX(b, to);
-		b.moveToEvent(this, to.getX() + colX, to.getY());
+		Moving.moveToEvent(b, this, to.getX() + colX, to.getY());
 		return null;
 	}
 

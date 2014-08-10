@@ -11,6 +11,7 @@ import src.yukkuriBody.ConstantValues;
 import src.yukkuriBody.ConstantValues.Attitude;
 import src.yukkuriBody.ConstantValues.Happiness;
 import src.yukkuriBody.ConstantValues.Intelligence;
+import src.yukkuriBody.Moving;
 
 /*
 	レイパー襲撃に対する反応イベント
@@ -205,7 +206,7 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 	// 敵に向かって移動
 	private void moveTarget(Body b) {
 		int colX = BodyLogic.calcCollisionX(b, getFrom());
-		b.moveToEvent(this, getFrom().getX() + colX, getFrom().getY());
+		Moving.moveToEvent(b, this, getFrom().getX() + colX, getFrom().getY());
 	}
 	
 	// 敵から逃げるように移動
@@ -228,6 +229,6 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 			if(vy > 0) vy = Terrarium.MAX_Y;
 			else vy = 0;
 		}
-		b.moveToEvent(this, vx, vy);
+		Moving.moveToEvent(b, this, vx, vy);
 	}
 }

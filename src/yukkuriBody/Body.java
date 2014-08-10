@@ -1503,31 +1503,6 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			angry = false;
 		}
 	}
-
-	private int randomDirection(int curDir) {
-		switch (curDir) {
-		case 0:
-			curDir = (rnd.nextBoolean() ? 1 : -1);
-			break;
-		case 1:
-			curDir = (rnd.nextBoolean() ? 0 : curDir);
-			break;
-		case -1:
-			curDir = (rnd.nextBoolean() ? 0 : curDir);
-			break;
-		}
-		return curDir;
-	}
-	
-	private int decideDirection(int curPos, int destPos, int range) {
-		if (destPos - curPos > range) {
-			return 1;
-		}
-		else if (curPos - destPos > range) {
-			return -1;
-		}
-		return 0;
-	}
 	
 	public void upDate(){
 		// Move Stalk
@@ -1558,312 +1533,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 	}
 	
-	private void moveBody(boolean dontMove) {
-		if (pinnedDontMove || burnedDontMove)
-		{
-			return;
-		}
-		if (grabbed || linkParent != null) {
-			// if grabbed, it cannot move.
-			falldownDamage = 0;
-			return;
-		}
-
-		// faced with poo-poo multiple time. became very sad
-		if(shitStress > 200)
-		{
-			setHappiness(Happiness.VERY_SAD);
-			setMessage(MessagePool.getMessage(this, MessagePool.Action.HateShit), false);
-			clearActions();
-			stay();
-			shitStress -= 40;
-			shitPanicEscape = true;
-			return;
-		}
-		if(shitStress < 125 && shitPanicEscape == true)
-			shitPanicEscape = false;
-		
-		if (vx != 0) {
-			x += vx;
-			if (Terrarium.onBarrier(x, y, getW() >> 2, getH() >> 3, Terrarium.MAP_BODY[getBodyAgeState().ordinal()])) {
-				x -= vx;
-			}
-			else if (x < 0) {
-				falldownDamage += Math.abs(vx);
-				x = 0;
-				vx = 0;
-			}
-			else if (x > Terrarium.MAX_X) {
-				falldownDamage += Math.abs(vx);
-				x = Terrarium.MAX_X;
-				vx = 0;
-			}
-		}
-
-		if (vy != 0) {
-			y += vy;
-			if (Terrarium.onBarrier(x, y, getW() >> 2, getH() >> 3, Terrarium.MAP_BODY[getBodyAgeState().ordinal()])) {
-				y -= vy;
-			}
-			else if (y < 0) {
-				falldownDamage += Math.abs(vy);
-				y = 0;
-				vy = 0;
-				dirY = 1;
-			}
-			else if (y > Terrarium.MAX_Y) {
-				falldownDamage += Math.abs(vy);
-				y = Terrarium.MAX_Y;
-				vy = 0;
-				dirY = -1;
-			}
-		}
-		// 鬟幄｡後〒縺阪ｋ繧�▲縺上ｊ縺ｯvz縺ｫ繧医ｋ螟門鴨莉･螟悶〒縺ｯ鬮伜ｺｦ繧剃ｿ昴▽
-		if (vz != 0 || (!canflyCheck() && z != 0)) {
-			falldownDamage = (vz > 0 ? falldownDamage : 0);
-			// if falling down, it cannot move to x-y axis
-			vz += 1;
-			z -= vz;
-			falldownDamage += (vz > 0 ? vz : 0);
-			if (z <= 0) {
-				falldownDamage += Math.abs(vy);
-				z = 0;
-				vz = 0;
-				vy = 0;
-				vx = 0;
-				int jumpLevel[] = {2, 2, 1};
-				int damageCut = 1;
-				if (falldownDamage >= 8/jumpLevel[getBodyAgeState().ordinal()]) {
-					for (ObjEX bd: Bed.objEXList) {
-						if ( (bd.getX() - bd.getW() >> 2) <= (getX()) && (getX()) <= (bd.getX() + bd.getW() >> 2) ){
-							if ( (bd.getY() - bd.getH()*2/5 )<=(getY()) && (getY())<=(bd.getY()) ){
-								damageCut = 4;
-								break;
-							}
-						}
-					}
-					strike(falldownDamage*100*24*3/Terrarium.MAX_Z/damageCut);
-					if (dead) {
-						if (!silent) {
-							setMessage(MessagePool.getMessage(this, MessagePool.Action.Dying));
-							stay();
-						}
-						crashed = true;
-					}
-				}
-			}
-			return;
-		}
-
-		x = Math.max(0, x);
-		x = Math.min(x, Terrarium.MAX_X);
-		y = Math.max(0, y);
-		y = Math.min(y, Terrarium.MAX_Y);
-		z = Math.max(0, z);
-		z = Math.min(z, Terrarium.MAX_Z);
-
-		if (dontMove || lockmove || pinnedDontMove || burnedDontMove) {
-			return;
-		}
-
-		// moving
-		int step = STEP[getBodyAgeState().ordinal()];
-		if (hasBabyOrStalk() || hungryState == Hunger.VERY || damageState == Damage.VERY
-				||isOnFire() || isSick() || isFeelPain() || getFootBakeLevel() == FootBake.MIDIUM
-				|| (isFlyingType() && !canflyCheck())) {
-			step /= 2;
-			if (step == 0) {
-				step = 1;
-			}
-		}
-
-		int freq = STEP[AgeState.ADULT.ordinal()] / step;
-		if (getAge() % freq != 0) {
-			return;
-		}
-		
-		// calculate x direction
-		if (destX >= 0) {
-			dirX = decideDirection(x, destX, 0);
-			if (dirX == 0) {
-				destX = -1;
-			}
-		} else {
-			if (countX++ >= sameDest * STEP[getBodyAgeState().ordinal()]) {
-				countX = 0;
-				dirX = randomDirection(dirX);			
-				if (!hasOkazari() && (isSad() || isVerySad())) {
-					if (!isTalking() && rnd.nextInt(10) == 0) {
-						setMessage(MessagePool.getMessage(this, MessagePool.Action.NoAccessory));
-					}
-				}
-			}
-		}
-		// calculate y direction
-		if (destY >= 0) {
-			dirY = decideDirection(y, destY, 0);
-			if (dirY == 0) {
-				destY = -1;
-			}
-		} else {
-			if (countY++ >= sameDest * STEP[getBodyAgeState().ordinal()]) {
-				countY = 0;
-				dirY = randomDirection(dirY);
-				if (!hasOkazari() && (isSad() || isVerySad())) {
-					if (!isTalking() && rnd.nextInt(10) == 0) {
-						setMessage(MessagePool.getMessage(this, MessagePool.Action.NoAccessory));
-					}
-				}
-			}
-		}
-		// calculate z direction
-		if(canflyCheck()) {
-			if (destZ >= 0) {
-				dirZ = decideDirection(z, destZ, 0);
-				if (dirZ == 0) {
-					destZ = -1;
-				}
-			}
-			// 逶ｮ讓吶′辟｡縺代ｌ縺ｰ鬮伜ｺｦ繧剃ｿ昴▽繧医≧縺ｫ遘ｻ蜍�
-			if(moveTarget == null && currentEvent == null) {
-				destZ = Translate.getFlyHeightLimit();
-			}
-		}
-
-		// move to the direction
-		step = 1;
-		if(isRaper() && isExciting()) step = 2;
-		
-		int vecX = dirX * step * speed / 100;
-		int vecY = dirY * step * speed / 100;
-		int vecZ = dirZ * step * speed / 100;
 	
-		// 譏守｢ｺ縺ｪ逶ｮ逧�慍縺後≠繧句�蜷医�陦後″驕弱℃繧偵メ繧ｧ繝�け
-		if(moveTarget != null || currentEvent != null) {
-			if(destX != -1) {
-				if(dirX < 0) {
-					if((x + vecX) < destX) {
-						x = destX;
-					} else x += vecX;
-				} else if(dirX > 0) {
-					if((x + vecX) > destX) {
-						x = destX;
-					} else x += vecX;
-				}
-			}
-
-			if(destY != -1) {
-				if(dirY < 0) {
-					if((y + vecY) < destY) {
-						y = destY;
-					} else y += vecY;
-				} else if(dirY > 0) {
-					if((y + vecY) > destY) {
-						y = destY;
-					} else y += vecY;
-				}
-			}
-
-			if(canflyCheck() && destZ != -1) {
-				if(dirZ < 0) {
-					if((z + vecZ) < destZ) {
-						z = destZ;
-					} else z += vecZ;
-				} else if(dirZ > 0) {
-					if((z + vecZ) > destZ) {
-						z = destZ;
-					} else z += vecZ;
-				}
-			}
-		} else {
-			x += vecX;
-			y += vecY;
-			z += vecZ;
-		}
-		
-		// if yukkuri going towards a shit redirect to another direction
-		// added by kirisame
-		int nearestShitDistance = ToiletLogic.getMinimumShitDistance(this);
-		if(nearestShitDistance < 1000 && nearestShitDistance != 0 && !this.isToFood() && !this.wantToShit() && !this.shitPanicEscape)
-		{
-			if(previousShitDistance > nearestShitDistance)
-			{
-				this.setMessage(MessagePool.getMessage(this, MessagePool.Action.HateShit), false);
-				this.stay();
-				dirX *= (rnd.nextBoolean() ? 1 : -1);
-				dirY *= (rnd.nextBoolean() ? 1 : -1);
-				destX = -1;
-				destY = -1;
-				staying = false;
-				shitStress += 10*TICK;
-			}
-		}
-		else
-			if(!staying && shitStress > 0)
-				shitStress -= TICK;
-		
-		previousShitDistance = nearestShitDistance;
-		
-		// 螢√メ繧ｧ繝�け
-		if (Terrarium.onBarrier(x, y, getW() >> 2, getH() >> 3, Terrarium.MAP_BODY[getBodyAgeState().ordinal()])) {
-			x -= vecX;
-			y -= vecY;
-			z -= vecZ;
-			// 鬢｡蟄占┻縺ｯ螢√↓縺ｲ縺｣縺九°繧�
-			if (getIntelligence() == Intelligence.FOOL && ((destX >= 0) || (destY >= 0) || (destZ >= 0))) {
-				blockedCount++;
-				if (blockedCount > BLOCKEDLIMIT) {
-					dirX *= -1;
-					dirY *= -1;
-					destX = -1;
-					destY = -1;
-					clearActions();
-					setHappiness(Happiness.VERY_SAD);
-				}
-				else if (blockedCount > BLOCKEDLIMIT/2) {
-					if (isRude()) {
-						setAngry();
-					} else {
-						exciting = false;
-						setHappiness(Happiness.SAD);
-					}
-				}
-				if (!isTalking()) {
-					setMessage(MessagePool.getMessage(this, MessagePool.Action.BlockedByWall));
-				}
-			} else {
-				dirX = randomDirection(dirX);
-				dirY = randomDirection(dirY);
-			}
-		} else {
-			blockedCount = Math.max(0, blockedCount - 1);
-		}
-		if (x < 0) {
-			x = 0;
-			dirX = 1;
-		} else if (x > Terrarium.MAX_X) {
-			x = Terrarium.MAX_X;
-			dirX = -1;
-		}
-		if (y < 0) {
-			y = 0;
-			dirY = 1;
-		} else if (y > Terrarium.MAX_Y) {
-			y = Terrarium.MAX_Y;
-			dirY = -1;
-		}
-		if (z < 0) {
-			z = 0;
-		} else if (z > Terrarium.MAX_Z) {
-			z = Terrarium.MAX_Z;
-		}
-		// update direction of the face
-		if (dirX == -1) {
-			direction = Direction.LEFT;
-		} else if (dirX == 1) {
-			direction = Direction.RIGHT;
-		}
-	}
 	
 	protected boolean isRudeMessage() {
 		if (isRude()) {
@@ -3216,77 +2886,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		targetPosOfsY = oy;
 	}
 
-	public void moveToFood(Obj target, Food.type type, int toX, int toY) {
-		moveToFood(target, type, toX, toY, 0);
-	}
-
-	public void moveToFood(Obj target, Food.type type, int toX, int toY, int toZ) {
-		clearActions();
-		setToFood(true);
-		moveTarget = target;
-		moveTo(toX, toY, toZ);
-	}
-
-	public void moveToSukkiri(Obj target, int toX, int toY) {
-		moveToSukkiri(target, toX, toY, 0);
-	}
-
-	public void moveToSukkiri(Obj target, int toX, int toY, int toZ) {
-		clearActions();
-		toSukkiri = true;
-		moveTarget = target;
-		moveTo(toX, toY, toZ);
-	}
-
-	public void moveToToilet(Obj target, int toX, int toY) {
-		moveToToilet(target, toX, toY, 0);
-	}
-
-	public void moveToToilet(Obj target, int toX, int toY, int toZ) {
-		clearActions();
-		setToShit(true);
-		moveTarget = target;
-		moveTo(toX, toY, toZ);
-	}
-
-	public void moveToBed(Obj target, int toX, int toY) {
-		moveToBed(target, toX, toY, 0);
-	}
-
-	public void moveToBed(Obj target, int toX, int toY, int toZ) {
-		clearActions();
-		setToBed(true);
-		moveTarget = target;
-		moveTo(toX, toY, toZ);
-	}
-
-	public void moveToBody(Obj target, int toX, int toY) {
-		moveToBody(target, toX, toY, 0);
-	}
-
-	public void moveToBody(Obj target, int toX, int toY, int toZ) {
-		clearActions();
-		toBody = true;
-		moveTarget = target;
-		moveTo(toX, toY, toZ);
-	}
-
-	public void moveToEvent(EventPacket e, int toX, int toY) {
-		moveToEvent(e, toX, toY, 0);
-	}
-
-	public void moveToEvent(EventPacket e, int toX, int toY, int toZ)
-	{
-		if (dead) {
-			return;
-		}
-		e.toX = toX;
-		e.toY = toY;
-		e.toZ = toZ;
-		destX = Math.max(0, Math.min(toX, Terrarium.MAX_X));
-		destY = Math.max(0, Math.min(toY, Terrarium.MAX_Y));
-		destZ = Math.max(0, Math.min(toZ, Terrarium.MAX_Z));
-	}
+	
 
 	public void lookTo(int toX, int toY) {
 		if (dead || sleeping) {
@@ -3575,7 +3175,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 					// 閾ｪ蛻�′繝ｬ繧､繝代�縺ｧ謾ｻ謦�＆繧後◆縺ｨ縺�
 					// 逶ｸ謇九ｒ繝ｬ繧､繝怜ｯｾ雎｡縺ｫ
 					int colX = BodyLogic.calcCollisionX(this, enemy);
-					moveToSukkiri(enemy, enemy.getX() + colX, enemy.getY());
+					Moving.moveToSukkiri(this,enemy, enemy.getX() + colX, enemy.getY());
 				}
 			}
 			
@@ -4982,7 +4582,7 @@ riding = bind
 		// if dead, do nothing.
 		if (dead) {
 			clearActions();
-			moveBody(true); // for falling the body
+			Moving.moveBody(this, true); // for falling the body
 			checkMessage();
 			return Obj.Event.DEAD;
 		}
@@ -4997,7 +4597,7 @@ riding = bind
 		setAge(getAge() + TICK);
 		if (getAge() > LIFELIMIT) {
 			toDead();
-			moveBody(true); // for falling the body
+			Moving.moveBody(this, true); // for falling the body
 			checkMessage();
 			if (dead) {
 				return Obj.Event.DEAD;
@@ -5044,7 +4644,7 @@ riding = bind
 			checkComplacency();
 			checkSick();
 			checkCantDie();
-			moveBody(dontMove);
+			Moving.moveBody(this,dontMove);
 			return retval;
 		}
 		// check status
@@ -5091,7 +4691,7 @@ riding = bind
 		
 		if ( isBurst() ){
 			toDead();
-			moveBody(true); // for falling the body
+			Moving.moveBody(this, true); // for falling the body
 			checkMessage();
 			if (dead){
 				bodyBurst();
@@ -5158,7 +4758,7 @@ riding = bind
 
 		// move to destination
 		// if there is no destination, walking randomly.
-		moveBody(dontMove);
+		Moving.moveBody(this, dontMove);
 
 		checkMessage();
 		wetCurrently = false; //counteracts the wet from pool and prevent water timer accumulation while out of the pool
@@ -5276,8 +4876,8 @@ riding = bind
 				}
 			}
 		}
-		dirX = randomDirection(dirX);
-		dirY = randomDirection(dirY);
+		dirX = Moving.randomDirection(this, dirX);
+		dirY = Moving.randomDirection(this, dirY);
 
 		messageTextSize = 12;
 		

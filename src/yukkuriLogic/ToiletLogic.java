@@ -13,6 +13,7 @@ import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues.AgeState;
 import src.yukkuriBody.ConstantValues.Attitude;
+import src.yukkuriBody.Moving;
 
 
 
@@ -121,7 +122,7 @@ public class ToiletLogic {
 			}
 		}
 		if (found != null) {
-			b.moveToToilet(found, found.getX(), found.getY(), 0);
+			Moving.moveToToilet(b, found, found.getX(), found.getY(), 0);
 			ret = true;
 		}
 		else
@@ -130,7 +131,7 @@ public class ToiletLogic {
 			{
 				Obj toilet = new Obj();
 				// TO DO :magic numbers will be changed
-				b.moveToToilet(toilet, 5, b.getY());
+				Moving.moveToToilet(b, toilet, 5, b.getY());
 				ret = true;
 			}
 		}

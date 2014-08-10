@@ -249,7 +249,7 @@ public class BodyLogic {
 			if (!found.isDead()) {
 				// 閾ｪ蛻�′逋ｺ諠�＠縺ｦ縺�ｌ縺ｰ縺吶▲縺阪ｊ縺ｫ蜷代°縺�
 				if (b.isExciting()) {
-					b.moveToSukkiri(found, found.getX() + colX, found.getY(), mz);
+					Moving.moveToSukkiri(b, found, found.getX() + colX, found.getY(), mz);
 					b.setTargetBind(true);
 					ret = true;
 				}
@@ -265,20 +265,20 @@ public class BodyLogic {
 				}
 				else if (b.isAdult() && !found.isAdult() && found.isDirty() && (found.isChild(b) || b.isMotherhood(found))) {
 					// 逶ｸ謇九′豎壹ｌ縺溷ｭ蝉ｾ帙↑繧峨⊆繧阪⊆繧阪＠縺ｫ蜷代°縺�
-					b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+					Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 					b.setTargetBind(false);
 					ret = true;
 				}
 				else if (b.isChild(found) && !b.isAdult() && b.isDirty()) {
 					// 閾ｪ蛻�′豎壹ｌ縺溷ｭ蝉ｾ帙↑繧牙ｮｶ譌上�縺ｨ縺薙ｍ縺ｸ蜷代°縺�
-					b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+					Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 					b.setTargetBind(true);
 					ret = true;
 				}
 				else if (found.isPartner(b)) {
 					// 繝ｩ繝ｳ繝�Β縺ｧ縺､縺後＞縺ｮ縺ｨ縺薙ｍ縺ｸ蜷代°縺�
 					if (rnd.nextInt(200) == 0) {
-						b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+						Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 						b.setTargetBind(false);
 						ret = true;
 					}
@@ -286,7 +286,7 @@ public class BodyLogic {
 				else if (!b.isAdult() && b.isSister(found)) {
 					// 繝ｩ繝ｳ繝�Β縺ｧ蟋牙ｦｹ縺ｮ縺ｨ縺薙ｍ縺ｸ蜷代°縺�
 					if (rnd.nextInt(200) == 0) {
-						b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+						Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 						b.setTargetBind(false);
 						ret = true;
 					}
@@ -295,7 +295,7 @@ public class BodyLogic {
 				// 豁ｻ菴鍋嶌謇九�陦悟虚
 				if (b.isExciting()) {
 					// 縺吶▲縺阪ｊ
-					b.moveToSukkiri(found, found.getX() + colX, found.getY(), mz);
+					Moving.moveToSukkiri(b, found, found.getX() + colX, found.getY(), mz);
 					b.setTargetBind(false);
 					ret = true;						
 				}
@@ -303,7 +303,7 @@ public class BodyLogic {
 					// 螳ｶ譌上�豁ｻ菴薙↓蝌�￥
 					if (b.isAdult()) {
 						if (b.isParent(found) || b.isPartner(found)) {
-							b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+							Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 							b.setTargetBind(false);
 							ret = true;
 						} else {
@@ -311,7 +311,7 @@ public class BodyLogic {
 						}
 					} else {
 						if (b.isSister(found)) {
-							b.moveToBody(found, found.getX() + colX, found.getY(), mz);
+							Moving.moveToBody(b, found, found.getX() + colX, found.getY(), mz);
 							b.setTargetBind(false);
 							ret = true;
 						} else {

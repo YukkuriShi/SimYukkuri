@@ -7,6 +7,7 @@ import src.object.Obj;
 import src.system.Translate;
 import src.yukkuriBody.Body;
 import src.yukkuriBody.ConstantValues;
+import src.yukkuriBody.Moving;
 import src.yukkuriBody.ConstantValues.*;
 /*
 	死体食事中におかざりを戻すイベント
@@ -44,7 +45,7 @@ public class EatBodyEvent extends EventPacket implements java.io.Serializable {
 	// イベント開始動作
 	public void start(Body b) {
 		// ゆっくりが隠れないように死体の手前に出る
-		b.moveToEvent(this, getFrom().getX() + 5, getFrom().getY() + 4);
+		Moving.moveToEvent(b, this, getFrom().getX() + 5, getFrom().getY() + 4);
 	}
 	
 	// イベント目標に到着した際に呼ばれる
