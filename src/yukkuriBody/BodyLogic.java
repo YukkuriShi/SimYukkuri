@@ -26,10 +26,8 @@ public class BodyLogic {
 	private static final Random rnd = new Random();
 
 	public static final boolean checkPartner(Body b) {
-		if (b.isDead()) {
-			return false;
-		}
-		if(b.isSleeping() || (!b.isExciting() && !b.isRude() && b.wantToShit()) || b.nearToBirth()){
+
+		if((!b.isExciting() && !b.isRude() && b.wantToShit()) || b.nearToBirth()){
 			return false;
 		}
 

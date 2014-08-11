@@ -4648,17 +4648,17 @@ riding = bind
 			return retval;
 		}
 		// check status
-	if (!isBusy()){
-		checkHungry();
-		checkDamage();
-		checkStress();
-		checkComplacency();
-		checkSick();
-		checkCantDie();
-		checkPinned();
-		checkWetState();
-		checkBurntState();
-	}
+		if (!isBusy()){
+			checkHungry();
+			checkDamage();
+			checkStress();
+			checkComplacency();
+			checkSick();
+			checkCantDie();
+			checkPinned();
+			checkWetState();
+			checkBurntState();
+		}
 		if (testBadge > 0){ 
 			runBadgeTest(testBadge);
 		}

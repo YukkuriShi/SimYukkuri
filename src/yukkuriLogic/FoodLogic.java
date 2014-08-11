@@ -31,7 +31,6 @@ import src.yukkuriBody.ConstantValues.*;
 public class FoodLogic {
 	
 	private static final Random rnd = new Random();
-	private final static int CLEAN_FOOD_LIMIT = 3000;
 
 	// フィールド内から餌候補の検索と移動、捕食処理
 	public static final boolean checkFood(Body b) {

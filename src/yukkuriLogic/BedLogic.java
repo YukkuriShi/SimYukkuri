@@ -24,7 +24,7 @@ public class BedLogic {
 	private static Random rnd = new Random();
 	
 	public static final boolean checkBed(Body b) {
-		if(b.isDead() || b.isIdiot() || b.isSleeping() || b.getCriticalDamegeType() != null) return false;
+		if( b.isIdiot() ||  b.getCriticalDamegeType() != null) return false;
 
 		if(b.nearToBirth()) {
 			if(b.getCurrentEvent() != null && b.getCurrentEvent().getPriority() == EventPacket.EventPriority.HIGH) {

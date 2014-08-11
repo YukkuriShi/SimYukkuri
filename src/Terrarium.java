@@ -974,10 +974,7 @@ public class Terrarium {
 		}
 		else
 			return 3;  //NoWeather
-		
 	}
-	
-	
 	
 	///////
 	
@@ -1009,7 +1006,7 @@ public class Terrarium {
 		
 		intervalCount = (++intervalCount) & 255;
 //		if(intervalCount == 0) {
-//			System.gc();
+	//		System.gc();
 //		}
 		
 		if (alarmPeriod >= 0) {
@@ -1137,11 +1134,12 @@ public class Terrarium {
 		boolean transCheck = (operationTime % 60 == 0);
 		Body transBody = null;
 		// 繧�▲縺上ｊ縺ｮ蟇�ｺｦ繧堤腸蠅�せ繝医Ξ繧ｹ縺ｨ縺励※邂怜�
-		int stress = bodyList.size() * 10000 / (Terrarium.terrariumSizeParcent*Terrarium.terrariumSizeParcent);
 		for (Iterator<Body> i = bodyList.iterator(); i.hasNext();) {
-			Body b = i.next();
-//			b.putStress(stress); // Yukkuri is getting stress according as number of bodies.
+			Body b = i.next();		
+			
+			// update all body variables
 			ret = b.clockTick();
+				
 			switch (ret) {
 			case DEAD:
 				if (b.isInfration()) {
@@ -1231,32 +1229,36 @@ public class Terrarium {
 				if(b.getCurrentEvent() != null) {
 					EventLogic.eventUpdate(b);
 				}
-				// Maslow's hierarchy of needs
-				boolean maslowControl = true;
-				if(b.isDead() || b.isSleeping())
-					maslowControl = false;
 				
-				int maslowCounter = 0;
-				if(b.isFull())
-					maslowCounter = 1;
-				
-				boolean a = b.isTalking();
-				while(maslowControl)
+				// control frequency
+				if(operationTime%2 == 0)
 				{
-					switch(++maslowCounter)
-					{	// check food
-						case 1 : maslowControl = !FoodLogic.checkFood(b); break;
-						// check sukkuri
-						case 2 : maslowControl = !BodyLogic.checkPartner(b); break;
-						// check toilet
-						case 3 : maslowControl = !ToiletLogic.checkToilet(b); break;
-						// check sleep
-						case 4 : maslowControl = !BedLogic.checkBed(b); break;
-						// check toy
-						case 5 : if(!ToyLogic.checkToy(b))
-									ToyLogic.checkSui(b);
-									break;
-						default: maslowControl = false; break;
+					// Maslow's hierarchy of needs
+					boolean maslowControl = true;
+					if(b.isDead() || b.isSleeping())
+						maslowControl = false;
+					
+					int maslowCounter = 0;
+					if(b.isFull())
+						maslowCounter = 1;
+					
+					while(maslowControl)
+					{
+						switch(++maslowCounter)
+						{	// check food
+							case 1 : maslowControl = !FoodLogic.checkFood(b); break;
+							// check sukkuri
+							case 2 : maslowControl = !BodyLogic.checkPartner(b); break;
+							// check toilet
+							case 3 : maslowControl = !ToiletLogic.checkToilet(b); break;
+							// check sleep
+							case 4 : maslowControl = !BedLogic.checkBed(b); break;
+							// check toy
+							case 5 : if(!ToyLogic.checkToy(b))
+										ToyLogic.checkSui(b);
+										break;
+							default: maslowControl = false; break;
+						}
 					}
 				}
 			}
