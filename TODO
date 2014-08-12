@@ -6,3 +6,4 @@ TODO
 3. Cleanup StealOkazariEvent
 	in bodylogic add handling for stealing from living yukkuri
 	lower odds of this event occurring.
+	because of changes in the drawing method for accessories, we need to either setup a seperate drawing method for trash accessories, or fix the sprites themselves.
