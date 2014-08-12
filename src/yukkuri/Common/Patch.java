@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuriBody.Body;
@@ -123,6 +124,9 @@ public class Patch extends Body implements java.io.Serializable {
 		STRESSLIMIT[AgeState.ADULT.ordinal()] =StressMedian + stressFactor;
 		STRESSLIMIT[AgeState.CHILD.ordinal()] =StressMedian + stressFactor - 75;
 		STRESSLIMIT[AgeState.BABY.ordinal()] = StressMedian + stressFactor - 150;
+		
+		 okazariType = OkazariType.PATCH; //this doesn't seem to be working...
+
 
 		braidType = true;
 	}

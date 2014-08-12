@@ -243,6 +243,16 @@ public class BodyLogic {
 			// 繧�▲縺上ｊ蜷悟｣ｫ縺碁㍾縺ｪ繧峨↑縺�ｈ縺�↓逶ｮ讓吝慍轤ｹ縺ｯ菴薙�繧ｵ繧､繧ｺ繧定�諷ｮ
 			int colX = calcCollisionX(b, found);
 			
+			if (found.isDead() && !b.hasOkazari() && found.hasOkazari())
+			{if (rnd.nextInt(20)==0)
+			{
+				String stealOkazari = found.getNameE() + "'s mister accessory is mine easy!"; //placeholder
+
+				EventLogic.addWorldEvent(new StealOkazariEvent(b, found, null, 10), b, stealOkazari );
+			}
+
+			}
+			
 			// 逶ｸ謇九′豁ｻ菴薙〒縺ｪ縺代ｌ縺ｰ
 			if (!found.isDead()) {
 				// 閾ｪ蛻�′逋ｺ諠�＠縺ｦ縺�ｌ縺ｰ縺吶▲縺阪ｊ縺ｫ蜷代°縺�
@@ -251,7 +261,7 @@ public class BodyLogic {
 					b.setTargetBind(true);
 					ret = true;
 				}
-				else if (!found.hasOkazari() && b.getOkazariType() == OkazariType.DEFAULT && b.isRude()
+				else if (!found.hasOkazari() && b.hasOkazari() && b.isRude()
 						&& !b.isDamaged() && !found.isUnBirth() && b.currentEvent == null) {
 					// 縺翫°縺悶ｊ縺ｮ縺ｪ縺�ｆ縺｣縺上ｊ縺ｪ繧牙宛陬√ｒ蜻ｼ縺ｳ縺九￠繧�
 					if (rnd.nextInt(20) == 0) {

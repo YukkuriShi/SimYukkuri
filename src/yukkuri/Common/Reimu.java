@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuri.MarisaReimu;
@@ -134,6 +135,9 @@ public class Reimu extends Body implements java.io.Serializable {
 		STRESSLIMIT[AgeState.ADULT.ordinal()] =StressMedian + stressFactor;
 		STRESSLIMIT[AgeState.CHILD.ordinal()] =StressMedian + stressFactor - 150;
 		STRESSLIMIT[AgeState.BABY.ordinal()] = StressMedian + stressFactor - 250;
+		
+		 okazariType = OkazariType.REIMU;
+
 		
 		speed = 100;
 		braidType = true;

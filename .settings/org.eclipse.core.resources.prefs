@@ -13,6 +13,7 @@ encoding//src/attachment/GoldBadge.java=UTF-8
 encoding//src/attachment/OrangeAmpoule.java=UTF-8
 encoding//src/attachment/SilverBadge.java=UTF-8
 encoding//src/event/HateNoOkazariEvent.java=UTF-8
+encoding//src/event/StealOkazariEvent.java=UTF-8
 encoding//src/item/AutoFeeder.java=UTF-8
 encoding//src/item/Beltconveyor.java=UTF-8
 encoding//src/item/BreedingPool.java=UTF-8

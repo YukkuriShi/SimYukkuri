@@ -35,6 +35,7 @@ import src.attachment.SilverBadge;
 import src.attachment.GoldBadge;
 import src.event.BreedEvent;
 import src.event.HateNoOkazariEvent;
+import src.event.StealOkazariEvent;
 import src.event.RaperReactionEvent;
 import src.event.RaperWakeupEvent;
 import src.event.RevengeAttackEvent;
@@ -148,7 +149,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	private Intelligence intelligence = Intelligence.AVERAGE;	// 遏･諤ｧ
 	protected Happiness happiness = Happiness.AVERAGE; // 蟷ｸ遖丞ｺｦ
 	private int shit = 0;
-	protected OkazariType okazariType = OkazariType.DEFAULT;	// 縺翫°縺悶ｊ遞ｮ蛻･
+	public OkazariType okazariType = OkazariType.DEFAULT;	// 縺翫°縺悶ｊ遞ｮ蛻･
 	protected boolean hasBraid = true;				// 縺翫＆縺偵�鄒ｽ縲∝ｰｻ蟆ｾ譛臥┌ 遞ｮ譌上→縺励※菴輔ｂ謖√▲縺ｦ縺�↑縺�ｂ縺ｮ縺ｯtrue
 	private boolean hasPants = false;				// 縺翫￥繧九∩譛臥┌ true if having pants
 	protected boolean hasBaby = false;				// 閭守函螯雁ｨ�怏辟｡ having baby or not

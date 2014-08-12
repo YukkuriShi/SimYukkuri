@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuri.Common.Marisa;
@@ -127,6 +128,7 @@ public class Deibu extends Body implements java.io.Serializable {
 		STRENGTH[AgeState.ADULT.ordinal()] = 150*30;
 		STRENGTH[AgeState.CHILD.ordinal()] = 150*11;
 		STRENGTH[AgeState.BABY.ordinal()]  = 115;
+		 okazariType = OkazariType.DEIBU;
 		
 		setAttitude(Attitude.SUPER_SHITHEAD);
 		

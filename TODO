@@ -1,0 +1,8 @@
+TODO
+
+1. Fix the class paths when adding random yukkuri (in myPane) (Issue seems to result from the separation of the yukkuri types.)
+2. Deibus okazari placement is off when she is set to use DEIBU instead of DEFAULT
+	Resize okazari based on age. - FIXED (leaving as a reminder to check for bugs)
+3. Cleanup StealOkazariEvent
+	in bodylogic add handling for stealing from living yukkuri
+	lower odds of this event occurring.

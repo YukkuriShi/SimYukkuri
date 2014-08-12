@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuriBody.Body;
@@ -123,5 +124,8 @@ public class Eiki extends Body implements java.io.Serializable {
 		getVALUESALE()[AgeState.BABY.ordinal()] = valueSale ;
 
 		braidType = true;
+		
+		 okazariType = OkazariType.EIKI;
+
 	}
 }

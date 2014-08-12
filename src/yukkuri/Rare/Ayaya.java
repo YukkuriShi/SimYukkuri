@@ -11,6 +11,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuriBody.Body;
@@ -131,6 +132,9 @@ public class Ayaya extends Body implements java.io.Serializable {
 		getVALUESALE()[AgeState.ADULT.ordinal()] = 4*valueSale;
 		getVALUESALE()[AgeState.CHILD.ordinal()] = 2*valueSale;
 		getVALUESALE()[AgeState.BABY.ordinal()] = valueSale ;
+		
+		 okazariType = OkazariType.AYAYA;
+
 		
 		speed = 145;
 	}

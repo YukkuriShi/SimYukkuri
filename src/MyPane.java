@@ -280,7 +280,6 @@ public class MyPane extends JPanel implements Runnable {
 		synchronized(SimYukkuri.lock) {
 			try {
 				ClassLoader loader = this.getClass().getClassLoader();
-				
 				Class<?> c = Class.forName("src.yukkuri." + type.className);
 				Method m = c.getMethod("loadImages", ClassLoader.class, ImageObserver.class);
 				m.invoke(null, loader, this);
@@ -552,7 +551,7 @@ public class MyPane extends JPanel implements Runnable {
 				if	(selectType == Reimu.type && rnd.nextInt(20) == 3)
 					selectType = WasaReimu.type;
 				
-				if(selectType == Reimu.type && rnd.nextInt(24) == 0)
+				if(selectType == Reimu.type && rnd.nextInt(15) == 0)
 					selectType = Deibu.type;
 			/*	if(selectType == Marisa.type && rnd.nextInt(70) == 0)
 					selectType = MarisaTsumuri.type;
@@ -805,7 +804,9 @@ public class MyPane extends JPanel implements Runnable {
 								backBufferG2.drawImage(drawLayer[1], bodyOriginalRect.x, bodyOriginalRect.y + okazariOfsY, bodyOriginalRect.width, bodyOriginalRect.height, this);
 							} else {
 								TrashUtil.getOkazariPos(bodyOriginalRect, b, direction, drawMode);
-								backBufferG2.drawImage(drawLayer[1], drawMode[0], drawMode[1] + okazariOfsY, drawMode[2], drawMode[3], this);
+								backBufferG2.drawImage(drawLayer[1], bodyOriginalRect.x, bodyOriginalRect.y + okazariOfsY, bodyOriginalRect.width, bodyOriginalRect.height, this);
+
+								//backBufferG2.drawImage(drawLayer[1], drawMode[0], drawMode[1] + okazariOfsY, drawMode[2], drawMode[3], this);
 							}
 						}
 						// 鬘�

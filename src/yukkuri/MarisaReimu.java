@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuri.Common.Marisa;
@@ -119,6 +120,9 @@ public class MarisaReimu extends Reimu implements java.io.Serializable
 		STRESSLIMIT[AgeState.CHILD.ordinal()] =StressMedian + stressFactor - 150;
 		STRESSLIMIT[AgeState.BABY.ordinal()] = StressMedian + stressFactor - 250;
 
+		 okazariType = OkazariType.MARISAREIMU;
+
+		
 		speed = 120;
 		braidType = true;
 	}

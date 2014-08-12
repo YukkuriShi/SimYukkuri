@@ -7,6 +7,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuri.Rare.Ayaya;
@@ -113,6 +114,9 @@ public class Kimeemaru extends Body implements java.io.Serializable {
 		if (rnd.nextBoolean())
 		{setAttitude(Attitude.SHITHEAD);
 		}
+		
+		 okazariType = OkazariType.KIMEEMARU;
+
 		
 		int valueSale = Ayaya.valueSale;
 		int valuePurchase = Ayaya.valuePurchase;

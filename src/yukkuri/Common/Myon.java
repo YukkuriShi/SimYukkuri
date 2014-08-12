@@ -8,6 +8,7 @@ import java.awt.image.ImageObserver;
 import java.io.IOException;
 
 import src.*;
+import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
 import src.system.ModLoader;
 import src.yukkuriBody.Body;
@@ -121,6 +122,9 @@ public class Myon extends Body implements java.io.Serializable {
 		STRESSLIMIT[AgeState.ADULT.ordinal()] =StressMedian + stressFactor;
 		STRESSLIMIT[AgeState.CHILD.ordinal()] =StressMedian + stressFactor - 250;
 		STRESSLIMIT[AgeState.BABY.ordinal()] = StressMedian + stressFactor - 350;
+		
+		 okazariType = OkazariType.MYON;
+
 
 		speed = 150;
 	}
