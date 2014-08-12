@@ -280,7 +280,13 @@ public class MyPane extends JPanel implements Runnable {
 		synchronized(SimYukkuri.lock) {
 			try {
 				ClassLoader loader = this.getClass().getClassLoader();
-				Class<?> c = Class.forName("src.yukkuri." + type.className);
+				ArrayList<String> packages = new ArrayList<String>();
+				packages.add("src.yukkuri.");
+				packages.add("src.yukkuri.Common.");
+				packages.add("src.yukkuri.Predator.");
+				packages.add("src.yukkuri.Rare.");
+				String packageName = getPackageForClass(type.className,packages);
+				Class<?> c = Class.forName(packageName + type.className);
 				Method m = c.getMethod("loadImages", ClassLoader.class, ImageObserver.class);
 				m.invoke(null, loader, this);
 			} catch (SecurityException e) {
@@ -299,6 +305,17 @@ public class MyPane extends JPanel implements Runnable {
 				JOptionPane.showMessageDialog(null, "繝｡繝｢繝ｪ荳崎ｶｳ縺ｧ縺�");
 			}
 		}
+	}
+	
+	public static String getPackageForClass(String className, ArrayList<String> packages) {
+	    for (String packageName : packages) {
+	        try {
+	            Class.forName(packageName + className);
+	            return packageName;
+	        } catch (ClassNotFoundException ignored) {
+	        }
+	    }
+	    return "";
 	}
 	
 	// 閭梧勹逕ｻ蜒上�繝ｪ繧ｵ繧､繧ｺ

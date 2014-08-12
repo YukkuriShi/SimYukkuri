@@ -116,77 +116,7 @@ public class Moving {
 		if(body.shitStress < 125 && body.shitPanicEscape == true)
 			body.shitPanicEscape = false;
 		
-		if (body.vx != 0) {
-			body.x += body.vx;
-			if (Terrarium.onBarrier(body.x, body.y, body.getW() >> 2, body.getH() >> 3, Terrarium.MAP_BODY[body.getBodyAgeState().ordinal()])) {
-				body.x -= body.vx;
-			}
-			else if (body.x < 0) {
-				body.falldownDamage += Math.abs(body.vx);
-				body.x = 0;
-				body.vx = 0;
-			}
-			else if (body.x > Terrarium.MAX_X) {
-				body.falldownDamage += Math.abs(body.vx);
-				body.x = Terrarium.MAX_X;
-				body.vx = 0;
-			}
-		}
-
-		if (body.vy != 0) {
-			body.y += body.vy;
-			if (Terrarium.onBarrier(body.x, body.y, body.getW() >> 2, body.getH() >> 3, Terrarium.MAP_BODY[body.getBodyAgeState().ordinal()])) {
-				body.y -= body.vy;
-			}
-			else if (body.y < 0) {
-				body.falldownDamage += Math.abs(body.vy);
-				body.y = 0;
-				body.vy = 0;
-				body.dirY = 1;
-			}
-			else if (body.y > Terrarium.MAX_Y) {
-				body.falldownDamage += Math.abs(body.vy);
-				body.y = Terrarium.MAX_Y;
-				body.vy = 0;
-				body.dirY = -1;
-			}
-		}
-		// 鬟幄｡後〒縺阪ｋ繧�▲縺上ｊ縺ｯvz縺ｫ繧医ｋ螟門鴨莉･螟悶〒縺ｯ鬮伜ｺｦ繧剃ｿ昴▽
-		if (body.vz != 0 || (!body.canflyCheck() && body.z != 0)) {
-			body.falldownDamage = (body.vz > 0 ? body.falldownDamage : 0);
-			// if falling down, it cannot move to x-y axis
-			body.vz += 1;
-			body.z -= body.vz;
-			body.falldownDamage += (body.vz > 0 ? body.vz : 0);
-			if (body.z <= 0) {
-				body.falldownDamage += Math.abs(body.vy);
-				body.z = 0;
-				body.vz = 0;
-				body.vy = 0;
-				body.vx = 0;
-				int jumpLevel[] = {2, 2, 1};
-				int damageCut = 1;
-				if (body.falldownDamage >= 8/jumpLevel[body.getBodyAgeState().ordinal()]) {
-					for (ObjEX bd: Bed.objEXList) {
-						if ( (bd.getX() - bd.getW() >> 2) <= (body.getX()) && (body.getX()) <= (bd.getX() + bd.getW() >> 2) ){
-							if ( (bd.getY() - bd.getH()*2/5 )<=(body.getY()) && (body.getY())<=(bd.getY()) ){
-								damageCut = 4;
-								break;
-							}
-						}
-					}
-					body.strike(body.falldownDamage*100*24*3/Terrarium.MAX_Z/damageCut);
-					if (body.dead) {
-						if (!body.silent) {
-							body.setMessage(MessagePool.getMessage(body, MessagePool.Action.Dying));
-							body.stay();
-						}
-						body.crashed = true;
-					}
-				}
-			}
-			return;
-		}
+		checkFalling(body);
 
 		body.x = Math.max(0, body.x);
 		body.x = Math.min(body.x, Terrarium.MAX_X);
@@ -396,6 +326,83 @@ public class Moving {
 		} else if (body.dirX == 1) {
 			body.direction = Direction.RIGHT;
 		}
+	}
+	
+	
+	private static boolean checkFalling(Body body)
+	{
+		if (body.vx != 0) {
+			body.x += body.vx;
+			if (Terrarium.onBarrier(body.x, body.y, body.getW() >> 2, body.getH() >> 3, Terrarium.MAP_BODY[body.getBodyAgeState().ordinal()])) {
+				body.x -= body.vx;
+			}
+			else if (body.x < 0) {
+				body.falldownDamage += Math.abs(body.vx);
+				body.x = 0;
+				body.vx = 0;
+			}
+			else if (body.x > Terrarium.MAX_X) {
+				body.falldownDamage += Math.abs(body.vx);
+				body.x = Terrarium.MAX_X;
+				body.vx = 0;
+			}
+		}
+
+		if (body.vy != 0) {
+			body.y += body.vy;
+			if (Terrarium.onBarrier(body.x, body.y, body.getW() >> 2, body.getH() >> 3, Terrarium.MAP_BODY[body.getBodyAgeState().ordinal()])) {
+				body.y -= body.vy;
+			}
+			else if (body.y < 0) {
+				body.falldownDamage += Math.abs(body.vy);
+				body.y = 0;
+				body.vy = 0;
+				body.dirY = 1;
+			}
+			else if (body.y > Terrarium.MAX_Y) {
+				body.falldownDamage += Math.abs(body.vy);
+				body.y = Terrarium.MAX_Y;
+				body.vy = 0;
+				body.dirY = -1;
+			}
+		}
+		// 鬟幄｡後〒縺阪ｋ繧�▲縺上ｊ縺ｯvz縺ｫ繧医ｋ螟門鴨莉･螟悶〒縺ｯ鬮伜ｺｦ繧剃ｿ昴▽
+		if (body.vz != 0 || (!body.canflyCheck() && body.z != 0)) {
+			body.falldownDamage = (body.vz > 0 ? body.falldownDamage : 0);
+			// if falling down, it cannot move to x-y axis
+			body.vz += 1;
+			body.z -= body.vz;
+			body.falldownDamage += (body.vz > 0 ? body.vz : 0);
+			if (body.z <= 0) {
+				body.falldownDamage += Math.abs(body.vy);
+				body.z = 0;
+				body.vz = 0;
+				body.vy = 0;
+				body.vx = 0;
+				int jumpLevel[] = {2, 2, 1};
+				int damageCut = 1;
+				if (body.falldownDamage >= 8/jumpLevel[body.getBodyAgeState().ordinal()]) {
+					for (ObjEX bd: Bed.objEXList) {
+						if ( (bd.getX() - bd.getW() >> 2) <= (body.getX()) && (body.getX()) <= (bd.getX() + bd.getW() >> 2) ){
+							if ( (bd.getY() - bd.getH()*2/5 )<=(body.getY()) && (body.getY())<=(bd.getY()) ){
+								damageCut = 4;
+								break;
+							}
+						}
+					}
+					body.strike(body.falldownDamage*100*24*3/Terrarium.MAX_Z/damageCut);
+					if (body.dead) {
+						if (!body.silent) {
+							body.setMessage(MessagePool.getMessage(body, MessagePool.Action.Dying));
+							body.stay();
+						}
+						body.crashed = true;
+					}
+				}
+			}
+			return true;
+		}
+		return false;
 	}
 	
 	public static int randomDirection(Boolean rand,int curDir) {
