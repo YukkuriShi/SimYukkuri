@@ -28,6 +28,7 @@ import src.MessagePool.Action;
 import src.Terrarium.DayState;
 import src.TrashUtil.OkazariType;
 import src.YukkuriUtil.YukkuriType;
+import src.attachment.CardboardBox;
 import src.attachment.Fire;
 import src.attachment.FakeBadge;
 import src.attachment.BronzeBadge;
@@ -116,7 +117,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected int BLOCKEDLIMIT = 60;
 	protected int DIRTYPERIOD = 250;
 	protected int ROBUSTNESS = 1;
-	protected int EYESIGHT = Terrarium.MAX_X * Terrarium.MAX_Y;
+	public int EYESIGHT = Terrarium.MAX_X * Terrarium.MAX_Y;
 	protected int STRENGTH[] = {100, 100*10, 100*30};
 	protected int INCUBATIONPERIOD = 100*12;
 	protected int TRASH_OKAZARI_OFS_X[] = {0,0,0};
@@ -374,6 +375,9 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected YukkuriType shitType = null;
 	private boolean pin = false;
 	protected int speed = 100;
+	
+	//MISC
+	protected boolean isBlind = false;
 
 	// 繧､繝吶Φ繝�
 	private ArrayList<EventPacket> eventList = new ArrayList<EventPacket>(); // 縺薙�蛟倶ｽ薙↓蟇ｾ縺励※逋ｺ陦後＆繧後◆繧､繝吶Φ繝医�繝ｪ繧ｹ繝�
@@ -3665,6 +3669,18 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		setForcePanicClear();
 	}
+	
+public void giveBox(){
+	if(getAttachmentSize(CardboardBox.class) != 0) {
+		removeAttachment(CardboardBox.class, true);
+		EYESIGHT = Terrarium.MAX_X*Terrarium.MAX_Y;
+		isBlind = false;
+	} else {
+		addAttachment(new CardboardBox((this))); //TODO work in progress
+		EYESIGHT = 55;
+		isBlind = true;
+	}
+}
 
 	public PanicType getPanicType() {
 		return panicType;

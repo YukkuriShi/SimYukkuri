@@ -1200,13 +1200,10 @@ public class SimYukkuri extends JFrame {
 							switch ((GadgetMenu.Misc)s2.getSelectedItem()) 
 							{
 								case BOX:
-									if (found instanceof Body) {   //TODO add method for removing FakeBadge in body, that affects yukkuri attitude/complacency etc based on intelligence
-										Body b = (Body)found;
-										if(b.getAttachmentSize(CardboardBox.class) != 0) {
-											b.removeAttachment(CardboardBox.class, true);
-										} else {
-											b.addAttachment(new CardboardBox((Body)found)); //TODO work in progress
-										}
+									if (found instanceof Body) { 
+										GadgetMenu.executeBodyMethod(e, found, "giveBox");
+
+									
 									}
 								
 								break;

@@ -75,10 +75,6 @@ public class CardboardBox extends Attachment {
 	}
 	
 	protected Event update() {
-		if (parent.isDead() && !parent.isCrashed() && !parent.isBurned() ){
-			parent.revival();
-		}
-		parent.addDamage(-TICK * 200);
 		return Event.DONOTHING;
 	}
 

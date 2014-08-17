@@ -328,7 +328,7 @@ public class BodyLogic {
 					}
 					// 繝輔ぅ繝ｼ繝ｫ繝峨�豁ｻ菴薙↓諤ｯ縺医ｋ
 					if (!b.isTalking()) {
-						if(b.isPredatorType() && found.isPredatorType() || !b.isPredatorType()) {
+						if(b.isPredatorType() && found.isPredatorType() || !b.isPredatorType() && !b.isBlind) {
 							b.setMessage(MessagePool.getMessage(b, MessagePool.Action.Scare));
 							b.setHappiness(Happiness.SAD);
 						}
