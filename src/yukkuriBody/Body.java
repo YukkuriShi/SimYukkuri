@@ -435,7 +435,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	private Hunger checkHungryState()
 	{
-		if (hungry < HUNGRYLIMIT[getBodyAgeState().ordinal()]/4) {
+		if (hungry < HUNGRYLIMIT[getBodyAgeState().ordinal()]/3) { //TODO balance
 			return Hunger.NONE;
 		}
 		return Hunger.VERY;
@@ -484,9 +484,9 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	private void checkHungry() {
 	
 		if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true) && !isReimu()) {
-			hungry += TICK * 100;
-		}else if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true) && !isReimu()) {
-				hungry += TICK * 50;
+			hungry += TICK * 50;
+		}else if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true) && isReimu()) {
+				hungry += TICK * 25;
 		} else if (exciting && !isRaper()) {
 			hungry += TICK * (babyTypes.size() + (exciting ? 1 : 0));
 		} else {
@@ -494,7 +494,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 		}
 		
 		if ( hasStalk() ){
-			hungry += TICK * stalks.size() * 5;
+			hungry += TICK * stalks.size() * 4;
 		}
 		
 		if (hungry > HUNGRYLIMIT[getBodyAgeState().ordinal()]) {
@@ -503,7 +503,7 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			hungry = HUNGRYLIMIT[getBodyAgeState().ordinal()];
 		}
 		if (hungryState == Hunger.NONE && checkHungryState() == Hunger.NONE) {
-			noHungryPeriod += TICK;
+			noHungryPeriod += 2*TICK; //TODO balance
 		} else {
 			noHungryPeriod = 0;
 		}
@@ -894,13 +894,13 @@ public abstract class Body extends Obj implements java.io.Serializable {
 				if (isSuperRapist()) {
 					r = rnd.nextInt(1 + adjust);
 				}else if (isRapist() && isRude()) {
-					r = rnd.nextInt(6 + adjust);
+					r = rnd.nextInt(4 + adjust);
 				}
 				else if (isRapist() || isRude()) {
-					r = rnd.nextInt(12 + adjust);
+					r = rnd.nextInt(10 + adjust);
 				}
 				else if (!isHungry() && !wantToShit()) {
-					r = rnd.nextInt(24 + adjust);
+					r = rnd.nextInt(20 + adjust);
 				}
 				if (((getBodyAgeState() == AgeState.ADULT && !hasBabyOrStalk() ) || isRapist()) && r == 0) {
 					exciting = true;

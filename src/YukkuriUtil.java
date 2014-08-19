@@ -263,7 +263,7 @@ public class YukkuriUtil {
 				if(b.isHungry()) return null;
 				if(!b.isHappy()) return null;
 				if(b.isFeelPain()) return null;
-				if(rnd.nextInt(500) == 0) {
+				if(rnd.nextInt(1000) == 0) {
 					ret = b;
 				}
 				break;

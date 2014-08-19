@@ -7,3 +7,7 @@ TODO
 	in bodylogic add handling for stealing from living yukkuri
 	lower odds of this event occurring.
 	because of changes in the drawing method for accessories, we need to either setup a seperate drawing method for trash accessories, or fix the sprites themselves.
+	
+Check the frequency of refreshing since it got messed up by decreasing max hunger
+	alter hunger values so less starving to death with food
+	wakeup yukkuri that are starving, this is what leads to most frustrating deaths.
