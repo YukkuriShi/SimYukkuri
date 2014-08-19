@@ -14,8 +14,8 @@ import src.Terrarium;
 public class Translate {
 
 	private static final float wallX = 0.75f;
-//	private static final float wallY = 0.8f;
-	private static final float wallY = 0.7f;
+	private static final float wallY = 0.83f;
+//	private static final float wallY = 0.7f;
 	
 	public static final float flyLimit = 0.175f;
 
