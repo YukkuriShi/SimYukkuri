@@ -3154,6 +3154,12 @@ public abstract class Body extends Obj implements java.io.Serializable {
 			crashed = true;
 		} else {
 			// 繝ｪ繧｢繧ｯ繧ｷ繝ｧ繝ｳ險ｭ螳�
+			if ((rnd.nextInt(10) == 0) && enemy.hasOkazari())
+			{
+				enemy.okazariType = null;
+				setHappiness(Happiness.VERY_SAD);
+				setMessage(MessagePool.getMessage(this, MessagePool.Action.NoAccessory));
+			}
 			if(getFootBakeLevel() == FootBake.CRITICAL) {
 				setMessage(MessagePool.getMessage(this, MessagePool.Action.Scream));
 			} else {
