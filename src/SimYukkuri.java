@@ -42,7 +42,7 @@ import java.util.Locale;
 public class SimYukkuri extends JFrame {
 	static final long serialVersionUID = 1L;
 	static final String TITLE = "SimYukkuri";
-	static final String VERSION = "1.12.3";
+	static final String VERSION = "1.13 HIATUS";
 	static final Object lock = new Object();
 	static boolean initialized = false;
 

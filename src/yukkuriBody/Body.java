@@ -4187,6 +4187,10 @@ public void giveBox(){
 		}else if ( setAgeState == AgeState.ADULT ){
 			setAge(CHILDLIMIT);
 		}
+		OkazariType lastOkazariType =  okazariType;
+		okazariType = null;
+		okazariType = lastOkazariType;
+		lastOkazariType = null;
 	}
 	
 	public int getMessageTextSize(){
