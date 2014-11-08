@@ -101,8 +101,11 @@ public class HybridYukkuri extends Body implements java.io.Serializable {
 		nameJ2 = dorei2.getNameJ();
 		nameE2 = dorei2.getNameE();
 
+		
+		//////////////////////////////////needs sprite instructions or crashes!!!
 		// left face
 		images[ConstantValues.BODY] =		dorei;
+		images[ConstantValues.BODYPINNED] =		dorei;
 		images[ConstantValues.LICK] =		dorei2;
 		images[ConstantValues.BRAID] =		dorei3;
 		images[ConstantValues.BRAID_CUT] =	dorei3;

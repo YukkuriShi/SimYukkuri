@@ -88,7 +88,7 @@ public class StealOkazariEvent extends EventPacket implements java.io.Serializab
 	// true繧定ｿ斐☆縺ｨ繧､繝吶Φ繝育ｵゆｺ�
 	public boolean execute(Body b) {
 		// 逶ｸ謇九′谿九▲縺ｦ縺�◆繧画判謦�
-		if (to.isDead() && to.getZ() < 5)
+		if (to.isDead() && to.getZ() < 5 && b.okazariType == null)
 		{
 			b.okazariType = to.okazariType;
 			to.okazariType = null;

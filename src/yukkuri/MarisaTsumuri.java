@@ -125,7 +125,7 @@ public class MarisaTsumuri extends Body implements java.io.Serializable {
 		 okazariType = OkazariType.MARISATSUMURI;
 
 		
-		speed = 50;
+		speed = 60;
 		braidType = true;
 		likeWater = true;
 	}

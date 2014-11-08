@@ -51,6 +51,7 @@ import src.object.Obj.Type;
 import src.system.Numbering;
 import src.system.Translate;
 import src.yukkuri.*;
+import src.yukkuri.Common.Reimu;
 import src.yukkuriBody.ConstantValues.*;
 import src.yukkuriLogic.EventLogic;
 import src.yukkuriLogic.ToiletLogic;
@@ -483,18 +484,27 @@ public abstract class Body extends Obj implements java.io.Serializable {
 
 	private void checkHungry() {
 	
-		if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true) && !isReimu()) {
-			hungry += TICK * 50;
-		}else if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true) && isReimu()) {
-				hungry += TICK * 25;
-		} else if (exciting && !isRaper()) {
-			hungry += TICK * (babyTypes.size() + (exciting ? 1 : 0));
+		if (unBirth == true && ((bindStalk != null) ? bindStalk.getPlantYukkuri() == null:true)) {
+				hungry = 0;
+			}
+		 if (unBirth && bindStalk !=null){
+			hungry =0;
+		}
+		else if (exciting && !isRaper()) {
+			hungry += TICK * (babyTypes.size() + (exciting ? 1 : 0) / 2);
 		} else {
 			hungry += TICK;
 		}
 		
 		if ( hasStalk() ){
-			hungry += TICK * stalks.size() * 4;
+			if (isReimu()){
+				hungry += TICK * stalks.size() * 1;
+
+			}
+			else{
+				hungry += TICK * stalks.size() * 2;
+
+			}
 		}
 		
 		if (hungry > HUNGRYLIMIT[getBodyAgeState().ordinal()]) {
@@ -3681,10 +3691,36 @@ public void giveBox(){
 		removeAttachment(CardboardBox.class, true);
 		EYESIGHT = Terrarium.MAX_X*Terrarium.MAX_Y;
 		isBlind = false;
+		if (rnd.nextBoolean()){
+			this.setMessage(this.getNameE() + " is blind!");
+		}
+		else if (rnd.nextInt(1000) == 1){
+			this.setMessage("I can see clearly now, the box is gone! All this uneasiness is out of my way!");
+		}		
+		else if (rnd.nextBoolean()){
+			this.setMessage("Mister box is gone!");
+		}
+		else{
+			this.setMessage("Mister eyes are back!");
+
+		}
 	} else {
 		addAttachment(new CardboardBox((this))); //TODO work in progress
 		EYESIGHT = 55;
 		isBlind = true;
+		if (rnd.nextBoolean()){
+			this.setMessage(this.getNameE() + " is blind!");
+		}
+		else if (rnd.nextBoolean()){
+			this.setMessage("Can'ch see ad all!");
+		}		
+		else if (rnd.nextBoolean()){
+			this.setMessage("Can't see a thing!");
+		}
+		else{
+			this.setMessage("Why is everything dark!");
+
+		}
 	}
 }
 
@@ -4733,7 +4769,22 @@ riding = bind
 		if (checkSleep()) {
 			dontMove = true;
 		}
-
+		
+		if (this.getType() == Deibu.type){                        //fix scaling issue when changing reimut o deibu. find a better spot later.
+			if (this.getOkazariType() == OkazariType.REIMU){
+				this.okazariType = OkazariType.DEIBU;
+			}
+		}
+		if (this.getType() == DosMarisa.type){                        //fix scaling issue when changing reimut o deibu. find a better spot later.
+			if (this.getOkazariType() == OkazariType.MARISA){
+				this.okazariType = OkazariType.DOSMARISA;
+			}
+		}
+		if (this.getType() == Kimeemaru.type){                        //fix scaling issue when changing reimut o deibu. find a better spot later.
+			if (this.getOkazariType() == OkazariType.AYAYA){
+				this.okazariType = OkazariType.KIMEEMARU;
+			}
+		}
 		// check relax
 		if (lockmove || isFurifuri()) {// 蜍輔￠縺ｪ縺�
 			dontMove = true;
@@ -4899,7 +4950,11 @@ riding = bind
 					setSick();	
 				}
 				if (mama.isDead()) {
-					damage+=DAMAGELIMIT[AgeState.BABY.ordinal()]/4*3+rnd.nextInt(DAMAGELIMIT[AgeState.BABY.ordinal()]);	
+					try{
+					damage+=DAMAGELIMIT[AgeState.BABY.ordinal()]/4*3+rnd.nextInt(DAMAGELIMIT[AgeState.BABY.ordinal()]);	}
+					catch(IllegalArgumentException e){
+						System.err.println("Body.java line 4954 fucked up, damage value probably too high");
+					}
 				}
 			}
 		}
