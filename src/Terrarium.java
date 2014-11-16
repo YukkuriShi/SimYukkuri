@@ -109,7 +109,7 @@ public class Terrarium {
 	private final static int ALARM_PERIOD = 300; // 30 seconds
 	private static int intervalCount = 0;
 	private static Rectangle tmpRect = new Rectangle();
-	
+		
 	public static void saveState(File file) throws IOException {
 		ObjectOutputStream out =
 				new ObjectOutputStream(
@@ -309,7 +309,6 @@ public class Terrarium {
 		System.gc();
 	}
 
-	
 	public static List<Obj> getObjList(){
 		List <Obj>objList = new ArrayList<Obj>();
 		objList.addAll(Terrarium.bodyList);
@@ -318,7 +317,6 @@ public class Terrarium {
 		return objList;
 	 }
 	
-
 	public static List<ObjEX> getPlatformList(){
 		List <ObjEX>objList = new ArrayList<ObjEX>();
 		objList.addAll(Toilet.objEXList);
@@ -417,10 +415,6 @@ public class Terrarium {
 		}
 		return false;		
 	}
-
-//	public static boolean onBarrier(int cx, int cy, int thickness, int attr) {
-//		return onBarrier(cx, cy, thickness, thickness, attr);
-//	}
 	
 	public static Barrier getBarrier(int cx, int cy, int thickness) {
 		for (Barrier b: barrierList) {
@@ -472,7 +466,6 @@ public class Terrarium {
 		}
 	}
 
-	// 繝代ル繝�け譎ゅ�謖吝虚
 	private void checkPanic(Body b) {
 		if (b.isDead()) {
 			return;
@@ -851,7 +844,6 @@ public class Terrarium {
 		}
 	}
 
-	// 螢ｰ謗帙￠
 	public static void voice(int type) {
 		for (Body b: bodyList) {
 			b.voiceReaction(type);
@@ -1005,10 +997,7 @@ public class Terrarium {
 	public void run() {
 		
 		intervalCount = (++intervalCount) & 255;
-//		if(intervalCount == 0) {
-	//		System.gc();
-//		}
-		
+
 		if (alarmPeriod >= 0) {
 			alarmPeriod--;
 			if (alarmPeriod <= 0) {
@@ -1016,6 +1005,7 @@ public class Terrarium {
 				alarm = false;
 			}
 		}
+		
 		Obj.Event ret = Obj.Event.DONOTHING;
 		// Update Platform state.		蠎顔ｽｮ縺榊ｼ上�迚ｩ繧呈峩譁ｰ
 		List <ObjEX>platformList = getPlatformList();
@@ -1228,6 +1218,22 @@ public class Terrarium {
 				// 繧､繝吶Φ繝亥�逅�
 				if(b.getCurrentEvent() != null) {
 					EventLogic.eventUpdate(b);
+				}
+				
+				
+				if(SimYukkuri.rapistLeader != null && SimYukkuri.rapistLeader.isDead())
+				{
+					SimYukkuri.rapistLeader = null;
+					b.rapistLeader = false;
+				}
+				
+				if(b.isRapist() && b.isExciting())
+				{
+					if(SimYukkuri.rapistLeader == null)
+					{
+						SimYukkuri.rapistLeader = b;
+						b.rapistLeader = true;
+					}
 				}
 				
 				// control frequency

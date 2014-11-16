@@ -1,7 +1,10 @@
 package src.yukkuriBody;
 
+import java.util.Random;
+
 import src.EventPacket;
 import src.MessagePool;
+import src.SimYukkuri;
 import src.Terrarium;
 import src.item.Bed;
 import src.item.Food;
@@ -63,7 +66,7 @@ public class Moving {
 		body.moveTo(toX, toY, toZ);
 	}
 
-	public void moveToBody(Body body, Obj target, int toX, int toY) {
+	public static void moveToBody(Body body, Obj target, int toX, int toY) {
 		moveToBody(body, target, toX, toY, 0);
 	}
 
@@ -101,7 +104,21 @@ public class Moving {
 			body.falldownDamage = 0;
 			return;
 		}
-
+		
+		
+		if(body.isRapist())
+		{
+			if(SimYukkuri.rapistLeader != null && body.rapistLeader == false && !SimYukkuri.rapistLeader.isDead() && SimYukkuri.rapistLeader.toSukkiri)
+			{
+				if(SimYukkuri.rapistLeader.isSukkiri())
+				{
+					;
+				}
+				else
+					Moving.moveToBody(body, SimYukkuri.rapistLeader, SimYukkuri.rapistLeader.getX(), SimYukkuri.rapistLeader.getY());
+			}
+		}
+		
 		// faced with poo-poo multiple time. became very sad
 		if(body.shitStress > 200)
 		{

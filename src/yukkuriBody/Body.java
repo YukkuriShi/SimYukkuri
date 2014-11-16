@@ -245,6 +245,12 @@ public abstract class Body extends Obj implements java.io.Serializable {
 	protected boolean nobinobi = false;
 	protected boolean pikopiko = false;
 	
+	
+	// Kirisame - rape
+	public boolean rapistLeader = false;
+	public int rapistLeaderDistanceX = 20;
+	public int rapistLeaderDistanceY = 20;
+	
 		//////////// Wetstate Handling
 	protected int wetTimer = 0;
 	protected int dryTimer = 0;
@@ -4964,6 +4970,10 @@ riding = bind
 		messageTextSize = 12;
 		
 		uniqueID = Numbering.INSTANCE.numberingYukkuriID();
+		
+		this.rapistLeaderDistanceX = new Random().nextInt() % 40;
+		this.rapistLeaderDistanceY = new Random().nextInt() % 40;
+		
 	}
 	public boolean isToBed() {
 		return toBed;

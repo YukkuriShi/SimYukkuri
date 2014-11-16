@@ -73,7 +73,8 @@ public class SimYukkuri extends JFrame {
 	//CHANGES SIZE OF MAINMENU #SIDEPANE
 	static final int MENU_PANE_X = 200;
 	
-	// 繧ｹ繝��繧ｿ繧ｹ縺ｮ繝ｩ繝吶Ν
+	public static Body rapistLeader;
+	
 	static enum LabelName {
 		ENVIRONMENT("迺ｰ蠅�せ繝医Ξ繧ｹ: ", " Funds    : "),
 		LABEL("繧�▲縺上ｊ縺ｮ迥ｶ諷�", " Label" ),
@@ -157,6 +158,8 @@ public class SimYukkuri extends JFrame {
 	public SimYukkuri() {
 		
 		super(TITLE);
+		
+		rapistLeader = null;
 
 		ClassLoader loader = this.getClass().getClassLoader();
 		

@@ -309,8 +309,6 @@ public class YukkuriUtil {
 		}
 	}
 
-	// 繧ｳ繝斐�縺励◆縺上↑縺�､画焚縺ｯ縺薙％縺ｧ螳夂ｾｩ
-	// 荳ｻ縺ｫ繧�▲縺上ｊ蝗ｺ譛峨�繧ｹ繝��繧ｿ繧ｹ
 	private static final HashMap<String, Object> NO_COPY_FIELD = new HashMap<String, Object>() {
 		{
 			put("imgW", null);
@@ -354,8 +352,6 @@ public class YukkuriUtil {
 		}
 	};
 
-	// 繧�▲縺上ｊ縺ｮ繧ｹ繝��繧ｿ繧ｹ繧断rom->to縺ｸ隍�｣ｽ
-	// 繧ｷ繝｣繝ｭ繝ｼ繧ｳ繝斐�縺ｪ縺ｮ縺ｧ隍�｣ｽ蜈��bodyList縺九ｉ螟悶＠縺ｦ縺翫°縺ｪ縺�→莠域悄縺励↑縺�虚菴懊↓縺ｪ繧九�縺ｧ豕ｨ諢�
 	public static final void changeBody(Body to, Body from) {
 		Field[] fromField = null;
 		Class<?> toClass = null;

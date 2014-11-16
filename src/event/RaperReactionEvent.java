@@ -90,7 +90,7 @@ public class RaperReactionEvent extends EventPacket implements java.io.Serializa
 				// 攻撃は敵に向かう
 				b.setForceFace(ConstantValues.PUFF);
 				moveTarget(b);
-				if(rnd.nextInt(20) == 0) {
+				if(rnd.nextInt(1) == 1) {
 					b.setWorldEventResMessage(MessagePool.getMessage(b, MessagePool.Action.AttackRapist), ConstantValues.HOLDMESSAGE, true, false);
 				}
 			}

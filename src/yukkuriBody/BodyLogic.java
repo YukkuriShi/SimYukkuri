@@ -27,22 +27,21 @@ public class BodyLogic {
 
 	public static final boolean checkPartner(Body b) {
 
-		if((!b.isExciting() && !b.isRude() && b.wantToShit()) || b.nearToBirth()){
+		if((!b.isExciting() && !b.isRude() && b.wantToShit()) 
+			|| b.nearToBirth())
+		{
 			return false;
 		}
 
 		boolean ret = false;
 
-		// 蟇ｾ雎｡縺梧ｱｺ縺ｾ縺｣縺ｦ縺�◆繧牙芦驕斐＠縺溘°繝√ぉ繝�け
 		if((b.toBody || b.toSukkiri) && b.moveTarget instanceof Body) {
 			Body p = (Body)b.moveTarget;
 			
-			// 騾比ｸｭ縺ｧ豸医＆繧後※縺溘ｉ莉悶�蛟呵｣懊ｒ謗｢縺�
 			if(p.isRemoved()) {
 				b.clearActions();
 				return false;
 			}
-			// 逶ｸ謇九′螳吶↓豬ｮ縺�※縺溘ｉ辟｡隕�
 			if (!b.canflyCheck() && p.getZ() != 0) {
 				b.clearActions();
 				return false;
@@ -52,14 +51,9 @@ public class BodyLogic {
 			int distX = Math.abs(b.getX() - p.getX());
 			int distY = Math.abs(b.getY() - p.getY());
 			int range = Math.abs(rangeX - distX);
-			// 隕九▽縺九▲縺溽嶌謇九↓蟇ｾ縺吶ｋ繧ｳ繝ｪ繧ｸ繝ｧ繝ｳ繝√ぉ繝�け
-			// 菴薙′髫｣謗･縺吶ｋ繧医≧縺ｫ讓ｪ髟ｷ縺ｮ繝懊ャ繧ｯ繧ｹ縺ｧ蛻､螳壹ｒ蜿悶ｋ
-//System.out.println(range + "," + distY);
 			if (range < 5 && distY < 3) {
 	
-				// 逶ｸ謇九→縺ｮ霍晞屬縺碁團謗･迥ｶ諷九→蛻､譁ｭ縺輔ｌ縺溷�蜷�
 				if (!p.isDead()) {
-					// 閾ｪ蛻�′逋ｺ諠�＠縺ｦ縺ｦ逶ｸ謇九′逕溘″縺ｦ縺溘ｉ縺吶▲縺阪ｊ螳溯｡�
 					if (b.isExciting()) {
 						if(b.isRaper()) {
 							if(b.getX() < p.getX()) {
@@ -75,22 +69,18 @@ public class BodyLogic {
 						}
 					}
 					else if (b.isAdult() && !p.isAdult() && p.isDirty() && (p.isChild(b) || b.isMotherhood(p))) {
-						// 閾ｪ蛻�′豈崎ｦｪ縺ｧ逶ｸ謇九′豎壹ｌ縺溷ｭ蝉ｾ帙↑繧峨⊆繧阪⊆繧�
 						b.constraintDirection(p, false);
 						b.doPeropero(p);
 					}
 					else if (b.isParent(p) && !p.isAdult() && rnd.nextInt(1) == 0) {
-						// 螳ｶ譌上↑繧峨⊆繧阪⊆繧�
 						b.constraintDirection(p, false);
 						b.doSurisuri(p);
 					}
 					else if (p.isPartner(b) && rnd.nextInt(1) == 0) {
-						// 螳ｶ譌上↑繧峨☆繧翫☆繧�
 						b.constraintDirection(p, false);
 						b.doSurisuri(p);
 					}
 					else if (!b.isAdult() && b.isSister(p) && rnd.nextInt(1) == 0) {
-						// 蟋牙ｦｹ縺ｮ蝣ｴ蜷医�縺ｺ繧阪⊆繧�
 						if (b.isElderSister(p)) {
 							b.constraintDirection(p, false);
 							b.doPeropero(p);
@@ -100,9 +90,7 @@ public class BodyLogic {
 						}
 					}
 				} else {
-					// 逶ｸ謇九′豁ｻ菴薙�蝣ｴ蜷�
 				
-					// 逋ｺ諠�＠縺ｦ縺溘ｉ縺吶▲縺阪ｊ
 					if (b.isExciting()) {
 						if(b.isRaper()) {
 							b.doRape(p);
@@ -112,7 +100,6 @@ public class BodyLogic {
 						}
 					}
 					else if (b.isAdult()) {
-						// 閾ｪ蛻�′謌蝉ｽ薙〒逶ｸ謇九′螳ｶ譌上↑繧牙�縺�
 						if (!b.isTalking()) {
 							if (b.isParent(p)) {
 								b.setMessage(MessagePool.getMessage(b, MessagePool.Action.SadnessForChild));
@@ -126,7 +113,6 @@ public class BodyLogic {
 						}
 					}
 					else if (b.isSister(p)){
-						// 逶ｸ謇九′蟋牙ｦｹ縺ｪ繧牙�縺�
 						if (!b.isTalking()) {
 							if (b.getAge() < p.getAge()) {
 								b.setMessage(MessagePool.getMessage(b, MessagePool.Action.SadnessForEldersister));
